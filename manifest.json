@@ -1,0 +1,27 @@
+{
+  "name": "Deň Záchrany",
+  "short_name": "Deň Záchrany",
+  "description": "Biblická pomoc pre ľudí v kríze, úzkosti a duchovnej núdzi. Dnes je deň spasenia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9E8",
+  "theme_color": "#D4AF37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["books", "education", "lifestyle"],
+  "lang": "sk",
+  "dir": "ltr"
+}
