@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Všetky kapitoly — Deň Záchrany. Biblická pomoc pre každú životnú situáciu.">
+    <meta name="theme-color" content="#D4AF37">
+    <meta property="og:title" content="Všetky kapitoly — Deň Záchrany">
+    <meta property="og:description" content="Nájdite kapitolu pre svoju situáciu. Evanjelium, úzkosť, strach, hriech, samota, nemoc.">
+    <meta property="og:type" content="website">
+    <title>Všetky kapitoly — Deň Záchrany</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="progress-bar" class="progress-bar" aria-hidden="true"></div>
+
+    <nav class="main-nav" role="navigation" aria-label="Hlavná navigácia">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Deň Záchrany - Domov">
+                <span class="logo-icon">✝</span>
+                <span class="logo-text">Deň Záchrany</span>
+            </a>
+            <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" class="nav-link" role="menuitem">Domov</a></li>
+                <li role="none"><a href="kapitoly.html" class="nav-link active" role="menuitem">Kapitoly</a></li>
+                <li role="none"><a href="piesne.html" class="nav-link" role="menuitem">Piesne</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" role="banner">
+        <div class="container">
+            <h1 class="page-title">Všetky kapitoly</h1>
+            <p class="page-subtitle">Nájdite kapitolu, ktorá hovorí práve do vašej situácie. Začnite od Evanjelia spásy a pokračujte podľa potreby.</p>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="chapters-section" aria-labelledby="chapters-heading">
+            <div class="container">
+                <h2 id="chapters-heading" class="sr-only">Zoznam kapitol</h2>
+
+                <div class="filter-bar" role="group" aria-label="Filtrovať kapitoly podľa témy">
+                    <button class="filter-btn active" data-tag="all" aria-pressed="true">Všetky</button>
+                    <button class="filter-btn" data-tag="strach" aria-pressed="false">Strach</button>
+                    <button class="filter-btn" data-tag="úzkosť" aria-pressed="false">Úzkosť</button>
+                    <button class="filter-btn" data-tag="spása" aria-pressed="false">Spása</button>
+                    <button class="filter-btn" data-tag="pokoj" aria-pressed="false">Pokoj</button>
+                    <button class="filter-btn" data-tag="hriech" aria-pressed="false">Hriech</button>
+                    <button class="filter-btn" data-tag="samota" aria-pressed="false">Samota</button>
+                    <button class="filter-btn" data-tag="nemoc" aria-pressed="false">Nemoc</button>
+                </div>
+
+                <div class="chapters-list" role="list">
+                    <!-- Kapitola 1 - Starter -->
+                    <article class="chapter-item starter" data-id="1" data-tags="strach zo smrti,zatratenie,spása,znovuzrodenie,milosť" role="listitem">
+                        <div class="chapter-number">1</div>
+                        <h3 class="chapter-title">Strach zo smrti a večného zatratenia</h3>
+                        <p class="chapter-desc">Ako skrze Kristovu milosť prijať dar neotrasiteľného spasenia</p>
+                        <div class="chapter-tags">
+                            <span class="chapter-tag">strach zo smrti</span>
+                            <span class="chapter-tag">spása</span>
+                            <span class="chapter-tag">znovuzrodenie</span>
+                            <span class="chapter-tag">milosť</span>
+                        </div>
+                        <a href="kapitola.html?id=1" class="chapter-link" aria-label="Otvoriť kapitolu 1: Strach zo smrti a večného zatratenia">Otvoriť kapitolu</a>
+                    </article>
+
+                    <!-- Kapitola 2 -->
+                    <article class="chapter-item" data-id="2" data-tags="úzkosť,chaos,myšlienky,pokoj,duchovný boj" role="listitem">
+                        <div class="chapter-number">2</div>
+                        <h3 class="chapter-title">Sužujúce myšlienky, úzkosť a vnútorný chaos</h3>
+                        <p class="chapter-desc">Ako mocou vyznaného Božieho Slova umlčať hlasy strachu a pochybností</p>
+                        <div class="chapter-tags">
+                            <span class="chapter-tag">úzkosť</span>
+                            <span class="chapter-tag">chaos</span>
+                            <span class="chapter-tag">pokoj</span>
+                            <span class="chapter-tag">duchovný boj</span>
+                        </div>
+                        <a href="kapitola.html?id=2" class="chapter-link" aria-label="Otvoriť kapitolu 2: Sužujúce myšlienky, úzkosť a vnútorný chaos">Otvoriť kapitolu</a>
+                    </article>
+
+                    <!-- Kapitola 3 -->
+                    <article class="chapter-item" data-id="3" data-tags="hriech,odpustenie,očista,sloboda" role="listitem">
+                        <div class="chapter-number">3</div>
+                        <h3 class="chapter-title">Hriech a odpustenie</h3>
+                        <p class="chapter-desc">Ako prijať Božiu očistu a kráčať v slobode</p>
+                        <div class="chapter-tags">
+                            <span class="chapter-tag">hriech</span>
+                            <span class="chapter-tag">odpustenie</span>
+                            <span class="chapter-tag">sloboda</span>
+                        </div>
+                        <a href="kapitola.html?id=3" class="chapter-link" aria-label="Otvoriť kapitolu 3: Hriech a odpustenie">Otvoriť kapitolu</a>
+                    </article>
+
+                    <!-- Kapitola 4 -->
+                    <article class="chapter-item" data-id="4" data-tags="samota,opustenosť,prítomnosť,nádej" role="listitem">
+                        <div class="chapter-number">4</div>
+                        <h3 class="chapter-title">Samota a opustenosť</h3>
+                        <p class="chapter-desc">Keď sa zdá, že Boh je ďaleko</p>
+                        <div class="chapter-tags">
+                            <span class="chapter-tag">samota</span>
+                            <span class="chapter-tag">opustenosť</span>
+                            <span class="chapter-tag">nádej</span>
+                        </div>
+                        <a href="kapitola.html?id=4" class="chapter-link" aria-label="Otvoriť kapitolu 4: Samota a opustenosť">Otvoriť kapitolu</a>
+                    </article>
+
+                    <!-- Kapitola 5 -->
+                    <article class="chapter-item" data-id="5" data-tags="nemoc,utrpenie,uzdravenie,dôvera" role="listitem">
+                        <div class="chapter-number">5</div>
+                        <h3 class="chapter-title">Nemoc a utrpenie</h3>
+                        <p class="chapter-desc">Božia moc v čase telesnej slabosti</p>
+                        <div class="chapter-tags">
+                            <span class="chapter-tag">nemoc</span>
+                            <span class="chapter-tag">utrpenie</span>
+                            <span class="chapter-tag">uzdravenie</span>
+                        </div>
+                        <a href="kapitola.html?id=5" class="chapter-link" aria-label="Otvoriť kapitolu 5: Nemoc a utrpenie">Otvoriť kapitolu</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✝</span>
+                    <span class="footer-title">Deň Záchrany</span>
+                    <p class="footer-tagline">Dnes je deň spasenia.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Pätičková navigácia">
+                    <a href="index.html">Domov</a>
+                    <a href="kapitoly.html">Kapitoly</a>
+                    <a href="piesne.html">Piesne</a>
+                </nav>
+                <p class="footer-copy">© 2026 Deň Záchrany. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
