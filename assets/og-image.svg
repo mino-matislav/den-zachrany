@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFDF7"/>
+      <stop offset="50%" style="stop-color:#FFF9E8"/>
+      <stop offset="100%" style="stop-color:#E8EEF5"/>
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" style="stop-color:rgba(212,175,55,0.2)"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Pozadie -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#light)"/>
+
+  <!-- Orámovanie -->
+  <rect x="30" y="30" width="1140" height="570" fill="none" stroke="#D4AF37" stroke-width="3" rx="12"/>
+
+  <!-- Kríž -->
+  <text x="600" y="180" text-anchor="middle" font-size="80" fill="#D4AF37" font-family="serif">✝</text>
+
+  <!-- Nadpis -->
+  <text x="600" y="300" text-anchor="middle" font-size="72" fill="#2E2E2E" font-family="Georgia, serif" font-weight="700">Deň Záchrany</text>
+
+  <!-- Podtitul -->
+  <text x="600" y="370" text-anchor="middle" font-size="32" fill="#D4AF37" font-family="Georgia, serif" font-style="italic">Dnes je deň spasenia.</text>
+
+  <!-- Verš -->
+  <text x="600" y="460" text-anchor="middle" font-size="20" fill="#2E2E2E" font-family="Georgia, serif" font-style="italic">„Ajhľa, teraz je deň spasenia!"</text>
+  <text x="600" y="500" text-anchor="middle" font-size="16" fill="#D4AF37" font-family="sans-serif" font-weight="600">— 2. Korintským 6, 2</text>
+</svg>
