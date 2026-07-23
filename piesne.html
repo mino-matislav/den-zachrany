@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Piesne a texty — Deň Záchrany. Biblická tvorba na chválu a útechu.">
+    <meta name="theme-color" content="#D4AF37">
+    <meta property="og:title" content="Piesne a texty — Deň Záchrany">
+    <meta property="og:description" content="Biblické piesne a texty na chválu, útechu a vyznanie.">
+    <title>Piesne a texty — Deň Záchrany</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="progress-bar" class="progress-bar" aria-hidden="true"></div>
+
+    <nav class="main-nav" role="navigation" aria-label="Hlavná navigácia">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Deň Záchrany - Domov">
+                <span class="logo-icon">✝</span>
+                <span class="logo-text">Deň Záchrany</span>
+            </a>
+            <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" class="nav-link" role="menuitem">Domov</a></li>
+                <li role="none"><a href="kapitoly.html" class="nav-link" role="menuitem">Kapitoly</a></li>
+                <li role="none"><a href="piesne.html" class="nav-link active" role="menuitem">Piesne</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" role="banner">
+        <div class="container">
+            <h1 class="page-title">Piesne a texty</h1>
+            <p class="page-subtitle">Biblická tvorba na chválu, útechu a vyznanie viery. Piesne, ktoré vedú k Bohu.</p>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="songs-placeholder" aria-labelledby="songs-heading">
+            <div class="songs-placeholder-icon" aria-hidden="true">🎵</div>
+            <h2 id="songs-heading" class="songs-placeholder-title">Piesne pripravujeme</h2>
+            <p class="songs-placeholder-text">
+                Táto sekcia bude obsahovať piesne a texty biblickej tvorby. 
+                Momentálne pracujeme na príprave audio nahrávok a textov. 
+                <br><br>
+                Vráť sa čoskoro — alebo pokračuj v čítaní kapitol, ktoré sú už dostupné.
+            </p>
+            <div style="margin-top: var(--space-8);">
+                <a href="kapitoly.html" class="btn btn-primary">Prejsť na kapitoly</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✝</span>
+                    <span class="footer-title">Deň Záchrany</span>
+                    <p class="footer-tagline">Dnes je deň spasenia.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Pätičková navigácia">
+                    <a href="index.html">Domov</a>
+                    <a href="kapitoly.html">Kapitoly</a>
+                    <a href="piesne.html">Piesne</a>
+                </nav>
+                <p class="footer-copy">© 2026 Deň Záchrany. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
