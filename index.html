@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deň Záchrany - Dnes je deň spasenia. Biblická pomoc pre ľudí v kríze, úzkosti a duchovnej núdzi.">
+    <meta name="theme-color" content="#D4AF37">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Deň Záchrany - Dnes je deň spasenia">
+    <meta property="og:description" content="Biblická pomoc pre ľudí v kríze. Evanjelium spásy, modlitby a pastoračná podpora.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://den-zachrany.sk/">
+    <meta property="og:image" content="assets/og-image.svg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Deň Záchrany">
+    <meta name="twitter:description" content="Dnes je deň spasenia.">
+    <meta name="twitter:image" content="assets/og-image.svg">
+
+    <title>Deň Záchrany - Dnes je deň spasenia</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icon-192.png">
+</head>
+<body>
+    <!-- Progress bar -->
+    <div id="progress-bar" class="progress-bar" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" role="navigation" aria-label="Hlavná navigácia">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Deň Záchrany - Domov">
+                <span class="logo-icon">✝</span>
+                <span class="logo-text">Deň Záchrany</span>
+            </a>
+            <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" class="nav-link active" role="menuitem">Domov</a></li>
+                <li role="none"><a href="kapitoly.html" class="nav-link" role="menuitem">Kapitoly</a></li>
+                <li role="none"><a href="piesne.html" class="nav-link" role="menuitem">Piesne</a></li>
+                <li role="none"><a href="#podpora" class="nav-link" role="menuitem" style="display:none" id="nav-podpora">Podporiť</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" role="banner">
+        <div class="hero-light" aria-hidden="true"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Deň Záchrany</h1>
+            <p class="hero-subtitle">Dnes je deň spasenia.</p>
+
+            <blockquote class="hero-verse" cite="2. Korintským 6, 2">
+                <p class="verse-text">„Veď On hovorí: V čas príhodný som ťa vyslyšal a v deň spasenia som ti pomohol. Ajhľa, teraz je čas veľmi príhodný; ajhľa, teraz je deň spasenia!"</p>
+                <footer class="verse-ref">— 2. Korintským 6, 2</footer>
+            </blockquote>
+
+            <div class="hero-actions">
+                <a href="kapitola.html?id=1" class="btn btn-primary btn-large" aria-label="Prejsť na prvú kapitolu - Evanjelium spásy">
+                    Začať cestu
+                </a>
+                <a href="kapitoly.html" class="btn btn-secondary" aria-label="Prezrieť si všetky kapitoly">
+                    Preskúmať kapitoly
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+            <span class="scroll-indicator"></span>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Audio Section - Úvodné slovo -->
+        <section class="audio-section" aria-labelledby="audio-heading">
+            <div class="container">
+                <div class="audio-card">
+                    <div class="audio-header">
+                        <span class="audio-icon" aria-hidden="true">🎧</span>
+                        <div>
+                            <h2 id="audio-heading" class="audio-title">Úvodné slovo</h2>
+                            <p class="audio-subtitle">Počúvaj a čítaj súčasne</p>
+                        </div>
+                    </div>
+
+                    <div class="player" role="region" aria-label="Audio prehrávač">
+                        <div class="player-controls">
+                            <button class="player-btn player-play" aria-label="Prehrať" data-action="play">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                            <button class="player-btn player-pause" aria-label="Pozastaviť" data-action="pause" hidden>
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                                </svg>
+                            </button>
+                            <div class="player-time">
+                                <span class="time-current">00:00</span>
+                                <div class="player-progress" role="slider" aria-label="Pozícia v audio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+                                    <div class="progress-track">
+                                        <div class="progress-fill"></div>
+                                        <div class="progress-thumb"></div>
+                                    </div>
+                                </div>
+                                <span class="time-duration">02:00</span>
+                            </div>
+                        </div>
+                        <div class="player-speed">
+                            <button class="speed-btn" data-speed="0.75" aria-label="Rýchlosť 0.75x">0.75x</button>
+                            <button class="speed-btn active" data-speed="1" aria-label="Rýchlosť 1x">1x</button>
+                            <button class="speed-btn" data-speed="1.25" aria-label="Rýchlosť 1.25x">1.25x</button>
+                            <button class="speed-btn" data-speed="1.5" aria-label="Rýchlosť 1.5x">1.5x</button>
+                        </div>
+                        <audio id="uvod-audio" preload="metadata">
+                            <source src="assets/audio/uvod.mp3" type="audio/mpeg">
+                            Váš prehliadač nepodporuje prehrávanie audio.
+                        </audio>
+                    </div>
+
+                    <div class="audio-actions">
+                        <a href="kapitola.html?id=1" class="btn btn-primary">
+                            Prejsť na 1. kapitolu
+                        </a>
+                        <a href="kapitoly.html" class="btn btn-text">
+                            alebo preskúmať všetky kapitoly
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Úvodný text -->
+        <section class="intro-section" aria-labelledby="intro-heading">
+            <div class="container">
+                <div class="intro-content">
+                    <blockquote class="intro-quote">
+                        <p>„Nemôžeš odomknúť dvere domu, do ktorého si ešte nevstúpil."</p>
+                    </blockquote>
+
+                    <div class="intro-body">
+                        <p>Drahý priateľ, hľadáš uzdravenie, pokoj, vyslobodenie zo strachu či obnovu rodiny? Všetky tieto nádherné Božie zasľúbenia sú pripravené pre Božie deti. Sú to dedičné práva, ktoré patria synom a dcéram Kráľa.</p>
+
+                        <p>Ak sa pokúšaš bojovať so svojimi problémami pomocou biblických veršov, no tvoj vzťah s Bohom nie je urovnaný skrze vieru v Ježiša Krista, tvoja snaha zostane bez moci. Musíš začať od začiatku.</p>
+
+                        <p class="intro-highlight">Začnime od začiatku. Prejdi najprv na 1. kapitolu: <strong>Evanjelium spásy</strong>, uisti sa, že tvoje meno je zapísané v knihe života, a až potom s plnou mocou uplatňuj Božie zasľúbenia na svoje trápenia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dôležité upozornenie -->
+        <section class="warning-section" aria-labelledby="warning-heading">
+            <div class="container">
+                <div class="warning-card">
+                    <div class="warning-header">
+                        <span class="warning-icon" aria-hidden="true">⚠️</span>
+                        <h2 id="warning-heading" class="warning-title">Dôležité upozornenie</h2>
+                    </div>
+                    <blockquote class="warning-text">
+                        <p>„Božie slovo učí, že Božie zasľúbenia nie sú ľudskou psychológiou ani čarovnou formulkou. Sú to živé pravdy, ktoré fungujú len vtedy, keď vo tvojom vnútri prebýva Duch Svätý. Ak chceš, aby modlitby v nasledujúcich kapitolách mali vo tvojom živote skutočnú moc, tvojím štartovacím bodom musí byť 1. kapitola: Evanjelium spásy. Učiň tento krok viery ako prvý. Bez Neho niet víťazstva."</p>
+                    </blockquote>
+                    <div class="warning-actions">
+                        <a href="kapitola.html?id=1" class="btn btn-primary">
+                            Začať cestu — 1. kapitola
+                        </a>
+                        <a href="kapitoly.html" class="btn btn-secondary">
+                            Preskúmať všetky kapitoly
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✝</span>
+                    <span class="footer-title">Deň Záchrany</span>
+                    <p class="footer-tagline">Dnes je deň spasenia.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Pätičková navigácia">
+                    <a href="index.html">Domov</a>
+                    <a href="kapitoly.html">Kapitoly</a>
+                    <a href="piesne.html">Piesne</a>
+                </nav>
+                <p class="footer-copy">© 2026 Deň Záchrany. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/player.js"></script>
+    <script>
+        // Inicializácia prehrávača pre úvodné slovo
+        document.addEventListener('DOMContentLoaded', function() {
+            const audioElement = document.getElementById('uvod-audio');
+            if (audioElement) {
+                new AudioPlayer(audioElement, {
+                    showDownload: false,
+                    showRepeat: false
+                });
+            }
+        });
+    </script>
+</body>
+</html>
