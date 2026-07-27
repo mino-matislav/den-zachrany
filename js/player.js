@@ -103,10 +103,28 @@ AudioPlayer.prototype.init = function() {
 
     // Inicializácia
     this.updateDuration();
+    this.hasPrimed = false;
 };
 
 AudioPlayer.prototype.play = function() {
     var self = this;
+
+    if (!this.hasPrimed) {
+        // Prvé spustenie: vynútiť seek na 0 a počkať kým dekodér nabehne
+        this.hasPrimed = true;
+        this.audio.currentTime = 0;
+
+        // Krátke čakanie na inicializáciu dekodéra
+        setTimeout(function() {
+            self.audio.play().then(function() {
+                self.isPlaying = true;
+                self.togglePlayBtn();
+            }).catch(function(error) {
+                console.warn('Prehrávanie zlyhalo:', error);
+            });
+        }, 100);
+        return;
+    }
 
     this.audio.play().then(function() {
         self.isPlaying = true;
