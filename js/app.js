@@ -268,9 +268,6 @@
                     lyricsHtml += '<p class="lyric-lines">' + section.lines.join('<br>') + '</p>';
                     lyricsHtml += '</div>';
                 });
-                if (song.order) {
-                    lyricsHtml += '<p class="song-order">Poradie v piesni: ' + song.order + '</p>';
-                }
                 lyricsEl.innerHTML = lyricsHtml;
             }
 

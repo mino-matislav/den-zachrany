@@ -11,8 +11,6 @@ const songData = {
         subtitle: "Pieseň dôvery inšpirovaná Žalmom 27",
         audioUrl: "assets/audio/songs/01-zachrana-v-temnote.mp3",
         credit: "Text © Deň Záchrany",
-        // Poradie v piesni: Sloha 1 · Sloha 2 · Refrén · Sloha 1 · Refrén · Sloha 1
-        order: "Sloha 1 · Sloha 2 · Refrén · Sloha 1 · Refrén · Sloha 1",
         lyrics: [
             {
                 type: "verse",
@@ -55,11 +53,53 @@ const songData = {
                     "Keď tápam vo vzduchoprázdne,",
                     "a prekrýva ma tieň."
                 ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "On je mojím svetlom,",
+                    "koho sa mám báť?",
+                    "On je útočiskom,",
+                    "pred kým sa mám triasť?",
+                    "Keď sa ku mne priblížia",
+                    "utláčatelia.",
+                    "Pri útoku potknú sa",
+                    "nepriatelia."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "V deň pohromy schová ma,",
+                    "v skrýši svojho stanu.",
+                    "Z prachu zeme dvíha ma,",
+                    "postaví na Skalu.",
+                    "Viem, že len s Ním zvládnem,",
+                    "každý ťažký deň.",
+                    "Keď tápam vo vzduchoprázdne,",
+                    "a prekrýva ma tieň."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "On je mojím svetlom,",
+                    "koho sa mám báť?",
+                    "On je útočiskom,",
+                    "pred kým sa mám triasť?",
+                    "Keď sa ku mne priblížia",
+                    "utláčatelia.",
+                    "Pri útoku potknú sa",
+                    "nepriatelia."
+                ]
             }
         ],
         verse: {
-            text: "Hospodin je mojím svetlom a spásou, koho sa mám báť? Hospodin mi je pevnosťou žitia, koho sa mám ľakať?",
-            ref: "Žalm 27, 1 — ECAV"
+            text: "Hospodin je mojím svetlom a spásou, koho sa mám báť? Hospodin mi je pevnosťou žitia, koho sa mám ľakať? Keď sa zlostníci približujú ku mne, aby mi zožierali telo, utláčatelia a nepriatelia moji potknú sa a padnú. Keby sa rozložil proti mne tábor, moje srdce sa nebojí; a keby sa aj vojna strhla proti mne, aj vtedy dúfam. Jedno som prosil od Hospodina, to žiadať budem: môcť bývať v dome Hospodinovom po všetky dni svojho života, vidieť láskavosť Hospodinovu a kochať sa v Jeho chráme. Lebo ma skryje vo svojom stane v deň pohromy, schová ma v skrýši svojho stánku, vyvýši ma na skalu.",
+            ref: "Žalm 27, 1–5 — ECAV"
         }
     }
 };
