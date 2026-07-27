@@ -211,6 +211,15 @@
     }
 
     // ============================================
+    // AUDIO PREHRÁVAČE - Inicializácia
+    // ============================================
+    if (typeof AudioPlayer !== 'undefined') {
+        document.querySelectorAll('.player audio').forEach(function(audioEl) {
+            new AudioPlayer(audioEl);
+        });
+    }
+
+    // ============================================
     // PWA - Service Worker Registration
     // ============================================
     if ('serviceWorker' in navigator) {
