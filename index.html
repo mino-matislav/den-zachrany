@@ -109,10 +109,33 @@
                         </div>
                     </div>
 
-                    <audio controls preload="auto" class="native-player">
-                        <source src="assets/audio/uvod-v2.mp3" type="audio/mpeg">
-                        Váš prehliadač nepodporuje prehrávanie audio.
-                    </audio>
+                    <div class="player" role="region" aria-label="Audio prehrávač">
+                        <div class="player-controls">
+                            <button class="player-btn player-restart" aria-label="Na začiatok" data-action="restart">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+                            </button>
+                            <button class="player-btn player-play" aria-label="Prehrať" data-action="play">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                            </button>
+                            <button class="player-btn player-pause" aria-label="Pozastaviť" data-action="pause" hidden>
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                            </button>
+                            <div class="player-time">
+                                <span class="time-current">00:00</span>
+                                <div class="player-progress" role="slider" aria-label="Pozícia v audio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+                                    <div class="progress-track">
+                                        <div class="progress-fill"></div>
+                                        <div class="progress-thumb"></div>
+                                    </div>
+                                </div>
+                                <span class="time-duration">00:00</span>
+                            </div>
+                        </div>
+                        <audio id="uvod-audio" preload="auto">
+                            <source src="assets/audio/uvod-v2.mp3" type="audio/mpeg">
+                            Váš prehliadač nepodporuje prehrávanie audio.
+                        </audio>
+                    </div>
                 </div>
             </div>
         </section>
