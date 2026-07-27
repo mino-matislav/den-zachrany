@@ -211,6 +211,95 @@
     }
 
     // ============================================
+    // ZOZNAM PIESNÍ
+    // ============================================
+    const songsListEl = document.querySelector('.songs-list');
+
+    if (songsListEl && typeof songList !== 'undefined') {
+        let html = '';
+        songList.forEach(function(s) {
+            html += '<article class="chapter-item" data-id="' + s.id + '" role="listitem">';
+            html += '<div class="chapter-number">' + s.number + '</div>';
+            html += '<h3 class="chapter-title">' + s.title + '</h3>';
+            if (s.subtitle) {
+                html += '<p class="chapter-desc">' + s.subtitle + '</p>';
+            }
+            html += '<a href="piesen.html?id=' + s.id + '" class="chapter-link" aria-label="Otvoriť pieseň ' + s.number + ': ' + s.title + '">Otvoriť pieseň</a>';
+            html += '</article>';
+        });
+        songsListEl.innerHTML = html;
+    }
+
+    // ============================================
+    // PIESEŇ - Načítanie dát
+    // ============================================
+    const songPage = document.querySelector('.song-page');
+
+    if (songPage && typeof songData !== 'undefined') {
+        const urlParams = new URLSearchParams(window.location.search);
+        const songId = urlParams.get('id');
+
+        if (songId && songData[songId]) {
+            const song = songData[songId];
+
+            document.title = song.title + ' — Deň Záchrany';
+
+            const headingEl = document.querySelector('.song-heading');
+            const subEl = document.querySelector('.song-subheading');
+            const audioTitle = document.querySelector('.song-audio-title');
+
+            if (headingEl) headingEl.textContent = song.title;
+            if (subEl) subEl.textContent = song.subtitle || '';
+            if (audioTitle) audioTitle.textContent = 'Audio piesne: ' + song.title;
+
+            // Text piesne
+            const lyricsEl = document.querySelector('.song-lyrics');
+            if (lyricsEl && song.lyrics) {
+                let lyricsHtml = '';
+                song.lyrics.forEach(function(section) {
+                    let cls = 'lyric-section';
+                    if (section.type === 'chorus') cls += ' chorus';
+                    else if (section.type === 'bridge') cls += ' bridge';
+
+                    lyricsHtml += '<div class="' + cls + '">';
+                    if (section.label) {
+                        lyricsHtml += '<div class="lyric-label">' + section.label + '</div>';
+                    }
+                    lyricsHtml += '<p class="lyric-lines">' + section.lines.join('<br>') + '</p>';
+                    lyricsHtml += '</div>';
+                });
+                if (song.order) {
+                    lyricsHtml += '<p class="song-order">Poradie v piesni: ' + song.order + '</p>';
+                }
+                lyricsEl.innerHTML = lyricsHtml;
+            }
+
+            // Biblický verš (ECAV)
+            if (song.verse) {
+                const wrap = document.querySelector('.song-verse-wrap');
+                const vText = document.querySelector('.song-verse-text');
+                const vRef = document.querySelector('.song-verse-ref');
+                if (vText) vText.textContent = song.verse.text;
+                if (vRef) vRef.textContent = '— ' + song.verse.ref;
+                if (wrap) wrap.hidden = false;
+            }
+
+            // Kredit
+            const creditEl = document.querySelector('.song-credit');
+            if (creditEl) creditEl.textContent = song.credit || '';
+
+            // Audio
+            const audioEl = document.querySelector('.song-audio-element');
+            if (audioEl && song.audioUrl) {
+                audioEl.querySelector('source').src = song.audioUrl;
+                audioEl.load();
+            }
+        } else {
+            window.location.href = 'piesne.html';
+        }
+    }
+
+    // ============================================
     // AUDIO PREHRÁVAČE - Inicializácia
     // ============================================
     if (typeof AudioPlayer !== 'undefined') {

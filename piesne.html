@@ -44,17 +44,12 @@
     </header>
 
     <main id="main-content">
-        <section class="songs-placeholder" aria-labelledby="songs-heading">
-            <div class="songs-placeholder-icon" aria-hidden="true">🎵</div>
-            <h2 id="songs-heading" class="songs-placeholder-title">Piesne pripravujeme</h2>
-            <p class="songs-placeholder-text">
-                Táto sekcia bude obsahovať piesne a texty biblickej tvorby. 
-                Momentálne pracujeme na príprave audio nahrávok a textov. 
-                <br><br>
-                Vráť sa čoskoro — alebo pokračuj v čítaní kapitol, ktoré sú už dostupné.
-            </p>
-            <div style="margin-top: var(--space-8);">
-                <a href="kapitoly.html" class="btn btn-primary">Prejsť na kapitoly</a>
+        <section class="chapters-section" aria-labelledby="songs-heading">
+            <div class="container">
+                <h2 id="songs-heading" class="sr-only">Zoznam piesní</h2>
+                <div class="songs-list chapters-list" role="list">
+                    <p class="songs-loading">Načítavajú sa piesne...</p>
+                </div>
             </div>
         </section>
     </main>
@@ -77,6 +72,7 @@
         </div>
     </footer>
 
+    <script src="js/data-songs.js"></script>
     <script src="js/app.js"></script>
 </body>
 </html>

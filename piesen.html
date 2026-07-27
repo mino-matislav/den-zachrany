@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pieseň — Deň Záchrany. Biblická tvorba na chválu, útechu a vyznanie viery.">
+    <meta name="theme-color" content="#D4AF37">
+    <meta property="og:title" content="Pieseň — Deň Záchrany">
+    <meta property="og:description" content="Biblická pieseň na chválu, útechu a vyznanie viery.">
+    <title>Pieseň — Deň Záchrany</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="progress-bar" class="progress-bar" aria-hidden="true"></div>
+
+    <nav class="main-nav" role="navigation" aria-label="Hlavná navigácia">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Deň Záchrany - Domov">
+                <span class="logo-icon">✝</span>
+                <span class="logo-text">Deň Záchrany</span>
+            </a>
+            <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" class="nav-link" role="menuitem">Domov</a></li>
+                <li role="none"><a href="kapitoly.html" class="nav-link" role="menuitem">Kapitoly</a></li>
+                <li role="none"><a href="piesne.html" class="nav-link active" role="menuitem">Piesne</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <article class="song-page">
+            <header class="chapter-header">
+                <a href="piesne.html" class="chapter-back" aria-label="Späť na zoznam piesní">Späť na piesne</a>
+                <h1 class="song-heading">Načítava sa...</h1>
+                <p class="song-subheading"></p>
+            </header>
+
+            <div class="chapter-content">
+                <!-- Audio prehrávač -->
+                <div class="chapter-audio">
+                    <div class="chapter-audio-header">
+                        <span aria-hidden="true">🎵</span>
+                        <div>
+                            <div class="song-audio-title">Audio piesne</div>
+                            <div class="chapter-audio-subtitle">Počúvaj a čítaj súčasne</div>
+                        </div>
+                    </div>
+                    <div class="player" role="region" aria-label="Audio prehrávač piesne">
+                        <div class="player-controls">
+                            <button class="player-btn player-play" aria-label="Prehrať" data-action="play">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                            </button>
+                            <button class="player-btn player-pause" aria-label="Pozastaviť" data-action="pause" hidden>
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                            </button>
+                            <div class="player-time">
+                                <span class="time-current">00:00</span>
+                                <div class="player-progress" role="slider" aria-label="Pozícia v audio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+                                    <div class="progress-track">
+                                        <div class="progress-fill"></div>
+                                        <div class="progress-thumb"></div>
+                                    </div>
+                                </div>
+                                <span class="time-duration">00:00</span>
+                            </div>
+                        </div>
+                        <audio class="song-audio-element" preload="auto">
+                            <source src="" type="audio/mpeg">
+                            Váš prehliadač nepodporuje prehrávanie audio.
+                        </audio>
+                    </div>
+                </div>
+
+                <!-- Text piesne -->
+                <div class="song-lyrics">
+                    <p>Načítava sa text piesne...</p>
+                </div>
+
+                <!-- Biblický verš (ECAV) -->
+                <div class="song-verse-wrap" hidden>
+                    <blockquote class="chapter-verse song-verse">
+                        <p class="song-verse-text"></p>
+                        <footer class="chapter-verse-ref song-verse-ref"></footer>
+                    </blockquote>
+                </div>
+
+                <!-- Kredit -->
+                <p class="song-credit"></p>
+
+                <!-- Navigácia späť -->
+                <nav class="chapter-nav" aria-label="Navigácia na konci piesne">
+                    <a href="piesne.html" class="btn btn-primary">
+                        ← Späť na piesne
+                    </a>
+                </nav>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✝</span>
+                    <span class="footer-title">Deň Záchrany</span>
+                    <p class="footer-tagline">Dnes je deň spasenia.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Pätičková navigácia">
+                    <a href="index.html">Domov</a>
+                    <a href="kapitoly.html">Kapitoly</a>
+                    <a href="piesne.html">Piesne</a>
+                </nav>
+                <p class="footer-copy">© 2026 Deň Záchrany. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data-songs.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
