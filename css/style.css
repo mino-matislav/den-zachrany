@@ -82,13 +82,34 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+    background-color: #CFE2F1;
+}
+
 body {
     font-family: var(--font-body);
     font-size: var(--text-lg);
     line-height: var(--leading-relaxed);
     color: var(--graphite);
-    background-color: var(--cream);
+    background-color: transparent;
     min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+        radial-gradient(60% 300px at 50% -70px, rgba(255, 240, 190, 0.95) 0%, rgba(255, 240, 190, 0) 70%),
+        radial-gradient(140px 60px at 13% 7%, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 72%),
+        radial-gradient(90px 44px at 21% 9%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 72%),
+        radial-gradient(155px 64px at 85% 5%, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0) 72%),
+        radial-gradient(95px 46px at 75% 8%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 72%),
+        radial-gradient(150px 44px at 47% 15%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 74%),
+        linear-gradient(180deg, #A8C9E6 0%, #CFE2F1 34%, #E7EFEA 66%, #F5F1E4 100%);
+    background-repeat: no-repeat;
 }
 
 img, picture, video, canvas, svg {
@@ -288,26 +309,18 @@ button {
    ============================================ */
 .hero {
     position: relative;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: calc(64px + var(--space-16)) var(--space-6) var(--space-20);
-    background: linear-gradient(180deg, var(--cream-light) 0%, var(--cream) 40%, var(--blue-gray) 100%);
+    padding: calc(64px + var(--space-10)) var(--space-6) var(--space-6);
+    background: transparent;
     overflow: hidden;
     text-align: center;
 }
 
 .hero-light {
-    position: absolute;
-    top: -30%;
-    left: 50%;
-    width: 200%;
-    height: 80%;
-    background: radial-gradient(ellipse at top, rgba(212, 175, 55, 0.12) 0%, transparent 60%);
-    transform: translateX(-50%);
-    pointer-events: none;
+    display: none;
 }
 
 .hero-content {
@@ -348,10 +361,10 @@ button {
 }
 
 .hero-verse {
-    background: var(--gold-light);
+    background: rgba(255, 253, 247, 0.82);
     border-left: 3px solid var(--gold);
     padding: var(--space-8) var(--space-6);
-    margin: 0 auto var(--space-10);
+    margin: 0 auto var(--space-8);
     max-width: 680px;
     text-align: left;
     border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
@@ -504,8 +517,8 @@ button {
    AUDIO SECTION
    ============================================ */
 .audio-section {
-    padding: var(--space-20) var(--space-6);
-    background: var(--cream);
+    padding: var(--space-6) var(--space-6) var(--space-16);
+    background: transparent;
 }
 
 .container {
@@ -692,13 +705,17 @@ button {
    INTRO SECTION
    ============================================ */
 .intro-section {
-    padding: var(--space-20) var(--space-6);
-    background: linear-gradient(180deg, var(--cream) 0%, var(--cream-light) 100%);
+    padding: var(--space-16) var(--space-6);
+    background: transparent;
 }
 
 .intro-content {
     max-width: var(--content-max);
     margin: 0 auto;
+    background: rgba(255, 253, 247, 0.85);
+    border-radius: var(--radius-xl);
+    padding: var(--space-10) var(--space-8);
+    box-shadow: 0 4px 24px var(--shadow);
 }
 
 .intro-quote {
@@ -746,8 +763,8 @@ button {
    WARNING SECTION
    ============================================ */
 .warning-section {
-    padding: var(--space-20) var(--space-6);
-    background: var(--cream);
+    padding: var(--space-16) var(--space-6) var(--space-20);
+    background: transparent;
 }
 
 .warning-card {
