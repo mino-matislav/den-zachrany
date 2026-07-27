@@ -2,7 +2,7 @@
    DEŇ ZÁCHRANY - Service Worker
    ============================================ */
 
-const CACHE_NAME = 'den-zachrany-v16';
+const CACHE_NAME = 'den-zachrany-v17';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
@@ -17,8 +17,7 @@ const STATIC_ASSETS = [
     '/js/data-songs.js',
     '/manifest.json',
     '/assets/icon-192.png',
-    '/assets/icon-512.png',
-    '/assets/audio/uvod-v2.mp3'
+    '/assets/icon-512.png'
 ];
 
 // Inštalácia — cache statických súborov
@@ -51,27 +50,13 @@ self.addEventListener('activate', function(event) {
     );
 });
 
-// Fetch — network-first pre audio, cache-first pre ostatné
+// Fetch — audio súbory IGNOROVAŤ (nech ich prehliadač rieši sám), cache-first pre ostatné
 self.addEventListener('fetch', function(event) {
     var url = event.request.url;
 
-    // Audio súbory: network-first (vždy stiahnuť najnovšiu verziu)
+    // Audio súbory: service worker sa NEPLETENDIE — prehliadač ich zvládne sám
+    // (Range requesty, buffering, streaming — SW by to kazil)
     if (url.indexOf('/assets/audio/') !== -1) {
-        event.respondWith(
-            fetch(event.request)
-                .then(function(networkResponse) {
-                    if (networkResponse && networkResponse.status === 200) {
-                        var responseToCache = networkResponse.clone();
-                        caches.open(CACHE_NAME).then(function(cache) {
-                            cache.put(event.request, responseToCache);
-                        });
-                    }
-                    return networkResponse;
-                })
-                .catch(function() {
-                    return caches.match(event.request);
-                })
-        );
         return;
     }
 
