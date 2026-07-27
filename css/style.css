@@ -641,6 +641,7 @@ button {
     align-items: center;
     cursor: pointer;
     position: relative;
+    touch-action: none;
 }
 
 .progress-track {
@@ -671,7 +672,7 @@ button {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    opacity: 0;
+    opacity: 1;
     transition: opacity var(--transition-fast);
 }
 

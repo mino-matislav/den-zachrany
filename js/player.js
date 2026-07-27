@@ -14,6 +14,7 @@ function AudioPlayer(audioElement, options) {
     this.isPlaying = false;
     this.currentSpeed = 1;
     this.isRepeating = false;
+    this.isDragging = false;
 
     this.init();
 }
@@ -27,6 +28,7 @@ AudioPlayer.prototype.init = function() {
     // Elementy
     this.playBtn = container.querySelector('.player-play');
     this.pauseBtn = container.querySelector('.player-pause');
+    this.restartBtn = container.querySelector('.player-restart');
     this.progressBar = container.querySelector('.player-progress');
     this.progressFill = container.querySelector('.progress-fill');
     this.progressThumb = container.querySelector('.progress-thumb');
@@ -41,6 +43,10 @@ AudioPlayer.prototype.init = function() {
 
     if (this.pauseBtn) {
         this.pauseBtn.addEventListener('click', function() { self.pause(); });
+    }
+
+    if (this.restartBtn) {
+        this.restartBtn.addEventListener('click', function() { self.restart(); });
     }
 
     // Audio events
@@ -60,11 +66,23 @@ AudioPlayer.prototype.init = function() {
         self.onError();
     });
 
-    // Progress bar
+    // Progress bar — klik aj ťahanie (myš + dotyk)
     if (this.progressBar) {
-        this.progressBar.addEventListener('click', function(e) {
+        this.progressBar.addEventListener('pointerdown', function(e) {
+            self.isDragging = true;
+            if (self.progressBar.setPointerCapture) {
+                try { self.progressBar.setPointerCapture(e.pointerId); } catch (err) {}
+            }
             self.seek(e);
         });
+
+        this.progressBar.addEventListener('pointermove', function(e) {
+            if (self.isDragging) self.seek(e);
+        });
+
+        var endDrag = function() { self.isDragging = false; };
+        this.progressBar.addEventListener('pointerup', endDrag);
+        this.progressBar.addEventListener('pointercancel', endDrag);
 
         this.progressBar.addEventListener('keydown', function(e) {
             if (e.key === 'ArrowLeft') {
@@ -150,6 +168,12 @@ AudioPlayer.prototype.seek = function(e) {
     pos = Math.max(0, Math.min(1, pos));
 
     this.audio.currentTime = pos * this.audio.duration;
+    this.updateProgress();
+};
+
+AudioPlayer.prototype.restart = function() {
+    this.audio.currentTime = 0;
+    this.updateProgress();
 };
 
 AudioPlayer.prototype.setSpeed = function(speed) {
