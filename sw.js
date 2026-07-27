@@ -2,7 +2,7 @@
    DEŇ ZÁCHRANY - Service Worker
    ============================================ */
 
-const CACHE_NAME = 'den-zachrany-v4';
+const CACHE_NAME = 'den-zachrany-v5';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
@@ -15,7 +15,8 @@ const STATIC_ASSETS = [
     '/js/data.js',
     '/manifest.json',
     '/assets/icon-192.png',
-    '/assets/icon-512.png'
+    '/assets/icon-512.png',
+    '/assets/audio/uvod.mp3'
 ];
 
 // Inštalácia — cache statických súborov
