@@ -29,6 +29,35 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="assets/icon-192.png">
+    <script>
+    // Jednorazové vyčistenie starých service workerov a cache
+    // Po úspešnom vyčistení sa tento skript sám deaktivuje
+    (function() {
+        if (!navigator.serviceWorker) return;
+        var cleaned = sessionStorage.getItem('sw-cleaned-v17');
+        if (cleaned) return;
+
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+            if (regs.length === 0) return;
+            var tasks = [];
+            regs.forEach(function(reg) {
+                tasks.push(reg.unregister());
+            });
+            // Vymazať aj všetky cache
+            if (window.caches) {
+                caches.keys().then(function(names) {
+                    names.forEach(function(name) {
+                        caches.delete(name);
+                    });
+                });
+            }
+            Promise.all(tasks).then(function() {
+                sessionStorage.setItem('sw-cleaned-v17', '1');
+                window.location.reload();
+            });
+        });
+    })();
+    </script>
 </head>
 <body>
     <!-- Progress bar -->
