@@ -1537,6 +1537,11 @@ button {
 /* ============================================
    PIESNE
    ============================================ */
+.song-page {
+    padding: calc(64px + var(--space-16)) var(--space-6) var(--space-20);
+    min-height: 100vh;
+}
+
 .songs-loading {
     text-align: center;
     color: var(--graphite);
