@@ -107,13 +107,6 @@ AudioPlayer.prototype.init = function() {
 
 AudioPlayer.prototype.play = function() {
     var self = this;
-    var skipTo = parseFloat(this.audio.dataset.startAt || 0);
-
-    // Pri prvom spustení preskočiť ochranný pad (ak je nastavený)
-    if (!this.hasPlayed && skipTo > 0 && this.audio.currentTime < 0.1) {
-        this.audio.currentTime = skipTo;
-    }
-    this.hasPlayed = true;
 
     this.audio.play().then(function() {
         self.isPlaying = true;
@@ -179,8 +172,7 @@ AudioPlayer.prototype.seek = function(e) {
 };
 
 AudioPlayer.prototype.restart = function() {
-    var skipTo = parseFloat(this.audio.dataset.startAt || 0);
-    this.audio.currentTime = skipTo;
+    this.audio.currentTime = 0;
     this.updateProgress();
 };
 
