@@ -183,6 +183,86 @@ const songData = {
             text: "Pokolenie odchádza a druhé prichádza, ale zem stojí naveky. Slnko vychodí, slnko zapadá, náhli sa na svoje miesto, kde znova vychádza. Vietor duje k juhu a obracia sa na sever, stále krúžiac veje a vo svojom kolobehu sa vracia. Všetky potoky tečú do mora, ale more sa nenaplní; potoky sa vracajú na miesto, kam tečú. Všetko je plné trudu, nikto to nemôže vysloviť; oko sa nikdy do sýtosti nenadíva, ucho sa nikdy dosť nenapočúva. Čo bolo, bude zase, a čo sa dialo, bude sa opäť diať. Nič nového nieto pod slnkom.",
             ref: "Kazateľ 1, 4–9 — ECAV"
         }
+    },
+    "3": {
+        id: 3,
+        number: 3,
+        title: "Nemám strach",
+        subtitle: "Pieseň o sile, hodnote a slobode od strachu",
+        audioUrl: "assets/audio/songs/03-nemam-strach.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Len Ty poznáš každú moju tvár.",
+                    "Si Majster, čo novou ma stvoril.",
+                    "V mojom srdci je Tvoj vzácny dar.",
+                    "Strach, bolesť, smútok si zboril."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Nedal si mi ducha úzkosti.",
+                    "No odvahu, čo v žilách mi bije.",
+                    "Kráčam isto v tvojej milosti,",
+                    "moja duša len pre teba žije."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Sila a česť sú môj nový šat.",
+                    "S nádejou hľadím v ústrety dňom.",
+                    "Pred búrkou viac nemusím sa báť.",
+                    "Ty si môj prístav,",
+                    "Ty si môj dom."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Povolal si ma mojím menom.",
+                    "Nie som len tieň, čo v dave sa stráca.",
+                    "Stojím tu pevne pod tvojím nebom.",
+                    "S Tebou žiť viem, uzdravená kráčam."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Sila a česť sú môj nový šat.",
+                    "S nádejou hľadím v ústrety dňom.",
+                    "Pred búrkou viac nemusím sa báť.",
+                    "Ty si môj prístav,",
+                    "Ty si môj dom."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Sila a dôstojnosť sú jej odevom a s úsmevom sa díva na budúci deň.",
+                ref: "Príslovia 31, 25 — ECAV"
+            },
+            {
+                text: "Chválim ťa, že si ma utvoril tak zázračne; všetky tvoje diela sú vznešené a moja duša to dobre vie.",
+                ref: "Žalm 139, 14 — SEB"
+            },
+            {
+                text: "Veď Boh nám nedal Ducha bojazlivosti, ale Ducha sily, lásky a rozvahy.",
+                ref: "2. Timoteovi 1, 7 — SEB"
+            },
+            {
+                text: "Neboj sa, lebo som ťa vykúpil, povolal som ťa tvojím menom; môj si ty!",
+                ref: "Izaiáš 43, 1 — ECAV"
+            }
+        ]
     }
 };
 
@@ -198,5 +278,11 @@ const songList = [
         number: 2,
         title: "Nič nového pod slnkom",
         subtitle: "Pieseň inšpirovaná knihou Kazateľ"
+    },
+    {
+        id: 3,
+        number: 3,
+        title: "Nemám strach",
+        subtitle: "Pieseň o sile, hodnote a slobode od strachu"
     }
 ];

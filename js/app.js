@@ -271,14 +271,21 @@
                 lyricsEl.innerHTML = lyricsHtml;
             }
 
-            // Biblický verš (ECAV)
-            if (song.verse) {
+            // Biblické verše (ECAV / SEB)
+            var verses = song.verses || (song.verse ? [song.verse] : []);
+            if (verses.length) {
                 const wrap = document.querySelector('.song-verse-wrap');
-                const vText = document.querySelector('.song-verse-text');
-                const vRef = document.querySelector('.song-verse-ref');
-                if (vText) vText.textContent = song.verse.text;
-                if (vRef) vRef.textContent = '— ' + song.verse.ref;
-                if (wrap) wrap.hidden = false;
+                if (wrap) {
+                    let vHtml = '';
+                    verses.forEach(function(v) {
+                        vHtml += '<blockquote class="chapter-verse song-verse">';
+                        vHtml += '<p class="song-verse-text">' + v.text + '</p>';
+                        vHtml += '<footer class="chapter-verse-ref song-verse-ref">— ' + v.ref + '</footer>';
+                        vHtml += '</blockquote>';
+                    });
+                    wrap.innerHTML = vHtml;
+                    wrap.hidden = false;
+                }
             }
 
             // Kredit

@@ -1661,3 +1661,8 @@ button {
     border-radius: var(--radius-lg);
     outline: none;
 }
+
+/* Odstup medzi viacerými veršovými boxami */
+.song-verse-wrap .chapter-verse + .chapter-verse {
+    margin-top: var(--space-5);
+}
