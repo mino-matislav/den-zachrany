@@ -10,7 +10,7 @@ const songData = {
         title: "Záchrana v temnote",
         subtitle: "Pieseň dôvery inšpirovaná Žalmom 27",
         audioUrl: "assets/audio/songs/01-zachrana-v-temnote.mp3",
-        credit: "Text © Deň Záchrany",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
                 type: "verse",
@@ -108,7 +108,7 @@ const songData = {
         title: "Nič nového pod slnkom",
         subtitle: "Pieseň inšpirovaná knihou Kazateľ",
         audioUrl: "assets/audio/songs/02-nic-noveho-pod-slnkom.mp3",
-        credit: "Text © Deň Záchrany",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
                 type: "verse",
