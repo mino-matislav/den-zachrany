@@ -251,12 +251,12 @@ const songData = {
                 ref: "Príslovia 31, 25 — ECAV"
             },
             {
-                text: "Chválim ťa, že si ma utvoril tak zázračne; všetky tvoje diela sú vznešené a moja duša to dobre vie.",
-                ref: "Žalm 139, 14 — SEB"
+                text: "Ďakujem Ti, že si ma predivne utvoril; divné sú Tvoje skutky. A moja duša to dobre vie.",
+                ref: "Žalm 139, 14 — ECAV"
             },
             {
-                text: "Veď Boh nám nedal Ducha bojazlivosti, ale Ducha sily, lásky a rozvahy.",
-                ref: "2. Timoteovi 1, 7 — SEB"
+                text: "Boh nám zaiste nedal ducha bojazlivosti, ale ducha moci, lásky a sebaovládania.",
+                ref: "2. Timoteovi 1, 7 — ECAV"
             },
             {
                 text: "Neboj sa, lebo som ťa vykúpil, povolal som ťa tvojím menom; môj si ty!",
