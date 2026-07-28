@@ -281,7 +281,12 @@
             if (verses.length) {
                 const wrap = document.querySelector('.song-verse-wrap');
                 if (wrap) {
-                    let vHtml = '';
+                    let vHtml = '<div class="song-verse-header">' +
+                        '<svg class="song-verse-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+                        '<path d="M12 6.6C10.2 5.3 7.8 5 5.5 5v12c2.3 0 4.7.3 6.5 1.6 1.8-1.3 4.2-1.6 6.5-1.6V5c-2.3 0-4.7.3-6.5 1.6z"/>' +
+                        '<path d="M12 6.6V18.6"/></svg>' +
+                        '<h2 class="song-verse-title">Inšpirácia z Biblie</h2>' +
+                        '</div>';
                     verses.forEach(function(v) {
                         vHtml += '<blockquote class="chapter-verse song-verse">';
                         vHtml += '<p class="song-verse-text">' + v.text + '</p>';

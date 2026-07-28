@@ -8,7 +8,7 @@ const songData = {
         id: 1,
         number: 1,
         title: "Záchrana v temnote",
-        subtitle: "Pieseň dôvery inšpirovaná Žalmom 27",
+        subtitle: "Svetlo a bezpečie uprostred strachu",
         audioUrl: "assets/audio/songs/01-zachrana-v-temnote.mp3",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
@@ -106,7 +106,7 @@ const songData = {
         id: 2,
         number: 2,
         title: "Nič nového pod slnkom",
-        subtitle: "Pieseň inšpirovaná knihou Kazateľ",
+        subtitle: "Pokoj v Božom poriadku sveta",
         audioUrl: "assets/audio/songs/02-nic-noveho-pod-slnkom.mp3?v=hq",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
@@ -188,7 +188,7 @@ const songData = {
         id: 3,
         number: 3,
         title: "Nemám strach",
-        subtitle: "Pieseň o sile, hodnote a slobode od strachu",
+        subtitle: "Sila, hodnota a sloboda od strachu",
         audioUrl: "assets/audio/songs/03-nemam-strach.mp3?v=hq",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
@@ -268,7 +268,7 @@ const songData = {
         id: 4,
         number: 4,
         title: "Mám v sebe tiché miesto",
-        subtitle: "Pieseň o vnútornom pokoji a novej ceste",
+        subtitle: "Vnútorný pokoj a nová cesta",
         audioUrl: "assets/audio/songs/04-mam-v-sebe-tiche-miesto.mp3",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
@@ -373,24 +373,24 @@ const songList = [
         id: 1,
         number: 1,
         title: "Záchrana v temnote",
-        subtitle: "Pieseň dôvery inšpirovaná Žalmom 27"
+        subtitle: "Svetlo a bezpečie uprostred strachu"
     },
     {
         id: 2,
         number: 2,
         title: "Nič nového pod slnkom",
-        subtitle: "Pieseň inšpirovaná knihou Kazateľ"
+        subtitle: "Pokoj v Božom poriadku sveta"
     },
     {
         id: 3,
         number: 3,
         title: "Nemám strach",
-        subtitle: "Pieseň o sile, hodnote a slobode od strachu"
+        subtitle: "Sila, hodnota a sloboda od strachu"
     },
     {
         id: 4,
         number: 4,
         title: "Mám v sebe tiché miesto",
-        subtitle: "Pieseň o vnútornom pokoji a novej ceste"
+        subtitle: "Vnútorný pokoj a nová cesta"
     }
 ];
