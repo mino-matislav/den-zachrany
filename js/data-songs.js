@@ -107,7 +107,7 @@ const songData = {
         number: 2,
         title: "Nič nového pod slnkom",
         subtitle: "Pieseň inšpirovaná knihou Kazateľ",
-        audioUrl: "assets/audio/songs/02-nic-noveho-pod-slnkom.mp3",
+        audioUrl: "assets/audio/songs/02-nic-noveho-pod-slnkom.mp3?v=hq",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -189,7 +189,7 @@ const songData = {
         number: 3,
         title: "Nemám strach",
         subtitle: "Pieseň o sile, hodnote a slobode od strachu",
-        audioUrl: "assets/audio/songs/03-nemam-strach.mp3",
+        audioUrl: "assets/audio/songs/03-nemam-strach.mp3?v=hq",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -263,6 +263,108 @@ const songData = {
                 ref: "Izaiáš 43, 1 — ECAV"
             }
         ]
+    },
+    "4": {
+        id: 4,
+        number: 4,
+        title: "Mám v sebe tiché miesto",
+        subtitle: "Pieseň o vnútornom pokoji a novej ceste",
+        audioUrl: "assets/audio/songs/04-mam-v-sebe-tiche-miesto.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Bosý kráčam po tejto zemi.",
+                    "Kamene sú ostré a chladné.",
+                    "Nepozerám sa už na hodiny.",
+                    "Myseľ ľahká, ale nohy sú ťažké."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Ako letná búrka vzduch chutí.",
+                    "Hmla dvíha sa nad obzorom.",
+                    "Nezachvejú sa mi už ruky.",
+                    "V diaľke sa stráca, to čo bolo."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Mám v sebe tiché miesto.",
+                    "(Pokoj je v Ňom)",
+                    "Spoznávam nový priestor.",
+                    "(Z temnoty von)",
+                    "",
+                    "Mám v sebe čistý prameň.",
+                    "(V tepnách mi život prúdi)",
+                    "Odvalil z duše kameň.",
+                    "(Po cestách nezablúdim)"
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 3",
+                lines: [
+                    "Tento smer som si nevybral sám.",
+                    "On zavolal, a vybral si mňa.",
+                    "Vedie ma kompas čo v srdci už mám.",
+                    "Staré jazvy sa v tichu hoja."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Mám v sebe tiché miesto.",
+                    "(Pokoj je v Ňom)",
+                    "Spoznávam nový priestor.",
+                    "(Z temnoty von)",
+                    "",
+                    "Mám v sebe čistý prameň.",
+                    "(V tepnách mi život prúdi)",
+                    "Odvalil z duše kameň.",
+                    "(Po cestách nezablúdim)"
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Nová cesta sa otvára predo mnou.",
+                    "Už nie som stratený.",
+                    "(Už nie som sám)",
+                    "(Už nie som sám)"
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Pokoj vám zanechávam, svoj pokoj vám dávam; ja vám dávam, nie ako svet dáva. Nech sa vám srdce nestrachuje ani nech sa nelaká.",
+                ref: "Ján 14, 27 — ECAV"
+            },
+            {
+                text: "Kto sa však napije z vody, ktorú mu ja dám, nebude žízniť naveky; ale voda, ktorú mu dám, stane sa v ňom prameňom vody prúdiacej do večného života.",
+                ref: "Ján 4, 14 — ECAV"
+            },
+            {
+                text: "On nás vytrhol z moci tmy a preniesol do kráľovstva svojho milovaného Syna.",
+                ref: "Kolosenským 1, 13 — ECAV"
+            },
+            {
+                text: "Nie vy ste si mňa vyvolili, ale ja som si vás vyvolil a ustanovil som vás, aby ste šli a prinášali ovocie…",
+                ref: "Ján 15, 16 — ECAV"
+            },
+            {
+                text: "Ak je teda niekto v Kristovi, je nové stvorenie; staré sa pominulo, hľa, nastalo nové.",
+                ref: "2. Korintským 5, 17 — ECAV"
+            }
+        ]
     }
 };
 
@@ -284,5 +386,11 @@ const songList = [
         number: 3,
         title: "Nemám strach",
         subtitle: "Pieseň o sile, hodnote a slobode od strachu"
+    },
+    {
+        id: 4,
+        number: 4,
+        title: "Mám v sebe tiché miesto",
+        subtitle: "Pieseň o vnútornom pokoji a novej ceste"
     }
 ];

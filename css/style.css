@@ -1666,3 +1666,16 @@ button {
 .song-verse-wrap .chapter-verse + .chapter-verse {
     margin-top: var(--space-5);
 }
+
+/* Riadky textu piesne + backing vokály v zátvorkách */
+.lyric-line {
+    display: block;
+}
+.lyric-line.backing {
+    font-size: 0.82em;
+    opacity: 0.6;
+    letter-spacing: 0.02em;
+}
+.lyric-line.lyric-gap {
+    height: var(--space-3);
+}

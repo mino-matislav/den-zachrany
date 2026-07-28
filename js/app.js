@@ -265,7 +265,12 @@
                     if (section.label) {
                         lyricsHtml += '<div class="lyric-label">' + section.label + '</div>';
                     }
-                    lyricsHtml += '<p class="lyric-lines">' + section.lines.join('<br>') + '</p>';
+                    var linesHtml = section.lines.map(function(line) {
+                        if (line === '') return '<span class="lyric-line lyric-gap"></span>';
+                        var isBacking = line.charAt(0) === '(';
+                        return '<span class="lyric-line' + (isBacking ? ' backing' : '') + '">' + line + '</span>';
+                    }).join('');
+                    lyricsHtml += '<p class="lyric-lines">' + linesHtml + '</p>';
                     lyricsHtml += '</div>';
                 });
                 lyricsEl.innerHTML = lyricsHtml;
