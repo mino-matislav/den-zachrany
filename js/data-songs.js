@@ -471,6 +471,86 @@ const songData = {
                 ref: "Matúš 24, 44 — ECAV"
             }
         ]
+    },
+    "6": {
+        id: 6,
+        number: 6,
+        title: "On je Svetlo",
+        subtitle: "Ježiš — Svetlo sveta a cesta k Otcovi",
+        audioUrl: "assets/audio/songs/06-on-je-svetlo.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha",
+                lines: [
+                    "On je Cesta, Pravda, Život,",
+                    "tak choď za Ním,",
+                    "choď za Ním.",
+                    "On je Svetlo, Pokoj, Radosť,",
+                    "tak zmier sa s Ním,",
+                    "zmier sa s Ním."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Svojho syna za nás dal,",
+                    "za nás dal.",
+                    "Prijmi milosť kým je čas,",
+                    "neváhaj, tak neváhaj."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Pravé Svetlo v Jeho Slove,",
+                    "tma pohltiť nevie.",
+                    "Každú dušu osvecuje,",
+                    "čo prichádza na svet.",
+                    "A to Slovo telom sa stalo,",
+                    "medzi nami prebývalo."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Svojho syna za nás dal,",
+                    "za nás dal.",
+                    "Prijmi milosť kým je čas,",
+                    "neváhaj, tak neváhaj."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Ja som cesta, pravda a život. Nik neprichádza k Otcovi, ak len nie skrze mňa.",
+                ref: "Ján 14, 6 — ECAV"
+            },
+            {
+                text: "Ja som svetlo sveta; kto mňa nasleduje, nebude chodiť v tme, ale bude mať svetlo života.",
+                ref: "Ján 8, 12 — ECAV"
+            },
+            {
+                text: "Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby nezahynul nikto, kto verí v Neho, ale mal večný život.",
+                ref: "Ján 3, 16 — ECAV"
+            },
+            {
+                text: "V mene Kristovom prosíme: Zmierte sa s Bohom!",
+                ref: "2. Korintským 5, 20 — ECAV"
+            },
+            {
+                text: "A svetlo svieti v tme a tma Ho nepohltila.",
+                ref: "Ján 1, 5 — ECAV"
+            },
+            {
+                text: "Ajhľa, teraz je čas veľmi príhodný; ajhľa, teraz je deň spasenia!",
+                ref: "2. Korintským 6, 2 — ECAV"
+            }
+        ]
     }
 };
 
@@ -504,5 +584,11 @@ const songList = [
         number: 5,
         title: "Náhle a nečakane",
         subtitle: "Krátkosť života a nádej v Bohu"
+    },
+    {
+        id: 6,
+        number: 6,
+        title: "On je Svetlo",
+        subtitle: "Ježiš — Svetlo sveta a cesta k Otcovi"
     }
 ];
