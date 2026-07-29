@@ -90,6 +90,41 @@
     const chaptersList = document.querySelector('.chapters-list');
 
     if (chaptersList) {
+        // Dynamické generovanie kariet kapitol z dát
+        if (typeof chapterData !== 'undefined') {
+            const ids = Object.keys(chapterData).sort(function(a, b) { return parseInt(a) - parseInt(b); });
+            let listHtml = '';
+            ids.forEach(function(id) {
+                const ch = chapterData[id];
+                const num = parseInt(id);
+                const coming = ch.available === false;
+                let classes = 'chapter-item';
+                if (ch.isStarter) classes += ' starter';
+                if (coming) classes += ' coming-soon';
+                const tagsAttr = (ch.tags || []).join(',');
+
+                listHtml += '<article class="' + classes + '" data-id="' + id + '" data-tags="' + tagsAttr + '" role="listitem">';
+                listHtml += '<div class="chapter-number">' + num + '. Kapitola</div>';
+                if (coming) {
+                    listHtml += '<span class="chapter-badge">Pripravujeme</span>';
+                }
+                listHtml += '<h3 class="chapter-title">' + ch.title + '</h3>';
+                listHtml += '<p class="chapter-desc">' + ch.subtitle + '</p>';
+                if (ch.tags && ch.tags.length) {
+                    listHtml += '<div class="chapter-tags">';
+                    ch.tags.forEach(function(t) { listHtml += '<span class="chapter-tag">' + t + '</span>'; });
+                    listHtml += '</div>';
+                }
+                if (coming) {
+                    listHtml += '<span class="chapter-link is-disabled" aria-disabled="true">Pripravujeme čoskoro</span>';
+                } else {
+                    listHtml += '<a href="kapitola.html?id=' + id + '" class="chapter-link" aria-label="Otvoriť kapitolu ' + num + ': ' + ch.title + '">Otvoriť kapitolu</a>';
+                }
+                listHtml += '</article>';
+            });
+            chaptersList.innerHTML = listHtml;
+        }
+
         const filterBtns = document.querySelectorAll('.filter-btn');
         const chapterItems = document.querySelectorAll('.chapter-item');
         const lastReadId = Storage.getLastRead();
@@ -149,10 +184,12 @@
 
             const titleEl = document.querySelector('.chapter-heading');
             const subEl = document.querySelector('.chapter-subheading');
+            const numEl = document.querySelector('.chapter-number-label');
             const textEl = document.querySelector('.chapter-text');
             const prayerEl = document.querySelector('.chapter-prayer-text');
             const audioTitle = document.querySelector('.chapter-audio-title');
 
+            if (numEl) numEl.textContent = chapterId + '. Kapitola';
             if (titleEl) titleEl.textContent = chapter.title;
             if (subEl) subEl.textContent = chapter.subtitle;
             if (audioTitle) audioTitle.textContent = 'Audio kapitoly: ' + chapter.title;

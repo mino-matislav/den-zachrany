@@ -1732,3 +1732,13 @@ html {
     .scroll-hint-arrow { animation: none; }
     html { scroll-behavior: auto; }
 }
+
+/* Nadpis "N. Kapitola" na detaile kapitoly */
+.chapter-number-label {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--gold);
+    margin-bottom: var(--space-2);
+    letter-spacing: 0.02em;
+}
