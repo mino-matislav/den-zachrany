@@ -365,6 +365,112 @@ const songData = {
                 ref: "2. Korintským 5, 17 — ECAV"
             }
         ]
+    },
+    "5": {
+        id: 5,
+        number: 5,
+        title: "Náhle a nečakane",
+        subtitle: "Krátkosť života a nádej v Bohu",
+        audioUrl: "assets/audio/songs/05-nahle-a-necakane.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Keď odídeš v plnej sile,",
+                    "náhle všetko sa končí.",
+                    "Neúprosne, nečakane,",
+                    "kam tvoj život preskočí.",
+                    "Včera si bol a dnes ťa niet,",
+                    "osud kľúčom otočí.",
+                    "Preberieš sa v realite,",
+                    "v akej asi čo myslíš."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Lepšie je byť pripravený,",
+                    "na určený čas.",
+                    "Ako ostať prekvapený,",
+                    "keď povolá ťa hlas,",
+                    "Jeho hlas – do srdca ti hovorí."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén (2×)",
+                lines: [
+                    "Si ako tráva,",
+                    "ktorá časom uschne.",
+                    "Aj tvoja krása,",
+                    "ako kvet zvädne.",
+                    "Si ako para,",
+                    "na chvíľku sa ukáže.",
+                    "Závanom vetra",
+                    "a potom zmizne."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha",
+                lines: [
+                    "Včera si bol a dnes ťa niet,",
+                    "osud kľúčom otočí.",
+                    "Preberieš sa v realite,",
+                    "v akej asi čo myslíš."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Lepšie je byť pripravený,",
+                    "na určený čas.",
+                    "Ako ostať prekvapený,",
+                    "keď povolá ťa hlas,",
+                    "Jeho hlas do srdca ti hovorí."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Si ako tráva,",
+                    "ktorá časom uschne.",
+                    "A tvoja krása,",
+                    "ako kvet spadne.",
+                    "Si ako para,",
+                    "na chvíľku sa ukáže.",
+                    "Závanom vetra",
+                    "a potom zmizne."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Každé telo je tráva a všetka jeho krása ako poľný kvet. Tráva usychá, kvet vädne, keď naň zavanie Hospodinov dych… Tráva usychá, kvet vädne, ale slovo nášho Boha zostáva naveky.",
+                ref: "Izaiáš 40, 6–8 — ECAV"
+            },
+            {
+                text: "Dni človeka sú ako tráva, kvitne ako poľný kvet; len čo sa cez neho preženie vietor, niet ho, ani miesto, kde bol, ho viac nepozná.",
+                ref: "Žalm 103, 15–16 — ECAV"
+            },
+            {
+                text: "Veď neviete, čo bude zajtra s vaším životom. Ste para, ktorá sa na krátko ukáže a potom zmizne.",
+                ref: "Jakub 4, 14 — ECAV"
+            },
+            {
+                text: "Veď človek nepozná svoj čas. Ako ryby, ktoré sa chytajú do zhubnej siete, a ako vtáci, čo sa lapajú do osídla, tak sa chytajú aj ľudia v čase nešťastia, keď náhle doľahne na nich.",
+                ref: "Kazateľ 9, 12 — ECAV"
+            },
+            {
+                text: "Preto aj vy buďte pripravení, lebo Syn človeka príde v hodinu, keď sa nenazdáte.",
+                ref: "Matúš 24, 44 — ECAV"
+            }
+        ]
     }
 };
 
@@ -392,5 +498,11 @@ const songList = [
         number: 4,
         title: "Mám v sebe tiché miesto",
         subtitle: "Vnútorný pokoj a nová cesta"
+    },
+    {
+        id: 5,
+        number: 5,
+        title: "Náhle a nečakane",
+        subtitle: "Krátkosť života a nádej v Bohu"
     }
 ];
