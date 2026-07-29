@@ -551,6 +551,110 @@ const songData = {
                 ref: "2. Korintským 6, 2 — ECAV"
             }
         ]
+    },
+    "7": {
+        id: 7,
+        number: 7,
+        title: "Jediný pevný bod",
+        subtitle: "Pevná Skala, keď sa všetko chveje",
+        audioUrl: "assets/audio/songs/07-jediny-pevny-bod.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Beháš z miesta na miesto,",
+                    "potkýnaš sa, aj padáš.",
+                    "Hľadáš zmysel, svoj priestor,",
+                    "pravdu stále prehliadaš."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Svet ti núka tisíc ciest,",
+                    "no každá vedie do tmy.",
+                    "Vyjsť zo slepých uličiek,",
+                    "túžiš sa ukotviť."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Keď sa všetko chveje pod tebou,",
+                    "keď sa rúca každý plán.",
+                    "On je Skalou nepohnuteľnou,",
+                    "jediný pevný bod – Pánov Pán."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Len Jeho Slovo pravdou je,",
+                    "ako oheň blčí.",
+                    "V súžení ťa bude viesť,",
+                    "keď duša blúdi, mlčí.",
+                    "On chráni všetkých pokorných,",
+                    "čo v Neho dúfajú.",
+                    "Nasadí ti svoj štít ochranný,",
+                    "proti tým, čo rúcajú."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Keď sa všetko chveje pod tebou,",
+                    "keď sa rúca každý plán.",
+                    "On je Skalou nepohnuteľnou,",
+                    "jediný pevný bod – Pánov Pán."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Len Jeho Slovo pravdou je,",
+                    "ako oheň blčí.",
+                    "V súžení ťa bude viesť,",
+                    "keď duša blúdi, mlčí.",
+                    "On chráni všetkých pokorných,",
+                    "čo v Neho dúfajú.",
+                    "Nasadí ti svoj štít ochranný,",
+                    "proti tým, čo rúcajú."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Neraz sa človeku zdá cesta správna, ale napokon vedie k smrti.",
+                ref: "Príslovia 14, 12 — ECAV"
+            },
+            {
+                text: "Hospodin je moja skala, moja pevnosť a môj vysloboditeľ.",
+                ref: "Žalm 18, 3 — ECAV"
+            },
+            {
+                text: "A tou skalou bol Kristus.",
+                ref: "1. Korintským 10, 4 — ECAV"
+            },
+            {
+                text: "Posväť ich v pravde; Tvoje slovo je pravda.",
+                ref: "Ján 17, 17 — ECAV"
+            },
+            {
+                text: "Či nie je moje slovo ako oheň — znie výrok Hospodinov — a ako kladivo, ktoré rozráža skalu?",
+                ref: "Jeremiáš 23, 29 — ECAV"
+            },
+            {
+                text: "Predovšetkým vezmite štít viery, ktorým budete môcť uhasiť všetky ohnivé šípy toho Zlého.",
+                ref: "Efezským 6, 16 — ECAV"
+            }
+        ]
     }
 };
 
@@ -590,5 +694,11 @@ const songList = [
         number: 6,
         title: "On je Svetlo",
         subtitle: "Ježiš — Svetlo sveta a cesta k Otcovi"
+    },
+    {
+        id: 7,
+        number: 7,
+        title: "Jediný pevný bod",
+        subtitle: "Pevná Skala, keď sa všetko chveje"
     }
 ];
