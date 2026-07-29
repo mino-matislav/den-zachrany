@@ -371,7 +371,7 @@ const songData = {
         number: 5,
         title: "Náhle a nečakane",
         subtitle: "Krátkosť života a nádej v Bohu",
-        audioUrl: "assets/audio/songs/05-nahle-a-necakane.mp3",
+        audioUrl: "assets/audio/songs/05-nahle-a-necakane.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
