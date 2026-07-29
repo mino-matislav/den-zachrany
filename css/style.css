@@ -312,7 +312,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: calc(64px + var(--space-20)) var(--space-6) var(--space-6);
+    padding: calc(64px + var(--space-8)) var(--space-6) var(--space-3);
     background: transparent;
     overflow: hidden;
     text-align: center;
@@ -324,7 +324,7 @@ button {
     top: 0;
     left: 0;
     right: 0;
-    height: calc(64px + var(--space-20));
+    height: calc(64px + var(--space-8));
     background: linear-gradient(180deg,
         rgba(255, 188, 66, 0.95) 0%,
         rgba(255, 200, 92, 0.82) 30%,
@@ -362,7 +362,7 @@ button {
     font-weight: 700;
     color: var(--graphite);
     line-height: var(--leading-tight);
-    margin-bottom: var(--space-4);
+    margin-bottom: var(--space-2);
     letter-spacing: -0.02em;
 }
 
@@ -371,15 +371,15 @@ button {
     font-size: clamp(var(--text-xl), 4vw, var(--text-2xl));
     font-weight: 400;
     color: var(--gold);
-    margin-bottom: var(--space-10);
+    margin-bottom: var(--space-3);
     font-style: italic;
 }
 
 .hero-verse {
     background: rgba(255, 253, 247, 0.82);
     border-left: 3px solid var(--gold);
-    padding: var(--space-8) var(--space-6);
-    margin: 0 auto var(--space-8);
+    padding: var(--space-5) var(--space-6);
+    margin: 0 auto var(--space-3);
     max-width: 680px;
     text-align: left;
     border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
@@ -532,7 +532,7 @@ button {
    AUDIO SECTION
    ============================================ */
 .audio-section {
-    padding: var(--space-6) var(--space-6) var(--space-16);
+    padding: var(--space-1) var(--space-6) var(--space-16);
     background: transparent;
 }
 
@@ -546,7 +546,7 @@ button {
     background: var(--white);
     border: 1px solid rgba(212, 175, 55, 0.2);
     border-radius: var(--radius-xl);
-    padding: var(--space-8) var(--space-6);
+    padding: var(--space-4) var(--space-6);
     max-width: 680px;
     margin: 0 auto;
     box-shadow: 0 4px 24px var(--shadow);
@@ -1427,11 +1427,11 @@ button {
     }
 
     .hero {
-        padding: calc(64px + var(--space-12)) var(--space-4) var(--space-16);
+        padding: calc(64px + var(--space-8)) var(--space-4) var(--space-3);
     }
 
     .hero-verse {
-        padding: var(--space-6) var(--space-4);
+        padding: var(--space-5) var(--space-4);
     }
 
     .audio-card,
@@ -1708,7 +1708,7 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 2px;
-    margin-top: var(--space-5);
+    margin-top: var(--space-3);
     text-decoration: none;
     color: var(--gold);
     font-size: var(--text-sm);
