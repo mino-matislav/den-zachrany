@@ -1260,6 +1260,122 @@ const songData = {
                 ref: "1. Jánov 5, 11–12 — ECAV"
             }
         ]
+    },
+    "14": {
+        id: 14,
+        number: 14,
+        title: "Svet sa zmení",
+        subtitle: "Nádej Kristovho príchodu a záchrana z milosti",
+        audioUrl: "assets/audio/songs/14-svet-sa-zmeni.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Veľmi skoro svet sa zmení,",
+                    "zaznie povel, archanjelov hlas.",
+                    "Zvuk poľnice a Pán zostúpi,",
+                    "vstanú prví, tí čo sú len prach."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Kráľ prichádza do oblakov,",
+                    "vezme k Sebe mŕtvych – živých.",
+                    "Očistených Jeho krvou,",
+                    "do príbytkov pripravených."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Nesmieme už strácať čas,",
+                    "kto sme Duchom vedení.",
+                    "On oživil a volá nás,",
+                    "modliť sa za stratených.",
+                    "Ak počúvaš, tento raz,",
+                    "tak neváhaj byť chránený.",
+                    "Zomrel za nás, prijmi dar,",
+                    "a milosťou buď spasený."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Ako ovce blúdili sme všetci,",
+                    "každý išiel svojou necestou.",
+                    "Trpel za nás, muž bolesti,",
+                    "prebodnutý ľudskou neverou.",
+                    "Zdrvený za naše neprávosti,",
+                    "na drevo kríža sám ich vyniesol.",
+                    "Uzdravil nás krvou, jeho ranami,",
+                    "On znášal trest, nám pokoj priniesol."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 3",
+                lines: [
+                    "Veľmi skoro svet sa zmení,",
+                    "Boží hnev už pôsobí.",
+                    "Ak nebudeš vychvátený,",
+                    "zanechá ťa v súžení."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Nesmieme už strácať čas,",
+                    "kto sme Duchom vedení.",
+                    "On oživil a volá nás,",
+                    "modliť sa za stratených.",
+                    "Ak počúvaš, tento raz,",
+                    "tak neváhaj byť chránený.",
+                    "Zomrel za nás, prijmi dar,",
+                    "a milosťou buď spasený."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Nie všetci zosnieme, ale všetci budeme premenení, naraz, v okamihu, pri poslednej trúbe; a mŕtvi budú vzkriesení neporušiteľní a my budeme premenení.",
+                ref: "1. Korintským 15, 51–52 — ECAV"
+            },
+            {
+                text: "Sám Pán zostúpi z neba na povel, na hlas archanjela a na zvuk Božej trúby; a mŕtvi v Kristovi vstanú najprv. Potom my živí budeme spolu s nimi uchvátení v oblakoch v ústrety Pánovi; a tak budeme vždy s Pánom.",
+                ref: "1. Tesalonickým 4, 16–17 — ECAV"
+            },
+            {
+                text: "V dome môjho Otca je mnoho príbytkov; idem vám pripraviť miesto. A zasa prídem a poberiem si vás k sebe, aby ste aj vy boli tam, kde som ja.",
+                ref: "Ján 14, 2–3 — ECAV"
+            },
+            {
+                text: "Lebo všetci, ktorých Duch Boží vedie, sú synovia Boží.",
+                ref: "Rimanom 8, 14 — ECAV"
+            },
+            {
+                text: "Žiadam, aby sa konali prosby a modlitby za všetkých ľudí; lebo Boh chce, aby všetci ľudia boli spasení a prišli k poznaniu pravdy.",
+                ref: "1. Timotejovi 2, 1–4 — ECAV"
+            },
+            {
+                text: "On však bol prebodnutý pre naše priestupky, zdrvený pre naše neprávosti; trest za náš pokoj spočinul na Ňom a Jeho ranami sa nám dostalo uzdravenia.",
+                ref: "Izaiáš 53, 5 — ECAV"
+            },
+            {
+                text: "On sám vyniesol naše hriechy vo svojom tele na drevo, aby sme odumreli hriechom a žili spravodlivosti.",
+                ref: "1. Petra 2, 24 — ECAV"
+            },
+            {
+                text: "Zachovám ťa pred hodinou skúšky, ktorá príde na celý svet skúšať obyvateľov zeme.",
+                ref: "Zjavenie 3, 10 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1341,5 +1457,11 @@ const songList = [
         number: 13,
         title: "Drž ma pevne",
         subtitle: "Modlitba dôvery v Božej ruke"
+    },
+    {
+        id: 14,
+        number: 14,
+        title: "Svet sa zmení",
+        subtitle: "Nádej Kristovho príchodu a záchrana z milosti"
     }
 ];
