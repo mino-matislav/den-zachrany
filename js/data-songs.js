@@ -1376,6 +1376,110 @@ const songData = {
                 ref: "Zjavenie 3, 10 — ECAV"
             }
         ]
+    },
+    "15": {
+        id: 15,
+        number: 15,
+        title: "Svetlo v tme",
+        subtitle: "Svetlo, pokoj a radosť v Kristovi",
+        audioUrl: "assets/audio/songs/15-svetlo-v-tme.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "On je Cesta čo nás vedie hore.",
+                    "Pravda, ktorú nájdeme v pokore.",
+                    "Život, ktorý dýchaš v každom dni.",
+                    "Nájdi tú cestu a choď za Ním."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "On je to Svetlo čo tmu rozjasní.",
+                    "Slnečné ráno, pokoj hrejivý.",
+                    "Radosť v srdci, ktorá nehasne.",
+                    "Tak zmier sa s Ním a máš lásku nezvratne."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Hľadáš smer a v búrkach blúdiš sám.",
+                    "Svet ti vraví: všetko čo chceš dám.",
+                    "No len On je mocný Zdroj a živý.",
+                    "Choď k Nemu a tvoj život sa zmení."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "On je to Svetlo čo tmu rozjasní.",
+                    "Slnečné ráno, pokoj hrejivý.",
+                    "Radosť v srdci, ktorá nehasne.",
+                    "Tak zmier sa s Ním a máš lásku nezvratne."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Cesty sa rozvetvujú na tisíce.",
+                    "Ktorú vybrať ako rozhodnúť kam ísť.",
+                    "Je to On, tá Pravda bez pochýb.",
+                    "Tak kráčaj k Nemu, už nikdy neodíď."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "On je to Svetlo čo tmu rozjasní.",
+                    "Slnečné ráno, pokoj hrejivý.",
+                    "Radosť v srdci, ktorá nehasne.",
+                    "Tak zmier sa s Ním a máš lásku nezvratne."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Ja som cesta, pravda a život. Nik neprichádza k Otcovi, ak len nie skrze mňa.",
+                ref: "Ján 14, 6 — ECAV"
+            },
+            {
+                text: "Ja som prišiel, aby mali život a aby ho mali v hojnosti.",
+                ref: "Ján 10, 10 — ECAV"
+            },
+            {
+                text: "Ja som svetlo sveta; kto mňa nasleduje, nebude chodiť v tme, ale bude mať svetlo života.",
+                ref: "Ján 8, 12 — ECAV"
+            },
+            {
+                text: "Pokoj vám zanechávam, svoj pokoj vám dávam; nie ako svet dáva, ja vám dávam.",
+                ref: "Ján 14, 27 — ECAV"
+            },
+            {
+                text: "To som vám povedal, aby moja radosť bola vo vás a aby vaša radosť bola úplná.",
+                ref: "Ján 15, 11 — ECAV"
+            },
+            {
+                text: "Kto verí vo mňa, ako hovorí Písmo, rieky živej vody potečú z jeho vnútra.",
+                ref: "Ján 7, 38 — ECAV"
+            },
+            {
+                text: "Takto vraví Hospodin: Zastavte sa na cestách a pozerajte, pýtajte sa na dávne chodníky, kde je dobrá cesta, choďte po nej a nájdete odpočinok pre svoje duše.",
+                ref: "Jeremiáš 6, 16 — ECAV"
+            },
+            {
+                text: "Pane, ku komu pôjdeme? Ty máš slová večného života.",
+                ref: "Ján 6, 68 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1463,5 +1567,11 @@ const songList = [
         number: 14,
         title: "Svet sa zmení",
         subtitle: "Nádej Kristovho príchodu a záchrana z milosti"
+    },
+    {
+        id: 15,
+        number: 15,
+        title: "Svetlo v tme",
+        subtitle: "Svetlo, pokoj a radosť v Kristovi"
     }
 ];
