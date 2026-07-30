@@ -963,6 +963,120 @@ const songData = {
                 ref: "Kolosenským 2, 2–3 — ECAV"
             }
         ]
+    },
+    "11": {
+        id: 11,
+        number: 11,
+        title: "Temný pohľad",
+        subtitle: "Božie volanie k obráteniu, kým je čas",
+        audioUrl: "assets/audio/songs/11-temny-pohlad.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Tisíce stratených tiel,",
+                    "uväznených v sebe.",
+                    "Podľa svojich pravidiel,",
+                    "chcú byť prví všade."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Ako zástup šakalov,",
+                    "myslia len na svoje bruchá.",
+                    "Plnia obsah kanálov,",
+                    "prázdne schránky bez Ducha."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Jedzme, pime, milujme,",
+                    "užime si každú chvíľu.",
+                    "Veď zajtra tu možno nebudeme,",
+                    "zatlačíme na pílu."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 3",
+                lines: [
+                    "Nikto z nich už neplače,",
+                    "rvú sa iba o kus žvanca.",
+                    "Z odpadu si pečú koláče,",
+                    "hrdo nosia titul štvanca."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 4",
+                lines: [
+                    "Temné chute svojho ega,",
+                    "vynášajú na povrch.",
+                    "Ich prítomnosť je čiernobiela,",
+                    "tolerujú každý podvrh."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén (2×)",
+                lines: [
+                    "Jedzme, pime, milujme,",
+                    "užime si každú chvíľu.",
+                    "Veď zajtra tu možno nebudeme,",
+                    "zatlačíme na pílu."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Stvoriteľ sa nato zhora pozerá,",
+                    "bolesť v srdci cíti.",
+                    "Ľudská zloba na zemi je veliká,",
+                    "Jeho hnev sa blíži.",
+                    "Hej ty človek spamätaj sa,",
+                    "k Slovu kríža obráť sa.",
+                    "Dnes je ten deň, zachráň sa,",
+                    "kým je čas, kým je čas."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Ich bohom je brucho a slávou ich hanebnosť; zmýšľajú totiž len o pozemských veciach.",
+                ref: "Filipským 3, 19 — ECAV"
+            },
+            {
+                text: "To sú tí, ktorí spôsobujú roztržky, telesní ľudia, ktorí nemajú Ducha.",
+                ref: "Júda 19 — ECAV"
+            },
+            {
+                text: "Jedzme a pime, veď zajtra zomrieme.",
+                ref: "Izaiáš 22, 13 — ECAV"
+            },
+            {
+                text: "Hoci poznajú Božie nariadenie, že tí, ktorí také veci robia, zasluhujú smrť, nielenže ich sami robia, ale aj schvaľujú tých, ktorí ich páchajú.",
+                ref: "Rimanom 1, 32 — ECAV"
+            },
+            {
+                text: "Ľutoval Hospodin, že učinil človeka na zemi, a zabolelo Ho v srdci.",
+                ref: "1. Mojžišova 6, 6 — ECAV"
+            },
+            {
+                text: "Boh však prehliadol časy nevedomosti a teraz zvestuje ľuďom, aby všetci všade robili pokánie.",
+                ref: "Skutky 17, 30 — ECAV"
+            },
+            {
+                text: "Lebo slovo o kríži je bláznovstvom tým, ktorí hynú, ale nám, ktorí dosahujeme spasenie, je mocou Božou.",
+                ref: "1. Korintským 1, 18 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1026,5 +1140,11 @@ const songList = [
         number: 10,
         title: "Okamih, ktorý máš",
         subtitle: "Prítomná chvíľa a dar života v Kristovi"
+    },
+    {
+        id: 11,
+        number: 11,
+        title: "Temný pohľad",
+        subtitle: "Božie volanie k obráteniu, kým je čas"
     }
 ];
