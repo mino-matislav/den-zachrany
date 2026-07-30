@@ -1167,6 +1167,99 @@ const songData = {
                 ref: "Ján 5, 24 — ECAV"
             }
         ]
+    },
+    "13": {
+        id: 13,
+        number: 13,
+        title: "Drž ma pevne",
+        subtitle: "Modlitba dôvery v Božej ruke",
+        audioUrl: "assets/audio/songs/13-drz-ma-pevne.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "K Tebe volám Pane.",
+                    "Moju dušu uchovaj,",
+                    "navždy uchovaj.",
+                    "V Tvojej ruke drž ma pevne.",
+                    "V priazni svojej zachovaj,",
+                    "áno zachovaj."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén 1",
+                lines: [
+                    "Čo tým získaš ak ma zdrtíš",
+                    "a zostúpim do jamy.",
+                    "Aký osoh z mojej krvi,",
+                    "prosím zastav tsunami."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "K Tebe volám Pane.",
+                    "Môjmu duchu život daj,",
+                    "večný život daj.",
+                    "V Tvojej ruke drž ma pevne.",
+                    "V priazni svojej zachovaj,",
+                    "áno zachovaj."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén 2 (2×)",
+                lines: [
+                    "Obnov ducha v mojom vnútri",
+                    "a povoláš ma k slobode.",
+                    "Z Jeho Pravdy neodlúči,",
+                    "nič vytrhnúť ma nemôže."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Večný život v Tebe mám.",
+                    "V pravde navždy ostávam.",
+                    "V pravde navždy ostávam."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Ochraňuj moju dušu, lebo som zbožný; zachráň svojho služobníka, ktorý dúfa v Teba, Ty si môj Boh.",
+                ref: "Žalm 86, 2 — ECAV"
+            },
+            {
+                text: "Ja im dávam večný život, nezahynú naveky a nikto mi ich nevytrhne z ruky.",
+                ref: "Ján 10, 28 — ECAV"
+            },
+            {
+                text: "Aký osoh bude z mojej krvi, keď zostúpim do jamy? Či Ťa bude prach oslavovať? Či bude zvestovať Tvoju pravdu?",
+                ref: "Žalm 30, 10 — ECAV"
+            },
+            {
+                text: "Stvor mi čisté srdce, ó Bože, a obnov vo mne pevného ducha.",
+                ref: "Žalm 51, 12 — ECAV"
+            },
+            {
+                text: "Kristus nás oslobodil k slobode. Stojte teda a nedajte sa znova zapriahnuť do jarma otroctva.",
+                ref: "Galaťanom 5, 1 — ECAV"
+            },
+            {
+                text: "Som presvedčený, že ani smrť ani život, ani anjeli ani kniežatstvá, ani prítomnosť ani budúcnosť, ani mocnosti, ani výška ani hĺbka, ani nijaké iné stvorenie nebude nás môcť odlúčiť od lásky Božej, ktorá je v Kristovi Ježišovi, našom Pánovi.",
+                ref: "Rimanom 8, 38–39 — ECAV"
+            },
+            {
+                text: "A toto je svedectvo: Boh nám dal večný život, a tento život je v Jeho Synovi. Kto má Syna, má život; kto nemá Syna Božieho, nemá život.",
+                ref: "1. Jánov 5, 11–12 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1242,5 +1335,11 @@ const songList = [
         number: 12,
         title: "Konečná destinácia",
         subtitle: "Otázka večnosti a záchrana v Kristovi"
+    },
+    {
+        id: 13,
+        number: 13,
+        title: "Drž ma pevne",
+        subtitle: "Modlitba dôvery v Božej ruke"
     }
 ];
