@@ -1548,7 +1548,7 @@ const songData = {
                 label: "Refrén (2×)",
                 lines: [
                     "Do sna Svetlo preniká,",
-                    "v ňom je On a On je v Ňom.",
+                    "v Ňom je On a On je v Ňom.",
                     "Nádej, lásku ponúka,",
                     "nahraď strach pokojom.",
                     "Iba On je záchrana,",
