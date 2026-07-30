@@ -9,7 +9,7 @@ const songData = {
         number: 1,
         title: "Záchrana v temnote",
         subtitle: "Svetlo a bezpečie uprostred strachu",
-        audioUrl: "assets/audio/songs/01-zachrana-v-temnote.mp3",
+        audioUrl: "assets/audio/songs/01-zachrana-v-temnote.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -107,7 +107,7 @@ const songData = {
         number: 2,
         title: "Nič nového pod slnkom",
         subtitle: "Pokoj v Božom poriadku sveta",
-        audioUrl: "assets/audio/songs/02-nic-noveho-pod-slnkom.mp3?v=hq",
+        audioUrl: "assets/audio/songs/02-nic-noveho-pod-slnkom.mp3?v=hq2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -189,7 +189,7 @@ const songData = {
         number: 3,
         title: "Nemám strach",
         subtitle: "Sila, hodnota a sloboda od strachu",
-        audioUrl: "assets/audio/songs/03-nemam-strach.mp3?v=hq",
+        audioUrl: "assets/audio/songs/03-nemam-strach.mp3?v=hq2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -661,7 +661,7 @@ const songData = {
         number: 8,
         title: "Priestor Duchu",
         subtitle: "Život v Duchu a záchrana z milosti",
-        audioUrl: "assets/audio/songs/08-priestor-duchu.mp3",
+        audioUrl: "assets/audio/songs/08-priestor-duchu.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
