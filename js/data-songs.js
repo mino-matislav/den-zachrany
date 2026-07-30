@@ -741,6 +741,106 @@ const songData = {
                 ref: "Efezským 2, 8–9 — ECAV"
             }
         ]
+    },
+    "9": {
+        id: 9,
+        number: 9,
+        title: "Prichádza zmena",
+        subtitle: "Pozvanie otvoriť srdce Kristovi",
+        audioUrl: "assets/audio/songs/09-prichadza-zmena.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Zmena už sa blíži,",
+                    "niečo veľké prichádza.",
+                    "Tento svet sa mýli,",
+                    "čiernym biele nahrádza."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Strach ti kradne spánok,",
+                    "partnerom je nočný tieň.",
+                    "Možno ďalšie ráno,",
+                    "už neprinesie nový deň."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Aj slepý vníma znamenia,",
+                    "prečo ich ty nevidíš.",
+                    "Iba v Ňom je záchrana,",
+                    "Jeho krv ťa očistí.",
+                    "",
+                    "V tichu počuť Jeho hlas,",
+                    "snáď mu srdcom uveríš.",
+                    "Neodmietaj kým je čas,",
+                    "On ti pravdu odhalí."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Stvoriteľ ti život dal,",
+                    "čaká, volá, neváhaj.",
+                    "Stojí pri tvojich dverách,",
+                    "otvoriť mu musíš sám."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Aj slepý vníma znamenia,",
+                    "prečo ich ty nevidíš.",
+                    "Iba v Ňom je záchrana,",
+                    "Jeho krv ťa očistí.",
+                    "",
+                    "V tichu počuť Jeho hlas,",
+                    "snáď mu srdcom uveríš.",
+                    "Neodmietaj kým je čas,",
+                    "On ti pravdu odhalí."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Tak aj vy, keď toto všetko uvidíte, vedzte, že je blízko, predo dvermi.",
+                ref: "Matúš 24, 33 — ECAV"
+            },
+            {
+                text: "Beda tým, ktorí zlé nazývajú dobrým a dobré zlým, ktorí robia z tmy svetlo a zo svetla tmu.",
+                ref: "Izaiáš 5, 20 — ECAV"
+            },
+            {
+                text: "Vzhľad oblohy viete posúdiť, ale znamenia časov neviete?",
+                ref: "Matúš 16, 3 — ECAV"
+            },
+            {
+                text: "A nieto v nikom inom spasenia, lebo ani niet pod nebom iného mena daného ľuďom, v ktorom by sme mali byť spasení.",
+                ref: "Skutky 4, 12 — ECAV"
+            },
+            {
+                text: "Krv Jeho Syna Ježiša očisťuje nás od každého hriechu.",
+                ref: "1. Jánov 1, 7 — ECAV"
+            },
+            {
+                text: "Ajhľa, stojím pri dverách a klopem. Ak niekto počuje môj hlas a otvorí dvere, vojdem k nemu a budem večerať s ním a on so mnou.",
+                ref: "Zjavenie 3, 20 — ECAV"
+            },
+            {
+                text: "Ajhľa, teraz je čas veľmi príhodný; ajhľa, teraz je deň spasenia!",
+                ref: "2. Korintským 6, 2 — ECAV"
+            }
+        ]
     }
 };
 
@@ -792,5 +892,11 @@ const songList = [
         number: 8,
         title: "Priestor Duchu",
         subtitle: "Život v Duchu a záchrana z milosti"
+    },
+    {
+        id: 9,
+        number: 9,
+        title: "Prichádza zmena",
+        subtitle: "Pozvanie otvoriť srdce Kristovi"
     }
 ];
