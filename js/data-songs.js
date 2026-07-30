@@ -841,6 +841,128 @@ const songData = {
                 ref: "2. Korintským 6, 2 — ECAV"
             }
         ]
+    },
+    "10": {
+        id: 10,
+        number: 10,
+        title: "Okamih, ktorý máš",
+        subtitle: "Prítomná chvíľa a dar života v Kristovi",
+        audioUrl: "assets/audio/songs/10-okamih-ktory-mas.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Jediný okamih, ktorý máš,",
+                    "je teraz.",
+                    "Zajtrajšok neistý, prečo naň,",
+                    "kladieš dôraz.",
+                    "Lebo nevieš, čo deň prinesie,",
+                    "v tvojich rukách nič nemáš.",
+                    "Čo keď príde nešťastie,",
+                    "svoj čas totiž nepoznáš."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "V tvojom srdci mnoho plánov,",
+                    "krátky život nestačí.",
+                    "Neovplyvníš zámer Pánov,",
+                    "to čo chce uskutoční."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Človek nevie, čo sa stane,",
+                    "kto oznámi mu, ako bude.",
+                    "Cesta nie je v jeho moci,",
+                    "neriadi si svoje kroky."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Jediný okamih, ktorý máš,",
+                    "je teraz.",
+                    "Zajtrajšok neistý, prečo naň,",
+                    "kladieš dôraz.",
+                    "Lebo nevieš, čo deň prinesie,",
+                    "v tvojich rukách nič nemáš.",
+                    "Čo keď príde nešťastie,",
+                    "svoj čas totiž nepoznáš."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Tak prijmi Svetlo do srdca,",
+                    "ten dar čo sa ti ponúka.",
+                    "On odhalí ti tajomstvá,",
+                    "zmysel tvojho života."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Jediný okamih, ktorý máš,",
+                    "je teraz.",
+                    "Zajtrajšok neistý, prečo naň,",
+                    "kladieš dôraz.",
+                    "Lebo nevieš, čo deň prinesie,",
+                    "v tvojich rukách nič nemáš.",
+                    "Čo keď príde nešťastie,",
+                    "svoj čas totiž nepoznáš."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Tak prijmi Svetlo do srdca,",
+                    "ten dar čo sa ti ponúka.",
+                    "On odhalí ti tajomstvá,",
+                    "zmysel tvojho života."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Mnoho plánov je v srdci človeka, ale zámer Hospodinov obstojí.",
+                ref: "Príslovia 19, 21 — ECAV"
+            },
+            {
+                text: "Viem, Hospodine, že človek nemá vo svojej moci svoju cestu; nie je v moci človeka, ktorý chodí, riadiť svoje kroky.",
+                ref: "Jeremiáš 10, 23 — ECAV"
+            },
+            {
+                text: "Nechváľ sa zajtrajším dňom, lebo nevieš, čo deň prinesie.",
+                ref: "Príslovia 27, 1 — ECAV"
+            },
+            {
+                text: "Dnes, keď počujete Jeho hlas, nezatvrdzujte si srdcia.",
+                ref: "Židom 3, 15 — ECAV"
+            },
+            {
+                text: "Ja som svetlo sveta; kto mňa nasleduje, nebude chodiť v tme, ale bude mať svetlo života.",
+                ref: "Ján 8, 12 — ECAV"
+            },
+            {
+                text: "Darom Božím z milosti je večný život v Kristovi Ježišovi, našom Pánovi.",
+                ref: "Rimanom 6, 23 — ECAV"
+            },
+            {
+                text: "Tajomstvo Boha, totiž Krista, v ktorom sú skryté všetky poklady múdrosti a poznania.",
+                ref: "Kolosenským 2, 2–3 — ECAV"
+            }
+        ]
     }
 };
 
@@ -898,5 +1020,11 @@ const songList = [
         number: 9,
         title: "Prichádza zmena",
         subtitle: "Pozvanie otvoriť srdce Kristovi"
+    },
+    {
+        id: 10,
+        number: 10,
+        title: "Okamih, ktorý máš",
+        subtitle: "Prítomná chvíľa a dar života v Kristovi"
     }
 ];
