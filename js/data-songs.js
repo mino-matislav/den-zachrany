@@ -1077,6 +1077,96 @@ const songData = {
                 ref: "1. Korintským 1, 18 — ECAV"
             }
         ]
+    },
+    "12": {
+        id: 12,
+        number: 12,
+        title: "Konečná destinácia",
+        subtitle: "Otázka večnosti a záchrana v Kristovi",
+        audioUrl: "assets/audio/songs/12-konecna-destinacia.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Túžiš mať a tak hľadáš,",
+                    "veci, pokoj, prostredie.",
+                    "Dušu svoju vypredáš,",
+                    "za pocit zmyslov, poznanie."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Kam až zájdeš, kam až zájdeš,",
+                    "v naháňačke za vetrom.",
+                    "Kde sa nájdeš, kde sa nájdeš,",
+                    "keď vyhasneš pod vekom."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "V mŕtvom tele, iba červy nehynú,",
+                    "už tam nie si, už tam nie si.",
+                    "V prachu zeme, tam máš skrýšu nehybnú,",
+                    "duša kde si, duša moja tak kde si?"
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Už mi je to jasné, pomôž mi,",
+                    "nehasne tu oheň pálivý.",
+                    "Nehasne tu oheň v podsvetí,",
+                    "už mi je to jasné naveky.",
+                    "",
+                    "Na kolenách prosím, zachráň ma,",
+                    "daj mi ešte jednu – šancu poslednú.",
+                    "Tento hrozný plameň, ničí ma,",
+                    "vytrhni ma hore – cez bránu pekelnú.",
+                    "",
+                    "Už mi je to jasné, pomôž mi,",
+                    "nehasne tu oheň pálivý.",
+                    "Nehasne tu oheň v podsvetí,",
+                    "už mi je to jasné – naveky."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Lebo čo osoží človeku, keby aj celý svet získal, ale svojej duši by uškodil? Alebo čo dá človek ako výmenu za svoju dušu?",
+                ref: "Matúš 16, 26 — ECAV"
+            },
+            {
+                text: "Videl som všetky skutky, ktoré sa dejú pod slnkom, a hľa, všetko je márnosť a honba za vetrom.",
+                ref: "Kazateľ 1, 14 — ECAV"
+            },
+            {
+                text: "A ako je ľuďom uložené raz zomrieť, a potom bude súd.",
+                ref: "Židom 9, 27 — ECAV"
+            },
+            {
+                text: "A prach sa navráti do zeme, ako bol, a duch sa navráti k Bohu, ktorý ho dal.",
+                ref: "Kazateľ 12, 7 — ECAV"
+            },
+            {
+                text: "Do pekla, do neuhasiteľného ohňa, kde ich červ neumiera a oheň nehasne.",
+                ref: "Marek 9, 47–48 — ECAV"
+            },
+            {
+                text: "Lebo každý, kto by vzýval meno Pánovo, bude spasený.",
+                ref: "Rimanom 10, 13 — ECAV"
+            },
+            {
+                text: "Veru, veru vám hovorím: Kto počúva moje slovo a verí Tomu, ktorý ma poslal, má večný život a nejde na súd, ale prešiel zo smrti do života.",
+                ref: "Ján 5, 24 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1146,5 +1236,11 @@ const songList = [
         number: 11,
         title: "Temný pohľad",
         subtitle: "Božie volanie k obráteniu, kým je čas"
+    },
+    {
+        id: 12,
+        number: 12,
+        title: "Konečná destinácia",
+        subtitle: "Otázka večnosti a záchrana v Kristovi"
     }
 ];
