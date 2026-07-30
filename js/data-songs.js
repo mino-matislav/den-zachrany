@@ -1480,6 +1480,119 @@ const songData = {
                 ref: "Ján 6, 68 — ECAV"
             }
         ]
+    },
+    "16": {
+        id: 16,
+        number: 16,
+        title: "Na rozhraní tmy",
+        subtitle: "Svetlo, ktoré prenikne aj do najhlbšej tmy",
+        audioUrl: "assets/audio/songs/16-na-rozhrani-tmy.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "V pokročilej nočnej dobe,",
+                    "na rozhraní tmy.",
+                    "Padáš v mraku zabudnutia,",
+                    "do vypnutej hry."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Ponáraš sa do temnoty,",
+                    "skrýše spánku tela.",
+                    "Tam sa schováš do prázdnoty,",
+                    "duša osamelá."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Z bonbonieri svetských darov",
+                    "ponúkli ti prospech.",
+                    "U Kráľovien, poklad kráľov,",
+                    "slávu, moc a úspech.",
+                    "Neprímaj nič, sú to iba smeti,",
+                    "neber hadiu nákazu.",
+                    "Nebuď ako, nerozumné deti,",
+                    "zastav, nechoď na skazu."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 3",
+                lines: [
+                    "Ochutnal si sladkosť medu,",
+                    "očí, tela extázu.",
+                    "Naplnil si túžby z jedu,",
+                    "naletel na návnadu."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 4",
+                lines: [
+                    "Pád je tvrdý z výšky dolu,",
+                    "tvoj život je rozbitý.",
+                    "Hľadáš liek na nočnú moru,",
+                    "záblesk na kríž pribitý."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén (2×)",
+                lines: [
+                    "Do sna Svetlo preniká,",
+                    "v ňom je On a On je v Ňom.",
+                    "Nádej, lásku ponúka,",
+                    "nahraď strach pokojom.",
+                    "Iba On je záchrana,",
+                    "srdce plní útechou.",
+                    "Vieru v dobro navracia,",
+                    "prijmi ten dar – dnes,",
+                    "už neváhaj."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Viete, aký je čas, že už je hodina zobudiť sa zo spánku. Noc pokročila a deň sa priblížil. Odložme teda skutky tmy a oblečme sa do výzbroje svetla.",
+                ref: "Rimanom 13, 11–12 — ECAV"
+            },
+            {
+                text: "Nemilujte svet ani to, čo je vo svete. Lebo všetko, čo je vo svete, žiadosť tela, žiadosť očí a pýcha života, nie je z Otca, ale zo sveta.",
+                ref: "1. Jánov 2, 15–16 — ECAV"
+            },
+            {
+                text: "Všetko pokladám za stratu a za smeti, aby som Krista získal.",
+                ref: "Filipským 3, 8 — ECAV"
+            },
+            {
+                text: "Každého pokúša vlastná žiadosť, ktorá ho zvádza a láka. Potom žiadosť počne a porodí hriech.",
+                ref: "Jakub 1, 14–15 — ECAV"
+            },
+            {
+                text: "A svetlo svieti v tme a tma Ho nepohltila.",
+                ref: "Ján 1, 5 — ECAV"
+            },
+            {
+                text: "Boh, ktorý povedal: Z tmy nech zažiari svetlo, zažiaril v našich srdciach, aby zasvietilo poznanie slávy Božej v tvári Kristovej.",
+                ref: "2. Korintským 4, 6 — ECAV"
+            },
+            {
+                text: "Uzdrav ma, Hospodine, a budem uzdravený; zachráň ma a budem zachránený, lebo Ty si moja chvála.",
+                ref: "Jeremiáš 17, 14 — ECAV"
+            },
+            {
+                text: "A nieto v nikom inom spasenia, lebo ani niet pod nebom iného mena daného ľuďom, v ktorom by sme mali byť spasení.",
+                ref: "Skutky 4, 12 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1573,5 +1686,11 @@ const songList = [
         number: 15,
         title: "Svetlo v tme",
         subtitle: "Svetlo, pokoj a radosť v Kristovi"
+    },
+    {
+        id: 16,
+        number: 16,
+        title: "Na rozhraní tmy",
+        subtitle: "Svetlo, ktoré prenikne aj do najhlbšej tmy"
     }
 ];
