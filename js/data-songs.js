@@ -655,6 +655,92 @@ const songData = {
                 ref: "Efezským 6, 16 — ECAV"
             }
         ]
+    },
+    "8": {
+        id: 8,
+        number: 8,
+        title: "Priestor Duchu",
+        subtitle: "Život v Duchu a záchrana z milosti",
+        audioUrl: "assets/audio/songs/08-priestor-duchu.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Utlmujem telo, dušu,",
+                    "dávam priestor Jeho Duchu.",
+                    "Iba v Ňom mám dokonalosť,",
+                    "daroval mi spravodlivosť."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Moju myseľ podriaďujem,",
+                    "emócie podmaňujem.",
+                    "Jeho vôľa ako v nebi,",
+                    "nech nastane aj na zemi."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Vytrhni nás z tohto zlého veku.",
+                    "Milosťou sme zachránení.",
+                    "V tvojich sľuboch mám útechu.",
+                    "Skrze vieru spasení."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Utlmujem telo, dušu,",
+                    "dávam priestor Jeho Duchu.",
+                    "Iba v Ňom mám dokonalosť,",
+                    "daroval mi spravodlivosť."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Vytrhni nás z tohto zlého veku.",
+                    "Milosťou sme zachránení.",
+                    "V tvojich sľuboch mám útechu.",
+                    "Skrze vieru spasení."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Lebo ak podľa tela žijete, zomriete; ale ak Duchom umŕtvujete skutky tela, budete žiť.",
+                ref: "Rimanom 8, 13 — ECAV"
+            },
+            {
+                text: "Toho, ktorý nepoznal hriech, urobil za nás hriechom, aby sme my v Ňom boli spravodlivosťou pred Bohom.",
+                ref: "2. Korintským 5, 21 — ECAV"
+            },
+            {
+                text: "A nepripodobňujte sa tomuto svetu, ale premeňte sa obnovením zmýšľania, aby ste vedeli rozoznať, čo je vôľa Božia, totiž čo je dobré, milé a dokonalé.",
+                ref: "Rimanom 12, 2 — ECAV"
+            },
+            {
+                text: "Príď kráľovstvo Tvoje; buď vôľa Tvoja ako v nebi tak i na zemi.",
+                ref: "Matúš 6, 10 — ECAV"
+            },
+            {
+                text: "Kristus seba samého vydal za naše hriechy, aby nás vytrhol z terajšieho zlého veku podľa vôle Boha a nášho Otca.",
+                ref: "Galaťanom 1, 4 — ECAV"
+            },
+            {
+                text: "Lebo milosťou ste spasení skrze vieru. A to nie sami zo seba; je to dar Boží; nie zo skutkov, aby sa nikto nechválil.",
+                ref: "Efezským 2, 8–9 — ECAV"
+            }
+        ]
     }
 };
 
@@ -700,5 +786,11 @@ const songList = [
         number: 7,
         title: "Jediný pevný bod",
         subtitle: "Pevná Skala, keď sa všetko chveje"
+    },
+    {
+        id: 8,
+        number: 8,
+        title: "Priestor Duchu",
+        subtitle: "Život v Duchu a záchrana z milosti"
     }
 ];
