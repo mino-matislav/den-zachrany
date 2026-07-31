@@ -405,6 +405,10 @@ const songData = {
                 ref: "Ján 14, 27 — ECAV"
             },
             {
+                text: "Veru, upokojil som si dušu, utíšil ju.",
+                ref: "Žalm 131, 2 — ECAV"
+            },
+            {
                 text: "Kto sa však napije z vody, ktorú mu ja dám, nebude žízniť naveky; ale voda, ktorú mu dám, stane sa v ňom prameňom vody prúdiacej do večného života.",
                 ref: "Ján 4, 14 — ECAV"
             },
@@ -423,6 +427,10 @@ const songData = {
             {
                 text: "Nie vy ste si mňa vyvolili, ale ja som si vás vyvolil a ustanovil som vás, aby ste šli a prinášali ovocie…",
                 ref: "Ján 15, 16 — ECAV"
+            },
+            {
+                text: "Svoj zákon vložím do ich vnútra a vpíšem im ho do srdca; ja budem ich Bohom a oni budú mojím ľudom.",
+                ref: "Jeremiáš 31, 33 — ECAV"
             },
             {
                 text: "On uzdravuje skrúšených srdcom a obväzuje ich rany.",
