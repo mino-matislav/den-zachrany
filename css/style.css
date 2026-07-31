@@ -1742,3 +1742,90 @@ html {
     margin-bottom: var(--space-2);
     letter-spacing: 0.02em;
 }
+
+/* ============================================
+   SÚVISLÉ PREHRÁVANIE PIESNÍ
+   ============================================ */
+.queue-card {
+    max-width: 680px;
+    margin: 0 auto var(--space-8);
+    background: var(--white);
+    border-radius: var(--radius-xl);
+    padding: var(--space-5) var(--space-6);
+    box-shadow: 0 4px 24px var(--shadow);
+}
+
+.queue-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+}
+
+.queue-icon { font-size: 1.6rem; }
+
+.queue-label {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--graphite);
+}
+
+.queue-now {
+    font-size: var(--text-sm);
+    color: var(--gold);
+    margin-top: 2px;
+}
+
+.queue-shuffle {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-top: var(--space-4);
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: var(--radius-lg);
+    background: transparent;
+    color: var(--graphite);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+.queue-shuffle:hover { background: var(--gold-light); }
+.queue-shuffle.is-on {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--white);
+}
+
+/* Tlačidlo prehrať pri karte piesne */
+.song-play-btn {
+    position: absolute;
+    top: var(--space-5);
+    right: var(--space-5);
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(212, 175, 55, 0.35);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.song-play-btn svg { width: 22px; height: 22px; margin-left: 2px; }
+.song-play-btn:hover { transform: scale(1.06); }
+
+.songs-list .chapter-item { position: relative; }
+.songs-list .chapter-title { padding-right: 56px; }
+
+/* Práve hrajúca pieseň */
+.songs-list .chapter-item.is-playing {
+    border-color: var(--gold);
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+}
+.songs-list .chapter-item.is-playing .chapter-number { color: var(--gold); }

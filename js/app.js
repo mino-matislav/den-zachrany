@@ -257,6 +257,9 @@
         songList.forEach(function(s) {
             html += '<article class="chapter-item" data-id="' + s.id + '" role="listitem">';
             html += '<div class="chapter-number">' + s.number + '</div>';
+            html += '<button class="song-play-btn" type="button" data-id="' + s.id + '" aria-label="Prehrať pieseň ' + s.title + '">';
+            html += '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+            html += '</button>';
             html += '<h3 class="chapter-title">' + s.title + '</h3>';
             if (s.subtitle) {
                 html += '<p class="chapter-desc">' + s.subtitle + '</p>';
@@ -265,6 +268,143 @@
             html += '</article>';
         });
         songsListEl.innerHTML = html;
+
+        // ============================================
+        // SÚVISLÉ PREHRÁVANIE PIESNÍ
+        // ============================================
+        const queueCard = document.querySelector('.queue-card');
+        const queueAudio = document.querySelector('.queue-audio');
+
+        if (queueCard && queueAudio && typeof songData !== 'undefined') {
+            queueCard.hidden = false;
+
+            const ids = songList.map(function(s) { return String(s.id); });
+            let order = ids.slice();      // aktuálne poradie prehrávania
+            let pos = -1;                 // index v poradí
+            let shuffled = false;
+            let hasStarted = false;
+            const player = new AudioPlayer(queueAudio);
+
+            const nowEl = document.querySelector('.queue-now');
+            const shuffleBtn = document.querySelector('.queue-shuffle');
+
+            function shuffleArray(a) {
+                const r = a.slice();
+                for (let i = r.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    const t = r[i]; r[i] = r[j]; r[j] = t;
+                }
+                return r;
+            }
+
+            function highlight(id) {
+                songsListEl.querySelectorAll('.chapter-item').forEach(function(el) {
+                    el.classList.toggle('is-playing', el.dataset.id === String(id));
+                });
+            }
+
+            function scrollToCard(id) {
+                const card = songsListEl.querySelector('.chapter-item[data-id="' + id + '"]');
+                if (!card) return;
+                const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                card.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
+            }
+
+            function setMediaSession(song) {
+                if (!('mediaSession' in navigator)) return;
+                navigator.mediaSession.metadata = new MediaMetadata({
+                    title: song.title,
+                    artist: 'Deň Záchrany',
+                    album: 'Piesne',
+                    artwork: [{ src: 'assets/icon-512.png', sizes: '512x512', type: 'image/png' }]
+                });
+                navigator.mediaSession.setActionHandler('play', function() { player.play(); });
+                navigator.mediaSession.setActionHandler('pause', function() { player.pause(); });
+                navigator.mediaSession.setActionHandler('nexttrack', function() { playAt(pos + 1); });
+                navigator.mediaSession.setActionHandler('previoustrack', function() { prev(); });
+            }
+
+            function loadAt(index) {
+                if (!order.length) return;
+                if (index < 0) index = order.length - 1;
+                if (index >= order.length) index = 0;   // dokola
+                pos = index;
+
+                const id = order[pos];
+                const song = songData[id];
+                if (!song) return;
+
+                queueAudio.src = song.audioUrl;
+                queueAudio.load();
+                if (nowEl) nowEl.textContent = song.number + '. ' + song.title;
+                setMediaSession(song);
+            }
+
+            function playAt(index, doScroll) {
+                loadAt(index);
+                player.play();
+                if (doScroll !== false) scrollToCard(order[pos]);
+            }
+
+            function prev() {
+                // do 3 sekúnd = predchádzajúca, inak od začiatku
+                if (queueAudio.currentTime > 3) {
+                    queueAudio.currentTime = 0;
+                } else {
+                    playAt(pos - 1);
+                }
+            }
+
+            // zvýraznenie karty až keď sa naozaj hrá
+            queueAudio.addEventListener('play', function() {
+                hasStarted = true;
+                highlight(order[pos]);
+            });
+
+            // koniec piesne -> ďalšia
+            queueAudio.addEventListener('ended', function() {
+                playAt(pos + 1);
+            });
+
+            // tlačidlá pri kartách
+            songsListEl.addEventListener('click', function(e) {
+                const btn = e.target.closest('.song-play-btn');
+                if (!btn) return;
+                const id = btn.dataset.id;
+                if (hasStarted && pos >= 0 && order[pos] === id) {
+                    // tá istá pieseň -> prepnúť prehrávanie
+                    if (player.isPlaying) { player.pause(); } else { player.play(); }
+                    return;
+                }
+                playAt(order.indexOf(id), false);
+            });
+
+            document.querySelector('.queue-next').addEventListener('click', function() { playAt(pos + 1); });
+            document.querySelector('.queue-prev').addEventListener('click', prev);
+
+            if (shuffleBtn) {
+                shuffleBtn.addEventListener('click', function() {
+                    shuffled = !shuffled;
+                    shuffleBtn.classList.toggle('is-on', shuffled);
+                    shuffleBtn.setAttribute('aria-pressed', shuffled ? 'true' : 'false');
+
+                    const currentId = pos >= 0 ? order[pos] : null;
+                    order = shuffled ? shuffleArray(ids) : ids.slice();
+
+                    if (hasStarted && currentId) {
+                        // práve hrajúcu pieseň nechať znieť ďalej
+                        const i = order.indexOf(currentId);
+                        if (i > -1) { order.splice(i, 1); order.unshift(currentId); pos = 0; }
+                    } else {
+                        // ešte sa nehralo -> pripraviť prvú z nového poradia
+                        loadAt(0);
+                    }
+                });
+            }
+
+            // pripraviť prvú pieseň (aby fungovalo hlavné tlačidlo prehrať)
+            loadAt(0);
+        }
     }
 
     // ============================================
