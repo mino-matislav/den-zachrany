@@ -2043,33 +2043,69 @@ body:has(.listen-cta) .chapters-section {
     position: relative;
     margin-bottom: var(--space-6);
 }
-.filter-wrap::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 36px;
-    height: 100%;
-    pointer-events: none;
-    background: linear-gradient(90deg, rgba(250, 247, 240, 0) 0%, var(--cream) 85%);
-}
+
+/* DESKTOP: tagy sa zalamujú do riadkov */
 .filter-bar {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: var(--space-2);
-    overflow-x: auto;
     margin-bottom: 0;
-    padding: 2px var(--space-8) var(--space-2) 2px;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    scroll-snap-type: x proximity;
-    -webkit-overflow-scrolling: touch;
+    padding: 2px 2px var(--space-2);
 }
-.filter-bar::-webkit-scrollbar { display: none; }
 .filter-btn {
     flex-shrink: 0;
-    scroll-snap-align: start;
+}
+
+/* MOBILE: vodorovne posúvateľný pás s náznakmi */
+@media (max-width: 768px) {
+    .filter-wrap::before {
+        content: 'ťahaj →';
+        position: absolute;
+        top: -18px;
+        right: var(--space-4);
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: var(--gold);
+        opacity: 0.7;
+        letter-spacing: 0.04em;
+        pointer-events: none;
+        animation: hintPulse 2.5s ease-in-out 2;
+    }
+    .filter-wrap::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 48px;
+        height: 100%;
+        pointer-events: none;
+        background: linear-gradient(90deg, rgba(250, 247, 240, 0) 0%, var(--cream) 90%);
+        z-index: 2;
+    }
+    .filter-bar {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-right: var(--space-12);
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        scroll-snap-type: x proximity;
+        -webkit-overflow-scrolling: touch;
+    }
+    .filter-bar::-webkit-scrollbar { display: none; }
+    .filter-btn {
+        scroll-snap-align: start;
+    }
+}
+
+@keyframes hintPulse {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 0.3; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .filter-wrap::before { animation: none; }
 }
 
 /* ============================================
