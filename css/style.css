@@ -581,10 +581,13 @@ button {
 
 /* Player */
 .player {
-    background: var(--cream-light);
-    border-radius: var(--radius-lg);
-    padding: var(--space-6);
-    margin-bottom: var(--space-6);
+    background: linear-gradient(158deg, #FCF8ED 0%, #F3EBD6 100%);
+    border: 1px solid rgba(212, 175, 55, 0.45);
+    border-radius: 14px;
+    padding: var(--space-4) var(--space-5);
+    margin-bottom: var(--space-4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7),
+                0 1px 3px rgba(90, 74, 30, 0.06);
 }
 
 .player-controls {
@@ -898,7 +901,7 @@ button {
    PAGE HEADER (pre podstránky)
    ============================================ */
 .page-header {
-    padding: calc(64px + var(--space-16)) var(--space-6) var(--space-12);
+    padding: calc(64px + var(--space-8)) var(--space-6) var(--space-6);
     background: linear-gradient(180deg, var(--cream-light) 0%, var(--cream) 100%);
     text-align: center;
     position: relative;
@@ -938,7 +941,7 @@ button {
    CHAPTERS LIST
    ============================================ */
 .chapters-section {
-    padding: var(--space-12) var(--space-6) var(--space-20);
+    padding: var(--space-6) var(--space-6) var(--space-20);
     background: var(--cream);
 }
 
@@ -2032,3 +2035,128 @@ body:has(.listen-cta) .chapters-section {
 .listen-cta {
     margin-bottom: var(--space-5);
 }
+
+/* ============================================
+   FILTRE KAPITOL — vodorovne posuvný pás
+   ============================================ */
+.filter-wrap {
+    position: relative;
+    margin-bottom: var(--space-6);
+}
+.filter-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(90deg, rgba(250, 247, 240, 0) 0%, var(--cream) 85%);
+}
+.filter-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: var(--space-2);
+    overflow-x: auto;
+    margin-bottom: 0;
+    padding: 2px var(--space-8) var(--space-2) 2px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+}
+.filter-bar::-webkit-scrollbar { display: none; }
+.filter-btn {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+/* ============================================
+   ZÚŽENIE PREHRÁVAČA (Počúvaj a čítaj)
+   ============================================ */
+.listen-player-inner {
+    padding: var(--space-3) var(--space-4);
+}
+.listen-player .player {
+    margin-bottom: 0;
+}
+.listen-player .queue-shuffle {
+    margin-top: var(--space-3);
+}
+.queue-now-row {
+    margin-bottom: var(--space-2);
+}
+
+/* ============================================
+   VIZUÁLNE DOLADENIE
+   ============================================ */
+.hero-title,
+.page-title {
+    text-shadow: 0 1px 2px rgba(90, 74, 30, 0.08);
+}
+
+/* karty sa jemne nadvihnú */
+.chapter-item {
+    transition: transform var(--transition-fast),
+                box-shadow var(--transition-fast),
+                border-color var(--transition-fast);
+}
+.chapter-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(90, 74, 30, 0.12);
+    border-color: rgba(212, 175, 55, 0.55);
+}
+.chapter-item:active { transform: translateY(-1px); }
+
+.listen-cta {
+    transition: box-shadow var(--transition-fast);
+}
+.listen-cta:hover {
+    box-shadow: 0 8px 30px rgba(90, 74, 30, 0.12);
+}
+
+/* náznak posunu pod prehrávačom na stránke Piesne */
+.songs-list { scroll-margin-top: 80px; }
+
+@media (prefers-reduced-motion: reduce) {
+    .chapter-item:hover { transform: none; }
+}
+
+/* ešte kompaktnejší prehrávač na stránke Počúvaj a čítaj */
+.listen-player .player {
+    padding: var(--space-3) var(--space-4);
+}
+.listen-player .player-controls {
+    gap: var(--space-3);
+}
+.listen-player .queue-shuffle {
+    margin-top: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+}
+
+/* Náhodne v riadku s časom (šetrí jeden riadok) */
+.listen-player .player-time {
+    min-width: 150px;
+}
+.listen-player .queue-shuffle {
+    margin-top: 0;
+    flex-shrink: 0;
+}
+
+/* viac šírky pre riadok s časom a tlačidlom Náhodne */
+.listen-player-inner {
+    padding: var(--space-3);
+}
+.listen-player .player {
+    padding: var(--space-3);
+}
+.listen-player .player-time {
+    min-width: 130px;
+}
+
+/* OPRAVA: skryté tlačidlo (play/pause) sa nesmie zobrazovať */
+.player-btn[hidden] {
+    display: none;
+}
+.listen-player .player-time { flex: 1 1 130px; }
