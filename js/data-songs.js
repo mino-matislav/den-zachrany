@@ -97,10 +97,32 @@ const songData = {
                 ]
             }
         ],
-        verse: {
-            text: "Hospodin je mojím svetlom a spásou, koho sa mám báť? Hospodin mi je pevnosťou žitia, koho sa mám ľakať? Keď sa zlostníci približujú ku mne, aby mi zožierali telo, utláčatelia a nepriatelia moji potknú sa a padnú. Keby sa rozložil proti mne tábor, moje srdce sa nebojí; a keby sa aj vojna strhla proti mne, aj vtedy dúfam. Jedno som prosil od Hospodina, to žiadať budem: môcť bývať v dome Hospodinovom po všetky dni svojho života, vidieť láskavosť Hospodinovu a kochať sa v Jeho chráme. Lebo ma skryje vo svojom stane v deň pohromy, schová ma v skrýši svojho stánku, vyvýši ma na skalu.",
-            ref: "Žalm 27, 1–5 — ECAV"
-        }
+        verses: [
+            {
+                text: "Hospodin je mojím svetlom a spásou, koho sa mám báť? Hospodin mi je pevnosťou žitia, koho sa mám ľakať? Keď sa zlostníci približujú ku mne, aby mi zožierali telo, utláčatelia a nepriatelia moji potknú sa a padnú. Keby sa rozložil proti mne tábor, moje srdce sa nebojí; a keby sa aj vojna strhla proti mne, aj vtedy dúfam. Jedno som prosil od Hospodina, to žiadať budem: môcť bývať v dome Hospodinovom po všetky dni svojho života, vidieť láskavosť Hospodinovu a kochať sa v Jeho chráme. Lebo ma skryje vo svojom stane v deň pohromy, schová ma v skrýši svojho stánku, vyvýši ma na skalu.",
+                ref: "Žalm 27, 1–5 — ECAV"
+            },
+            {
+                text: "Čo teda povedať na to? Keď Boh za nás, kto proti nám?",
+                ref: "Rimanom 8, 31 — ECAV"
+            },
+            {
+                text: "Veď On sám povedal: Neopustím ťa, ani nezanechám; takže smelo môžeme vyznávať: Pán je mojím pomocníkom, nebudem sa báť; veď čo mi urobí človek?",
+                ref: "Židom 13, 5–6 — ECAV"
+            },
+            {
+                text: "Boh nám je útočiskom a silou, pomocou v súžení vždy osvedčenou. Preto sa nebojíme, keby sa aj prevrátila zem a vrchy klátili sa v srdci mora.",
+                ref: "Žalm 46, 2–3 — ECAV"
+            },
+            {
+                text: "Neboj sa, lebo ja som s tebou, nepozeraj ustrašene vôkol seba, lebo ja som Boh tvoj! Posilním ťa a pomôžem ti, i podopriem ťa svojou spásonosnou pravicou.",
+                ref: "Izaiáš 41, 10 — ECAV"
+            },
+            {
+                text: "Kto v skrýši Najvyššieho prebýva a odpočíva v tôni Všemohúceho, ten vraví Hospodinovi: Moje útočisko, hrad môj, môj Boh, ja v Neho dúfam! … Peruťou svojou prikryje ťa a nájdeš útočisko pod Jeho krídlami.",
+                ref: "Žalm 91, 1–2. 4 — ECAV"
+            }
+        ]
     },
     "2": {
         id: 2,
