@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=57">
+    <link rel="stylesheet" href="css/style.css?v=58">
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -57,6 +57,9 @@
                             <button class="player-btn queue-next" aria-label="Ďalšia pieseň">
                                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 18l8.5-6L6 6v12zM16 6h2v12h-2z"/></svg>
                             </button>
+                            <button class="queue-shuffle" type="button" aria-pressed="false">
+                                <span aria-hidden="true">⇄</span> Náhodne
+                            </button>
                             <div class="player-time">
                                 <span class="time-current">00:00</span>
                                 <div class="player-progress" role="slider" aria-label="Pozícia v audio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
@@ -67,9 +70,6 @@
                                 </div>
                                 <span class="time-duration">00:00</span>
                             </div>
-                            <button class="queue-shuffle" type="button" aria-pressed="false">
-                                <span aria-hidden="true">⇄</span> Náhodne
-                            </button>
                         </div>
                         <audio class="queue-audio" preload="metadata"></audio>
                     </div>

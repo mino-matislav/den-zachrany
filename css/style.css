@@ -581,13 +581,13 @@ button {
 
 /* Player */
 .player {
-    background: linear-gradient(158deg, #FCF8ED 0%, #F3EBD6 100%);
-    border: 1px solid rgba(212, 175, 55, 0.45);
+    background: linear-gradient(158deg, #F3F7FB 0%, #DFE8F2 100%);
+    border: 1px solid rgba(212, 175, 55, 0.55);
     border-radius: 14px;
     padding: var(--space-4) var(--space-5);
     margin-bottom: var(--space-4);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7),
-                0 1px 3px rgba(90, 74, 30, 0.06);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.85),
+                0 2px 6px rgba(60, 80, 105, 0.08);
 }
 
 .player-controls {
@@ -2251,4 +2251,38 @@ body:has(.listen-cta) .chapters-section {
 
 @media (prefers-reduced-motion: reduce) {
     .chapter-item.is-match.flash { animation: none; }
+}
+
+/* Rozloženie prehrávača: Náhodne vpravo pri piktogramoch, lišta cez celú šírku */
+.listen-player .queue-shuffle {
+    margin-left: auto;
+    margin-top: 0;
+}
+.listen-player .player-time {
+    flex: 1 1 100%;
+    min-width: 0;
+    margin-top: var(--space-3);
+}
+
+/* Klikateľné témy na kartách kapitol */
+.chapter-tag {
+    cursor: pointer;
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+.chapter-tag:hover,
+.chapter-tag:focus-visible {
+    background: var(--gold);
+    color: var(--white);
+}
+.listen-player .queue-shuffle {
+    padding: var(--space-2) var(--space-3);
+}
+
+/* prehrávač na počúvacej stránke má rovnakú farebnosť ako všade inde */
+.listen-player .player {
+    background: linear-gradient(158deg, #F3F7FB 0%, #DFE8F2 100%);
+    border: 1px solid rgba(212, 175, 55, 0.55);
+}
+.listen-player-inner {
+    background: var(--white);
 }

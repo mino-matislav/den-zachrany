@@ -125,7 +125,6 @@
             chaptersList.innerHTML = listHtml;
         }
 
-        const filterBtns = document.querySelectorAll('.filter-btn');
         const chapterItems = document.querySelectorAll('.chapter-item');
         const lastReadId = Storage.getLastRead();
 
@@ -141,6 +140,31 @@
         // ============================================
         // FILTER KAPITOL
         // ============================================
+        const filterBar = document.querySelector('.filter-bar');
+
+        // Tlačidlá tém sa vytvárajú z dát kapitol — vždy sedia s obsahom
+        if (filterBar && typeof chapterData !== 'undefined') {
+            const counts = {};
+            Object.keys(chapterData).forEach(function(id) {
+                (chapterData[id].tags || []).forEach(function(t) {
+                    const tag = t.trim().toLowerCase();
+                    if (tag) counts[tag] = (counts[tag] || 0) + 1;
+                });
+            });
+            // najčastejšie témy prvé, pri rovnosti podľa abecedy
+            const sorted = Object.keys(counts).sort(function(a, b) {
+                if (counts[b] !== counts[a]) return counts[b] - counts[a];
+                return a.localeCompare(b, 'sk');
+            });
+            let btnHtml = '';
+            sorted.forEach(function(tag) {
+                const label = tag.charAt(0).toUpperCase() + tag.slice(1);
+                btnHtml += '<button class="filter-btn" data-tag="' + tag + '" aria-pressed="false">' + label + '</button>';
+            });
+            filterBar.insertAdjacentHTML('beforeend', btnHtml);
+        }
+
+        const filterBtns = document.querySelectorAll('.filter-btn');
         const resultBox = document.querySelector('.filter-result');
         const resultText = document.querySelector('.filter-result-text');
         const resetBtn = document.querySelector('.filter-reset');
@@ -153,13 +177,10 @@
             return n + ' kapitol';
         }
 
-        // zhoda aj na časť viacslovného tagu ("strach" nájde "strach zo smrti"),
-        // ale nie na podreťazec vnútri slova ("pokoj" nenájde "nepokoj")
+        // témy tlačidiel pochádzajú priamo z dát, preto porovnávame presne
         function matchesTag(item, tag) {
             const tags = (item.dataset.tags || '').split(',');
-            return tags.some(function(t) {
-                return t.trim().toLowerCase().split(/\s+/).indexOf(tag) > -1;
-            });
+            return tags.some(function(t) { return t.trim().toLowerCase() === tag; });
         }
 
         function scrollToList() {
@@ -239,6 +260,22 @@
                     allBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
                 }
                 applyFilter('all', 'Všetky', false);
+            });
+        }
+
+        // Kliknutie na tému priamo na karte kapitoly
+        if (listEl) {
+            listEl.addEventListener('click', function(e) {
+                const tagEl = e.target.closest('.chapter-tag');
+                if (!tagEl) return;
+                e.preventDefault();
+                const tag = tagEl.textContent.trim().toLowerCase();
+                const btn = document.querySelector('.filter-btn[data-tag="' + tag + '"]');
+                if (btn) {
+                    btn.click();
+                } else {
+                    applyFilter(tag, tagEl.textContent.trim());
+                }
             });
         }
     }
