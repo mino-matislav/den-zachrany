@@ -409,12 +409,24 @@ const songData = {
                 ref: "Ján 4, 14 — ECAV"
             },
             {
+                text: "Dám vám nové srdce a nového ducha do vášho vnútra; odstránim kamenné srdce z vášho tela a dám vám srdce mäsité.",
+                ref: "Ezechiel 36, 26 — ECAV"
+            },
+            {
+                text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.",
+                ref: "Príslovia 3, 5–6 — ECAV"
+            },
+            {
                 text: "On nás vytrhol z moci tmy a preniesol do kráľovstva svojho milovaného Syna.",
                 ref: "Kolosenským 1, 13 — ECAV"
             },
             {
                 text: "Nie vy ste si mňa vyvolili, ale ja som si vás vyvolil a ustanovil som vás, aby ste šli a prinášali ovocie…",
                 ref: "Ján 15, 16 — ECAV"
+            },
+            {
+                text: "On uzdravuje skrúšených srdcom a obväzuje ich rany.",
+                ref: "Žalm 147, 3 — ECAV"
             },
             {
                 text: "Ak je teda niekto v Kristovi, je nové stvorenie; staré sa pominulo, hľa, nastalo nové.",
