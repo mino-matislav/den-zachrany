@@ -1992,11 +1992,14 @@ html {
     margin-bottom: 0;
 }
 .listen-player .player-controls {
+    display: flex;
     flex-wrap: wrap;
     margin-bottom: 0;
 }
 .listen-player .player-time {
-    min-width: 240px;
+    width: 100%;
+    flex: none;
+    margin-top: var(--space-2);
 }
 
 /* Riadok s názvom práve hrajúcej piesne — cez celú šírku */
@@ -2017,4 +2020,15 @@ html {
 /* Náhodne — vlastný riadok pod ovládaním */
 .listen-player .queue-shuffle {
     margin-top: var(--space-4);
+}
+
+/* Stránka Piesne – kompaktnejšia hlavička a medzery */
+body:has(.listen-cta) .page-header {
+    padding: calc(64px + var(--space-8)) var(--space-6) var(--space-6);
+}
+body:has(.listen-cta) .chapters-section {
+    padding-top: var(--space-4);
+}
+.listen-cta {
+    margin-bottom: var(--space-5);
 }
