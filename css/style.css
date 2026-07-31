@@ -1982,9 +1982,9 @@ html {
     .listen-content { scroll-margin-top: 250px; }
 }
 
-/* ---- Kompaktný prehrávač na stránke Počúvaj a čítaj ---- */
+/* ---- Prehrávač na stránke Počúvaj a čítaj ---- */
 .listen-player-inner {
-    padding: var(--space-3) var(--space-4) var(--space-4);
+    padding: var(--space-4) var(--space-5) var(--space-4);
 }
 .listen-player .player {
     background: transparent;
@@ -1992,57 +1992,29 @@ html {
     margin-bottom: 0;
 }
 .listen-player .player-controls {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: var(--space-2);
+    flex-wrap: wrap;
     margin-bottom: 0;
 }
-.listen-player .player-btn {
-    width: 40px;
-    height: 40px;
-}
-.listen-player .player-btn svg {
-    width: 19px;
-    height: 19px;
-}
 .listen-player .player-time {
-    flex: 1;
-    min-width: 0;
-    gap: var(--space-2);
-}
-.listen-player .time-current,
-.listen-player .time-duration {
-    font-size: 0.78rem;
-    flex-shrink: 0;
+    min-width: 240px;
 }
 
+/* Riadok s názvom práve hrajúcej piesne — cez celú šírku */
 .queue-now-row {
     display: flex;
-    align-items: center;
-    gap: var(--space-2);
+    align-items: flex-start;
+    gap: var(--space-3);
     margin-bottom: var(--space-3);
 }
 .queue-now {
-    flex: 1;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: var(--text-sm);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: var(--text-base);
+    color: var(--graphite);
+    line-height: 1.35;
 }
+
+/* Náhodne — vlastný riadok pod ovládaním */
 .listen-player .queue-shuffle {
-    margin-top: 0;
-    padding: 5px var(--space-3);
-    font-size: 0.78rem;
-    flex-shrink: 0;
-}
-
-/* nadpis piesne hneď pod prehrávačom */
-.listen-head { scroll-margin-top: 0; }
-
-@media (max-width: 420px) {
-    .listen-player .player-btn { width: 36px; height: 36px; }
-    .listen-player .player-btn svg { width: 17px; height: 17px; }
-    .listen-player .queue-shuffle span { display: none; }
+    margin-top: var(--space-4);
 }

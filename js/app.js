@@ -253,7 +253,7 @@
     function renderSongContent(song) {
         const headingEl = document.querySelector('.song-heading');
         const subEl = document.querySelector('.song-subheading');
-        if (headingEl) headingEl.textContent = song.title;
+        if (headingEl) headingEl.textContent = (song.number ? song.number + '. ' : '') + song.title;
         if (subEl) subEl.textContent = song.subtitle || '';
 
         // Text piesne
