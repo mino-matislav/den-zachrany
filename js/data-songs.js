@@ -301,6 +301,14 @@ const songData = {
             {
                 text: "Neboj sa, lebo som ťa vykúpil, povolal som ťa tvojím menom; môj si ty!",
                 ref: "Izaiáš 43, 1 — ECAV"
+            },
+            {
+                text: "A blahoslavená, ktorá uverila, že sa splní, čo jej povedal Pán.",
+                ref: "Lukáš 1, 45 — ECAV"
+            },
+            {
+                text: "Vtedy povedala Mária: Velebí moja duša Pána a môj duch sa rozveselil v Bohu, v mojom Spasiteľovi, že zhliadol na poníženie svojej služobnice, veď, ajhľa, blahoslaviť ma budú odteraz všetky pokolenia, pretože Mocný učinil so mnou veľké veci, a sväté je Jeho meno.",
+                ref: "Lukáš 1, 46–49 — ECAV"
             }
         ]
     },
