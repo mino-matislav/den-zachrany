@@ -291,8 +291,16 @@ const songData = {
                 ref: "Príslovia 31, 25 — ECAV"
             },
             {
+                text: "Spanilosť je klam a krása je márnosť; ale žena, ktorá sa bojí Hospodina, zasluhuje si pochvalu.",
+                ref: "Príslovia 31, 30 — ECAV"
+            },
+            {
                 text: "Ďakujem Ti, že si ma predivne utvoril; divné sú Tvoje skutky. A moja duša to dobre vie.",
                 ref: "Žalm 139, 14 — ECAV"
+            },
+            {
+                text: "Ale skrytý človek srdca, to jest neporušiteľný a pred Bohom veľmi vzácny duch krotkosti a tichosti.",
+                ref: "1. Petra 3, 4 — ECAV"
             },
             {
                 text: "Boh nám zaiste nedal ducha bojazlivosti, ale ducha moci, lásky a sebaovládania.",
