@@ -406,7 +406,13 @@
         function scrollToText() {
             if (!contentEl) return;
             const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            contentEl.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+            const playerEl = document.querySelector('.listen-player');
+            const navEl = document.querySelector('.main-nav');
+            const offset = (navEl ? navEl.offsetHeight : 64) +
+                           (playerEl ? playerEl.offsetHeight : 0) +
+                           16;
+            const top = contentEl.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top: top < 0 ? 0 : top, behavior: reduce ? 'auto' : 'smooth' });
         }
 
         function playAt(index, doScroll) {
