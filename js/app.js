@@ -248,6 +248,69 @@
     }
 
     // ============================================
+    // SPOLOČNÉ VYKRESLENIE OBSAHU PIESNE
+    // ============================================
+    function renderSongContent(song) {
+        const headingEl = document.querySelector('.song-heading');
+        const subEl = document.querySelector('.song-subheading');
+        if (headingEl) headingEl.textContent = song.title;
+        if (subEl) subEl.textContent = song.subtitle || '';
+
+        // Text piesne
+        const lyricsEl = document.querySelector('.song-lyrics');
+        if (lyricsEl && song.lyrics) {
+            let lyricsHtml = '';
+            song.lyrics.forEach(function(section) {
+                let cls = 'lyric-section';
+                if (section.type === 'chorus') cls += ' chorus';
+                else if (section.type === 'bridge') cls += ' bridge';
+
+                lyricsHtml += '<div class="' + cls + '">';
+                if (section.label) {
+                    lyricsHtml += '<div class="lyric-label">' + section.label + '</div>';
+                }
+                var linesHtml = section.lines.map(function(line) {
+                    if (line === '') return '<span class="lyric-line lyric-gap"></span>';
+                    var isBacking = line.charAt(0) === '(';
+                    return '<span class="lyric-line' + (isBacking ? ' backing' : '') + '">' + line + '</span>';
+                }).join('');
+                lyricsHtml += '<p class="lyric-lines">' + linesHtml + '</p>';
+                lyricsHtml += '</div>';
+            });
+            lyricsEl.innerHTML = lyricsHtml;
+        }
+
+        // Biblické verše (ECAV)
+        var verses = song.verses || (song.verse ? [song.verse] : []);
+        const wrap = document.querySelector('.song-verse-wrap');
+        if (wrap) {
+            if (verses.length) {
+                let vHtml = '<div class="song-verse-header">' +
+                    '<svg class="song-verse-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+                    '<path d="M12 6.6C10.2 5.3 7.8 5 5.5 5v12c2.3 0 4.7.3 6.5 1.6 1.8-1.3 4.2-1.6 6.5-1.6V5c-2.3 0-4.7.3-6.5 1.6z"/>' +
+                    '<path d="M12 6.6V18.6"/></svg>' +
+                    '<h2 class="song-verse-title">Inšpirácia z Biblie</h2>' +
+                    '</div>';
+                verses.forEach(function(v) {
+                    vHtml += '<blockquote class="chapter-verse song-verse">';
+                    vHtml += '<p class="song-verse-text">' + v.text + '</p>';
+                    vHtml += '<footer class="chapter-verse-ref song-verse-ref">— ' + v.ref + '</footer>';
+                    vHtml += '</blockquote>';
+                });
+                wrap.innerHTML = vHtml;
+                wrap.hidden = false;
+            } else {
+                wrap.innerHTML = '';
+                wrap.hidden = true;
+            }
+        }
+
+        // Kredit
+        const creditEl = document.querySelector('.song-credit');
+        if (creditEl) creditEl.textContent = song.credit || '';
+    }
+
+    // ============================================
     // ZOZNAM PIESNÍ
     // ============================================
     const songsListEl = document.querySelector('.songs-list');
@@ -257,9 +320,9 @@
         songList.forEach(function(s) {
             html += '<article class="chapter-item" data-id="' + s.id + '" role="listitem">';
             html += '<div class="chapter-number">' + s.number + '</div>';
-            html += '<button class="song-play-btn" type="button" data-id="' + s.id + '" aria-label="Prehrať pieseň ' + s.title + '">';
+            html += '<a class="song-play-btn" href="pocuvaj.html?id=' + s.id + '" aria-label="Počúvať a čítať pieseň ' + s.title + '">';
             html += '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
-            html += '</button>';
+            html += '</a>';
             html += '<h3 class="chapter-title">' + s.title + '</h3>';
             if (s.subtitle) {
                 html += '<p class="chapter-desc">' + s.subtitle + '</p>';
@@ -269,49 +332,39 @@
         });
         songsListEl.innerHTML = html;
 
-        // ============================================
-        // SÚVISLÉ PREHRÁVANIE PIESNÍ
-        // ============================================
-        const queueCard = document.querySelector('.queue-card');
+    }
+
+    // ============================================
+    // STRÁNKA "POČÚVAJ A ČÍTAJ"
+    // ============================================
+    const listenPage = document.querySelector('.listen-page');
+
+    if (listenPage && typeof songData !== 'undefined' && typeof songList !== 'undefined') {
         const queueAudio = document.querySelector('.queue-audio');
+        const nowEl = document.querySelector('.queue-now');
+        const shuffleBtn = document.querySelector('.queue-shuffle');
+        const songLink = document.querySelector('.listen-song-link');
+        const contentEl = document.querySelector('.listen-content');
 
-        if (queueCard && queueAudio && typeof songData !== 'undefined') {
-            queueCard.hidden = false;
+        const ids = songList.map(function(s) { return String(s.id); });
+        let order = ids.slice();
+        let pos = 0;
+        let shuffled = false;
+        let hasStarted = false;
+        const player = new AudioPlayer(queueAudio);
 
-            const ids = songList.map(function(s) { return String(s.id); });
-            let order = ids.slice();      // aktuálne poradie prehrávania
-            let pos = -1;                 // index v poradí
-            let shuffled = false;
-            let hasStarted = false;
-            const player = new AudioPlayer(queueAudio);
-
-            const nowEl = document.querySelector('.queue-now');
-            const shuffleBtn = document.querySelector('.queue-shuffle');
-
-            function shuffleArray(a) {
-                const r = a.slice();
-                for (let i = r.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    const t = r[i]; r[i] = r[j]; r[j] = t;
-                }
-                return r;
+        function shuffleArray(a) {
+            const r = a.slice();
+            for (let i = r.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                const t = r[i]; r[i] = r[j]; r[j] = t;
             }
+            return r;
+        }
 
-            function highlight(id) {
-                songsListEl.querySelectorAll('.chapter-item').forEach(function(el) {
-                    el.classList.toggle('is-playing', el.dataset.id === String(id));
-                });
-            }
-
-            function scrollToCard(id) {
-                const card = songsListEl.querySelector('.chapter-item[data-id="' + id + '"]');
-                if (!card) return;
-                const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-                card.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
-            }
-
-            function setMediaSession(song) {
-                if (!('mediaSession' in navigator)) return;
+        function setMediaSession(song) {
+            if (!('mediaSession' in navigator)) return;
+            try {
                 navigator.mediaSession.metadata = new MediaMetadata({
                     title: song.title,
                     artist: 'Deň Záchrany',
@@ -321,90 +374,101 @@
                 navigator.mediaSession.setActionHandler('play', function() { player.play(); });
                 navigator.mediaSession.setActionHandler('pause', function() { player.pause(); });
                 navigator.mediaSession.setActionHandler('nexttrack', function() { playAt(pos + 1); });
-                navigator.mediaSession.setActionHandler('previoustrack', function() { prev(); });
-            }
-
-            function loadAt(index) {
-                if (!order.length) return;
-                if (index < 0) index = order.length - 1;
-                if (index >= order.length) index = 0;   // dokola
-                pos = index;
-
-                const id = order[pos];
-                const song = songData[id];
-                if (!song) return;
-
-                queueAudio.src = song.audioUrl;
-                queueAudio.load();
-                if (nowEl) nowEl.textContent = song.number + '. ' + song.title;
-                setMediaSession(song);
-            }
-
-            function playAt(index, doScroll) {
-                loadAt(index);
-                player.play();
-                if (doScroll !== false) scrollToCard(order[pos]);
-            }
-
-            function prev() {
-                // do 3 sekúnd = predchádzajúca, inak od začiatku
-                if (queueAudio.currentTime > 3) {
-                    queueAudio.currentTime = 0;
-                } else {
-                    playAt(pos - 1);
-                }
-            }
-
-            // zvýraznenie karty až keď sa naozaj hrá
-            queueAudio.addEventListener('play', function() {
-                hasStarted = true;
-                highlight(order[pos]);
-            });
-
-            // koniec piesne -> ďalšia
-            queueAudio.addEventListener('ended', function() {
-                playAt(pos + 1);
-            });
-
-            // tlačidlá pri kartách
-            songsListEl.addEventListener('click', function(e) {
-                const btn = e.target.closest('.song-play-btn');
-                if (!btn) return;
-                const id = btn.dataset.id;
-                if (hasStarted && pos >= 0 && order[pos] === id) {
-                    // tá istá pieseň -> prepnúť prehrávanie
-                    if (player.isPlaying) { player.pause(); } else { player.play(); }
-                    return;
-                }
-                playAt(order.indexOf(id), false);
-            });
-
-            document.querySelector('.queue-next').addEventListener('click', function() { playAt(pos + 1); });
-            document.querySelector('.queue-prev').addEventListener('click', prev);
-
-            if (shuffleBtn) {
-                shuffleBtn.addEventListener('click', function() {
-                    shuffled = !shuffled;
-                    shuffleBtn.classList.toggle('is-on', shuffled);
-                    shuffleBtn.setAttribute('aria-pressed', shuffled ? 'true' : 'false');
-
-                    const currentId = pos >= 0 ? order[pos] : null;
-                    order = shuffled ? shuffleArray(ids) : ids.slice();
-
-                    if (hasStarted && currentId) {
-                        // práve hrajúcu pieseň nechať znieť ďalej
-                        const i = order.indexOf(currentId);
-                        if (i > -1) { order.splice(i, 1); order.unshift(currentId); pos = 0; }
-                    } else {
-                        // ešte sa nehralo -> pripraviť prvú z nového poradia
-                        loadAt(0);
-                    }
-                });
-            }
-
-            // pripraviť prvú pieseň (aby fungovalo hlavné tlačidlo prehrať)
-            loadAt(0);
+                navigator.mediaSession.setActionHandler('previoustrack', prev);
+            } catch (e) {}
         }
+
+        function loadAt(index) {
+            if (!order.length) return;
+            if (index < 0) index = order.length - 1;
+            if (index >= order.length) index = 0;      // dokola
+            pos = index;
+
+            const id = order[pos];
+            const song = songData[id];
+            if (!song) return;
+
+            queueAudio.src = song.audioUrl;
+            queueAudio.load();
+
+            renderSongContent(song);
+            if (nowEl) nowEl.textContent = 'Práve hrá: ' + song.number + '. ' + song.title;
+            if (songLink) songLink.href = 'piesen.html?id=' + id;
+            document.title = song.title + ' — Počúvaj a čítaj';
+
+            // adresa v prehliadači nech zodpovedá piesni (dá sa zdieľať aj obnoviť)
+            const q = 'pocuvaj.html?id=' + id + (shuffled ? '&nahodne=1' : '');
+            history.replaceState(null, '', q);
+
+            setMediaSession(song);
+        }
+
+        function scrollToText() {
+            if (!contentEl) return;
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            contentEl.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+        }
+
+        function playAt(index, doScroll) {
+            loadAt(index);
+            player.play();
+            if (doScroll !== false) scrollToText();
+        }
+
+        function prev() {
+            if (queueAudio.currentTime > 3) {
+                queueAudio.currentTime = 0;
+            } else {
+                playAt(pos - 1);
+            }
+        }
+
+        queueAudio.addEventListener('play', function() { hasStarted = true; });
+        queueAudio.addEventListener('ended', function() { playAt(pos + 1); });
+
+        document.querySelector('.queue-next').addEventListener('click', function() { playAt(pos + 1); });
+        document.querySelector('.queue-prev').addEventListener('click', prev);
+
+        if (shuffleBtn) {
+            shuffleBtn.addEventListener('click', function() {
+                shuffled = !shuffled;
+                shuffleBtn.classList.toggle('is-on', shuffled);
+                shuffleBtn.setAttribute('aria-pressed', shuffled ? 'true' : 'false');
+
+                const currentId = order[pos];
+                order = shuffled ? shuffleArray(ids) : ids.slice();
+
+                if (hasStarted) {
+                    // práve hrajúcu pieseň nechať dohrať
+                    const i = order.indexOf(currentId);
+                    if (i > -1) { order.splice(i, 1); order.unshift(currentId); pos = 0; }
+                } else {
+                    loadAt(0);
+                }
+            });
+        }
+
+        // ---- štart podľa adresy ----
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('nahodne') === '1') {
+            shuffled = true;
+            order = shuffleArray(ids);
+            if (shuffleBtn) {
+                shuffleBtn.classList.add('is-on');
+                shuffleBtn.setAttribute('aria-pressed', 'true');
+            }
+        }
+
+        const startId = params.get('id');
+        let startIndex = 0;
+        if (startId && songData[startId]) {
+            const i = order.indexOf(String(startId));
+            if (i > -1) startIndex = i;
+        }
+
+        loadAt(startIndex);
+        // prehliadače nedovolia zvuk bez kliknutia — ak sa nepodarí, zostane pauza
+        player.play();
     }
 
     // ============================================
@@ -421,63 +485,14 @@
 
             document.title = song.title + ' — Deň Záchrany';
 
-            const headingEl = document.querySelector('.song-heading');
-            const subEl = document.querySelector('.song-subheading');
-            const audioTitle = document.querySelector('.song-audio-title');
+            renderSongContent(song);
 
-            if (headingEl) headingEl.textContent = song.title;
-            if (subEl) subEl.textContent = song.subtitle || '';
+            const audioTitle = document.querySelector('.song-audio-title');
             if (audioTitle) audioTitle.textContent = 'Audio piesne: ' + song.title;
 
-            // Text piesne
-            const lyricsEl = document.querySelector('.song-lyrics');
-            if (lyricsEl && song.lyrics) {
-                let lyricsHtml = '';
-                song.lyrics.forEach(function(section) {
-                    let cls = 'lyric-section';
-                    if (section.type === 'chorus') cls += ' chorus';
-                    else if (section.type === 'bridge') cls += ' bridge';
-
-                    lyricsHtml += '<div class="' + cls + '">';
-                    if (section.label) {
-                        lyricsHtml += '<div class="lyric-label">' + section.label + '</div>';
-                    }
-                    var linesHtml = section.lines.map(function(line) {
-                        if (line === '') return '<span class="lyric-line lyric-gap"></span>';
-                        var isBacking = line.charAt(0) === '(';
-                        return '<span class="lyric-line' + (isBacking ? ' backing' : '') + '">' + line + '</span>';
-                    }).join('');
-                    lyricsHtml += '<p class="lyric-lines">' + linesHtml + '</p>';
-                    lyricsHtml += '</div>';
-                });
-                lyricsEl.innerHTML = lyricsHtml;
-            }
-
-            // Biblické verše (ECAV / SEB)
-            var verses = song.verses || (song.verse ? [song.verse] : []);
-            if (verses.length) {
-                const wrap = document.querySelector('.song-verse-wrap');
-                if (wrap) {
-                    let vHtml = '<div class="song-verse-header">' +
-                        '<svg class="song-verse-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
-                        '<path d="M12 6.6C10.2 5.3 7.8 5 5.5 5v12c2.3 0 4.7.3 6.5 1.6 1.8-1.3 4.2-1.6 6.5-1.6V5c-2.3 0-4.7.3-6.5 1.6z"/>' +
-                        '<path d="M12 6.6V18.6"/></svg>' +
-                        '<h2 class="song-verse-title">Inšpirácia z Biblie</h2>' +
-                        '</div>';
-                    verses.forEach(function(v) {
-                        vHtml += '<blockquote class="chapter-verse song-verse">';
-                        vHtml += '<p class="song-verse-text">' + v.text + '</p>';
-                        vHtml += '<footer class="chapter-verse-ref song-verse-ref">— ' + v.ref + '</footer>';
-                        vHtml += '</blockquote>';
-                    });
-                    wrap.innerHTML = vHtml;
-                    wrap.hidden = false;
-                }
-            }
-
-            // Kredit
-            const creditEl = document.querySelector('.song-credit');
-            if (creditEl) creditEl.textContent = song.credit || '';
+            // odkaz na súvislé počúvanie od tejto piesne
+            const listenLink = document.querySelector('.song-listen-link');
+            if (listenLink) listenLink.href = 'pocuvaj.html?id=' + songId;
 
             // Audio
             const audioEl = document.querySelector('.song-audio-element');

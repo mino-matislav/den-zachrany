@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pieseň — Deň Záchrany. Biblická tvorba na chválu, útechu a vyznanie viery.">
+    <meta name="description" content="Počúvaj piesne Deň Záchrany jednu za druhou a čítaj ich text spolu s biblickou inšpiráciou.">
     <meta name="theme-color" content="#D4AF37">
-    <meta property="og:title" content="Pieseň — Deň Záchrany">
-    <meta property="og:description" content="Biblická pieseň na chválu, útechu a vyznanie viery.">
-    <title>Pieseň — Deň Záchrany</title>
+    <title>Počúvaj a čítaj — Deň Záchrany</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +15,6 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <div id="progress-bar" class="progress-bar" aria-hidden="true"></div>
-
     <nav class="main-nav" role="navigation" aria-label="Hlavná navigácia">
         <div class="nav-container">
             <a href="index.html" class="nav-logo" aria-label="Deň Záchrany - Domov">
@@ -37,26 +33,19 @@
     </nav>
 
     <main id="main-content">
-        <article class="song-page">
-            <header class="chapter-header">
-                <a href="piesne.html" class="chapter-back" aria-label="Späť na zoznam piesní">Späť na piesne</a>
-                <h1 class="song-heading">Načítava sa...</h1>
-                <p class="song-subheading"></p>
-            </header>
+        <article class="listen-page">
 
-            <div class="chapter-content">
-                <!-- Audio prehrávač -->
-                <div class="chapter-audio">
-                    <div class="chapter-audio-header">
-                        <span aria-hidden="true">🎵</span>
-                        <div>
-                            <div class="song-audio-title">Audio piesne</div>
-                            <div class="chapter-audio-subtitle">Počúvaj a čítaj súčasne</div>
-                        </div>
+            <!-- Prilepený prehrávač -->
+            <div class="listen-player">
+                <div class="listen-player-inner">
+                    <div class="queue-now-row">
+                        <span class="queue-icon" aria-hidden="true">🎵</span>
+                        <span class="queue-now">Načítava sa…</span>
                     </div>
-                    <div class="player" role="region" aria-label="Audio prehrávač piesne">
+
+                    <div class="player" role="region" aria-label="Prehrávač piesní">
                         <div class="player-controls">
-                            <button class="player-btn player-restart" aria-label="Na začiatok" data-action="restart">
+                            <button class="player-btn queue-prev" aria-label="Predchádzajúca pieseň">
                                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
                             </button>
                             <button class="player-btn player-play" aria-label="Prehrať" data-action="play">
@@ -64,6 +53,9 @@
                             </button>
                             <button class="player-btn player-pause" aria-label="Pozastaviť" data-action="pause" hidden>
                                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                            </button>
+                            <button class="player-btn queue-next" aria-label="Ďalšia pieseň">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 18l8.5-6L6 6v12zM16 6h2v12h-2z"/></svg>
                             </button>
                             <div class="player-time">
                                 <span class="time-current">00:00</span>
@@ -76,38 +68,31 @@
                                 <span class="time-duration">00:00</span>
                             </div>
                         </div>
-                        <audio class="song-audio-element" preload="auto">
-                            <source src="" type="audio/mpeg">
-                            Váš prehliadač nepodporuje prehrávanie audio.
-                        </audio>
+                        <audio class="queue-audio" preload="metadata"></audio>
                     </div>
 
-                    <a href="#text-piesne" class="scroll-hint">
-                        <span class="scroll-hint-text">Text piesne nižšie</span>
-                        <span class="scroll-hint-arrow" aria-hidden="true">⌄</span>
-                    </a>
+                    <button class="queue-shuffle" type="button" aria-pressed="false">
+                        <span aria-hidden="true">⇄</span> Náhodne
+                    </button>
                 </div>
+            </div>
 
-                <!-- Text piesne -->
-                <div class="song-lyrics" id="text-piesne">
-                    <p>Načítava sa text piesne...</p>
-                </div>
+            <!-- Text práve hrajúcej piesne -->
+            <div class="listen-content">
+                <header class="listen-head">
+                    <h1 class="song-heading">Načítava sa…</h1>
+                    <p class="song-subheading"></p>
+                </header>
 
-                <!-- Biblické verše (ECAV / SEB) -->
+                <div class="song-lyrics"></div>
+
                 <div class="song-verse-wrap" hidden></div>
 
-                <!-- Kredit -->
                 <p class="song-credit"></p>
 
-                <!-- Navigácia späť -->
-                <nav class="chapter-nav" aria-label="Navigácia na konci piesne">
-                    <a href="pocuvaj.html" class="song-listen-link listen-song-cta">
-                        <span aria-hidden="true">🎧</span>
-                        Počúvaj a čítaj — všetky piesne za sebou
-                    </a>
-                    <a href="piesne.html" class="btn btn-primary">
-                        ← Späť na piesne
-                    </a>
+                <nav class="listen-nav" aria-label="Ďalšie možnosti">
+                    <a href="#" class="listen-song-link">Otvoriť samostatnú stránku tejto piesne</a>
+                    <a href="piesne.html" class="btn btn-secondary">Späť na zoznam piesní</a>
                 </nav>
             </div>
         </article>

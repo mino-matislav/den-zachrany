@@ -48,46 +48,18 @@
             <div class="container">
                 <h2 id="songs-heading" class="sr-only">Zoznam piesní</h2>
 
-                <div class="queue-card" hidden>
-                    <div class="queue-header">
-                        <span class="queue-icon" aria-hidden="true">🎵</span>
+                <div class="listen-cta">
+                    <div class="listen-cta-head">
+                        <span class="listen-cta-icon" aria-hidden="true">🎧</span>
                         <div>
-                            <div class="queue-label">Počúvaj všetky piesne</div>
-                            <div class="queue-now">Vyber pieseň alebo stlač prehrať</div>
+                            <h3 class="listen-cta-title">Počúvaj a čítaj</h3>
+                            <p class="listen-cta-text">Piesne hrajú jedna za druhou a text sa mení spolu s nimi.</p>
                         </div>
                     </div>
-
-                    <div class="player" role="region" aria-label="Prehrávač piesní">
-                        <div class="player-controls">
-                            <button class="player-btn queue-prev" aria-label="Predchádzajúca pieseň">
-                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
-                            </button>
-                            <button class="player-btn player-play" aria-label="Prehrať" data-action="play">
-                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-                            </button>
-                            <button class="player-btn player-pause" aria-label="Pozastaviť" data-action="pause" hidden>
-                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
-                            </button>
-                            <button class="player-btn queue-next" aria-label="Ďalšia pieseň">
-                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 18l8.5-6L6 6v12zM16 6h2v12h-2z"/></svg>
-                            </button>
-                            <div class="player-time">
-                                <span class="time-current">00:00</span>
-                                <div class="player-progress" role="slider" aria-label="Pozícia v audio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
-                                    <div class="progress-track">
-                                        <div class="progress-fill"></div>
-                                        <div class="progress-thumb"></div>
-                                    </div>
-                                </div>
-                                <span class="time-duration">00:00</span>
-                            </div>
-                        </div>
-                        <audio class="queue-audio" preload="metadata"></audio>
+                    <div class="listen-cta-actions">
+                        <a href="pocuvaj.html" class="btn btn-primary">Vypočuť všetky</a>
+                        <a href="pocuvaj.html?nahodne=1" class="btn btn-secondary">Náhodné poradie</a>
                     </div>
-
-                    <button class="queue-shuffle" type="button" aria-pressed="false">
-                        <span aria-hidden="true">⇄</span> Náhodne
-                    </button>
                 </div>
 
                 <div class="songs-list chapters-list" role="list">
