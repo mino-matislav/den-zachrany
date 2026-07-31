@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=56">
+    <link rel="stylesheet" href="css/style.css?v=57">
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -60,6 +60,11 @@
                         <button class="filter-btn" data-tag="samota" aria-pressed="false">Samota</button>
                         <button class="filter-btn" data-tag="nemoc" aria-pressed="false">Nemoc</button>
                     </div>
+                </div>
+
+                <div class="filter-result" hidden aria-live="polite">
+                    <p class="filter-result-text"></p>
+                    <button class="filter-reset" type="button">Zrušiť filter</button>
                 </div>
 
                 <div class="chapters-list" role="list">

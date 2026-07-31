@@ -1020,8 +1020,7 @@ button {
 }
 
 .chapter-item.hidden {
-    opacity: 0.3;
-    pointer-events: none;
+    display: none;
 }
 
 .chapter-item.last-read {
@@ -2196,3 +2195,60 @@ body:has(.listen-cta) .chapters-section {
     display: none;
 }
 .listen-player .player-time { flex: 1 1 130px; }
+
+/* ============================================
+   VÝSLEDOK FILTRA KAPITOL
+   ============================================ */
+.filter-result {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3) var(--space-4);
+    max-width: var(--content-max);
+    margin: 0 auto var(--space-6);
+    padding: var(--space-3) var(--space-5);
+    background: linear-gradient(158deg, #FCF8ED 0%, #F3EBD6 100%);
+    border: 1px solid rgba(212, 175, 55, 0.45);
+    border-radius: 14px;
+}
+.filter-result-text {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--graphite);
+}
+.filter-result.is-empty {
+    background: var(--white);
+    border-color: rgba(90, 74, 30, 0.15);
+}
+.filter-reset {
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid rgba(212, 175, 55, 0.6);
+    border-radius: var(--radius-lg);
+    background: transparent;
+    color: var(--graphite);
+    font-family: var(--font-body);
+    font-size: var(--text-sm);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background var(--transition-fast);
+}
+.filter-reset:hover { background: var(--gold-light); }
+
+/* Zvýraznenie kapitol, ktoré zodpovedajú téme */
+.chapter-item.is-match {
+    border-color: var(--gold);
+    box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.22),
+                0 6px 20px rgba(90, 74, 30, 0.10);
+}
+@keyframes matchGlow {
+    0%   { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.55), 0 6px 20px rgba(90, 74, 30, 0.10); }
+    100% { box-shadow: 0 0 0 16px rgba(212, 175, 55, 0), 0 6px 20px rgba(90, 74, 30, 0.10); }
+}
+.chapter-item.is-match.flash {
+    animation: matchGlow 1.3s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .chapter-item.is-match.flash { animation: none; }
+}

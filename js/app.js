@@ -138,112 +138,108 @@
             });
         }
 
-        // Filter
+        // ============================================
+        // FILTER KAPITOL
+        // ============================================
+        const resultBox = document.querySelector('.filter-result');
+        const resultText = document.querySelector('.filter-result-text');
+        const resetBtn = document.querySelector('.filter-reset');
+        const listEl = document.querySelector('.chapters-list');
+
+        // Slovenské skloňovanie: 1 kapitola / 2-4 kapitoly / 5+ kapitol
+        function pocetKapitol(n) {
+            if (n === 1) return '1 kapitola';
+            if (n >= 2 && n <= 4) return n + ' kapitoly';
+            return n + ' kapitol';
+        }
+
+        // zhoda aj na časť viacslovného tagu ("strach" nájde "strach zo smrti"),
+        // ale nie na podreťazec vnútri slova ("pokoj" nenájde "nepokoj")
+        function matchesTag(item, tag) {
+            const tags = (item.dataset.tags || '').split(',');
+            return tags.some(function(t) {
+                return t.trim().toLowerCase().split(/\s+/).indexOf(tag) > -1;
+            });
+        }
+
+        function scrollToList() {
+            if (!listEl) return;
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const nav = document.querySelector('.main-nav');
+            const offset = (nav ? nav.offsetHeight : 64) + 16;
+            const top = listEl.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top: top < 0 ? 0 : top, behavior: reduce ? 'auto' : 'smooth' });
+        }
+
+        function applyFilter(tag, label, doScroll) {
+            let count = 0;
+
+            chapterItems.forEach(function(item) {
+                const match = (tag === 'all') || matchesTag(item, tag);
+                item.classList.toggle('hidden', !match);
+                item.classList.remove('is-match', 'flash');
+                if (match && tag !== 'all') {
+                    item.classList.add('is-match');
+                    count++;
+                }
+            });
+
+            // krátke rozsvietenie zhodných kariet
+            if (tag !== 'all') {
+                void listEl.offsetWidth;   // vynútiť prekreslenie, nech animácia nabehne aj opakovane
+                chapterItems.forEach(function(item) {
+                    if (item.classList.contains('is-match')) item.classList.add('flash');
+                });
+            }
+
+            // informačný pruh
+            if (resultBox && resultText) {
+                if (tag === 'all') {
+                    resultBox.hidden = true;
+                } else {
+                    resultBox.hidden = false;
+                    resultText.textContent = count > 0
+                        ? 'Téma ' + label + ' — ' + pocetKapitol(count)
+                        : 'K téme ' + label + ' zatiaľ nemáme kapitolu.';
+                    resultBox.classList.toggle('is-empty', count === 0);
+                }
+            }
+
+            if (doScroll !== false && tag !== 'all') scrollToList();
+        }
+
         filterBtns.forEach(function(btn) {
             btn.addEventListener('click', function() {
                 const tag = this.dataset.tag;
 
-                // Aktivovať tlačidlo
-                filterBtns.forEach(function(b) { b.classList.remove('active'); });
-                this.classList.add('active');
-
-                // Filtrovať kapitoly
-                chapterItems.forEach(function(item) {
-                    if (tag === 'all') {
-                        item.classList.remove('hidden');
-                    } else {
-                        const itemTags = item.dataset.tags || '';
-                        if (itemTags.includes(tag)) {
-                            item.classList.remove('hidden');
-                        } else {
-                            item.classList.add('hidden');
-                        }
-                    }
+                filterBtns.forEach(function(b) {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-pressed', 'false');
                 });
+                this.classList.add('active');
+                this.setAttribute('aria-pressed', 'true');
+
+                // aktívny tag nech je na mobile vidieť v posuvnom páse
+                this.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+
+                applyFilter(tag, this.textContent.trim());
             });
         });
-    }
 
-    // ============================================
-    // KAPITOLA - Načítanie dát
-    // ============================================
-    const chapterPage = document.querySelector('.chapter-page');
-
-    if (chapterPage && typeof chapterData !== 'undefined') {
-        const urlParams = new URLSearchParams(window.location.search);
-        const chapterId = urlParams.get('id');
-
-        if (chapterId && chapterData[chapterId]) {
-            const chapter = chapterData[chapterId];
-
-            // Uložiť ako naposledy čítanú
-            Storage.setLastRead(chapterId);
-
-            // Naplniť obsah
-            document.title = chapter.title + ' — Deň Záchrany';
-
-            const titleEl = document.querySelector('.chapter-heading');
-            const subEl = document.querySelector('.chapter-subheading');
-            const numEl = document.querySelector('.chapter-number-label');
-            const textEl = document.querySelector('.chapter-text');
-            const prayerEl = document.querySelector('.chapter-prayer-text');
-            const audioTitle = document.querySelector('.chapter-audio-title');
-
-            if (numEl) numEl.textContent = chapterId + '. Kapitola';
-            if (titleEl) titleEl.textContent = chapter.title;
-            if (subEl) subEl.textContent = chapter.subtitle;
-            if (audioTitle) audioTitle.textContent = 'Audio kapitoly: ' + chapter.title;
-
-            // Text kapitoly s veršami
-            if (textEl) {
-                let html = '';
-
-                // Rozdeliť text na odseky
-                const paragraphs = chapter.fullText.split('\n\n');
-                let verseIndex = 0;
-
-                paragraphs.forEach(function(para) {
-                    para = para.trim();
-                    if (!para) return;
-
-                    // Skontrolovať, či je to verš
-                    if (para.startsWith('"') && para.includes('"') && verseIndex < chapter.verses.length) {
-                        const verse = chapter.verses[verseIndex];
-                        html += '<blockquote class="chapter-verse">';
-                        html += '<p>' + verse.text + '</p>';
-                        html += '<footer class="chapter-verse-ref">— ' + verse.ref + '</footer>';
-                        html += '</blockquote>';
-                        verseIndex++;
-                    } else {
-                        html += '<p>' + para + '</p>';
-                    }
+        if (resetBtn) {
+            resetBtn.addEventListener('click', function() {
+                const allBtn = document.querySelector('.filter-btn[data-tag="all"]');
+                filterBtns.forEach(function(b) {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-pressed', 'false');
                 });
-
-                textEl.innerHTML = html;
-            }
-
-            // Modlitba
-            if (prayerEl) {
-                const prayerParagraphs = chapter.prayer.split('\n\n');
-                let prayerHtml = '';
-                prayerParagraphs.forEach(function(para) {
-                    para = para.trim();
-                    if (para) {
-                        prayerHtml += '<p>' + para + '</p>';
-                    }
-                });
-                prayerEl.innerHTML = prayerHtml;
-            }
-
-            // Audio
-            const audioEl = document.querySelector('.chapter-audio audio');
-            if (audioEl && chapter.audioUrl) {
-                audioEl.querySelector('source').src = chapter.audioUrl;
-                audioEl.load();
-            }
-        } else {
-            // Chýbajúca kapitola
-            window.location.href = 'kapitoly.html';
+                if (allBtn) {
+                    allBtn.classList.add('active');
+                    allBtn.setAttribute('aria-pressed', 'true');
+                    allBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+                }
+                applyFilter('all', 'Všetky', false);
+            });
         }
     }
 
