@@ -201,10 +201,28 @@ const songData = {
                 ]
             }
         ],
-        verse: {
-            text: "Pokolenie odchádza a druhé prichádza, ale zem stojí naveky. Slnko vychodí, slnko zapadá, náhli sa na svoje miesto, kde znova vychádza. Vietor duje k juhu a obracia sa na sever, stále krúžiac veje a vo svojom kolobehu sa vracia. Všetky potoky tečú do mora, ale more sa nenaplní; potoky sa vracajú na miesto, kam tečú. Všetko je plné trudu, nikto to nemôže vysloviť; oko sa nikdy do sýtosti nenadíva, ucho sa nikdy dosť nenapočúva. Čo bolo, bude zase, a čo sa dialo, bude sa opäť diať. Nič nového nieto pod slnkom.",
-            ref: "Kazateľ 1, 4–9 — ECAV"
-        }
+        verses: [
+            {
+                text: "Pokolenie odchádza a druhé prichádza, ale zem stojí naveky. Slnko vychodí, slnko zapadá, náhli sa na svoje miesto, kde znova vychádza. Vietor duje k juhu a obracia sa na sever, stále krúžiac veje a vo svojom kolobehu sa vracia. Všetky potoky tečú do mora, ale more sa nenaplní; potoky sa vracajú na miesto, kam tečú. Všetko je plné trudu, nikto to nemôže vysloviť; oko sa nikdy do sýtosti nenadíva, ucho sa nikdy dosť nenapočúva. Čo bolo, bude zase, a čo sa dialo, bude sa opäť diať. Nič nového nieto pod slnkom.",
+                ref: "Kazateľ 1, 4–9 — ECAV"
+            },
+            {
+                text: "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu.",
+                ref: "Kazateľ 3, 1 — ECAV"
+            },
+            {
+                text: "Všetko krásne učinil vo svojom čase, aj večnosť im dal do sŕdc, len aby človek nevystihol od počiatku až do konca dielo, ktoré Boh vykonal.",
+                ref: "Kazateľ 3, 11 — ECAV"
+            },
+            {
+                text: "Pane, Ty si býval naším príbytkom z pokolenia na pokolenie. Skôr, ako sa vrchy zrodili, ako boli utvorené zem a svet, Ty si Boh od vekov až naveky.",
+                ref: "Žalm 90, 1–2 — ECAV"
+            },
+            {
+                text: "Ježiš Kristus ten istý včera i dnes i naveky.",
+                ref: "Židom 13, 8 — ECAV"
+            }
+        ]
     },
     "3": {
         id: 3,
