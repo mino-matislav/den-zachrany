@@ -280,6 +280,90 @@
         }
     }
 
+
+    // ============================================
+    // KAPITOLA - Načítanie dát
+    // ============================================
+    const chapterPage = document.querySelector('.chapter-page');
+
+    if (chapterPage && typeof chapterData !== 'undefined') {
+        const urlParams = new URLSearchParams(window.location.search);
+        const chapterId = urlParams.get('id');
+
+        if (chapterId && chapterData[chapterId]) {
+            const chapter = chapterData[chapterId];
+
+            // Uložiť ako naposledy čítanú
+            Storage.setLastRead(chapterId);
+
+            // Naplniť obsah
+            document.title = chapter.title + ' — Deň Záchrany';
+
+            const titleEl = document.querySelector('.chapter-heading');
+            const subEl = document.querySelector('.chapter-subheading');
+            const numEl = document.querySelector('.chapter-number-label');
+            const textEl = document.querySelector('.chapter-text');
+            const prayerEl = document.querySelector('.chapter-prayer-text');
+            const audioTitle = document.querySelector('.chapter-audio-title');
+
+            if (numEl) numEl.textContent = chapterId + '. Kapitola';
+            if (titleEl) titleEl.textContent = chapter.title;
+            if (subEl) subEl.textContent = chapter.subtitle;
+            if (audioTitle) audioTitle.textContent = 'Audio kapitoly: ' + chapter.title;
+
+            // Text kapitoly s veršami
+            if (textEl) {
+                let html = '';
+
+                // Rozdeliť text na odseky
+                const paragraphs = chapter.fullText.split('\n\n');
+                let verseIndex = 0;
+
+                paragraphs.forEach(function(para) {
+                    para = para.trim();
+                    if (!para) return;
+
+                    // Skontrolovať, či je to verš
+                    if (para.startsWith('"') && para.includes('"') && verseIndex < chapter.verses.length) {
+                        const verse = chapter.verses[verseIndex];
+                        html += '<blockquote class="chapter-verse">';
+                        html += '<p>' + verse.text + '</p>';
+                        html += '<footer class="chapter-verse-ref">— ' + verse.ref + '</footer>';
+                        html += '</blockquote>';
+                        verseIndex++;
+                    } else {
+                        html += '<p>' + para + '</p>';
+                    }
+                });
+
+                textEl.innerHTML = html;
+            }
+
+            // Modlitba
+            if (prayerEl) {
+                const prayerParagraphs = chapter.prayer.split('\n\n');
+                let prayerHtml = '';
+                prayerParagraphs.forEach(function(para) {
+                    para = para.trim();
+                    if (para) {
+                        prayerHtml += '<p>' + para + '</p>';
+                    }
+                });
+                prayerEl.innerHTML = prayerHtml;
+            }
+
+            // Audio
+            const audioEl = document.querySelector('.chapter-audio audio');
+            if (audioEl && chapter.audioUrl) {
+                audioEl.querySelector('source').src = chapter.audioUrl;
+                audioEl.load();
+            }
+        } else {
+            // Chýbajúca kapitola
+            window.location.href = 'kapitoly.html';
+        }
+    }
+
     // ============================================
     // SPOLOČNÉ VYKRESLENIE OBSAHU PIESNE
     // ============================================
