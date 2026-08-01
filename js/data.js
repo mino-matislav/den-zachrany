@@ -121,70 +121,219 @@ Amen.`,
 
     "3": {
         id: "3",
-        title: "Hriech a odpustenie",
-        subtitle: "Ako prijať Božiu očistu a kráčať v slobode",
-        shortDescription: "Božie odpustenie je dokonalé. Ako žiť v slobode od viny a strachu.",
-        fullText: `Táto kapitola je v príprave. Obsah bude dostupný čoskoro.
+        title: "Neustála ustarostenosť a potreba všetko kontrolovať",
+        subtitle: "Ako zložiť svoje bremená a zakúsiť neotrasiteľný Boží pokoj",
+        shortDescription: "Ako zložiť bremeno starostí a prijať Boží pokoj, ktorý prevyšuje rozum. Dôvera namiesto kontroly.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
 
-Zatiaľ sa môžeš vrátiť k predchádzajúcim kapitolám a hlbšie vstúpiť do pravdy o Božej milosti a moci Ducha Svätého.
+úzkosť a neustále obavy nie sú len nepríjemný pocit. Je to jeden z najúčinnejších nástrojov, ktorým sa nepriateľ snaží odviesť tvoju pozornosť od Boha, od Jeho zasľúbení a od Jeho pokoja. V tomto čase milosti, kedy žijeme vo veku cirkvi, však máme od Boha plné vybavenie na víťazný život. Božím zámerom pre teba nikdy nebolo, aby úzkosť a neustály stres vládli tvojmu životu. Božím zámerom pre teba je dokonalý pokoj.
 
-Ak potrebuješ okamžitú pastoračnú pomoc, prečítaj si 1. kapitolu — Evanjelium spásy.`,
-        verses: [],
-        prayer: `Pane Ježišu, ďakujem Ti za Tvoje dokonalé dielo na kríži. Verím, že si ma očistil od každého hriechu a dal si mi nový začiatok.
+Apoštol Pavel, apoštol milosti pre cirkev, v liste Filipským 4, 6 píše jasné prikázanie:
+
+"O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách."
+
+Boh by ti nedal také prikázanie, keby bolo v moci Ducha nemožné ho naplniť. Tvojou úlohou ako človeka obnoveného Svätým Duchom nie je niesť bremeno všetkých ťažkých okolností a neustále hľadať odpoveď na každú otázku, ako sa čo vyrieši. Tvojou úlohou je priniesť prosby pred Boha s ďakovaním a plne Mu dôverovať.
+
+Dnešný svet učí presný opak. Hovoria ti, že musíš mať všetko pod vlastnou kontrolou, neustále sa obávať a sám zabezpečiť každý výsledok. Božie Slovo v 1. liste Petra 5, 7 ťa však vyzýva k úplnému odpočinku v milosti:
+
+"Na Neho uvaľte všetky svoje starosti, lebo On sa o vás stará."
+
+Mnohí veriaci sa modlia, no zároveň si vo svojej mysli ponechávajú svoje starosti. Nesú na pleciach bremená, ktoré im Boh kázal zložiť a odovzdať Jemu. Pán Ježiš v Markovom evanjeliu 4, 19 varuje:
+
+"...ale prichádzajú starosti sveta, klam bohatstva a iné rozličné žiadosti a udusia slovo, takže zostáva bez úžitku."
+
+Práve preto sú neustále obavy takou nebezpečnou zbraňou. Ak sa tvoja myseľ naplní strachom, stresom a pochybnosťami, Božie zasľúbenia v tvojom živote nemôžu prinášať ovocie. Pred očami ti totiž môže stáť obraz krásnej záhrady plnej Božích zasľúbení, no na jej okrajoch rastie burina – starosti, obavy a stres. Ak ich neodstrániš, zadusia semeno Božieho Slova.
+
+Boh však nie je autorom chaosu. Apoštol Pavel v 1. liste Korintským 14, 33 pripomína:
+
+"Boh nie je Bohom neporiadku, ale pokoja."
+
+Niekedy sa jednoducho musíš vzdať potreby všetkému rozumieť, aby si mohol zakúsiť Boží pokoj. Musíš odovzdať kontrolu Bohu. V liste Kolosenským 3, 15 je napísané:
+
+"A pokoj Kristov nech rozhoduje vo vašich srdciach, veď k nemu ste aj vy boli povolaní ako jedno telo; a buďte (za to) vďační."
+
+Boží pokoj neprichádza z dokonalých pozemských okolností. Prichádza z dôvery v Boha a z vedomia, čo pre teba Kristus už dokonal. Prorok Izaiáš 26, 3 uisťuje:
+
+"Toho, kto je pevnej mysle, zachovávaš v dokonalom pokoji, lebo v Teba dúfa."
+
+Keď prichádzajú obavy o budúcnosť, o peniaze alebo o každodenné potreby, postav sa na zasľúbenie z listu Filipským 4, 19:
+
+"Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša."
+
+Takto funguje Božie kráľovstvo v čase milosti. Nie podľa toho, čo vidia fyzické oči, ale podľa viery. V liste Židom 11, 1 čítame:
+
+"Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme."
+
+Už Pán Ježiš poukazoval na tento kľúčový princíp, ktorý neskôr apoštol Pavel pre cirkev plne rozvinul vo svetle milosti. V evanjeliu podľa Matúša 6, 33 hovorí:
+
+"Ale hľadajte najprv kráľovstvo Božie a Jeho spravodlivosť a všetko toto bude vám pridané."
+
+Nie je tvojou povinnosťou vyriešiť každú otázku a každú obavu. Tvojou jedinou úlohou je odovzdať svoje starosti Bohu, odpočívať v Jeho zasľúbeniach a kráčať vo viere. Ako je zapísané v liste Židom 6, 12, buď tým, ktorý vierou a trpezlivosťou dedí Božie zasľúbenia.`,
+        verses: [
+            { text: "O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách.", ref: "Filipským 4, 6" },
+            { text: "Na Neho uvaľte všetky svoje starosti, lebo On sa o vás stará.", ref: "1. Petra 5, 7" },
+            { text: "...ale prichádzajú starosti sveta, klam bohatstva a iné rozličné žiadosti a udusia slovo, takže zostáva bez úžitku.", ref: "Marek 4, 19" },
+            { text: "Boh nie je Bohom neporiadku, ale pokoja.", ref: "1. Korintským 14, 33" },
+            { text: "A pokoj Kristov nech rozhoduje vo vašich srdciach, veď k nemu ste aj vy boli povolaní ako jedno telo; a buďte (za to) vďační.", ref: "Kolosenským 3, 15" },
+            { text: "Toho, kto je pevnej mysle, zachovávaš v dokonalom pokoji, lebo v Teba dúfa.", ref: "Izaiáš 26, 3" },
+            { text: "Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša.", ref: "Filipským 4, 19" },
+            { text: "Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme.", ref: "Židom 11, 1" },
+            { text: "Ale hľadajte najprv kráľovstvo Božie a Jeho spravodlivosť a všetko toto bude vám pridané.", ref: "Matúš 6, 33" }
+        ],
+        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoju svätú tvár v mocnom mene Tvojho Syna, Ježiša Krista. Otváram pred Tebou svoje srdce a vyznávam, že niekedy podlieham tlaku ustarostenosti. Prinášam Ti všetky svoje obavy o budúcnosť, o zabezpečenie, o svoju rodinu a o situácie, ktoré nemám pod kontrolou. Ďakujem Ti, že v tomto čase milosti stojím pred Tebou úplne spravodlivý a očistený Kristovou krvou.
+
+Na základe Tvojho živého Slova z 1. listu Petra 5, 7 beriem dnes všetky svoje starosti, obavy i stres a skladám ich k Tvojim nohám. Rozhodujem sa prestať nosiť ťarchu, ktorú si vzal na Seba Kristus. Odovzdávam Ti svoju ľudskú snahu všetko sám riadiť a všetkému rozumieť.
+
+Vyznávam, že som nové stvorenie v Kristovi, súčasť Tvojej cirkvi, a v mojom duchu už prebýva dokonalý Kristov pokoj. Dnes povoľujem tomuto pokoju, aby robil konečné rozhodnutia v mojom srdci. Odmietam dovoliť burine starostí, aby dusila semeno Tvojho Slova v mojej mysli.
+
+Pane Ježišu, verím Tvojmu svedectvu z listu Filipským 4, 19, že Boh naplní každú moju potrebu podľa Svojho bohatstva v sláve. Moja dôvera nestojí na tom, čo vidia moje oči, ale na Tvojej dokonanej obeti a neochvejnej vernosti. Prijímam dokonalý pokoj pre svoju myseľ i pre svoje srdce.
+
+Ďakujem Ti, nebeský Otče, že Tvoj pokoj, ktorý prevyšuje každý ľudský rozum, teraz chráni moju myseľ aj moje srdce v Kristovi Ježišovi.
+
+Ukončujem túto modlitbu v tichom vedomí a plnej dôvere, že Ty sa o všetko dokonale postaráš.
 
 Amen.`,
         audioUrl: null,
         hasAudio: false,
         illustrationRef: "pergamen",
-        tags: ["hriech", "odpustenie", "očista", "sloboda"],
-        available: false,
-        scriptureTheme: "Žalm 51, 1. Jána 1",
+        tags: ["starosti", "kontrola", "dôvera", "Boží pokoj", "odovzdanie"],
+        available: true,
+        scriptureTheme: "Filipským 4, Kolosenským 3, Izaiáš 26",
         isStarter: false
     },
 
     "4": {
         id: "4",
-        title: "Samota a opustenosť",
-        subtitle: "Keď sa zdá, že Boh je ďaleko",
-        shortDescription: "Boh nikdy neopúšťa Svoje deti. Ako zakúsiť Jeho prítomnosť v osamelosti.",
-        fullText: `Táto kapitola je v príprave. Obsah bude dostupný čoskoro.
+        title: "Rodinné a osobné tragédie",
+        subtitle: "Ako v čase ťažkej straty prijať Božiu útechu, uzdravenie srdca a celkovú obnovu",
+        shortDescription: "Božia útecha a obnova uprostred straty. Boh ako Otec milosrdenstva, nie pôvodca bolesti.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
 
-Zatiaľ sa môžeš vrátiť k predchádzajúcim kapitolám a hlbšie vstúpiť do pravdy o Božej vernosti a láske.
+v živote človeka na tejto zemi môžu prísť momenty, kedy sa svet okolo nás v jedinej sekunde zrúti. Zásah nečakanej tragédie, náhla strata milovaného človeka, ťažká nehoda či nečakaný rozpad rodiny dokážu spôsobiť bolesť, ktorá sa zdá byť neznesiteľná. V takýchto chvíľach človek prirodzene hľadá odpovede a pýta sa: „Prečo sa to stalo?“
 
-Ak potrebuješ okamžitú pastoračnú pomoc, prečítaj si 1. kapitolu — Evanjelium spásy.`,
-        verses: [],
-        prayer: `Pane Ježišu, ďakujem Ti, že si mi prisľúbil: „Nikdy ťa neopustím, nikdy sa ťa nezrieknem." Verím, že si so mnou aj v tejto samote.
+Náboženský svet často ľuďom v ich najväčšom smútku ponúka nesprávnu odpoveď. Hovoria, že to bol Boh, kto túto tragédiu spôsobil, aby človeka niečo naučil alebo vyskúšal jeho vieru. Mnohí sa pritom odvolávajú na známy príbeh Jóba a citujú jeho slová z momentu obrovskej bolesti: „Hospodin dal, Hospodin vzal.“
+
+Jób týmito slovami vyjadril úprimnú úctu a odovzdanosť Bohu — Písmo o ňom hovorí, že v celom svojom trápení nezhrešil (Jób 1, 22). Hovoril však zo svojho obmedzeného poznania Starej zmluvy, v čase, keď ešte nebol zjavený plný obraz o Kristovi ani o skutočnom pôvodcovi zla. My však smieme rozumieť Písmu v plnom svetle Novej zmluvy. Sám Pán Ježiš v Jánovom evanjeliu 10, 10 jasne rozlišuje medzi Bohom a nepriateľom:
+
+"Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!"
+
+Boh nie je autorom tvojej tragédie. Náš nebeský Otec nepoužíva smrť, choroby ani nešťastia na to, aby ti ubližoval. Žijeme vo svete, kde pôsobí hriech a nepriateľ, no v čase milosti máme Boha, ktorý je plne na tvojej strane. On je Ten, ktorý prichádza obviazať tvoje zlomené srdce.
+
+Apoštol Pavel v 2. liste Korintským 1, 3 – 4 zjavuje skutočnú Božiu tvár:
+
+"Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení..."
+
+Keď Jób na konci svojho príbehu spoznal Boha osobne a prestal sa opierať o domnienky, jeho život sa úplne zmenil — Boh mu navrátil dvojnásobne toho, čo stratil. V knihe Jób 42, 10 čítame:
+
+"Hospodin zmenil Jóbov údel, pretože sa modlil za svojho blížneho."
+
+Boh je Bohom obnovy. Aj keď nepriateľ niečo zničil alebo skazil, Božie srdce je vždy plné milosrdenstva a obnovujúcej moci. V Žalme 34, 19 máme nádherné zasľúbenie:
+
+"Blízky je Hospodin tým, čo sú skrúšeného srdca, a pomáha tým, čo sú ubitého ducha."
+
+Ak dnes prežívaš hlbokú bolesť zo straty alebo rodinnej tragédie, nemusíš pred Bohom skrývať svoje slzy. Nemusíš však ani žobrať o Jeho lásku alebo sa hnevať na Boha za to, čo spôsobil nepriateľ. Otvor Mu svoje srdce a dovoľ Jeho milosti, aby ťa objala.
+
+V liste Rimanom 8, 28 nám Písmo dáva istotu:
+
+"A my vieme, že milujúcim Boha, povolaným podľa rady (Božej), všetky veci slúžia na dobro."
+
+To neznamená, že každá udalosť je dobrá. Znamená to, že aj z tej najtemnejšej situácie dokáže Boh Svojou mocou vyviesť dobro, útechu a nový začiatok. V Kristovi máš prístup k neobmedzenej Božej úteche, ktorá prevyšuje každú ľudskú bolesť.`,
+        verses: [
+            { text: "Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!", ref: "Ján 10, 10" },
+            { text: "Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení...", ref: "2. Korintským 1, 3 – 4" },
+            { text: "Hospodin zmenil Jóbov údel, pretože sa modlil za svojho blížneho.", ref: "Jób 42, 10" },
+            { text: "Blízky je Hospodin tým, čo sú skrúšeného srdca, a pomáha tým, čo sú ubitého ducha.", ref: "Žalm 34, 19" },
+            { text: "A my vieme, že milujúcim Boha, povolaným podľa rady (Božej), všetky veci slúžia na dobro.", ref: "Rimanom 8, 28" }
+        ],
+        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoju svätú tvár v mocnom mene Tvojho Syna, Ježiša Krista. Otváram pred Tebou svoje zranené srdce a prinášam Ti všetku bolesť, smútok a žiaľ z tragédie, ktorá zasiahla môj život. Vyznávam, že moja ľudská sila nestačí na to, aby som toto ťažké bremeno niesol sám.
+
+Ďakujem Ti, nebeský Otče, že v tomto čase milosti viem, kto v skutočnosti si. Odmietam klamstvo, že si túto bolesť alebo stratu spôsobil Ty. Verím Tvojmu Slovu, že Ty si Otec každej útechy a Otec milosrdenstva. Ježiš prišiel, aby som mal život a hojnosť, preto sa dnes plne utiekam do Tvojho bezpečného náručia.
+
+Podľa Tvojho zasľúbenia zo Žalmu 34, 19 verím, že si blízko môjmu skľúčenému srdcu. Odovzdávam Ti každú ranu, každý hnev i každé mätúce „prečo“ a prosím Ťa, naplň moju dušu Svojím Svätým Duchom. Prijímam Tvoje nadprirodzené uzdravenie pre svoju myseľ aj pre svoje vnútro.
+
+Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapitole. Tak ako si zmenil údel Jóba a priniesol mu obnovu, verím, že aj v mojom živote máš pripravené dobré veci. Rozhodujem sa nezostávať v zúfalstve, ale odpočívať v Tvojej milosti a vernosti.
+
+Ďakujem Ti, Otče, že Tvoja útecha a Tvoj pokoj strážia moje srdce. Prijímam novú silu pre každý nový deň a verím, že Tvoja láska ma prevedie aj tým najťažším údolím.
+
+Ukončujem túto modlitbu v plnej dôvere vo Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
 
 Amen.`,
         audioUrl: null,
         hasAudio: false,
         illustrationRef: "voda-svetlo",
-        tags: ["samota", "opustenosť", "prítomnosť", "nádej"],
-        available: false,
-        scriptureTheme: "Izaiáš 41, Hebrejom 13",
+        tags: ["strata", "smútok", "tragédia", "útecha", "uzdravenie", "obnova"],
+        available: true,
+        scriptureTheme: "Ján 10, 2. Korintským 1, Rimanom 8",
         isStarter: false
     },
 
     "5": {
         id: "5",
-        title: "Nemoc a utrpenie",
-        subtitle: "Božia moc v čase telesnej slabosti",
-        shortDescription: "Keď telo zlyháva, duch môže rásť. Ako nájsť nádej v chorobe.",
-        fullText: `Táto kapitola je v príprave. Obsah bude dostupný čoskoro.
+        title: "Rehabilitácia pred očami tvojich nepriateľov",
+        subtitle: "Ako skrze Božiu milosť prijať zadosťučinenie a obnovu po ponížení",
+        shortDescription: "Božia obnova a dôstojnosť po ponížení. Boh dvíha pokorných; naša hodnota je pevná v Kristovi.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
 
-Zatiaľ sa môžeš vrátiť k predchádzajúcim kapitolám a hlbšie vstúpiť do pravdy o Božom uzdravujúcom dotyku.
+ak čítaš tieto riadky, pravdepodobne vieš, aké to je niesť bremeno nespravodlivosti. Vieš, aké to je byť ponížený, prehliadaný, zradený tými, ktorým si veril, alebo odsunutý na okraj — v spoločnosti, v rodine či v práci. Možno prežívaš bolesť z toho, že tvoja hodnota bola pošliapaná a tvoje meno očiernené.
 
-Ak potrebuješ okamžitú pastoračnú pomoc, prečítaj si 1. kapitolu — Evanjelium spásy.`,
-        verses: [],
-        prayer: `Pane Ježišu, Ty si Pán nad každou chorobou a slabosťou. Verím, že Tvoja moc pôsobí aj v mojom tele. Ďakujem Ti za uzdravenie, ktoré si vykúpil na kríži.
+Ako človek obnovený Svätým Duchom a nové stvorenie v Kristovi však smieš poznať pravdu, ktorá mení pohľad na tvoje utrpenie: tvoja hodnota nestojí na tom, čo o tebe povedali ľudia, ale na tom, čím si sa stal v Kristovi. V Ňom si prijatý, ospravedlnený a milovaný — a to ti nikto nemôže vziať. Práve tam máš svoje pevné miesto aj vtedy, keď ťa svet odsunul.
+
+Písmo je plné obrazov Božieho charakteru — Boha, ktorý sa skláňa k pokorným a pozdvihuje zlomených. Žalmista Dávid, ktorý sám prešiel ponížením a prenasledovaním, vyznáva v Žalme 23, 5:
+
+"Stôl mi prestieraš pred mojimi protivníkmi, hlavu mi pomazávaš olejom, je preplnený kalich môj."
+
+Boh prestiera stôl svojej hojnosti a pokoja aj uprostred nepriazne. Nejde o triumf nad nepriateľmi pred divákmi, ale o Božiu prítomnosť a starostlivosť, ktorá ťa sýti aj tam, kde by si to najmenej čakal.
+
+Starozmluvné príbehy nám boli zapísané ako predobrazy a na naše poučenie (1. Kor 10, 11) — nie ako záruka pozemskej odplaty, ale ako obraz toho, aký je Boh a ako dokáže obnovovať človeka.
+
+Vezmi si Jozefa. Vlastní bratia ho hodili do jamy, predali do otroctva a nespravodlivo skončil v egyptskom väzení. Z ľudského hľadiska bol odpísaný. No Boh z jeho ponížených ciest vyviedol dobro a zachránil mnohých. Keď sa napokon stretol s bratmi, nesiahol po pomste, ale vyznal v 1. Mojžišovej 50, 20:
+
+"Vy ste, pravda, zamýšľali proti mne zlé, ale Boh to obrátil na dobré, aby tak učinil, čo je dnes zjavné: totiž, aby mnohých ľudí zachoval nažive."
+
+To, čo ľudia zamýšľali na zlé, Boh dokáže vpliesť do svojho dobrého diela. Jozef sa nemusel sám dovolávať spravodlivosti — mohol ju zložiť do Božích rúk a odpustiť.
+
+Podobne Dávid. Keď prišiel prorok Samuel pomazať nového kráľa, Dávidov vlastný otec ho ani nezavolal k stolu; bol považovaný za obyčajného pastiera kdesi na poli. No Boh nehľadí na to, čo hovoria ľudia — On pozdvihuje pokorných. Ako čítame v Žalme 113, 7 – 8:
+
+"On pozdvihuje z prachu slabého a zo smetiska vyvyšuje chudobného, aby ho usadil medzi kniežatá, kniežatá svojho ľudu."
+
+Nie je to prísľub, že každý dostane pozemský trón; je to uistenie, že v Božích očiach nie si zabudnutý a že tvoja skutočná dôstojnosť je v Ňom.
+
+Možno sa pýtaš: „Čo mám robiť teraz, keď ma to bolí a cítim nespravodlivosť?“ Tvojou úlohou nie je plánovať odplatu ani vymýšľať, ako dokázať svoju pravdu. Tvojou úlohou je zložiť to do Božích rúk a dôverovať Mu. Ako hovorí kniha Prísloví 3, 5 – 6:
+
+"Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky."
+
+Tvoj rozum ti našepkáva, že si prehral a že tvoje meno je zničené — no to je klamstvo prítomnej chvíle. Boh sám pozná tvoju bolesť a v pravý čas s ňou naloží podľa svojej múdrosti. Ty sa smieš zrieknuť ťarchy sebaobhajoby aj pomsty a odpočinúť v tom, čo pre teba Kristus už dokonal. Tvoja obnova sa nezačína pochvalou ľudí ani porážkou tých, čo ti ublížili — začína sa v tichu tvojho srdca, obnovou, pokojom a spravodlivosťou, ktoré máš v Kristovi zadarmo.`,
+        verses: [
+            { text: "Stôl mi prestieraš pred mojimi protivníkmi, hlavu mi pomazávaš olejom, je preplnený kalich môj.", ref: "Žalm 23, 5" },
+            { text: "Vy ste, pravda, zamýšľali proti mne zlé, ale Boh to obrátil na dobré, aby tak učinil, čo je dnes zjavné: totiž, aby mnohých ľudí zachoval nažive.", ref: "1. Mojžišova 50, 20" },
+            { text: "On pozdvihuje z prachu slabého a zo smetiska vyvyšuje chudobného, aby ho usadil medzi kniežatá, kniežatá svojho ľudu.", ref: "Žalm 113, 7 – 8" },
+            { text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.", ref: "Príslovia 3, 5 – 6" }
+        ],
+        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoj svätý trón s plnou dôverou a odvahou. Neprichádzam na základe svojich zásluh, ale pre drahocennú krv Pána Ježiša Krista. Ty poznáš každé poníženie, každú nespravodlivosť a každú ranu, ktorú mi ľudia spôsobili. Videl si moju zlomenosť — a dnes Ti ďakujem, že moje uzdravenie i moja obnova sú v Tebe už dokonané.
+
+Ty si Hospodin, môj Pastier, a nebudem mať nedostatku. Prestieraš stôl svojej hojnosti a pokoja aj uprostred nepriazne; hlavu mi pomazávaš olejom a môj kalich preteká Tvojím požehnaním. Ďakujem Ti, že Tvoja prítomnosť ma sýti aj tam, kde ma svet odsunul.
+
+Tak ako si sa sklonil k Jozefovi v jame i vo väzení a k Dávidovi na poli, tak sa skláňaš aj ku mne. Verím Tvojmu charakteru — že dvíhaš pokorných a že to, čo ľudia zamýšľali na zlé, Ty dokážeš obrátiť na dobré pre svoje sväté meno.
+
+Zriekam sa všetkej vlastnej snahy pomstiť sa alebo si ľudsky dokazovať svoju pravdu. Celým srdcom dúfam v Teba, Hospodine, a opieram sa o Tvoju vernosť; Ty sám urovnávaš moje chodníky. Skladám do Tvojich rúk každú krivdu a odpočívam v tom, čo pre mňa Kristus už dokonal.
+
+Prijímam obnovu, pokoj a dôstojnosť, ktoré mám v Kristovi zadarmo — nie ako odplatu voči ľuďom, ale ako dar Tvojej milosti. Moja hodnota je pevná v Tebe a to mi nikto nevezme.
+
+Ukončujem túto modlitbu v mocnom a vyvýšenom mene Ježiša Krista.
 
 Amen.`,
         audioUrl: null,
         hasAudio: false,
         illustrationRef: "svetlo-ruka",
-        tags: ["nemoc", "utrpenie", "uzdravenie", "dôvera"],
-        available: false,
-        scriptureTheme: "Izaiáš 53, 1. Petrov 2",
+        tags: ["poníženie", "nespravodlivosť", "obnova", "dôstojnosť v Kristovi", "odpustenie", "dôvera"],
+        available: true,
+        scriptureTheme: "1. Mojžišova 50, Žalm 23, Príslovia 3",
         isStarter: false
     }
 };
