@@ -543,6 +543,57 @@ Amen.`,
         available: true,
         scriptureTheme: "Žalm 103, Žalm 147, Jeremiáš 30, 1. Petra 2",
         isStarter: false
+    },
+    "10": {
+        id: "10",
+        title: "Prestaň prosiť a začni vládnuť v Kristovom mene",
+        subtitle: "Ako uchopiť svoju autoritu v znovuzrodenom duchu, prehovoriť k svojim vrchom a kráčať vo víťazstve",
+        shortDescription: "Ako prestať vystupovať z pozície porazeného, uchopiť delegovanú autoritu v Kristovom mene a vládnuť nad strachom a úzkosťou.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+ak prežívaš útoky úzkosti, strachu alebo choroby, chcem ťa prebudiť k jednej obrovskej pravde, ktorú nepriateľ nechce, aby si poznal. Mnohí kresťania robia tú chybu, že keď sú sužovaní, žobrajú pred Bohom a v zúfalstve prosia: „Otče, urob už niečo! Pane, uzdrav ma! Pane, vezmi odo mňa tento strach!“
+
+Boží Duch nám však cez apoštola Pavla v Liste Efezanom 1, 3 hovorí niečo úplne iné:
+
+"Požehnaný Boh a Otec Pána nášho Ježiša Krista, ktorý nás v nebeských veciach požehnal v Kristovi Ježišovi všetkým duchovným požehnaním."
+
+Všimni si to pozorne: Písmo nehovorí, že ťa Boh možno požehná, alebo že to urobí až v budúcnosti. Hovorí, že ťa už požehnal. Keď si uveril v Ježiša a narodil si sa z Ducha, do tvojho ducha sa nasťahoval samotný Boh. V tvojom znovuzrodenom duchu je už teraz dokonalé zdravie, dokonalý pokoj a absolútne víťazstvo.
+
+Problém nie je v tom, že by ti Boh niečo odopieral. Výzva spočíva v tom, ako túto nebeskú realitu uplatňovaním viery preniesť zo svojho ducha do svojho tela a do svojich pocitov. A ako sa to robí? Nie beznádejným plačom, ale použitím autority, ktorú ti Kristus delegoval.
+
+Pán Ježiš v Evanjeliu podľa Marka 11, 23 hovorí:
+
+"Veru vám hovorím: Keby niekto povedal tomuto vrchu: Zdvihni sa a zvaľ sa do mora! a nepochyboval by v srdci, ale veril by, že sa stane, čo hovorí, stane sa mu."
+
+Ježiš ti nedal príkaz, aby si nariekal pred vrchom a prosil Boha, nech ho odstráni. Dal ti autoritu, aby si ty sám prehovoril k tomu vrchu! Strach, úzkosť, depresia či bolesť – to všetko sú vrchy, ktoré stoja pred tebou. Ako znovuzrodený človek máš v ústach moc Ježišovho mena.
+
+Prestaň prosiť Boha, aby porazil diabla – On ho už odzbrojil na kríži. Teraz je rad na tebe. Vezmi tú moc, ktorú máš vo vnútri, postav sa klamstvám nepriateľa a prikáž strachu a chorobe, aby odišli. Boh do tvojich rúk vložil zbrane – je čas ich použiť!`,
+        verses: [
+            { text: "Požehnaný Boh a Otec Pána nášho Ježiša Krista, ktorý nás v nebeských veciach požehnal v Kristovi Ježišovi všetkým duchovným požehnaním.", ref: "Efezanom 1, 3" },
+            { text: "Veru vám hovorím: Keby niekto povedal tomuto vrchu: Zdvihni sa a zvaľ sa do mora! a nepochyboval by v srdci, ale veril by, že sa stane, čo hovorí, stane sa mu.", ref: "Marek 11, 23" }
+        ],
+        prayer: `Drahý nebeský Otče a môj milovaný Bože,
+
+prichádzam k Tebe v mocnom mene Ježiša Krista ako Tvoje milované dieťa. Ďakujem Ti, že v tomto vyznaní už nemusím pred Tebou žobrať ani Ťa presviedčať, aby si ma mal rád alebo aby si mi pomohol. Ďakujem Ti za pravdu Tvojho Slova, ktorá ma oslobodzuje.
+
+Otče, vyznávam a verím, že v momente, keď si ma znovuzrodil Svojím Duchom, dal si mi všetko potrebné pre život a zbožnosť. Ďakujem Ti, že v mojom vnútri už teraz prebýva dokonalý Kristov pokoj, plné uzdravenie a víťazstvo nad každou temnotou. Ty si už všetko dokonal na kríži.
+
+A preto sa teraz na základe Tvojho Slova obraciam priamo k problémom a útokom vo svojom živote. V autorite, ktorú si mi Ty sám delegoval, vyhlasujem:
+
+V mocnom mene Ježiša Krista hovorím k tebe, duch strachu, úzkosti a sužovania – odíď odo mňa! Nemáš nado mnou žiadnu moc, lebo môj duch patrí Bohu a je naplnený Jeho pokojom. Prikazujem svojim emóciám a svojmu telu, aby sa podriadili Božiemu Slovu. Vyhlasujem, že som uzdravený, slobodný a silný v Pánovi.
+
+Ďakujem Ti, Otče, že ma učíš vládnuť v Tvojom mene. Už nebudem žiť ako porazený, ale budem kráčať v moci, ktorú si do mňa vložil. Tebe patrí všetka sláva.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "autorita-vladnutie-kristus",
+        tags: ["autorita", "vláda", "viera", "slová", "pokoj", "víťazstvo"],
+        available: true,
+        scriptureTheme: "Efezanom 1, Marek 11",
+        isStarter: false
     }
 };
 
