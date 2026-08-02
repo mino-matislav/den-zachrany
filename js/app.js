@@ -318,7 +318,7 @@
             }
             if (titleEl) titleEl.textContent = chapter.title;
             if (subEl) subEl.textContent = chapter.subtitle;
-            if (audioTitle) audioTitle.textContent = 'Audio kapitoly: ' + chapter.title;
+            if (audioTitle) audioTitle.textContent = 'Audio modlitby';
 
             // Text kapitoly s veršami
             if (textEl) {
@@ -363,9 +363,15 @@
 
             // Audio
             const audioEl = document.querySelector('.chapter-audio audio');
+            const audioWrap = document.querySelector('.chapter-audio');
+            const audioMsg = audioWrap ? audioWrap.querySelector('.player > p') : null;
+            const audioControls = audioWrap ? audioWrap.querySelector('.player-controls') : null;
             if (audioEl && chapter.audioUrl) {
                 audioEl.querySelector('source').src = chapter.audioUrl;
                 audioEl.load();
+                if (audioMsg) audioMsg.hidden = true;
+            } else {
+                if (audioControls) audioControls.hidden = true;
             }
         } else {
             // Chýbajúca kapitola

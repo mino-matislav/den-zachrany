@@ -56,8 +56,8 @@ A preto teraz, ako znovuzrodené Božie dieťa, ktoré stojí v milosti, v mocno
 Ďakujem Ti, Otče, už teraz – hoci ešte vlastnými očami nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidia moje oči, ale o Tvoju vernosť. Ja som slabý, ale Ten, ktorý odteraz žije vo mne, je všemohúci Víťaz.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-1.mp3",
+        hasAudio: true,
         illustrationRef: "svetlo-cesta",
         tags: ["strach zo smrti", "zatratenie", "spása", "znovuzrodenie", "milosť"],
         available: true,
@@ -111,8 +111,8 @@ Podrobujem každú jednu myšlienku do poslušnosti Kristovi. Vyznávam, že som
 Ďakujem Ti, nebeský Otče, že Tvoj neochvejný pokoj, ktorý prevyšuje každý ľudský rozum, teraz stráži moju myseľ i moje srdce v Kristovi Ježišovi. Ukončujem túto modlitbu s vedomím, že Ten, ktorý je vo mne, je väčší ako akýkoľvek strach.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-2.mp3",
+        hasAudio: true,
         illustrationRef: "svetlo-vlna",
         tags: ["úzkosť", "chaos", "myšlienky", "pokoj", "duchovný boj"],
         available: true,
@@ -196,8 +196,8 @@ Pane Ježišu, verím Tvojmu svedectvu z listu Filipským 4, 19, že Boh naplní
 Ukončujem túto modlitbu v tichom vedomí a plnej dôvere, že Ty sa o všetko dokonale postaráš.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-3.mp3",
+        hasAudio: true,
         illustrationRef: "pergamen",
         tags: ["starosti", "kontrola", "dôvera", "Boží pokoj", "odovzdanie"],
         available: true,
@@ -263,8 +263,8 @@ Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapito
 Ukončujem túto modlitbu v plnej dôvere vo Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-4.mp3",
+        hasAudio: true,
         illustrationRef: "voda-svetlo",
         tags: ["strata", "smútok", "tragédia", "útecha", "uzdravenie", "obnova"],
         available: true,
