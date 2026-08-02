@@ -380,6 +380,58 @@ Amen.`,
         available: true,
         scriptureTheme: "Jakub 4, Príslovia 3",
         isStarter: false
+    },
+    "7": {
+        id: "7",
+        title: "Ako odpočívať v Božej vôli a zbaviť sa strachu z jej minutia",
+        subtitle: "Ako vedomie zvrchovanej Božej milosti a dokonalého načasovania prináša pokoj do ľudskej neistoty",
+        shortDescription: "Ako sa zbaviť strachu z minutia Božej vôle a vstúpiť do odpočinku v dokonalom Božom načasovaní a milosti.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+trápil si sa niekedy obavou, že minieš Božiu vôľu a plán pre svoj život? Mnohí kresťania žijú s týmto tichým strachom, že pre vlastné zlyhania alebo nepriateľské útoky minú Božie volanie a zasľúbenia. Písmo nám však ukazuje úplne iný obraz.
+
+Predstav si biblický obraz Hrnčiara a hliny. Písmo hovorí, že Boh je Hrnčiar a my sme hlina v Jeho rukách. Keď sa nádoba v Hrnčiarových rukách pokazí, On ju nevyhodí. Pretvorí ju na inú nádobu, takú, aká sa Jemu páči. Tvoj život nie je ponechaný na náhodu. Božia vôľa pre tvoj život je zvrchovaná a mocná. To, čo Boh pre teba určil, Mu nepretečie pomedzi prsty.
+
+Počúvaj, čo hovorí Žalm 34, 11:
+
+"Levíčatá biedia a hladujú, ale tí, ktorí Hospodina hľadajú, nemajú nedostatku v ničom dobrom."
+
+A v knihe Kazateľ 3, 1 Písmo uisťuje, že Boh drží v rukách každú chvíľu:
+
+"Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:"
+
+Božia vôľa nezlyháva na tvojej slabosti. Všimni si: Písmo nehovorí, že ty to máš svojou silou vynútiť. Hovorí, že Hospodin drží každý čas vo svojej ruke. Áno, prichádzajú obdobia sucha a ticha, no ak hľadáš Boha nadovšetko – nad ľudské filozofie a strachy –, Jeho vôľa ťa neminie.
+
+V liste Židom 6, 12 máme toto pevné zasľúbenie:
+
+"...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení."
+
+Viera a trpezlivé očakávanie sú kľúčom. Viera verí Božiemu charakteru a trpezlivé očakávanie odpočíva v Božom načasovaní. Boh nikdy nemešká. Často čaká do poslednej chvíle, aby bolo jasné, že to vykonala výhradne Jeho milosť a moc, nie ľudské telo.
+
+Preto sa prestaň strachovať o výsledok a zameraj sa na hľadanie Pána Ježiša Krista podľa Matúša 6, 33. Keď hľadáš Jeho, si priamo v centre Jeho vôle. Najvyššia forma viery je odpočívať v Jeho zasľúbeniach. Nemôžeš minúť to, čo pre teba Boh vo svojej dokonalej vôli pripravil. Tvojou jedinou úlohou je sýtiť sa Jeho slovom a hľadať Jeho tvár.`,
+        verses: [
+            { text: "Levíčatá biedia a hladujú, ale tí, ktorí Hospodina hľadajú, nemajú nedostatku v ničom dobrom.", ref: "Žalm 34, 11" },
+            { text: "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:", ref: "Kazateľ 3, 1" },
+            { text: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení.", ref: "Židom 6, 12" }
+        ],
+        prayer: `Pane Ježiši Kriste, môj Boh a môj Hrnčiar,
+
+vyznávam pred Tebou, že do môjho srdca niekedy prichádza strach, že miniem Tvoju svätú vôľu a plán, ktorý máš so mnou. Odmietam tento strach a podriaďujem sa moci Tvojho Slova. Verím, že môj život je bezpečne skrytý v Tvojich rukách.
+
+Pane, Tvoja vôľa pre môj život je dokonalá a nezlyháva. Ty si Ten, ktorý ma formuje a vedie. Vyhlasujem podľa Žalmu 34, že keď Ťa hľadám, nebudem mať nedostatku v ničom dobrom – neminiem žiadne požehnanie, ktoré si mi určil. Zriekam sa snahy tlačiť na veci vo vlastnej sile alebo podľa ľudskej rozumnosti.
+
+Ďakujem Ti za nadprirodzenú vieru a trpezlivé očakávanie, ktoré si vložil do môjho znovuzrodeného ducha. Rozhodujem sa odpočívať v Tvojom dokonalom načasovaní. Vyznávam, že Ty nemeškáš a že Ty sám vykonáš svoje dielo v pravom čase, aby Tebe patrila všetka sláva. Uč ma hľadať najprv Tvoje kráľovstvo a Tvoju spravodlivosť.
+
+Ukotvujem svoju nádej v Tebe a prehlasujem, že Tvoja zvrchovaná vôľa sa v mojom živote naplní a žiadny útok nepriateľa ju neprekazí. V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "hrnciar-hlina",
+        tags: ["Božia vôľa", "odpočinok", "trpezlivosť", "viera", "Hrnčiar a hlina", "akceptácia"],
+        available: true,
+        scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6",
+        isStarter: false
     }
 };
 
