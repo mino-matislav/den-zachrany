@@ -335,6 +335,51 @@ Amen.`,
         available: true,
         scriptureTheme: "1. Mojžišova 50, Žalm 23, Príslovia 3",
         isStarter: false
+    },
+    "6": {
+        id: "6",
+        title: "Ako premeniť dusivý tlak a útoky na miesto Božieho víťazstva",
+        subtitle: "Ako skrze podriadenie sa Bohu zmazať moc nepriateľa a zakúsiť vyslobodenie z okov",
+        shortDescription: "Ako podriadením sa Bohu premeniť tlak nepriateľa na miesto Božieho víťazstva. Odpočinok v dokonanej obeti Krista.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+chcem ti dnes zvestovať slovo potešenia a neochvejnej pravdy, ktorú nám zjavuje Písmo. Bolesť, ktorú práve prežívaš, a ten neustály tlak či útoky, ktoré ťa gniavia, ťa v skutočnosti nevedú k záhube. Tieto ťažké okolnosti ťa v tvojej ľudskej slabosti ženú priamo do náruče tvojho nebeského Otca – k samotnému Bohu, ktorý je tvojím jediným Zdrojom.
+
+Pozri sa na svoju situáciu očami viery. Nepriateľ urobil obrovskú chybu. Predstav si človeka, ktorý sa snaží zúfalo uhasiť oheň, no namiesto vody naň leje palivo. Presne to robí diabol tebe. Myslí si, že ťa úzkosťou, strachom a trápením zlomí. Netuší však, že zakaždým, keď ťa ten tlak pritlačí k modlitbe, tvoj plameň viery nezhasína, ale stúpa vyššie. Ty ho v Božej moci premáhaš.
+
+Božie Slovo v liste Jakubovom 4, 7 hovorí jasne:
+
+"Poddajte sa teda Bohu, ale vzoprite sa diablovi – a utečie od vás."
+
+Všimni si toto dokonalé Božie poradie. Svet a tvoje vlastné strachy ti hovoria: „Najprv vyrieš svoj problém, bojuj s úzkosťou, zbi sa s diablom vo vlastnej sile a potom unavený príď k Bohu.“ To je klamstvo nepriateľa. Duchovný Boží princíp hovorí: Najprv sa podriaď Bohu. Schovaj sa v dokonanej obeti Ježiša Krista. Zlož zbrane vlastného tela. V momente, keď stojíš v Kristovi, diabol nemá šancu. Musí utiecť. Tvoje utiekanie sa k Bohu je preňho zdrvujúcou porážkou.
+
+Preto ťa prosím, keď nabudúce príde strach alebo pocit, že si v pasci, nesnaž sa to vyriešiť svojím vlastným rozumom. Božie zasľúbenie z knihy Prísloví 3, 5 – 6 platí pre teba aj dnes:
+
+"Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky."
+
+Tvoja sila nie je v tvojom tele, v tvojich emóciách ani v ľudských riešeniach. Ježiš Kristus žije v tebe. On je tvoj Zdroj. Keď v Ňom zostaneš, tie ťažké okovy nezoslabnú len o kúsok – oni z teba mocou Jeho milosti úplne spadnú. Ty neprehrávaš. S každým otvoreným Písmom a s každou modlitbou vo viere víťazíš. Diabol ťa chcel oslabiť, no Boh to obracia na tvoje posilnenie. Zostávaj v Ňom.`,
+        verses: [
+            { text: "Poddajte sa teda Bohu, ale vzoprite sa diablovi – a utečie od vás.", ref: "Jakub 4, 7" },
+            { text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.", ref: "Príslovia 3, 5 – 6" }
+        ],
+        prayer: `Pane Ježiši Kriste, môj Bože a môj Zdroj sily,
+
+prichádzam k Tebe presne taký, aký som – unavený a pod tlakom nepriateľských útokov. Vyznávam podľa Tvojho Slova, že moja vlastná rozumnosť mi nestačí, a úplne sa zriekam snahy bojovať vo svojej ľudskej sile.
+
+Pane, na základe Tvojho zasľúbenia z Jakubovho listu 4, 7 sa v tejto chvíli plne podriaďujem Tebe. Odovzdávam Ti svoju myseľ, svoj strach, svoju úzkosť aj celú túto situáciu. Schovávam sa v Tebe, lebo Ty si moja pevnosť a môj hrad. Na základe Tvojej svätej autority sa teraz vzpieram diablovi a všetkým jeho klamstvám. Prikazujem každému duchu strachu a tmy, aby odišiel, pretože moje spasenie a môj život patria Kristovi.
+
+Pane, dúfam v Teba celým svojím srdcom. Ty vidíš pasce, ktoré mi nepriateľ nastrojil, no ja verím, že Ty sám mi urovnáš chodníky. Prehlasujem, že to, čo ma malo zničiť, ma v Tvojej moci posilní. Nech je každý útok nepriateľa len palivom, ktoré ma vháňa hlbšie do modlitby a bližšie k Tebe.
+
+Ďakujem Ti, že Ty sám žiješ vo mne a Tvoja sila sa dokonale prejavuje v mojej slabosti. Nech v tejto chvíli padnú všetky okovy zúfalstva a strachu v mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "stlp-ohna",
+        tags: ["útoky nepriateľa", "tlak", "podriadenie sa Bohu", "milosť", "vyslobodenie", "odpočinok v Kristovi"],
+        available: true,
+        scriptureTheme: "Jakub 4, Príslovia 3",
+        isStarter: false
     }
 };
 
