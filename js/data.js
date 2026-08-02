@@ -56,7 +56,7 @@ A preto teraz, ako znovuzrodené Božie dieťa, ktoré stojí v milosti, v mocno
 Ďakujem Ti, Otče, už teraz – hoci ešte vlastnými očami nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidia moje oči, ale o Tvoju vernosť. Ja som slabý, ale Ten, ktorý odteraz žije vo mne, je všemohúci Víťaz.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-1.mp3",
+        audioUrl: "assets/audio/modlitba-1.mp3?v=2",
         hasAudio: true,
         illustrationRef: "svetlo-cesta",
         tags: ["strach zo smrti", "zatratenie", "spása", "znovuzrodenie", "milosť"],
@@ -185,7 +185,7 @@ Nie je tvojou povinnosťou vyriešiť každú otázku a každú obavu. Tvojou je
 
 prichádzam pred Tvoju svätú tvár v mocnom mene Tvojho Syna, Ježiša Krista. Otváram pred Tebou svoje srdce a vyznávam, že niekedy podlieham tlaku ustarostenosti. Prinášam Ti všetky svoje obavy o budúcnosť, o zabezpečenie, o svoju rodinu a o situácie, ktoré nemám pod kontrolou. Ďakujem Ti, že v tomto čase milosti stojím pred Tebou úplne spravodlivý a očistený Kristovou krvou.
 
-Na základe Tvojho živého Slova z 1. listu Petra 5, 7 beriem dnes všetky svoje starosti, obavy i stres a skladám ich k Tvojim nohám. Rozhodujem sa prestať nosiť ťarchu, ktorú si vzal na Seba Kristus. Odovzdávam Ti svoju ľudskú snahu všetko sám riadiť a všetkému rozumieť.
+Na základe Tvojho živého Slova z 1. listu Petra 5, 7 beriem dnes všetky svoje starosti, obavy i stres a skladám ich k Tvojim nohám. Rozhodujem sa prestať nosiť ťarchu, ktorú vzal na Seba Pán Ježiš Kristus. Odovzdávam Ti svoju ľudskú snahu všetko sám riadiť a všetkému rozumieť.
 
 Vyznávam, že som nové stvorenie v Kristovi, súčasť Tvojej cirkvi, a v mojom duchu už prebýva dokonalý Kristov pokoj. Dnes povoľujem tomuto pokoju, aby robil konečné rozhodnutia v mojom srdci. Odmietam dovoliť burine starostí, aby dusila semeno Tvojho Slova v mojej mysli.
 
