@@ -432,6 +432,60 @@ Amen.`,
         available: true,
         scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6",
         isStarter: false
+    },
+    "8": {
+        id: "8",
+        title: "Vyslobodenie skrze rozjímanie o Božom Slove",
+        subtitle: "Ako premeniť svoju myseľ skrze Písmo a zlomiť okovy strachu a negatívnych predstáv",
+        shortDescription: "Ako skrze rozjímanie o Božom Slove premeniť svoju myseľ, zlomiť myšlienkové okovy strachu a zakúsiť skutočnú slobodu v Kristovi.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+Biblia nás učí, že hlavný zápas o náš život sa odohráva v našej mysli. Ak vo svojom vnútri neustále živíš obrazy strachu, úzkosti a bezútešnosti, tvoje srdce sa začne uberať presne týmto smerom. To je pasca nepriateľa, ktorý ťa chce udržať v zajatí tvojich vlastných temných myšlienok. Písmo nám však v čase milosti ukazuje cestu absolútneho oslobodenia.
+
+Boží výrok z evanjelia podľa Jána 8, 32 hovorí:
+
+"A poznáte pravdu a pravda vás vyslobodí."
+
+Sloboda neprichádza vtedy, keď analyzuješ svoj strach, ale keď spoznáš Pravdu, ktorou je Božie Slovo. Ty nemusíš popierať, že tvoje trápenie je reálne. Viera však znamená, že odmietneš priznať tomuto trápeniu väčšiu autoritu, než akú má Božie zasľúbenie. Ty sa rozhoduješ, s ktorou realitou budeš súhlasiť: či s klamstvom strachu, alebo s Božím Slovom.
+
+Hospodin prikázal Józuovi v knihe Józuovej 1, 8:
+
+"Nech sa táto kniha zákona nevzdiali od tvojich úst, ale rozjímaj o nej vo dne i v noci..."
+
+Všimni si: Boh ti neprikazuje rozjímať o tvojej úzkosti a depresii. Hovorí ti, aby si vo dne i v noci sýtil svoju myseľ Jeho Slovom. To, na čo sa zameriavaš, určí smer tvojho života.
+
+V liste Židom 11, 1 nachádzame kľúč:
+
+"Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme."
+
+Viera nie je len nestály pocit. Podľa Písma je to pevná podstata a duchovný základ. Je to neotrasiteľné presvedčenie o Božej vernosti, aj keď tvoje oči ešte nevidia riešenie. Svet ti hovorí: „Uveríš, až keď uvidíš.“ Boh však vo svojej zvrchovanosti hovorí opak: „Uvidíš, keď uveríš.“
+
+Tvojou úlohou nie je vymyslieť vo vlastnej sile plán, ako sa zachrániť, ani vyriešiť detaily svojej budúcnosti. Tvoja úloha je oprieť sa o dokonané dielo Ježiša Krista a nechať Boha konať. Stráž svoje myšlienky, sýť sa Písmom a dovoľ Bohu, aby obnovil tvoju myseľ podľa Svojej pravdy. Vtedy okovy strachu odpadnú a ty budeš skutočne slobodný.`,
+        verses: [
+            { text: "A poznáte pravdu a pravda vás vyslobodí.", ref: "Ján 8, 32" },
+            { text: "Nech sa táto kniha zákona nevzdiali od tvojich úst, ale rozjímaj o nej vo dne i v noci...", ref: "Józua 1, 8" },
+            { text: "Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme.", ref: "Židom 11, 1" }
+        ],
+        prayer: `Drahý nebeský Otče, môj milovaný Bože,
+
+v mocnom mene Ježiša Krista prichádzam pred Tvoju tvár ako Tvoje znovuzrodené dieťa. Otváram pred Tebou svoje srdce a vyznávam, že moja myseľ býva niekedy vystavená úzkosti, strachu a temným predstavám. Zriekam sa snahy bojovať v ľudskej sile a odmietam rozjímať nad svojím trápením namiesto toho, aby som hľadel na Tvoje zasľúbenia.
+
+Ďakujem Ti, že Tvoja moc sa dokonale prejavuje v mojej slabosti. Podľa Tvojho svätého Slova z evanjelia podľa Jána 8, 32 viem, že Tvoja Pravda ma v Kristovi už oslobodila z každého väzenia strachu. Rozhodujem sa v tejto chvíli – napriek mojim rozbúreným pocitom – veriť Tvojmu Slovu viac než mojim okolnostiam. Ty sám napĺňaš každú moju potrebu podľa svojho slávneho bohatstva v Kristovi Ježišovi.
+
+Pane, vyznávam, že v mojom znovuzrodenom duchu už prebýva Kristova viera. Rozhodujem sa podľa knihy Józuovej 1, 8 sýtiť svoju myseľ Tvojím Písmom vo dne i v noci. Vyhlasujem, že viera vo mne je pevnou podstatou vecí, na ktoré sa nádejam, a dôkazom vecí, ktoré moje fyzické oči ešte nevidia.
+
+A preto teraz na základe autority, ktorú mám v Kristovi, hovorím k tomuto strachu a klamstvám nepriateľa: Umĺknite a odíďte! Strážim dnes svoje srdce aj svoju myseľ v Kristovi Ježišovi. Ty sám konáš v mojom vnútri a obnovuješ ma Svojím Svätým Duchom. Môj život je bezpečne skrytý v Tvojej pravde.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "otvorene-pismo-svetlo",
+        tags: ["rozjímanie", "Božie Slovo", "obnova mysle", "pravda", "vyslobodenie", "viera"],
+        available: true,
+        scriptureTheme: "Ján 8, Józua 1, Židom 11",
+        isStarter: false
     }
 };
 
