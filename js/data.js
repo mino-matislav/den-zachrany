@@ -62,7 +62,8 @@ Amen.`,
         tags: ["strach zo smrti", "zatratenie", "spása", "znovuzrodenie", "milosť"],
         available: true,
         scriptureTheme: "Rimanom 3, 6, 10",
-        isStarter: true
+        isStarter: true,
+        starterLabel: "Evanjelium spásy"
     },
 
     "2": {

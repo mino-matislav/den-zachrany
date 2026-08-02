@@ -1008,15 +1008,15 @@ button {
     order: -1;
 }
 
-.chapter-item.starter::before {
-    content: '⭐ Štartovacia kapitola';
-    display: block;
-    font-size: var(--text-xs);
-    font-weight: 600;
+.starter-label {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 700;
     color: var(--gold);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     margin-bottom: var(--space-2);
+    line-height: 1.2;
 }
 
 .chapter-item.hidden {

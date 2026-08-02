@@ -108,11 +108,11 @@ try {
   blockSrc = blockSrc.slice(0, blockSrc.lastIndexOf('\n    }') + '\n    }'.length);
 
   const firstAvail = Object.keys(chapterData).find(id => chapterData[id].available);
-  const el = () => ({ textContent: '', innerHTML: '', querySelector: () => ({ src: '' }), load() {} });
+  const el = () => ({ textContent: '', innerHTML: '', querySelector: () => ({ src: '' }), load() {}, parentNode: { insertBefore() {} }, nextSibling: null });
   const els = {}; ['.chapter-heading', '.chapter-subheading', '.chapter-number-label',
     '.chapter-text', '.chapter-prayer-text', '.chapter-audio-title', '.chapter-page',
     '.chapter-audio audio'].forEach(k => els[k] = el());
-  const doc = { querySelector: k => els[k] || null, title: '' };
+  const doc = { querySelector: k => els[k] || null, title: '', createElement: function(tag) { return el(); } };
   const win = { location: { search: '?id=' + firstAvail, set href(v) { els.__r = v; } } };
   const Storage = { setLastRead() {} };
   new Function('chapterData', 'Storage', 'document', 'window', 'URLSearchParams', blockSrc)

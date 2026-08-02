@@ -104,7 +104,10 @@
                 const tagsAttr = (ch.tags || []).join(',');
 
                 listHtml += '<article class="' + classes + '" data-id="' + id + '" data-tags="' + tagsAttr + '" role="listitem">';
-                listHtml += '<div class="chapter-number">' + num + '. Kapitola</div>';
+                listHtml += '<div class="chapter-number">' + num + (ch.isStarter ? '. Štartovacia kapitola' : '. Kapitola') + '</div>';
+                if (ch.starterLabel) {
+                    listHtml += '<div class="starter-label">' + ch.starterLabel + '</div>';
+                }
                 if (coming) {
                     listHtml += '<span class="chapter-badge">Pripravujeme</span>';
                 }
@@ -307,6 +310,12 @@
             const audioTitle = document.querySelector('.chapter-audio-title');
 
             if (numEl) numEl.textContent = chapterId + '. Kapitola';
+            if (chapter.starterLabel) {
+                var labelEl = document.createElement('div');
+                labelEl.className = 'starter-label';
+                labelEl.textContent = chapter.starterLabel;
+                numEl.parentNode.insertBefore(labelEl, numEl.nextSibling);
+            }
             if (titleEl) titleEl.textContent = chapter.title;
             if (subEl) subEl.textContent = chapter.subtitle;
             if (audioTitle) audioTitle.textContent = 'Audio kapitoly: ' + chapter.title;
