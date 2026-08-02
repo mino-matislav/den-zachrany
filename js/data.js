@@ -415,7 +415,7 @@ Preto sa prestaň strachovať o výsledok a zameraj sa na hľadanie Pána Ježi�
             { text: "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:", ref: "Kazateľ 3, 1" },
             { text: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení.", ref: "Židom 6, 12" }
         ],
-        prayer: `Pane Ježiši Kriste, môj Boh a môj Hrnčiar,
+        prayer: `Pane Ježišu Kriste, môj Boh a môj Hrnčiar,
 
 vyznávam pred Tebou, že do môjho srdca niekedy prichádza strach, že miniem Tvoju svätú vôľu a plán, ktorý máš so mnou. Odmietam tento strach a podriaďujem sa moci Tvojho Slova. Verím, že môj život je bezpečne skrytý v Tvojich rukách.
 
@@ -426,8 +426,8 @@ Pane, Tvoja vôľa pre môj život je dokonalá a nezlyháva. Ty si Ten, ktorý 
 Ukotvujem svoju nádej v Tebe a prehlasujem, že Tvoja zvrchovaná vôľa sa v mojom živote naplní a žiadny útok nepriateľa ju neprekazí. V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-7.mp3",
+        hasAudio: true,
         illustrationRef: "hrnciar-hlina",
         tags: ["Božia vôľa", "odpočinok", "trpezlivosť", "viera", "Hrnčiar a hlina", "akceptácia"],
         available: true,
