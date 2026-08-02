@@ -329,8 +329,8 @@ Prijímam obnovu, pokoj a dôstojnosť, ktoré mám v Kristovi zadarmo — nie a
 Ukončujem túto modlitbu v mocnom a vyvýšenom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-5.mp3",
+        hasAudio: true,
         illustrationRef: "svetlo-ruka",
         tags: ["poníženie", "nespravodlivosť", "obnova", "dôstojnosť v Kristovi", "odpustenie", "dôvera"],
         available: true,
@@ -363,7 +363,7 @@ Tvoja sila nie je v tvojom tele, v tvojich emóciách ani v ľudských riešenia
             { text: "Poddajte sa teda Bohu, ale vzoprite sa diablovi – a utečie od vás.", ref: "Jakub 4, 7" },
             { text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.", ref: "Príslovia 3, 5 – 6" }
         ],
-        prayer: `Pane Ježiši Kriste, môj Bože a môj Zdroj sily,
+        prayer: `Pane Ježišu Kriste, môj Boh a môj Zdroj sily,
 
 prichádzam k Tebe presne taký, aký som – unavený a pod tlakom nepriateľských útokov. Vyznávam podľa Tvojho Slova, že moja vlastná rozumnosť mi nestačí, a úplne sa zriekam snahy bojovať vo svojej ľudskej sile.
 
@@ -374,8 +374,8 @@ Pane, dúfam v Teba celým svojím srdcom. Ty vidíš pasce, ktoré mi nepriate�
 Ďakujem Ti, že Ty sám žiješ vo mne a Tvoja sila sa dokonale prejavuje v mojej slabosti. Nech v tejto chvíli padnú všetky okovy zúfalstva a strachu v mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-6.mp3",
+        hasAudio: true,
         illustrationRef: "stlp-ohna",
         tags: ["útoky nepriateľa", "tlak", "podriadenie sa Bohu", "milosť", "vyslobodenie", "odpočinok v Kristovi"],
         available: true,
