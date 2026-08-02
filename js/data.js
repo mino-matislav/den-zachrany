@@ -486,6 +486,63 @@ Amen.`,
         available: true,
         scriptureTheme: "Ján 8, Józua 1, Židom 11",
         isStarter: false
+    },
+    "9": {
+        id: "9",
+        title: "Božie uzdravenie a obnova v čase choroby a bolesti",
+        subtitle: "Ako skrze vieru v dokonané Kristovo dielo prijať zasľúbenie o uzdravení a obstáť zoči-voči zlým lekárskym správam",
+        shortDescription: "Ako skrze vieru v dokonané Kristovo výkupné dielo prijať Božie zasľúbenie o uzdravení a obnove zdravia zoči-voči chorobe a zlým lekárskym správam.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+ak tvoje telo momentálne zažíva slabosť, ak bojuješ s chronickou bolesťou alebo ťa vystrašila zlá lekárska správa, zastav sa. Ľudská bezmocnosť zoči-voči chorobe dokáže naplniť celú našu myseľ strachom. V takýchto chvíľach sa často vynára tichá, ale ničivá otázka: „Trestá ma Boh? Je toto Jeho vôľa pre môj život?“ Náboženské klamstvá a nepriateľ duše sa nás snažia presvedčiť, že Boh používa choroby a utrpenie na to, aby nás niečo naučil alebo zlomil. Písmo nám však v svetle Kristovho kríža ukazuje úplne inú pravdu.
+
+Boh nie je autorom tvojej choroby ani tvojej bolesti. Ježiš počas svojho pozemského pôsobenia neprišiel choroby zosielať – naopak, chodil, robil dobre a uzdravoval všetkých sužovaných diablom (Skutky 10, 38). On ti neponúka len prázdnu ľudskú útechu, ale prichádza s mocným zasľúbením, ktoré mení celú tvoju situáciu.
+
+Počúvaj, ako Otcovo srdce opisuje Žalm 103, 2 – 3:
+
+"Dobroreč, duša moja, Hospodinovi a nezabúdaj na žiadne Jeho dobrodenia! On odpúšťa ti všetky tvoje viny. On uzdravuje všetky tvoje choroby."
+
+A v Žalme 147, 3 Písmo svedčí o Jeho nežnej starostlivosti:
+
+"On uzdravuje skrúšených srdcom a obväzuje ich rany;"
+
+Sám nebeský Otec sa v knihe proroka Jeremiáša 30, 17 osobne zaväzuje, že prevezme starostlivosť o tvoju bolesť a nenechá tvoje uzdravenie na náhodu:
+
+"Lebo ťa uzdravím a vyliečim z tvojich rán, — znie výrok Hospodinov —"
+
+Keď Pán Ježiš zomieral na kríži Golgoty, nezískal pre teba len odpustenie hriechov. On vzal na seba aj tvoje slabosti, choroby a bolesť. Apoštol Peter to v 1. liste Petrovom 2, 24 potvrdzuje ako hotovú skutočnosť:
+
+"na vlastnom tele vyniesol naše hriechy na drevo, aby sme odumreli hriechom a žili spravodlivosti; Jeho krvavé rany vás uzdravili."
+
+Všimni si minulý čas: „uzdravili". Z pohľadu neba je tvoje uzdravenie a tvoja obnova v Kristovi už zaplatená a dokončená. Skrze vieru v Neho sa tvoje telo stalo Božím chrámom a príbytkom Ducha Svätého, preto žiadna choroba nemá právo navždy ovládať tvoj život.
+
+Tvojou úlohou v čase skúšky nie je prosíkať Boha, aby sa zmiloval, ale vo viere sa postaviť na toto neotrasiteľné Božie Slovo. Dovoľ Božej moci, aby prenikla do tvojho tela, do tvojej mysle i do tvojho ducha. Božia milosť dokáže zvrátiť každú zlú správu od lekárov, obnoviť stratenú silu a vrátiť ti zdravie. Dôveruj Mu, pretože to, čo Boh zasľúbil, to aj splní.`,
+        verses: [
+            { text: "Dobroreč, duša moja, Hospodinovi a nezabúdaj na žiadne Jeho dobrodenia! On odpúšťa ti všetky tvoje viny. On uzdravuje všetky tvoje choroby.", ref: "Žalm 103, 2 – 3" },
+            { text: "On uzdravuje skrúšených srdcom a obväzuje ich rany;", ref: "Žalm 147, 3" },
+            { text: "Lebo ťa uzdravím a vyliečim z tvojich rán, — znie výrok Hospodinov —", ref: "Jeremiáš 30, 17" },
+            { text: "na vlastnom tele vyniesol naše hriechy na drevo, aby sme odumreli hriechom a žili spravodlivosti; Jeho krvavé rany vás uzdravili.", ref: "1. Petra 2, 24" }
+        ],
+        prayer: `Drahý nebeský Otče, Hospodine, môj Všemohúci Bože,
+
+prichádzam pred Tvoju tvár v mocnom mene Tvojho Syna, Ježiša Krista. Stojím pred Tebou so všetkými svojimi telesnými slabosťami, prinášam Ti bolesť, ktorá ma unavuje, a zriekam sa strachu, ktorý do mojej mysle priniesli zlé lekárske správy. Odmietam spoliehanie sa na ľudskú silu a obraciam sa k Tebe, lebo Ty sám si môj Uzdravovateľ.
+
+Ďakujem Ti, že podľa Tvojho Slova z Jeremiáša 30, 17 mi Ty sám prinášaš uzdravenie a liečiš moje rany, a podľa Žalmu 147, 3 obväzuješ moje rany a uzdravuješ moje skrúšené srdce. Vyznávam, že Kristova obeta na kríži zlomila moc každej choroby v mojom živote. Moje telo je chrámom Svätého Ducha, a preto v ňom choroba nemá trvalé miesto.
+
+Pane Ježišu, prijímam Tvoje zasľúbenie z 1. listu Petrovho 2, 24, že Tvojimi krvavými ranami som bol uzdravený. Vo viere prijímam prúd Tvojho božského života, uzdravenia a pokoja do svojej krvi, do všetkých vnútorných orgánov, do svojich kostí a do každej bunky svojho tela. Prosím Ťa, obnov všetko, čo je poškodené, a znič koreň každého neduhu.
+
+Odmietam veriť strachu a nepodriaďujem sa beznádejným predpovediam. Moja dôvera nestojí na ľudských posudkoch, ale na Tvojej neotrasiteľnej vernosti. Prijímam novú silu, ktorou ma napĺňaš, a odpočívam v tichom vedomí, že môj život je bezpečne skrytý v Tvojich rukách.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "uzdravenie-svetlne-ruky",
+        tags: ["uzdravenie", "choroba", "bolesť", "obnova zdravia", "dokonané dielo", "Kristove rany"],
+        available: true,
+        scriptureTheme: "Žalm 103, Žalm 147, Jeremiáš 30, 1. Petra 2",
+        isStarter: false
     }
 };
 
