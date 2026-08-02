@@ -480,8 +480,8 @@ A preto teraz na základe autority, ktorú mám v Kristovi, hovorím k tomuto st
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-8.mp3",
+        hasAudio: true,
         illustrationRef: "otvorene-pismo-svetlo",
         tags: ["rozjímanie", "Božie Slovo", "obnova mysle", "pravda", "vyslobodenie", "viera"],
         available: true,
@@ -537,8 +537,8 @@ Odmietam veriť strachu a nepodriaďujem sa beznádejným predpovediam. Moja dô
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-9.mp3",
+        hasAudio: true,
         illustrationRef: "uzdravenie-svetlne-ruky",
         tags: ["uzdravenie", "choroba", "bolesť", "obnova zdravia", "dokonané dielo", "Kristove rany"],
         available: true,
@@ -588,8 +588,8 @@ V mocnom mene Ježiša Krista hovorím k tebe, duch strachu, úzkosti a sužovan
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-10.mp3",
+        hasAudio: true,
         illustrationRef: "autorita-vladnutie-kristus",
         tags: ["autorita", "vláda", "viera", "slová", "pokoj", "víťazstvo"],
         available: true,
