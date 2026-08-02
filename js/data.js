@@ -56,7 +56,7 @@ A preto teraz, ako znovuzrodené Božie dieťa, ktoré stojí v milosti, v mocno
 Ďakujem Ti, Otče, už teraz – hoci ešte vlastnými očami nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidia moje oči, ale o Tvoju vernosť. Ja som slabý, ale Ten, ktorý odteraz žije vo mne, je všemohúci Víťaz.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-1.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-1.mp3?v=3",
         hasAudio: true,
         illustrationRef: "svetlo-cesta",
         tags: ["strach zo smrti", "zatratenie", "spása", "znovuzrodenie", "milosť"],
