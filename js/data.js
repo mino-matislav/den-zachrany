@@ -662,8 +662,8 @@ Odmietam ducha zmätku a strachu z budúcnosti. V mocnom mene Ježiša Krista mu
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-11.mp3",
+        hasAudio: true,
         illustrationRef: "pan-riadi-kroky-svetlo",
         tags: ["neistota", "pochybnosti", "strach", "pokoj", "odpočinok"],
         available: true,
