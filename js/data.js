@@ -611,6 +611,64 @@ Amen.`,
         available: true,
         scriptureTheme: "Efezanom 1, Marek 11",
         isStarter: false
+    },
+    "11": {
+        id: "11",
+        title: "Pán riadi moje kroky",
+        subtitle: "Ako sa rozhodovať bez strachu a vedieť, že ani chyba ťa nevyradí z Božej cesty",
+        shortDescription: "Ako sa rozhodovať bez strachu z chyby a vedieť, že ani zakopnutie ťa nevyradí z Božej cesty.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+sú chvíle, keď sa človek musí rozhodnúť. Nie zajtra, nie o rok – dnes. Prijať tú prácu, alebo odmietnuť? Odsťahovať sa, alebo zostať? Podpísať, alebo nepodpísať? A spolu s rozhodnutím prichádza tichý strach: „Čo ak sa rozhodnem zle? Čo ak si tým pokazím život a už to nikdy nespravím?“
+
+Ten strach je ťažší, než sa zdá. Nie preto, že by rozhodnutie bolo neúnosné, ale preto, že si na svoje plecia berieš bremeno, ktoré ti Boh nikdy nedal – bremeno neomylnosti.
+
+Počúvaj, čo hovorí Kniha Prísloví 16, 9:
+
+"Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok."
+
+Všimni si to poradie. Človek premýšľa – to je tvoja úloha a Boh ti ju neberie. Rozvažuj, pýtaj sa, zvažuj. Ale ten krok riadi On. A všimni si ešte niečo: Boh riadi krok toho, kto kráča. Nie toho, kto stojí ochrnutý strachom a čaká, kým dostane istotu, akú mu Písmo nikdy nesľúbilo.
+
+Prorok Jeremiáš to v 10, 23 vyznáva úplne otvorene:
+
+"Viem, Hospodine, že človek nemá v moci svoju cestu, a ten, kto chodí, neurčuje svoje kroky."
+
+Toto nie je zlá správa. Toto je obrovská úľava. Ak si nikdy nemal svoju cestu vo vlastnej moci, potom si ju ani nemôžeš svojím zlým rozhodnutím zničiť. Nikdy si nedržal opraty, o ktorých strate sa teraz bojíš.
+
+A teraz to najdôležitejšie. Pod strachom z rozhodnutia sa skrýva ešte hlbší strach: že chyba je konečná. Že jeden nesprávny krok ťa navždy vyradí. Práve na to odpovedá Žalm 37, 23 – 24:
+
+"Hospodin vedie kroky muža, tie sú pevné, a záľubu má v jeho obcovaní, Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku."
+
+Písmo nehovorí, že nepadneš. Hovorí, že neostaneš ležať. To je rozdiel medzi človekom, ktorý žije v strachu, a človekom, ktorý žije v milosti. Ten prvý sa bojí pádu, lebo verí, že pád je koniec. Ten druhý vie, že pod ním je ruka, ktorá ho drží – a preto sa smie pohnúť.
+
+Tvoje kroky nie sú zabezpečené tvojím dokonalým úsudkom. Sú zabezpečené dokonaným dielom Ježiša Krista. Rozhodnutie, ktoré urobíš s pokojným srdcom pred Bohom, je bezpečnejšie než rozhodnutie, ktoré vypočítaš v panike – aj keby sa to druhé nakoniec ukázalo ako správnejšie.
+
+Preto sa rozhodni. Rozhodni sa v pokoji, v slobode dieťaťa, nie v úzkosti otroka. A keby si aj zakopol, vieš, kto ťa dvíha.`,
+        verses: [
+            { text: "Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok.", ref: "Príslovia 16, 9" },
+            { text: "Viem, Hospodine, že človek nemá v moci svoju cestu, a ten, kto chodí, neurčuje svoje kroky.", ref: "Jeremiáš 10, 23" },
+            { text: "Hospodin vedie kroky muža, tie sú pevné, a záľubu má v jeho obcovaní, Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku.", ref: "Žalm 37, 23 – 24" }
+        ],
+        prayer: `Drahý nebeský Otče, môj Pastier a môj Vodca,
+
+prichádzam k Tebe v mocnom mene Ježiša Krista ako Tvoje dieťa. Prinášam Ti rozhodnutie, ktoré je predo mnou, a s ním aj strach, že sa rozhodnem zle a už to nenapravím. Vyznávam, že som si na plecia naložil bremeno neomylnosti, ktoré si mi Ty nikdy nedal. Skladám ho teraz k Tvojim nohám.
+
+Ďakujem Ti, Otče, že podľa Tvojho Slova človek nikdy nemal svoju cestu vo vlastnej moci – a preto ju ani nemôže zničiť. Ty riadiš krok toho, kto kráča. Rozhodujem sa teda pohnúť, a nie ostať stáť ochrnutý strachom.
+
+Vyznávam podľa Žalmu 37, že aj keby som padol, neostanem ležať, lebo Ty mi podopieraš ruku. Moje kroky nestoja na mojom dokonalom úsudku, ale na dokonanom diele Pána Ježiša Krista. Ďakujem Ti, že Tvoja milosť je väčšia než moja chyba.
+
+Odmietam ducha zmätku a strachu z budúcnosti. V mocnom mene Ježiša Krista mu prikazujem, aby odišiel z mojej mysle. Prijímam Tvoj pokoj nad každým svojím rozhodnutím a v tomto pokoji sa rozhodujem.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "pan-riadi-kroky-svetlo",
+        tags: ["neistota", "pochybnosti", "strach", "pokoj", "odpočinok"],
+        available: true,
+        scriptureTheme: "Príslovia 16, Jeremiáš 10, Žalm 37",
+        isStarter: false
     }
 };
 
