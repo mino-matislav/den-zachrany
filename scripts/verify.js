@@ -81,6 +81,26 @@ Object.entries(chapterData).forEach(([id, ch]) => {
     must(v.text && v.ref, `kapitola ${id}: verš ${i + 1} má text aj ref`));
 });
 
+// ---------- 5b) Slovník tém (aby sa tagy znova nerozsypali) ----------
+console.log('\n[5b] Slovník tém');
+const sv = {};
+new Function('e', read('js/data.js') + ';e.tagGroups = (typeof tagGroups!=="undefined")?tagGroups:null;')(sv);
+const groups = sv.tagGroups;
+must(Array.isArray(groups) && groups.length > 0, 'tagGroups je definované');
+if (Array.isArray(groups)) {
+  const slovnik = new Set(groups.flatMap(g => g.tags));
+  const pouzite = new Set();
+  Object.values(chapterData).forEach(ch => (ch.tags || []).forEach(t => pouzite.add(t)));
+  const mimo = [...pouzite].filter(t => !slovnik.has(t));
+  must(mimo.length === 0, `všetky témy kapitol sú v slovníku${mimo.length ? ' (chýbajú: ' + mimo.join(', ') + ')' : ''}`);
+  const nepouzite = [...slovnik].filter(t => !pouzite.has(t));
+  must(nepouzite.length === 0, `slovník neobsahuje mŕtve témy${nepouzite.length ? ' (nepoužité: ' + nepouzite.join(', ') + ')' : ''}`);
+  Object.entries(chapterData).forEach(([id, ch]) => {
+    if (!ch.available) return;
+    must(Array.isArray(ch.tags) && ch.tags.length >= 2, `kapitola ${id}: má aspoň 2 témy`);
+  });
+}
+
 // ---------- 6) Integrita dát PIESNÍ ----------
 console.log('\n[6] Integrita dát — piesne');
 const s2 = {};

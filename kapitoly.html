@@ -50,8 +50,13 @@
                 <h2 id="chapters-heading" class="sr-only">Zoznam kapitol</h2>
 
                 <div class="filter-wrap">
-                    <div class="filter-bar" role="group" aria-label="Filtrovať kapitoly podľa témy">
-                        <button class="filter-btn active" data-tag="all" aria-pressed="true">Všetky</button>
+                    <button class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
+                        <span class="filter-toggle-label">Hľadám pomoc pri…</span>
+                        <span class="filter-toggle-value" hidden></span>
+                        <span class="filter-toggle-arrow" aria-hidden="true">⌄</span>
+                    </button>
+                    <div class="filter-panel" id="filter-panel" hidden>
+                        <div class="filter-bar" role="group" aria-label="Filtrovať kapitoly podľa témy"></div>
                     </div>
                 </div>
 

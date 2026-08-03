@@ -145,7 +145,8 @@
         // ============================================
         const filterBar = document.querySelector('.filter-bar');
 
-        // Tlačidlá tém sa vytvárajú z dát kapitol — vždy sedia s obsahom
+        // Témy sa vytvárajú z dát kapitol — vždy sedia s obsahom.
+        // Nové témy sa objavia automaticky; slovník tagGroups určuje ich zaradenie.
         if (filterBar && typeof chapterData !== 'undefined') {
             const counts = {};
             Object.keys(chapterData).forEach(function(id) {
@@ -154,17 +155,61 @@
                     if (tag) counts[tag] = (counts[tag] || 0) + 1;
                 });
             });
-            // najčastejšie témy prvé, pri rovnosti podľa abecedy
-            const sorted = Object.keys(counts).sort(function(a, b) {
-                if (counts[b] !== counts[a]) return counts[b] - counts[a];
-                return a.localeCompare(b, 'sk');
+            const groups = (typeof tagGroups !== 'undefined') ? tagGroups : [];
+            const zaradene = {};
+            groups.forEach(function(g) {
+                g.tags.forEach(function(t) { zaradene[t] = true; });
             });
-            let btnHtml = '';
-            sorted.forEach(function(tag) {
-                const label = tag.charAt(0).toUpperCase() + tag.slice(1);
-                btnHtml += '<button class="filter-btn" data-tag="' + tag + '" aria-pressed="false">' + label + '</button>';
+            // téma mimo slovníka sa nestratí — pridá sa do skupiny Ďalšie témy
+            const ostatne = Object.keys(counts).filter(function(t) { return !zaradene[t]; });
+            const vsetky = groups.concat(ostatne.length ? [{ label: 'Ďalšie témy', tags: ostatne }] : []);
+
+            let html = '<button class="filter-btn active" data-tag="all" aria-pressed="true">Všetky kapitoly</button>';
+            vsetky.forEach(function(g) {
+                const dostupne = g.tags.filter(function(t) { return counts[t]; });
+                if (!dostupne.length) return;
+                html += '<div class="filter-group"><span class="filter-group-label">' + g.label + '</span>';
+                dostupne.sort(function(a, b) {
+                    if (counts[b] !== counts[a]) return counts[b] - counts[a];
+                    return a.localeCompare(b, 'sk');
+                });
+                dostupne.forEach(function(tag) {
+                    const label = tag.charAt(0).toUpperCase() + tag.slice(1);
+                    html += '<button class="filter-btn" data-tag="' + tag + '" aria-pressed="false">' + label + '</button>';
+                });
+                html += '</div>';
             });
-            filterBar.insertAdjacentHTML('beforeend', btnHtml);
+            filterBar.innerHTML = html;
+        }
+
+        // Rozbaľovanie panela — stránka ostáva pokojná, kým človek sám nehľadá
+        const filterToggle = document.querySelector('.filter-toggle');
+        const filterPanel = document.querySelector('.filter-panel');
+        const toggleValue = document.querySelector('.filter-toggle-value');
+        const toggleLabel = document.querySelector('.filter-toggle-label');
+
+        function setPanel(open) {
+            if (!filterToggle || !filterPanel) return;
+            filterToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            filterPanel.hidden = !open;
+            filterToggle.classList.toggle('is-open', open);
+        }
+        if (filterToggle) {
+            filterToggle.addEventListener('click', function() {
+                setPanel(filterToggle.getAttribute('aria-expanded') !== 'true');
+            });
+        }
+        function setToggleValue(tag, label) {
+            if (!toggleValue || !toggleLabel) return;
+            if (tag === 'all') {
+                toggleValue.hidden = true;
+                toggleValue.textContent = '';
+                toggleLabel.textContent = 'Hľadám pomoc pri…';
+            } else {
+                toggleLabel.textContent = 'Hľadám pomoc pri:';
+                toggleValue.hidden = false;
+                toggleValue.textContent = label;
+            }
         }
 
         const filterBtns = document.querySelectorAll('.filter-btn');
@@ -243,10 +288,10 @@
                 this.classList.add('active');
                 this.setAttribute('aria-pressed', 'true');
 
-                // aktívny tag nech je na mobile vidieť v posuvnom páse
-                this.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-
-                applyFilter(tag, this.textContent.trim());
+                const label = this.textContent.trim();
+                setToggleValue(tag, label);
+                setPanel(false);
+                applyFilter(tag, label);
             });
         });
 
@@ -260,8 +305,8 @@
                 if (allBtn) {
                     allBtn.classList.add('active');
                     allBtn.setAttribute('aria-pressed', 'true');
-                    allBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
                 }
+                setToggleValue('all');
                 applyFilter('all', 'Všetky', false);
             });
         }

@@ -2,6 +2,22 @@
    DEŇ ZÁCHRANY - Dáta kapitol
    ============================================ */
 
+// Slovník tém pre filter. Nová kapitola má použiť existujúcu tému;
+// ak pridáš novú, doplň ju sem do správnej skupiny (stráži to verify.js).
+const tagGroups = [
+    {
+        label: "Čo prežívam",
+        tags: ["strach", "úzkosť", "starosti", "myšlienky", "pochybnosti", "neistota",
+               "smútok", "strata", "bolesť", "choroba", "vyčerpanie", "krivda",
+               "poníženie", "hnev", "bezmocnosť", "vina"]
+    },
+    {
+        label: "Čo hľadám",
+        tags: ["pokoj", "sloboda", "odpočinok", "uzdravenie", "obnova", "nádej",
+               "víťazstvo", "odpustenie"]
+    }
+];
+
 const chapterData = {
     "1": {
         id: "1",
@@ -59,7 +75,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-1.mp3?v=3",
         hasAudio: true,
         illustrationRef: "svetlo-cesta",
-        tags: ["strach zo smrti", "zatratenie", "spása", "znovuzrodenie", "milosť"],
+        tags: ["strach", "vina", "neistota", "nádej", "sloboda"],
         available: true,
         scriptureTheme: "Rimanom 3, 6, 10",
         isStarter: true,
@@ -114,7 +130,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-2.mp3",
         hasAudio: true,
         illustrationRef: "svetlo-vlna",
-        tags: ["úzkosť", "chaos", "myšlienky", "pokoj", "duchovný boj"],
+        tags: ["úzkosť", "myšlienky", "strach", "pokoj", "sloboda"],
         available: true,
         scriptureTheme: "2. Korintským 10, 1. Ján 4, Jakub 4",
         isStarter: false
@@ -199,7 +215,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-3.mp3",
         hasAudio: true,
         illustrationRef: "pergamen",
-        tags: ["starosti", "kontrola", "dôvera", "Boží pokoj", "odovzdanie"],
+        tags: ["starosti", "úzkosť", "vyčerpanie", "pokoj", "odpočinok"],
         available: true,
         scriptureTheme: "Filipským 4, Kolosenským 3, Izaiáš 26",
         isStarter: false
@@ -266,7 +282,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-4.mp3",
         hasAudio: true,
         illustrationRef: "voda-svetlo",
-        tags: ["strata", "smútok", "tragédia", "útecha", "uzdravenie", "obnova"],
+        tags: ["strata", "smútok", "bolesť", "obnova", "nádej"],
         available: true,
         scriptureTheme: "Ján 10, 2. Korintským 1, Rimanom 8",
         isStarter: false
@@ -332,7 +348,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-5.mp3",
         hasAudio: true,
         illustrationRef: "svetlo-ruka",
-        tags: ["poníženie", "nespravodlivosť", "obnova", "dôstojnosť v Kristovi", "odpustenie", "dôvera"],
+        tags: ["krivda", "poníženie", "hnev", "obnova", "odpustenie"],
         available: true,
         scriptureTheme: "1. Mojžišova 50, Žalm 23, Príslovia 3",
         isStarter: false
@@ -377,7 +393,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-6.mp3",
         hasAudio: true,
         illustrationRef: "stlp-ohna",
-        tags: ["útoky nepriateľa", "tlak", "podriadenie sa Bohu", "milosť", "vyslobodenie", "odpočinok v Kristovi"],
+        tags: ["vyčerpanie", "bezmocnosť", "strach", "víťazstvo", "odpočinok"],
         available: true,
         scriptureTheme: "Jakub 4, Príslovia 3",
         isStarter: false
@@ -429,7 +445,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-7.mp3",
         hasAudio: true,
         illustrationRef: "hrnciar-hlina",
-        tags: ["Božia vôľa", "odpočinok", "trpezlivosť", "viera", "Hrnčiar a hlina", "akceptácia"],
+        tags: ["neistota", "pochybnosti", "starosti", "odpočinok", "pokoj"],
         available: true,
         scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6",
         isStarter: false
@@ -483,7 +499,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-8.mp3",
         hasAudio: true,
         illustrationRef: "otvorene-pismo-svetlo",
-        tags: ["rozjímanie", "Božie Slovo", "obnova mysle", "pravda", "vyslobodenie", "viera"],
+        tags: ["myšlienky", "strach", "pochybnosti", "sloboda", "pokoj"],
         available: true,
         scriptureTheme: "Ján 8, Józua 1, Židom 11",
         isStarter: false
@@ -540,7 +556,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-9.mp3",
         hasAudio: true,
         illustrationRef: "uzdravenie-svetlne-ruky",
-        tags: ["uzdravenie", "choroba", "bolesť", "obnova zdravia", "dokonané dielo", "Kristove rany"],
+        tags: ["choroba", "bolesť", "strach", "uzdravenie", "nádej"],
         available: true,
         scriptureTheme: "Žalm 103, Žalm 147, Jeremiáš 30, 1. Petra 2",
         isStarter: false
@@ -591,7 +607,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-10.mp3",
         hasAudio: true,
         illustrationRef: "autorita-vladnutie-kristus",
-        tags: ["autorita", "vláda", "viera", "slová", "pokoj", "víťazstvo"],
+        tags: ["bezmocnosť", "strach", "úzkosť", "víťazstvo", "sloboda"],
         available: true,
         scriptureTheme: "Efezanom 1, Marek 11",
         isStarter: false
