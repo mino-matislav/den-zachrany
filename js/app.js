@@ -111,7 +111,11 @@
                 if (coming) {
                     listHtml += '<span class="chapter-badge">Pripravujeme</span>';
                 }
-                listHtml += '<h3 class="chapter-title">' + ch.title + '</h3>';
+                if (coming) {
+                    listHtml += '<h3 class="chapter-title">' + ch.title + '</h3>';
+                } else {
+                    listHtml += '<h3 class="chapter-title"><a href="kapitola.html?id=' + id + '" class="card-link" aria-label="Otvoriť kapitolu ' + num + ': ' + ch.title + '">' + ch.title + '</a></h3>';
+                }
                 listHtml += '<p class="chapter-desc">' + ch.subtitle + '</p>';
                 if (ch.tags && ch.tags.length) {
                     listHtml += '<div class="chapter-tags">';
@@ -120,8 +124,6 @@
                 }
                 if (coming) {
                     listHtml += '<span class="chapter-link is-disabled" aria-disabled="true">Pripravujeme čoskoro</span>';
-                } else {
-                    listHtml += '<a href="kapitola.html?id=' + id + '" class="chapter-link" aria-label="Otvoriť kapitolu ' + num + ': ' + ch.title + '">Otvoriť kapitolu</a>';
                 }
                 listHtml += '</article>';
             });
@@ -199,6 +201,20 @@
                 setPanel(filterToggle.getAttribute('aria-expanded') !== 'true');
             });
         }
+        const filterCloseBtn = document.querySelector('.filter-close');
+        if (filterCloseBtn) {
+            filterCloseBtn.addEventListener('click', function() {
+                setPanel(false);
+                if (filterToggle) filterToggle.focus();
+            });
+        }
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && filterToggle &&
+                filterToggle.getAttribute('aria-expanded') === 'true') {
+                setPanel(false);
+                filterToggle.focus();
+            }
+        });
         function setToggleValue(tag, label) {
             if (!toggleValue || !toggleLabel) return;
             if (tag === 'all') {
@@ -500,11 +516,10 @@
             html += '<a class="song-play-btn" href="pocuvaj.html?id=' + s.id + '" aria-label="Počúvať a čítať pieseň ' + s.title + '">';
             html += '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
             html += '</a>';
-            html += '<h3 class="chapter-title">' + s.title + '</h3>';
+            html += '<h3 class="chapter-title"><a href="piesen.html?id=' + s.id + '" class="card-link" aria-label="Otvoriť pieseň ' + s.number + ': ' + s.title + '">' + s.title + '</a></h3>';
             if (s.subtitle) {
                 html += '<p class="chapter-desc">' + s.subtitle + '</p>';
             }
-            html += '<a href="piesen.html?id=' + s.id + '" class="chapter-link" aria-label="Otvoriť pieseň ' + s.number + ': ' + s.title + '">Otvoriť pieseň</a>';
             html += '</article>';
         });
         songsListEl.innerHTML = html;
