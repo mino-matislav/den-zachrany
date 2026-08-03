@@ -28,7 +28,7 @@ const chapterData = {
 
 možno práve prežívaš najťažšie obdobie svojho života. Tvoja myseľ je unavená, telo zoslabnuté a hľadáš odpovede na neriešiteľné situácie. Chcem ti však povedať jednu zásadnú pravdu: Nemôžeš vo svojom živote zakúsiť Božiu uzdravujúcu moc ani skutočné vedenie svojich krokov, kým neurobíš prvý, najdôležitejší krok.
 
-Tým krokom je urovnanie tvojho vzťahu s nebeským Otcom cez Ježiša Krista – to, čo apoštol Pavel nazýva obnovením Svätým Duchom a novým stvorením. Bez tohto základu zostávaš odrezaný od zdroja a tvoj boj prebieha iba vo tvojej vlastnej ľudskej slabosti.
+Tým krokom je urovnanie tvojho vzťahu s nebeským Otcom cez Ježiša Krista – to, čo apoštol Pavel nazýva obnovením Svätým Duchom a novým stvorením. Bez tohto základu zostávaš odrezaný od zdroja a tvoj boj prebieha iba v tvojej vlastnej ľudskej slabosti.
 
 Božie Slovo v liste Rimanom 3, 23 – 24 hovorí o stave každého jedného z nás:
 
@@ -40,7 +40,7 @@ Apoštol Pavel v liste Rimanom 6, 23 k tomu dodáva:
 
 Sami zo seba sme úplne neschopní dosiahnuť dokonalosť. Naše vlastné telo nás ťahá do hriechu, porážky a strachu zo smrti. Žiadne dobré skutky, ľudská psychológia ani vlastné úsilie nemôžu zmazať hriech a darovať nám istotu neba. Našťastie, Boh nenechal tvoju záchranu na tvojich pleciach. Ježiš Kristus vzal na kríž tvoje hriechy, tvoje slabosti i tvoj strach. On zaplatil celú cenu Svojou svätou krvou.
 
-Ako sa táto Božia moc a zmena identity prijíma vo tvojom živote? Je to dar, ktorý prijímame čistou vierou. Písmo v liste Rimanom 10, 9 – 10 dáva jasné svedectvo:
+Ako sa táto Božia moc a zmena identity prijíma v tvojom živote? Je to dar, ktorý prijímame čistou vierou. Písmo v liste Rimanom 10, 9 – 10 dáva jasné svedectvo:
 
 "Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil z mŕtvych, budeš spasený; lebo srdcom veríme na spravodlivosť a ústami vyznávame na spasenie."
 
@@ -61,7 +61,7 @@ V momente, keď toto urobíš, ťa Svätý Duch obnoví a v tvojom vnútri povst
         ],
         prayer: `Drahý nebeský Otče, môj Stvoriteľ a môj Záchranca,
 
-prichádzam dnes pred Tvoju svätú tvár presne taký, aký som. Otváram pred Tebou celé svoje srdce a úprimne Ti vyznávam svoju obrovskú ľudskú slabosť. Priznávam, že som hriešny človek, neschopný zachrániť sám seba. Moja myseľ bola plná strachu zo smrti a budúcnosti, moje telo zažíva slabosť a moje vlastné úsilie ma doviedlo do slepej uličky. Odpusť mi, nebeský Otče, že som žil doteraz podľa svojich predstáv, bez Teba, a očisť ma od každého hriechu a nespravodlivosti.
+prichádzam dnes pred Tvoju svätú tvár presne taký, aký som. Otváram pred Tebou celé svoje srdce a úprimne Ti vyznávam svoju obrovskú ľudskú slabosť. Priznávam, že som hriešny človek, neschopný zachrániť sám seba. Moja myseľ bola plná strachu zo smrti a budúcnosti, moje telo zažíva slabosť a moje vlastné úsilie ma doviedlo do slepej uličky. Odpusť mi, nebeský Otče, že som žil doteraz podľa svojich predstáv, bez Teba, a očisti ma od každého hriechu a nespravodlivosti.
 
 Ďakujem Ti, Otče, že Tvoja moc sa dokonale prejavuje v tejto mojej slabosti. Verím Tvojmu Slovu, že si poslal Svojho Syna, Ježiša Krista, aby zomrel za moje zlyhania a na tretí deň vstal z mŕtvych pre moje ospravedlnenie. Ja dnes ústami vyznávam, že Ježiš Kristus je mojím Pánom a Spasiteľom. Vierou prijímam dar večného života a pravdu o tom, že ma robíš úplne novým stvorením. Staré veci pominuli a skrze Svätého Ducha sa všetko stalo novým.
 
@@ -439,7 +439,7 @@ Pane, Tvoja vôľa pre môj život je dokonalá a nezlyháva. Ty si Ten, ktorý 
 
 Ďakujem Ti za nadprirodzenú vieru a trpezlivé očakávanie, ktoré si vložil do môjho znovuzrodeného ducha. Rozhodujem sa odpočívať v Tvojom dokonalom načasovaní. Vyznávam, že Ty nemeškáš a že Ty sám vykonáš svoje dielo v pravom čase, aby Tebe patrila všetka sláva. Uč ma hľadať najprv Tvoje kráľovstvo a Tvoju spravodlivosť.
 
-Ukotvujem svoju nádej v Tebe a prehlasujem, že Tvoja zvrchovaná vôľa sa v mojom živote naplní a žiadny útok nepriateľa ju neprekazí. V mocnom mene Ježiša Krista.
+Ukotvujem svoju nádej v Tebe a vyhlasujem, že Tvoja zvrchovaná vôľa sa v mojom živote naplní a žiadny útok nepriateľa ju neprekazí. V mocnom mene Ježiša Krista.
 
 Amen.`,
         audioUrl: "assets/audio/modlitba-7.mp3",
@@ -677,7 +677,7 @@ Amen.`,
         shortDescription: "Ako rozpoznať pôvod myšlienok vo vlastnej mysli, odlíšiť tlak nepriateľa od tichého Božieho hlasu a podrobiť každú myšlienku Kristovi.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-vedel si o tom, že nie každá myšlienka, ktorá ti prebleskne hlavou, patrí skutočne tebe? Toto je jedna z najdôležitejších pravd duchovného zápasu. Nepriateľ k tebe totiž málokedy hovorí cudzím či strašidelným hlasom. Prichádza v prvej osobe jednotného čísla a napodobňuje tvoj vlastný vnútorný hlas.
+vedel si o tom, že nie každá myšlienka, ktorá ti prebleskne hlavou, patrí skutočne tebe? Toto je jedna z najdôležitejších právd duchovného zápasu. Nepriateľ k tebe totiž málokedy hovorí cudzím či strašidelným hlasom. Prichádza v prvej osobe jednotného čísla a napodobňuje tvoj vlastný vnútorný hlas.
 
 Preto ti do mysle pošepká: „Nestojím za nič. Nikdy sa nezmením. Nedokážem to.“ Alebo udrie pochybnosťou: „Čo ak nie som naozaj spasený?“ A pretože to znie ako ty, uveríš, že to si ty.
 
@@ -720,7 +720,7 @@ Preto sa nesnaž vo svojej hlave vyhrať hádku. Namiesto toho sa pýtaj: čí j
         ],
         prayer: `Drahý nebeský Otče, môj Potešiteľ a môj Pokoj,
 
-prichádzam dnes k Tebe ako Tvoje dieťa a hľadám bezpečie v Tvojej prítomnosti. Otváram pred Tebou svoje srdce a vyznávam svoju slabosť. Moja myseľ býva unavená a zaplavená myšlienkami viny, hanby a zlyhania, ktoré znejú presne ako môj vlastný hlas. Priznávam, že som ich veľakrát prijal za svoju identitu. Odpusť mi to, Otče, a očisť moju myseľ.
+prichádzam dnes k Tebe ako Tvoje dieťa a hľadám bezpečie v Tvojej prítomnosti. Otváram pred Tebou svoje srdce a vyznávam svoju slabosť. Moja myseľ býva unavená a zaplavená myšlienkami viny, hanby a zlyhania, ktoré znejú presne ako môj vlastný hlas. Priznávam, že som ich veľakrát prijal za svoju identitu. Odpusť mi to, Otče, a očisti moju myseľ.
 
 Ďakujem Ti za zasľúbenie Tvojho Syna, že Jeho ovce počúvajú Jeho hlas. Neprosím Ťa teda o schopnosť, ktorú by som nemal – ďakujem Ti za tú, ktorú si mi už dal. Uč ma rozlišovať. Nech spoznám, že to, čo tlačí, ponáhľa sa, zaháňa do hanby a púta ma k minulosti, nie je Tvoj hlas.
 
