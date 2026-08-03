@@ -2327,7 +2327,6 @@ body:has(.listen-cta) .chapters-section {
         max-width: 1080px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: start;
     }
     .chapter-item.starter { grid-column: 1 / -1; }
     .chapter-item.hidden { display: none; }
@@ -2458,4 +2457,40 @@ body:has(.listen-cta) .chapters-section {
 .warning-section {
     padding-top: var(--space-2);
     padding-bottom: var(--space-20);   /* priestor pred pätičkou ostáva */
+}
+
+/* ============================================
+   DOMOV — medzera okolo "Čítaj ďalej" zhodná
+   s medzerou verš → prehrávač (1 rem)
+   ============================================ */
+.audio-section {
+    padding-bottom: 0;
+}
+
+/* ============================================
+   KAPITOLY — všetky karty rovnako veľké
+   Text sa oreže na pevný počet riadkov, karty
+   v riadku sa natiahnu na rovnakú výšku.
+   ============================================ */
+.chapters-list .chapter-item {
+    display: flex;
+    flex-direction: column;
+}
+.chapters-list .chapter-title,
+.chapters-list .chapter-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.chapters-list .chapter-title { -webkit-line-clamp: 2; }
+.chapters-list .chapter-desc  { -webkit-line-clamp: 3; }
+/* podnadpis vyplní zvyšok, tagy zostanú zarovnané dole */
+.chapters-list .chapter-desc { flex: 1 0 auto; }
+.chapters-list .chapter-tags { margin-top: auto; }
+
+@media (min-width: 900px) {
+    .chapters-list {
+        align-items: stretch;      /* karty v riadku rovnako vysoké */
+    }
+    .chapters-list .chapter-desc { -webkit-line-clamp: 2; }
 }
