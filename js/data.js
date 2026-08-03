@@ -669,6 +669,75 @@ Amen.`,
         available: true,
         scriptureTheme: "Príslovia 16, Jeremiáš 10, Žalm 37",
         isStarter: false
+    },
+    "12": {
+        id: "12",
+        title: "Ako uprostred hluku počuť Boží hlas",
+        subtitle: "Ako rozlíšiť, čí hlas znie v tvojej mysli, a podrobiť každú myšlienku Kristovi",
+        shortDescription: "Ako rozpoznať pôvod myšlienok vo vlastnej mysli, odlíšiť tlak nepriateľa od tichého Božieho hlasu a podrobiť každú myšlienku Kristovi.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+vedel si o tom, že nie každá myšlienka, ktorá ti prebleskne hlavou, patrí skutočne tebe? Toto je jedna z najdôležitejších pravd duchovného zápasu. Nepriateľ k tebe totiž málokedy hovorí cudzím či strašidelným hlasom. Prichádza v prvej osobe jednotného čísla a napodobňuje tvoj vlastný vnútorný hlas.
+
+Preto ti do mysle pošepká: „Nestojím za nič. Nikdy sa nezmením. Nedokážem to.“ Alebo udrie pochybnosťou: „Čo ak nie som naozaj spasený?“ A pretože to znie ako ty, uveríš, že to si ty.
+
+Otázka teda neznie, ako všetky tie hlasy umlčať. Otázka znie: ako spoznám, čí ten hlas vlastne je?
+
+Pán Ježiš dáva odpoveď plnú nádeje. V Evanjeliu podľa Jána 10, 27 hovorí:
+
+"Moje ovce počúvajú môj hlas, aj ja ich poznám a nasledujú ma."
+
+Všimni si, že to nie je príkaz, ale zasľúbenie. Nehovorí, že sa raz možno naučíš rozoznať Jeho hlas, ak sa budeš dosť snažiť. Hovorí, že Jeho ovce Jeho hlas počúvajú. Táto schopnosť ti bola daná, keď si sa stal Jeho.
+
+Ako teda Boží hlas znie? Prorok Eliáš to zažil na vrchu Choréb, keď okolo neho prešiel víchor, zemetrasenie aj oheň. V 1. knihe kráľov 19, 12 čítame:
+
+"Po zemetrasení prišiel oheň, ale Hospodin nebol v ohni; po ohni zašumel tichý šelest."
+
+Boh nebol v tom, čo hučalo a otriasalo. Prišiel v tichu. A presne tu je prvý rozdiel, podľa ktorého sa dá rozlišovať: nepriateľ kričí, tlačí a ponáhľa sa. Chce, aby si konal hneď, kým si vystrašený. Boh nikdy nepotrebuje tvoju paniku – On hovorí ticho a dá ti čas.
+
+Rozdielov je viac a sú spoľahlivé. Hlas nepriateľa ťa pripútava k tvojej minulosti, k tomu, čo si pokazil a kým si bol. Boží hlas ťa volá do tvojej budúcnosti. Nepriateľ ťa poháňa bičom odsúdenia, viny a hanby a chce, aby si sa cítil malý. Boh ťa usvedčuje s láskou a vždy ti pritom ukazuje cestu von. Nepriateľ ťa uzatvára do samoty, aby si o tom s nikým nehovoril. Boh ťa vedie k svetlu a k svojmu ľudu. A napokon: Boží hlas nikdy nebude v rozpore s tým, čo je napísané v Písme.
+
+Najspoľahlivejším znamením je však pokoj. Apoštol Pavel v 1. liste Korintským 14, 33 pripomína:
+
+"lebo Boh nie je Bohom neporiadku, ale pokoja."
+
+Keď v tebe niečo vyvoláva zmätok, tieseň a horúčkovité nutkanie, môžeš si byť istý, že to nie je Boží hlas – aj keby ti to znelo nábožne. Boží hlas prináša pokoj aj vtedy, keď hovorí náročné veci.
+
+A čo teraz s myšlienkou, o ktorej si rozpoznal, že nie je tvoja a nie je od Boha? Apoštol Pavel odpovedá v 2. liste Korintským 10, 5:
+
+"a každú namýšľavosť, čo sa dvíha proti poznaniu Boha, každú myšlienku podrobujeme v poslušnosť Kristovu"
+
+Toto je celé tvoje riešenie a je oveľa jednoduchšie, než sa zdá. Nemusíš so žiadnou myšlienkou bojovať a nemusíš ju ani vytesniť z hlavy. Stačí ju podrobiť Kristovi – postaviť ju vedľa toho, čo o tebe hovorí On, a nechať ju, nech sa Mu podrobí.
+
+Lebo to, že ti niečo napadne, ešte vôbec neznamená, že je to pravda a že je to tvoje. Myšlienka získa nad tebou moc až vtedy, keď s ňou vstúpiš do dohody a povieš si: „áno, takto to so mnou je.“ Práve túto dohodu máš v Kristovi právo odmietnuť.
+
+Preto sa nesnaž vo svojej hlave vyhrať hádku. Namiesto toho sa pýtaj: čí je tento hlas? Tlačí ma, alebo mi dáva pokoj? Ťahá ma do minulosti, alebo do budúcnosti? Zaháňa ma do hanby, alebo do slobody? Keď to rozpoznáš, strach stráca svoju moc a tvoje ucho sa naladí na tichý šelest Otcovho hlasu.`,
+        verses: [
+            { text: "Moje ovce počúvajú môj hlas, aj ja ich poznám a nasledujú ma.", ref: "Ján 10, 27" },
+            { text: "Po zemetrasení prišiel oheň, ale Hospodin nebol v ohni; po ohni zašumel tichý šelest.", ref: "1. Kráľov 19, 12" },
+            { text: "lebo Boh nie je Bohom neporiadku, ale pokoja.", ref: "1. Korintským 14, 33" },
+            { text: "a každú namýšľavosť, čo sa dvíha proti poznaniu Boha, každú myšlienku podrobujeme v poslušnosť Kristovu", ref: "2. Korintským 10, 5" }
+        ],
+        prayer: `Drahý nebeský Otče, môj Potešiteľ a môj Pokoj,
+
+prichádzam dnes k Tebe ako Tvoje dieťa a hľadám bezpečie v Tvojej prítomnosti. Otváram pred Tebou svoje srdce a vyznávam svoju slabosť. Moja myseľ býva unavená a zaplavená myšlienkami viny, hanby a zlyhania, ktoré znejú presne ako môj vlastný hlas. Priznávam, že som ich veľakrát prijal za svoju identitu. Odpusť mi to, Otče, a očisť moju myseľ.
+
+Ďakujem Ti za zasľúbenie Tvojho Syna, že Jeho ovce počúvajú Jeho hlas. Neprosím Ťa teda o schopnosť, ktorú by som nemal – ďakujem Ti za tú, ktorú si mi už dal. Uč ma rozlišovať. Nech spoznám, že to, čo tlačí, ponáhľa sa, zaháňa do hanby a púta ma k minulosti, nie je Tvoj hlas.
+
+Ty nie si Bohom neporiadku, ale pokoja. Prijímam preto Tvoj tichý hlas, ktorý ma neodsudzuje, ale vedie do slobody a vždy mi ukazuje cestu von.
+
+Podľa 2. listu Korintským 10, 5 podrobujem každú myšlienku v poslušnosť Kristovu. Nebudem s nimi bojovať vo vlastnej sile – staviam ich vedľa toho, čo o mne hovoríš Ty. Odmietam vstúpiť do dohody s klamstvom a odmietam ho vyznať za svoju identitu, lebo v Kristovi som nové stvorenie.
+
+V mocnom mene Ježiša Krista prijímam Tvoj pokoj nad svojou mysľou a vyhlasujem, že môj život je skrytý v Kristovi.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "bozi-hlas-pokoj-mysel",
+        tags: ["myšlienky", "pochybnosti", "strach", "pokoj", "sloboda"],
+        available: true,
+        scriptureTheme: "Ján 10, 1. Kráľov 19, 2. Korintským 10",
+        isStarter: false
     }
 };
 
