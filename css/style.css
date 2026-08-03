@@ -1816,7 +1816,7 @@ html {
 .song-play-btn:hover { transform: scale(1.06); }
 
 .songs-list .chapter-item { position: relative; }
-.songs-list .chapter-title { padding-right: 56px; }
+
 
 /* Práve hrajúca pieseň */
 .songs-list .chapter-item.is-playing {
@@ -1977,7 +1977,7 @@ html {
 .song-play-btn svg { width: 22px; height: 22px; margin-left: 2px; }
 .song-play-btn:hover { transform: scale(1.06); }
 .songs-list .chapter-item { position: relative; }
-.songs-list .chapter-title { padding-right: 56px; }
+
 
 @media (max-width: 768px) {
     .listen-player { top: 64px; }
@@ -2386,5 +2386,58 @@ body:has(.listen-cta) .chapters-section {
 }
 .chapter-item:hover .chapter-title .card-link { color: var(--gold); }
 .chapter-title .card-link:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
-/* prvky, ktoré musia ostať samostatne klikateľné */
-.song-play-btn { position: relative; z-index: 2; }
+
+
+/* ============================================
+   KARTA PIESNE — mriežka: číslo | názov | play
+                          číslo | podnadpis | play
+   ============================================ */
+.songs-list .chapter-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: var(--space-4);
+    row-gap: var(--space-1);
+    align-items: center;
+}
+.songs-list .chapter-number {
+    grid-area: 1 / 1 / 3 / 2;
+    align-self: center;
+    margin: 0;
+}
+.songs-list .chapter-title {
+    grid-area: 1 / 2 / 2 / 3;
+    margin: 0;
+    padding-right: 0;
+}
+.songs-list .chapter-desc {
+    grid-area: 2 / 2 / 3 / 3;
+    margin: 0;
+}
+.songs-list .song-play-btn {
+    grid-area: 1 / 3 / 3 / 4;
+    position: relative;   /* v mriežke drží svoju bunku */
+    z-index: 2;           /* nad klikateľnou plochou karty */
+    align-self: center;
+    top: auto;
+    right: auto;
+    flex-shrink: 0;
+}
+
+
+@media (max-width: 480px) {
+    .songs-list .chapter-item { column-gap: var(--space-3); }
+    .songs-list .song-play-btn { width: 40px; height: 40px; }
+    .songs-list .song-play-btn svg { width: 19px; height: 19px; }
+}
+
+/* Šípka pod textom "Zoznam všetkých piesní nižšie" — nech je vidieť */
+.scroll-hint {
+    padding-bottom: var(--space-2);
+    gap: var(--space-1);
+}
+.scroll-hint-arrow {
+    font-size: 1.7em;
+    line-height: 1;
+    display: block;
+    height: 1em;
+}
