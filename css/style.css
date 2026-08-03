@@ -2441,3 +2441,21 @@ body:has(.listen-cta) .chapters-section {
     display: block;
     height: 1em;
 }
+
+/* ============================================
+   DOMOV — karty s rovnakým rozostupom ako
+   v sekciách Kapitoly a Piesne (--space-4)
+   Odsadenia susedných sekcií sa sčítavajú,
+   preto každá strana = polovica medzery.
+   ============================================ */
+.audio-section {
+    padding-bottom: var(--space-2);
+}
+.intro-section {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+}
+.warning-section {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-20);   /* priestor pred pätičkou ostáva */
+}
