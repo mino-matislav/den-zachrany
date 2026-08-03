@@ -2472,25 +2472,28 @@ body:has(.listen-cta) .chapters-section {
    Text sa oreže na pevný počet riadkov, karty
    v riadku sa natiahnu na rovnakú výšku.
    ============================================ */
-.chapters-list .chapter-item {
+.chapters-list:not(.songs-list) .chapter-item {
     display: flex;
     flex-direction: column;
 }
-.chapters-list .chapter-title,
-.chapters-list .chapter-desc {
+.chapters-list:not(.songs-list) .chapter-title,
+.chapters-list:not(.songs-list) .chapter-desc {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.chapters-list .chapter-title { -webkit-line-clamp: 2; }
-.chapters-list .chapter-desc  { -webkit-line-clamp: 3; }
+.chapters-list:not(.songs-list) .chapter-title { -webkit-line-clamp: 2; }
+.chapters-list:not(.songs-list) .chapter-desc  { -webkit-line-clamp: 3; }
 /* podnadpis vyplní zvyšok, tagy zostanú zarovnané dole */
-.chapters-list .chapter-desc { flex: 1 0 auto; }
-.chapters-list .chapter-tags { margin-top: auto; }
+.chapters-list:not(.songs-list) .chapter-desc { flex: 1 0 auto; }
+.chapters-list:not(.songs-list) .chapter-tags { margin-top: auto; }
 
 @media (min-width: 900px) {
-    .chapters-list {
+    .chapters-list:not(.songs-list) {
         align-items: stretch;      /* karty v riadku rovnako vysoké */
     }
-    .chapters-list .chapter-desc { -webkit-line-clamp: 2; }
+    .chapters-list.songs-list {
+        align-items: start;        /* piesne ostávajú ako boli */
+    }
+    .chapters-list:not(.songs-list) .chapter-desc { -webkit-line-clamp: 2; }
 }
