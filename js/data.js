@@ -818,7 +818,7 @@ Apoštol Pavel to v 2. liste Korintským 5, 17 hovorí úplne jasne:
 
 Premysli si to: Boh vedel, že pred Ním raz budeme stáť. Keďže On je dokonalý a svätý, naša stará, hriechom poškodená prirodzenosť by v Jeho prítomnosti nikdy neobstála. Vlastným úsilím ani dodržiavaním náboženských pravidiel by sme sa do neba nedostali.
 
-Boh ti však nepovedal: „Snaž sa celý život opravovať svoje zlyhania a vlastnou silou zaplátaj svoju padlú prirodzenosť.“ Neponechal ťa v márnom úsilí a vo vyčerpaní. Práve preto Ježiš v Evanjeliu podľa Matúša 11, 28 volá teba osobne:\n\n"Poďte ku mne všetci, ktorí sa namáhate a ste preťažení; ja vám dám odpočinutie!"\n\nVšimni si, že Ježiš nehovorí \"odlož bremeno\" – hovorí \"príď ku mne\". Bremeno neprestane existovať tým, že zabudneš naň myslieť. Zmení sa tým, že ho prinesieš k Tomu, ktorý ťa preberá. Namiesto tvojej ťarchy dostaneš Jeho odpočinutie. Namiesto toho ti v Ježišovi Kristovi daroval úplne novú identitu. Vložil do teba svojho Ducha Svätého a dnes sa na teba pozerá cez dokonané dielo svojho Syna.
+Boh ti však nepovedal: „Snaž sa celý život opravovať svoje zlyhania a vlastnou silou zaplátaj svoju padlú prirodzenosť.“ Neponechal ťa v márnom úsilí a vo vyčerpaní. Práve preto Ježiš v Evanjeliu podľa Matúša 11, 28 volá teba osobne:\n\n"Poďte ku mne všetci, ktorí sa namáhate a ste preťažení; ja vám dám odpočinutie!"\n\nVšimni si, že Ježiš nehovorí \"odlož bremeno\" – hovorí \"príď ku mne\". Bremeno neprestane existovať tým, že zabudneš naň myslieť. Zmení sa tým, že ho prinesieš k Tomu, ktorý ho preberá. Namiesto tvojej ťarchy dostaneš Jeho odpočinutie. Namiesto toho ti v Ježišovi Kristovi daroval úplne novú identitu. Vložil do teba svojho Ducha Svätého a dnes sa na teba pozerá cez dokonané dielo svojho Syna.
 
 Práve preto teba aj mňa Písmo nazýva spravodlivými, svätými a bezúhonnými. Nie preto, že by sme si to zaslúžili vlastnými zásluhami, ale preto, že Ježiš z nás učinil celkom nové stvorenie.
 
@@ -838,7 +838,7 @@ prichádzam k Tebe v mocnom mene Ježiša Krista s vďačným srdcom. Ďakujem T
 
 Otče, vyznávam podľa Tvojho Slova z 2. listu Korintským 5, 17, že v Kristovi som novým stvorením. Staré veci sa pominuli a nastali nové. Prichádzam dnes k Tebe unavený a preťažený zo snahy opravovať sám seba, a namiesto tejto ťarchy prijímam odpočinutie, ktoré mi dávaš Ty. Ďakujem Ti, že už nemusím vlastnou silou plátať svoje staré zlyhania ani sa snažiť zarobiť si na Tvoju lásku.
 
-Prijímam novú identitu, ktorú si mi daroval v Ježišovi – identitu spravodlivého, milovaného a čistého Božieho dieťaťa. Odkladám každé bremeno viny a sebaodsudzovania. Dávaš mi milosť premieňať svoju myseľ skrze Tvoje Slovo a odpočívať v Tvojej dokonalej láske.
+Prijímam novú identitu, ktorú si mi daroval v Ježišovi – identitu spravodlivého, milovaného a čistého Božieho dieťaťa. Odkladám každé bremeno viny a sebaodsudzovania. Dávaš mi milosť premieňať moju myseľ skrze Tvoje Slovo a odpočívať v Tvojej dokonalej láske.
 
 Tebe patrí všetka vďaka, chvála a sláva za dokonané dielo spasenia.
 
