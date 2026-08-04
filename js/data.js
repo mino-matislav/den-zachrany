@@ -731,8 +731,8 @@ Podľa 2. listu Korintským 10, 5 podrobujem každú myšlienku v poslušnosť K
 V mocnom mene Ježiša Krista prijímam Tvoj pokoj nad svojou mysľou a vyhlasujem, že môj život je skrytý v Kristovi.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-12.mp3",
+        hasAudio: true,
         illustrationRef: "bozi-hlas-pokoj-mysel",
         tags: ["myšlienky", "pochybnosti", "strach", "pokoj", "sloboda"],
         available: true,
