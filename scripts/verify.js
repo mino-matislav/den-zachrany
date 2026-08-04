@@ -61,6 +61,13 @@ must(/den-zachrany-v\d+/.test(sw), 'má verziu keše den-zachrany-vN');
 must(sw.includes("'/js/app.js'"), 'kešuje /js/app.js');
 must(sw.includes('/assets/audio/'), 'obchádza /assets/audio/ (neláme Range/streamovanie)');
 
+// ---------- 4b) Filter musí vedieť karty naozaj skryť ----------
+console.log('\n[4b] Skrývanie odfiltrovaných kariet');
+const css = read('css/style.css');
+must(/\.chapter-item\.hidden[^{]*\{[^}]*display:\s*none\s*!important/.test(css),
+  'pravidlo .chapter-item.hidden má display:none !important (inak ho prebijú pravidlá rozloženia)');
+must(app.includes("classList.toggle('hidden'"), 'app.js označuje nezhodné karty triedou hidden');
+
 // ---------- 5) Integrita dát KAPITOL ----------
 console.log('\n[5] Integrita dát — kapitoly');
 const s1 = {};

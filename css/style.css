@@ -2497,3 +2497,14 @@ body:has(.listen-cta) .chapters-section {
     }
     .chapters-list:not(.songs-list) .chapter-desc { -webkit-line-clamp: 2; }
 }
+
+/* ============================================
+   SKRÝVANIE ODFILTROVANÝCH KARIET
+   Musí mať vyššiu špecificitu než pravidlá pre
+   rozloženie kariet vyššie, inak ich neprebije.
+   ============================================ */
+.chapters-list:not(.songs-list) .chapter-item.hidden,
+.songs-list .chapter-item.hidden,
+.chapter-item.hidden {
+    display: none !important;
+}
