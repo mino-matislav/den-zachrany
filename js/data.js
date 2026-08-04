@@ -276,7 +276,7 @@ Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapito
 
 Ďakujem Ti, Otče, že Tvoja útecha a Tvoj pokoj strážia moje srdce. Prijímam novú silu pre každý nový deň a verím, že Tvoja láska ma prevedie aj tým najťažším údolím.
 
-Ukončujem túto modlitbu v plnej dôvere vo Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
+Ukončujem túto modlitbu v plnej dôvere v Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
 
 Amen.`,
         audioUrl: "assets/audio/modlitba-4.mp3?v=2",
@@ -793,6 +793,63 @@ Amen.`,
         tags: ["vyčerpanie", "myšlienky", "sloboda", "pokoj", "odpočinok"],
         available: true,
         scriptureTheme: "Rimanom 7, Rimanom 8, Matúš 4",
+        isStarter: false
+    },
+    "14": {
+        id: "14",
+        title: "Nemusíš sa opravovať sám",
+        subtitle: "Ako Boh vložil obnovu do tvojho tela aj do tvojho života – a prečo starú prirodzenosť neplátaš vlastnou silou",
+        shortDescription: "Od zázraku bunkovej obnovy tela až po duchovné znovuzrodenie – ako prijať novú identitu v Kristovi a prestať sa snažiť opravovať starý život vlastnou silou.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+zamyslel si sa niekedy nad tým, aký neobyčajný zázrak sa odohráva v tvojom vlastnom tele v tejto jedinej sekunde? Ľudské telo je stvorené ako úžasný systém, ktorý sa sám obnovuje. Milióny buniek v tebe práve teraz dokončujú svoju službu a na ich miesto nastupujú úplne nové.
+
+Tvoja pokožka sa obmení približne za mesiac. Výstelky tvojich vnútorných orgánov sa kvôli náročnému prostrediu obmieňajú dokonca každých pár dní. Tvoja krv sa neustále obnovuje a tvoja kostra sa v priebehu rokov celá prestavuje.
+
+A čo je na tom najúžasnejšie? Ty sám sa o to vôbec nesnažíš. Nemusíš na to myslieť, nemôžeš to vynútiť vôľou a nemusíš riadiť delenie ani jedinej bunky. Kým ty žiješ svoj deň, pracuješ alebo spíš, Stvoriteľ udržiava v tvojom vnútri tisíce zložitých dejov obnovy, ktoré sám navrhol.
+
+Boh nevytvoril tvoje telo tak, aby sa nekontrolovateľne rozpadalo a ničilo samo seba. Od začiatku doň vložil schopnosť neustálej obrody. A keď tento zázrak pochopíš, objavíš v ňom nádherný obraz samotného evanjelia.
+
+Tak ako Boh vložil obnovu do tvojho tela, vložil ju aj do tvojho duchovného života. V momente, keď prijmeš Ježiša Krista za svojho Pána a Spasiteľa, nenastáva len drobná úprava tvojho starého ja. Dochádza k celkovému duchovnému znovuzrodeniu. Stará prirodzenosť hriechu stráca svoje právo a v tebe sa rodí nový život.
+
+Apoštol Pavel to v 2. liste Korintským 5, 17 hovorí úplne jasne:
+
+"Preto ak je niekto v Kristovi, je nové stvorenie. Staré veci sa pominuli, a hľa, nastali nové."
+
+Premysli si to: Boh vedel, že pred Ním raz budeme stáť. Keďže On je dokonalý a svätý, naša stará, hriechom poškodená prirodzenosť by v Jeho prítomnosti nikdy neobstála. Vlastným úsilím ani dodržiavaním náboženských pravidiel by sme sa do neba nedostali.
+
+Boh ti však nepovedal: „Snaž sa celý život opravovať svoje zlyhania a vlastnou silou zaplátaj svoju padlú prirodzenosť.“ Neponechal ťa v márnom úsilí a vo vyčerpaní. Namiesto toho ti v Ježišovi Kristovi daroval úplne novú identitu. Vložil do teba svojho Ducha Svätého a dnes sa na teba pozerá cez dokonané dielo svojho Syna.
+
+Práve preto teba aj mňa Písmo nazýva spravodlivými, svätými a bezúhonnými. Nie preto, že by sme si to zaslúžili vlastnými zásluhami, ale preto, že Ježiš z nás učinil celkom nové stvorenie.
+
+Ak Boh vymyslel tvoje telo tak, aby sa vnútorne obnovovalo a nebolo zničené vlastnou záťažou, o čo viac pripravil tvoje spasenie tak, aby si nezostal navždy oddelený od Jeho prítomnosti! Dal ti nový duchovný život a teraz ťa volá premieňať aj tvoju myseľ:
+
+"A nepripodobňujte sa tomuto svetu, ale premeňte sa obnovením mysle, aby ste vedeli rozpoznať, čo je vôľa Božia, totiž, čo je dobré, milé a dokonalé."
+
+Božou vôľou pre tvoj život je obnova. Túto obnovu prijímaš celkom zadarmo skrze spasenie a vieru v Ježiša Krista. Nemusíš žiť vo vine, v strachu zo zničenia ani v kŕčovitej snahe opravovať starý život vlastnou silou – v Kristovi si už novým stvorením a Jeho život v tebe prúdi každý jeden deň.`,
+        verses: [
+            { text: "Preto ak je niekto v Kristovi, je nové stvorenie. Staré veci sa pominuli, a hľa, nastali nové.", ref: "2. Korintským 5, 17" },
+            { text: "A nepripodobňujte sa tomuto svetu, ale premeňte sa obnovením mysle, aby ste vedeli rozpoznať, čo je vôľa Božia, totiž, čo je dobré, milé a dokonalé.", ref: "Rimanom 12, 2" }
+        ],
+        prayer: `Drahý nebeský Otče, môj Stvoriteľ a Obnoviteľ,
+
+prichádzam k Tebe v mocnom mene Ježiša Krista s vďačným srdcom. Ďakujem Ti za to, ako úžasne a múdro si stvoril moje telo aj môjho ducha. Ďakujem Ti, že si ma nestvoril na to, aby som sa vnútorne zničil, ale vložil si do mňa obnovu a milosť.
+
+Otče, vyznávam podľa Tvojho Slova z 2. listu Korintským 5, 17, že v Kristovi som novým stvorením. Staré veci sa pominuli a nastali nové. Skladám dnes všetku svoju únavu a vyčerpanie z toho, že som sa snažil opravovať sám seba. Ďakujem Ti, že už nemusím vlastnou silou plátať svoje staré zlyhania ani sa snažiť zarobiť si na Tvoju lásku.
+
+Prijímam novú identitu, ktorú si mi daroval v Ježišovi – identitu spravodlivého, milovaného a čistého Božieho dieťaťa. Odkladám každé bremeno viny a sebaodsudzovania. Dávaš mi milosť premieňať svoju myseľ skrze Tvoje Slovo a odpočívať v Tvojej dokonalej láske.
+
+Tebe patrí všetka vďaka, chvála a sláva za dokonané dielo spasenia.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "obnova-ducha-nove-stvorenie",
+        tags: ["vina", "vyčerpanie", "sloboda", "pokoj", "odpočinok"],
+        available: true,
+        scriptureTheme: "2. Korintským 5, Rimanom 12",
         isStarter: false
     }
 };
