@@ -604,7 +604,7 @@ V mocnom mene Ježiša Krista hovorím k tebe, duch strachu, úzkosti a sužovan
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-10.mp3",
+        audioUrl: "assets/audio/modlitba-10.mp3?v=2",
         hasAudio: true,
         illustrationRef: "autorita-vladnutie-kristus",
         tags: ["bezmocnosť", "strach", "úzkosť", "víťazstvo", "sloboda"],
@@ -731,7 +731,7 @@ Podľa 2. listu Korintským 10, 5 podrobujem každú myšlienku v poslušnosť K
 V mocnom mene Ježiša Krista prijímam Tvoj pokoj nad svojou mysľou a vyhlasujem, že môj život je skrytý v Kristovi.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-12.mp3",
+        audioUrl: "assets/audio/modlitba-12.mp3?v=2",
         hasAudio: true,
         illustrationRef: "bozi-hlas-pokoj-mysel",
         tags: ["myšlienky", "pochybnosti", "strach", "pokoj", "sloboda"],
