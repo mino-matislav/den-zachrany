@@ -787,8 +787,8 @@ Na základe autority v mocnom mene Ježiša Krista beriem vládu nad svojím kon
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-13.mp3",
+        hasAudio: true,
         illustrationRef: "stisenie-tela-bozie-slovo",
         tags: ["vyčerpanie", "myšlienky", "sloboda", "pokoj", "odpočinok"],
         available: true,
