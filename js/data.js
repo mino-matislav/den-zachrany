@@ -818,7 +818,7 @@ Apoštol Pavel to v 2. liste Korintským 5, 17 hovorí úplne jasne:
 
 Premysli si to: Boh vedel, že pred Ním raz budeme stáť. Keďže On je dokonalý a svätý, naša stará, hriechom poškodená prirodzenosť by v Jeho prítomnosti nikdy neobstála. Vlastným úsilím ani dodržiavaním náboženských pravidiel by sme sa do neba nedostali.
 
-Boh ti však nepovedal: „Snaž sa celý život opravovať svoje zlyhania a vlastnou silou zaplátaj svoju padlú prirodzenosť.“ Neponechal ťa v márnom úsilí a vo vyčerpaní. Namiesto toho ti v Ježišovi Kristovi daroval úplne novú identitu. Vložil do teba svojho Ducha Svätého a dnes sa na teba pozerá cez dokonané dielo svojho Syna.
+Boh ti však nepovedal: „Snaž sa celý život opravovať svoje zlyhania a vlastnou silou zaplátaj svoju padlú prirodzenosť.“ Neponechal ťa v márnom úsilí a vo vyčerpaní. Práve preto Ježiš v Evanjeliu podľa Matúša 11, 28 volá teba osobne:\n\n"Poďte ku mne všetci, ktorí sa namáhate a ste preťažení; ja vám dám odpočinutie!"\n\nVšimni si, že Ježiš nehovorí \"odlož bremeno\" – hovorí \"príď ku mne\". Bremeno neprestane existovať tým, že zabudneš naň myslieť. Zmení sa tým, že ho prinesieš k Tomu, ktorý ťa preberá. Namiesto tvojej ťarchy dostaneš Jeho odpočinutie. Namiesto toho ti v Ježišovi Kristovi daroval úplne novú identitu. Vložil do teba svojho Ducha Svätého a dnes sa na teba pozerá cez dokonané dielo svojho Syna.
 
 Práve preto teba aj mňa Písmo nazýva spravodlivými, svätými a bezúhonnými. Nie preto, že by sme si to zaslúžili vlastnými zásluhami, ale preto, že Ježiš z nás učinil celkom nové stvorenie.
 
@@ -829,13 +829,14 @@ Ak Boh vymyslel tvoje telo tak, aby sa vnútorne obnovovalo a nebolo zničené v
 Božou vôľou pre tvoj život je obnova. Túto obnovu prijímaš celkom zadarmo skrze spasenie a vieru v Ježiša Krista. Nemusíš žiť vo vine, v strachu zo zničenia ani v kŕčovitej snahe opravovať starý život vlastnou silou – v Kristovi si už novým stvorením a Jeho život v tebe prúdi každý jeden deň.`,
         verses: [
             { text: "Preto ak je niekto v Kristovi, je nové stvorenie. Staré veci sa pominuli, a hľa, nastali nové.", ref: "2. Korintským 5, 17" },
+            { text: "Poďte ku mne všetci, ktorí sa namáhate a ste preťažení; ja vám dám odpočinutie!", ref: "Matúš 11, 28" },
             { text: "A nepripodobňujte sa tomuto svetu, ale premeňte sa obnovením mysle, aby ste vedeli rozpoznať, čo je vôľa Božia, totiž, čo je dobré, milé a dokonalé.", ref: "Rimanom 12, 2" }
         ],
         prayer: `Drahý nebeský Otče, môj Stvoriteľ a Obnoviteľ,
 
 prichádzam k Tebe v mocnom mene Ježiša Krista s vďačným srdcom. Ďakujem Ti za to, ako úžasne a múdro si stvoril moje telo aj môjho ducha. Ďakujem Ti, že si ma nestvoril na to, aby som sa vnútorne zničil, ale vložil si do mňa obnovu a milosť.
 
-Otče, vyznávam podľa Tvojho Slova z 2. listu Korintským 5, 17, že v Kristovi som novým stvorením. Staré veci sa pominuli a nastali nové. Skladám dnes všetku svoju únavu a vyčerpanie z toho, že som sa snažil opravovať sám seba. Ďakujem Ti, že už nemusím vlastnou silou plátať svoje staré zlyhania ani sa snažiť zarobiť si na Tvoju lásku.
+Otče, vyznávam podľa Tvojho Slova z 2. listu Korintským 5, 17, že v Kristovi som novým stvorením. Staré veci sa pominuli a nastali nové. Prichádzam dnes k Tebe unavený a preťažený zo snahy opravovať sám seba, a namiesto tejto ťarchy prijímam odpočinutie, ktoré mi dávaš Ty. Ďakujem Ti, že už nemusím vlastnou silou plátať svoje staré zlyhania ani sa snažiť zarobiť si na Tvoju lásku.
 
 Prijímam novú identitu, ktorú si mi daroval v Ježišovi – identitu spravodlivého, milovaného a čistého Božieho dieťaťa. Odkladám každé bremeno viny a sebaodsudzovania. Dávaš mi milosť premieňať svoju myseľ skrze Tvoje Slovo a odpočívať v Tvojej dokonalej láske.
 
