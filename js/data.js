@@ -72,7 +72,7 @@ A preto teraz, ako znovuzrodené Božie dieťa, ktoré stojí v milosti, v mocno
 Ďakujem Ti, Otče, už teraz – hoci ešte vlastnými očami nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidia moje oči, ale o Tvoju vernosť. Ja som slabý, ale Ten, ktorý odteraz žije vo mne, je všemohúci Víťaz.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-1.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-1.mp3?v=4",
         hasAudio: true,
         illustrationRef: "svetlo-cesta",
         tags: ["strach", "vina", "neistota", "nádej", "sloboda"],
@@ -127,7 +127,7 @@ Podrobujem každú jednu myšlienku do poslušnosti Kristovi. Vyznávam, že som
 Ďakujem Ti, nebeský Otče, že Tvoj neochvejný pokoj, ktorý prevyšuje každý ľudský rozum, teraz stráži moju myseľ i moje srdce v Kristovi Ježišovi. Ukončujem túto modlitbu s vedomím, že Ten, ktorý je vo mne, je väčší ako akýkoľvek strach.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-2.mp3",
+        audioUrl: "assets/audio/modlitba-2.mp3?v=2",
         hasAudio: true,
         illustrationRef: "svetlo-vlna",
         tags: ["úzkosť", "myšlienky", "strach", "pokoj", "sloboda"],
@@ -212,7 +212,7 @@ Pane Ježišu, verím Tvojmu svedectvu z listu Filipským 4, 19, že Boh naplní
 Ukončujem túto modlitbu v tichom vedomí a plnej dôvere, že Ty sa o všetko dokonale postaráš.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-3.mp3",
+        audioUrl: "assets/audio/modlitba-3.mp3?v=2",
         hasAudio: true,
         illustrationRef: "pergamen",
         tags: ["starosti", "úzkosť", "vyčerpanie", "pokoj", "odpočinok"],
@@ -279,7 +279,7 @@ Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapito
 Ukončujem túto modlitbu v plnej dôvere vo Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-4.mp3",
+        audioUrl: "assets/audio/modlitba-4.mp3?v=2",
         hasAudio: true,
         illustrationRef: "voda-svetlo",
         tags: ["strata", "smútok", "bolesť", "obnova", "nádej"],
@@ -345,7 +345,7 @@ Prijímam obnovu, pokoj a dôstojnosť, ktoré mám v Kristovi zadarmo — nie a
 Ukončujem túto modlitbu v mocnom a vyvýšenom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-5.mp3",
+        audioUrl: "assets/audio/modlitba-5.mp3?v=2",
         hasAudio: true,
         illustrationRef: "svetlo-ruka",
         tags: ["krivda", "poníženie", "hnev", "obnova", "odpustenie"],
@@ -390,7 +390,7 @@ Pane, dúfam v Teba celým svojím srdcom. Ty vidíš pasce, ktoré mi nepriate�
 Ďakujem Ti, že Ty sám žiješ vo mne a Tvoja sila sa dokonale prejavuje v mojej slabosti. Nech v tejto chvíli padnú všetky okovy zúfalstva a strachu v mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-6.mp3",
+        audioUrl: "assets/audio/modlitba-6.mp3?v=2",
         hasAudio: true,
         illustrationRef: "stlp-ohna",
         tags: ["vyčerpanie", "bezmocnosť", "strach", "víťazstvo", "odpočinok"],
@@ -442,7 +442,7 @@ Pane, Tvoja vôľa pre môj život je dokonalá a nezlyháva. Ty si Ten, ktorý 
 Ukotvujem svoju nádej v Tebe a vyhlasujem, že Tvoja zvrchovaná vôľa sa v mojom živote naplní a žiadny útok nepriateľa ju neprekazí. V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-7.mp3",
+        audioUrl: "assets/audio/modlitba-7.mp3?v=2",
         hasAudio: true,
         illustrationRef: "hrnciar-hlina",
         tags: ["neistota", "pochybnosti", "starosti", "odpočinok", "pokoj"],
@@ -496,7 +496,7 @@ A preto teraz na základe autority, ktorú mám v Kristovi, hovorím k tomuto st
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-8.mp3",
+        audioUrl: "assets/audio/modlitba-8.mp3?v=2",
         hasAudio: true,
         illustrationRef: "otvorene-pismo-svetlo",
         tags: ["myšlienky", "strach", "pochybnosti", "sloboda", "pokoj"],
@@ -553,7 +553,7 @@ Odmietam veriť strachu a nepodriaďujem sa beznádejným predpovediam. Moja dô
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-9.mp3",
+        audioUrl: "assets/audio/modlitba-9.mp3?v=2",
         hasAudio: true,
         illustrationRef: "uzdravenie-svetlne-ruky",
         tags: ["choroba", "bolesť", "strach", "uzdravenie", "nádej"],
@@ -662,7 +662,7 @@ Odmietam ducha zmätku a strachu z budúcnosti. V mocnom mene Ježiša Krista mu
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-11.mp3",
+        audioUrl: "assets/audio/modlitba-11.mp3?v=2",
         hasAudio: true,
         illustrationRef: "pan-riadi-kroky-svetlo",
         tags: ["neistota", "pochybnosti", "strach", "pokoj", "odpočinok"],
