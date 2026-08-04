@@ -738,6 +738,62 @@ Amen.`,
         available: true,
         scriptureTheme: "Ján 10, 1. Kráľov 19, 2. Korintským 10",
         isStarter: false
+    },
+    "13": {
+        id: "13",
+        title: "Keď je telo príliš hlučné",
+        subtitle: "Ako zvíťaziť nad fyzickým odporom, digitálnym rozptýlením a podrobiť svoje telo Duchu",
+        shortDescription: "Ako premôcť fyzickú lenivosť, náhlu únavu pri čítaní Písma a digitálne rozptýlenie skrze autoritu Ducha nad telom.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+stalo sa ti niekedy, že v momente, keď sa rozhodneš otvoriť Božie Slovo, zrazu si spomenieš na desať vecí, ktoré musíš súrne urobiť? Tvoj telefón je odrazu nesmierne zaujímavý, dostaneš hlad alebo ťa prepadne taká náhla únava, akoby si prehltol tabletku na spanie.
+
+Všimni si ten zvláštny rozdiel: dokážeš scrolovať na sociálnych sieťach dve hodiny bez jediného zazívania. Len čo však otvoríš Bibliu, nevieš prestať zívať. Prečo je to tak?
+
+Pretože tvoje telo miluje to, čo kŕmi jeho samo. Telo a nespasená časť našej mysle prirodzene vyhľadávajú pohodlie a rýchle podnety. Kým dušu sýtiš digitálnym šumom a zábavou, telo nekladie žiadny odpor. Len čo sa však rozhodneš sýtiť svojho ducha, telo začne protestovať.
+
+Apoštol Pavel opísal tento vnútorný zápas v liste Rimanom 7, 15:
+
+"Veď čo konám, tomu nerozumiem, lebo nie to robím, čo chcem, ale konám to, čo nenávidím."
+
+Tvoj znovuzrodený duch túži po Bohu, ale tvoje telo túži po pohodlí. V liste Rimanom 8, 7 stojí:
+
+"Pretože telesné zmýšľanie je nepriateľstvo voči Bohu, lebo sa nepoddáva, a ani sa nemôže poddať zákonu Božiemu."
+
+Telo samo od seba nemá túžbu hľadať Boha. Nie je neutrálne – prirodzene ťa ťahá preč od duchovných vecí k rýchlym podnetom, zhonu a zábave. Tie ti síce na chvíľu zamestnajú myseľ, ale nakoniec ťa nechajú vnútorne prázdnym. Je to ako sýtiť sa sladkosťami: hlad na chvíľu zaženú, ale telo nevyživia.
+
+Božie Slovo je však skutočným pokrmom. Sám Pán Ježiš hovorí v Evanjeliu podľa Matúša 4, 4:
+
+"Nie samým chlebom bude človek žiť, ale každým slovom, ktoré vychádza z úst Božích."
+
+Ak chceš zažívať hlboký Boží pokoj a stíšenie, nemusíš čakať, kým tvoje telo dostane chuť čítať Písmo. Nepros Boha, aby z teba zázračne sňal lenivosť, zatiaľ čo držíš v ruke telefón. Ty sám si dostal autoritu posadiť svoje pocity a lenivosť tela na zadné sedadlo.
+
+Odlož rozptýlenie, vypni hluk sveta a nakŕm svojho ducha. Čím viac sa sýtiš Božím Slovom, tým silnejší je tvoj duch a tým tichším sa stáva odpor tvojho tela.`,
+        verses: [
+            { text: "Veď čo konám, tomu nerozumiem, lebo nie to robím, čo chcem, ale konám to, čo nenávidím.", ref: "Rimanom 7, 15" },
+            { text: "Pretože telesné zmýšľanie je nepriateľstvo voči Bohu, lebo sa nepoddáva, a ani sa nemôže poddať zákonu Božiemu.", ref: "Rimanom 8, 7" },
+            { text: "Nie samým chlebom bude človek žiť, ale každým slovom, ktoré vychádza z úst Božích.", ref: "Matúš 4, 4" }
+        ],
+        prayer: `Drahý nebeský Otče, môj milovaný Pastier,
+
+prichádzam k Tebe v mocnom mene Ježiša Krista ako Tvoje dieťa. Otváram pred Tebou svoje vnútro a vyznávam svoju slabosť. Priznávam, že moje telo býva pohodlné, nepozorné a ľahko sa dá strhnúť digitálnym rozptýlením a zhonom tohto sveta. Vyznávam, že kedykoľvek chcem hľadať Tvoju tvár, pociťujem odpor, únavu a nepokoj. Sám vo svojej telesnej sile tento tlak nepremôžem, a preto sa utiekam k Tvojej milosti.
+
+Ďakujem Ti, Otče, že Tvoja moc sa dokonale prejavuje v mojej slabosti. Ďakujem Ti, že môj znovuzrodený duch je spojený s Tebou a túži po Tvojom Slove. Tvoje Slovo je životom a zdravím pre celú moju bytosť. Rozhodujem sa dnes vierou posadiť svoje pocity, únavu a výhovorky tela na zadné sedadlo.
+
+Neprosím Ťa pasívne, aby si namiesto mňa odložil rozptýlenie. Ty si mi dal slobodnú vôľu a Ducha sily. Ja sám robím rozhodnutie stíšiť hluk svojho tela, odkladám telefón a otváram Tvoje sväté Písmo. Uvoľňujem Tvoj pokoj do svojej mysle a vyhlasujem, že môj duch silnie.
+
+Na základe autority v mocnom mene Ježiša Krista beriem vládu nad svojím konaním a hovorím každému tlaku únavy, nepozornosti a duchovnej lenivosti: Zmĺknite a odíďte! Prikazujem svojej mysli, aby sa podriadila Kristovi. Vyhlasujem, že môj život je vedený Duchom a moje telo sa podriaďuje Božiemu Slovu.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "stisenie-tela-bozie-slovo",
+        tags: ["vyčerpanie", "myšlienky", "sloboda", "pokoj", "odpočinok"],
+        available: true,
+        scriptureTheme: "Rimanom 7, Rimanom 8, Matúš 4",
+        isStarter: false
     }
 };
 
