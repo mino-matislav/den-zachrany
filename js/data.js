@@ -845,8 +845,8 @@ Tebe patrí všetka vďaka, chvála a sláva za dokonané dielo spasenia.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-14.mp3",
+        hasAudio: true,
         illustrationRef: "obnova-ducha-nove-stvorenie",
         tags: ["vina", "vyčerpanie", "sloboda", "pokoj", "odpočinok"],
         available: true,
