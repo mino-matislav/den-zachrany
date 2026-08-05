@@ -270,7 +270,7 @@ prichádzam pred Tvoju svätú tvár v mocnom mene Tvojho Syna, Ježiša Krista.
 
 Ďakujem Ti, nebeský Otče, že v tomto čase milosti viem, kto v skutočnosti si. Odmietam klamstvo, že si túto bolesť alebo stratu spôsobil Ty. Verím Tvojmu Slovu, že Ty si Otec každej útechy a Otec milosrdenstva. Ježiš prišiel, aby som mal život a hojnosť, preto sa dnes plne utiekam do Tvojho bezpečného náručia.
 
-Podľa Tvojho zasľúbenia zo Žalmu 34, 19 verím, že si blízko môjmu skľúčenému srdcu. Odovzdávam Ti každú ranu, každý hnev i každé mätúce „prečo“ a prosím Ťa, naplň moju dušu Svojím Svätým Duchom. Prijímam Tvoje nadprirodzené uzdravenie pre svoju myseľ aj pre svoje vnútro.
+Podľa Tvojho zasľúbenia zo Žalmu 34, 19 verím, že si blízko môjmu skľúčenému srdcu. Odovzdávam Ti každú ranu, každý hnev i každé mätúce „prečo“ Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri a uvoľňujem dnes Jeho uzdravujúcu moc pre svoju myseľ aj pre svoje vnútro.
 
 Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapitole. Tak ako si zmenil údel Jóba a priniesol mu obnovu, verím, že aj v mojom živote máš pripravené dobré veci. Rozhodujem sa nezostávať v zúfalstve, ale odpočívať v Tvojej milosti a vernosti.
 
@@ -851,6 +851,58 @@ Amen.`,
         tags: ["vina", "vyčerpanie", "sloboda", "pokoj", "odpočinok"],
         available: true,
         scriptureTheme: "2. Korintským 5, Rimanom 12",
+        isStarter: false
+    },
+    "15": {
+        id: "15",
+        title: "Ťarcha, ktorú nemusíš niesť",
+        subtitle: "Ako sloboda odpustenia oslobodzuje tvoje vnútro a prečo je horkosť väzením, do ktorého zatváraš sám seba",
+        shortDescription: "Ako sa oslobodiť od ťarchy minulých zranení a horkosti skrze odpustenie – prečo odpustenie nie je zľahčovanie hriechu, ale cesta k slobode duše.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+existuje staré príslovie, ktoré hovorí, že prechovávať v srdci horkosť a neodpustenie je ako sám piť jed a čakať, že naň zomrie ten druhý. Je to mimoriadne presný obraz. Zranenia, nepravdy, podrazy či sklamania, ktoré ti v živote spôsobili iní ľudia, sú reálne. Bolesť, ktorú si cítil, bola skutočná. No to, čo urobíš s touto bolesťou dnes, rozhodne o tom, či budeš žiť v slobode, alebo zostaneš zviazaný minulosťou.
+
+Mnohí kresťania žijú v neustálom vnútornom vyčerpaní a nepokoji nie preto, že by nemali vieru, ale preto, že vo svojom vnútri nesú ťažkú reťaz bolestných spomienok. Horkosť je nenápadná. Začína sa ako drobná myšlienka nespravodlivosti, no ak ju v mysli pravidelne zalievaš spomínaním na to, čo ti niekto vykonal, zapustí hlboké korene. A časom otrávi tvoju radosť, tvoje zdravie aj tvoje vzťahy s druhými.
+
+Často sa však vyhýbame odpusteniu kvôli veľkému nedorozumeniu. Myslíme si, že odpustiť znamená zľahčovať hriech, tváriť sa, že sa nič nestalo, alebo dať človeku právo, aby nám ubližoval znova.
+
+Biblické odpustenie však nie je naivita. Odpustenie neznamená, že to, čo ten človek urobil, bolo v poriadku. Odpustenie znamená, že odovzdávaš dlžobný úpis do rúk jediného Spravodlivého Sudcu — Boha. Prestávaš byť tým, kto vymáha trest, a dovoľuješ Bohu, aby bol v celej situácii Bohom.
+
+Apoštol Pavel v liste Efezanom odhaľuje, aký postoj prináša skutočnú úľavu a uzdravenie pre ľudskú dušu:
+
+"Každá rozhorčenosť a vášnivosť, hnev a krik i rúhanie so všetkou zlosťou nech sú vám vzdialené. Ale buďte vospolok dobrotiví, milosrdní, odpúšťajte si, ako aj Boh odpustil vám v Kristovi."
+
+Všimni si ten kľúčový základ: „...ako aj Boh odpustil vám v Kristovi."
+
+Boh od teba nežiada, aby si odpúšťal zo svojej vlastnej ľudskej sily. Z ľudského hľadiska je to niekedy nemožné. Bolesť býva príliš hlboká. No keď si uvedomíš obrovský dlh, ktorý Boh odpustil tebe na kríži — keď si bol ešte Jeho nepriateľom — v tvojom znovuzrodenom duchu sa uvoľní milosť odpustiť aj tým, ktorí ublížili tebe.
+
+Odpustenie nie je pocit, ktorý musíš najprv pocítiť. Odpustenie je rozhodnutie vôle. Je to duchovný krok, ktorým presekávaš reťaz, čo ťa pútala k človeku, ktorý ti ublížil. Kým neodpustíš, tvoje vnútro zostáva spojené s danou krivdou. V momente, keď odpustíš, otváraš dvere svojho vlastného väzenia a zisťuješ, že väzňom, ktorý bol oslobodený, si bol ty sám.
+
+Rovnako je dôležité rozlišovať medzi odpustením a dôverou. Odpustenie je okamžité, bezpodmienečné a dáva sa zadarmo na základe Kristovej obete. Dôvera a obnovenie blízkeho vzťahu sa však budujú postupne a vyžadujú si čas aj ovocie pokánia na druhej strane. Môžeš človeku z celého srdca odpustiť a žiť v úplnom pokoji, aj keď s ním už nevstúpiš do rovnakého úzkeho vzťahu. Odpustenie ti vracia slobodu, ľahkosť a schopnosť znova milovať bez strachu zo zranenia.`,
+        verses: [
+            { text: "Každá rozhorčenosť a vášnivosť, hnev a krik i rúhanie so všetkou zlosťou nech sú vám vzdialené. Ale buďte vospolok dobrotiví, milosrdní, odpúšťajte si, ako aj Boh odpustil vám v Kristovi.", ref: "Efezanom 4, 31 – 32" }
+        ],
+        prayer: `Drahý nebeský Otče,
+
+prichádzam pred Tvoju svätú tvár v mene Ježiša Krista. Ďakujem Ti za nesmiernu milosť a lásku, ktorou si mi odpustil všetky moje zlyhania a hriechy na kríži. Uvedomujem si, že keby bol môj vzťah s Tebou založený na mojich zásluhách, nikdy by som pred Tebou neobstál.
+
+Otče, Ty vidíš moje srdce a poznáš každé zranenie, krivdu a sklamanie, ktoré som v živote zažil. Vidíš aj bolesť a hnev, ktoré som si možno dlho niesol vo svojom vnútri. Dnes sa rozhodujem nezostávať väzňom horkosti ani minulosti.
+
+Na základe Tvojho Slova z Efezanom 4 robím dnes vedomé rozhodnutie: odpúšťam všetkým, ktorí mi ublížili, všetko, čím mi ublížili, čo mi vzali alebo ako ma zradili. Skladám túto krivdu k Tvojim nohám a odpúšťam im ich dlh. Prestávam byť ich sudcom a odovzdávam celú situáciu do Tvojich spravodlivých rúk.
+
+Vyhlasujem, že moja duša je slobodná od horkosti, hnevu a túžby po odplate. Prijímam Tvoj pokoj, ktorý prevyšuje každý ľudský rozum. Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri. Uvoľňujem dnes Jeho ovocie — milosť pozerať sa na ľudí okolo seba pohľadom Tvojej lásky a odpustenia.
+
+Ďakujem Ti, že v Kristovi som úplne slobodný.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "sloboda-odpustenia-horkost",
+        tags: ["hnev", "bolesť", "sloboda", "pokoj", "odpustenie"],
+        available: true,
+        scriptureTheme: "Efezanom 4",
         isStarter: false
     }
 };
