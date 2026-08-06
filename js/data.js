@@ -959,7 +959,7 @@ Vyhlasujem Tvoj pokoj nad svojimi vzťahmi a nad svojím jazykom.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-16.mp3",
+        audioUrl: "assets/audio/modlitba-16.mp3?v=2",
         hasAudio: true,
         illustrationRef: "pokoj-vo-vztahoch",
         tags: ["hnev", "bolesť", "pokoj", "obnova", "nádej"],
