@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Podpora projektu Deň Záchrany. Tento web je a zostane zadarmo.">
+    <meta name="theme-color" content="#D4AF37">
+    <meta property="og:title" content="Podpora projektu — Deň Záchrany">
+    <meta property="og:description" content="Tento web je a zostane zadarmo. Ak ti niečo z toho pomohlo, najcennejšia podpora nestojí nič.">
+    <meta property="og:type" content="website">
+    <title>Podpora projektu — Deň Záchrany</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css?v=59">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="progress-bar" class="progress-bar" aria-hidden="true"></div>
+
+    <nav class="main-nav" role="navigation" aria-label="Hlavná navigácia">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Deň Záchrany - Domov">
+                <span class="logo-icon">✝</span>
+                <span class="logo-text">Deň Záchrany</span>
+            </a>
+            <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html" class="nav-link" role="menuitem">Domov</a></li>
+                <li role="none"><a href="kapitoly.html" class="nav-link" role="menuitem">Kapitoly</a></li>
+                <li role="none"><a href="piesne.html" class="nav-link" role="menuitem">Piesne</a></li>
+                <li role="none"><a href="podpora.html" class="nav-link active" role="menuitem">Podpora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header" role="banner">
+        <div class="container">
+            <h1 class="page-title">Podpora projektu</h1>
+            <p class="page-subtitle">Tento web je a zostane zadarmo</p>
+        </div>
+    </header>
+
+    <main id="hlavny-obsah" role="main">
+        <section class="support-section">
+            <div class="container">
+
+                <div class="support-card">
+                    <p>Deň Záchrany vznikol preto, aby mal človek v ťažkej chvíli kam siahnuť. Všetko na tomto webe je voľne dostupné a tak to aj zostane — kapitoly, modlitby aj piesne, bez reklám a bez podmienok.</p>
+                    <p>Ak ti niečo z toho pomohlo, najcennejšia podpora nestojí nič.</p>
+                </div>
+
+                <div class="support-card">
+                    <h2 class="support-heading">Môžeš sa modliť</h2>
+                    <p>Za tých, ktorí sem prídu po tebe.</p>
+
+                    <h2 class="support-heading">Môžeš to poslať ďalej</h2>
+                    <p>Ak poznáš niekoho, kto práve prechádza ťažkým obdobím, pošli mu konkrétnu kapitolu, ktorá sa jeho situácie týka. Niekedy je to viac než akékoľvek slová.</p>
+
+                    <button class="share-btn" type="button"
+                            data-share-title="Deň Záchrany"
+                            data-share-text="Deň Záchrany — biblická pomoc pre ťažké chvíle"
+                            data-share-url="">
+                        <span class="share-btn-icon" aria-hidden="true">↗</span>
+                        <span class="share-btn-label">Zdieľať Deň Záchrany</span>
+                    </button>
+                </div>
+
+                <div class="support-card">
+                    <h2 class="support-heading">Ak by si chcel podporiť projekt aj finančne</h2>
+
+                    <blockquote class="chapter-verse">
+                        Každý (nech dá), ako si umienil v srdci, nie z neochoty alebo z prinútenia; lebo ochotného darcu miluje Boh.
+                        <span class="chapter-verse-ref">— 2. Korintským 9, 7</span>
+                    </blockquote>
+
+                    <p>Nič sa neočakáva a nič sa nemeria. Ak sa však rozhodneš prispieť, tu je účet:</p>
+
+                    <div class="support-payment">
+                        <div class="support-qr">
+                            <img src="assets/qr-podpora.svg" alt="QR kód pre platbu — PAY by square" width="200" height="200">
+                            <span class="support-qr-label">Naskenuj v mobilnej banke</span>
+                        </div>
+                        <div class="support-details">
+                            <div class="support-detail">
+                                <span class="support-detail-label">IBAN</span>
+                                <span class="support-detail-value" id="iban-value">SK72 1100 0000 0029 4300 6853</span>
+                                <button class="copy-btn" type="button" data-copy="SK7211000000002943006853">Kopírovať</button>
+                            </div>
+                            <div class="support-detail">
+                                <span class="support-detail-label">Príjemca</span>
+                                <span class="support-detail-value">Deň Záchrany</span>
+                            </div>
+                            <div class="support-detail">
+                                <span class="support-detail-label">Poznámka</span>
+                                <span class="support-detail-value">Podpora projektu Deň Záchrany</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="support-card">
+                    <h2 class="support-heading">Na čo prostriedky idú</h2>
+                    <ul class="support-list">
+                        <li>Hosting a doména</li>
+                        <li>Produkcia a spracovanie audia</li>
+                        <li>Príprava ďalších kapitol</li>
+                        <li>Postupné sprístupnenie piesní a modlitieb na stiahnutie</li>
+                    </ul>
+                </div>
+
+                <nav class="chapter-nav" aria-label="Navigácia">
+                    <a href="kapitoly.html" class="btn btn-primary">Prejsť na kapitoly</a>
+                    <a href="index.html" class="btn btn-text">Späť na domovskú stránku</a>
+                </nav>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✝</span>
+                    <span class="footer-title">Deň Záchrany</span>
+                    <p class="footer-tagline">Dnes je deň spasenia.</p>
+                </div>
+                <nav class="footer-nav" aria-label="Pätičková navigácia">
+                    <a href="index.html">Domov</a>
+                    <a href="kapitoly.html">Kapitoly</a>
+                    <a href="piesne.html">Piesne</a>
+                    <a href="podpora.html">Podpora</a>
+                </nav>
+                <p class="footer-copy">© 2026 Deň Záchrany. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

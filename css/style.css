@@ -2508,3 +2508,109 @@ body:has(.listen-cta) .chapters-section {
 .chapter-item.hidden {
     display: none !important;
 }
+
+/* ============================================
+   STRÁNKA PODPORA
+   ============================================ */
+.support-section { padding: var(--space-8) var(--space-6) var(--space-20); }
+.support-card {
+    max-width: var(--content-max);
+    margin: 0 auto var(--space-4);
+    background: rgba(255, 253, 247, 0.85);
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+    box-shadow: 0 4px 24px var(--shadow);
+}
+.support-heading {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    color: var(--gold);
+    margin: var(--space-6) 0 var(--space-2);
+}
+.support-card > .support-heading:first-child { margin-top: 0; }
+.support-list { margin: var(--space-3) 0 0; padding-left: var(--space-6); }
+.support-list li { margin-bottom: var(--space-2); }
+
+.support-payment {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-8);
+    align-items: flex-start;
+    margin-top: var(--space-6);
+}
+.support-qr { text-align: center; flex: 0 0 auto; }
+.support-qr img {
+    display: block;
+    background: #fff;
+    padding: var(--space-3);
+    border-radius: var(--radius-lg, 14px);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+}
+.support-qr-label {
+    display: block;
+    margin-top: var(--space-2);
+    font-size: var(--text-xs);
+    color: var(--text-secondary, #6b6b6b);
+}
+.support-details { flex: 1 1 260px; display: flex; flex-direction: column; gap: var(--space-4); }
+.support-detail { display: flex; flex-direction: column; gap: var(--space-1); }
+.support-detail-label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary, #6b6b6b);
+}
+.support-detail-value {
+    font-family: var(--font-display);
+    font-size: var(--text-lg);
+    color: var(--text-primary);
+    word-break: break-word;
+}
+
+/* ============================================
+   ZDIEĽANIE A KOPÍROVANIE
+   ============================================ */
+.share-btn, .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-6);
+    background: rgba(212, 175, 55, 0.08);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 999px;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    cursor: pointer;
+    transition: background 0.25s ease, border-color 0.25s ease;
+}
+.copy-btn {
+    align-self: flex-start;
+    padding: var(--space-1) var(--space-4);
+    font-size: var(--text-xs);
+}
+.share-btn:hover, .share-btn:focus-visible,
+.copy-btn:hover, .copy-btn:focus-visible {
+    background: rgba(212, 175, 55, 0.16);
+    border-color: var(--gold);
+}
+.share-btn-icon { color: var(--gold); font-size: 1.1em; line-height: 1; }
+.share-btn { margin-top: var(--space-5); }
+
+.chapter-share {
+    max-width: var(--content-max);
+    margin: var(--space-10) auto var(--space-6);
+    text-align: center;
+}
+.chapter-share .share-btn { margin-top: 0; }
+.support-hint {
+    margin-top: var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--text-secondary, #6b6b6b);
+}
+.support-hint a { color: var(--gold); }
+
+@media (max-width: 600px) {
+    .support-card { padding: var(--space-6) var(--space-4); }
+    .support-payment { gap: var(--space-6); justify-content: center; }
+}

@@ -371,6 +371,19 @@
             const audioTitle = document.querySelector('.chapter-audio-title');
 
             if (numEl) numEl.textContent = chapterId + '. Kapitola';
+            // zdieľanie konkrétnej kapitoly
+            const shareBtn = document.querySelector('.chapter-share .share-btn');
+            if (shareBtn) {
+                shareBtn.setAttribute('data-share-title', 'Deň Záchrany — ' + chapter.title);
+                shareBtn.setAttribute('data-share-text', chapter.title);
+                shareBtn.setAttribute('data-share-url', window.location.href);
+            }
+            // tichá veta o podpore — nie v kapitolách, ktoré človek číta v akútnej kríze
+            const bezPodpory = ['1', '4', '9'];
+            const hint = document.querySelector('.chapter-share .support-hint');
+            if (hint && bezPodpory.indexOf(String(chapterId)) === -1) {
+                hint.hidden = false;
+            }
             if (chapter.starterLabel) {
                 var labelEl = document.createElement('div');
                 labelEl.className = 'starter-label';
@@ -448,6 +461,13 @@
         const subEl = document.querySelector('.song-subheading');
         if (headingEl) headingEl.textContent = (song.number ? song.number + '. ' : '') + song.title;
         if (subEl) subEl.textContent = song.subtitle || '';
+        const songShare = document.querySelector('.chapter-share .share-btn');
+        if (songShare) {
+            songShare.setAttribute('data-share-title', 'Deň Záchrany — ' + song.title);
+            songShare.setAttribute('data-share-text', song.title);
+            songShare.setAttribute('data-share-url', window.location.href);
+        }
+
 
         // Text piesne
         const lyricsEl = document.querySelector('.song-lyrics');
@@ -711,6 +731,48 @@
             new AudioPlayer(audioEl);
         });
     }
+
+    // ============================================
+    // ZDIEĽANIE — natívne cez systém, bez sledovacích
+    // skriptov sociálnych sietí. Na počítači, kde to
+    // prehliadač nepodporuje, sa odkaz skopíruje.
+    // ============================================
+    function flashLabel(el, text) {
+        const label = el.querySelector('.share-btn-label') || el;
+        const original = label.textContent;
+        label.textContent = text;
+        setTimeout(function() { label.textContent = original; }, 2000);
+    }
+
+    document.querySelectorAll('.share-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const url = btn.getAttribute('data-share-url') || window.location.href;
+            const title = btn.getAttribute('data-share-title') || document.title;
+            const text = btn.getAttribute('data-share-text') || title;
+
+            if (navigator.share) {
+                navigator.share({ title: title, text: text, url: url })
+                    .catch(function() { /* používateľ zdieľanie zrušil — nič nerobíme */ });
+            } else if (navigator.clipboard) {
+                navigator.clipboard.writeText(url)
+                    .then(function() { flashLabel(btn, 'Odkaz skopírovaný'); })
+                    .catch(function() { flashLabel(btn, 'Nepodarilo sa skopírovať'); });
+            } else {
+                flashLabel(btn, url);
+            }
+        });
+    });
+
+    document.querySelectorAll('.copy-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            const value = btn.getAttribute('data-copy') || '';
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(value)
+                    .then(function() { flashLabel(btn, 'Skopírované'); })
+                    .catch(function() { flashLabel(btn, 'Nepodarilo sa'); });
+            }
+        });
+    });
 
     // ============================================
     // PWA - Service Worker Registration

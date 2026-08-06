@@ -68,6 +68,21 @@ must(/\.chapter-item\.hidden[^{]*\{[^}]*display:\s*none\s*!important/.test(css),
   'pravidlo .chapter-item.hidden má display:none !important (inak ho prebijú pravidlá rozloženia)');
 must(app.includes("classList.toggle('hidden'"), 'app.js označuje nezhodné karty triedou hidden');
 
+// ---------- 4c) Stránka Podpora ----------
+console.log('\n[4c] Stránka Podpora');
+const podpora = read('podpora.html');
+must(podpora.includes('SK72 1100 0000 0029 4300 6853'), 'podpora.html obsahuje IBAN');
+must(podpora.includes('assets/qr-podpora.svg'), 'podpora.html odkazuje na QR kód');
+must(fs.existsSync(P('assets/qr-podpora.svg')), 'súbor QR kódu existuje');
+must(podpora.includes('2. Korintským 9, 7'), 'podpora.html obsahuje verš 2. Korintským 9, 7');
+must(app.includes("querySelectorAll('.share-btn')"), 'app.js obsluhuje zdieľanie');
+must(app.includes('navigator.share'), 'zdieľanie používa natívne rozhranie systému');
+must(!podpora.includes('facebook.com') && !podpora.includes('twitter.com') && !podpora.includes('platform.x.com'),
+  'podpora.html neobsahuje sledovacie skripty sociálnych sietí');
+['index.html', 'kapitoly.html', 'piesne.html', 'kapitola.html', 'piesen.html'].forEach(f =>
+  must(read(f).includes('podpora.html'), `${f} má odkaz na Podporu`));
+must(sw.includes("'/podpora.html'"), 'service worker kešuje podpora.html');
+
 // ---------- 5) Integrita dát KAPITOL ----------
 console.log('\n[5] Integrita dát — kapitoly');
 const s1 = {};
