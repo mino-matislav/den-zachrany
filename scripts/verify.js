@@ -82,6 +82,11 @@ must(!podpora.includes('facebook.com') && !podpora.includes('twitter.com') && !p
 ['index.html', 'kapitoly.html', 'piesne.html', 'kapitola.html', 'piesen.html'].forEach(f =>
   must(read(f).includes('podpora.html'), `${f} má odkaz na Podporu`));
 must(sw.includes("'/podpora.html'"), 'service worker kešuje podpora.html');
+// tlačidlo na stránke Podpora musí zdieľať DOMOVSKÚ stránku, nie samo seba
+const shareUrlMatch = podpora.match(/data-share-url="([^"]*)"/);
+must(shareUrlMatch && shareUrlMatch[1] === '/',
+  `tlačidlo zdieľania na Podpore vedie na domovskú stránku (nájdené: "${shareUrlMatch ? shareUrlMatch[1] : 'chýba'}")`);
+must(app.includes('new URL(raw, window.location.href)'), 'app.js prekladá relatívnu cestu na plnú adresu');
 
 // ---------- 5) Integrita dát KAPITOL ----------
 console.log('\n[5] Integrita dát — kapitoly');

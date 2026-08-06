@@ -746,7 +746,9 @@
 
     document.querySelectorAll('.share-btn').forEach(function(btn) {
         btn.addEventListener('click', function() {
-            const url = btn.getAttribute('data-share-url') || window.location.href;
+            const raw = btn.getAttribute('data-share-url');
+            // relatívnu cestu preložíme na plnú adresu; prázdna hodnota = aktuálna stránka
+            const url = raw ? new URL(raw, window.location.href).href : window.location.href;
             const title = btn.getAttribute('data-share-title') || document.title;
             const text = btn.getAttribute('data-share-text') || title;
 
