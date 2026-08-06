@@ -904,6 +904,68 @@ Amen.`,
         available: true,
         scriptureTheme: "Efezanom 4",
         isStarter: false
+    },
+    "16": {
+        id: "16",
+        title: "Keď slová zraňujú",
+        subtitle: "Ako vniesť Boží pokoj do hádky, konfliktu a napätých vzťahov",
+        shortDescription: "Ako priniesť Boží pokoj do hádky, ovládnuť svoju reakciu a nezraniť slovami ľudí, na ktorých ti záleží.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+každý z nás pozná tú chvíľu. Niekto ti povie niečo, čo ťa zasiahne. Možno je to manžel, manželka, rodič, dieťa, priateľ alebo kolega. Niekedy je to len nevinná poznámka, no spadne do otvorenej rany a ty vybuchneš. Alebo je to naozaj nespravodlivé a tvrdé slovo, ktoré ti ublíži a ty cítiš, ako sa v tebe dvíha vlna hnevu. Odpovieš ostro, druhý odpovie ešte ostrejšie, a za pár sekúnd je z toho hádka a obaja z nej odchádzate zranení.
+
+Poznáš to: po hádke príde ticho. Nie pokoj, ale ťažké, bolestivé ticho plné nevyslovených výčitiek. A v tom tichu sa ozve otázka: „Prečo sa mi to stále deje? Prečo nedokážem ovládnuť svoju reakciu?“
+
+Kniha Prísloví 15, 1 ti dáva kľúč, ktorý je jednoduchý a pritom neuveriteľne mocný:
+
+"Vľúdna odpoveď odvracia prchkosť, ale urážlivé slovo vzbudzuje hnev."
+
+Všimni si, že Písmo nehovorí „buď ticho a prehltni hnev“. Ani nehovorí „nemaj žiadne pocity“. Hovorí niečo praktickejšie: to, ako odpovieš, mení smer celého rozhovoru. Urážlivé slovo prileje olej do ohňa. Vľúdna odpoveď oheň uhasí. Ty máš v ruke výhybku. Nie vždy môžeš ovplyvniť, čo ti niekto povie, ale vždy si volíš, čo povieš ty.
+
+Apoštol Pavel v liste Efezským 4, 26 hovorí niečo, čo ťa možno prekvapí:
+
+"Hnevajte sa, ale nehrešte; nech slnko nezapadá nad vaším hnevom."
+
+Hnev sám o sebe nie je hriech. Biblia to tu hovorí úplne otvorene. Aj Pán Ježiš sa hneval, keď videl nespravodlivosť. Problém nastáva vtedy, keď hnev ovládne tvoje správanie a keď ho necháš kvasiť cez noc do ďalšieho dňa. Pavel ti nedáva príkaz „nehnevaj sa“ – dáva ti hranicu: nedovoľ, aby tvoj hnev prerástol do hriechu, a nevnášaj ho do nového dňa.
+
+Ako to prakticky vyzerá? Keď cítiš, ako sa v tebe dvíha hnev, zastav sa. Nie preto, že tvoj pocit nie je oprávnený – možno je. Ale preto, že v tom momente si najzraniteľnejší a tvoje slová majú najväčšiu moc zraniť. Daj si čas. Nadýchni sa. Pripomeň si, kto si v Kristovi: nie si človek ovládaný svojimi emóciami, si Božie dieťa, v ktorom prebýva Duch pokoja.
+
+A potom si pripomeň, čo o tebe a o tom druhom človeku hovorí Pavel v liste Kolosenským 3, 12 – 13:
+
+"Ako vyvolení Boží, svätí a milovaní, oblečte teda srdečné milosrdenstvo, dobrotivosť, pokoru, krotkosť, trpezlivosť. Znášajte sa vospolok a odpúšťajte si, ak by niekto mal sťažnosť proti niekomu; ako aj Pán odpustil vám, tak aj vy."
+
+Všimni si, ako Pavel začína: nie príkazom, ale pripomienkou identity. Najprv ti povie, kto si – vyvolený, svätý, milovaný. A až z tej pozície ťa vyzýva, aby si sa obliekol do milosrdenstva a trpezlivosti. Nie je to o tom, že sa musíš premáhať a zahryzávať si do jazyka zo svojej ľudskej sily. Je to o tom, že keď vieš, kým si v Kristovi, tvoja reakcia sa mení zvnútra.
+
+Neznamená to, že máš všetko prehltnúť a predstierať, že je všetko v poriadku. Zdravý vzťah potrebuje pravdivú a otvorenú komunikáciu. Ale je obrovský rozdiel medzi tým, keď povieš: „Toto ma zranilo a potrebujem, aby si to vedel“ – alebo keď zakričíš: „Ty si vždy taký! Nikdy sa nezmeníš!“ Prvé buduje. Druhé rúca.
+
+Tvoj hnev nie je tvoj nepriateľ. Tvoj nepriateľ je ten, kto chce, aby si svoj hnev použil ako zbraň proti ľuďom, ktorých miluješ. Nedovoľ mu to. V Kristovi máš milosť odpovedať inak.`,
+        verses: [
+            { text: "Vľúdna odpoveď odvracia prchkosť, ale urážlivé slovo vzbudzuje hnev.", ref: "Príslovia 15, 1" },
+            { text: "Hnevajte sa, ale nehrešte; nech slnko nezapadá nad vaším hnevom.", ref: "Efezským 4, 26" },
+            { text: "Ako vyvolení Boží, svätí a milovaní, oblečte teda srdečné milosrdenstvo, dobrotivosť, pokoru, krotkosť, trpezlivosť. Znášajte sa vospolok a odpúšťajte si, ak by niekto mal sťažnosť proti niekomu; ako aj Pán odpustil vám, tak aj vy.", ref: "Kolosenským 3, 12 – 13" }
+        ],
+        prayer: `Drahý nebeský Otče,
+
+prichádzam k Tebe v mocnom mene Ježiša Krista s otvoreným srdcom. Ďakujem Ti, že som Tvoje vyvolené, sväté a milované dieťa. Prinášam Ti všetky vzťahy, v ktorých prežívam napätie, bolesť alebo hnev.
+
+Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri a že v Ňom mám všetko potrebné na to, aby som odpovedal milosrdenstvom namiesto hnevu a pokojom namiesto výčitiek. Rozhodujem sa dnes nepodľahnúť pokušeniu použiť svoj jazyk ako zbraň proti ľuďom okolo seba.
+
+Podľa Tvojho Slova z Knihy Prísloví 15, 1 si volím vľúdnu odpoveď namiesto urážlivého slova. Nedovolím, aby slnko zapadalo nad mojím hnevom. Obliekam sa do srdečného milosrdenstva, dobrotivosti, pokory, krotkosti a trpezlivosti – nie zo svojej ľudskej sily, ale z toho, kým si ma Ty urobil v Kristovi.
+
+Tam, kde som slovami zranil, daj mi odvahu priznať to. Tam, kde mňa slovami zranili, daj mi milosť odpustiť – tak, ako si Ty odpustil mne. Ďakujem Ti, že moja hodnota nestojí na tom, čo o mne hovoria ľudia, ale na tom, čo o mne hovorí Tvoje Slovo.
+
+Vyhlasujem Tvoj pokoj nad svojimi vzťahmi a nad svojím jazykom.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "pokoj-vo-vztahoch",
+        tags: ["hnev", "bolesť", "pokoj", "obnova", "nádej"],
+        available: true,
+        scriptureTheme: "Príslovia 15, Efezským 4, Kolosenským 3",
+        isStarter: false
     }
 };
 
