@@ -2679,3 +2679,29 @@ body:has(.listen-cta) .chapters-section {
         margin: var(--space-4) 0 0;     /* odstup ako pri texte vyššie */
     }
 }
+
+/* ============================================
+   PIESEŇ — vlastné rozloženie audio bloku
+   PC:    tlačidlo vľavo, nadpis vpravo (hore),
+          pod modrým poľom "Počúvaj a čítaj súčasne"
+   Mobil: nadpis, modré pole, tlačidlo, text nižšie
+   ============================================ */
+.song-audio-block > .download-btn        { order: 1; margin: 0 0 var(--space-4) 0; }
+.song-audio-block > .chapter-audio-header{ order: 2; margin-left: auto; text-align: right; }
+.song-audio-block > .player              { order: 3; flex: 1 1 100%; }
+.song-audio-block > .song-audio-note     { order: 4; flex: 1 1 100%; margin: 0 0 var(--space-2); }
+.song-audio-block > .scroll-hint         { order: 5; flex: 1 1 100%; }
+
+@media (max-width: 700px) {
+    .song-audio-block > .chapter-audio-header {
+        order: 1; flex: 1 1 100%; margin-left: 0; text-align: left;
+    }
+    .song-audio-block > .song-audio-note { order: 2; margin: 0 0 var(--space-4); }
+    .song-audio-block > .player          { order: 3; }
+    .song-audio-block > .download-btn {
+        order: 4; flex: 1 1 100%;
+        justify-content: center;
+        margin: var(--space-2) 0 0;   /* tesne pod modrým poľom */
+    }
+    .song-audio-block > .scroll-hint     { order: 5; margin-top: var(--space-4); }
+}
