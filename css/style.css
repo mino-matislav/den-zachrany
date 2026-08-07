@@ -2622,7 +2622,7 @@ body:has(.listen-cta) .chapters-section {
     display: inline-flex;
     align-items: center;
     gap: var(--space-2);
-    margin-left: var(--space-3);
+    margin: var(--space-4) auto 0;
     padding: var(--space-3) var(--space-6);
     background: rgba(212, 175, 55, 0.08);
     border: 1px solid rgba(212, 175, 55, 0.35);
@@ -2649,7 +2649,13 @@ body:has(.listen-cta) .chapters-section {
 }
 .download-all:hover { color: var(--gold); }
 
+/* tlačidlo pod prehrávačom — vycentrované a jemnejšie */
+.chapter-audio .download-btn {
+    display: flex;
+    width: fit-content;
+    padding: var(--space-2) var(--space-5);
+    font-size: 0.9rem;
+}
 @media (max-width: 600px) {
-    .download-btn { margin-left: 0; margin-top: var(--space-3); }
-    .chapter-share .share-btn, .download-btn { display: flex; justify-content: center; }
+    .chapter-audio .download-btn { width: 100%; justify-content: center; }
 }

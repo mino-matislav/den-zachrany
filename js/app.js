@@ -372,7 +372,7 @@
 
             if (numEl) numEl.textContent = chapterId + '. Kapitola';
             // stiahnutie audia modlitby (súbor z repozitára, mimo Vercelu)
-            const dlBtn = document.querySelector('.chapter-share .download-btn');
+            const dlBtn = document.querySelector('.chapter-audio .download-btn');
             if (dlBtn && chapter.audioUrl) {
                 const cesta = chapter.audioUrl.split('?')[0];
                 dlBtn.href = 'https://raw.githubusercontent.com/mino-matislav/den-zachrany/main/' + cesta;
@@ -469,7 +469,7 @@
         const subEl = document.querySelector('.song-subheading');
         if (headingEl) headingEl.textContent = (song.number ? song.number + '. ' : '') + song.title;
         if (subEl) subEl.textContent = song.subtitle || '';
-        const songDl = document.querySelector('.chapter-share .download-btn');
+        const songDl = document.querySelector('.chapter-audio .download-btn');
         if (songDl && song.audioUrl) {
             songDl.href = 'https://raw.githubusercontent.com/mino-matislav/den-zachrany/main/' + song.audioUrl.split('?')[0];
             songDl.setAttribute('download', 'Den Zachrany - ' + song.number + '. ' + song.title + '.mp3');
