@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Duplicitný obsah — texty piesní sú aj na piesen.html
+Disallow: /pocuvaj.html
+
+Sitemap: https://den-zachrany.vercel.app/sitemap.xml

@@ -88,12 +88,37 @@ must(shareUrlMatch && shareUrlMatch[1] === '/',
   `tlačidlo zdieľania na Podpore vedie na domovskú stránku (nájdené: "${shareUrlMatch ? shareUrlMatch[1] : 'chýba'}")`);
 must(app.includes('new URL(raw, window.location.href)'), 'app.js prekladá relatívnu cestu na plnú adresu');
 
+// ---------- 4d) SEO súbory a značky ----------
+console.log('\n[4d] SEO');
+must(fs.existsSync(P('robots.txt')), 'robots.txt existuje');
+must(fs.existsSync(P('sitemap.xml')), 'sitemap.xml existuje');
+must(fs.existsSync(P('assets/og-image.png')), 'og-image.png existuje (PNG, nie SVG)');
+const robotsTxt = read('robots.txt');
+const sitemapXml = read('sitemap.xml');
+must(robotsTxt.includes('Sitemap:'), 'robots.txt odkazuje na sitemap');
+must(robotsTxt.includes('Disallow: /pocuvaj.html'), 'robots.txt vylučuje duplicitnú pocuvaj.html');
+must(!sitemapXml.includes('pocuvaj.html'), 'sitemap neobsahuje neindexovanú pocuvaj.html');
+must(!sitemapXml.includes('den-zachrany.sk'), 'sitemap neodkazuje na neexistujúcu doménu den-zachrany.sk');
+// každá stránka má buď canonical, alebo noindex — a nikde neexistujúca doména
+['index.html', 'kapitoly.html', 'kapitola.html', 'piesne.html', 'piesen.html', 'podpora.html'].forEach(f => {
+  const h = read(f);
+  must(h.includes('rel="canonical"'), `${f} má kanonickú adresu`);
+  must(!h.includes('den-zachrany.sk'), `${f} neodkazuje na neexistujúcu doménu`);
+  must(!/og:image" content="[^"]*\.svg"/.test(h), `${f} používa PNG obrázok pre zdieľanie`);
+});
+must(read('pocuvaj.html').includes('name="robots" content="noindex'), 'pocuvaj.html je neindexovaná');
+must(fs.existsSync(P('scripts/build-seo.py')), 'build-seo.py existuje (adresa webu na jednom mieste)');
+
 // ---------- 5) Integrita dát KAPITOL ----------
 console.log('\n[5] Integrita dát — kapitoly');
 const s1 = {};
 new Function('e', read('js/data.js') + ';e.chapterData = chapterData;')(s1);
 const chapterData = s1.chapterData;
 must(chapterData && Object.keys(chapterData).length > 0, 'chapterData nie je prázdne');
+// sitemap musí obsahovať každú dostupnú kapitolu a každú pieseň
+const chAvail = Object.entries(chapterData).filter(([, c]) => c.available).map(([i]) => i);
+const chybaKap = chAvail.filter(i => !sitemapXml.includes(`kapitola.html?id=${i}<`));
+must(chybaKap.length === 0, `sitemap obsahuje všetky kapitoly${chybaKap.length ? ' (chýbajú: ' + chybaKap.join(', ') + ')' : ''}`);
 Object.entries(chapterData).forEach(([id, ch]) => {
   if (!ch.available) { ok(`kapitola ${id} — Pripravujeme (preskočená)`); return; }
   const need = ['title', 'subtitle', 'fullText', 'prayer'];
