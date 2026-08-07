@@ -50,9 +50,12 @@ def nacitaj_data():
       new Function('e', fs.readFileSync(%s,'utf8')+';e.c=chapterData')(a);
       new Function('e', fs.readFileSync(%s,'utf8')+';e.s=songData;e.l=songList')(b);
       const kapitoly=Object.entries(a.c).filter(([i,c])=>c.available)
-          .map(([i,c])=>({id:i, title:c.title, desc:c.shortDescription||c.subtitle||''}));
-      const piesne=b.l.map(x=>({id:String(x.id), title:(b.s[String(x.id)]||{}).title||'',
-          desc:(b.s[String(x.id)]||{}).subtitle||''}));
+          .map(([i,c])=>({id:i, title:c.title, subtitle:c.subtitle||'',
+              desc:c.shortDescription||c.subtitle||'',
+              fullText:c.fullText||'', prayer:c.prayer||''}));
+      const piesne=b.l.map(x=>{const sg=b.s[String(x.id)]||{};
+          return {id:String(x.id), title:sg.title||'', desc:sg.subtitle||'',
+              lyrics:(sg.lyrics||[]).map(sec=>sec.lines||[])};});
       console.log(JSON.stringify({kapitoly, piesne}));
     """ % (json.dumps(P('js/data.js')), json.dumps(P('js/data-songs.js')))
     out = subprocess.run(['node', '-e', js], capture_output=True, text=True, check=True)
@@ -170,14 +173,133 @@ def doplň(subor, data):
     return subor
 
 
+# ------------------------------------------------------------
+#  Predgenerovanie obsahu do HTML
+#  Roboty a AI nespúšťajú skripty — bez tohto vidia len
+#  "Načítavajú sa kapitoly...". Skripty ten istý obsah pri
+#  načítaní prepíšu, používateľ zmenu nezbadá.
+# ------------------------------------------------------------
+def esc(t):
+    return (str(t).replace('&', '&amp;').replace('<', '&lt;')
+            .replace('>', '&gt;').replace('"', '&quot;'))
+
+
+def nahrad_blok(html, zaciatok_znacky, novy_obsah):
+    """Nahradí vnútro prvého elementu, ktorý začína danou značkou."""
+    i = html.find(zaciatok_znacky)
+    if i == -1:
+        return html, False
+    otvor = html.index('>', i) + 1
+    # nájdeme zodpovedajúci uzatvárací tag
+    tag = zaciatok_znacky[1:zaciatok_znacky.index(' ')] if ' ' in zaciatok_znacky else zaciatok_znacky[1:]
+    hlbka, j = 1, otvor
+    while j < len(html) and hlbka > 0:
+        n_otv = html.find('<' + tag, j)
+        n_zat = html.find('</' + tag + '>', j)
+        if n_zat == -1:
+            return html, False
+        if n_otv != -1 and n_otv < n_zat:
+            hlbka += 1; j = n_otv + 1
+        else:
+            hlbka -= 1
+            if hlbka == 0:
+                return html[:otvor] + novy_obsah + html[n_zat:], True
+            j = n_zat + 1
+    return html, False
+
+
+def odseky(text):
+    """Text s prázdnymi riadkami -> odseky; riadky v úvodzovkách -> verš."""
+    out = []
+    for o in [x.strip() for x in text.split('\n\n') if x.strip()]:
+        if o.startswith('"') and o.endswith('"'):
+            out.append('<blockquote class="chapter-verse">' + esc(o.strip('"')) + '</blockquote>')
+        else:
+            out.append('<p>' + esc(o) + '</p>')
+    return '\n                    '.join(out)
+
+
+def predgeneruj(data):
+    sprava = []
+
+    # --- zoznam kapitol ---
+    html = open(P('kapitoly.html'), encoding='utf-8').read()
+    polozky = []
+    for k in data['kapitoly']:
+        polozky.append(
+            '<article class="chapter-item" data-id="%s" role="listitem">'
+            '<div class="chapter-number">%s. Kapitola</div>'
+            '<h3 class="chapter-title"><a href="kapitola.html?id=%s" class="card-link">%s</a></h3>'
+            '<p class="chapter-desc">%s</p></article>'
+            % (k['id'], k['id'], k['id'], esc(k['title']), esc(k['desc'])))
+    html, ok = nahrad_blok(html, '<div class="chapters-list"', '\n                    ' +
+                           '\n                    '.join(polozky) + '\n                ')
+    if ok:
+        open(P('kapitoly.html'), 'w', encoding='utf-8').write(html)
+        sprava.append('kapitoly.html   — predgenerovaných %d kapitol' % len(polozky))
+
+    # --- zoznam piesní ---
+    html = open(P('piesne.html'), encoding='utf-8').read()
+    polozky = []
+    for s in data['piesne']:
+        polozky.append(
+            '<article class="chapter-item" data-id="%s" role="listitem">'
+            '<div class="chapter-number">%s</div>'
+            '<h3 class="chapter-title"><a href="piesen.html?id=%s" class="card-link">%s</a></h3>'
+            '<p class="chapter-desc">%s</p></article>'
+            % (s['id'], s['id'], s['id'], esc(s['title']), esc(s['desc'])))
+    html, ok = nahrad_blok(html, '<div class="songs-list chapters-list"', '\n                    ' +
+                           '\n                    '.join(polozky) + '\n                ')
+    if ok:
+        open(P('piesne.html'), 'w', encoding='utf-8').write(html)
+        sprava.append('piesne.html     — predgenerovaných %d piesní' % len(polozky))
+
+    # --- ukážka prvej kapitoly ---
+    k = data['kapitoly'][0]
+    html = open(P('kapitola.html'), encoding='utf-8').read()
+    html = html.replace('<h1 class="chapter-heading">Načítava sa...</h1>',
+                        '<h1 class="chapter-heading">%s</h1>' % esc(k['title']))
+    html = html.replace('<p class="chapter-subheading"></p>',
+                        '<p class="chapter-subheading">%s</p>' % esc(k['subtitle']))
+    html = html.replace('<div class="chapter-number-label"></div>',
+                        '<div class="chapter-number-label">%s. Kapitola</div>' % k['id'])
+    html, _ = nahrad_blok(html, '<div class="chapter-text"',
+                          '\n                    ' + odseky(k['fullText']) + '\n                ')
+    html, _ = nahrad_blok(html, '<div class="chapter-prayer-text"',
+                          '\n                        ' + odseky(k['prayer']) + '\n                    ')
+    open(P('kapitola.html'), 'w', encoding='utf-8').write(html)
+    sprava.append('kapitola.html   — ukážka 1. kapitoly (text + modlitba)')
+
+    # --- ukážka prvej piesne ---
+    s0 = data['piesne'][0]
+    html = open(P('piesen.html'), encoding='utf-8').read()
+    html = html.replace('<h1 class="song-heading">Načítava sa...</h1>',
+                        '<h1 class="song-heading">%s. %s</h1>' % (s0['id'], esc(s0['title'])))
+    html = html.replace('<p class="song-subheading"></p>',
+                        '<p class="song-subheading">%s</p>' % esc(s0['desc']))
+    riadky = []
+    for sekcia in s0['lyrics']:
+        riadky.append('<div class="lyric-section"><p class="lyric-lines">' +
+                      ''.join('<span class="lyric-line">%s</span>' % esc(r)
+                              for r in sekcia if r) + '</p></div>')
+    html, _ = nahrad_blok(html, '<div class="song-lyrics"',
+                          '\n                    ' + '\n                    '.join(riadky) + '\n                ')
+    open(P('piesen.html'), 'w', encoding='utf-8').write(html)
+    sprava.append('piesen.html     — ukážka 1. piesne (text)')
+
+    return sprava
+
+
 def main():
-    print(f"BASE_URL = {BASE_URL}\n")
     data = nacitaj_data()
     print("  ✓ " + robots())
     print("  ✓ " + sitemap(data))
     for subor in PAGES:
         stav = "noindex" if not PAGES[subor][2] else "canonical + og"
         print(f"  ✓ {doplň(subor, data):16} ({stav})")
+    print()
+    for s in predgeneruj(data):
+        print("  ✓ " + s)
     print("\nHotovo. Pri zmene domény uprav BASE_URL a spusti znova.")
 
 

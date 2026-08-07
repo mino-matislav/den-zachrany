@@ -109,6 +109,19 @@ must(!sitemapXml.includes('den-zachrany.sk'), 'sitemap neodkazuje na neexistujú
 must(read('pocuvaj.html').includes('name="robots" content="noindex'), 'pocuvaj.html je neindexovaná');
 must(fs.existsSync(P('scripts/build-seo.py')), 'build-seo.py existuje (adresa webu na jednom mieste)');
 
+// obsah musí byť predgenerovaný v HTML — inak ho roboty a AI nevidia
+const kapHtml = read('kapitoly.html'), pieHtml = read('piesne.html');
+must(!kapHtml.includes('Načítavajú sa kapitoly'), 'kapitoly.html nemá zástupný text (obsah je predgenerovaný)');
+must(!pieHtml.includes('Načítavajú sa piesne'), 'piesne.html nemá zástupný text (obsah je predgenerovaný)');
+const kapKarty = (kapHtml.match(/class="chapter-item"/g) || []).length;
+const pieKarty = (pieHtml.match(/class="chapter-item"/g) || []).length;
+must(kapKarty >= 10, `kapitoly.html má predgenerované karty (${kapKarty})`);
+must(pieKarty >= 10, `piesne.html má predgenerované karty (${pieKarty})`);
+must(!read('kapitola.html').includes('<h1 class="chapter-heading">Načítava sa'),
+  'kapitola.html má predgenerovanú ukážku');
+must(!read('piesen.html').includes('<h1 class="song-heading">Načítava sa'),
+  'piesen.html má predgenerovanú ukážku');
+
 // ---------- 5) Integrita dát KAPITOL ----------
 console.log('\n[5] Integrita dát — kapitoly');
 const s1 = {};
