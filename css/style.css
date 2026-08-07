@@ -2614,3 +2614,42 @@ body:has(.listen-cta) .chapters-section {
     .support-card { padding: var(--space-6) var(--space-4); }
     .support-payment { gap: var(--space-6); justify-content: center; }
 }
+
+/* ============================================
+   SŤAHOVANIE AUDIA
+   ============================================ */
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-left: var(--space-3);
+    padding: var(--space-3) var(--space-6);
+    background: rgba(212, 175, 55, 0.08);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 999px;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.25s ease, border-color 0.25s ease;
+}
+.download-btn:hover, .download-btn:focus-visible {
+    background: rgba(212, 175, 55, 0.16);
+    border-color: var(--gold);
+}
+.download-btn-icon { color: var(--gold); line-height: 1; }
+
+.download-all-wrap { text-align: center; margin: 0 auto var(--space-6); max-width: 800px; }
+.download-all {
+    font-size: var(--text-sm);
+    color: var(--text-secondary, #6b6b6b);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(212, 175, 55, 0.5);
+}
+.download-all:hover { color: var(--gold); }
+
+@media (max-width: 600px) {
+    .download-btn { margin-left: 0; margin-top: var(--space-3); }
+    .chapter-share .share-btn, .download-btn { display: flex; justify-content: center; }
+}

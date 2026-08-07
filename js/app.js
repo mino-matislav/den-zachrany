@@ -371,6 +371,14 @@
             const audioTitle = document.querySelector('.chapter-audio-title');
 
             if (numEl) numEl.textContent = chapterId + '. Kapitola';
+            // stiahnutie audia modlitby (súbor z repozitára, mimo Vercelu)
+            const dlBtn = document.querySelector('.chapter-share .download-btn');
+            if (dlBtn && chapter.audioUrl) {
+                const cesta = chapter.audioUrl.split('?')[0];
+                dlBtn.href = 'https://raw.githubusercontent.com/mino-matislav/den-zachrany/main/' + cesta;
+                dlBtn.setAttribute('download', 'Den Zachrany - ' + chapterId + '. ' + chapter.title + '.mp3');
+                dlBtn.hidden = false;
+            }
             // zdieľanie konkrétnej kapitoly
             const shareBtn = document.querySelector('.chapter-share .share-btn');
             if (shareBtn) {
@@ -461,6 +469,12 @@
         const subEl = document.querySelector('.song-subheading');
         if (headingEl) headingEl.textContent = (song.number ? song.number + '. ' : '') + song.title;
         if (subEl) subEl.textContent = song.subtitle || '';
+        const songDl = document.querySelector('.chapter-share .download-btn');
+        if (songDl && song.audioUrl) {
+            songDl.href = 'https://raw.githubusercontent.com/mino-matislav/den-zachrany/main/' + song.audioUrl.split('?')[0];
+            songDl.setAttribute('download', 'Den Zachrany - ' + song.number + '. ' + song.title + '.mp3');
+            songDl.hidden = false;
+        }
         const songShare = document.querySelector('.chapter-share .share-btn');
         if (songShare) {
             songShare.setAttribute('data-share-title', 'Deň Záchrany — ' + song.title);
