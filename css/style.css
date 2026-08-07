@@ -2649,21 +2649,33 @@ body:has(.listen-cta) .chapters-section {
 }
 .download-all:hover { color: var(--gold); }
 
-/* tlačidlo na stiahnutie priamo v riadku prehrávača */
-.player-controls .download-btn {
+/* ============================================
+   TLAČIDLO NA STIAHNUTIE — mimo modrého poľa
+   PC:     v hlavičke vpravo od nadpisu 🎵
+   Mobil:  pod prehrávačom, s rovnakým odstupom
+   ============================================ */
+.chapter-audio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.chapter-audio > .chapter-audio-header { flex: 1 1 auto; order: 1; }
+.chapter-audio > .download-btn {
+    order: 2;
     flex: 0 0 auto;
-    margin: 0;
-    padding: var(--space-2) var(--space-4);
+    margin: 0 0 var(--space-4) auto;   /* vpravo, zarovnané s hlavičkou */
+    padding: var(--space-2) var(--space-5);
     font-size: 0.85rem;
     white-space: nowrap;
 }
-/* na mobile: riadok sa zalomí a tlačidlo ide pod ovládanie */
+.chapter-audio > .player { order: 3; flex: 1 1 100%; }
+
 @media (max-width: 700px) {
-    .player-controls { flex-wrap: wrap; }
-    .player-time { flex: 1 1 60%; }
-    .player-controls .download-btn {
-        flex: 1 0 100%;
+    .chapter-audio > .chapter-audio-header { flex: 1 1 100%; }
+    .chapter-audio > .download-btn {
+        order: 4;                       /* až za prehrávač */
+        flex: 1 1 100%;
         justify-content: center;
-        margin-top: var(--space-3);
+        margin: var(--space-4) 0 0;     /* odstup ako pri texte vyššie */
     }
 }
