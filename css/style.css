@@ -2649,13 +2649,21 @@ body:has(.listen-cta) .chapters-section {
 }
 .download-all:hover { color: var(--gold); }
 
-/* tlačidlo pod prehrávačom — vycentrované a jemnejšie */
-.chapter-audio .download-btn {
-    display: flex;
-    width: fit-content;
-    padding: var(--space-2) var(--space-5);
-    font-size: 0.9rem;
+/* tlačidlo na stiahnutie priamo v riadku prehrávača */
+.player-controls .download-btn {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: var(--space-2) var(--space-4);
+    font-size: 0.85rem;
+    white-space: nowrap;
 }
-@media (max-width: 600px) {
-    .chapter-audio .download-btn { width: 100%; justify-content: center; }
+/* na mobile: riadok sa zalomí a tlačidlo ide pod ovládanie */
+@media (max-width: 700px) {
+    .player-controls { flex-wrap: wrap; }
+    .player-time { flex: 1 1 60%; }
+    .player-controls .download-btn {
+        flex: 1 0 100%;
+        justify-content: center;
+        margin-top: var(--space-3);
+    }
 }
