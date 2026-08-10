@@ -35,8 +35,8 @@ PAGES = {
     "kapitoly.html": ("0.9", "weekly",  True),
     "piesne.html":   ("0.9", "weekly",  True),
     "podpora.html":  ("0.5", "monthly", True),
-    "kapitola.html": ("0.8", "monthly", True),
-    "piesen.html":   ("0.7", "monthly", True),
+    "kapitola.html": (None,  None,      False),
+    "piesen.html":   (None,  None,      False),
     # pocuvaj.html zámerne neindexujeme — duplikuje texty z piesen.html
     "pocuvaj.html":  (None,  None,      False),
 }
@@ -102,9 +102,9 @@ def sitemap(data):
         prio, freq, idx = PAGES[f]
         url(f'{BASE_URL}/{f}', prio, freq)
     for k in data['kapitoly']:
-        url(f'{BASE_URL}/kapitola.html?id={k["id"]}', '0.8', 'monthly')
+        url(f'{BASE_URL}/kapitola-{k["id"]}.html', '0.8', 'monthly')
     for s in data['piesne']:
-        url(f'{BASE_URL}/piesen.html?id={s["id"]}', '0.7', 'monthly')
+        url(f'{BASE_URL}/piesen-{s["id"]}.html', '0.7', 'monthly')
 
     riadky.append('</urlset>')
     with open(P('sitemap.xml'), 'w', encoding='utf-8') as f:
@@ -290,6 +290,86 @@ def predgeneruj(data):
     return sprava
 
 
+# ------------------------------------------------------------
+#  Samostatné stránky pre každú kapitolu a pieseň
+#  Bez nich Google vidí 32 adries s rovnakým obsahom
+#  (kapitola.html?id=1 aj ?id=12 servírujú to isté)
+#  a považuje ich za duplicitné.
+# ------------------------------------------------------------
+def statické_stránky(data):
+    sprava = []
+
+    def uprav_hlavicku(html, title, desc, loc, telo_atr):
+        html = vycisti_hlavicku(html)
+        html = re.sub(r'<title>.*?</title>', '<title>' + esc(title) + '</title>', html, count=1, flags=re.S)
+        html = re.sub(r'<meta name="description" content=".*?"',
+                      '<meta name="description" content="' + esc(desc) + '"', html, count=1, flags=re.S)
+        bloky = [
+            f'    <link rel="canonical" href="{loc}">',
+            f'    <meta property="og:type" content="article">',
+            f'    <meta property="og:site_name" content="Deň Záchrany">',
+            f'    <meta property="og:locale" content="sk_SK">',
+            f'    <meta property="og:url" content="{loc}">',
+            f'    <meta property="og:title" content="{esc(title)}">',
+            f'    <meta property="og:description" content="{esc(desc)}">',
+            f'    <meta property="og:image" content="{BASE_URL}/{OG_IMAGE}">',
+            f'    <meta property="og:image:width" content="1200">',
+            f'    <meta property="og:image:height" content="630">',
+            f'    <meta name="twitter:card" content="summary_large_image">',
+            f'    <meta name="twitter:title" content="{esc(title)}">',
+            f'    <meta name="twitter:description" content="{esc(desc)}">',
+            f'    <meta name="twitter:image" content="{BASE_URL}/{OG_IMAGE}">',
+        ]
+        html = re.sub(r'(</title>)', r'\1\n' + '\n'.join(bloky), html, count=1)
+        html = re.sub(r'<body[^>]*>', '<body ' + telo_atr + '>', html, count=1)
+        return re.sub(r'\n{3,}', '\n\n', html)
+
+    # --- kapitoly ---
+    sablona = open(P('kapitola.html'), encoding='utf-8').read()
+    for k in data['kapitoly']:
+        h = sablona
+        h, _ = nahrad_blok(h, '<h1 class="chapter-heading"', esc(k['title']))
+        h, _ = nahrad_blok(h, '<p class="chapter-subheading"', esc(k['subtitle']))
+        h, _ = nahrad_blok(h, '<div class="chapter-number-label"', '%s. Kapitola' % k['id'])
+        h, _ = nahrad_blok(h, '<div class="chapter-text"',
+                           '\n                    ' + odseky(k['fullText']) + '\n                ')
+        h, _ = nahrad_blok(h, '<div class="chapter-prayer-text"',
+                           '\n                        ' + odseky(k['prayer']) + '\n                    ')
+        h = uprav_hlavicku(h, '%s — Deň Záchrany' % k['title'], k['desc'],
+                           '%s/kapitola-%s.html' % (BASE_URL, k['id']),
+                           'data-chapter-id="%s"' % k['id'])
+        open(P('kapitola-%s.html' % k['id']), 'w', encoding='utf-8').write(h)
+    sprava.append('kapitola-1..%s.html — %d samostatných stránok' % (data['kapitoly'][-1]['id'], len(data['kapitoly'])))
+
+    # --- piesne ---
+    sablona = open(P('piesen.html'), encoding='utf-8').read()
+    for sg in data['piesne']:
+        h = sablona
+        h, _ = nahrad_blok(h, '<h1 class="song-heading"', '%s. %s' % (sg['id'], esc(sg['title'])))
+        h, _ = nahrad_blok(h, '<p class="song-subheading"', esc(sg['desc']))
+        riadky = []
+        for sekcia in sg['lyrics']:
+            riadky.append('<div class="lyric-section"><p class="lyric-lines">' +
+                          ''.join('<span class="lyric-line">%s</span>' % esc(r) for r in sekcia if r) +
+                          '</p></div>')
+        h, _ = nahrad_blok(h, '<div class="song-lyrics"',
+                           '\n                    ' + '\n                    '.join(riadky) + '\n                ')
+        h = uprav_hlavicku(h, '%s — pieseň — Deň Záchrany' % sg['title'], sg['desc'],
+                           '%s/piesen-%s.html' % (BASE_URL, sg['id']),
+                           'data-song-id="%s"' % sg['id'])
+        open(P('piesen-%s.html' % sg['id']), 'w', encoding='utf-8').write(h)
+    sprava.append('piesen-1..%s.html   — %d samostatných stránok' % (data['piesne'][-1]['id'], len(data['piesne'])))
+
+    # pôvodné spoločné stránky ostávajú funkčné, ale neindexujeme ich
+    for f in ('kapitola.html', 'piesen.html'):
+        h = open(P(f), encoding='utf-8').read()
+        h = vycisti_hlavicku(h)
+        h = re.sub(r'(</title>)', r'\1\n    <meta name="robots" content="noindex, follow">', h, count=1)
+        open(P(f), 'w', encoding='utf-8').write(re.sub(r'\n{3,}', '\n\n', h))
+    sprava.append('kapitola.html a piesen.html — ponechané funkčné, označené noindex')
+    return sprava
+
+
 def main():
     data = nacitaj_data()
     print("  ✓ " + robots())
@@ -299,6 +379,9 @@ def main():
         print(f"  ✓ {doplň(subor, data):16} ({stav})")
     print()
     for s in predgeneruj(data):
+        print("  ✓ " + s)
+    print()
+    for s in statické_stránky(data):
         print("  ✓ " + s)
     print("\nHotovo. Pri zmene domény uprav BASE_URL a spusti znova.")
 

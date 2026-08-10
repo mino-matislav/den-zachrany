@@ -114,7 +114,7 @@
                 if (coming) {
                     listHtml += '<h3 class="chapter-title">' + ch.title + '</h3>';
                 } else {
-                    listHtml += '<h3 class="chapter-title"><a href="kapitola.html?id=' + id + '" class="card-link" aria-label="Otvoriť kapitolu ' + num + ': ' + ch.title + '">' + ch.title + '</a></h3>';
+                    listHtml += '<h3 class="chapter-title"><a href="kapitola-' + id + '.html" class="card-link" aria-label="Otvoriť kapitolu ' + num + ': ' + ch.title + '">' + ch.title + '</a></h3>';
                 }
                 listHtml += '<p class="chapter-desc">' + ch.subtitle + '</p>';
                 if (ch.tags && ch.tags.length) {
@@ -352,7 +352,8 @@
 
     if (chapterPage && typeof chapterData !== 'undefined') {
         const urlParams = new URLSearchParams(window.location.search);
-        const chapterId = urlParams.get('id');
+        // id z adresy (?id=5) alebo zo statickej stránky (data-chapter-id)
+        const chapterId = urlParams.get('id') || document.body.getAttribute('data-chapter-id');
 
         if (chapterId && chapterData[chapterId]) {
             const chapter = chapterData[chapterId];
@@ -550,7 +551,7 @@
             html += '<a class="song-play-btn" href="pocuvaj.html?id=' + s.id + '" aria-label="Počúvať a čítať pieseň ' + s.title + '">';
             html += '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
             html += '</a>';
-            html += '<h3 class="chapter-title"><a href="piesen.html?id=' + s.id + '" class="card-link" aria-label="Otvoriť pieseň ' + s.number + ': ' + s.title + '">' + s.title + '</a></h3>';
+            html += '<h3 class="chapter-title"><a href="piesen-' + s.id + '.html" class="card-link" aria-label="Otvoriť pieseň ' + s.number + ': ' + s.title + '">' + s.title + '</a></h3>';
             if (s.subtitle) {
                 html += '<p class="chapter-desc">' + s.subtitle + '</p>';
             }
@@ -619,7 +620,7 @@
 
             renderSongContent(song);
             if (nowEl) nowEl.textContent = 'Práve hrá: ' + song.number + '. ' + song.title;
-            if (songLink) songLink.href = 'piesen.html?id=' + id;
+            if (songLink) songLink.href = 'piesen-' + id + '.html';
             document.title = song.title + ' — Počúvaj a čítaj';
 
             // adresa v prehliadači nech zodpovedá piesni (dá sa zdieľať aj obnoviť)
@@ -710,7 +711,8 @@
 
     if (songPage && typeof songData !== 'undefined') {
         const urlParams = new URLSearchParams(window.location.search);
-        const songId = urlParams.get('id');
+        // id z adresy (?id=5) alebo zo statickej stránky (data-song-id)
+        const songId = urlParams.get('id') || document.body.getAttribute('data-song-id');
 
         if (songId && songData[songId]) {
             const song = songData[songId];

@@ -90,6 +90,12 @@ must(app.includes('new URL(raw, window.location.href)'), 'app.js prekladá relat
 
 // ---------- 4d) SEO súbory a značky ----------
 console.log('\n[4d] SEO');
+let _ch = null;
+function chAvailIds() {
+  if (!_ch) { const t = {}; new Function('e', read('js/data.js') + ';e.c=chapterData')(t);
+    _ch = Object.entries(t.c).filter(([, c]) => c.available).map(([i]) => i); }
+  return _ch;
+}
 must(fs.existsSync(P('robots.txt')), 'robots.txt existuje');
 must(fs.existsSync(P('sitemap.xml')), 'sitemap.xml existuje');
 must(fs.existsSync(P('assets/og-image.png')), 'og-image.png existuje (PNG, nie SVG)');
@@ -100,7 +106,7 @@ must(robotsTxt.includes('Disallow: /pocuvaj.html'), 'robots.txt vylučuje duplic
 must(!sitemapXml.includes('pocuvaj.html'), 'sitemap neobsahuje neindexovanú pocuvaj.html');
 must(!sitemapXml.includes('den-zachrany.sk'), 'sitemap neodkazuje na neexistujúcu doménu den-zachrany.sk');
 // každá stránka má buď canonical, alebo noindex — a nikde neexistujúca doména
-['index.html', 'kapitoly.html', 'kapitola.html', 'piesne.html', 'piesen.html', 'podpora.html'].forEach(f => {
+['index.html', 'kapitoly.html', 'piesne.html', 'podpora.html', 'kapitola-1.html', 'piesen-1.html'].forEach(f => {
   const h = read(f);
   must(h.includes('rel="canonical"'), `${f} má kanonickú adresu`);
   must(!h.includes('den-zachrany.sk'), `${f} neodkazuje na neexistujúcu doménu`);
@@ -108,6 +114,20 @@ must(!sitemapXml.includes('den-zachrany.sk'), 'sitemap neodkazuje na neexistujú
 });
 must(read('pocuvaj.html').includes('name="robots" content="noindex'), 'pocuvaj.html je neindexovaná');
 must(fs.existsSync(P('scripts/build-seo.py')), 'build-seo.py existuje (adresa webu na jednom mieste)');
+
+// samostatné stránky pre kapitoly a piesne (inak Google vidí duplicitný obsah)
+const kapSub = chAvailIds().filter(i => fs.existsSync(P(`kapitola-${i}.html`)));
+must(kapSub.length === chAvailIds().length, `každá kapitola má samostatnú stránku (${kapSub.length}/${chAvailIds().length})`);
+// titulky musia byť rôzne
+const tituly = kapSub.map(i => (read(`kapitola-${i}.html`).match(/<title>(.*?)<\/title>/s) || [,''])[1]);
+must(new Set(tituly).size === tituly.length, 'každá kapitola má vlastný titulok (žiadne duplicity)');
+// obsah musí byť rôzny
+const nadpisy = kapSub.map(i => (read(`kapitola-${i}.html`).match(/class="chapter-heading">(.*?)</s) || [,''])[1]);
+must(new Set(nadpisy).size === nadpisy.length, 'každá kapitola má vlastný nadpis v HTML');
+must(read('kapitola.html').includes('name="robots" content="noindex'), 'kapitola.html je noindex (duplicita)');
+must(read('piesen.html').includes('name="robots" content="noindex'), 'piesen.html je noindex (duplicita)');
+must(sitemapXml.includes('kapitola-1.html') && !sitemapXml.includes('kapitola.html?id='),
+  'sitemap odkazuje na samostatné stránky, nie na ?id=');
 
 // obsah musí byť predgenerovaný v HTML — inak ho roboty a AI nevidia
 const kapHtml = read('kapitoly.html'), pieHtml = read('piesne.html');
@@ -130,7 +150,7 @@ const chapterData = s1.chapterData;
 must(chapterData && Object.keys(chapterData).length > 0, 'chapterData nie je prázdne');
 // sitemap musí obsahovať každú dostupnú kapitolu a každú pieseň
 const chAvail = Object.entries(chapterData).filter(([, c]) => c.available).map(([i]) => i);
-const chybaKap = chAvail.filter(i => !sitemapXml.includes(`kapitola.html?id=${i}<`));
+const chybaKap = chAvail.filter(i => !sitemapXml.includes(`kapitola-${i}.html<`));
 must(chybaKap.length === 0, `sitemap obsahuje všetky kapitoly${chybaKap.length ? ' (chýbajú: ' + chybaKap.join(', ') + ')' : ''}`);
 Object.entries(chapterData).forEach(([id, ch]) => {
   if (!ch.available) { ok(`kapitola ${id} — Pripravujeme (preskočená)`); return; }
