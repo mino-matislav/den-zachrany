@@ -116,6 +116,8 @@ must(read('pocuvaj.html').includes('name="robots" content="noindex'), 'pocuvaj.h
 must(fs.existsSync(P('scripts/build-seo.py')), 'build-seo.py existuje (adresa webu na jednom mieste)');
 must(read('index.html').includes('name="google-site-verification"'),
   'index.html má overovaciu značku pre Google Search Console');
+must(fs.existsSync(P('google27ea05d4c9159c44.html')),
+  'overovací súbor pre Google Search Console existuje');
 
 // samostatné stránky pre kapitoly a piesne (inak Google vidí duplicitný obsah)
 const kapSub = chAvailIds().filter(i => fs.existsSync(P(`kapitola-${i}.html`)));
