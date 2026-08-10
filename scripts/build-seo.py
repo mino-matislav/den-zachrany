@@ -27,6 +27,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
 
 OG_IMAGE = "assets/og-image.png"
+# overenie vlastníctva pre Google Search Console (meta značka namiesto DNS záznamu)
+GOOGLE_VERIFY = "3N05ANbUrWnYXB3a4BwzYJgYbqMNdWKyaaT7xJJVpEw"
 TODAY = date.today().isoformat()
 
 # stránky: súbor -> (priorita, frekvencia, indexovať?)
@@ -116,7 +118,7 @@ def sitemap(data):
 #  SEO značky v <head>
 # ------------------------------------------------------------
 ZNACKY = ('<link rel="canonical"', '<meta property="og:', '<meta name="twitter:',
-          '<meta name="robots"')
+          '<meta name="robots"', '<meta name="google-site-verification"')
 
 
 def vycisti_hlavicku(html):
@@ -140,7 +142,7 @@ def doplň(subor, data):
     m = re.search(r'<meta name="description" content="(.*?)"', html, re.S)
     desc = m.group(1).strip() if m else 'Biblická pomoc pre ťažké chvíle.'
 
-    bloky = []
+    bloky = [f'    <meta name="google-site-verification" content="{GOOGLE_VERIFY}">']
     if indexovat:
         bloky.append(f'    <link rel="canonical" href="{loc}">')
     else:
@@ -305,6 +307,7 @@ def statické_stránky(data):
         html = re.sub(r'<meta name="description" content=".*?"',
                       '<meta name="description" content="' + esc(desc) + '"', html, count=1, flags=re.S)
         bloky = [
+            f'    <meta name="google-site-verification" content="{GOOGLE_VERIFY}">',
             f'    <link rel="canonical" href="{loc}">',
             f'    <meta property="og:type" content="article">',
             f'    <meta property="og:site_name" content="Deň Záchrany">',

@@ -114,6 +114,8 @@ must(!sitemapXml.includes('den-zachrany.sk'), 'sitemap neodkazuje na neexistujú
 });
 must(read('pocuvaj.html').includes('name="robots" content="noindex'), 'pocuvaj.html je neindexovaná');
 must(fs.existsSync(P('scripts/build-seo.py')), 'build-seo.py existuje (adresa webu na jednom mieste)');
+must(read('index.html').includes('name="google-site-verification"'),
+  'index.html má overovaciu značku pre Google Search Console');
 
 // samostatné stránky pre kapitoly a piesne (inak Google vidí duplicitný obsah)
 const kapSub = chAvailIds().filter(i => fs.existsSync(P(`kapitola-${i}.html`)));
