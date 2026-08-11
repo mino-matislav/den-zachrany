@@ -118,6 +118,13 @@ must(read('index.html').includes('name="google-site-verification"'),
   'index.html má overovaciu značku pre Google Search Console');
 must(fs.existsSync(P('google27ea05d4c9159c44.html')),
   'overovací súbor pre Google Search Console existuje');
+// štruktúrované údaje musia byť platný JSON
+['index.html', 'kapitoly.html', 'piesne.html', 'kapitola-1.html', 'piesen-1.html'].forEach(f => {
+  const m = read(f).match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  let platny = false;
+  try { platny = !!(m && JSON.parse(m[1])['@type']); } catch (e) { platny = false; }
+  must(platny, `${f} má platné štruktúrované údaje`);
+});
 
 // samostatné stránky pre kapitoly a piesne (inak Google vidí duplicitný obsah)
 const kapSub = chAvailIds().filter(i => fs.existsSync(P(`kapitola-${i}.html`)));

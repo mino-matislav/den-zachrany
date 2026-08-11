@@ -298,6 +298,15 @@ def predgeneruj(data):
 #  (kapitola.html?id=1 aj ?id=12 servírujú to isté)
 #  a považuje ich za duplicitné.
 # ------------------------------------------------------------
+def json_ld(html, data_dict):
+    """Vloží štruktúrované údaje pred </head>. Staré najprv odstráni."""
+    html = re.sub(r'\s*<script type="application/ld\+json">.*?</script>', '', html, flags=re.S)
+    blok = ('    <script type="application/ld+json">\n    '
+            + json.dumps(data_dict, ensure_ascii=False, indent=2).replace('\n', '\n    ')
+            + '\n    </script>\n')
+    return html.replace('</head>', blok + '</head>', 1)
+
+
 def statické_stránky(data):
     sprava = []
 
@@ -341,6 +350,20 @@ def statické_stránky(data):
         h = uprav_hlavicku(h, '%s — Deň Záchrany' % k['title'], k['desc'],
                            '%s/kapitola-%s.html' % (BASE_URL, k['id']),
                            'data-chapter-id="%s"' % k['id'])
+        h = json_ld(h, {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": k['title'],
+            "description": k['desc'],
+            "inLanguage": "sk",
+            "url": '%s/kapitola-%s.html' % (BASE_URL, k['id']),
+            "image": '%s/%s' % (BASE_URL, OG_IMAGE),
+            "author":    {"@type": "Organization", "name": "Deň Záchrany"},
+            "publisher": {"@type": "Organization", "name": "Deň Záchrany",
+                          "logo": {"@type": "ImageObject", "url": '%s/assets/icon-512.png' % BASE_URL}},
+            "isPartOf":  {"@type": "WebSite", "name": "Deň Záchrany", "url": BASE_URL + '/'},
+            "isAccessibleForFree": True,
+        })
         open(P('kapitola-%s.html' % k['id']), 'w', encoding='utf-8').write(h)
     sprava.append('kapitola-1..%s.html — %d samostatných stránok' % (data['kapitoly'][-1]['id'], len(data['kapitoly'])))
 
@@ -360,6 +383,18 @@ def statické_stránky(data):
         h = uprav_hlavicku(h, '%s — pieseň — Deň Záchrany' % sg['title'], sg['desc'],
                            '%s/piesen-%s.html' % (BASE_URL, sg['id']),
                            'data-song-id="%s"' % sg['id'])
+        h = json_ld(h, {
+            "@context": "https://schema.org",
+            "@type": "MusicRecording",
+            "name": sg['title'],
+            "description": sg['desc'],
+            "inLanguage": "sk",
+            "url": '%s/piesen-%s.html' % (BASE_URL, sg['id']),
+            "image": '%s/%s' % (BASE_URL, OG_IMAGE),
+            "byArtist":  {"@type": "MusicGroup", "name": "Deň Záchrany"},
+            "inAlbum":   {"@type": "MusicAlbum", "name": "Deň Záchrany"},
+            "isAccessibleForFree": True,
+        })
         open(P('piesen-%s.html' % sg['id']), 'w', encoding='utf-8').write(h)
     sprava.append('piesen-1..%s.html   — %d samostatných stránok' % (data['piesne'][-1]['id'], len(data['piesne'])))
 
@@ -380,6 +415,30 @@ def main():
     for subor in PAGES:
         stav = "noindex" if not PAGES[subor][2] else "canonical + og"
         print(f"  ✓ {doplň(subor, data):16} ({stav})")
+
+    # štruktúrované údaje pre hlavné stránky
+    web = {"@type": "WebSite", "name": "Deň Záchrany", "url": BASE_URL + "/",
+           "inLanguage": "sk",
+           "description": "Biblická pomoc pre ťažké chvíle — kapitoly, modlitby a piesne.",
+           "publisher": {"@type": "Organization", "name": "Deň Záchrany",
+                         "url": BASE_URL + "/",
+                         "logo": {"@type": "ImageObject", "url": BASE_URL + "/assets/icon-512.png"}}}
+    h = open(P("index.html"), encoding="utf-8").read()
+    h = json_ld(h, {"@context": "https://schema.org", **web})
+    open(P("index.html"), "w", encoding="utf-8").write(h)
+
+    for subor, typ, popis in [
+        ("kapitoly.html", "CollectionPage", "Zoznam kapitol — biblická pomoc pre konkrétne životné situácie."),
+        ("piesne.html",   "CollectionPage", "Zoznam piesní projektu Deň Záchrany."),
+    ]:
+        h = open(P(subor), encoding="utf-8").read()
+        h = json_ld(h, {"@context": "https://schema.org", "@type": typ,
+                        "name": subor.replace(".html", "").capitalize(),
+                        "description": popis, "inLanguage": "sk",
+                        "url": f"{BASE_URL}/{subor}",
+                        "isPartOf": {"@type": "WebSite", "name": "Deň Záchrany", "url": BASE_URL + "/"}})
+        open(P(subor), "w", encoding="utf-8").write(h)
+    print("  ✓ štruktúrované údaje  (index, kapitoly, piesne)")
     print()
     for s in predgeneruj(data):
         print("  ✓ " + s)
