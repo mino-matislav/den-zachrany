@@ -2,7 +2,7 @@
    DEŇ ZÁCHRANY - Service Worker
    ============================================ */
 
-const CACHE_NAME = 'den-zachrany-v119';
+const CACHE_NAME = 'den-zachrany-v120';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
@@ -12,7 +12,7 @@ const STATIC_ASSETS = [
     '/piesen.html',
     '/pocuvaj.html',
     '/podpora.html',
-    '/css/style.css?v=67',
+    '/css/style.css?v=68',
     '/js/app.js',
     '/js/player.js',
     '/js/data.js',

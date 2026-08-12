@@ -214,8 +214,12 @@ button {
 }
 
 .logo-icon {
-    font-size: var(--text-2xl);
+    /* symbol ryby (ΙΧΘΥΣ) — obrys, dedí zlatú farbu cez currentColor */
     color: var(--gold);
+    width: 2.1em;
+    height: auto;
+    flex-shrink: 0;
+    vertical-align: -0.28em;
 }
 
 .nav-toggle {
@@ -852,9 +856,9 @@ button {
 }
 
 .footer-brand .logo-icon {
-    font-size: var(--text-3xl);
     display: block;
-    margin-bottom: var(--space-2);
+    width: 3.2em;
+    margin: 0 auto var(--space-2);
 }
 
 .footer-title {
