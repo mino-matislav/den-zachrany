@@ -966,6 +966,85 @@ Amen.`,
         available: true,
         scriptureTheme: "Príslovia 15, Efezským 4, Kolosenským 3",
         isStarter: false
+    },
+    "17": {
+        id: "17",
+        title: "Pokoj tvojmu domu",
+        subtitle: "Ako môže byť tvoj domov miestom Božieho pokoja namiesto napätia a strachu",
+        shortDescription: "Ako môže byť tvoj domov miestom Božieho pokoja – a prečo Žalm 91 nie je záruka, ale útočište.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+sú domy, do ktorých vojdeš a hneď sa ti ľahšie dýcha. A sú aj také, kde je vzduch ťažký. Napätie visí medzi ľuďmi, hádka je stále na spadnutie a človek si doma neoddýchne, ale ešte viac sa unaví.
+
+Možno práve v takom dome žiješ. Možno je to napätie vo vzťahoch, možno starosti, ktoré si prinášaš z práce, možno tichý strach o niekoho blízkeho. Vieš, že domov má byť miestom, kde si človek oddýchne, ale vo vašom sa to nedarí.
+
+Žalm 91 sa začína takto:
+
+"Kto v skrýši Najvyššieho prebýva a odpočíva v tôni Všemohúceho, ten vraví Hospodinovi: Moje útočisko, hrad môj, môj Boh, ja v Neho dúfam!"
+
+Všimni si tie slová „ten vraví“. To nie je poučka o Bohu, ale vyznanie človeka. Sám hovorí: môj Boh, moje útočisko.
+
+A všimni si aj to slovo prebývať. Nie navštíviť, nie ukryť sa na chvíľu, keď je zle. Prebývať znamená bývať tam natrvalo. Tvoje bezpečie teda nie je miesto na mape ani stavba z tehál – je to Boh sám. A to je dobrá správa, lebo dom sa dá stratiť, Boh nie.
+
+Tu musím povedať aj niečo, čo sa pri tomto žalme často prehliada. Žalm 91 nie je sľub, že sa ti nikdy nič zlé nestane.
+
+Vieme to naisto, a to priamo z Písma. Keď satan pokúšal Ježiša na púšti, citoval mu práve tento žalm ako záruku, že sa Mu nič nestane. A Ježiš to odmietol (Matúš 4, 6 – 7). Nie preto, že by žalm nebol pravdivý, ale preto, že Božie zasľúbenia nie sú nárok, ktorý si človek vymôže. Aj veriaci ľudia ochorejú a aj veriacim zomierajú blízki. Kto ti sľubuje opak, sľubuje niečo, čo Písmo nehovorí.
+
+Žalm 91 hovorí niečo hlbšie a vzácnejšie: kto prebýva v Bohu, má pokoj aj vtedy, keď je okolo neho búrka. To nie je menej, to je viac.
+
+Ako sa taký pokoj dostane do tvojho domu? Nie zaklínadlom ani obradom. Vchádza tam cez teba.
+
+V Knihe Józuovej 24, 15 stojí muž pred svojím ľudom a hovorí:
+
+"Ak sa vám nepáči slúžiť Hospodinovi, vyvoľte si dnes, komu chcete slúžiť... Ja však a môj dom budeme slúžiť Hospodinovi."
+
+Józua tu nedostáva zasľúbenie, on sa rozhoduje. A nerozhodol za celý Izrael, rozhodol za seba a svoju domácnosť. Nepovedal „raz to snáď dopadne“, ale „ja idem touto cestou“. Presne tak sa mení ovzdušie domu – niekto v ňom sa musí rozhodnúť ako prvý.
+
+A ešte jedna vec, drobná, ale krásna. Keď Pán Ježiš posielal učeníkov, dal im pokyn, čo majú povedať hneď pri vstupe do domu:
+
+"Keď vojdete do ktoréhokoľvek domu, povedzte najprv: Pokoj domu tomuto!"
+
+Bol to pokyn pre nich a pre ich vtedajšie poslanie, nie formulka pre nás. Ale ukazuje nám niečo o Božom srdci: Bohu záleží na domoch. Nie na budovách, ale na ľuďoch, ktorí v nich spolu žijú. Prvé, čo malo do domu vojsť, bol pokoj.
+
+Ty tú vetu odriekať nemusíš. Ale môžeš byť tým, kto pokoj do domu prinesie – svojím tónom, svojou trpezlivosťou, tým, že nezvýšiš hlas, hoci by si mohol.
+
+A to najdôležitejšie: ten pokoj si nemusíš vyrobiť. Už ti bol daný. Pán Ježiš to povedal svojim učeníkom v Evanjeliu podľa Jána 14, 27:
+
+"Pokoj vám zanechávam, svoj pokoj vám dávam, nie ako svet dáva, vám ja dávam. Nech sa vám nermúti srdce a nestrachuje!"
+
+Pokoj sveta stojí na tom, že je všetko v poriadku. Zmizne, len čo príde zlá správa. Kristov pokoj stojí na Ňom samom, a preto vydrží aj vtedy, keď v poriadku nie je nič.
+
+Tvoj domov sa nezmení za jeden večer. Ale môže sa začať meniť dnes – a začne to tebou.`,
+        verses: [
+            { text: "Kto v skrýši Najvyššieho prebýva a odpočíva v tôni Všemohúceho, ten vraví Hospodinovi: Moje útočisko, hrad môj, môj Boh, ja v Neho dúfam!", ref: "Žalm 91, 1 – 2" },
+            { text: "Ak sa vám nepáči slúžiť Hospodinovi, vyvoľte si dnes, komu chcete slúžiť... Ja však a môj dom budeme slúžiť Hospodinovi.", ref: "Józua 24, 15" },
+            { text: "Keď vojdete do ktoréhokoľvek domu, povedzte najprv: Pokoj domu tomuto!", ref: "Lukáš 10, 5" },
+            { text: "Pokoj vám zanechávam, svoj pokoj vám dávam, nie ako svet dáva, vám ja dávam. Nech sa vám nermúti srdce a nestrachuje!", ref: "Ján 14, 27" }
+        ],
+        prayer: `Pane Ježišu Kriste,
+
+prichádzam k Tebe a prinášam Ti svoj domov. Ľudí, s ktorými žijem, aj napätie, ktoré medzi nami býva.
+
+Ďakujem Ti, že mojím útočišťom nie je stavba ani miesto, ale Ty sám. Že smiem prebývať v skrýši Najvyššieho a odpočívať v tôni Všemohúceho aj vtedy, keď okolnosti okolo mňa pokojné nie sú.
+
+Nežiadam si od Teba záruku, že sa nám nikdy nič nestane. Prosím o niečo iné – aby sme aj v ťažkom čase mali pokoj, ktorý nepochádza z okolností, ale z Teba.
+
+Ďakujem Ti za Tvoje slová, že svoj pokoj nám dávaš inak, než ho dáva svet. Prijímam ho dnes do svojho srdca aj do svojho domova.
+
+Rozhodujem sa dnes ako Józua: ja a môj dom budeme slúžiť Hospodinovi. Za druhých rozhodnúť neviem, ale za seba áno.
+
+Vyznávam Ti, že som doma nejeden raz priniesol napätie namiesto pokoja. Ďakujem Ti, že mi je to v Tebe už odpustené. Ďakujem, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Uvoľňujem ho dnes do svojich slov aj do svojich reakcií.
+
+Nech je pokoj tomuto domu.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "pokoj-tvojmu-domu",
+        tags: ["strach", "pokoj", "odpočinok", "nádej", "sloboda"],
+        available: true,
+        scriptureTheme: "Žalm 91, Józua 24, Ján 14",
+        isStarter: false
     }
 };
 
