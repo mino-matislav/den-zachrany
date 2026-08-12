@@ -1038,8 +1038,8 @@ Vyznávam Ti, že som doma nejeden raz priniesol napätie namiesto pokoja. Ďaku
 Nech je pokoj tomuto domu.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-17.mp3",
+        hasAudio: true,
         illustrationRef: "pokoj-tvojmu-domu",
         tags: ["strach", "pokoj", "odpočinok", "nádej", "sloboda"],
         available: true,
