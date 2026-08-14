@@ -2,7 +2,7 @@
    DEŇ ZÁCHRANY - Service Worker
    ============================================ */
 
-const CACHE_NAME = 'den-zachrany-v120';
+const CACHE_NAME = 'den-zachrany-v121';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
@@ -20,6 +20,8 @@ const STATIC_ASSETS = [
     '/manifest.json',
     '/assets/qr-podpora.svg',
     '/assets/icon-192.png',
+    '/assets/icon-maskable-192.png',
+    '/assets/icon-maskable-512.png',
     '/assets/icon-512.png'
 ];
 
