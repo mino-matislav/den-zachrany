@@ -29,6 +29,7 @@ P = lambda *a: os.path.join(ROOT, *a)
 OG_IMAGE = "assets/og-image.png"
 # overenie vlastníctva pre Google Search Console (meta značka namiesto DNS záznamu)
 GOOGLE_VERIFY = "3N05ANbUrWnYXB3a4BwzYJgYbqMNdWKyaaT7xJJVpEw"
+YOUTUBE = "https://www.youtube.com/@OdtemnotykuSvetlu"
 TODAY = date.today().isoformat()
 
 # stránky: súbor -> (priorita, frekvencia, indexovať?)
@@ -53,7 +54,7 @@ def nacitaj_data():
       new Function('e', fs.readFileSync(%s,'utf8')+';e.s=songData;e.l=songList')(b);
       const kapitoly=Object.entries(a.c).filter(([i,c])=>c.available)
           .map(([i,c])=>({id:i, title:c.title, subtitle:c.subtitle||'',
-              desc:c.shortDescription||c.subtitle||'',
+              desc:c.shortDescription||c.subtitle||'', tags:c.tags||[],
               fullText:c.fullText||'', prayer:c.prayer||''}));
       const piesne=b.l.map(x=>{const sg=b.s[String(x.id)]||{};
           return {id:String(x.id), title:sg.title||'', desc:sg.subtitle||'',
@@ -307,6 +308,20 @@ def json_ld(html, data_dict):
     return html.replace('</head>', blok + '</head>', 1)
 
 
+def suvisiace(k, vsetky, kolko=3):
+    """Vyberie príbuzné kapitoly podľa počtu spoločných tém."""
+    moje = set(k.get('tags') or [])
+    skore = []
+    for iny in vsetky:
+        if iny['id'] == k['id']:
+            continue
+        spolocne = len(moje & set(iny.get('tags') or []))
+        if spolocne:
+            skore.append((spolocne, int(iny['id']), iny))
+    skore.sort(key=lambda x: (-x[0], x[1]))
+    return [x[2] for x in skore[:kolko]]
+
+
 def statické_stránky(data):
     sprava = []
 
@@ -350,6 +365,18 @@ def statické_stránky(data):
         h = uprav_hlavicku(h, '%s — Deň Záchrany' % k['title'], k['desc'],
                            '%s/kapitola-%s.html' % (BASE_URL, k['id']),
                            'data-chapter-id="%s"' % k['id'])
+        # príbuzné kapitoly — pomáha čitateľovi aj prepojeniu stránok pre Google
+        prib = suvisiace(k, data['kapitoly'])
+        if prib:
+            blok = ('\n                <nav class="related" aria-label="Súvisiace kapitoly">'
+                    '\n                    <h2 class="related-title">Mohlo by ti pomôcť aj</h2>'
+                    '\n                    <ul class="related-list">')
+            for r in prib:
+                blok += ('\n                        <li><a href="kapitola-%s.html">%s</a>'
+                         '<span class="related-desc">%s</span></li>'
+                         % (r['id'], esc(r['title']), esc(r['desc'])))
+            blok += '\n                    </ul>\n                </nav>\n\n                '
+            h = h.replace('                <!-- Navigácia späť -->', blok + '<!-- Navigácia späť -->', 1)
         h = json_ld(h, {
             "@context": "https://schema.org",
             "@type": "Article",
@@ -422,6 +449,7 @@ def main():
            "description": "Biblická pomoc pre ťažké chvíle — kapitoly, modlitby a piesne.",
            "publisher": {"@type": "Organization", "name": "Deň Záchrany",
                          "url": BASE_URL + "/",
+                         "sameAs": [YOUTUBE],
                          "logo": {"@type": "ImageObject", "url": BASE_URL + "/assets/icon-512.png"}}}
     h = open(P("index.html"), encoding="utf-8").read()
     h = json_ld(h, {"@context": "https://schema.org", **web})
