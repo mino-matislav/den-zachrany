@@ -30,6 +30,7 @@ OG_IMAGE = "assets/og-image.png"
 # overenie vlastníctva pre Google Search Console (meta značka namiesto DNS záznamu)
 GOOGLE_VERIFY = "3N05ANbUrWnYXB3a4BwzYJgYbqMNdWKyaaT7xJJVpEw"
 YOUTUBE = "https://www.youtube.com/@OdtemnotykuSvetlu"
+TIKTOK  = "https://www.tiktok.com/@spasenie_teraz"
 TODAY = date.today().isoformat()
 
 # stránky: súbor -> (priorita, frekvencia, indexovať?)
@@ -449,7 +450,7 @@ def main():
            "description": "Biblická pomoc pre ťažké chvíle — kapitoly, modlitby a piesne.",
            "publisher": {"@type": "Organization", "name": "Deň Záchrany",
                          "url": BASE_URL + "/",
-                         "sameAs": [YOUTUBE],
+                         "sameAs": [YOUTUBE, TIKTOK],
                          "logo": {"@type": "ImageObject", "url": BASE_URL + "/assets/icon-512.png"}}}
     h = open(P("index.html"), encoding="utf-8").read()
     h = json_ld(h, {"@context": "https://schema.org", **web})
