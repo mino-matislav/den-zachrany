@@ -368,7 +368,7 @@ Božie Slovo v liste Jakubovom 4, 7 hovorí jasne:
 
 "Poddajte sa teda Bohu, ale vzoprite sa diablovi – a utečie od vás."
 
-Všimni si toto dokonalé Božie poradie. Svet a tvoje vlastné strachy ti hovoria: „Najprv vyrieš svoj problém, bojuj s úzkosťou, zbi sa s diablom vo vlastnej sile a potom unavený príď k Bohu.“ To je klamstvo nepriateľa. Duchovný Boží princíp hovorí: Najprv sa podriaď Bohu. Schovaj sa v dokonanej obeti Ježiša Krista. Zlož zbrane vlastného tela. V momente, keď stojíš v Kristovi, diabol nemá šancu. Musí utiecť. Tvoje utiekanie sa k Bohu je preňho zdrvujúcou porážkou.
+Všimni si toto dokonalé Božie poradie. Svet a tvoje vlastné strachy ti hovoria: „Najprv vyrieš svoj problém, bojuj s úzkosťou, bi sa s diablom vo vlastnej sile a potom unavený príď k Bohu.“ To je klamstvo nepriateľa. Duchovný Boží princíp hovorí: Najprv sa podriaď Bohu. Schovaj sa v dokonanej obeti Ježiša Krista. Zlož zbrane vlastného tela. V momente, keď stojíš v Kristovi, diabol nemá šancu. Musí utiecť. Tvoje utiekanie sa k Bohu je preňho zdrvujúcou porážkou.
 
 Preto ťa prosím, keď nabudúce príde strach alebo pocit, že si v pasci, nesnaž sa to vyriešiť svojím vlastným rozumom. Božie zasľúbenie z knihy Prísloví 3, 5 – 6 platí pre teba aj dnes:
 
