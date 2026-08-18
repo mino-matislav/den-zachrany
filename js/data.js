@@ -9,7 +9,7 @@ const tagGroups = [
         label: "Čo prežívam",
         tags: ["strach", "úzkosť", "starosti", "myšlienky", "pochybnosti", "neistota",
                "smútok", "strata", "bolesť", "choroba", "vyčerpanie", "krivda",
-               "poníženie", "hnev", "bezmocnosť", "vina"]
+               "poníženie", "hnev", "bezmocnosť", "vina", "osamelosť"]
     },
     {
         label: "Čo hľadám",
@@ -1044,6 +1044,74 @@ Amen.`,
         tags: ["strach", "pokoj", "odpočinok", "nádej", "sloboda"],
         available: true,
         scriptureTheme: "Žalm 91, Józua 24, Ján 14",
+        isStarter: false
+    },
+    "18": {
+        id: "18",
+        title: "Keď nemáš nikoho",
+        subtitle: "Ako prežiť osamelosť a spoznať Toho, ktorý ťa vidí aj vtedy, keď sa nikto nedíva",
+        shortDescription: "Ako prežiť osamelosť a spoznať Toho, ktorý ťa vidí aj vtedy, keď sa nikto nedíva.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+osamelosť nie je to isté ako byť sám. Sám môžeš byť rád. Osamelosť je niečo iné – je to ticho, ktoré ťa privíta pri návrate domov. Je to telefón, ktorý nezazvoní. Sú to Vianoce, na ktoré sa ťa nikto nepýta.
+
+Nie je to náhly úder ako strata blízkeho. Je to pomalé, tiché a únavné. A možno práve preto o nej ľudia hovoria tak málo – priznať, že som osamelý, akoby znamenalo priznať, že o mňa nikto nestojí.
+
+Dávid to poznal. V jaskyni, na úteku, sám, napísal žalm, v ktorom sa Bohu sťažuje, že sa nikto k nemu nehlási a nikto sa nepýta na jeho dušu. Nepredstieral, že je silný. Vylial pred Bohom to, čo mal na srdci – a Písmo to zaznamenalo, aby si vedel, že takto sa modliť smieš aj ty.
+
+V Evanjeliu podľa Jána čítame o mužovi, ktorý ležal tridsaťosem rokov pri jazere Betezda v Jeruzaleme. Čakal na zázrak, ale nemal nikoho, kto by mu pomohol sa k nemu dostať. Keď sa ho Ježiš spýtal, či chce byť zdravý, muž neodpovedal „áno“. Odpovedal takto:
+
+"Pane, nemám nikoho, kto by ma zaniesol do jazera, keď sa voda zvíri; a dokiaľ sám prídem tam, vstúpi iný predo mnou."
+
+Nemám nikoho. To je celá jeho odpoveď. A všimni si, čo sa stalo predtým: uprostred množstva chorých si Ježiš všimol práve jeho. Nikto sa oň nezaujímal tridsaťosem rokov – a Boží Syn prišiel priamo k nemu.
+
+Takto to Boh robí. Vidí tam, kde iní prehliadajú.
+
+Prorok Izaiáš zapísal slová, ktoré Boh povedal svojmu ľudu, keď si zúfal, že naňho Hospodin zabudol:
+
+"Či zabudne žena na svoje nemluvňa a nezľutuje sa nad synom, ktorého zrodila? Keby ony aj pozabudli, ja na teba nezabudnem. Ajhľa, do dlaní som si ťa vyryl, tvoje hradby sú ustavične predo mnou."
+
+Tieto slová Boh povedal Izraelu v konkrétnej historickej chvíli. Nie sú to slová napísané priamo tebe. Ale ukazujú ti, aký Boh je – a Boh sa nemení. Ten istý, ktorý povedal „do dlaní som si ťa vyryl“, sa nestal iným.
+
+A pre teba, ktorý si uveril v Krista, je tu niečo ešte pevnejšie. Nie obraz, ale priame slovo napísané veriacim:
+
+"Veď On sám povedal: Neopustím ťa, ani nezanechám;"
+
+Toto nie je poetický obraz ani zasľúbenie pre niekoho iného. Toto je napísané tebe. Aj keď ťa opustili ľudia, aj keď na teba zabudli, aj keď dnes večer nezazvoní telefón – On neodišiel. A neodíde, lebo to nesľúbil tvojej výkonnosti, ale svojej vernosti.
+
+Ešte jedna vec, a je dôležitá. Neznamená to, že ľudí nepotrebuješ. Boh ťa nestvoril na samotu a Písmo nikde nehovorí, že veriacemu stačí byť sám s Bohom. Práve naopak – Kristovo telo je spoločenstvo a Boh svoju útechu veľmi často posiela cez ľudí.
+
+Ak teda dnes nemáš nikoho, uprostred toho ticha sa smieš modliť aj o toto: aby Boh do tvojho života niekoho priviedol. A možno budeš musieť urobiť aj prvý krok ty – ozvať sa, prísť, zostať. Nie preto, že by si si musel niečo zaslúžiť, ale preto, že Boh často odpovedá tak, že nás pohne.
+
+Dnes večer možno budeš znovu sám. Ale sám s Tým, ktorý ťa vidí.`,
+        verses: [
+            { text: "Pane, nemám nikoho, kto by ma zaniesol do jazera, keď sa voda zvíri; a dokiaľ sám prídem tam, vstúpi iný predo mnou.", ref: "Ján 5, 7" },
+            { text: "Či zabudne žena na svoje nemluvňa a nezľutuje sa nad synom, ktorého zrodila? Keby ony aj pozabudli, ja na teba nezabudnem. Ajhľa, do dlaní som si ťa vyryl, tvoje hradby sú ustavične predo mnou.", ref: "Izaiáš 49, 15 – 16" },
+            { text: "Veď On sám povedal: Neopustím ťa, ani nezanechám;", ref: "Židom 13, 5" }
+        ],
+        prayer: `Pane Ježišu Kriste,
+
+prichádzam k Tebe s tým, čo len ťažko hovorím nahlas. Som osamelý. Sú dni, keď mám pocit, že ma nikto nevidí a nikomu nechýbam.
+
+Vyznávam Ti, že som v tom tichu neraz uveril klamstvu, že si na mňa zabudol aj Ty. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda je silnejšia než môj pocit.
+
+Ďakujem Ti, že si videl muža pri jazere Betezda, na ktorého nikto tridsaťosem rokov nemal čas. Ty vidíš aj mňa. Nie som pre Teba jeden zo zástupu.
+
+Ďakujem Ti za Tvoje slovo, že ma nikdy neopustíš, ani nezanecháš. Nestojí to na tom, aký som, ale na tom, aký si Ty. Prijímam to dnes za pravdu o svojom živote.
+
+Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Uvoľňujem ho do tohto ticha.
+
+Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi odvahu urobiť prvý krok tam, kde ho mám urobiť ja.
+
+Ďakujem Ti, že aj keď som sám, nie som opustený.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "bozia-blizkost-v-osamelosti",
+        tags: ["osamelosť", "smútok", "bolesť", "nádej", "pokoj"],
+        available: true,
+        scriptureTheme: "Ján 5, Izaiáš 49, Židom 13",
         isStarter: false
     }
 };
