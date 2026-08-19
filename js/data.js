@@ -1106,7 +1106,7 @@ Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi od
 Ďakujem Ti, že aj keď som sám, nie som opustený.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-18.mp3",
+        audioUrl: "assets/audio/modlitba-18.mp3?v=2",
         hasAudio: true,
         illustrationRef: "bozia-blizkost-v-osamelosti",
         tags: ["osamelosť", "smútok", "bolesť", "nádej", "pokoj"],
