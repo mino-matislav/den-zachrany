@@ -1113,6 +1113,70 @@ Amen.`,
         available: true,
         scriptureTheme: "Ján 5, Izaiáš 49, Židom 13",
         isStarter: false
+    },
+    "19": {
+        id: "19",
+        title: "Boh je väčší ako tvoje srdce",
+        subtitle: "Ako prestať odsudzovať samého seba a prijať odpustenie, ktoré ti Boh už dal",
+        shortDescription: "Ako prestať odsudzovať samého seba za minulé zlyhania a prijať odpustenie, ktoré ti Boh už dal.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+existuje väzenie, do ktorého sa človek zavrie sám a kľúč vyhodí preč. Je to väzenie vlastnej minulosti. Možno si už svoje hriechy vyznal pred Bohom, možno si sa ospravedlnil ľuďom, ktorým si ublížil. No kedykoľvek zostaneš sám, v tvojej mysli sa ozve tichý hlas: „Boh ti síce preukázal milosť, ale to, čo si urobil, bolo príliš hrozné. Zlyhal si a nikdy si to nemal dopustiť.“
+
+Mnohí kresťania dokážu s ľahkosťou hovoriť o Božej milosti pre druhých, no voči sebe zostávajú prísnymi sudcami. Žijú v presvedčení, že neschopnosť odpustiť sám sebe je prejavom pokory. V skutočnosti je to pasca. Pokora prijíma to, čo Boh dáva. Odmietnuť Jeho odpustenie znamená povedať: ja to viem lepšie než Boh.
+
+Keď odmietaš odpustiť sám sebe to, čo ti Boh už odpustil na základe krvi svojho Syna, staviaš svoj vlastný súd nad súd samotného Boha. Znamená to vyhlásiť: „Božia obeť na kríži stačila pre celý svet, ale na môj hriech nestačí.“
+
+Apoštol Ján dáva vo svojom prvom liste zasľúbenie, ktoré oslobodzuje každé srdce, ktoré sa obviňuje:
+
+"Podľa toho poznáme, že sme z pravdy, a tým si uspokojíme srdce pred Ním, že keď nás odsudzuje srdce, Boh je väčší ako naše srdce a vie všetko."
+
+Všimni si, čo tu Ján hovorí. Nepopiera, že nás vlastné srdce odsudzuje. Vie, že sa to deje. Hovorí niečo iné a oveľa dôležitejšie: Boh je väčší. Väčší ako tvoje výčitky, väčší ako tvoja pamäť na to, čo si urobil. On sa na teba nepozerá podľa toho, čo si urobil ty, ale podľa toho, čo urobil Kristus.
+
+Cez proroka Izaiáša Boh povedal svojmu ľudu, ktorý ťažila vina:
+
+"Ja, ja zotieram tvoje priestupky kvôli sebe samému, a na tvoje hriechy nebudem spomínať."
+
+Boh to povedal Izraelu v jeho vlastnej situácii. My však z tých slov spoznávame, ako Boh zaobchádza s vyznaným hriechom: zotiera ho a nevracia sa k nemu. A tu je otázka pre teba. Ak sa Boh rozhodol na tvoj hriech nespomínať, prečo si ho stále pripomínaš ty? Prečo sa vraciaš k tomu, čo On zotrel?
+
+Tvoja hodnota sa neodvíja od toho, čím si prešiel, ale od toho, kým si sa stal v Kristovi.
+
+A pre teba, ktorý si uveril, je tu slovo napísané priamo veriacim:
+
+"Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi..."
+
+Nieto. Nie „bude menej“, nie „možno raz“. Nieto. Boh už rozsudok vyriekol a znel oslobodzujúco. Ak teda nad sebou stále vynášaš rozsudok, je to tvoj rozsudok. Boh ho nevyriekol.
+
+Ešte jedna vec, aby sme si rozumeli. Písmo nikde nehovorí „odpusť sám sebe“. Hovorí, že Boh odpustil. Odpustiť sám sebe teda neznamená pridať niečo k Jeho dielu. Znamená to prestať odmietať to, čo už urobil.
+
+Dnes je čas odložiť bič sebaodsudzovania a prijať Božie odpustenie v celom rozsahu. Aj to, ktoré patrí tebe.`,
+        verses: [
+            { text: "Podľa toho poznáme, že sme z pravdy, a tým si uspokojíme srdce pred Ním, že keď nás odsudzuje srdce, Boh je väčší ako naše srdce a vie všetko.", ref: "1. Jánov 3, 19 – 20" },
+            { text: "Ja, ja zotieram tvoje priestupky kvôli sebe samému, a na tvoje hriechy nebudem spomínať.", ref: "Izaiáš 43, 25" },
+            { text: "Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi...", ref: "Rimanom 8, 1" }
+        ],
+        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoju tvár v mene Pána Ježiša Krista. Otváram pred Tebou svoje vnútro a hovorím Ti o ťarche, ktorú v sebe nosím už dlho. Vyznávam Ti, že som nevedel odpustiť sám sebe. Nosil som v srdci vinu a hanbu, ktoré ma neopúšťali, a stále som si vyčítal svoje minulé zlyhania.
+
+Priznávam Ti, že som tým staval svoj vlastný súd nad Tvoju milosť. Ďakujem Ti, že mi je aj toto v Kristovi už odpustené a že obeť Tvojho Syna na kríži stačí aj na to, čo si sám neviem odpustiť.
+
+Stojím dnes na pravde Tvojho Slova z 1. listu Jánovho 3, že Ty si väčší ako moje srdce. Keď ma moje vlastné myšlienky odsudzujú, rozhodujem sa veriť Tvojej pravde, a nie svojim pocitom.
+
+Ďakujem Ti za slovo z Izaiáša 43, že Ty sám zotieraš priestupky a viac na ne nespomínaš. Ďakujem Ti, že v Kristovi Ježišovi už niet odsúdenia. Ani pre mňa.
+
+A tak dnes prestávam byť svojím vlastným sudcom. Prepúšťam zo svojho vnútra hanbu, hnev na seba aj výčitky za minulosť. Skladám toto bremeno k Tvojim nohám a kráčam v slobode, do ktorej si ma povolal.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "prijatie-bozieho-odpustenia",
+        tags: ["vina", "odpustenie", "sloboda", "pokoj", "nádej"],
+        available: true,
+        scriptureTheme: "1. Jánov 3, Izaiáš 43, Rimanom 8",
+        isStarter: false
     }
 };
 
