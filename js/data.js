@@ -1170,8 +1170,8 @@ A tak dnes prestávam byť svojím vlastným sudcom. Prepúšťam zo svojho vnú
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-19.mp3",
+        hasAudio: true,
         illustrationRef: "prijatie-bozieho-odpustenia",
         tags: ["vina", "odpustenie", "sloboda", "pokoj", "nádej"],
         available: true,
