@@ -1145,7 +1145,7 @@ A pre teba, ktorý si uveril, je tu slovo napísané priamo veriacim:
 
 "Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi..."
 
-Nieto. Nie „bude menej“, nie „možno raz“. Nieto. Boh už rozsudok vyriekol a znel oslobodzujúco. Ak teda nad sebou stále vynášaš rozsudok, je to tvoj rozsudok. Boh ho nevyriekol.
+Slovo nieto znamená jednoducho: nie je. Žiadne odsúdenie. Nie menšie, nie odložené na neskôr, ale vôbec žiadne. Boh nad tebou vyniesol rozsudok a ten znel: oslobodený. Ak sa teda stále odsudzuješ, robíš to ty. Boh to nerobí.
 
 Ešte jedna vec, aby sme si rozumeli. Písmo nikde nehovorí „odpusť sám sebe“. Hovorí, že Boh odpustil. Odpustiť sám sebe teda neznamená pridať niečo k Jeho dielu. Znamená to prestať odmietať to, čo už urobil.
 
