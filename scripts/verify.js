@@ -139,6 +139,16 @@ must(read('kapitola.html').includes('name="robots" content="noindex'), 'kapitola
 must(read('piesen.html').includes('name="robots" content="noindex'), 'piesen.html je noindex (duplicita)');
 must(sitemapXml.includes('kapitola-1.html') && !sitemapXml.includes('kapitola.html?id='),
   'sitemap odkazuje na samostatné stránky, nie na ?id=');
+// odkazy v HTML nesmú viesť na neindexované ?id= adresy
+['index.html', 'kapitoly.html', 'piesne.html'].forEach(f => {
+  const h = read(f);
+  must(!/href="(kapitola|piesen)\.html\?id=/.test(h),
+    `${f} neodkazuje na neindexované adresy ?id=`);
+});
+// popis domovskej musí uvádzať aktuálny počet kapitol
+const pocetKap = Object.values(chapterData).filter(c => c.available).length;
+must(read('index.html').includes(`${pocetKap} kapitol`),
+  `popis domovskej uvádza aktuálny počet kapitol (${pocetKap})`);
 
 // obsah musí byť predgenerovaný v HTML — inak ho roboty a AI nevidia
 const kapHtml = read('kapitoly.html'), pieHtml = read('piesne.html');

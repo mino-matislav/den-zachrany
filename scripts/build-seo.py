@@ -233,7 +233,7 @@ def predgeneruj(data):
         polozky.append(
             '<article class="chapter-item" data-id="%s" role="listitem">'
             '<div class="chapter-number">%s. Kapitola</div>'
-            '<h3 class="chapter-title"><a href="kapitola.html?id=%s" class="card-link">%s</a></h3>'
+            '<h3 class="chapter-title"><a href="kapitola-%s.html" class="card-link">%s</a></h3>'
             '<p class="chapter-desc">%s</p></article>'
             % (k['id'], k['id'], k['id'], esc(k['title']), esc(k['desc'])))
     html, ok = nahrad_blok(html, '<div class="chapters-list"', '\n                    ' +
@@ -249,7 +249,7 @@ def predgeneruj(data):
         polozky.append(
             '<article class="chapter-item" data-id="%s" role="listitem">'
             '<div class="chapter-number">%s</div>'
-            '<h3 class="chapter-title"><a href="piesen.html?id=%s" class="card-link">%s</a></h3>'
+            '<h3 class="chapter-title"><a href="piesen-%s.html" class="card-link">%s</a></h3>'
             '<p class="chapter-desc">%s</p></article>'
             % (s['id'], s['id'], s['id'], esc(s['title']), esc(s['desc'])))
     html, ok = nahrad_blok(html, '<div class="songs-list chapters-list"', '\n                    ' +
@@ -445,6 +445,15 @@ def main():
         print(f"  ✓ {doplň(subor, data):16} ({stav})")
 
     # štruktúrované údaje pre hlavné stránky
+    # popis domovskej stránky s aktuálnym počtom kapitol
+    pocet = len(data['kapitoly'])
+    popis = (f"Biblická pomoc pre ťažké chvíle — strach, úzkosť, choroba, strata, vina "
+             f"či osamelosť. {pocet} kapitol s modlitbami a piesňami. Dnes je deň spasenia.")
+    h = open(P("index.html"), encoding="utf-8").read()
+    h = re.sub(r'<meta name="description" content="[^"]*"',
+               '<meta name="description" content="%s"' % popis, h, count=1)
+    open(P("index.html"), "w", encoding="utf-8").write(h)
+
     web = {"@type": "WebSite", "name": "Deň Záchrany", "url": BASE_URL + "/",
            "inLanguage": "sk",
            "description": "Biblická pomoc pre ťažké chvíle — kapitoly, modlitby a piesne.",
