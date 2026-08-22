@@ -145,10 +145,7 @@ must(sitemapXml.includes('kapitola-1.html') && !sitemapXml.includes('kapitola.ht
   must(!/href="(kapitola|piesen)\.html\?id=/.test(h),
     `${f} neodkazuje na neindexované adresy ?id=`);
 });
-// popis domovskej musí uvádzať aktuálny počet kapitol
-const pocetKap = Object.values(chapterData).filter(c => c.available).length;
-must(read('index.html').includes(`${pocetKap} kapitol`),
-  `popis domovskej uvádza aktuálny počet kapitol (${pocetKap})`);
+
 
 // obsah musí byť predgenerovaný v HTML — inak ho roboty a AI nevidia
 const kapHtml = read('kapitoly.html'), pieHtml = read('piesne.html');
@@ -169,6 +166,10 @@ const s1 = {};
 new Function('e', read('js/data.js') + ';e.chapterData = chapterData;')(s1);
 const chapterData = s1.chapterData;
 must(chapterData && Object.keys(chapterData).length > 0, 'chapterData nie je prázdne');
+// popis domovskej musí uvádzať aktuálny počet kapitol
+const pocetKap = Object.values(chapterData).filter(c => c.available).length;
+must(read('index.html').includes(`${pocetKap} kapitol`),
+  `popis domovskej uvádza aktuálny počet kapitol (${pocetKap})`);
 // sitemap musí obsahovať každú dostupnú kapitolu a každú pieseň
 const chAvail = Object.entries(chapterData).filter(([, c]) => c.available).map(([i]) => i);
 const chybaKap = chAvail.filter(i => !sitemapXml.includes(`kapitola-${i}.html<`));
