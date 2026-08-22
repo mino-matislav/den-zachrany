@@ -436,6 +436,33 @@ def statické_stránky(data):
     return sprava
 
 
+# ------------------------------------------------------------
+#  Prehľad obsahu v README — aby sa nikdy nerozišiel so skutočnosťou
+# ------------------------------------------------------------
+def readme(data):
+    kap = len(data['kapitoly'])
+    pie = len(data['piesne'])
+    blok = (
+        "<!-- OBSAH:ZACIATOK -->\n"
+        "## Obsah\n\n"
+        f"- **{kap} kapitol** — všetky dostupné, každá s audio modlitbou\n"
+        f"- **{pie} piesní** — s textami a biblickou inšpiráciou\n"
+        "- **Úvodné slovo** na domovskej stránke\n\n"
+        "*Zdrojom pravdy pre obsah sú `js/data.js` (kapitoly) a `js/data-songs.js` (piesne).\n"
+        "Tento prehľad automaticky generuje `scripts/build-seo.py` — neupravuj ho ručne.*\n"
+        "<!-- OBSAH:KONIEC -->"
+    )
+    cesta = P('README.md')
+    if not os.path.exists(cesta):
+        return 'README.md neexistuje (preskočené)'
+    t = open(cesta, encoding='utf-8').read()
+    novy = re.sub(r'<!-- OBSAH:ZACIATOK -->.*?<!-- OBSAH:KONIEC -->', blok, t, flags=re.S)
+    if novy == t and 'OBSAH:ZACIATOK' not in t:
+        return 'README.md nemá značky OBSAH (preskočené)'
+    open(cesta, 'w', encoding='utf-8').write(novy)
+    return f'README.md — prehľad obsahu ({kap} kapitol, {pie} piesní)'
+
+
 def main():
     data = nacitaj_data()
     print("  ✓ " + robots())
@@ -483,6 +510,7 @@ def main():
     print()
     for s in statické_stránky(data):
         print("  ✓ " + s)
+    print("  ✓ " + readme(data))
     print("\nHotovo. Pri zmene domény uprav BASE_URL a spusti znova.")
 
 

@@ -170,6 +170,8 @@ must(chapterData && Object.keys(chapterData).length > 0, 'chapterData nie je pr�
 const pocetKap = Object.values(chapterData).filter(c => c.available).length;
 must(read('index.html').includes(`${pocetKap} kapitol`),
   `popis domovskej uvádza aktuálny počet kapitol (${pocetKap})`);
+must(read('README.md').includes(`**${pocetKap} kapitol**`),
+  `README uvádza aktuálny počet kapitol (${pocetKap})`);
 // sitemap musí obsahovať každú dostupnú kapitolu a každú pieseň
 const chAvail = Object.entries(chapterData).filter(([, c]) => c.available).map(([i]) => i);
 const chybaKap = chAvail.filter(i => !sitemapXml.includes(`kapitola-${i}.html<`));
