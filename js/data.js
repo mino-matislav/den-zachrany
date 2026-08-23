@@ -1177,6 +1177,90 @@ Amen.`,
         available: true,
         scriptureTheme: "1. Jánov 3, Izaiáš 43, Rimanom 8",
         isStarter: false
+    },
+    "20": {
+        id: "20",
+        title: "Ako čítať Bibliu, aby ti dávala zmysel",
+        subtitle: "Kde začať, čo v nej hľadať a prečo nemusíš rozumieť všetkému naraz",
+        shortDescription: "Kde začať s čítaním Biblie, čo v nej hľadať a prečo nemusíš rozumieť všetkému naraz.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+poznáš to? Rozhodneš sa, že začneš čítať Bibliu. Otvoríš ju na prvej strane, prejdeš stvorenie sveta, potopu, Abraháma. A potom prídu rodokmene, predpisy o obetiach a rozmery svätostánku. Po dvoch týždňoch ju odložíš s pocitom, že na to asi nemáš.
+
+Nie si na to sám a nie je to tvoja chyba. Biblia nie je jedna kniha, ktorú treba prečítať od začiatku do konca. Je to zbierka šesťdesiatich šiestich kníh. Písali ich rôzni autori po viac než tisíc rokov a boli určené rôznym ľuďom v rôznych časoch. Keď to človek nevie, ľahko sa stratí.
+
+Tak poďme na to prakticky.
+
+Nezačínaj od prvej strany. Začni Evanjeliom podľa Jána.
+
+Znie to možno zvláštne, ale má to dôvod. Pán Ježiš raz povedal ľuďom, ktorí Písmo poznali naspamäť, prekvapivú vec:
+
+"Skúmate Písma, lebo si myslíte, že večný život máte v nich, a tie vydávajú svedectvo o mne."
+
+Poznali každý riadok, no minuli to hlavné. Písmo nie je zbierka pravidiel ani zbierka príbehov. Celé ukazuje na Krista. Ak Ho nepoznáš, zvyšok ti bude pripadať ako cudzia história. Ak Ho poznáš, začne ti do seba zapadať aj to, čo si predtým nechápal.
+
+Preto začni tam, kde je On najzreteľnejší. Prečítaj Jána, potom niektorý ďalší evanjeliový spis, potom listy apoštola Pavla. Starú zmluvu si necháš na neskôr a budeš ju čítať s úplne inými očami.
+
+Pýtaj sa vždy: komu je to napísané?
+
+Toto je najužitočnejšia otázka, akú si pri čítaní môžeš položiť. Apoštol Pavel napísal Timoteovi:
+
+"Usiluj sa postaviť pred Boha ako osvedčený, ako pracovník, ktorý sa nepotrebuje hanbiť a správne podáva slovo pravdy."
+
+Správne podávať Slovo znamená aj vedieť, komu boli ktoré slová povedané. Boh dal Nóachovi príkaz postaviť koráb – to nie je príkaz tebe. Zákon na Sinaji dostal Izrael a Pavel neskôr vysvetlil, že veriaci v Krista pod týmto zákonom nie sú. Zasľúbenia dané prorokom Izraelu ti ukazujú, aký Boh je, ale neboli napísané priamo tebe.
+
+Neznamená to, že sú tie časti menej dôležité. Bez tejto otázky im však ľahko porozumieš nesprávne. A vtedy sa stáva to najhoršie: začneš na seba brať bremená, ktoré ti Boh nikdy nedal.
+
+A tu je praktický kľúč: listy apoštolov sú písané priamo veriacim v Kristovi. Rimanom, Efezským, Filipským, Kolosenským. Keď tam čítaš „vy“ a „vám“, myslí sa tým aj ty. Preto sa v nich oplatí bývať najviac.
+
+Nemusíš rozumieť všetkému naraz.
+
+Nikto nerozumie. Ani ľudia, ktorí Bibliu čítajú štyridsať rokov. Keď narazíš na niečo, čo ti nedáva zmysel, poznač si to a čítaj ďalej. Vráť sa k tomu o rok. Veľmi často to zrazu pochopíš, lebo medzitým pribudlo niečo, čo ti chýbalo.
+
+Lepšie je prečítať pol strany a premýšľať o nej, než prebehnúť tri kapitoly a nič si z nich neodniesť. Nejde o výkon.
+
+Biblia číta teba, kým ty čítaš ju.
+
+To je asi to najzvláštnejšie, čo sa pri čítaní Písma deje:
+
+"Lebo slovo Božie je živé a mocné a je ostrejšie než ktorýkoľvek dvojsečný meč a preniká až do rozdelenia duše a ducha, kĺbov a špikov a je schopné posudzovať hnutie a zmýšľanie srdca."
+
+Nie je to učebnica, z ktorej sa niečo naučíš a odložíš ju. Je živá. Preto sa stáva, že ten istý verš, ktorý si čítal desaťkrát bez povšimnutia, ťa jedného dňa zastaví.
+
+A ešte niečo dôležité. Nie si na to sám. Duch Svätý, ktorý v tebe prebýva odo dňa, keď si uveril, je pri tom s tebou. Nemusíš oň prosiť ani naň čakať. Je tam.
+
+Tak teda prakticky: malá časť denne, radšej ráno alebo večer, vždy v tom istom čase. Evanjelium podľa Jána ako začiatok. Otázka „komu je to napísané“ ako sprievodca. A pokoj v tom, že nemusíš stihnúť všetko.
+
+Nie je to úloha, ktorú treba splniť. Je to spôsob, ako tráviť čas s Tým, ktorý ťa miluje.`,
+        verses: [
+            { text: "Skúmate Písma, lebo si myslíte, že večný život máte v nich, a tie vydávajú svedectvo o mne.", ref: "Ján 5, 39" },
+            { text: "Usiluj sa postaviť pred Boha ako osvedčený, ako pracovník, ktorý sa nepotrebuje hanbiť a správne podáva slovo pravdy.", ref: "2. Timoteovi 2, 15" },
+            { text: "Lebo slovo Božie je živé a mocné a je ostrejšie než ktorýkoľvek dvojsečný meč a preniká až do rozdelenia duše a ducha, kĺbov a špikov a je schopné posudzovať hnutie a zmýšľanie srdca.", ref: "Židom 4, 12" }
+        ],
+        prayer: `Drahý nebeský Otče,
+
+prichádzam k Tebe v mene Pána Ježiša Krista a otváram Tvoje Slovo.
+
+Vyznávam Ti, že som ho neraz otvoril a zase zavrel, lebo som mu nerozumel alebo som na to nemal silu. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma neposudzuješ podľa toho, koľko som prečítal.
+
+Ďakujem Ti, že Písmo svedčí o Tvojom Synovi. Daj mi Ho v ňom vidieť. Nechcem len vedieť viac, chcem Ho poznať lepšie.
+
+Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri a je pri mne, keď čítam. Otvor mi oči môjho srdca, aby som rozumel tomu, čo mi chceš povedať dnes.
+
+Daj mi trpezlivosť s tým, čomu ešte nerozumiem. Nech nečítam preto, aby som si niečo odškrtol, ale preto, aby som bol s Tebou.
+
+Tvoje Slovo je živé. Nech koná vo mne.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "ako-citat-bibliu",
+        tags: ["neistota", "pochybnosti", "nádej", "obnova", "pokoj"],
+        available: true,
+        scriptureTheme: "Ján 5, 2. Timoteovi 2, Židom 4",
+        isStarter: false
     }
 };
 
