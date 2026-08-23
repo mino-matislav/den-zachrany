@@ -1211,6 +1211,12 @@ Správne podávať Slovo znamená aj vedieť, komu boli ktoré slová povedané.
 
 Neznamená to, že sú tie časti menej dôležité. Bez tejto otázky im však ľahko porozumieš nesprávne. A vtedy sa stáva to najhoršie: začneš na seba brať bremená, ktoré ti Boh nikdy nedal.
 
+Boh totiž nezjavil všetko naraz. Zjavoval postupne. Apoštol Pavel o tom, čo dostal pre cirkev, napísal:
+
+"ktoré v iných pokoleniach nebolo známe synom ľudským tak, ako to Duch teraz zjavil Jeho svätým apoštolom a prorokom, totiž, že pohania skrze evanjelium sú spoludedičmi, spoluúdmi (toho istého) tela a spoluúčastníkmi na zasľúbeniach v Kristovi Ježišovi;"
+
+Všimni si tie slová: v iných pokoleniach nebolo známe. To, čo dnes vieš ty, ľudia v Starej zmluve nevedeli. Preto keď čítaš proroka alebo žalm, čítaš slová človeka, ktorý ešte nevedel to, čo vieš ty. Ich slová sú pravdivé a vzácne. Len ešte nepoznali celý Boží plán.
+
 A tu je praktický kľúč: listy apoštolov sú písané priamo veriacim v Kristovi. Rimanom, Efezským, Filipským, Kolosenským. Keď tam čítaš „vy“ a „vám“, myslí sa tým aj ty. Preto sa v nich oplatí bývať najviac.
 
 Nemusíš rozumieť všetkému naraz.
@@ -1235,6 +1241,7 @@ Nie je to úloha, ktorú treba splniť. Je to spôsob, ako tráviť čas s Tým,
         verses: [
             { text: "Skúmate Písma, lebo si myslíte, že večný život máte v nich, a tie vydávajú svedectvo o mne.", ref: "Ján 5, 39" },
             { text: "Usiluj sa postaviť pred Boha ako osvedčený, ako pracovník, ktorý sa nepotrebuje hanbiť a správne podáva slovo pravdy.", ref: "2. Timoteovi 2, 15" },
+            { text: "ktoré v iných pokoleniach nebolo známe synom ľudským tak, ako to Duch teraz zjavil Jeho svätým apoštolom a prorokom, totiž, že pohania skrze evanjelium sú spoludedičmi, spoluúdmi (toho istého) tela a spoluúčastníkmi na zasľúbeniach v Kristovi Ježišovi;", ref: "Efezským 3, 5 – 6" },
             { text: "Lebo slovo Božie je živé a mocné a je ostrejšie než ktorýkoľvek dvojsečný meč a preniká až do rozdelenia duše a ducha, kĺbov a špikov a je schopné posudzovať hnutie a zmýšľanie srdca.", ref: "Židom 4, 12" }
         ],
         prayer: `Drahý nebeský Otče,
@@ -1259,7 +1266,7 @@ Amen.`,
         illustrationRef: "ako-citat-bibliu",
         tags: ["neistota", "pochybnosti", "nádej", "obnova", "pokoj"],
         available: true,
-        scriptureTheme: "Ján 5, 2. Timoteovi 2, Židom 4",
+        scriptureTheme: "Ján 5, 2. Timoteovi 2, Efezským 3, Židom 4",
         isStarter: false
     }
 };
