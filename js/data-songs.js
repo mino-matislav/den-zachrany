@@ -1669,6 +1669,132 @@ const songData = {
                 ref: "Skutky 4, 12 — ECAV"
             }
         ]
+    },
+    17: {
+        id: 17,
+        number: 17,
+        title: "Synovia svetla",
+        subtitle: "Istota víťazstva v Božej výzbroji",
+        audioUrl: "assets/audio/songs/17-synovia-svetla.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Synovia svetla,",
+                    "synovia dňa.",
+                    "Nepatríme noci,",
+                    "nám nevládne tma.",
+                    "Synovia svetla,",
+                    "synovia dňa.",
+                    "Stojíme v pravde,",
+                    "proti duchom zla."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 1",
+                lines: [
+                    "Celú výzbroj oblečieme,",
+                    "zlé dni len s ňou prekonáme.",
+                    "Pancier viery nasadíme,",
+                    "prilbu spásy a nádeje."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Sloha 2",
+                lines: [
+                    "Triezvo bdieme, nezaspíme,",
+                    "ohnivé šípy uhasíme.",
+                    "V Jeho moci silní sme,",
+                    "verní stále ostávame."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Synovia svetla,",
+                    "synovia dňa.",
+                    "Nepatríme noci,",
+                    "nám nevládne tma.",
+                    "Synovia svetla,",
+                    "synovia dňa.",
+                    "Stojíme v pravde,",
+                    "proti duchom zla."
+                ]
+            },
+            {
+                type: "bridge",
+                label: "Bridge",
+                lines: [
+                    "Kedysi sme boli tmou,",
+                    "a teraz sme svetlom v Ňom.",
+                    "Jeho spravodlivosťou,",
+                    "obstojíme úkladom."
+                ]
+            },
+            {
+                type: "chorus",
+                label: "Refrén",
+                lines: [
+                    "Synovia svetla,",
+                    "synovia dňa.",
+                    "Nepatríme noci,",
+                    "nám nevládne tma.",
+                    "Synovia svetla,",
+                    "synovia dňa.",
+                    "Stojíme v pravde,",
+                    "proti duchom zla."
+                ]
+            },
+            {
+                type: "verse",
+                label: "Záver",
+                lines: [
+                    "Meč Ducha je víťazom,",
+                    "obstojíme úkladom.",
+                    "Naplnení pokojom,",
+                    "meč Ducha je víťazom."
+                ]
+            }
+        ],
+        verses: [
+            {
+                text: "Veď vy všetci ste synovia svetla a synovia dňa. Nepatríme noci ani tme.",
+                ref: "1. Tesalonickým 5, 5 — ECAV"
+            },
+            {
+                text: "Ale my (ako synovia) dňa buďme triezvi, oblečme si pancier viery a lásky a prilbu nádeje na spasenie.",
+                ref: "1. Tesalonickým 5, 8 — ECAV"
+            },
+            {
+                text: "Oblečte sa do celej výzbroje Božej, aby ste mohli obstáť proti úkladom diabla.",
+                ref: "Efezským 6, 11 — ECAV"
+            },
+            {
+                text: "Veď náš boj nie je proti krvi a telu, ale proti kniežatstvám a mocnostiam, proti pánom sveta tejto temnosti, proti zlým duchom v nebesiach.",
+                ref: "Efezským 6, 12 — ECAV"
+            },
+            {
+                text: "Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka.",
+                ref: "Efezským 6, 16 — ECAV"
+            },
+            {
+                text: "Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie.",
+                ref: "Efezským 6, 17 — ECAV"
+            },
+            {
+                text: "Veď ste boli kedysi tmou, ale teraz ste svetlom v Pánovi; ako deti svetla žite.",
+                ref: "Efezským 5, 8 — ECAV"
+            },
+            {
+                text: "Napokon posilňujte sa v Pánovi a v moci Jeho sily.",
+                ref: "Efezským 6, 10 — ECAV"
+            }
+        ]
     }
 };
 
@@ -1768,5 +1894,11 @@ const songList = [
         number: 16,
         title: "Na rozhraní tmy",
         subtitle: "Svetlo, ktoré prenikne aj do najhlbšej tmy"
+    },
+    {
+        id: 17,
+        number: 17,
+        title: "Synovia svetla",
+        subtitle: "Istota víťazstva v Božej výzbroji"
     }
 ];
