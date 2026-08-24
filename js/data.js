@@ -1261,8 +1261,8 @@ Tvoje Slovo je živé. Nech koná vo mne.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-20.mp3",
+        hasAudio: true,
         illustrationRef: "ako-citat-bibliu",
         tags: ["neistota", "pochybnosti", "nádej", "obnova", "pokoj"],
         available: true,
