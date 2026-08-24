@@ -1268,6 +1268,81 @@ Amen.`,
         available: true,
         scriptureTheme: "Ján 5, 2. Timoteovi 2, Efezským 3, Židom 4",
         isStarter: false
+    },
+    "21": {
+        id: "21",
+        title: "Keď svet kričí strachom",
+        subtitle: "Vojny, choroby, zlé správy. Ako zostať v pokoji, keď sa všetko okolo teba trasie",
+        shortDescription: "Ako zostať v pokoji uprostred vojen, chorôb a zlých správ – a prečo pocit strachu nie je znakom slabej viery.",
+        fullText: `Drahý brat, drahá sestra v Kristovi,
+
+stačí zapnúť televízor, rozhlas alebo telefón a za pár minút si vystavený desiatkam správ, ktoré ťa majú vystrašiť. Vojna niekde vo svete. Nová choroba. Kríza, ktorá vraj práve prichádza.
+
+Nie je náhoda, že sa cítiš unavený a nepokojný. Zlé správy sa šíria rýchlejšie než dobré a pozornosť priťahujú viac. A keď to trvá dosť dlho, srdce si zvykne biť podľa titulkov namiesto podľa toho, kto v skutočnosti si v Kristovi.
+
+Apoštol Pavel poznal ohrozenie zblízka. Keď písal svoj druhý list Timoteovi, sedel vo väzení a vedel, že jeho život sa chýli ku koncu. V tom istom liste píše o sebe ako o väzňovi. A práve odtiaľ, nie z bezpečia domova, napísal mladému spolupracovníkovi toto:
+
+"Boh nám zaiste nedal ducha bojazlivosti, ale (ducha) moci, lásky a sebaovládania."
+
+Všimni si, čo tu Pavel hovorí. Nepíše, aby sa Timoteus vzchopil a bol statočnejší. Hovorí mu, čo už od Boha dostal.
+
+Boh nedal ducha bojazlivosti. Strach preto nemusí určovať, ako budeš premýšľať, ako sa rozhodneš a ako zareaguješ.
+
+Namiesto toho ti dal ducha moci, lásky a sebaovládania. Nie je to sila, ktorú musíš v sebe nájsť. Je to sila, ktorú si už dostal.
+
+Tu treba povedať ešte jednu vec. Samotný pocit strachu pri zlej správe nie je hriech ani znak slabej viery. Písmo nikde nehovorí, že veriaci človek nič necíti. Rozdiel je v tom, čo s tým pocitom urobíš. Či mu dovolíš riadiť svoje srdce, alebo ho odovzdáš Bohu.
+
+Ten istý princíp vyslovil aj sám Pán Ježiš. Povedal to učeníkom v predvečer svojho utrpenia, keď dobre vedel, čo Ho čaká:
+
+"Toto som vám povedal, aby ste mali pokoj vo mne. Na svete máte súženie, ale dúfajte, ja som premohol svet."
+
+Nesľúbil im, že súženie nepríde. Povedal pravý opak: na svete máte súženie. Nezakrýval to a nesľuboval život bez ťažkostí.
+
+Ale hneď v tej istej vete im ukázal, kde majú hľadať pokoj. Nie v okolnostiach, ale v Ňom. A dal im na to dôvod: ja som premohol svet.
+
+To víťazstvo nie je niečo, na čo ešte len čakáme. Je hotové. Preto sa oň dá oprieť už dnes.
+
+Čo s tým teda robiť prakticky?
+
+Keď počuješ niečo, čo ťa má vystrašiť, odovzdaj to Bohu. Nie preto, že by si sa nesmel pýtať alebo prosiť. Pavel sám hovoril o modlitbách aj prosbách. Ide o to, odkiaľ tá prosba vychádza. Či z paniky, alebo z dôvery, že Boh počuje a stará sa.
+
+Nemusíš vedieť, čo prinesie zajtrajšia správa. Písmo ti nesľubuje, že budeš vopred poznať, ako to vo svete dopadne.
+
+Ale vieš, komu patríš. A vieš, že Kristus premohol svet.
+
+To je pokoj, ktorý neprichádza z toho, že sa okolnosti zmenia. Prichádza z toho, kde stojíš.
+
+A ty stojíš v Kristovi Ježišovi.`,
+        verses: [
+            { text: "Boh nám zaiste nedal ducha bojazlivosti, ale (ducha) moci, lásky a sebaovládania.", ref: "2. Timoteovi 1, 7" },
+            { text: "Toto som vám povedal, aby ste mali pokoj vo mne. Na svete máte súženie, ale dúfajte, ja som premohol svet.", ref: "Ján 16, 33" }
+        ],
+        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoju tvár v mene Pána Ježiša Krista.
+
+Vyznávam Ti, že som sa nejeden raz nechal vystrašiť tým, čo počujem a čítam o dianí vo svete. Moje srdce niekedy bije podľa správ namiesto podľa Tvojej pravdy.
+
+Ďakujem Ti, že si mi nedal ducha bojazlivosti, ale ducha moci, lásky a sebaovládania. Nemusím si tú silu vytvárať sám. Už som ju dostal od Teba.
+
+Ďakujem Ti, že Pán Ježiš premohol svet. Jeho víťazstvo je hotové a ja v Ňom dnes stojím.
+
+Nemusím vedieť, čo prinesie zajtrajší deň. Viem však, komu patrím.
+
+Preto Ti dnes odovzdávam to, čoho sa bojím. Nepredstieram, že nič necítim. Skladám to na Teba, lebo Ty sa o mňa staráš.
+
+Zostávam v pokoji, ktorý si mi dal, bez ohľadu na to, čo tento deň prinesie.
+
+V mocnom mene Ježiša Krista.
+
+Amen.`,
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "pokoj-ked-svet-kricí",
+        tags: ["strach", "úzkosť", "neistota", "pokoj", "nádej"],
+        available: true,
+        scriptureTheme: "2. Timoteovi 1, Ján 16",
+        isStarter: false
     }
 };
 
