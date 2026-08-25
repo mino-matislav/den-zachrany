@@ -166,6 +166,13 @@ const s1 = {};
 new Function('e', read('js/data.js') + ';e.chapterData = chapterData;')(s1);
 const chapterData = s1.chapterData;
 must(chapterData && Object.keys(chapterData).length > 0, 'chapterData nie je prázdne');
+// duplicitný blok kapitoly by sa v JS len prepísal a nikto by si to nevšimol
+const surove = read('js/data.js');
+const cisla = (surove.match(/^    "\d+": \{/gm) || []).map(x => x.match(/\d+/)[0]);
+const dupl = cisla.filter((c, i) => cisla.indexOf(c) !== i);
+must(dupl.length === 0, `žiadna kapitola nie je v data.js dvakrát${dupl.length ? ' (duplicitné: ' + [...new Set(dupl)].join(', ') + ')' : ''}`);
+must(cisla.length === Object.keys(chapterData).length,
+  `počet blokov v súbore sedí s počtom kapitol (${cisla.length} vs ${Object.keys(chapterData).length})`);
 // popis domovskej musí uvádzať aktuálny počet kapitol
 const pocetKap = Object.values(chapterData).filter(c => c.available).length;
 must(read('index.html').includes(`${pocetKap} kapitol`),
