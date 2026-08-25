@@ -1336,8 +1336,8 @@ Zostávam v pokoji, ktorý si mi dal, bez ohľadu na to, čo tento deň prinesie
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-21.mp3",
+        hasAudio: true,
         illustrationRef: "pokoj-ked-svet-kricí",
         tags: ["strach", "úzkosť", "neistota", "pokoj", "nádej"],
         available: true,
