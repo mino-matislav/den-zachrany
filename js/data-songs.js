@@ -1795,6 +1795,93 @@ const songData = {
                 ref: "Efezským 6, 10 — ECAV"
             }
         ]
+    },
+    "18": {
+        id: 18,
+        number: 18,
+        title: "Široká diaľnica",
+        subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus",
+        audioUrl: "assets/audio/songs/18-siroka-dialnica.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "Pohodlne rovno vpred,",
+                "životom sa rútim.",
+                "Nevyčnievam zlatý stred,",
+                "volantom si krútim."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 2",
+            lines: [
+                "Nie je to tak hrozne zlé,",
+                "klesám, padám, vstávam.",
+                "Doprajem si koľko chcem,",
+                "občas zakopávam."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Svojou vlastnou necestou,",
+                "križovatky svetla míňam.",
+                "Semafor som prehliadol,",
+                "svoju hlavu sám si stínam.",
+                "Pod nánosom šrotu – umieram."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Oživil ma On,",
+                "oživil ma On,",
+                "z prahu smrti vytrhol ma,",
+                "Tvorca môjho prachu.",
+                "Oživil ma On,",
+                "oživil ma On,",
+                "rozbitého uzdravil ma,",
+                "môžem žiť bez strachu."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Svojou vlastnou necestou,",
+                "križovatky svetla míňam.",
+                "Semafor som prehliadol,",
+                "svoju hlavu sám si stínam.",
+                "Pod nánosom šrotu – umieram."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Oživil ma On,",
+                "oživil ma On,",
+                "zabúdam na to čo bolo,",
+                "úzkou cestou vedie ma.",
+                "Oživil ma On,",
+                "oživil ma On,",
+                "povolal čo zahynulo,",
+                "smelo bežím do cieľa."
+            ]
+        }
+        ],
+        verses: [
+        { text: "Vchádzajte tesnou bránou, lebo priestranná brána a široká cesta vedie do zahynutia, a mnohí ňou vchádzajú; ale do života vedie tesná brána a úzka cesta, a málo je tých, ktorí ju nachádzajú.", ref: "Matúš 7, 13-14 — ECAV" },
+        { text: "Veď On vie, ako sme utvorení, a v pamäti má, že sme prach.", ref: "Žalm 103, 14 — ECAV" },
+        { text: "Ale Boh, bohatý na zmilovanie, pre svoju veľkú lásku, ktorou si nás zamiloval, obživil nás s Kristom, keď sme boli mŕtvi v prestúpeniach - veď milosťou ste spasení!", ref: "Efezským 2, 4-5 — ECAV" },
+        { text: "Lebo Syn človeka prišiel hľadať a spasiť, čo bolo zahynulo.", ref: "Lukáš 19, 10 — ECAV" },
+        { text: "Bratia, ja si nemyslím, že som už uchvátil. Ale jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi.", ref: "Filipským 3, 13-14 — ECAV" }
+        ]
     }
 };
 
@@ -1900,5 +1987,6 @@ const songList = [
         number: 17,
         title: "Synovia svetla",
         subtitle: "Istota víťazstva v Božej výzbroji"
-    }
+    },
+    { id: 18, number: 18, title: "Široká diaľnica", subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus" }
 ];
