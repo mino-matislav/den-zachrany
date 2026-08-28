@@ -720,7 +720,7 @@ Preto sa nesnaž vo svojej hlave vyhrať hádku. Namiesto toho sa pýtaj: čí j
         ],
         prayer: `Drahý nebeský Otče, môj Potešiteľ a môj Pokoj,
 
-prichádzam dnes k Tebe ako Tvoje dieťa a hľadám bezpečie v Tvojej prítomnosti. Otváram pred Tebou svoje srdce a vyznávam svoju slabosť. Moja myseľ býva unavená a zaplavená myšlienkami viny, hanby a zlyhania, ktoré znejú presne ako môj vlastný hlas. Priznávam, že som ich veľakrát prijal za svoju identitu. Odpusť mi to, Otče, a očisti moju myseľ.
+prichádzam dnes k Tebe ako Tvoje dieťa a hľadám bezpečie v Tvojej prítomnosti. Otváram pred Tebou svoje srdce a vyznávam svoju slabosť. Moja myseľ býva unavená a zaplavená myšlienkami viny, hanby a zlyhania, ktoré znejú presne ako môj vlastný hlas. Priznávam, že som ich veľakrát prijal za svoju identitu. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda obnovuje moju myseľ.
 
 Ďakujem Ti za zasľúbenie Tvojho Syna, že Jeho ovce počúvajú Jeho hlas. Neprosím Ťa teda o schopnosť, ktorú by som nemal – ďakujem Ti za tú, ktorú si mi už dal. Uč ma rozlišovať. Nech spoznám, že to, čo tlačí, ponáhľa sa, zaháňa do hanby a púta ma k minulosti, nie je Tvoj hlas.
 
@@ -731,7 +731,7 @@ Podľa 2. listu Korintským 10, 5 podrobujem každú myšlienku v poslušnosť K
 V mocnom mene Ježiša Krista prijímam Tvoj pokoj nad svojou mysľou a vyhlasujem, že môj život je skrytý v Kristovi.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-12.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-12.mp3?v=3",
         hasAudio: true,
         illustrationRef: "bozi-hlas-pokoj-mysel",
         tags: ["myšlienky", "pochybnosti", "strach", "pokoj", "sloboda"],
