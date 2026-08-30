@@ -40,6 +40,22 @@ const markers = {
 };
 Object.entries(markers).forEach(([name, needle]) => must(app.includes(needle), name));
 
+// ---------- 2b) Kľúčové bloky v player.js (contract) ----------
+// POZOR: tieto riadky sú výsledkom ladenia, ktoré stálo veľa času.
+// Podrobné vysvetlenie prečo: docs/AUDIO-PREHRAVAC.md — PREČÍTAJ pred zmenou player.js.
+console.log('\n[2b] Kľúčové bloky v js/player.js');
+const player = read('js/player.js');
+const playerMarkers = {
+  'priming pri prvom spustení (hasPrimed)': 'hasPrimed',
+  'seek na 0 pred prvým play (napĺňa buffer)': 'currentTime = 0',
+  'čakanie na nábeh dekodéra (setTimeout 100 ms)': '}, 100);',
+};
+Object.entries(playerMarkers).forEach(([name, needle]) => must(player.includes(needle), name));
+// Nahradenie priming bloku čakaním na 'canplay' spôsobilo pauzu po prvom slove
+// v úvodnom slove aj vo všetkých modlitbách — 'canplay' príde priskoro.
+must(!player.includes("addEventListener('canplay'"),
+     "NEpoužíva 'canplay' na štart (spôsobovalo pauzu po prvom slove)");
+
 // ---------- 3) Napojenie skriptov v HTML ----------
 console.log('\n[3] Napojenie skriptov v HTML');
 const wiring = {
@@ -261,6 +277,37 @@ try {
   must(els['.chapter-prayer-text'].innerHTML.includes('<p>'), `kapitola ${firstAvail}: modlitba sa naplnila`);
 } catch (e) {
   bad('render smoke test zlyhal: ' + e.message);
+}
+
+// ---------- 8) Audio piesní: tichý nábeh na začiatku ----------
+// Piesne 18 a 19 pôvodne začínali hudbou už po ~0,12 s. Prehliadač si na štarte
+// krátko dobuferuje a pri takom súbore to preruší hudbu (počuť "prvý tón, pauza,
+// pokračovanie"). Všetkých 17 starších piesní má nábeh ~1,0–1,5 s a problém nemá.
+// Podrobne: docs/AUDIO-PREHRAVAC.md
+console.log('\n[8] Audio piesní — tichý nábeh');
+try {
+  execSync('ffprobe -version', { stdio: 'pipe' });
+  const songsDir = P('assets/audio/songs');
+  if (fs.existsSync(songsDir)) {
+    fs.readdirSync(songsDir).filter(f => f.endsWith('.mp3')).sort().forEach(f => {
+      const full = songsDir + '/' + f;
+      // Zmeriame hlasitosť prvých 0,6 s. Ak tam je reálny zvuk, nábeh je prikrátky.
+      const out = execSync(
+        `ffmpeg -hide_banner -t 0.6 -i "${full}" -af volumedetect -f null - 2>&1 || true`,
+        { encoding: 'utf8', shell: '/bin/bash' }
+      );
+      const m = out.match(/max_volume:\s*(-?[0-9.]+) dB/);
+      if (!m) {
+        ok(`${f} — nábeh sa nedal zmerať (preskočené)`);
+      } else {
+        const maxDb = parseFloat(m[1]);
+        must(maxDb < -30,
+          `${f} — prvých 0,6 s je tiché (max ${maxDb.toFixed(1)} dB, limit -30)`);
+      }
+    });
+  }
+} catch (e) {
+  ok('ffprobe/ffmpeg nedostupné — kontrola nábehu preskočená');
 }
 
 // ---------- Výsledok ----------

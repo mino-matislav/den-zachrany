@@ -110,7 +110,13 @@ AudioPlayer.prototype.play = function() {
     var self = this;
 
     if (!this.hasPrimed) {
-        // Prvé spustenie: vynútiť seek na 0 a počkať kým dekodér nabehne
+        // ⚠ NEMENIŤ BEZ PREČÍTANIA docs/AUDIO-PREHRAVAC.md
+        // Seek na 0 + krátke čakanie prinútia prehliadač naplniť buffer skôr,
+        // než sa spustí zvuk. Vyzerá to ako zbytočnosť, nie je.
+        // 30.8.2026 to bolo nahradené čakaním na 'canplay' → v úvodnom slove
+        // bolo počuť "nemôžeš" → pauza → zvyšok. Revert: commit b80f800.
+        // Tento prehrávač obsluhuje úvodné slovo, 22 modlitieb aj 19 piesní —
+        // zmena sa dotkne všetkého naraz. verify.js [2b] to stráži.
         this.hasPrimed = true;
         this.audio.currentTime = 0;
 
