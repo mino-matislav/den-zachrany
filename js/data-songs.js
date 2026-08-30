@@ -1888,7 +1888,7 @@ const songData = {
         number: 19,
         title: "Od temnoty ku svetlu",
         subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi",
-        audioUrl: "assets/audio/songs/19-od-temnoty-ku-svetlu.mp3?v=2",
+        audioUrl: "assets/audio/songs/19-od-temnoty-ku-svetlu.mp3?v=3",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {
