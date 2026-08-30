@@ -1801,7 +1801,7 @@ const songData = {
         number: 18,
         title: "Široká diaľnica",
         subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus",
-        audioUrl: "assets/audio/songs/18-siroka-dialnica.mp3",
+        audioUrl: "assets/audio/songs/18-siroka-dialnica.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {
@@ -1888,7 +1888,7 @@ const songData = {
         number: 19,
         title: "Od temnoty ku svetlu",
         subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi",
-        audioUrl: "assets/audio/songs/19-od-temnoty-ku-svetlu.mp3",
+        audioUrl: "assets/audio/songs/19-od-temnoty-ku-svetlu.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {
