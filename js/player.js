@@ -110,19 +110,37 @@ AudioPlayer.prototype.play = function() {
     var self = this;
 
     if (!this.hasPrimed) {
-        // Prvé spustenie: vynútiť seek na 0 a počkať kým dekodér nabehne
+        // Prvé spustenie: nerobíme seek (pozícia je už 0) a namiesto pevného
+        // čakania počkáme, kým dekodér naozaj ohlási pripravenosť. Seek na 0
+        // v MP3 skáče na najbližší rámec a orezával začiatok skladby.
         this.hasPrimed = true;
-        this.audio.currentTime = 0;
 
-        // Krátke čakanie na inicializáciu dekodéra
-        setTimeout(function() {
+        var startPlayback = function() {
             self.audio.play().then(function() {
                 self.isPlaying = true;
                 self.togglePlayBtn();
             }).catch(function(error) {
                 console.warn('Prehrávanie zlyhalo:', error);
             });
-        }, 100);
+        };
+
+        if (this.audio.readyState >= 3) {
+            // HAVE_FUTURE_DATA – dosť dát, môžeme hrať hneď
+            startPlayback();
+        } else {
+            var onReady = function() {
+                self.audio.removeEventListener('canplay', onReady);
+                startPlayback();
+            };
+            this.audio.addEventListener('canplay', onReady);
+            // Poistka, keby 'canplay' neprišlo (napr. pomalá sieť)
+            setTimeout(function() {
+                if (!self.isPlaying) {
+                    self.audio.removeEventListener('canplay', onReady);
+                    startPlayback();
+                }
+            }, 1500);
+        }
         return;
     }
 
