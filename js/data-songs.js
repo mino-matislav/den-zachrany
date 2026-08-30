@@ -1882,6 +1882,83 @@ const songData = {
         { text: "Lebo Syn človeka prišiel hľadať a spasiť, čo bolo zahynulo.", ref: "Lukáš 19, 10 — ECAV" },
         { text: "Bratia, ja si nemyslím, že som už uchvátil. Ale jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi.", ref: "Filipským 3, 13-14 — ECAV" }
         ]
+    },
+    "19": {
+        id: 19,
+        number: 19,
+        title: "Od temnoty ku svetlu",
+        subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi",
+        audioUrl: "assets/audio/songs/19-od-temnoty-ku-svetlu.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "Veci, ktoré okom vidíš",
+                "podliehajú času.",
+                "Vnemy zraku v tele cítiš,",
+                "smerujú ťa k prachu."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 2",
+            lines: [
+                "Hlukom sveta ucho sýtiš,",
+                "nepotrebné smeti.",
+                "Hľadáš nádej, v duši kričíš,",
+                "poblúdené deti."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Tak sa prebuď, neustále spíš,",
+                "naháňaš len vietor.",
+                "V márnych túžbach, klamom sa ničíš,",
+                "iba prázdny priestor."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Od temnoty ku svetlu,",
+                "obráť srdce s nádejou.",
+                "Nastav chrbát svetu,",
+                "veď to už máš za sebou."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Tak sa prebuď, neustále spíš,",
+                "naháňaš len vietor.",
+                "V márnych túžbach, klamom sa ničíš,",
+                "iba prázdny priestor."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Od temnoty ku svetlu,",
+                "obráť srdce s nádejou.",
+                "Nastav chrbát svetu,",
+                "veď to už máš za sebou."
+            ]
+        }
+        ],
+        verses: [
+        { text: "Keď nehľadíme na viditeľné, ale na neviditeľné. Viditeľné je totiž dočasné, ale neviditeľné je večné.", ref: "2. Korintským 4, 18 — ECAV" },
+        { text: "My všetci sme blúdili ako ovce, všetci sme chodili vlastnou cestou. Hospodin spôsobil, aby ho zasiahla neprávosť všetkých nás.", ref: "Izaiáš 53, 6 — ECAV" },
+        { text: "Preto hovorí: Prebuď sa, kto spíš, vstaň z mŕtvych, a zaskvie sa ti Kristus.", ref: "Efezským 5, 14 — ECAV" },
+        { text: "Boli ste ako blúdiace ovce, ale teraz ste navrátení Pastierovi a Biskupovi vašich duší!", ref: "1. Petra 2, 25 — ECAV" },
+        { text: "Ale tým, čo Ho prijali, dal moc stať sa deťmi Božími, tým, čo veria v Jeho meno.", ref: "Ján 1, 12 — ECAV" }
+        ]
     }
 };
 
@@ -1988,5 +2065,6 @@ const songList = [
         title: "Synovia svetla",
         subtitle: "Istota víťazstva v Božej výzbroji"
     },
-    { id: 18, number: 18, title: "Široká diaľnica", subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus" }
+    { id: 18, number: 18, title: "Široká diaľnica", subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus" },
+    { id: 19, number: 19, title: "Od temnoty ku svetlu", subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi" }
 ];
