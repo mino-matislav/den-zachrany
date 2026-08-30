@@ -283,8 +283,10 @@ try {
 // Piesne 18 a 19 pôvodne začínali hudbou už po ~0,12 s. Prehliadač si na štarte
 // krátko dobuferuje a pri takom súbore to preruší hudbu (počuť "prvý tón, pauza,
 // pokračovanie"). Všetkých 17 starších piesní má nábeh ~1,0–1,5 s a problém nemá.
+// TÝKA SA IBA PIESNÍ. Modlitby a úvodné slovo majú nábeh 0,03-0,11 s a je to
+// správne — sú 192 kbps mono, buferujú sa rýchlo. Ticho im NEPRIDÁVAŤ.
 // Podrobne: docs/AUDIO-PREHRAVAC.md
-console.log('\n[8] Audio piesní — tichý nábeh');
+console.log('\n[8] Audio piesní — tichý nábeh (iba assets/audio/songs/)');
 try {
   execSync('ffprobe -version', { stdio: 'pipe' });
   const songsDir = P('assets/audio/songs');

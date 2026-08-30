@@ -45,9 +45,17 @@ padne do ticha a nie je ho počuť. Toto je **prijateľná cena** za spoľahliv�
 
 ---
 
-## 2. Piesne musia mať tichý nábeh ~1,1 s
+## 2. Piesne musia mať tichý nábeh ~1,1 s (modlitby NIE)
 
 Všetky piesne majú na začiatku **1,0–1,5 s ticha**. Nová pieseň musí mať tiež.
+
+**Pozor — netýka sa modlitieb ani úvodného slova.** Tie majú nábeh iba
+0,03–0,11 s (úvodné slovo 0,025–0,05 s, 22 modlitieb priemer 0,056 s) a je to
+tak správne. **Ticho im nepridávať.**
+
+Prečo je v tom rozdiel: modlitby sú 192 kbps mono, piesne 320 kbps stereo —
+teda zhruba dvojnásobok dát, ktoré prehliadač na štarte musí načítať. Pri
+hovorenom slove buferovanie zvládne priming blok (bod 1), pri piesňach už nie.
 
 ### Prečo
 
@@ -67,6 +75,7 @@ ffmpeg -i vstup.mp3 -af "adelay=960|960" -c:a libmp3lame -b:a 320k -write_xing 1
 ```
 
 `verify.js [8]` kontroluje, že prvých 0,6 s každej piesne je pod −30 dB.
+Číta iba `assets/audio/songs/`, takže modlitieb sa kontrola zámerne netýka.
 
 ---
 
