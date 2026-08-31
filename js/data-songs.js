@@ -1959,6 +1959,101 @@ const songData = {
         { text: "Boli ste ako blúdiace ovce, ale teraz ste navrátení Pastierovi a Biskupovi vašich duší!", ref: "1. Petra 2, 25 — ECAV" },
         { text: "Ale tým, čo Ho prijali, dal moc stať sa deťmi Božími, tým, čo veria v Jeho meno.", ref: "Ján 1, 12 — ECAV" }
         ]
+    },
+    "20": {
+        id: 20,
+        number: 20,
+        title: "V mrákave tmy",
+        subtitle: "Z tmy a vnútorného zápasu k svetlu, ktoré zachraňuje",
+        audioUrl: "assets/audio/songs/20-v-mrakave-tmy.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "V mojej duši mrákava tmy,",
+                "život ticho uniká.",
+                "Padám na nôž nabrúsený,",
+                "krv v tepnách mi vysychá."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 2",
+            lines: [
+                "Hlukom sveta otupený,",
+                "dych mladosti stráca sa.",
+                "Hľadám svetlo z ponurej hmly",
+                "pod hladinou nástraha."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Pokoj, lásku, radosť daj mi,",
+                "mocou Tvojou veď ma.",
+                "Cestou svetla, vpred ma pohni,",
+                "ak si hore spas ma."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Dobré čo chcem to nekonám,",
+                "zlé čo nechcem robím.",
+                "Ticho kričím, stonám, volám,",
+                "pevnou nohou nestojím.",
+                "Načo som tu, kto ma stvoril, kde si?",
+                "Vypni temno, v mojom vnútri, prosím."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Pokoj, lásku, radosť daj mi,",
+                "mocou Tvojou veď ma.",
+                "Cestou svetla, vpred ma pohni,",
+                "ak si hore spas ma.",
+                "Pokoj, lásku, radosť daj mi,",
+                "mocou Tvojou veď ma.",
+                "Cestou svetla, vpred ma pohni,",
+                "ak si hore spas ma."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Dobré čo chcem to nekonám,",
+                "zlé čo nechcem robím.",
+                "Ticho kričím, stonám, volám,",
+                "pevnou nohou nestojím.",
+                "Načo som tu, kto ma stvoril, kde si?",
+                "Vypni temno, v mojom vnútri, prosím."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Pokoj, lásku, radosť daj mi,",
+                "mocou Tvojou veď ma.",
+                "Cestou svetla, vpred ma pohni,",
+                "ak si hore spas ma."
+            ]
+        }
+        ],
+        verses: [
+        { text: "Nečiním totiž dobré, čo chcem, ale robím zlé, čo nechcem.", ref: "Rimanom 7, 19 — ECAV" },
+        { text: "Ale ovocie Ducha je: láska, radosť, pokoj, zhovievavosť, nežnosť, dobrotivosť, vernosť, krotkosť, zdržanlivosť.", ref: "Galaťanom 5, 22-23 — ECAV" },
+        { text: "Ó, zošli svoje svetlo a svoju pravdu! Ony nech ma vedú a privedú na Tvoj svätý vrch a ku Tvojim príbytkom.", ref: "Žalm 43, 3 — ECAV" },
+        { text: "Neraduj sa nado mnou, nepriateľka moja! Ak som padol, povstanem, ak sedím v tme, Hospodin mi je svetlom.", ref: "Micheáš 7, 8 — ECAV" },
+        { text: "A vtedy každý, kto bude vzývať meno Pánovo, bude zachránený.", ref: "Skutky 2, 21 — ECAV" }
+        ]
     }
 };
 
@@ -2066,5 +2161,6 @@ const songList = [
         subtitle: "Istota víťazstva v Božej výzbroji"
     },
     { id: 18, number: 18, title: "Široká diaľnica", subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus" },
-    { id: 19, number: 19, title: "Od temnoty ku svetlu", subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi" }
+    { id: 19, number: 19, title: "Od temnoty ku svetlu", subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi" },
+    { id: 20, number: 20, title: "V mrákave tmy", subtitle: "Z tmy a vnútorného zápasu k svetlu, ktoré zachraňuje" }
 ];
