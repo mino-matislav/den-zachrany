@@ -120,7 +120,10 @@ AudioPlayer.prototype.play = function() {
         this.hasPrimed = true;
         this.audio.currentTime = 0;
 
-        // Krátke čakanie na inicializáciu dekodéra
+        // Čakanie na dokončenie seeku a inicializáciu dekodéra.
+        // 100 ms nestačilo — seek je asynchrónny a keď nedobehol včas,
+        // prehrávanie sa spustilo uprostred neho a orezalo začiatok
+        // (prejavovalo sa nestále: raz áno, raz nie). 31.8.2026 → 250 ms.
         setTimeout(function() {
             self.audio.play().then(function() {
                 self.isPlaying = true;
@@ -128,7 +131,7 @@ AudioPlayer.prototype.play = function() {
             }).catch(function(error) {
                 console.warn('Prehrávanie zlyhalo:', error);
             });
-        }, 100);
+        }, 250);
         return;
     }
 

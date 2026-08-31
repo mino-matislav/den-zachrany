@@ -18,8 +18,15 @@ this.hasPrimed = true;
 this.audio.currentTime = 0;      // NEODSTRAŇOVAŤ
 setTimeout(function () {          // NEODSTRAŇOVAŤ
     self.audio.play()...
-}, 100);
+}, 250);
 ```
+
+**Prečo 250 ms a nie 100 ms (31.8.2026):** seek na 0 je asynchrónny. Keď
+nestihol dobehnúť do 100 ms, prehrávanie sa spustilo uprostred neho a orezalo
+začiatok skladby. Prejavovalo sa to nestále — raz to bolo počuť, raz nie, a to
+aj pri starých piesňach. Predĺženie čakania dá seeku čas dobehnúť. Logika
+zostala nezmenená, upravilo sa iba číslo. Cena: zvuk sa ozve o 0,15 s neskôr
+po stlačení play, čo je nepostrehnuteľné.
 
 **Vyzerá to ako zbytočná barlička, nie je.** Seek na 0 spolu s krátkym čakaním
 prinúti prehliadač naplniť buffer skôr, než sa spustí zvuk.

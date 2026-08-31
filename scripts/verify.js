@@ -48,7 +48,7 @@ const player = read('js/player.js');
 const playerMarkers = {
   'priming pri prvom spustení (hasPrimed)': 'hasPrimed',
   'seek na 0 pred prvým play (napĺňa buffer)': 'currentTime = 0',
-  'čakanie na nábeh dekodéra (setTimeout 100 ms)': '}, 100);',
+  'čakanie na nábeh dekodéra (setTimeout)': '}, 250);',
 };
 Object.entries(playerMarkers).forEach(([name, needle]) => must(player.includes(needle), name));
 // Nahradenie priming bloku čakaním na 'canplay' spôsobilo pauzu po prvom slove
