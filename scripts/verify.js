@@ -47,14 +47,17 @@ console.log('\n[2b] Kľúčové bloky v js/player.js');
 const player = read('js/player.js');
 const playerMarkers = {
   'priming pri prvom spustení (hasPrimed)': 'hasPrimed',
-  'seek na 0 pred prvým play (napĺňa buffer)': 'currentTime = 0',
-  'čakanie na nábeh dekodéra (setTimeout)': '}, 250);',
+  'čaká na dostatočný buffer (readyState >= 4)': 'readyState >= 4',
+  'čaká na canplaythrough (nie canplay)': "addEventListener('canplaythrough'",
+  'poistný timeout aby prehrávanie nevisело': 'setTimeout(go,',
 };
 Object.entries(playerMarkers).forEach(([name, needle]) => must(player.includes(needle), name));
-// Nahradenie priming bloku čakaním na 'canplay' spôsobilo pauzu po prvom slove
-// v úvodnom slove aj vo všetkých modlitbách — 'canplay' príde priskoro.
-must(!player.includes("addEventListener('canplay'"),
-     "NEpoužíva 'canplay' na štart (spôsobovalo pauzu po prvom slove)");
+// 'canplay' (bez 'through') fired priskoro → pauza po prvom slove (30.8.2026).
+// Seek na 0 na prvom spustení zahadzoval preload buffer → výpadok ~1 s (31.8.2026).
+must(!/addEventListener\('canplay'[^t]/.test(player),
+     "NEpoužíva 'canplay' na štart (má byť 'canplaythrough')");
+must(!/hasPrimed = true;[\s\S]{0,120}currentTime = 0/.test(player),
+     "priming NErobí seek currentTime=0 (zahadzoval preload buffer)");
 
 // ---------- 3) Napojenie skriptov v HTML ----------
 console.log('\n[3] Napojenie skriptov v HTML');

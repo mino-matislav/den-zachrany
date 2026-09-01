@@ -9,48 +9,44 @@ Každý bod nižšie stál hodiny ladenia. **Prečítaj pred akoukoľvek zmenou
 
 ---
 
-## 1. `js/player.js` — priming blok pri prvom spustení
+## 1. `js/player.js` — spustenie prvého prehrávania (buffer!)
 
-V `AudioPlayer.prototype.play` je pri prvom stlačení play toto:
+V `AudioPlayer.prototype.play` sa pri prvom stlačení play (`hasPrimed`) čaká,
+kým je stiahnutých **dosť dát na plynulé dohratie**, a až potom sa spustí zvuk:
 
 ```js
-this.hasPrimed = true;
-this.audio.currentTime = 0;      // NEODSTRAŇOVAŤ
-setTimeout(function () {          // NEODSTRAŇOVAŤ
-    self.audio.play()...
-}, 250);
+if (this.audio.readyState >= 4) {          // HAVE_ENOUGH_DATA
+    startPlayback();
+} else {
+    this.audio.addEventListener('canplaythrough', go);  // NIE 'canplay'!
+    setTimeout(go, 3000);                   // poistka, nech to nikdy nevisí
+}
 ```
 
-**Prečo 250 ms a nie 100 ms (31.8.2026):** seek na 0 je asynchrónny. Keď
-nestihol dobehnúť do 100 ms, prehrávanie sa spustilo uprostred neho a orezalo
-začiatok skladby. Prejavovalo sa to nestále — raz to bolo počuť, raz nie, a to
-aj pri starých piesňach. Predĺženie čakania dá seeku čas dobehnúť. Logika
-zostala nezmenená, upravilo sa iba číslo. Cena: zvuk sa ozve o 0,15 s neskôr
-po stlačení play, čo je nepostrehnuteľné.
+### Prečo takto (história — každý bod stál veľa ladenia)
 
-**Vyzerá to ako zbytočná barlička, nie je.** Seek na 0 spolu s krátkym čakaním
-prinúti prehliadač naplniť buffer skôr, než sa spustí zvuk.
+- **NEROBIŤ seek `currentTime = 0` na prvom spustení.** Pozícia je aj tak 0,
+  takže seek nič neposunie, ale na mobiloch **zahodí prednačítaný buffer**
+  (`preload="auto"`) a vynúti nové sťahovanie od začiatku. Dôsledok: zvuk hral
+  ~1 s a potom nastal **výpadok ~1 s** (buffer underrun), kým sa dosťahovalo.
+  Najviac to bolo počuť na modlitbách a úvodnom slove, ktoré nemajú tiché intro
+  ako piesne (31.8.2026). Predtým tam seek + pevný `setTimeout` boli — to bola
+  chyba, ktorá ten výpadok spôsobovala.
 
-### Čo sa stalo, keď sa to odstránilo (30.8.2026)
+- **Musí to byť `canplaythrough`, NIE `canplay`.** `canplay` znamená iba
+  „dá sa začať", `canplaythrough` znamená „dá sa dohrať bez zadrhnutia".
+  30.8.2026 bola skúšaná verzia s `canplay` → v úvodnom slove bolo počuť
+  „nemôžeš" → pauza → zvyšok (revert commit b80f800). `canplaythrough` čaká na
+  VIAC buffera, takže tento problém nerobí.
 
-Priming blok bol nahradený čakaním na udalosť `canplay`. Výsledok: v úvodnom
-slove bolo počuť **„nemôžeš" → pauza → zvyšok textu**. To isté hrozilo vo
-všetkých modlitbách aj piesňach. Príčina: `canplay` znamená iba „dá sa začať
-prehrávať", nie „je načítané dosť dát" — prehrávanie začalo a hneď muselo
-dobuferovať. Zmena bola revertovaná (commit `b80f800`).
+- **Poistný `setTimeout(go, 3000)`** spustí prehrávanie aj vtedy, keby
+  `canplaythrough` neprišlo (niektoré mobilné prehliadače ho pošlú neskoro alebo
+  vôbec). Radšej malé riziko zadrhnutia než aby play nikdy nezačal.
 
-**Pravidlo:** `player.js` používa **jeden** prehrávač pre úvodné slovo,
-22 modlitieb aj 19 piesní. Akákoľvek zmena sa dotkne všetkého naraz.
-Nikdy ju nenasadzuj bez toho, aby ju niekto reálne vypočul v prehliadači.
-
-### Známy vedľajší efekt (vedome tolerovaný)
-
-Seek na 0 v MP3 skáče na najbližší rámec (~26 ms), takže sa občas oreže
-pár milisekúnd zo začiatku. Preto majú piesne tichý nábeh (bod 2) — orezanie
-padne do ticha a nie je ho počuť. Toto je **prijateľná cena** za spoľahlivý
-štart. Neriešiť zásahom do `player.js`.
-
----
+Tento prehrávač obsluhuje úvodné slovo, 22 modlitieb aj 20 piesní — každá zmena
+sa dotkne všetkého naraz. **Nikdy nenasadzuj zmenu player.js bez reálneho
+vypočutia v prehliadači** (ideálne aj na mobile a na pomalšom pripojení).
+`verify.js [2b]` stráži kľúčové značky tohto riešenia.
 
 ## 2. Piesne musia mať tichý nábeh ~1,1 s (modlitby NIE)
 

@@ -111,27 +111,44 @@ AudioPlayer.prototype.play = function() {
 
     if (!this.hasPrimed) {
         // ⚠ NEMENIŤ BEZ PREČÍTANIA docs/AUDIO-PREHRAVAC.md
-        // Seek na 0 + krátke čakanie prinútia prehliadač naplniť buffer skôr,
-        // než sa spustí zvuk. Vyzerá to ako zbytočnosť, nie je.
-        // 30.8.2026 to bolo nahradené čakaním na 'canplay' → v úvodnom slove
-        // bolo počuť "nemôžeš" → pauza → zvyšok. Revert: commit b80f800.
-        // Tento prehrávač obsluhuje úvodné slovo, 22 modlitieb aj 19 piesní —
-        // zmena sa dotkne všetkého naraz. verify.js [2b] to stráži.
+        // Prvé spustenie. Kľúčové pre plynulé prehrávanie hovoreného slova
+        // (úvodné slovo + modlitby), ktoré nemajú tiché intro ako piesne.
+        //
+        // NEROBÍME seek (currentTime = 0): na prvom spustení je pozícia už 0
+        // a seek na mobiloch zahodí prednačítaný buffer (preload="auto") a
+        // vynúti nové sťahovanie od začiatku → výpadok ~1 s po prvom slove
+        // (buffer underrun). Pôvodný seek + pevný timeout tento výpadok robil.
+        //
+        // Namiesto pevného čakania počkáme, kým je NAOZAJ dosť dát na plynulé
+        // dohratie: readyState 4 (HAVE_ENOUGH_DATA) alebo udalosť
+        // 'canplaythrough'. POZOR: musí to byť 'canplaythrough' (dá sa dohrať
+        // bez zadrhnutia), NIE 'canplay' (iba "dá sa začať") — 'canplay' 30.8.2026
+        // spôsobilo pauzu po prvom slove (commit b80f800). Poistka: ak sa buffer
+        // nenaplní do 3 s, spustíme aj tak, nech prehrávanie nikdy nevisí.
         this.hasPrimed = true;
-        this.audio.currentTime = 0;
 
-        // Čakanie na dokončenie seeku a inicializáciu dekodéra.
-        // 100 ms nestačilo — seek je asynchrónny a keď nedobehol včas,
-        // prehrávanie sa spustilo uprostred neho a orezalo začiatok
-        // (prejavovalo sa nestále: raz áno, raz nie). 31.8.2026 → 250 ms.
-        setTimeout(function() {
+        var startPlayback = function() {
             self.audio.play().then(function() {
                 self.isPlaying = true;
                 self.togglePlayBtn();
             }).catch(function(error) {
                 console.warn('Prehrávanie zlyhalo:', error);
             });
-        }, 250);
+        };
+
+        if (this.audio.readyState >= 4) {
+            startPlayback();
+        } else {
+            var started = false;
+            var go = function() {
+                if (started) return;
+                started = true;
+                self.audio.removeEventListener('canplaythrough', go);
+                startPlayback();
+            };
+            this.audio.addEventListener('canplaythrough', go);
+            setTimeout(go, 3000);
+        }
         return;
     }
 
