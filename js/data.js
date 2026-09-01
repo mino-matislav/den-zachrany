@@ -1106,7 +1106,7 @@ Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi od
 Ďakujem Ti, že aj keď som sám, nie som opustený.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-18.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-18.mp3?v=5",
         hasAudio: true,
         illustrationRef: "bozia-blizkost-v-osamelosti",
         tags: ["osamelosť", "smútok", "bolesť", "nádej", "pokoj"],
@@ -1170,7 +1170,7 @@ A tak dnes prestávam byť svojím vlastným sudcom. Prepúšťam zo svojho vnú
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-19.mp3",
+        audioUrl: "assets/audio/modlitba-19.mp3?v=2",
         hasAudio: true,
         illustrationRef: "prijatie-bozieho-odpustenia",
         tags: ["vina", "odpustenie", "sloboda", "pokoj", "nádej"],

@@ -163,3 +163,49 @@ riešenie — skopírovať ženský nábeh — spôsobilo, že slovo zaznelo dva
 3. tichý nábeh ~1,1 s (piesne)
 4. cache-busting `?v=N` + zvýšená verzia SW
 5. po nasadení reálne vypočuť v prehliadači
+
+---
+
+## 9. Zvukový štandard modlitieb (profil 6/7/8/9)
+
+Modlitby 6, 7, 8 a 9 znejú referenčne dobre — teplo, jasne, mäkko. Ich priemer
+je **záväzný cieľový profil pre všetky modlitby** (aj budúce). Modlitba, ktorá
+sedí na tento profil, znie ako rodina; odchýlka v 5–8 kHz nad cieľ = „bzučanie".
+
+### Cieľový spektrálny profil
+
+Hodnoty sú v dB **relatívne k telu hlasu** (pásmo 200–500 Hz = 0 dB), merané
+ako energia pásma na celej stope:
+
+| pásmo | cieľ (dB k telu) | čo to je |
+|---|---|---|
+| 80–150 Hz | +0,5 | spodok hlasu |
+| 150–300 Hz | −0,1 | telo/plnosť |
+| 300–500 Hz | −2,1 | (referenčné telo) |
+| 500–1 kHz | −4,7 | nižšie stredy |
+| 1–2 kHz | −6,4 | **teplo, plnosť** |
+| 2–3,5 kHz | −8,3 | **clarity / zrozumiteľnosť** |
+| 3,5–5 kHz | −13,2 | prítomnosť |
+| 5–8 kHz | −18,4 | **mäkkosť (nad cieľ = bzučanie!)** |
+| 8–12 kHz | −15,1 | vzduch |
+
+Dynamika: **crest ~14,9 dB, LRA ~3–4 LU** (reč nesmie byť zlisovaná).
+Loudness: **−16,4 LUFS, −1,7 dBTP**, 192 kbps mono.
+
+### Ako naň dostať novú/odchýlenú modlitbu
+
+1. Zmerať profil a rozdiel voči cieľu (skript nižšie / `VERIFY_AUDIO=1`).
+2. Korekčný EQ na najväčšie odchýlky. Najčastejšie: **cut 5–8 kHz** (bzučanie),
+   pridať teplo 1–2 kHz. Cut buzzu rob **úzkym bellom ~6,3 kHz** (široký cut
+   zasiahne aj 3,5–5 kHz a 8–12 kHz — potom treba obnoviť vzduch ~10,5 kHz).
+3. Re-normalizovať viacstupňovo (viď bod 4): EQ → dvojpriechodový loudnorm
+   (`linear=true`) → **samostatný** `alimiter=limit=0.822:level=false` →
+   deterministické dorovnanie loudness na −16,4 LUFS (zmerať a dotrimovať
+   `volume`, lebo loudnorm systematicky podstreľuje o ~0,5–1 dB).
+4. Overiť výsledný profil voči cieľu (odchýlky ideálne do ~1,5 dB) a vypočuť.
+
+### Kontrola
+
+`node scripts/verify.js` s premennou **`VERIFY_AUDIO=1`** porovná profil každej
+modlitby s cieľom a upozorní (nezastaví deploy) na pásmo mimo tolerancie —
+hlavne na bzučanie v 5–8 kHz. Bez tej premennej sa kontrola preskočí (je pomalá).

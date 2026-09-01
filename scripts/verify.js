@@ -20,6 +20,7 @@ let checks = 0;
 function ok(msg) { checks++; console.log('  \u2713 ' + msg); }
 function bad(msg) { checks++; fails.push(msg); console.log('  \u2717 ' + msg); }
 function must(cond, msg) { cond ? ok(msg) : bad(msg); }
+function warn(msg) { console.log('  \u26a0 ' + msg + '  (upozornenie, deploy pokračuje)'); }
 
 // ---------- 1) Syntax všetkých JS ----------
 console.log('\n[1] Syntax JS súborov');
@@ -313,6 +314,45 @@ try {
   }
 } catch (e) {
   ok('ffprobe/ffmpeg nedostupné — kontrola nábehu preskočená');
+}
+
+// ---------- 9) Zvukový profil modlitieb (voliteľné: VERIFY_AUDIO=1) ----------
+// Porovná každú modlitbu s cieľovým profilom 6/7/8/9 a UPOZORNÍ (nezastaví deploy)
+// na pásmo mimo tolerancie — hlavne bzučanie v 5–8 kHz. Pomalé (ffmpeg na každý
+// súbor), preto default vypnuté. Cieľové hodnoty: docs/AUDIO-PREHRAVAC.md bod 9.
+console.log('\n[9] Zvukový profil modlitieb');
+if (process.env.VERIFY_AUDIO) {
+  try {
+    execSync('ffprobe -version', { stdio: 'pipe' });
+    // cieľ: dB pásma relatívne k telu 200–500 Hz
+    const TARGET = { '1-2k':[-6.4,1000,2000], '2-3.5k':[-8.3,2000,3500],
+                     '5-8k':[-18.4,5000,8000], '8-12k':[-15.1,8000,12000] };
+    const TOL = 4.0; // dB
+    const bandDb = (file, lo, hi) => {
+      const c = hi ? `bandpass=f=${(lo+hi)/2}:width_type=h:w=${hi-lo},volumedetect` : 'volumedetect';
+      const out = execSync(`ffmpeg -hide_banner -i "${file}" -af "${c}" -f null - 2>&1 || true`,
+        { encoding:'utf8', shell:'/bin/bash' });
+      const m = out.match(/mean_volume:\s*(-?[0-9.]+) dB/);
+      return m ? parseFloat(m[1]) : null;
+    };
+    let warned = 0;
+    for (let i = 1; i <= 22; i++) {
+      const f = P(`assets/audio/modlitba-${i}.mp3`);
+      if (!fs.existsSync(f)) continue;
+      const body = bandDb(f, 200, 500);
+      if (body === null) continue;
+      const dev = [];
+      Object.entries(TARGET).forEach(([name, [tgt, lo, hi]]) => {
+        const rel = bandDb(f, lo, hi) - body;
+        if (Math.abs(rel - tgt) > TOL) dev.push(`${name} ${(rel-tgt>0?'+':'')}${(rel-tgt).toFixed(1)}`);
+      });
+      if (dev.length) { warn(`modlitba-${i}: mimo profilu 6/7/8/9 → ${dev.join(', ')}`); warned++; }
+      else ok(`modlitba-${i}: profil OK`);
+    }
+    if (!warned) ok('všetky modlitby sedia na profil 6/7/8/9');
+  } catch (e) { ok('ffprobe nedostupné — kontrola preskočená'); }
+} else {
+  ok('preskočené (spusti s VERIFY_AUDIO=1 pre kontrolu profilu)');
 }
 
 // ---------- Výsledok ----------
