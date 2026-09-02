@@ -290,28 +290,31 @@ try {
 // TÝKA SA IBA PIESNÍ. Modlitby a úvodné slovo majú nábeh 0,03-0,11 s a je to
 // správne — sú 192 kbps mono, buferujú sa rýchlo. Ticho im NEPRIDÁVAŤ.
 // Podrobne: docs/AUDIO-PREHRAVAC.md
-console.log('\n[8] Audio piesní — tichý nábeh (iba assets/audio/songs/)');
+console.log('\n[8] Audio — tiché intro (piesne + modlitby + úvod)');
 try {
   execSync('ffprobe -version', { stdio: 'pipe' });
+  // prvých 0,6 s musí byť ticho (< -30 dB) — inak prehrávač ukusuje začiatok
+  const leadOk = (full, label) => {
+    const out = execSync(
+      `ffmpeg -hide_banner -t 0.6 -i "${full}" -af volumedetect -f null - 2>&1 || true`,
+      { encoding: 'utf8', shell: '/bin/bash' }
+    );
+    const m = out.match(/max_volume:\s*(-?[0-9.]+) dB/);
+    if (!m) { ok(`${label} — nábeh sa nedal zmerať (preskočené)`); return; }
+    const maxDb = parseFloat(m[1]);
+    must(maxDb < -30, `${label} — prvých 0,6 s tiché (max ${maxDb.toFixed(1)} dB, limit -30)`);
+  };
   const songsDir = P('assets/audio/songs');
-  if (fs.existsSync(songsDir)) {
-    fs.readdirSync(songsDir).filter(f => f.endsWith('.mp3')).sort().forEach(f => {
-      const full = songsDir + '/' + f;
-      // Zmeriame hlasitosť prvých 0,6 s. Ak tam je reálny zvuk, nábeh je prikrátky.
-      const out = execSync(
-        `ffmpeg -hide_banner -t 0.6 -i "${full}" -af volumedetect -f null - 2>&1 || true`,
-        { encoding: 'utf8', shell: '/bin/bash' }
-      );
-      const m = out.match(/max_volume:\s*(-?[0-9.]+) dB/);
-      if (!m) {
-        ok(`${f} — nábeh sa nedal zmerať (preskočené)`);
-      } else {
-        const maxDb = parseFloat(m[1]);
-        must(maxDb < -30,
-          `${f} — prvých 0,6 s je tiché (max ${maxDb.toFixed(1)} dB, limit -30)`);
-      }
-    });
+  if (fs.existsSync(songsDir))
+    fs.readdirSync(songsDir).filter(f => f.endsWith('.mp3')).sort()
+      .forEach(f => leadOk(songsDir + '/' + f, f));
+  // modlitby + aktívny úvod (uvod-v3) — od 31.8.2026 majú mať tiež ~1 s intro
+  for (let i = 1; i <= 22; i++) {
+    const f = P(`assets/audio/modlitba-${i}.mp3`);
+    if (fs.existsSync(f)) leadOk(f, `modlitba-${i}.mp3`);
   }
+  const uvod = P('assets/audio/uvod-v3.mp3');
+  if (fs.existsSync(uvod)) leadOk(uvod, 'uvod-v3.mp3');
 } catch (e) {
   ok('ffprobe/ffmpeg nedostupné — kontrola nábehu preskočená');
 }

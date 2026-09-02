@@ -52,13 +52,14 @@ vypočutia v prehliadači** (ideálne aj na mobile a na pomalšom pripojení).
 
 Všetky piesne majú na začiatku **1,0–1,5 s ticha**. Nová pieseň musí mať tiež.
 
-**Pozor — netýka sa modlitieb ani úvodného slova.** Tie majú nábeh iba
-0,03–0,11 s (úvodné slovo 0,025–0,05 s, 22 modlitieb priemer 0,056 s) a je to
-tak správne. **Ticho im nepridávať.**
-
-Prečo je v tom rozdiel: modlitby sú 192 kbps mono, piesne 320 kbps stereo —
-teda zhruba dvojnásobok dát, ktoré prehliadač na štarte musí načítať. Pri
-hovorenom slove buferovanie zvládne priming blok (bod 1), pri piesňach už nie.
+**Aktualizované 31.8.2026 — tiché intro majú mať AJ modlitby a úvodné slovo (~1 s).**
+Pôvodne mali modlitby a úvod nábeh len 0,03–0,11 s (bez ticha), lebo na webe to
+riešil priming blok v player.js. Lenže pri **stiahnutých** súboroch v cudzom
+prehrávači (overené na Android) sa začiatok ukusoval, keďže reč začína hneď.
+Preto teraz **každá modlitba aj úvodné slovo dostáva ~1 s tiché intro**
+(`adelay=1000`), rovnako ako piesne. Robí to `scripts/fixprayer.py` automaticky.
+`verify.js [8]` kontroluje tiché intro piesní, modlitieb aj úvodu (prvých 0,6 s
+pod −30 dB) a pri chýbajúcom introle zastaví deploy.
 
 ### Prečo
 
