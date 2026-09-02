@@ -127,7 +127,7 @@ Podrobujem každú jednu myšlienku do poslušnosti Kristovi. Vyznávam, že som
 Ďakujem Ti, nebeský Otče, že Tvoj neochvejný pokoj, ktorý prevyšuje každý ľudský rozum, teraz stráži moju myseľ i moje srdce v Kristovi Ježišovi. Ukončujem túto modlitbu s vedomím, že Ten, ktorý je vo mne, je väčší ako akýkoľvek strach.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-2.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-2.mp3?v=3",
         hasAudio: true,
         illustrationRef: "svetlo-vlna",
         tags: ["úzkosť", "myšlienky", "strach", "pokoj", "sloboda"],
@@ -212,7 +212,7 @@ Pane Ježišu, verím Tvojmu svedectvu z listu Filipským 4, 19, že Boh naplní
 Ukončujem túto modlitbu v tichom vedomí a plnej dôvere, že Ty sa o všetko dokonale postaráš.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-3.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-3.mp3?v=3",
         hasAudio: true,
         illustrationRef: "pergamen",
         tags: ["starosti", "úzkosť", "vyčerpanie", "pokoj", "odpočinok"],
@@ -279,7 +279,7 @@ Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapito
 Ukončujem túto modlitbu v plnej dôvere v Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-4.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-4.mp3?v=3",
         hasAudio: true,
         illustrationRef: "voda-svetlo",
         tags: ["strata", "smútok", "bolesť", "obnova", "nádej"],
@@ -731,7 +731,7 @@ Podľa 2. listu Korintským 10, 5 podrobujem každú myšlienku v poslušnosť K
 V mocnom mene Ježiša Krista prijímam Tvoj pokoj nad svojou mysľou a vyhlasujem, že môj život je skrytý v Kristovi.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-12.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-12.mp3?v=4",
         hasAudio: true,
         illustrationRef: "bozi-hlas-pokoj-mysel",
         tags: ["myšlienky", "pochybnosti", "strach", "pokoj", "sloboda"],
@@ -787,7 +787,7 @@ Na základe autority v mocnom mene Ježiša Krista beriem vládu nad svojím kon
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-13.mp3",
+        audioUrl: "assets/audio/modlitba-13.mp3?v=2",
         hasAudio: true,
         illustrationRef: "stisenie-tela-bozie-slovo",
         tags: ["vyčerpanie", "myšlienky", "sloboda", "pokoj", "odpočinok"],
