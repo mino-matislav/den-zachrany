@@ -845,7 +845,7 @@ Tebe patrí všetka vďaka, chvála a sláva za dokonané dielo spasenia.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-14.mp3",
+        audioUrl: "assets/audio/modlitba-14.mp3?v=2",
         hasAudio: true,
         illustrationRef: "obnova-ducha-nove-stvorenie",
         tags: ["vina", "vyčerpanie", "sloboda", "pokoj", "odpočinok"],
@@ -897,7 +897,7 @@ Vyhlasujem, že moja duša je slobodná od horkosti, hnevu a túžby po odplate.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-15.mp3",
+        audioUrl: "assets/audio/modlitba-15.mp3?v=2",
         hasAudio: true,
         illustrationRef: "sloboda-odpustenia-horkost",
         tags: ["hnev", "bolesť", "sloboda", "pokoj", "odpustenie"],
@@ -959,7 +959,7 @@ Vyhlasujem Tvoj pokoj nad svojimi vzťahmi a nad svojím jazykom.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-16.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-16.mp3?v=3",
         hasAudio: true,
         illustrationRef: "pokoj-vo-vztahoch",
         tags: ["hnev", "bolesť", "pokoj", "obnova", "nádej"],
@@ -1038,7 +1038,7 @@ Vyznávam Ti, že som doma nejeden raz priniesol napätie namiesto pokoja. Ďaku
 Nech je pokoj tomuto domu.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-17.mp3",
+        audioUrl: "assets/audio/modlitba-17.mp3?v=2",
         hasAudio: true,
         illustrationRef: "pokoj-tvojmu-domu",
         tags: ["strach", "pokoj", "odpočinok", "nádej", "sloboda"],
@@ -1261,7 +1261,7 @@ Tvoje Slovo je živé. Nech koná vo mne.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-20.mp3",
+        audioUrl: "assets/audio/modlitba-20.mp3?v=2",
         hasAudio: true,
         illustrationRef: "ako-citat-bibliu",
         tags: ["neistota", "pochybnosti", "nádej", "obnova", "pokoj"],
@@ -1336,7 +1336,7 @@ Zostávam v pokoji, ktorý si mi dal, bez ohľadu na to, čo tento deň prinesie
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-21.mp3",
+        audioUrl: "assets/audio/modlitba-21.mp3?v=2",
         hasAudio: true,
         illustrationRef: "pokoj-ked-svet-kricí",
         tags: ["strach", "úzkosť", "neistota", "pokoj", "nádej"],
