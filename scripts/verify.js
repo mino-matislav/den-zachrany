@@ -324,33 +324,13 @@ console.log('\n[9] Zvukový profil modlitieb');
 if (process.env.VERIFY_AUDIO) {
   try {
     execSync('ffprobe -version', { stdio: 'pipe' });
-    // cieľ: dB pásma relatívne k telu 200–500 Hz
-    const TARGET = { '1-2k':[-6.4,1000,2000], '2-3.5k':[-8.3,2000,3500],
-                     '5-8k':[-18.4,5000,8000], '8-12k':[-15.1,8000,12000] };
-    const TOL = 4.0; // dB
-    const bandDb = (file, lo, hi) => {
-      const c = hi ? `bandpass=f=${(lo+hi)/2}:width_type=h:w=${hi-lo},volumedetect` : 'volumedetect';
-      const out = execSync(`ffmpeg -hide_banner -i "${file}" -af "${c}" -f null - 2>&1 || true`,
-        { encoding:'utf8', shell:'/bin/bash' });
-      const m = out.match(/mean_volume:\s*(-?[0-9.]+) dB/);
-      return m ? parseFloat(m[1]) : null;
-    };
-    let warned = 0;
-    for (let i = 1; i <= 22; i++) {
-      const f = P(`assets/audio/modlitba-${i}.mp3`);
-      if (!fs.existsSync(f)) continue;
-      const body = bandDb(f, 200, 500);
-      if (body === null) continue;
-      const dev = [];
-      Object.entries(TARGET).forEach(([name, [tgt, lo, hi]]) => {
-        const rel = bandDb(f, lo, hi) - body;
-        if (Math.abs(rel - tgt) > TOL) dev.push(`${name} ${(rel-tgt>0?'+':'')}${(rel-tgt).toFixed(1)}`);
-      });
-      if (dev.length) { warn(`modlitba-${i}: mimo profilu 6/7/8/9 → ${dev.join(', ')}`); warned++; }
-      else ok(`modlitba-${i}: profil OK`);
-    }
-    if (!warned) ok('všetky modlitby sedia na profil 6/7/8/9');
-  } catch (e) { ok('ffprobe nedostupné — kontrola preskočená'); }
+    const out = execSync('python3 scripts/audio-profil.py --check', { encoding: 'utf8' });
+    out.trimEnd().split('\n').forEach(line => {
+      const t = line.trim();
+      if (t.startsWith('!')) warn(t.replace(/^!\s*/, ''));
+      else if (t) ok(t.replace(/^OK\s*/, '').replace(/^->\s*/, ''));
+    });
+  } catch (e) { ok('ffprobe/python nedostupné — kontrola preskočená'); }
 } else {
   ok('preskočené (spusti s VERIFY_AUDIO=1 pre kontrolu profilu)');
 }
