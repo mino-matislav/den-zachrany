@@ -91,7 +91,7 @@ Uprav jediný riadok `BASE_URL` v `scripts/build-seo.py` a skript spusti znova.
 
 ## Obsahové pravidlá
 
-- Biblické citácie **výhradne v evanjelickom preklade (ECAV)**, overené na [biblia.sk](https://biblia.sk) — bez výnimky
+- Biblické citácie **výhradne v evanjelickom preklade (ECAV)**, overené na [biblia.sk](https://biblia.sk) v ceste `sep` — bez výnimky. Znenie z návrhov sa **nikdy nepreberá bez overenia** (drafty bývajú ekumenické/Roháčkove). Postup a zoznam častých odchýlok: **[docs/BIBLICKE-VERSE-ECAV.md](docs/BIBLICKE-VERSE-ECAV.md)**
 - Dôraz na dispenzačnú presnosť: veriaci je už odpustený a Duch Svätý v ňom prebýva, preto modlitby **vyznávajú a ďakujú**, nežiadajú o to, čo už bolo dané
 - Starozmluvné zasľúbenia sa uvádzajú ako obraz Božieho charakteru, nie ako priame zasľúbenie cirkvi
 - Texty musia byť **súčasne jednoduché a biblicky presné**
