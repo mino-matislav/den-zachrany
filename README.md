@@ -9,7 +9,7 @@ Web: [den-zachrany.vercel.app](https://den-zachrany.vercel.app)
 <!-- OBSAH:ZACIATOK -->
 ## Obsah
 
-- **22 kapitol** — všetky dostupné, každá s audio modlitbou
+- **23 kapitol** — všetky dostupné, každá s audio modlitbou
 - **20 piesní** — s textami a biblickou inšpiráciou
 - **Úvodné slovo** na domovskej stránke
 
