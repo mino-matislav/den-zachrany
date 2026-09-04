@@ -210,3 +210,32 @@ Loudness: **−16,4 LUFS, −1,7 dBTP**, 192 kbps mono.
 `node scripts/verify.js` s premennou **`VERIFY_AUDIO=1`** porovná profil každej
 modlitby s cieľom a upozorní (nezastaví deploy) na pásmo mimo tolerancie —
 hlavne na bzučanie v 5–8 kHz. Bez tej premennej sa kontrola preskočí (je pomalá).
+
+---
+
+## 10. Kontrolné skripty nesmú mať napevno zapísané počty
+
+**Zistenie 31.8.2026 (commit `7d6c8e6`).** Pri pridávaní modlitby kapitoly 23 sa
+ukázalo, že kontrolné skripty mali napevno zapísaný počet modlitieb:
+
+```js
+for (let i = 1; i <= 22; i++)      // verify.js — starý, chybný
+```
+```python
+for i in range(1,23):               # audio-profil.py — starý, chybný
+```
+
+Dôsledok: nová modlitba 23 **vôbec neprešla kontrolou** tichého intra ani
+zvukového profilu. Chyba v nej by prešla nepovšimnutá a verify by aj tak hlásil
+„všetko OK".
+
+**Opravené** — oba skripty si počet zisťujú **dynamicky** zo súborov
+v `assets/audio` (`modlitba-(\d+).mp3`), takže každá ďalšia kapitola je
+automaticky pod kontrolou.
+
+**Pravidlo do budúcna:** pri pridávaní obsahu vždy over, či kontrolné skripty
+nemajú hardcoded limity (počet kapitol, piesní, modlitieb). Ak áno, sprav ich
+dynamickými — **nezvyšuj číslo ručne**, na to sa zabudne. Po pridaní novej
+kapitoly alebo piesne skontroluj, že **počet kontrol vo verify.js narástol**
+(pri kap. 23: 464 → 465). Ak nenarástol, nový obsah sa nekontroluje.
+
