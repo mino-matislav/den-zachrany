@@ -309,7 +309,10 @@ try {
     fs.readdirSync(songsDir).filter(f => f.endsWith('.mp3')).sort()
       .forEach(f => leadOk(songsDir + '/' + f, f));
   // modlitby + aktívny úvod (uvod-v3) — od 31.8.2026 majú mať tiež ~1 s intro
-  for (let i = 1; i <= 22; i++) {
+  const maxPrayer = fs.readdirSync(P('assets/audio'))
+    .map(f => (f.match(/^modlitba-(\d+)\.mp3$/) || [])[1]).filter(Boolean)
+    .reduce((m, n) => Math.max(m, +n), 0);
+  for (let i = 1; i <= maxPrayer; i++) {
     const f = P(`assets/audio/modlitba-${i}.mp3`);
     if (fs.existsSync(f)) leadOk(f, `modlitba-${i}.mp3`);
   }

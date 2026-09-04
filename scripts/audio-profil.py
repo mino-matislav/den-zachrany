@@ -40,7 +40,9 @@ def main():
         return 0
     if sys.argv[1]=='--check':
         t=target(); warned=0
-        for i in range(1,23):
+        import glob, re as _re
+        nums=sorted(int(_re.search(r'modlitba-(\d+)\.mp3$',f).group(1)) for f in glob.glob(os.path.join(AUD,'modlitba-*.mp3')))
+        for i in nums:
             f=os.path.join(AUD,f'modlitba-{i}.mp3')
             if not os.path.exists(f): continue
             p=profile(f)
