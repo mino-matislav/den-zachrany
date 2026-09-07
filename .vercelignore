@@ -1,0 +1,6 @@
+# Vyvojarske subory - na produkcii nie su potrebne.
+# Zmensuje to deployment (Vercel Hobby ma limit 10 GB deployment storage).
+scripts/
+docs/
+README.md
+.gitignore
