@@ -73,7 +73,7 @@ A preto teraz, ako znovuzrodené Božie dieťa, ktoré stojí v milosti, v mocno
 Ďakujem Ti, Otče, už teraz – hoci ešte vlastnými očami nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidia moje oči, ale o Tvoju vernosť. Ja som slabý, ale Ten, ktorý odteraz žije vo mne, je všemohúci Víťaz.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-1.mp3?v=7",
+        audioUrl: "assets/audio/modlitba-1.mp3?v=8",
         hasAudio: true,
         illustrationRef: "svetlo-cesta",
         tags: ["strach", "vina", "neistota", "istota", "nádej"],
@@ -898,7 +898,7 @@ Vyhlasujem, že moja duša je slobodná od horkosti, hnevu a túžby po odplate.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-15.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-15.mp3?v=4",
         hasAudio: true,
         illustrationRef: "sloboda-odpustenia-horkost",
         tags: ["hnev", "bolesť", "sloboda", "odpustenie", "pokoj"],
@@ -1039,7 +1039,7 @@ Vyznávam Ti, že som doma nejeden raz priniesol napätie namiesto pokoja. Ďaku
 Nech je pokoj tomuto domu.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-17.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-17.mp3?v=4",
         hasAudio: true,
         illustrationRef: "pokoj-tvojmu-domu",
         tags: ["strach", "osamelosť", "pokoj", "odpočinok", "istota"],
@@ -1262,7 +1262,7 @@ Tvoje Slovo je živé. Nech koná vo mne.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-20.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-20.mp3?v=4",
         hasAudio: true,
         illustrationRef: "ako-citat-bibliu",
         tags: ["neistota", "pochybnosti", "myšlienky", "vedenie", "istota"],
@@ -1337,7 +1337,7 @@ Zostávam v pokoji, ktorý si mi dal, bez ohľadu na to, čo tento deň prinesie
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-21.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-21.mp3?v=4",
         hasAudio: true,
         illustrationRef: "pokoj-ked-svet-kricí",
         tags: ["strach", "úzkosť", "neistota", "pokoj", "odvaha"],
