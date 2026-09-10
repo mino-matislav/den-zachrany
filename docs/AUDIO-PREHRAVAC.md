@@ -239,3 +239,51 @@ dynamickými — **nezvyšuj číslo ručne**, na to sa zabudne. Po pridaní nov
 kapitoly alebo piesne skontroluj, že **počet kontrol vo verify.js narástol**
 (pri kap. 23: 464 → 465). Ak nenarástol, nový obsah sa nekontroluje.
 
+
+---
+
+## 11. Bzučanie a syčanie — priemer klame, meraj po úsekoch
+
+**Zistenie 10.9.2026 pri oprave úvodného slova.** Toto je najdôležitejšie
+poučenie pri ladení hovoreného slova.
+
+### Priemer súboru nestačí
+
+Úvodné slovo malo **celkový priemer v poriadku**, a pritom počuteľne bzučalo.
+Dôvod: nahrávka bola veľmi nerovnomerná — rozptyl medzi úsekmi **9,2 dB**,
+najhorší úsek na −12,0 dB pri priemere −20.
+
+**Preto: pri sťažnosti na bzučanie vždy meraj po úsekoch** (10 s, pri
+dolaďovaní 6 s), nikdy nie len celý súbor. Plošný EQ na nerovnomernú nahrávku
+nefunguje — buď stlmí dobré miesta, alebo nechá zlé.
+
+Riešenie je kombinácia:
+1. **dynamicky** — kompresia HF pásma nad 5 kHz (stlmí len výkyvy),
+2. **cielene** — cut cez `enable='between(t,X,Y)'` na konkrétne vyčnievajúce úseky.
+
+Takto klesol rozptyl z 9,2 na 4,7 dB, po druhom kole v druhej polovici
+z 3,8 na 1,6 dB.
+
+### Bzučanie a syčanie sú DVE rôzne pásma
+
+| jav | pásmo | riešenie |
+|---|---|---|
+| **bzučanie** | 5–8 kHz | úzky cut ~6,3 kHz |
+| **syčanie š, ž, č** | **2,5–4,5 kHz** | cut ~3,4 kHz + `deesser=i=0.42:m=0.55:f=0.35` |
+
+Slovenské **š, ž, č** majú ťažisko nižšie než s/z — okolo 2,5–4,5 kHz.
+
+**Pozor na následok:** keď stiahneš buzz nad 5 kHz, pásmo sykaviek zostane
+navrchu a **začne trčať**. Presne to sa stalo — po oprave buzzu sa objavilo
+syčanie. Po každej oprave buzzu preto skontroluj aj 2,5–4,5 kHz.
+
+Rovnako: zdvíhanie zrozumiteľnosti okolo 2,6–4 kHz zvyšuje sykavky. Ak treba
+pridať zrozumiteľnosť bez syčania, pridaj nižšie — 1,8–2,2 kHz alebo teplo
+na 1,3–1,4 kHz.
+
+### Cieľové hodnoty
+
+Referencie overené sluchom: **modlitba 6** (buzz −17,1) a **modlitba 11**
+(buzz −21,7). Obe znejú výborne, takže tolerancia je široká — ale pri
+hovorenom slove **cieľ skôr na −19 až −21**, nie na −17. Pásmo š/ž/č cieliť
+okolo **−11,9** (úroveň modlitby 11).
