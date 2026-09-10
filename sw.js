@@ -2,7 +2,7 @@
    DEŇ ZÁCHRANY - Service Worker
    ============================================ */
 
-const CACHE_NAME = 'den-zachrany-v186';
+const CACHE_NAME = 'den-zachrany-v187';
 const STATIC_ASSETS = [
     '/',
     '/index.html',
