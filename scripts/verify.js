@@ -191,6 +191,15 @@ const surove = read('js/data.js');
 const cisla = (surove.match(/^    "\d+": \{/gm) || []).map(x => x.match(/\d+/)[0]);
 const dupl = cisla.filter((c, i) => cisla.indexOf(c) !== i);
 must(dupl.length === 0, `žiadna kapitola nie je v data.js dvakrát${dupl.length ? ' (duplicitné: ' + [...new Set(dupl)].join(', ') + ')' : ''}`);
+// To isté pre piesne. Duplicita vzniká, keď sa zápis preruší (napr. dôjde limit
+// konverzácie) a skript sa spustí znova — preto používaj scripts/upsert.py,
+// ktorý blok nahradí namiesto pridania. Podrobne: docs/PRACA-S-DATAMI.md
+{
+  const surovePiesne = read('js/data-songs.js');
+  const cislaP = (surovePiesne.match(/^    "?\d+"?\s*:\s*\{/gm) || []).map(x => x.match(/\d+/)[0]);
+  const duplP = cislaP.filter((c, i) => cislaP.indexOf(c) !== i);
+  must(duplP.length === 0, `žiadna pieseň nie je v data-songs.js dvakrát${duplP.length ? ' (duplicitné: ' + [...new Set(duplP)].join(', ') + ')' : ''}`);
+}
 must(cisla.length === Object.keys(chapterData).length,
   `počet blokov v súbore sedí s počtom kapitol (${cisla.length} vs ${Object.keys(chapterData).length})`);
 // popis domovskej musí uvádzať aktuálny počet kapitol
