@@ -14,7 +14,7 @@ const tagGroups = [
     {
         label: "Čo hľadám",
         tags: ["pokoj", "istota", "sloboda", "odpočinok", "vedenie", "odvaha",
-               "sila", "prijatie", "uzdravenie", "obnova", "nádej",
+               "sila", "prijatie", "uzdravenie", "obnova", "nádej", "trpezlivosť",
                "víťazstvo", "odpustenie"]
     }
 ];
@@ -446,7 +446,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-7.mp3?v=4",
         hasAudio: true,
         illustrationRef: "hrnciar-hlina",
-        tags: ["neistota", "pochybnosti", "starosti", "istota", "odpočinok"],
+        tags: ["neistota", "trpezlivosť", "starosti", "istota", "odpočinok"],
         available: true,
         scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6",
         isStarter: false
@@ -1370,7 +1370,7 @@ Amen.`,
         audioUrl: "assets/audio/modlitba-22.mp3?v=5",
         hasAudio: true,
         illustrationRef: "cesta-z-necistoty-k-slobode",
-        tags: ["vina", "bezmocnosť", "sloboda", "odpustenie", "obnova"],
+        tags: ["závislosť", "vina", "trpezlivosť", "sloboda", "odpustenie"],
         available: true,
         scriptureTheme: "1. Korintským 6, Matúš 5, Kolosenským 3, Rímskym 6, Rímskym 12",
         isStarter: false
@@ -1481,7 +1481,7 @@ Amen.`,
         audioUrl: null,
         hasAudio: false,
         illustrationRef: "boze-pocujes-ma-vobec",
-        tags: ["neistota", "pochybnosti", "bezmocnosť", "vedenie", "nádej"],
+        tags: ["neistota", "trpezlivosť", "pochybnosti", "vedenie", "nádej"],
         available: true,
         scriptureTheme: "Jakub 1, Rimanom 8, Efezským 3, Kolosenským 1",
         isStarter: false
