@@ -2781,3 +2781,171 @@ body:has(.listen-cta) .chapters-section {
     border-color: var(--gold);
     transform: translateY(-2px);
 }
+
+/* ============================================
+   MODLITBA ZÁCHRANY — sekcia na úvodnej stránke
+   ============================================ */
+.salvation-section {
+    padding: var(--space-10) 0 var(--space-12);
+    background: linear-gradient(180deg, var(--cream) 0%, var(--blue-gray) 100%);
+}
+
+.salvation-card {
+    position: relative;
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--white);
+    border: 2px solid var(--gold);
+    border-radius: var(--radius-xl);
+    padding: var(--space-10) var(--space-6) var(--space-8);
+    box-shadow: 0 10px 40px rgba(212, 175, 55, 0.18);
+}
+
+.salvation-header {
+    text-align: center;
+    margin-bottom: var(--space-8);
+}
+
+.salvation-icon {
+    display: block;
+    width: 84px;
+    height: auto;
+    margin: 0 auto var(--space-4);
+    color: var(--gold);
+}
+
+.salvation-title {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 600;
+    color: var(--graphite);
+    margin: 0;
+}
+
+.salvation-subtitle {
+    font-size: var(--text-sm);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-top: var(--space-2);
+}
+
+.salvation-subheading {
+    font-family: var(--font-display);
+    font-size: var(--text-xl);
+    font-weight: 600;
+    color: var(--graphite);
+    margin-bottom: var(--space-4);
+}
+
+.salvation-intro p {
+    font-size: var(--text-md);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+}
+
+.salvation-lead {
+    font-weight: 600;
+    color: var(--graphite);
+}
+
+.salvation-audio-note {
+    text-align: center;
+    padding: var(--space-4);
+    color: var(--graphite);
+    opacity: 0.6;
+    font-size: var(--text-sm);
+}
+
+.salvation-prayer {
+    position: relative;
+    background: var(--gold-light);
+    border-left: 4px solid var(--gold);
+    border-radius: var(--radius-lg);
+    padding: var(--space-8) var(--space-6) var(--space-6);
+    margin: var(--space-8) 0;
+    font-family: var(--font-verse);
+    font-size: var(--text-lg);
+    line-height: var(--leading-loose);
+}
+
+.salvation-prayer::before {
+    content: '🙏';
+    position: absolute;
+    top: -18px;
+    left: var(--space-6);
+    font-size: var(--text-2xl);
+    background: var(--white);
+    padding: 0 var(--space-2);
+}
+
+.salvation-prayer p {
+    margin-bottom: var(--space-4);
+}
+
+.salvation-amen {
+    text-align: center;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    margin-bottom: 0;
+}
+
+.salvation-next {
+    border-top: 1px solid var(--gold-medium);
+    padding-top: var(--space-6);
+}
+
+.salvation-next p {
+    font-size: var(--text-md);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+}
+
+.salvation-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.salvation-steps li {
+    position: relative;
+    padding-left: var(--space-6);
+    margin-bottom: var(--space-3);
+    font-size: var(--text-md);
+    line-height: var(--leading-relaxed);
+}
+
+.salvation-steps li::before {
+    content: '✦';
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+}
+
+.salvation-steps a {
+    color: var(--graphite);
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-underline-offset: 3px;
+}
+
+.salvation-steps a:hover,
+.salvation-steps a:focus-visible {
+    color: var(--gold);
+}
+
+@media (max-width: 600px) {
+    .salvation-card {
+        padding: var(--space-8) var(--space-4) var(--space-6);
+    }
+
+    .salvation-title {
+        font-size: var(--text-2xl);
+    }
+
+    .salvation-prayer {
+        padding: var(--space-8) var(--space-4) var(--space-4);
+        font-size: var(--text-md);
+    }
+}
