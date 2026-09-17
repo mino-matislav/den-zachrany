@@ -536,7 +536,7 @@ button {
    AUDIO SECTION
    ============================================ */
 .audio-section {
-    padding: var(--space-1) var(--space-6) var(--space-16);
+    padding: var(--space-1) 0 var(--space-16);
     background: transparent;
 }
 
@@ -551,7 +551,7 @@ button {
     border: 1px solid rgba(212, 175, 55, 0.2);
     border-radius: var(--radius-xl);
     padding: var(--space-4) var(--space-6);
-    max-width: 680px;
+    max-width: var(--content-max);
     margin: 0 auto;
     box-shadow: 0 4px 24px var(--shadow);
 }
@@ -728,7 +728,7 @@ button {
    INTRO SECTION
    ============================================ */
 .intro-section {
-    padding: var(--space-16) var(--space-6);
+    padding: var(--space-16) 0;
     background: transparent;
 }
 
@@ -786,7 +786,7 @@ button {
    WARNING SECTION
    ============================================ */
 .warning-section {
-    padding: var(--space-16) var(--space-6) var(--space-20);
+    padding: var(--space-16) 0 var(--space-20);
     background: transparent;
 }
 
@@ -1443,6 +1443,10 @@ button {
     .audio-card,
     .warning-card {
         padding: var(--space-6) var(--space-4);
+    }
+
+    .intro-content {
+        padding: var(--space-8) var(--space-4);
     }
 
     .player-controls {
@@ -2792,7 +2796,7 @@ body:has(.listen-cta) .chapters-section {
 
 .salvation-card {
     position: relative;
-    max-width: 680px;
+    max-width: var(--content-max);
     margin: 0 auto;
     background: var(--white);
     border: 2px solid var(--gold);
