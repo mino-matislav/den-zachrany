@@ -257,10 +257,9 @@
                             </div>
                         </div>
                         <audio id="zachrana-audio" preload="auto">
-                            <source src="" type="audio/mpeg">
+                            <source src="assets/audio/modlitba-zachrany.mp3?v=1" type="audio/mpeg">
                             Váš prehliadač nepodporuje prehrávanie audio.
                         </audio>
-                        <p class="salvation-audio-note">🎵 Audio tejto modlitby pripravujeme. Čoskoro bude dostupné.</p>
                     </div>
 
                     <div class="salvation-prayer">
@@ -309,11 +308,20 @@
     <script src="js/player.js"></script>
     <script src="js/app.js"></script>
     <script>
-        // Inicializácia prehrávača pre úvodné slovo
+        // Inicializácia prehrávačov na úvodnej stránke
         document.addEventListener('DOMContentLoaded', function() {
             const audioElement = document.getElementById('uvod-audio');
             if (audioElement) {
                 new AudioPlayer(audioElement, {
+                    showDownload: false,
+                    showRepeat: false
+                });
+            }
+
+            // Modlitba záchrany
+            const zachranaAudio = document.getElementById('zachrana-audio');
+            if (zachranaAudio) {
+                new AudioPlayer(zachranaAudio, {
                     showDownload: false,
                     showRepeat: false
                 });
