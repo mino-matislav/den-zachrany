@@ -2054,6 +2054,102 @@ const songData = {
         { text: "Neraduj sa nado mnou, nepriateľka moja! Ak som padol, povstanem, ak sedím v tme, Hospodin mi je svetlom.", ref: "Micheáš 7, 8 — ECAV" },
         { text: "A vtedy každý, kto bude vzývať meno Pánovo, bude zachránený.", ref: "Skutky 2, 21 — ECAV" }
         ]
+    },
+    "21": {
+        id: 21,
+        number: 21,
+        title: "Ríši smrti nevydáš ma",
+        subtitle: "Istota Božej ochrany a radosť z Jeho blízkosti",
+        audioUrl: "assets/audio/songs/21-risi-smrti-nevydas-ma.mp3",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "Ochraňuj ma, silný Bože,",
+                "pokorne Ti vyznávam.",
+                "K Tebe volám neprestajne,",
+                "Ty jediný si môj Pán."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 2",
+            lines: [
+                "Mimo Teba šťastie nie je,",
+                "pod ochranu vezmi ma.",
+                "Ty si moje útočište,",
+                "pokoj, silu nachádzam."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Keď stojíš mi po pravici,",
+                "s Tebou padnúť nemôžem.",
+                "Moje srdce sa poteší,",
+                "že porušenie neuzriem.",
+                "Nevydáš ma ríši smrti,",
+                "aj telo bude v bezpečí.",
+                "Navždy v Tvojej prítomnosti,",
+                "nenecháš ma v podsvetí."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Môj osud je v Tvojich rukách,",
+                "Ty si moja budúcnosť.",
+                "Radostne mi duša plesá,",
+                "v Tebe večná blaženosť."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "Ochraňuj ma, silný Bože,",
+                "pokorne Ti vyznávam.",
+                "K Tebe volám neprestajne,",
+                "Ty jediný si môj Pán."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Keď stojíš mi po pravici,",
+                "s Tebou padnúť nemôžem.",
+                "Moje srdce sa poteší,",
+                "že porušenie neuzriem.",
+                "Nevydáš ma ríši smrti,",
+                "aj telo bude v bezpečí.",
+                "Navždy v Tvojej prítomnosti,",
+                "nenecháš ma v podsvetí."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Môj osud je v Tvojich rukách,",
+                "Ty si moja budúcnosť.",
+                "Radostne mi duša plesá,",
+                "v Tebe večná blaženosť."
+            ]
+        }
+        ],
+        verses: [
+        { text: "Ochraňuj ma, Bože, lebo sa k Tebe utiekam.", ref: "Žalm 16, 1 — ECAV" },
+        { text: "Hovorím Hospodinovi: Ty si môj Pán! Niet pre mňa šťastia mimo Teba!", ref: "Žalm 16, 2 — ECAV" },
+        { text: "Stále si staviam Hospodina pred seba; keď mi je po pravici, nesklátim sa.", ref: "Žalm 16, 8 — ECAV" },
+        { text: "Preto sa teší moje srdce a jasá moja duša; aj moje telo prebývať bude bezpečne.", ref: "Žalm 16, 9 — ECAV" },
+        { text: "Neprenecháš ma ríši smrti a svojmu zbožnému nedáš vidieť jamu.", ref: "Žalm 16, 10 — ECAV" },
+        { text: "Ty mi dáš poznať cestu života; pred Tvojou tvárou je sýtosť radosti, v Tvojej pravici je večná blaženosť.", ref: "Žalm 16, 11 — ECAV" }
+        ]
     }
 };
 
@@ -2163,4 +2259,6 @@ const songList = [
     { id: 18, number: 18, title: "Široká diaľnica", subtitle: "Z vlastnej cesty do života, ktorý dáva Kristus" },
     { id: 19, number: 19, title: "Od temnoty ku svetlu", subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi" },
     { id: 20, number: 20, title: "V mrákave tmy", subtitle: "Z tmy a vnútorného zápasu k svetlu, ktoré zachraňuje" }
+,
+    { id: 21, number: 21, title: "Ríši smrti nevydáš ma", subtitle: "Istota Božej ochrany a radosť z Jeho blízkosti" }
 ];
