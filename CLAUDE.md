@@ -150,12 +150,14 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 7. Stav a otvorené úlohy (k 24. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v193, verify.js 521 kontrol.
-- **Čaká na nasadenie:** cache-bust `?v=1` na audioUrl piesní a modlitieb 25 a 27, ktoré ho ešte nemajú (vrátane piesne 21), a riadok „Počúvaj a čítaj súčasne" pod prehrávačom Modlitby záchrany. SW nastav na aktuálnu verziu + 1.
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v194, verify.js 521 kontrol.
+- Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
+- Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
   - Oprava modlitby kap. 12: „Odpusť mi to, Otče, a očisti moju myseľ" → „Vyznávam Ti, že som ich veľakrát prijal za svoju identitu. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda obnovuje moju myseľ." Urobí sa až spolu s novou nahrávkou.
   - Súvislé prehrávanie piesní (⏭/⏮, Media Session).
-  - Sťahovanie MP3.
+  - Rozšírené sťahovanie – odľahčená verzia 192 kbps a text o voľnom nekomerčnom použití.
+  - Overiť limity a podmienky raw.githubusercontent.com pre sťahovanie MP3 (zatiaľ neoverené).
   - SEO.
   - Vlastná doména.
   - Krátke videá.

@@ -325,7 +325,7 @@ const songData = {
         number: 4,
         title: "Mám v sebe tiché miesto",
         subtitle: "Vnútorný pokoj a nová cesta",
-        audioUrl: "assets/audio/songs/04-mam-v-sebe-tiche-miesto.mp3",
+        audioUrl: "assets/audio/songs/04-mam-v-sebe-tiche-miesto.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -553,7 +553,7 @@ const songData = {
         number: 6,
         title: "On je Svetlo",
         subtitle: "Ježiš — Svetlo sveta a cesta k Otcovi",
-        audioUrl: "assets/audio/songs/06-on-je-svetlo.mp3",
+        audioUrl: "assets/audio/songs/06-on-je-svetlo.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -633,7 +633,7 @@ const songData = {
         number: 7,
         title: "Jediný pevný bod",
         subtitle: "Pevná Skala, keď sa všetko chveje",
-        audioUrl: "assets/audio/songs/07-jediny-pevny-bod.mp3",
+        audioUrl: "assets/audio/songs/07-jediny-pevny-bod.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -823,7 +823,7 @@ const songData = {
         number: 9,
         title: "Prichádza zmena",
         subtitle: "Pozvanie otvoriť srdce Kristovi",
-        audioUrl: "assets/audio/songs/09-prichadza-zmena.mp3",
+        audioUrl: "assets/audio/songs/09-prichadza-zmena.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -923,7 +923,7 @@ const songData = {
         number: 10,
         title: "Okamih, ktorý máš",
         subtitle: "Prítomná chvíľa a dar života v Kristovi",
-        audioUrl: "assets/audio/songs/10-okamih-ktory-mas.mp3",
+        audioUrl: "assets/audio/songs/10-okamih-ktory-mas.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1045,7 +1045,7 @@ const songData = {
         number: 11,
         title: "Temný pohľad",
         subtitle: "Božie volanie k obráteniu, kým je čas",
-        audioUrl: "assets/audio/songs/11-temny-pohlad.mp3",
+        audioUrl: "assets/audio/songs/11-temny-pohlad.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1159,7 +1159,7 @@ const songData = {
         number: 12,
         title: "Konečná destinácia",
         subtitle: "Otázka večnosti a záchrana v Kristovi",
-        audioUrl: "assets/audio/songs/12-konecna-destinacia.mp3",
+        audioUrl: "assets/audio/songs/12-konecna-destinacia.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1249,7 +1249,7 @@ const songData = {
         number: 13,
         title: "Drž ma pevne",
         subtitle: "Modlitba dôvery v Božej ruke",
-        audioUrl: "assets/audio/songs/13-drz-ma-pevne.mp3",
+        audioUrl: "assets/audio/songs/13-drz-ma-pevne.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1342,7 +1342,7 @@ const songData = {
         number: 14,
         title: "Svet sa zmení",
         subtitle: "Nádej Kristovho príchodu a záchrana z milosti",
-        audioUrl: "assets/audio/songs/14-svet-sa-zmeni.mp3",
+        audioUrl: "assets/audio/songs/14-svet-sa-zmeni.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1458,7 +1458,7 @@ const songData = {
         number: 15,
         title: "Svetlo v tme",
         subtitle: "Svetlo, pokoj a radosť v Kristovi",
-        audioUrl: "assets/audio/songs/15-svetlo-v-tme.mp3",
+        audioUrl: "assets/audio/songs/15-svetlo-v-tme.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1562,7 +1562,7 @@ const songData = {
         number: 16,
         title: "Na rozhraní tmy",
         subtitle: "Svetlo, ktoré prenikne aj do najhlbšej tmy",
-        audioUrl: "assets/audio/songs/16-na-rozhrani-tmy.mp3",
+        audioUrl: "assets/audio/songs/16-na-rozhrani-tmy.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1675,7 +1675,7 @@ const songData = {
         number: 17,
         title: "Synovia svetla",
         subtitle: "Istota víťazstva v Božej výzbroji",
-        audioUrl: "assets/audio/songs/17-synovia-svetla.mp3",
+        audioUrl: "assets/audio/songs/17-synovia-svetla.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
@@ -1965,7 +1965,7 @@ const songData = {
         number: 20,
         title: "V mrákave tmy",
         subtitle: "Z tmy a vnútorného zápasu k svetlu, ktoré zachraňuje",
-        audioUrl: "assets/audio/songs/20-v-mrakave-tmy.mp3",
+        audioUrl: "assets/audio/songs/20-v-mrakave-tmy.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {
@@ -2060,7 +2060,7 @@ const songData = {
         number: 21,
         title: "Ríši smrti nevydáš ma",
         subtitle: "Istota Božej ochrany a radosť z Jeho blízkosti",
-        audioUrl: "assets/audio/songs/21-risi-smrti-nevydas-ma.mp3",
+        audioUrl: "assets/audio/songs/21-risi-smrti-nevydas-ma.mp3?v=1",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {
