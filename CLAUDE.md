@@ -50,7 +50,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 3. Nasadzovací checklist (v tomto poradí)
 
-1. **ffmpeg:** ak v kontajneri chýba (`which ffmpeg`), najprv ho doinštaluj (`apt-get install -y ffmpeg`). Bez neho verify.js preskočí audio kontroly a hlási menej kontrol, hoci skončí exit 0. **Ak inštalácia zlyhá, zastav a povedz to Adminovi. Bez audio kontrol nepokračuj.** Pri štarte úlohy ffmpeg inštaluje automaticky `.claude/hooks/session-start.sh`. Ak pri štarte vypíše „UPOZORNENIE", platí to isté.
+1. **ffmpeg:** ak v kontajneri chýba (`which ffmpeg`), najprv ho doinštaluj (`apt-get install -y ffmpeg`). Bez neho verify.js preskočí audio kontroly a hlási menej kontrol, hoci skončí exit 0. **Ak inštalácia zlyhá, zastav a povedz to Adminovi. Bez audio kontrol nepokračuj.** Pri štarte úlohy ffmpeg aj numpy (pre kontrolu [9]) inštaluje automaticky `.claude/hooks/session-start.sh`. Ak pri štarte vypíše „UPOZORNENIE", platí to isté.
 2. Pred zápisom obsahu skontroluj, či tam už nie je: `python3 scripts/upsert.py js/data.js`. Kapitoly zapisuj **vždy cez `scripts/upsert.py`** (idempotentne).
 3. Pri výmene existujúceho audia zvýš `?v=N` pri audioUrl.
 4. Zvýš verziu service workera v `sw.js` (`den-zachrany-vNNN`).
@@ -175,7 +175,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 ### Piesne
 - **MP3 320 kbps stereo, natívna vzorkovacia frekvencia zdroja, Xing hlavička** (`-write_xing 1`).
 - Tiché intro 1,0–1,5 s (`adelay=960|960`).
-- Hlasitosť **−13,3 LUFS, špička −1,7 dBTP**: dvojpriechodový loudnorm → samostatný alimiter → dorovnanie.
+- Hlasitosť **−13,3 LUFS, špička −1,7 dBTP**. Dvojpriechodový loudnorm len vtedy, keď mix má rezervu (špička po zosilnení neprekročí −1,7 dBTP). Inak zosilnenie + alimiter a opakovať na −13,3 LUFS, pozri docs/REMASTER-PIESNI.md.
 - Pri strihu najprv zmeraj rytmickú mriežku (BPM, dĺžku taktu), strihaj na hranici taktu s krátkym prelínaním a nekopíruj nábeh slova.
 - AI piesne mávajú druhú polovicu zahratú nanovo, hlasnejšiu a jasnejšiu. Pri vkladaní úsekov z prvej polovice vyrovnaj hlasitosť.
 - Drobné rušivé zvuky najprv presne lokalizuj (po 2 ms, v pásmach, spektrálnym fluxom) a zasahuj len do daného pásma a milisekúnd. Nikdy nestlm samotný úder nástroja. Pozor na sériu opakovaní (echo po osminách).
@@ -192,9 +192,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 24. 9. 2026)
+## 7. Stav a otvorené úlohy (k 26. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v194, verify.js 521 kontrol.
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v195, verify.js 521 kontrol (s `VERIFY_AUDIO=1` 545). Pieseň 17 má remaster (26. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**

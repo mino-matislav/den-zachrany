@@ -337,15 +337,22 @@ try {
 // súbor), preto default vypnuté. Cieľové hodnoty: docs/AUDIO-PREHRAVAC.md bod 9.
 console.log('\n[9] Zvukový profil modlitieb');
 if (process.env.VERIFY_AUDIO) {
+  // Kontrola bola výslovne vyžiadaná, preto pád alebo chýbajúci nástroj je chyba, nie „preskočené".
+  let out = null;
   try {
     execSync('ffprobe -version', { stdio: 'pipe' });
-    const out = execSync('python3 scripts/audio-profil.py --check', { encoding: 'utf8' });
+    out = execSync('python3 scripts/audio-profil.py --check', { encoding: 'utf8', stdio: 'pipe' });
+  } catch (e) {
+    const detail = String((e.stderr || e.message || '')).trim().split('\n').pop();
+    bad('zvukový profil sa nepodarilo skontrolovať (chýba ffmpeg/numpy alebo skript spadol): ' + detail);
+  }
+  if (out !== null) {
     out.trimEnd().split('\n').forEach(line => {
       const t = line.trim();
       if (t.startsWith('!')) warn(t.replace(/^!\s*/, ''));
       else if (t) ok(t.replace(/^OK\s*/, '').replace(/^->\s*/, ''));
     });
-  } catch (e) { ok('ffprobe/python nedostupné — kontrola preskočená'); }
+  }
 } else {
   ok('preskočené (spusti s VERIFY_AUDIO=1 pre kontrolu profilu)');
 }

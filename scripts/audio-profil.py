@@ -41,14 +41,16 @@ def main():
     if sys.argv[1]=='--check':
         t=target(); warned=0
         import glob, re as _re
-        nums=sorted(int(_re.search(r'modlitba-(\d+)\.mp3$',f).group(1)) for f in glob.glob(os.path.join(AUD,'modlitba-*.mp3')))
-        for i in nums:
-            f=os.path.join(AUD,f'modlitba-{i}.mp3')
-            if not os.path.exists(f): continue
+        # cislovane modlitby podla cisla, ostatne (napr. modlitba-zachrany) za nimi podla nazvu
+        def poradie(f):
+            m=_re.search(r'modlitba-(\d+)\.mp3$',f)
+            return (0,int(m.group(1)),'') if m else (1,0,os.path.basename(f))
+        for f in sorted(glob.glob(os.path.join(AUD,'modlitba-*.mp3')),key=poradie):
+            nazov=os.path.basename(f)[:-4]
             p=profile(f)
             dev=[("%s %+.1f"%(k,p[k]-t[k])) for k in BANDS if abs(p[k]-t[k])>TOL]
-            if dev: print("  ! modlitba-%d mimo profilu: %s"%(i,", ".join(dev))); warned+=1
-            else: print("  OK modlitba-%d"%i)
+            if dev: print("  ! %s mimo profilu: %s"%(nazov,", ".join(dev))); warned+=1
+            else: print("  OK %s"%nazov)
         print(("  -> %d modlitieb mimo profilu"%warned) if warned else "  -> vsetky sedia na profil 6/7/8/9")
         return 0
     p=profile(sys.argv[1]); t=target()
