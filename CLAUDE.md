@@ -180,6 +180,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - AI piesne mávajú druhú polovicu zahratú nanovo, hlasnejšiu a jasnejšiu. Pri vkladaní úsekov z prvej polovice vyrovnaj hlasitosť.
 - Drobné rušivé zvuky najprv presne lokalizuj (po 2 ms, v pásmach, spektrálnym fluxom) a zasahuj len do daného pásma a milisekúnd. Nikdy nestlm samotný úder nástroja. Pozor na sériu opakovaní (echo po osminách).
 - Basy nechaj nedotknuté, pokiaľ Admin nepovie inak. Ak Admin povie, že verzia je finálna, **nič na nej nemeň**.
+- Remaster piesne cez rozdelenie na stopy: postup, nastavenia a moje zvukové preferencie sú v docs/REMASTER-PIESNI.md.
 
 ### Krátke videá 9:16 (na neskôr)
 - 1080×1920, H.264, 25 fps, ~30 s.

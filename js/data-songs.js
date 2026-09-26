@@ -1675,7 +1675,7 @@ const songData = {
         number: 17,
         title: "Synovia svetla",
         subtitle: "Istota víťazstva v Božej výzbroji",
-        audioUrl: "assets/audio/songs/17-synovia-svetla.mp3?v=1",
+        audioUrl: "assets/audio/songs/17-synovia-svetla.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
             {
