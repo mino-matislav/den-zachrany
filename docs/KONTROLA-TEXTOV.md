@@ -1,13 +1,13 @@
 # Kontrola textov pred predložením Adminovi
 
-Platí pre príhovor, modlitbu, shortDescription a samostatné biblické články. **Piesne sa dispenzačne nekontrolujú** (umelecké vyjadrenie, rozhodnutie Admina 28. 9. 2026).
+Platí pre príhovor, modlitbu, shortDescription a samostatné biblické články. CLAUDE.md prikazuje prečítať tento súbor pred písaním alebo úpravou akéhokoľvek textu.
 
-Tento súbor čítaj len vtedy, keď píšeš alebo upravuješ text. CLAUDE.md naň iba odkazuje, aby sa pri každej úlohe nenačítaval.
+**Piesne** sú umelecké vyjadrenie a dispenzačne sa nekontrolujú (rozhodnutie Admina 28. 9. 2026). Verše v „Inšpirácia z Biblie" však musia byť presné znenie ECAV a text piesne nesmie ísť proti evanjeliu (napríklad naznačovať, že veriaci môže stratiť spásu).
 
 ## Postup (šetrí tokeny)
 
-1. `node scripts/kontrola-textu.js <číslo kapitoly>`, pri koncepte `--text <súbor>`. Skript mechanicky nájde zakázané frázy, dlhé vety, opakované slová, dĺžku príhovoru, opakované verše a verše, ktoré treba zarámcovať. Sú to upozornenia, každé posúď.
-2. Štyri prechody nižšie, každý s jedinou úlohou. Rob ich v hlave, text počas nich znova nevypisuj.
+1. `node scripts/kontrola-textu.js <číslo kapitoly>`, pri koncepte `--text <súbor>`. Skript mechanicky nájde zakázané frázy, dlhé vety, opakované slová, dĺžku príhovoru, opakované verše a verše, ktoré treba zarámcovať. Je to len pomocník: upozorňuje, nezastavuje nasadenie a hranica 15 slov na vetu je orientačná. Každé upozornenie posúď.
+2. Päť prechodov nižšie, každý s jedinou úlohou. Rob ich v hlave, text počas nich znova nevypisuj.
 3. Adminovi ukáž najprv jeden riadok za prechod (čo si našiel a opravil), potom text.
 4. Verše, ktoré sú už v `docs/BIBLICKE-VERSE-ECAV.md`, znova neoveruj. Nové over a do zoznamu doplň.
 
@@ -22,10 +22,15 @@ V nových textoch nepoužívaj:
 - prikazovanie duchom, telu, emóciám ani okolnostiam („prikazujem", „odíď", hovorenie k vrchu podľa Marka 11, 23),
 - „uvoľňujem Tvoju moc / Tvoj pokoj" (u Pavla koná Boh v nás, Fil 2, 13),
 - „prestaň prosiť". Pavol prosí sám (Ef 1, 16–19; Kol 1, 9) a učí prosiť s vďakou (Fil 4, 6),
-- prísľub telesného uzdravenia alebo hojnosti. Pavol nechal Trofima chorého (2Tim 4, 20), Timoteovi radil liek (1Tim 5, 23), sám dostal odpoveď „stačí ti moja milosť" (2Kor 12, 9). Vykúpenie tela príde pri vytrhnutí (Rim 8, 23; Fil 3, 21),
+- sľub uzdravenia vždy a hneď alebo sľub hojnosti (pozri stanovisko nižšie),
 - Kázeň na vrchu, Marka 11 či Lukáša 10 ako pravidlo „doby milosti",
 - Matúša 24 ako nádej Cirkvi. Tou je vytrhnutie (1Tes 4, 16–17; Tít 2, 13),
 - Boží hlas mimo Písma. Dnes Boh hovorí cez dokončené Písmo (Žid 1, 1–2; 2Tim 3, 16–17).
+
+### Stanovisko k uzdraveniu a modlitbe (Admin, 28. 9. 2026)
+- Boh uzdravuje a môžeme Ho o to prosiť. Nesľubujeme však uzdravenie vždy a hneď. Chorý nesmie dostať pocit, že je chorý pre malú vieru. Pavol nechal Trofima chorého (2Tim 4, 20), Epafroditus bol na smrť chorý (Fil 2, 27) a Pavlovi Boh povedal „stačí ti moja milosť" (2Kor 12, 9). Vykúpenie tela príde pri vytrhnutí (Rim 8, 23).
+- Prosba s vďakou je správna (Fil 4, 6). Diablovi veriaci odporuje (Ef 6, 10–18; Jak 4, 7), Bohu neprikazujeme. Neprosíme o to, čo už máme v Kristovi.
+- Kapitolu 7 o Božej zvrchovanosti netreba meniť, Pavol ju potvrdzuje (Ef 1, 11; Rim 8, 28).
 
 „Vyhlasujem" je v poriadku, keď vyznáva pravdu z Pavlových listov („vyhlasujem, že v Kristovi nie som odsúdený").
 Záväzné pravidlá o odpustení, Duchu Svätom, oslovení a Neveste sú v CLAUDE.md, sekcia 5.
@@ -57,6 +62,10 @@ Zoznam je v CLAUDE.md (sekcia 5, Slovenčina). Navyše prirodzený slovosled a �
   - ÁNO: „Ty vieš, na čo čakám a aj to, že som už z toho unavený."
 - O Božom Slove hovor v prítomnom čase. Človek sám zo seba nevie, čo je správne (Prísl 14, 12).
 - Dĺžka príhovoru ~450–650 slov (medián 520). Bez číslovaných medzititulkov.
+
+## Prechod 5: súlad príhovoru a modlitby
+
+Príhovor a modlitba musia hovoriť to isté: rovnaká hlavná myšlienka, žiadne protirečenie, modlitba nesmie prosiť o to, čo príhovor označil za už dané. Platí aj pri oprave jedného z nich.
 
 ## Modlitby s audiom
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Mechanická kontrola textov kapitol pred predložením Adminovi (docs/KONTROLA-TEXTOV.md).
-// Len upozorňuje, nič nemení a vždy končí exit 0. Piesne sa nekontrolujú.
+// Je to len pomocník: upozorňuje, nič nemení, vždy končí exit 0 a nezastavuje nasadenie.
+// Hranica 15 slov na vetu je orientačná. Piesne sa nekontrolujú.
 //
 //   node scripts/kontrola-textu.js 28          jedna kapitola (alebo viac: 9 10 12)
 //   node scripts/kontrola-textu.js --all       všetky kapitoly
@@ -49,7 +50,7 @@ function kontrolaTextu(nazov, text, jeModlitba, idKap) {
   // citáty (verše, priama reč) do dĺžky viet ani opakovaní nerátame
   const vv = vety(text.replace(/"[^"]*"/g, '"…"').replace(/„[^“"]*[“"]/g, '„…“'));
   const dlhe = vv.filter(v => slova(v).length > 15);
-  if (dlhe.length) out.push(`${dlhe.length} z ${vv.length} viet má viac ako 15 slov, napr.: ${dlhe.slice(0, 3).map(v => '„' + skrat(v) + '"').join(' | ')}`);
+  if (dlhe.length) out.push(`${dlhe.length} z ${vv.length} viet má viac ako 15 slov (orientačné), napr.: ${dlhe.slice(0, 3).map(v => '„' + skrat(v) + '"').join(' | ')}`);
   vv.forEach(v => {
     const c = {};
     slova(v).filter(s => s.length >= 5 && !BEZNE.has(s)).forEach(s => { const k = s.toLowerCase(); c[k] = (c[k] || 0) + 1; });

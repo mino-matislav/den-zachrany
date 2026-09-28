@@ -107,7 +107,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - Striedanie Otec a Pán Ježiš je biblicky doložené (Sk 7, 59–60; Zj 22, 20; 2Kor 12, 8; aj Ján 16, 23; Ef 2, 18).
 - Starozákonné príbehy rámcuj ako typy a tiene (1Kor 10, 11). Pozor na teológiu prosperity.
 - Stanovisko Admina: Nevesta Kristova je Izrael a Nový Jeruzalem, nie Cirkev. Cirkev je v dobe milosti Telo Kristovo.
-- Piesne sú umelecké vyjadrenie a nemusia byť dispenzačné. Dispenzačnú kontrolu na ne neuplatňuj (texty ani verše v „Inšpirácia z Biblie“).
+- Piesne sú umelecké vyjadrenie a nemusia byť dispenzačné, dispenzačnú kontrolu na ne neuplatňuj. Verše v „Inšpirácia z Biblie“ však musia byť presné znenie ECAV a text piesne nesmie ísť proti evanjeliu (napríklad naznačovať, že veriaci môže stratiť spásu).
 
 ### Verše
 - **Výhradne evanjelický preklad ECAV z biblia.sk** (`https://biblia.sk/citanie/sep/<kniha>/<kapitola>`, napr. Žalmy = `sep/z/16`). Nie seb, roh ani ssv. Vždy nezávisle over, aj názvy kníh („Židom", nie „Hebrejom"; „Józua"). Overené znenia sú v `docs/BIBLICKE-VERSE-ECAV.md`.
@@ -121,8 +121,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - „vyhlasujem", nie „prehlasujem".
 
 ### Kontrola textov a štýl („ľudský faktor")
-- **Pred každým predložením textu Adminovi je kontrola povinná:** `node scripts/kontrola-textu.js <N>` a štyri prechody podľa `docs/KONTROLA-TEXTOV.md` (1. dispenzačný – meradlom sú Pavlove listy, Wommackove princípy len tam, kde ich Pavol potvrdzuje, 2. verše ECAV, 3. slovenčina, 4. bežný čitateľ). Adminovi ukáž len nájdené a opravené veci, jeden riadok za prechod.
-- Podrobné pravidlá štýlu, zoznam modlitieb na opravu pri novej nahrávke a plán opráv príhovorov sú v tom istom súbore. Čítaj ho len pri písaní textov.
+- **Pred písaním alebo úpravou akéhokoľvek textu (príhovor, modlitba, popisok, pieseň) si najprv prečítaj `docs/KONTROLA-TEXTOV.md`.** Sú v ňom podrobné pravidlá štýlu, stanovisko k uzdraveniu a modlitbe, zoznam modlitieb na opravu pri novej nahrávke a plán opráv príhovorov.
+- **Pred každým predložením textu Adminovi je kontrola povinná:** päť prechodov podľa toho súboru (1. dispenzačný – meradlom sú Pavlove listy, Wommackove princípy len tam, kde ich Pavol potvrdzuje, 2. verše ECAV, 3. slovenčina, 4. bežný čitateľ, 5. súlad príhovoru a modlitby). Adminovi ukáž len nájdené a opravené veci, jeden riadok za prechod.
+- Pomocník `node scripts/kontrola-textu.js <N>` len upozorňuje a nezastavuje nasadenie. Hranica 15 slov na vetu je orientačná.
 - Krátke vety (do ~15 slov), bežné slová, jemne, bez predpokladov o čitateľovi. Príhovor ~450–650 slov, bez číslovaných medzititulkov.
 - Keď sa zmení modlitba, zosúlaď príhovor, a naopak. Modlitba s audiom sa bez novej nahrávky nemení. Opravený príhovor jej nesmie protirečiť.
 - Všetko, čo Admin dodá, skontroluj (biblicky, logicky, ľudsky) a navrhni zlepšenia.
