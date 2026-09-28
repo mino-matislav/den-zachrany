@@ -28,7 +28,7 @@ V nových textoch nepoužívaj:
 - Boží hlas mimo Písma. Dnes Boh hovorí cez dokončené Písmo (Žid 1, 1–2; 2Tim 3, 16–17).
 
 ### Stanovisko k uzdraveniu a modlitbe (Admin, 28. 9. 2026)
-- Boh uzdravuje a môžeme Ho o to prosiť. Nesľubujeme však uzdravenie vždy a hneď. Chorý nesmie dostať pocit, že je chorý pre malú vieru. Pavol nechal Trofima chorého (2Tim 4, 20), Epafroditus bol na smrť chorý (Fil 2, 27) a Pavlovi Boh povedal „stačí ti moja milosť" (2Kor 12, 9). Vykúpenie tela príde pri vytrhnutí (Rim 8, 23).
+- Boh uzdravuje a môžeme Ho o to prosiť. Nesľubujeme však uzdravenie vždy a hneď. Chorý nesmie dostať pocit, že je chorý pre malú vieru. Pavol nechal Trofima chorého (2Tim 4, 20), Epafroditus bol na smrť chorý (Fil 2, 27) a Pavlovi Boh povedal „stačí ti moja milosť" (2Kor 12, 9). Vykúpenie tela príde pri vytrhnutí Cirkvi, keď Pán zostúpi z neba (Rim 8, 23; 1Kor 15, 51–53; 1Tes 4, 16–17; Fil 3, 20–21). Dovtedy aj veriaci vzdychá v smrteľnom tele (2Kor 5, 4).
 - Prosba s vďakou je správna (Fil 4, 6). Diablovi veriaci odporuje (Ef 6, 10–18; Jak 4, 7), Bohu neprikazujeme. Neprosíme o to, čo už máme v Kristovi.
 - Kapitolu 7 o Božej zvrchovanosti netreba meniť, Pavol ju potvrdzuje (Ef 1, 11; Rim 8, 28).
 
