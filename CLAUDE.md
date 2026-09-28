@@ -120,26 +120,11 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - „v tvojom", nie „vo tvojom".
 - „vyhlasujem", nie „prehlasujem".
 
-### Štýl textov („ľudský faktor")
-- Píš, akoby písal človek pre ľudí, aj pre jednoduchších čitateľov. Krátke vety (do ~15 slov), jedna myšlienka v jednej vete, bežné slová, konkrétne obrazy.
-- Neopakuj to isté slovo v krátkom úseku. Opakovanie v susedných vetách spoj do jednej vety. Žiadne vágne odkazy ani kostrbaté konštrukcie.
-- Nepredpokladaj o čitateľovi, čo nemusí platiť. Nechaj priestor Božiemu vedeniu. Príklady uvádzaj všeobecne („životné náklady", nie „účet za elektrinu"). Formuluj jemne, nie drsne.
-- Texty nesmú viesť k rozhodovaniu podľa vlastného úsudku, ale podľa Božieho Slova.
-- Boh môže mať s človekom iný zámer, ktorý dopredu vidí. Môže ho viesť inam alebo ho chrániť pred niečím horším. Nepodsúvaj jediný výklad situácie.
-- Vec pomenuj presne: „nová pracovná zmluva", nie len „nová zmluva".
-- Príklady chýb, ktorým sa treba vyhnúť:
-  - 2× „nemusíš" v jednej vete alebo 3× „situácia" v jednej modlitbe
-  - vágny odkaz bez predmetu: „ako sa to vyrieši"
-  - kostrbatá konštrukcia: „Daj mi silu urobiť krok, keď ho uvidím"
-  - príliš tvrdé znenie, aj keď je pravdivé: „Otec neušetril Teba, svojho Syna, ale vydal Ťa za mňa"
-  - predpoklad o čitateľovi: „svoju hodnotu som spájal s tým, čo zarábam" (nie každý to tak má)
-- Príklad spojenia viet:
-  - NIE: „Ty vieš, na čo čakám. Vieš aj to, že som už unavený z čakania."
-  - ÁNO: „Ty vieš, na čo čakám a aj to, že som už z toho unavený."
-- Pri každej vete skontroluj štyri veci: spisovnú slovenčinu s prirodzeným slovosledom, logickú súdržnosť, ľudský faktor a biblickú presnosť.
-- O Božom Slove hovor v prítomnom čase, zámeno píš s veľkým Ň. Človek sám zo seba nevie, čo je správne (Prísl 14, 12).
-- Dĺžka príhovoru ~450–650 slov (medián 520). Bez číslovaných medzititulkov.
-- Keď sa zmení modlitba, zosúlaď príhovor, a naopak.
+### Kontrola textov a štýl („ľudský faktor")
+- **Pred každým predložením textu Adminovi je kontrola povinná:** `node scripts/kontrola-textu.js <N>` a štyri prechody podľa `docs/KONTROLA-TEXTOV.md` (1. dispenzačný – meradlom sú Pavlove listy, Wommackove princípy len tam, kde ich Pavol potvrdzuje, 2. verše ECAV, 3. slovenčina, 4. bežný čitateľ). Adminovi ukáž len nájdené a opravené veci, jeden riadok za prechod.
+- Podrobné pravidlá štýlu, zoznam modlitieb na opravu pri novej nahrávke a plán opráv príhovorov sú v tom istom súbore. Čítaj ho len pri písaní textov.
+- Krátke vety (do ~15 slov), bežné slová, jemne, bez predpokladov o čitateľovi. Príhovor ~450–650 slov, bez číslovaných medzititulkov.
+- Keď sa zmení modlitba, zosúlaď príhovor, a naopak. Modlitba s audiom sa bez novej nahrávky nemení. Opravený príhovor jej nesmie protirečiť.
 - Všetko, čo Admin dodá, skontroluj (biblicky, logicky, ľudsky) a navrhni zlepšenia.
 - Pred nasadením kapitoly predlož zhrnutie a vypýtaj si schválenie: zoznam veršov (počet, overenie v ECAV, že sa neopakujú), tags, scriptureTheme, shortDescription.
 
@@ -199,7 +184,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
-  - Oprava modlitby kap. 12: „Odpusť mi to, Otče, a očisti moju myseľ" → „Vyznávam Ti, že som ich veľakrát prijal za svoju identitu. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda obnovuje moju myseľ." Urobí sa až spolu s novou nahrávkou.
+  - Opravy príhovorov 3, 7, 8, 17, 25 (spolu) a 9, 10, 12 (každá zvlášť) a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
   - Súvislé prehrávanie piesní (⏭/⏮, Media Session).
   - Rozšírené sťahovanie – odľahčená verzia 192 kbps a text o voľnom nekomerčnom použití.
   - Overiť limity a podmienky raw.githubusercontent.com pre sťahovanie MP3 (zatiaľ neoverené).
