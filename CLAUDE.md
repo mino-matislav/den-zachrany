@@ -107,6 +107,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - Striedanie Otec a Pán Ježiš je biblicky doložené (Sk 7, 59–60; Zj 22, 20; 2Kor 12, 8; aj Ján 16, 23; Ef 2, 18).
 - Starozákonné príbehy rámcuj ako typy a tiene (1Kor 10, 11). Pozor na teológiu prosperity.
 - Stanovisko Admina: Nevesta Kristova je Izrael a Nový Jeruzalem, nie Cirkev. Cirkev je v dobe milosti Telo Kristovo.
+- Piesne sú umelecké vyjadrenie a nemusia byť dispenzačné. Dispenzačnú kontrolu na ne neuplatňuj (texty ani verše v „Inšpirácia z Biblie“).
 
 ### Verše
 - **Výhradne evanjelický preklad ECAV z biblia.sk** (`https://biblia.sk/citanie/sep/<kniha>/<kapitola>`, napr. Žalmy = `sep/z/16`). Nie seb, roh ani ssv. Vždy nezávisle over, aj názvy kníh („Židom", nie „Hebrejom"; „Józua"). Overené znenia sú v `docs/BIBLICKE-VERSE-ECAV.md`.
