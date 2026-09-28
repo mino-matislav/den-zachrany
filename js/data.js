@@ -178,13 +178,15 @@ Keď prichádzajú obavy o budúcnosť, o peniaze alebo o každodenné potreby, 
 
 "Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša."
 
-Takto funguje Božie kráľovstvo v čase milosti. Nie podľa toho, čo vidia fyzické oči, ale podľa viery. V liste Židom 11, 1 čítame:
+Tak žije veriaci v čase milosti. Nespolieha sa na to, čo vidia oči, ale dôveruje Bohu. V liste Židom 11, 1 čítame:
 
 "Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme."
 
-Už Pán Ježiš poukazoval na tento kľúčový princíp, ktorý neskôr apoštol Pavel pre cirkev plne rozvinul vo svetle milosti. V evanjeliu podľa Matúša 6, 33 hovorí:
+Pán Ježiš hovoril o takej dôvere svojim poslucháčom v Izraeli, ešte pred krížom:
 
 "Ale hľadajte najprv kráľovstvo Božie a Jeho spravodlivosť a všetko toto bude vám pridané."
+
+Pre nás v čase milosti je to ešte jasnejšie. Kto je v Kristovi, už v Ňom má každé duchovné požehnanie (Ef 1, 3). A o všetko ostatné smie Boha prosiť s vďakou, ako sme čítali u Pavla.
 
 Nie je tvojou povinnosťou vyriešiť každú otázku a každú obavu. Tvojou jedinou úlohou je odovzdať svoje starosti Bohu, odpočívať v Jeho zasľúbeniach a kráčať vo viere. Ako je zapísané v liste Židom 6, 12, buď tým, ktorý vierou a trpezlivosťou dedí Božie zasľúbenia.`,
         verses: [
@@ -426,11 +428,16 @@ V liste Židom 6, 12 máme toto pevné zasľúbenie:
 
 Viera a trpezlivé očakávanie sú kľúčom. Viera verí Božiemu charakteru a trpezlivé očakávanie odpočíva v Božom načasovaní. Boh nikdy nemešká. Často čaká do poslednej chvíle, aby bolo jasné, že to vykonala výhradne Jeho milosť a moc, nie ľudské telo.
 
-Preto sa prestaň strachovať o výsledok a zameraj sa na hľadanie Pána Ježiša Krista podľa Matúša 6, 33. Keď hľadáš Jeho, si priamo v centre Jeho vôle. Najvyššia forma viery je odpočívať v Jeho zasľúbeniach. Nemôžeš minúť to, čo pre teba Boh vo svojej dokonalej vôli pripravil. Tvojou jedinou úlohou je sýtiť sa Jeho slovom a hľadať Jeho tvár.`,
+Preto sa prestaň strachovať o výsledok. Pavol píše:
+
+"Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi."
+
+Keď hľadáš Jeho, si priamo v centre Jeho vôle. Najvyššia forma viery je odpočívať v Jeho zasľúbeniach. Nemôžeš minúť to, čo pre teba Boh vo svojej dokonalej vôli pripravil. Tvojou jedinou úlohou je sýtiť sa Jeho Slovom a hľadať Jeho tvár.`,
         verses: [
             { text: "Levíčatá biedia a hladujú, ale tí, ktorí Hospodina hľadajú, nemajú nedostatku v ničom dobrom.", ref: "Žalm 34, 11" },
             { text: "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:", ref: "Kazateľ 3, 1" },
-            { text: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení.", ref: "Židom 6, 12" }
+            { text: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení.", ref: "Židom 6, 12" },
+            { text: "Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi.", ref: "Kolosenským 3, 1 – 2" }
         ],
         prayer: `Pane Ježišu Kriste, môj Boh a môj Hrnčiar,
 
@@ -448,7 +455,7 @@ Amen.`,
         illustrationRef: "hrnciar-hlina",
         tags: ["neistota", "trpezlivosť", "starosti", "istota", "odpočinok"],
         available: true,
-        scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6",
+        scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6, Kolosenským 3",
         isStarter: false
     },
     "8": {
@@ -466,17 +473,17 @@ Boží výrok z evanjelia podľa Jána 8, 32 hovorí:
 
 Sloboda neprichádza vtedy, keď analyzuješ svoj strach, ale keď spoznáš Pravdu, ktorou je Božie Slovo. Ty nemusíš popierať, že tvoje trápenie je reálne. Viera však znamená, že odmietneš priznať tomuto trápeniu väčšiu autoritu, než akú má Božie zasľúbenie. Ty sa rozhoduješ, s ktorou realitou budeš súhlasiť: či s klamstvom strachu, alebo s Božím Slovom.
 
-Hospodin prikázal Józuovi v knihe Józuovej 1, 8:
+Keď Józua preberal vedenie Izraela, Hospodin mu prikázal:
 
 "Nech sa táto kniha zákona nevzdiali od tvojich úst, ale rozjímaj o nej vo dne i v noci..."
 
-Všimni si: Boh ti neprikazuje rozjímať o tvojej úzkosti a depresii. Hovorí ti, aby si vo dne i v noci sýtil svoju myseľ Jeho Slovom. To, na čo sa zameriavaš, určí smer tvojho života.
+Tento príkaz dostal Józua pod zákonom, pred vstupom do zasľúbenej krajiny. Pre nás je to obraz a poučenie (1Kor 10, 11). Pavol učí Cirkev podobnú pravdu. Máme sa premieňať obnovením mysle (Rim 12, 2). Namiesto strachu máme myslieť na to, čo je pravdivé a čisté (Fil 4, 8). To, na čo sa zameriavaš, určí smer tvojho života.
 
 V liste Židom 11, 1 nachádzame kľúč:
 
 "Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme."
 
-Viera nie je len nestály pocit. Podľa Písma je to pevná podstata a duchovný základ. Je to neotrasiteľné presvedčenie o Božej vernosti, aj keď tvoje oči ešte nevidia riešenie. Svet ti hovorí: „Uveríš, až keď uvidíš.“ Boh však vo svojej zvrchovanosti hovorí opak: „Uvidíš, keď uveríš.“
+Viera nie je len nestály pocit. Podľa Písma je to pevná podstata a duchovný základ. Je to neotrasiteľné presvedčenie o Božej vernosti, aj keď tvoje oči ešte nevidia riešenie. Svet hovorí: „Uveríš, až keď uvidíš.“ Pavol však píše: „lebo žijeme vierou, a nie videním“ (2Kor 5, 7).
 
 Tvojou úlohou nie je vymyslieť vo vlastnej sile plán, ako sa zachrániť, ani vyriešiť detaily svojej budúcnosti. Tvoja úloha je oprieť sa o dokonané dielo Ježiša Krista a nechať Boha konať. Stráž svoje myšlienky, sýť sa Písmom a dovoľ Bohu, aby obnovil tvoju myseľ podľa Svojej pravdy. Vtedy okovy strachu odpadnú a ty budeš skutočne slobodný.`,
         verses: [
@@ -1007,7 +1014,7 @@ A ešte jedna vec, drobná, ale krásna. Keď Pán Ježiš posielal učeníkov, 
 
 Bol to pokyn pre nich a pre ich vtedajšie poslanie, nie formulka pre nás. Ale ukazuje nám niečo o Božom srdci: Bohu záleží na domoch. Nie na budovách, ale na ľuďoch, ktorí v nich spolu žijú. Prvé, čo malo do domu vojsť, bol pokoj.
 
-Ty tú vetu odriekať nemusíš. Ale môžeš byť tým, kto pokoj do domu prinesie – svojím tónom, svojou trpezlivosťou, tým, že nezvýšiš hlas, hoci by si mohol.
+Ty tú vetu odriekať nemusíš. Pavol píše: „Ak je možné, nakoľko je na vás, majte pokoj so všetkými ľuďmi“ (Rim 12, 18). Doma to môžeš žiť svojím tónom, svojou trpezlivosťou, tým, že nezvýšiš hlas, hoci by si mohol.
 
 A to najdôležitejšie: ten pokoj si nemusíš vyrobiť. Už ti bol daný. Pán Ježiš to povedal svojim učeníkom v Evanjeliu podľa Jána 14, 27:
 
@@ -1426,7 +1433,7 @@ Amen.`,
         title: "Keď prídeš o prácu",
         subtitle: "Keď nevieš, ako uživíš seba a svoju rodinu",
         shortDescription: "Strata práce zoberie príjem, nie tvoju hodnotu. Boh, ktorý dal vlastného Syna, vie o tvojej núdzi skôr, než si o nej povedal.",
-        fullText: "Drahý brat, drahá sestra v Kristovi,\n\npríde deň, telefonát alebo rozhovor s nadriadeným. Dostaneš výpoveď — a tvoj príjem sa skončí. Možno si to nečakal, možno si to tušil už dlhšie. V oboch prípadoch príde to isté: strach. Ako zaplatím nájom? Ako uživím deti? Čo poviem doma?\n\nK strachu sa často pridá aj hanba, hoci si nič zlé neurobil. Človek, ktorý príde o prácu, sa niekedy cíti, akoby zlyhal ako živiteľ rodiny. Akoby jeho hodnota bola naviazaná na výplatnú pásku.\n\nSkôr než začneš riešiť, čo bude ďalej, potrebuješ vedieť jednu vec: tvoja hodnota pred Bohom sa nezmenila. Zamestnávateľ ťa mohol prepustiť. Boh ťa neprepustil.\n\n\"Veď sme Jeho dielo, stvorení v Kristovi Ježišovi na dobré skutky, v ktorých nás Boh už prv uspôsobil chodiť.\"\n\nTvoja identita nestojí na tom, čo robíš od pondelka do piatka, ale na tom, komu patríš. To sa stratou práce nemení.\n\nTo však neznamená, že otázka „z čoho budem žiť?“ je nedôležitá. Je veľmi dôležitá a Písmo ju neobchádza. Pavel kladie otázku, ktorá mení pohľad na celú vec:\n\n\"Ten, ktorý neušetril vlastného Syna, ale vydal Ho za nás všetkých, ako by nám nedaroval s Ním všetko?\"\n\nToto nie je zbožné želanie, ale jednoduchý záver. Ak Boh dal to najcennejšie, čo mal — vlastného Syna — prečo by ti odopieral to, čo dnes potrebuješ na živobytie? Ak vyriešil tvoj najväčší problém na kríži, nezostane bezradný ani pri tvojich účtoch a bežných výdavkoch.\n\nAj Pán Ježiš hovoril o tejto starosti veľmi konkrétne:\n\n\"Pozrite vtákov nebeských: ani nesejú, ani nežnú, ani nezhromažďujú do stodôl, a váš Otec nebeský ich živí.\"\n\nVšimni si, že vtáky nesedia nečinne. Hľadajú si potravu. Ale nezhromažďujú zo strachu. Aj ty rob, čo treba — len to nerob zo strachu.\n\n\"A Boh má moc vo všetkom rozhojniť pri vás svoju milosť, aby ste vo všetkom mali vždy dostatok všetkého (pre seba), aj nadbytok pre každý skutok\"\n\nNie je to sľub, že peniaze pribudnú na účet bez toho, aby si čokoľvek urobil. Je to uistenie, že Boh má dosť milosti, aby ťa touto sezónou preniesol. Cez ponuku, ktorú nečakáš. Cez človeka, ktorý ti pomôže. Cez dvere, ktoré sa otvoria práve vtedy, keď to budeš potrebovať.\n\nPreto hľadanie novej práce, žiadosť o podporu v nezamestnanosti či prijatie pomoci od rodiny alebo zboru nie je zlyhaním viery. Je to súčasť toho, ako Boh svoju milosť bežne rozdáva. Cez ľudí a príležitosti, nie iba cez zázraky padajúce z neba.\n\nNiekedy sa navyše ukáže, že Boh videl dopredu to, čo ty si vidieť nemohol. Že ťa z toho miesta vyviedol skôr, než sa naplno prejavilo, čo tam prichádzalo. Nemusíš tomu dnes rozumieť. Stačí vedieť, že ťa nevedie naslepo.\n\nZároveň buďme poctiví. Písmo nikde nesľubuje veriacemu bohatstvo ani to, že nikdy nezažije núdzu. Pavel sám poznal aj nedostatok. Preto píše Timoteovi:\n\n\"A pobožnosť so spokojnosťou je skutočne veľkým ziskom; lebo nič sme nepriniesli na svet a nepochybné je, ani nič odniesť nemôžeme. Preto, keď máme pokrm a odev, s tým sa uspokojíme.\"\n\nTo nie je výzva rezignovať. Je to pripomenutie, že tvoj život nestojí na tom, koľko máš.\n\nČo teda teraz urobiť? Pošli životopisy. Zavolaj ľuďom, ktorých poznáš. Vybav si, na čo máš nárok. To všetko je múdre a správne. Rob to však s vedomím, že nestojíš pred Bohom ako niekto, kto Ho musí najprv presvedčiť, aby si všimol tvoju núdzu. On ju už vidí. A ešte skôr, než si o prácu prišiel, poznal cestu, ktorou ťa prevedie ďalej.",
+        fullText: "Drahý brat, drahá sestra v Kristovi,\n\npríde deň, telefonát alebo rozhovor s nadriadeným. Dostaneš výpoveď — a tvoj príjem sa skončí. Možno si to nečakal, možno si to tušil už dlhšie. V oboch prípadoch príde to isté: strach. Ako zaplatím nájom? Ako uživím deti? Čo poviem doma?\n\nK strachu sa často pridá aj hanba, hoci si nič zlé neurobil. Človek, ktorý príde o prácu, sa niekedy cíti, akoby zlyhal ako živiteľ rodiny. Akoby jeho hodnota bola naviazaná na výplatnú pásku.\n\nSkôr než začneš riešiť, čo bude ďalej, potrebuješ vedieť jednu vec: tvoja hodnota pred Bohom sa nezmenila. Zamestnávateľ ťa mohol prepustiť. Boh ťa neprepustil.\n\n\"Veď sme Jeho dielo, stvorení v Kristovi Ježišovi na dobré skutky, v ktorých nás Boh už prv uspôsobil chodiť.\"\n\nTvoja identita nestojí na tom, čo robíš od pondelka do piatka, ale na tom, komu patríš. To sa stratou práce nemení.\n\nTo však neznamená, že otázka „z čoho budem žiť?“ je nedôležitá. Je veľmi dôležitá a Písmo ju neobchádza. Pavel kladie otázku, ktorá mení pohľad na celú vec:\n\n\"Ten, ktorý neušetril vlastného Syna, ale vydal Ho za nás všetkých, ako by nám nedaroval s Ním všetko?\"\n\nToto nie je zbožné želanie, ale jednoduchý záver. Ak Boh dal to najcennejšie, čo mal — vlastného Syna — prečo by ti odopieral to, čo dnes potrebuješ na živobytie? Ak vyriešil tvoj najväčší problém na kríži, nezostane bezradný ani pri tvojich účtoch a bežných výdavkoch.\n\nAj Pán Ježiš hovoril o tejto starosti veľmi konkrétne:\n\n\"Pozrite vtákov nebeských: ani nesejú, ani nežnú, ani nezhromažďujú do stodôl, a váš Otec nebeský ich živí.\"\n\nPán Ježiš to povedal svojim poslucháčom v Izraeli, ešte pred krížom. Ukazuje nám však, aký je Boh: stará sa aj o to najmenšie. Pavol to pre Cirkev potvrdzuje. Boh uspokojí všetky naše potreby podľa svojho bohatstva v sláve Krista Ježiša (Fil 4, 19).\n\nVšimni si, že vtáky nesedia nečinne. Hľadajú si potravu. Ale nezhromažďujú zo strachu. Aj ty rob, čo treba — len to nerob zo strachu.\n\n\"A Boh má moc vo všetkom rozhojniť pri vás svoju milosť, aby ste vo všetkom mali vždy dostatok všetkého (pre seba), aj nadbytok pre každý skutok\"\n\nNie je to sľub, že peniaze pribudnú na účet bez toho, aby si čokoľvek urobil. Je to uistenie, že Boh má dosť milosti, aby ťa týmto obdobím previedol. Cez ponuku, ktorú nečakáš. Cez človeka, ktorý ti pomôže. Cez dvere, ktoré sa otvoria práve vtedy, keď to budeš potrebovať.\n\nPreto hľadanie novej práce, žiadosť o podporu v nezamestnanosti či prijatie pomoci od rodiny alebo zboru nie je zlyhaním viery. Je to súčasť toho, ako Boh svoju milosť bežne rozdáva. Cez ľudí a príležitosti, nie iba cez zázraky padajúce z neba.\n\nNiekedy sa navyše ukáže, že Boh videl dopredu to, čo ty si vidieť nemohol. Že ťa z toho miesta vyviedol skôr, než sa naplno prejavilo, čo tam prichádzalo. Nemusíš tomu dnes rozumieť. Stačí vedieť, že ťa nevedie naslepo.\n\nZároveň buďme poctiví. Písmo nikde nesľubuje veriacemu bohatstvo ani to, že nikdy nezažije núdzu. Pavel sám poznal aj nedostatok. Preto píše Timoteovi:\n\n\"A pobožnosť so spokojnosťou je skutočne veľkým ziskom; lebo nič sme nepriniesli na svet a nepochybné je, ani nič odniesť nemôžeme. Preto, keď máme pokrm a odev, s tým sa uspokojíme.\"\n\nTo nie je výzva rezignovať. Je to pripomenutie, že tvoj život nestojí na tom, koľko máš.\n\nČo teda teraz urobiť? Pošli životopisy. Zavolaj ľuďom, ktorých poznáš. Vybav si, na čo máš nárok. To všetko je múdre a správne. Rob to však s vedomím, že nestojíš pred Bohom ako niekto, kto Ho musí najprv presvedčiť, aby si všimol tvoju núdzu. On ju už vidí. A ešte skôr, než si o prácu prišiel, poznal cestu, ktorou ťa prevedie ďalej.",
         verses: [
             { text: "Veď sme Jeho dielo, stvorení v Kristovi Ježišovi na dobré skutky, v ktorých nás Boh už prv uspôsobil chodiť.", ref: "Efezským 2, 10" },
             { text: "Ten, ktorý neušetril vlastného Syna, ale vydal Ho za nás všetkých, ako by nám nedaroval s Ním všetko?", ref: "Rimanom 8, 32" },

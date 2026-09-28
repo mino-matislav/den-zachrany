@@ -83,5 +83,6 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **1** (Modlitba spásy): „prikazujem každému duchu"; „moc, ktorá uzdravuje moju dušu i telo". Nižšia priorita.
 
 ### Plán opráv príhovorov (schválené 28. 9. 2026, každý návrh najprv Adminovi)
-- Spolu v jednej úlohe: 3, 7, 25 (Mt 6, 33 a 6, 26 nie sú „kráľovstvo v čase milosti"), 8 (Józua 1, 8 ako príkaz čitateľovi, „Uvidíš, keď uveríš"), 17 (Lukáš 10, 5).
+- ~~Spolu v jednej úlohe: 3, 7, 25, 8, 17~~ Hotové 28. 9. 2026 (kap. 7: Mt 6, 33 nahradený Kol 3, 1–2; kap. 17: doplnený Rim 12, 18).
+- Kap. 7: zarámcovať Žalm 34, 11 („nemajú nedostatku"), aby nevyznel ako sľub hmotného dostatku.
 - Každá zvlášť: 9 (doplniť Pavlove príklady a 2Kor 12, 9), 10 (doplniť Fil 4, 6 a rámec Marka 11, 23), 12 (ťažisko na Písme, nie na vnútornom hlase).

@@ -179,13 +179,13 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 26. 9. 2026)
+## 7. Stav a otvorené úlohy (k 28. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v195, verify.js 521 kontrol (s `VERIFY_AUDIO=1` 545). Pieseň 17 má remaster (26. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v196, verify.js 521 kontrol (s `VERIFY_AUDIO=1` 545). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
-  - Opravy príhovorov 3, 7, 8, 17, 25 (spolu) a 9, 10, 12 (každá zvlášť) a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
+  - Opravy príhovorov 9, 10, 12 (každá zvlášť), rámec Žalmu 34, 11 v kap. 7 a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
   - Súvislé prehrávanie piesní (⏭/⏮, Media Session).
   - Rozšírené sťahovanie – odľahčená verzia 192 kbps a text o voľnom nekomerčnom použití.
   - Overiť limity a podmienky raw.githubusercontent.com pre sťahovanie MP3 (zatiaľ neoverené).
