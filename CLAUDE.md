@@ -121,6 +121,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Vokatív „Pane Ježišu", nikdy „Pane Ježiši".
 - „v tvojom", nie „vo tvojom".
 - „vyhlasujem", nie „prehlasujem".
+- Meno apoštola na webe je „Pavel" (ako v ECAV), nie „Pavol". V jednom príhovore ho neopakuj v každej vete.
 
 ### Kontrola textov a štýl („ľudský faktor")
 - **Pred písaním alebo úpravou akéhokoľvek textu (príhovor, modlitba, popisok, pieseň) si najprv prečítaj `docs/KONTROLA-TEXTOV.md`.** Sú v ňom podrobné pravidlá štýlu, stanovisko k uzdraveniu a modlitbe, zoznam modlitieb na opravu pri novej nahrávke a plán opráv príhovorov.
@@ -184,7 +185,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 7. Stav a otvorené úlohy (k 28. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v197, verify.js 522 kontrol (s `VERIFY_AUDIO=1` 546). Kapitola 9 (uzdravenie) má nový príhovor aj novú modlitbu s nahrávkou (29. 9.). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v198, verify.js 522 kontrol (s `VERIFY_AUDIO=1` 546). Kapitola 9 (uzdravenie) má nový príhovor aj novú modlitbu s nahrávkou (29. 9.). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**

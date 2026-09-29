@@ -69,6 +69,7 @@ Zoznam je v CLAUDE.md (sekcia 5, Slovenčina). Navyše prirodzený slovosled a �
 ## Prechod 4: bežný čitateľ („ľudský faktor")
 
 - Píš, akoby písal človek pre ľudí, aj pre jednoduchších čitateľov. Krátke vety (do ~15 slov), jedna myšlienka v jednej vete, bežné slová, konkrétne obrazy.
+- Keď vetu vyškrtneš alebo skrátiš, skontroluj zámená a podmet v nasledujúcich vetách („Jeho spolupracovník" potom odkazoval na Boha namiesto Pavla, kap. 9).
 - Neopakuj to isté slovo v krátkom úseku. Opakovanie v susedných vetách spoj do jednej vety. Žiadne vágne odkazy ani kostrbaté konštrukcie.
 - Nepredpokladaj o čitateľovi, čo nemusí platiť. Nechaj priestor Božiemu vedeniu. Príklady uvádzaj všeobecne („životné náklady", nie „účet za elektrinu"). Formuluj jemne, nie drsne.
 - Texty nesmú viesť k rozhodovaniu podľa vlastného úsudku, ale podľa Božieho Slova.
