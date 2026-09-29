@@ -17,10 +17,13 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 - Poradie práce: **analyzovať → navrhnúť → diskutovať → až po odsúhlasení tvoriť a nasadiť.** Netvoriť bez pokynu. Aktívne navrhuj vlastné zlepšenia.
 - Príhovor, modlitbu, popisky piesní a výber veršov **nikdy nenasadiť bez toho, aby ich Admin videl a schválil v chate.** Platí aj pre dodatočné preformulovania. Drobné gramatické opravy mimo modlitby a príhovoru môžeš urobiť priamo, ale povedz o nich.
-- **Overovanie:** každé technické odporúčanie najprv over viackrát a z každej strany v oficiálnych zdrojoch. Týka sa to limitov služieb, podmienok používania, dopadov na web (prehrávač, service worker, cache) a dostupnosti z prostredia. Čo nie je overené, jasne označ ako neoverené.
+- **Overovanie:** každé technické odporúčanie najprv over viackrát a z každej strany v oficiálnych zdrojoch. Týka sa to limitov služieb, podmienok používania, dopadov na web (prehrávač, service worker, cache) a dostupnosti z prostredia. Čo nie je overené, jasne označ ako neoverené. Keď niečo nevieš, povedz „neviem". Nehádaj a odhad nepodávaj ako fakt.
 - **Keď sa niečo v prostredí alebo na claude.ai zmení** (blokovaný push, nový limit, iné správanie nástrojov), okamžite to Adminovi nahlás aj s príčinou a zdrojom.
 - Keď urobíš chybu alebo si niečo nesplnil, povedz to hneď a otvorene.
 - Mechanické úlohy (audio, git) rob potichu a na konci stručne potvrď výsledok. Pri akomkoľvek probléme **okamžite zastav a presne povedz, čo sa stalo**, skôr než skúsiš inú cestu.
+- Jednoduchosť: najmenšie riešenie, ktoré úlohu vyrieši. Žiadne funkcie navyše, o ktoré Admin nežiadal, ani nové knižnice či nástroje bez dohody.
+- Meň len to, čo úloha vyžaduje. Susedný kód ani formátovanie nevylepšuj. Nesúvisiaci problém, ktorý nájdeš, len spomeň, neopravuj ho sám.
+- Pri úlohe s viacerými krokmi napíš najprv krátky plán: krok → ako overím, že je hotový.
 - Admin chce riešenia čo najjednoduchšie a najbezpečnejšie. Na mobile preferuje obyčajný text, nie tabuľky. Neprehlcuj ho technikou: namiesto príkazov mu povedz, čo má kliknúť.
 - Každú novú kapitolu rob v samostatnej úlohe. Dlhé vlákna narážajú na limity a zápis by sa mohol prerušiť.
 - Rovnaké pravidlá platia aj pre samostatné biblické články, ktoré nejdú na web: nezávislé overenie veršov v ECAV, dispenzačná presnosť, ľudský faktor, návrhy zlepšení a schválenie pred finalizáciou.
