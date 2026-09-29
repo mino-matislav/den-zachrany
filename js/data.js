@@ -515,58 +515,68 @@ Amen.`,
     "9": {
         id: "9",
         title: "Božie uzdravenie a obnova v čase choroby a bolesti",
-        subtitle: "Ako skrze vieru v dokonané Kristovo dielo prijať zasľúbenie o uzdravení a obstáť zoči-voči zlým lekárskym správam",
-        shortDescription: "Ako skrze vieru v dokonané Kristovo výkupné dielo prijať Božie zasľúbenie o uzdravení a obnove zdravia zoči-voči chorobe a zlým lekárskym správam.",
+        subtitle: "Ako prosiť Boha o uzdravenie, obstáť pri zlých lekárskych správach a žiť s nádejou vykúpenia tela",
+        shortDescription: "Boh uzdravuje a môžeš Ho o to prosiť. Choroba však nie je trest ani znak malej viery. Božia moc sa dokonáva v ľudskej slabosti.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-ak tvoje telo momentálne zažíva slabosť, ak bojuješ s chronickou bolesťou alebo ťa vystrašila zlá lekárska správa, zastav sa. Ľudská bezmocnosť zoči-voči chorobe dokáže naplniť celú našu myseľ strachom. V takýchto chvíľach sa často vynára tichá, ale ničivá otázka: „Trestá ma Boh? Je toto Jeho vôľa pre môj život?“ Náboženské klamstvá a nepriateľ duše sa nás snažia presvedčiť, že Boh používa choroby a utrpenie na to, aby nás niečo naučil alebo zlomil. Písmo nám však v svetle Kristovho kríža ukazuje úplne inú pravdu.
+možno ťa trápi slabosť, ktorá neodchádza. Možno žiješ s bolesťou, ktorú okolie nevidí. Alebo ťa vystrašila lekárska správa a odvtedy myslíš len na ňu. Zastav sa na chvíľu. Boh o tebe vie a nie si v tom sám.
 
-Boh nie je autorom tvojej choroby ani tvojej bolesti. Ježiš počas svojho pozemského pôsobenia neprišiel choroby zosielať – naopak, chodil, robil dobre a uzdravoval všetkých sužovaných diablom (Skutky 10, 38). On ti neponúka len prázdnu ľudskú útechu, ale prichádza s mocným zasľúbením, ktoré mení celú tvoju situáciu.
+V chorobe sa často ozve tichá otázka: „Trestá ma Boh?" Ak si uveril v Krista, odpoveď je jasná. Pavel píše, že niet odsúdenia tých, čo sú v Kristovi Ježišovi (Rimanom 8, 1). Tvoja choroba preto nie je Boží trest. Boh sa na teba nehnevá. Ospravedlnení z viery máme pokoj s Bohom (Rimanom 5, 1). Žijeme však v smrteľnom tele a vo svete, kde všetko stvorenstvo spoločne vzdychá (Rimanom 8, 22). Choroba preto prichádza k veriacim aj k neveriacim.
 
-Počúvaj, ako Otcovo srdce opisuje Žalm 103, 2 – 3:
+Dávid v žalme spieva o Bohu, ktorého dobre pozná:
 
 "Dobroreč, duša moja, Hospodinovi a nezabúdaj na žiadne Jeho dobrodenia! On odpúšťa ti všetky tvoje viny. On uzdravuje všetky tvoje choroby."
 
-A v Žalme 147, 3 Písmo svedčí o Jeho nežnej starostlivosti:
+Tento žalm nám ukazuje Božie srdce. Boh, ktorý odpúšťa, sa stará o celého človeka. Iný žalm dodáva, že sa skláňa aj k zlomenému srdcu:
 
 "On uzdravuje skrúšených srdcom a obväzuje ich rany;"
 
-Sám nebeský Otec sa v knihe proroka Jeremiáša 30, 17 osobne zaväzuje, že prevezme starostlivosť o tvoju bolesť a nenechá tvoje uzdravenie na náhodu:
+Boh uzdravuje aj dnes. Preto Ho môžeš o uzdravenie prosiť. Pavel učí, aby sme vo všetkom s vďakou predkladali Bohu svoje žiadosti (Filipským 4, 6). Povedz Mu úprimne, čo cítiš a čo potrebuješ. On ťa rád počúva.
 
-"Lebo ťa uzdravím a vyliečim z tvojich rán, — znie výrok Hospodinov —"
+Možno si však už prosil a uzdravenie neprišlo. Neznamená to, že máš malú vieru. Jeho spolupracovník Epafroditus bol chorý a už blízky smrti. Boh sa nad ním zmiloval (Filipským 2, 27). Trofima však Pavel musel nechať chorého v Miléte (2. Timoteovi 4, 20). Aj sám Pavel trikrát prosil Pána, aby od neho vzal osteň, ktorý ho trápil. Pán mu odpovedal: „Dosť máš na mojej milosti" (2. Korintským 12, 9). Timotejovi, ktorý mal časté choroby, Pavel poradil praktický prostriedok (1. Timoteovi 5, 23). Nikde nečítame, že by niekomu z nich Pavel vyčítal malú vieru.
 
-Keď Pán Ježiš zomieral na kríži Golgoty, nezískal pre teba len odpustenie hriechov. On vzal na seba aj tvoje slabosti, choroby a bolesť. Apoštol Peter to v 1. liste Petrovom 2, 24 potvrdzuje ako hotovú skutočnosť:
+Pavla sprevádzal aj Lukáš, ktorého nazýva „milovaný lekár" (Kolosenským 4, 14). Ísť k lekárovi teda nie je nedostatok viery. Boh môže pomôcť aj cez ľudí, ktorým dal vedomosti a skúsenosti.
 
-"na vlastnom tele vyniesol naše hriechy na drevo, aby sme odumreli hriechom a žili spravodlivosti; Jeho krvavé rany vás uzdravili."
+Lekárska správa ti povie, čo sa deje v tvojom tele. Posledné slovo o tvojom živote však má Boh. Keď prídu myšlienky ako „je koniec" alebo „Boh na mňa zabudol", nemusíš ich prijať. Pavel ich prirovnáva k ohnivým šípom, ktoré uhasí štít viery. Proti nim máš meč Ducha, ktorým je slovo Božie (Efezským 6, 16 – 17).
 
-Všimni si minulý čas: „uzdravili". Z pohľadu neba je tvoje uzdravenie a tvoja obnova v Kristovi už zaplatená a dokončená. Skrze vieru v Neho sa tvoje telo stalo Božím chrámom a príbytkom Ducha Svätého, preto žiadna choroba nemá právo navždy ovládať tvoj život.
+Pavel nám dáva aj veľkú nádej. Píše, že aj my, ktorí už patríme Kristovi, zatiaľ vzdycháme:
 
-Tvojou úlohou v čase skúšky nie je prosíkať Boha, aby sa zmiloval, ale vo viere sa postaviť na toto neotrasiteľné Božie Slovo. Dovoľ Božej moci, aby prenikla do tvojho tela, do tvojej mysle i do tvojho ducha. Božia milosť dokáže zvrátiť každú zlú správu od lekárov, obnoviť stratenú silu a vrátiť ti zdravie. Dôveruj Mu, pretože to, čo Boh zasľúbil, to aj splní.`,
+"A nielen ono, ale aj my, ktorí máme prvotiny ducha, aj my vzdycháme v sebe, očakávajúc synovstvo, vykúpenie svojho tela."
+
+Pavel hovorí o celom človeku: o duchu, duši a tele (1. Tesalonickým 5, 23). Tvoj duch je v Kristovi už nový a dokonalý. Pavel píše, že ste prišli k dokonalosti v Ňom (Kolosenským 2, 10). Tvoja myseľ sa obnovuje Božím Slovom (Rimanom 12, 2). Tvoje telo však ešte čaká na vykúpenie. To príde v deň, keď sám Pán zostúpi z neba. Najprv vstanú tí, čo umreli v Kristovi. Potom tí, čo zostanú nažive, budú spolu s nimi uchvátení v ústrety Pánovi (1. Tesalonickým 4, 16 – 17). Kto zomrie skôr, nie je stratený. Pavel píše, že vysťahovať sa z tela znamená prebývať s Pánom (2. Korintským 5, 8). Pavel to opisuje takto:
+
+"Ale naša otčina je v nebesiach; odtiaľ očakávame aj Spasiteľa, Pána Ježiša Krista: On mocou, ktorou si môže podmaniť všetko, pretvorí naše ponížené telo, aby bolo podobné Jeho oslávenému telu."
+
+Toto nie je len prianie. Je to Božie zasľúbenie. Slabosť a bolesť nebudú mať posledné slovo.
+
+Kým ten deň príde, nie si ponechaný sám sebe. Jeho moc sa dokonáva práve v tvojej slabosti. Pros Ho preto s dôverou o uzdravenie. Ďakuj za lekárov a za každé zlepšenie, aj to najmenšie. A zver Mu aj to, čomu zatiaľ nerozumieš. Nič ťa nemôže odlúčiť od Jeho lásky, ktorá je v Kristovi Ježišovi (Rimanom 8, 38 – 39).`,
         verses: [
             { text: "Dobroreč, duša moja, Hospodinovi a nezabúdaj na žiadne Jeho dobrodenia! On odpúšťa ti všetky tvoje viny. On uzdravuje všetky tvoje choroby.", ref: "Žalm 103, 2 – 3" },
             { text: "On uzdravuje skrúšených srdcom a obväzuje ich rany;", ref: "Žalm 147, 3" },
-            { text: "Lebo ťa uzdravím a vyliečim z tvojich rán, — znie výrok Hospodinov —", ref: "Jeremiáš 30, 17" },
-            { text: "na vlastnom tele vyniesol naše hriechy na drevo, aby sme odumreli hriechom a žili spravodlivosti; Jeho krvavé rany vás uzdravili.", ref: "1. Petra 2, 24" }
+            { text: "A nielen ono, ale aj my, ktorí máme prvotiny ducha, aj my vzdycháme v sebe, očakávajúc synovstvo, vykúpenie svojho tela.", ref: "Rimanom 8, 23" },
+            { text: "Ale naša otčina je v nebesiach; odtiaľ očakávame aj Spasiteľa, Pána Ježiša Krista: On mocou, ktorou si môže podmaniť všetko, pretvorí naše ponížené telo, aby bolo podobné Jeho oslávenému telu.", ref: "Filipským 3, 20 – 21" }
         ],
-        prayer: `Drahý nebeský Otče, Hospodine, môj Všemohúci Bože,
+        prayer: `Drahý Pane Ježišu Kriste, môj Záchranca a moja Sila,
 
-prichádzam pred Tvoju tvár v mocnom mene Tvojho Syna, Ježiša Krista. Stojím pred Tebou so všetkými svojimi telesnými slabosťami, prinášam Ti bolesť, ktorá ma unavuje, a zriekam sa strachu, ktorý do mojej mysle priniesli zlé lekárske správy. Odmietam spoliehanie sa na ľudskú silu a obraciam sa k Tebe, lebo Ty sám si môj Uzdravovateľ.
+prichádzam k Tebe taký, aký som. Prinášam Ti svoje slabé telo aj bolesť, ktorá ma unavuje. Ty vieš, čo mi povedali lekári, aj to, čoho sa bojím.
 
-Ďakujem Ti, že podľa Tvojho Slova z Jeremiáša 30, 17 mi Ty sám prinášaš uzdravenie a liečiš moje rany, a podľa Žalmu 147, 3 obväzuješ moje rany a uzdravuješ moje skrúšené srdce. Vyznávam, že Kristova obeta na kríži zlomila moc každej choroby v mojom živote. Moje telo je chrámom Svätého Ducha, a preto v ňom choroba nemá trvalé miesto.
+Ďakujem Ti, že si na kríži niesol všetko, čo by ma mohlo odsúdiť. Ďakujem Ti, že moja choroba nie je trest. Skrze Teba mám pokoj s Bohom a som prijatý a milovaný.
 
-Pane Ježišu, prijímam Tvoje zasľúbenie z 1. listu Petrovho 2, 24, že Tvojimi krvavými ranami som bol uzdravený. Vo viere prijímam prúd Tvojho božského života, uzdravenia a pokoja do svojej krvi, do všetkých vnútorných orgánov, do svojich kostí a do každej bunky svojho tela. Prosím Ťa, obnov všetko, čo je poškodené, a znič koreň každého neduhu.
+Ty uzdravuješ aj dnes. Preto Ťa s dôverou prosím: uzdrav moje telo a vráť mi silu. Zverujem Ti aj to, ako a kedy mi odpovieš. Daj múdrosť lekárom, ktorí sa o mňa starajú. Ďakujem Ti za každé zlepšenie, aj za to najmenšie.
 
-Odmietam veriť strachu a nepodriaďujem sa beznádejným predpovediam. Moja dôvera nestojí na ľudských posudkoch, ale na Tvojej neotrasiteľnej vernosti. Prijímam novú silu, ktorou ma napĺňaš, a odpočívam v tichom vedomí, že môj život je bezpečne skrytý v Tvojich rukách.
+Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri a že v tom nie som sám. Ďakujem Ti, že môj duch je v Tebe dokonalý a že v Tebe mám všetko. Keď príde strach, nepoddám sa mu. Postavím proti nemu Tvoje Slovo, lebo som v Tvojich rukách. Ak uzdravenie nepríde hneď, daj mi silu nestratiť nádej. Ďakujem Ti, že Tvoja moc sa dokonáva práve v mojej slabosti.
 
-V mocnom mene Ježiša Krista.
+Ďakujem Ti aj za nádej, ktorá je pred nami. Raz zostúpiš z neba. Najprv vstanú tí, čo umreli v Tebe, a potom tí, čo zostanú nažive, budú spolu s nimi uchvátení v ústrety Tebe. Vtedy pretvoríš moje ponížené telo, aby bolo podobné Tvojmu oslávenému telu. Už nebude slabé ani choré. Ak by som k Tebe odišiel skôr, budem prebývať s Tebou a v ten deň vstanem aj ja. Do toho dňa zverujem svoj život Tebe. Viem, že ma nič nemôže odlúčiť od Tvojej lásky.
+
+V mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-9.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-9.mp3?v=5",
         hasAudio: true,
         illustrationRef: "uzdravenie-svetlne-ruky",
         tags: ["choroba", "bolesť", "strach", "uzdravenie", "nádej"],
         available: true,
-        scriptureTheme: "Žalm 103, Žalm 147, Jeremiáš 30, 1. Petra 2",
+        scriptureTheme: "Žalm 103, Žalm 147, Rimanom 8, Filipským 3",
         isStarter: false
     },
     "10": {

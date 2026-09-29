@@ -27,9 +27,11 @@ def profile(path):
     ref=b(200,500)
     return {k:b(*v)-ref for k,v in BANDS.items()}
 
+# Pevny ciel = priemer 6/7/8 a povodnej modlitby 9 (pred novou nahravkou 29. 9. 2026).
+# Nova modlitba 9 je prirodzene tmavsia (schvalil Admin), preto sa ciel uz nepocita zo suborov.
+TARGET={'1-2k':-6.4,'2-3.5k':-8.4,'3.5-5k':-13.2,'5-8k':-18.4,'8-12k':-15.0}
 def target():
-    ps=[profile(os.path.join(AUD,f'modlitba-{n}.mp3')) for n in [6,7,8,9]]
-    return {k:sum(p[k] for p in ps)/len(ps) for k in BANDS}
+    return dict(TARGET)
 
 def main():
     if len(sys.argv)<2:
