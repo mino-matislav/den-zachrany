@@ -80,5 +80,5 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | miesto | ECAV znenie | overenie |
 |---|---|---|
 | **Kol 3, 1–2** | „Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi." | kolega na biblia.sk, 28. 9. 2026 (kap. 7) |
-| **Rim 12, 18** | „Ak je možné, nakoľko je na vás, majte pokoj so všetkými ľuďmi." | kolega na biblia.sk, 28. 9. 2026 (kap. 17) |
+| **Rim 12, 18** | „Ak je možné, nakoľko je na vás, majte pokoj so všetkými ľuďmi," | kolega na biblia.sk, 28. 9. 2026 (kap. 17) |
 | **2 Kor 5, 7** | „lebo žijeme vierou, a nie videním" | kolega na biblia.sk, 28. 9. 2026 (kap. 8) |

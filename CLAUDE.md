@@ -26,6 +26,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Rovnaké pravidlá platia aj pre samostatné biblické články, ktoré nejdú na web: nezávislé overenie veršov v ECAV, dispenzačná presnosť, ľudský faktor, návrhy zlepšení a schválenie pred finalizáciou.
 - Heslá za Admina nikdy nezadávaj, prihlasuje sa sám. Nasadenia na Verceli maže Admin sám.
 - Dostupnosť z prostredia (overené 24. 9. 2026): api.github.com, raw.githubusercontent.com, npm a pip fungujú. huggingface.co je blokovaný (žiadny Whisper ani Demucs). uploads.github.com (GitHub Releases) odpovedá, ale či prejde skutočný upload, je neoverené.
+- biblia.sk je od 28. 9. 2026 z prostredia dostupná. Verše over vždy priamo tam.
 
 ---
 
@@ -35,6 +36,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Stack: vanilla JS/HTML/CSS, **žiadny build krok**.
 - Git identita commitov: `mino-matislav` / `mino.matislav@gmail.com`. Autora nemeň, ani na žiadosť automatických hookov.
 - **Push ide z úlohy v claude.ai/code s vybraným repozitárom, bez tokenu** (Claude GitHub App má prístup len k tomuto repozitáru). V bežných chatoch na claude.ai push nefunguje (git proxy od ~21. 9. 2026).
+- **Na začiatku každej úlohy sa prepni na miestnu vetvu `main`** (sleduje `origin/main`) a pushuj z nej. Hlásenia o neodoslaných commitoch vo vetve `claude/…` ignoruj.
 - **Pushuj priamo do `main`.** Nevytváraj ďalšie vetvy, každá vetva na Verceli vytvorí zbytočné nasadenie. Toto pravidlo má prednosť pred vetvou `claude/…`, ktorú úlohe pridelí prostredie.
 - Každý push do `main` spustí nové nasadenie, aj keď sa zmení len CLAUDE.md (`.vercelignore` iba zabráni, aby sa súbor dostal na web). Úpravy CLAUDE.md preto posielaj spolu s najbližšou dávkou, nie samostatne.
 - Tokeny nikdy neukladaj do súborov ani do pamäte.
@@ -123,6 +125,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 ### Kontrola textov a štýl („ľudský faktor")
 - **Pred písaním alebo úpravou akéhokoľvek textu (príhovor, modlitba, popisok, pieseň) si najprv prečítaj `docs/KONTROLA-TEXTOV.md`.** Sú v ňom podrobné pravidlá štýlu, stanovisko k uzdraveniu a modlitbe, zoznam modlitieb na opravu pri novej nahrávke a plán opráv príhovorov.
 - **Pred každým predložením textu Adminovi je kontrola povinná:** päť prechodov podľa toho súboru (1. dispenzačný – meradlom sú Pavlove listy, Wommackove princípy len tam, kde ich Pavol potvrdzuje, 2. verše ECAV, 3. slovenčina, 4. bežný čitateľ, 5. súlad príhovoru a modlitby). Adminovi ukáž len nájdené a opravené veci, jeden riadok za prechod.
+- Pomocník `node scripts/ukaz.js <N> <časť>` vypíše len zvolenú časť kapitoly (nazov, prihovor, modlitba, verse, tagy, vsetko), napr. `node scripts/ukaz.js 9 modlitba`. Nič nemení.
 - Pomocník `node scripts/kontrola-textu.js <N>` len upozorňuje a nezastavuje nasadenie. Hranica 15 slov na vetu je orientačná.
 - Krátke vety (do ~15 slov), bežné slová, jemne, bez predpokladov o čitateľovi. Príhovor ~450–650 slov, bez číslovaných medzititulkov.
 - Keď sa zmení modlitba, zosúlaď príhovor, a naopak. Modlitba s audiom sa bez novej nahrávky nemení. Opravený príhovor jej nesmie protirečiť.
@@ -181,7 +184,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 7. Stav a otvorené úlohy (k 28. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v196, verify.js 521 kontrol (s `VERIFY_AUDIO=1` 545). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v196, verify.js 522 kontrol (s `VERIFY_AUDIO=1` 546). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
