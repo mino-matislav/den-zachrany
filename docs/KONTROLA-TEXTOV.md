@@ -58,6 +58,13 @@ Pasce vo veršoch k uzdraveniu:
 „Vyhlasujem" je v poriadku, keď vyznáva pravdu z Pavlových listov („vyhlasujem, že v Kristovi nie som odsúdený").
 Záväzné pravidlá o odpustení, Duchu Svätom, oslovení a Neveste sú v CLAUDE.md, sekcia 5.
 
+## Prechod 1b: celok webu (bez opakovania)
+Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred predložením textu porovnaj s ostatnými kapitolami:
+- nielen blokové verše, ale aj verše v zátvorkách, citáty v próze a vety v modlitbe (napr. „nič ma nemôže odlúčiť od Tvojej lásky" už končí modlitbu 9),
+- tému a uhol pohľadu: kapitola má mať vlastné ťažisko (napr. 23 = duch, duša, telo; 9 = choroba; 10 = autorita a identita v Kristovi),
+- najmä kapitoly napísané v posledných dňoch.
+Opakovanie len vtedy, keď je nutné, a potom inými slovami.
+
 ## Prechod 2: verše (ECAV)
 
 Pravidlá sú v CLAUDE.md (sekcia 5, Verše). Každý nový verš porovnaj znak po znaku s biblia.sk (preklad sep), skontroluj názov knihy, opakovanie v iných kapitolách a zhodu `fullText` a `verses`.
