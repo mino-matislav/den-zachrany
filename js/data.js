@@ -581,53 +581,64 @@ Amen.`,
     },
     "10": {
         id: "10",
-        title: "Prestaň prosiť a začni vládnuť v Kristovom mene",
-        subtitle: "Ako uchopiť svoju autoritu v znovuzrodenom duchu, prehovoriť k svojim vrchom a kráčať vo víťazstve",
-        shortDescription: "Ako prestať vystupovať z pozície porazeného, uchopiť delegovanú autoritu v Kristovom mene a vládnuť nad strachom a úzkosťou.",
+        title: "Ako žiť z víťazstva, ktoré Kristus už vybojoval",
+        subtitle: "Si v Kristovi požehnaný. Diablovi odporuješ Slovom a Boha s dôverou prosíš ako Jeho dieťa.",
+        shortDescription: "Diabol bol na kríži odzbrojený. Nebojuješ o víťazstvo, žiješ z neho: stojíš v Božej výzbroji a s vďakou prosíš Otca.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-ak prežívaš útoky úzkosti, strachu alebo choroby, chcem ťa prebudiť k jednej obrovskej pravde, ktorú nepriateľ nechce, aby si poznal. Mnohí kresťania robia tú chybu, že keď sú sužovaní, žobrajú pred Bohom a v zúfalstve prosia: „Otče, urob už niečo! Pane, uzdrav ma! Pane, vezmi odo mňa tento strach!“
+možno sa cítiš ako porazený. Strach a úzkosť prichádzajú znova a znova. Modlíš sa, ale máš pocit, že len prosíkaš pri zatvorených dverách. Možno si už aj počul, že máš prestať prosiť a začať rozkazovať. Pozrime sa spolu, čo o tom hovorí Pavel, apoštol pohanov (Rimanom 11, 13), teda aj náš.
 
-Boží Duch nám však cez apoštola Pavla v Liste Efezanom 1, 3 hovorí niečo úplne iné:
+Pavel píše veriacim v Efeze:
 
 "Požehnaný Boh a Otec Pána nášho Ježiša Krista, ktorý nás v nebeských veciach požehnal v Kristovi Ježišovi všetkým duchovným požehnaním."
 
-Všimni si to pozorne: Písmo nehovorí, že ťa Boh možno požehná, alebo že to urobí až v budúcnosti. Hovorí, že ťa už požehnal. Keď si uveril v Ježiša a narodil si sa z Ducha, do tvojho ducha sa nasťahoval samotný Boh. V tvojom znovuzrodenom duchu je už teraz dokonalé zdravie, dokonalý pokoj a absolútne víťazstvo.
+Nie „možno požehná", ale už požehnal. Pre toho, kto uveril v Krista, sa zmenilo všetko. Boh nás vytrhol z moci tmy a preniesol do kráľovstva svojho milovaného Syna (Kolosenským 1, 13). Už nepatríš tam, kde vládne strach. Patríš Kristovi.
 
-Problém nie je v tom, že by ti Boh niečo odopieral. Výzva spočíva v tom, ako túto nebeskú realitu uplatňovaním viery preniesť zo svojho ducha do svojho tela a do svojich pocitov. A ako sa to robí? Nie beznádejným plačom, ale použitím autority, ktorú ti Kristus delegoval.
+Víťazstvo nad diablom sa nezačína tvojou silou. Kristus ho už vybojoval na kríži:
 
-Pán Ježiš v Evanjeliu podľa Marka 11, 23 hovorí:
+"Na Ňom odzbrojil kniežatstvá a mocnosti a vystavil ich verejne posmechu, triumfujúc nad nimi."
 
-"Veru vám hovorím: Keby niekto povedal tomuto vrchu: Zdvihni sa a zvaľ sa do mora! a nepochyboval by v srdci, ale veril by, že sa stane, čo hovorí, stane sa mu."
+Diabol je odzbrojený. Nemá nad tebou moc, zostali mu už len úklady a klamstvo. A kde je dnes Kristus? Boh Ho vzkriesil a posadil na pravici v nebesiach, nad všetky kniežatstvá a mocnosti (Efezským 1, 20 – 21). Spolu s Ním tam posadil aj teba (Efezským 2, 6). To je tvoje miesto. Si v Kristovi, ktorý je nad všetkým. Preto nebojuješ o víťazstvo. Žiješ z víťazstva, ktoré ti Boh dal v našom Pánovi Ježišovi Kristovi (1. Korintským 15, 57).
 
-Ježiš ti nedal príkaz, aby si nariekal pred vrchom a prosil Boha, nech ho odstráni. Dal ti autoritu, aby si ty sám prehovoril k tomu vrchu! Strach, úzkosť, depresia či bolesť – to všetko sú vrchy, ktoré stoja pred tebou. Ako znovuzrodený človek máš v ústach moc Ježišovho mena.
+A kto si ty? Písmo odpovedá: „už nie si sluha, ale syn. A ak syn, tak skrze Boha aj dedič" (Galatským 4, 7). Dieťa nežobre pri dverách svojho otca. Prijal si ducha synovstva, ktorým voláš: „Abba, Otče!" (Rimanom 8, 15). Toto je tvoja identita, aj keď ju práve necítiš.
 
-Prestaň prosiť Boha, aby porazil diabla – On ho už odzbrojil na kríži. Teraz je rad na tebe. Vezmi tú moc, ktorú máš vo vnútri, postav sa klamstvám nepriateľa a prikáž strachu a chorobe, aby odišli. Boh do tvojich rúk vložil zbrane – je čas ich použiť!`,
+Ako z nej žiť v obyčajný deň? Odpoveď je v tom istom liste Efezským:
+
+"Napokon posilňujte sa v Pánovi a v moci Jeho sily. Oblečte sa do celej výzbroje Božej, aby ste mohli obstáť proti úkladom diabla."
+
+Výzva znie: posilňovať sa v Pánovi a stáť. Nie vlastnou silou, ale v moci Jeho sily. Náš boj nie je proti ľuďom (Efezským 6, 12). Je proti úkladom zlého. Keď príde myšlienka „si stratený" alebo „Boh ťa opustil", nedávaj jej miesto (Efezským 4, 27). Odpovedz jej pravdou o tom, kým si v Kristovi, pokojne aj nahlas.
+
+Hneď za výzbrojou však nasleduje veta, ktorú mnohí prehliadnu: „V každom čase všetkých modlitieb a prosieb modlievajte sa" (Efezským 6, 18). Výzbroj a prosba patria spolu. Diablovi odporujeme. Otca prosíme. Nie ako žobráci, ale ako synovia a dcéry, ktorí k Nemu smú prísť s dôverou.
+
+Pán Ježiš raz povedal učeníkom, že kto povie vrchu, aby sa zvalil do mora, a nepochybuje, stane sa mu (Marek 11, 23). Hovoril to v Izraeli, ešte pred krížom. V Pavlových listoch nečítame, že by veriaci hovorili k chorobám alebo k strachu. Čítame, že stoja v Kristovom víťazstve, odporujú diablovi a svoje prosby prinášajú Otcovi.
+
+Víťazstvo teda neznamená, že ťažkosti hneď zmiznú. Znamená, že ťa neporazia. Písmo to hovorí takto: „v tomto všetkom slávne víťazíme skrze Toho, ktorý si nás zamiloval" (Rimanom 8, 37). V tomto všetkom, nie mimo toho. Nie si porazený. Si Božie dieťa a stojíš v Kristovom víťazstve.`,
         verses: [
-            { text: "Požehnaný Boh a Otec Pána nášho Ježiša Krista, ktorý nás v nebeských veciach požehnal v Kristovi Ježišovi všetkým duchovným požehnaním.", ref: "Efezanom 1, 3" },
-            { text: "Veru vám hovorím: Keby niekto povedal tomuto vrchu: Zdvihni sa a zvaľ sa do mora! a nepochyboval by v srdci, ale veril by, že sa stane, čo hovorí, stane sa mu.", ref: "Marek 11, 23" }
+            { text: "Požehnaný Boh a Otec Pána nášho Ježiša Krista, ktorý nás v nebeských veciach požehnal v Kristovi Ježišovi všetkým duchovným požehnaním.", ref: "Efezským 1, 3" },
+            { text: "Na Ňom odzbrojil kniežatstvá a mocnosti a vystavil ich verejne posmechu, triumfujúc nad nimi.", ref: "Kolosenským 2, 15" },
+            { text: "Napokon posilňujte sa v Pánovi a v moci Jeho sily. Oblečte sa do celej výzbroje Božej, aby ste mohli obstáť proti úkladom diabla.", ref: "Efezským 6, 10 – 11" }
         ],
-        prayer: `Drahý nebeský Otče a môj milovaný Bože,
+        prayer: `Drahý nebeský Otče, môj Všemohúci Bože,
 
-prichádzam k Tebe v mocnom mene Ježiša Krista ako Tvoje milované dieťa. Ďakujem Ti, že v tomto vyznaní už nemusím pred Tebou žobrať ani Ťa presviedčať, aby si ma mal rád alebo aby si mi pomohol. Ďakujem Ti za pravdu Tvojho Slova, ktorá ma oslobodzuje.
+prichádzam k Tebe v mene Pána Ježiša Krista. Nie ako žobrák pri zatvorených dverách, ale ako Tvoje dieťa. Ďakujem Ti, že ma máš rád a počuješ ma.
 
-Otče, vyznávam a verím, že v momente, keď si ma znovuzrodil Svojím Duchom, dal si mi všetko potrebné pre život a zbožnosť. Ďakujem Ti, že v mojom vnútri už teraz prebýva dokonalý Kristov pokoj, plné uzdravenie a víťazstvo nad každou temnotou. Ty si už všetko dokonal na kríži.
+Ďakujem Ti, že si ma v Kristovi požehnal všetkým duchovným požehnaním. Vytrhol si ma z moci tmy a preniesol do kráľovstva svojho milovaného Syna. Už nie som sluha, ale Tvoje dieťa a dedič. Tvoj Svätý Duch prebýva v mojom vnútri a volá: Abba, Otče!
 
-A preto sa teraz na základe Tvojho Slova obraciam priamo k problémom a útokom vo svojom živote. V autorite, ktorú si mi Ty sám delegoval, vyhlasujem:
+Ďakujem Ti za víťazstvo, ktoré Kristus vybojoval na kríži. Odzbrojil kniežatstvá a mocnosti a triumfoval nad nimi. Posadil si Ho po svojej pravici a v Ňom aj mňa. Nežijem ako porazený, ale z Jeho víťazstva.
 
-V mocnom mene Ježiša Krista hovorím k tebe, duch strachu, úzkosti a sužovania – odíď odo mňa! Nemáš nado mnou žiadnu moc, lebo môj duch patrí Bohu a je naplnený Jeho pokojom. Prikazujem svojim emóciám a svojmu telu, aby sa podriadili Božiemu Slovu. Vyhlasujem, že som uzdravený, slobodný a silný v Pánovi.
+Keď prídu strach, úzkosť a klamstvá zlého, nedám im miesto. Odporujem im pravdou Tvojho Slova o tom, kým som v Kristovi.
 
-Ďakujem Ti, Otče, že ma učíš vládnuť v Tvojom mene. Už nebudem žiť ako porazený, ale budem kráčať v moci, ktorú si do mňa vložil. Tebe patrí všetka sláva.
+S dôverou Ti prinášam všetko, čo ma ťaží. Prosím Ťa, posilňuj ma v moci Tvojej sily a daj mi múdrosť pre kroky, ktoré mám urobiť. Aj tam, kde ťažkosti hneď neodídu, Ti ďakujem, že v tomto všetkom slávne víťazím skrze Toho, ktorý si ma zamiloval.
 
-V mocnom mene Ježiša Krista.
+V mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-10.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-10.mp3?v=5",
         hasAudio: true,
         illustrationRef: "autorita-vladnutie-kristus",
         tags: ["bezmocnosť", "strach", "úzkosť", "víťazstvo", "odvaha"],
         available: true,
-        scriptureTheme: "Efezanom 1, Marek 11",
+        scriptureTheme: "Efezským 1, Kolosenským 2, Efezským 6",
         isStarter: false
     },
     "11": {

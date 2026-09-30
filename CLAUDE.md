@@ -148,7 +148,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - `alimiter` má predvolene `level=true`, preto vždy `level=false`.
   - alimiter v jednom grafe s loudnorm spôsobí orezanie, preto je to samostatný krok.
 - Východiskový EQ reťazec pre novú nahrávku modlitby: `highpass=f=70`, equalizer 400 Hz −5 dB (Q 1,2), 250 Hz −2 dB, 900 Hz −2 dB, `afftdn=nr=10:nf=-32`, +3 dB pri 2,5 kHz (w 0,9), +2 dB pri 4,5 kHz (w 1,1), treble +2 dB pri 8 kHz (w 0,7), `deesser=i=0.35`, acompressor threshold=−20dB ratio=2.5 attack=8 release=180 makeup=2. Potom loudnorm → alimiter → dorovnanie (vyššie). Výsledok vždy porovnaj s referenciami.
-- Referencie overené sluchom Admina sú modlitby **5, 6, 7, 11**. Nová modlitba 9 (29. 9. 2026) je nahraná tmavšie, Admin ju schválil bez korekcie EQ. Cieľ v audio-profil.py je preto pevný (pôvodný priemer 6/7/8/9) a verify pri 9 hlási upozornenie. Admin preferuje tmavšiu stranu. Modlitby 9 a 11 sú prirodzene tmavšie, neupravovať ich.
+- Referencie overené sluchom Admina sú modlitby **5, 6, 7, 11**. Nové modlitby 9 a 10 (29. a 30. 9. 2026) sú nahrané tmavšie, Admin ich schválil bez korekcie EQ. Cieľ v audio-profil.py je preto pevný (pôvodný priemer 6/7/8/9) a verify pri 9 a 10 hlási upozornenie. Admin preferuje tmavšiu stranu. Modlitby 9 a 11 sú prirodzene tmavšie, neupravovať ich.
 - Cieľový profil modlitieb (FFT, dB relatívne k telu hlasu 200–500 Hz, priemer modlitieb 6–9): 1–2 kHz −6,4; 2–3,5 kHz −8,3; 3,5–5 kHz −13,2; 5–8 kHz −18,4; 8–12 kHz −15,1; crest ~14,9; LRA ~3–4.
 - Cieľové hodnoty (dB relatívne k telu hlasu 200–500 Hz):
   - 2,5–4,5 kHz (sykavky š/ž/č) ≈ −11,5
@@ -188,11 +188,11 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 7. Stav a otvorené úlohy (k 28. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v198, verify.js 522 kontrol (s `VERIFY_AUDIO=1` 546). Kapitola 9 (uzdravenie) má nový príhovor aj novú modlitbu s nahrávkou (29. 9.). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v199, verify.js 522 kontrol (s `VERIFY_AUDIO=1` 546). Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
-  - Opravy príhovorov 10, 12 (každá zvlášť), rámec Žalmu 34, 11 v kap. 7 a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
+  - Opravy príhovorov 12, 4, 23 (každá zvlášť) a drobnosti v 1, 2, 3, 6, 14, 22, rámec Žalmu 34, 11 v kap. 7 a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
   - Súvislé prehrávanie piesní (⏭/⏮, Media Session).
   - Rozšírené sťahovanie – odľahčená verzia 192 kbps a text o voľnom nekomerčnom použití.
   - Overiť limity a podmienky raw.githubusercontent.com pre sťahovanie MP3 (zatiaľ neoverené).
