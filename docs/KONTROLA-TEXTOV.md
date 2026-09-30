@@ -110,3 +110,8 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - Kap. 7: zarámcovať Žalm 34, 11 („nemajú nedostatku"), aby nevyznel ako sľub hmotného dostatku.
 - ~~9~~ Hotové 29. 9. 2026 (nový príhovor aj nová modlitba s nahrávkou).
 - Každá zvlášť: 10 (doplniť Fil 4, 6 a rámec Marka 11, 23), 12 (ťažisko na Písme, nie na vnútornom hlase).
+- Nové nálezy (prehľad príhovorov 30. 9. 2026, podľa pravidiel o uzdravení a Wommackovi):
+  - 10: prednostne, protirečí kap. 9 („prestaň prosiť", „Pane, uzdrav ma" ako chyba, „prikáž chorobe"). Potrebná aj nová modlitba a nahrávka.
+  - 4 (zvlášť): Jób „z obmedzeného poznania" proti Jób 1, 22; tragédiu „spôsobil nepriateľ" (jediný výklad, napätie s kap. 7, Ef 1, 11); „navrátil dvojnásobne" ako skrytý sľub.
+  - 23 (zvlášť): „nespočíva v tom, aby si niečo vyprosil…, ale… uvoľnil" proti Fil 4, 6; Ef 1, 16.
+  - Drobnosti spolu: 2 („vyznávaním ho uvoľňuješ"), 3 („zasľúbenia nemôžu prinášať ovocie", Mk 4, 19 bez rámca), 1 („nemôžeš zakúsiť uzdravujúcu moc, kým…"), 6 (Prísl 3, 5 – 6 ako zasľúbenie pre teba), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).
