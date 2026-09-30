@@ -67,6 +67,11 @@ Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred pre
 - najmä kapitoly napísané v posledných dňoch.
 Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 
+### Vzory z kapitoly 1 (30. 9. 2026)
+- Boh vedie aj neveriaceho („dobrota Božia ťa vedie k pokániu", Rim 2, 4). Nepísať, že človek nezakúsi Božie vedenie, kým neuverí. Vedenie Duchom je znak Božích detí (Rim 8, 14).
+- Krok človeka je viera (Rim 10, 9; Ef 2, 8). Zmierenie získal Kristus na kríži (Rim 5, 10; Ef 2, 16), človek ho vierou prijíma (Rim 5, 11). Obnova Duchom a nové stvorenie sú Božie dielo (Tít 3, 5; 2Kor 5, 17), nie krok človeka.
+- Za blokovým veršom neopakovať jeho obsah vlastnými slovami. Pridať len to, čo verš nehovorí, alebo výzvu.
+
 ## Prechod 2: verše (ECAV)
 
 Pravidlá sú v CLAUDE.md (sekcia 5, Verše). Každý nový verš porovnaj znak po znaku s biblia.sk (preklad sep), skontroluj názov knihy, opakovanie v iných kapitolách a zhodu `fullText` a `verses`.
@@ -112,6 +117,8 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
 - **8:** „podľa knihy Józuovej 1, 8"; „vyhlasujem, že viera vo mne je…".
 - **1** (Modlitba spásy): „prikazujem každému duchu"; „moc, ktorá uzdravuje moju dušu i telo". Nižšia priorita.
+  - Aj: „Pane, nebudem Ťa pasívne prosiť, aby si ma prijal, pretože Tvoje Slovo sľubuje, že každý, kto vzýva meno Pánovo, bude spasený." Protirečí Rim 10, 13 (vzývať = volať, prosiť) aj Fil 4, 6. Návrh: „Pane, volám k Tebe, lebo Tvoje Slovo sľubuje, že každý, kto vzýva meno Pánovo, bude spasený."
+- **Úvodné slovo** (uvod-v3.mp3 a text pod ním na domovskej stránke): v poslednej skupine s novou nahrávkou, text sa bez nej nemení. Citát „Nemôžeš odomknúť dvere domu, do ktorého si ešte nevstúpil." je ZÁMERNÝ (rozhodnutie Admina), nie je chyba. Nálezy: uzdravenie a „obnova rodiny" ako dedičné právo (Rim 8, 17; Ef 1, 14; 1Kor 7, 15 – 16), „s plnou mocou uplatňuj zasľúbenia", „fungujú", „aby modlitby mali moc" (Ef 3, 20), „Bez Neho niet víťazstva" (nejasné, na koho odkazuje), 2× „vo tvojom", „Jednoduché evanjelium spásy" vs „Evanjelium spásy". Odhad (neoverené): nahrávka 89 s, text s Dôležitým upozornením 175 slov, teda asi obsahuje aj upozornenie; Admin overí vypočutím. Voliteľne bez zásahu do nahrávky: druhé tlačidlo „Modlitba záchrany ↓" (#modlitba-zachrany) vedľa „Začať cestu — 1. kapitola".
 
 ### Plán opráv príhovorov (schválené 28. 9. 2026, každý návrh najprv Adminovi)
 - ~~Spolu v jednej úlohe: 3, 7, 25, 8, 17~~ Hotové 28. 9. 2026 (kap. 7: Mt 6, 33 nahradený Kol 3, 1–2; kap. 17: doplnený Rim 12, 18).
