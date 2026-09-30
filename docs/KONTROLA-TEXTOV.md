@@ -54,6 +54,8 @@ Pasce vo veršoch k uzdraveniu:
 - 1Pt 2, 24 hovorí v kontexte o hriechu („aby sme odumreli hriechom… boli ste ako blúdiace ovce"). Nepoužívaj ho ako dôkaz, že telo je už uzdravené.
 - Skutky 10, 38 majú v ECAV „diablom posadnutých", nie „sužovaných diablom".
 - 2Kor 12, 9 v ECAV: „Dosť máš na mojej milosti", nie „stačí ti moja milosť".
+- 2Kor 4, 13 („aj my veríme, a preto aj hovoríme") hovorí o zvestovaní evanjelia v utrpení. Nepoužívaj ho ako základ „pozitívneho vyznania" nad vlastnými myšlienkami či telom.
+- Autoritu veriaceho formuluj skromne podľa Pavla: Kristus je nad kniežatstvami a my sme posadení s Ním (Ef 1, 20 – 21; 2, 6). Nie „ty stojíš nad diablom".
 
 „Vyhlasujem" je v poriadku, keď vyznáva pravdu z Pavlových listov („vyhlasujem, že v Kristovi nie som odsúdený").
 Záväzné pravidlá o odpustení, Duchu Svätom, oslovení a Neveste sú v CLAUDE.md, sekcia 5.

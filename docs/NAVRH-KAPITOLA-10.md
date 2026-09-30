@@ -18,7 +18,7 @@ Stav: návrh, čaká na schválenie Admina a novú nahrávku modlitby. Na web za
 
 Drahý brat, drahá sestra v Kristovi,
 
-možno sa cítiš ako porazený. Strach a úzkosť prichádzajú znova a znova. Modlíš sa, ale máš pocit, že len prosíkaš pri zatvorených dverách. Možno si už aj počul, že máš prestať prosiť a začať rozkazovať. Pozrime sa spolu, čo o tom hovorí Pavel, apoštol, ktorého Boh poslal k nám.
+možno sa cítiš ako porazený. Strach a úzkosť prichádzajú znova a znova. Modlíš sa, ale máš pocit, že len prosíkaš pri zatvorených dverách. Možno si už aj počul, že máš prestať prosiť a začať rozkazovať. Pozrime sa spolu, čo o tom hovorí Pavel, apoštol pohanov (Rimanom 11, 13), teda aj náš.
 
 Pavel píše veriacim v Efeze:
 
@@ -30,7 +30,7 @@ Víťazstvo nad diablom sa nezačína tvojou silou. Kristus ho už vybojoval na 
 
 "Na Ňom odzbrojil kniežatstvá a mocnosti a vystavil ich verejne posmechu, triumfujúc nad nimi."
 
-Diabol je odzbrojený. A kde je dnes Kristus? Boh Ho vzkriesil a posadil na pravici v nebesiach, nad všetky kniežatstvá a mocnosti (Efezským 1, 20 – 21). Spolu s Ním tam posadil aj teba (Efezským 2, 6). To je tvoje miesto. Nestojíš pod diablom, ale v Kristovi nad ním. Preto nebojuješ o víťazstvo. Žiješ z víťazstva, ktoré ti Boh dal v našom Pánovi Ježišovi Kristovi (1. Korintským 15, 57).
+Diabol je odzbrojený. Nemá nad tebou moc, zostali mu už len úklady a klamstvo. A kde je dnes Kristus? Boh Ho vzkriesil a posadil na pravici v nebesiach, nad všetky kniežatstvá a mocnosti (Efezským 1, 20 – 21). Spolu s Ním tam posadil aj teba (Efezským 2, 6). To je tvoje miesto. Nie si pod jeho mocou. Si v Kristovi, ktorý je nad všetkým. Preto nebojuješ o víťazstvo. Žiješ z víťazstva, ktoré ti Boh dal v našom Pánovi Ježišovi Kristovi (1. Korintským 15, 57).
 
 A kto si ty? Písmo odpovedá: „už nie si sluha, ale syn. A ak syn, tak skrze Boha aj dedič" (Galatským 4, 7). Dieťa nežobre pri dverách svojho otca. Prijal si ducha synovstva, ktorým voláš: „Abba, Otče!" (Rimanom 8, 15). Toto je tvoja identita, aj keď ju práve necítiš.
 
@@ -38,7 +38,7 @@ Ako z nej žiť v obyčajný deň? Odpoveď je v tom istom liste Efezským:
 
 "Napokon posilňujte sa v Pánovi a v moci Jeho sily. Oblečte sa do celej výzbroje Božej, aby ste mohli obstáť proti úkladom diabla."
 
-Výzva znie: posilňovať sa v Pánovi a stáť. Nie vlastnou silou, ale v moci Jeho sily. Náš boj nie je proti ľuďom (Efezským 6, 12). Je proti úkladom zlého. Keď príde myšlienka „si stratený" alebo „Boh ťa opustil", nedávaj jej miesto (Efezským 4, 27). Odpovedz jej pravdou o tom, kým si v Kristovi, pokojne aj nahlas. Apoštol to vyjadruje takto: „aj my veríme, a preto aj hovoríme" (2. Korintským 4, 13).
+Výzva znie: posilňovať sa v Pánovi a stáť. Nie vlastnou silou, ale v moci Jeho sily. Náš boj nie je proti ľuďom (Efezským 6, 12). Je proti úkladom zlého. Keď príde myšlienka „si stratený" alebo „Boh ťa opustil", nedávaj jej miesto (Efezským 4, 27). Odpovedz jej pravdou o tom, kým si v Kristovi, pokojne aj nahlas.
 
 Hneď za výzbrojou však nasleduje veta, ktorú mnohí prehliadnu: „V každom čase všetkých modlitieb a prosieb modlievajte sa" (Efezským 6, 18). Výzbroj a prosba patria spolu. Diablovi odporujeme. Otca prosíme. Nie ako žobráci, ale ako synovia a dcéry, ktorí k Nemu smú prísť s dôverou.
 
@@ -56,7 +56,7 @@ prichádzam k Tebe v mene Pána Ježiša Krista. Nie ako žobrák pri zatvorený
 
 Ďakujem Ti za víťazstvo, ktoré Kristus vybojoval na kríži. Odzbrojil kniežatstvá a mocnosti a triumfoval nad nimi. Posadil si Ho nad všetky mocnosti a mňa si posadil spolu s Ním. Nežijem ako porazený, ale z Jeho víťazstva.
 
-Keď prídu strach, úzkosť a klamstvá zlého, nedám im miesto. Odporujem im pravdou Tvojho Slova a nahlas vyznávam, kým som v Kristovi.
+Keď prídu strach, úzkosť a klamstvá zlého, nedám im miesto. Odporujem im pravdou Tvojho Slova o tom, kým som v Kristovi.
 
 S dôverou Ti prinášam všetko, čo ma ťaží. Prosím Ťa, posilňuj ma v moci Tvojej sily a daj mi múdrosť pre kroky, ktoré mám urobiť. Aj tam, kde ťažkosti hneď neodídu, Ti ďakujem, že v tomto všetkom slávne víťazím skrze Toho, ktorý si ma zamiloval.
 
