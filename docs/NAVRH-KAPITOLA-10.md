@@ -5,7 +5,7 @@ Stav: návrh, čaká na schválenie Admina a novú nahrávku modlitby. Na web za
 ## Metadáta
 - Názov: Ako žiť z víťazstva, ktoré Kristus už vybojoval
 - Podnadpis: Si v Kristovi požehnaný. Diablovi odporuješ Slovom a Boha s dôverou prosíš ako Jeho dieťa.
-- Krátky popis: Diabol je na kríži odzbrojený. Nebojuješ o víťazstvo, žiješ z neho: stojíš v Božej výzbroji a s vďakou prosíš Otca.
+- Krátky popis: Diabol bol na kríži odzbrojený. Nebojuješ o víťazstvo, žiješ z neho: stojíš v Božej výzbroji a s vďakou prosíš Otca.
 - Téma Písma: Efezským 1, Kolosenským 2, Efezským 6
 - Tagy bez zmeny.
 
