@@ -1,6 +1,6 @@
 # Návrh opravy kapitoly 10 (30. 9. 2026)
 
-Stav: návrh, čaká na schválenie Admina a novú nahrávku modlitby. Na web zatiaľ nič nejde.
+Stav: text schválený (30. 9. 2026), čaká na novú nahrávku modlitby. Na web zatiaľ nič nejde.
 
 ## Metadáta
 - Názov: Ako žiť z víťazstva, ktoré Kristus už vybojoval
@@ -30,7 +30,7 @@ Víťazstvo nad diablom sa nezačína tvojou silou. Kristus ho už vybojoval na 
 
 "Na Ňom odzbrojil kniežatstvá a mocnosti a vystavil ich verejne posmechu, triumfujúc nad nimi."
 
-Diabol je odzbrojený. Nemá nad tebou moc, zostali mu už len úklady a klamstvo. A kde je dnes Kristus? Boh Ho vzkriesil a posadil na pravici v nebesiach, nad všetky kniežatstvá a mocnosti (Efezským 1, 20 – 21). Spolu s Ním tam posadil aj teba (Efezským 2, 6). To je tvoje miesto. Nie si pod jeho mocou. Si v Kristovi, ktorý je nad všetkým. Preto nebojuješ o víťazstvo. Žiješ z víťazstva, ktoré ti Boh dal v našom Pánovi Ježišovi Kristovi (1. Korintským 15, 57).
+Diabol je odzbrojený. Nemá nad tebou moc, zostali mu už len úklady a klamstvo. A kde je dnes Kristus? Boh Ho vzkriesil a posadil na pravici v nebesiach, nad všetky kniežatstvá a mocnosti (Efezským 1, 20 – 21). Spolu s Ním tam posadil aj teba (Efezským 2, 6). To je tvoje miesto. Si v Kristovi, ktorý je nad všetkým. Preto nebojuješ o víťazstvo. Žiješ z víťazstva, ktoré ti Boh dal v našom Pánovi Ježišovi Kristovi (1. Korintským 15, 57).
 
 A kto si ty? Písmo odpovedá: „už nie si sluha, ale syn. A ak syn, tak skrze Boha aj dedič" (Galatským 4, 7). Dieťa nežobre pri dverách svojho otca. Prijal si ducha synovstva, ktorým voláš: „Abba, Otče!" (Rimanom 8, 15). Toto je tvoja identita, aj keď ju práve necítiš.
 
