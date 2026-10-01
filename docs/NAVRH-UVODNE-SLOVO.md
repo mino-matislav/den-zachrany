@@ -21,4 +21,5 @@ Ako sa staneš Jeho dieťaťom? Prečítaj si kapitolu Evanjelium spásy, alebo 
 „Písmo učí, že Božie zasľúbenia nie sú ľudskou psychológiou ani čarovnou formulkou. Sú to živé pravdy pre tých, v ktorých prebýva Duch Svätý. Ak chceš, aby modlitby v nasledujúcich kapitolách boli skutočným rozhovorom s tvojím nebeským Otcom, začni vierou v Ježiša Krista. Bez Krista niet víťazstva."
 
 ## Otvorené (nie je súčasťou nahrávky)
-- Druhé tlačidlo „Modlitba záchrany ↓" (#modlitba-zachrany) vedľa „Začať cestu — 1. kapitola": čaká na rozhodnutie Admina.
+- Tlačidlo „Modlitba záchrany ↓" netreba (Admin, 1. 10. 2026).
+- Namiesto neho zmenšiť medzeru medzi Dôležitým upozornením a Modlitbou záchrany: v index.html na `<section class="warning-section"` pridať `style="padding-bottom: var(--space-6)"` (80 px → 24 px; pôvodný dôvod „priestor pred pätičkou" už neplatí, pod upozornením je Modlitba záchrany). Overené v náhľade (mobil 390 px aj PC): po dočítaní upozornenia je vidno začiatok karty Modlitby záchrany. Nasadiť spolu s úvodným slovom.
