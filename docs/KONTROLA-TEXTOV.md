@@ -67,6 +67,15 @@ Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred pre
 - najmä kapitoly napísané v posledných dňoch.
 Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 
+### Vzory z kapitoly 2 (1. 10. 2026)
+- Pred predložením prejdi aj tieto vzory (z kapitoly 1 a 2). Pri kapitole 2 som za veršom zopakoval jeho obsah, hoci som to pravidlo sám zapísal.
+- Výklad nepodávaj ako tvrdenie Písma (napr. „diabol formuluje myšlienky v prvej osobe"). Radšej opatrne: „jeho klamstvá často znejú ako tvoje vlastné myšlienky".
+- Nie každá ťaživá myšlienka je od diabla, niektoré prináša únava, choroba alebo bolesť.
+- Nepíš nič, čo by človeka v úzkosti odradilo od odbornej pomoci (napr. výpady proti „svetskej psychológii").
+- Pozor na dvojice podobne znejúcich slov tesne za sebou („vzoprieť sa… oprieť sa").
+- Podnadpis a krátky popis zosúlaď s opraveným príhovorom (nesmú stavať na tom, čo z príhovoru vypadlo).
+- Názvy kníh jednotne podľa veršov: „1. Jánov", nie „1. Ján".
+
 ### Vzory z kapitoly 1 (30. 9. 2026)
 - Boh vedie aj neveriaceho („dobrota Božia ťa vedie k pokániu", Rim 2, 4). Nepísať, že človek nezakúsi Božie vedenie, kým neuverí. Vedenie Duchom je znak Božích detí (Rim 8, 14).
 - Krok človeka je viera (Rim 10, 9; Ef 2, 8). Zmierenie získal Kristus na kríži (Rim 5, 10; Ef 2, 16), človek ho vierou prijíma (Rim 5, 11). Obnova Duchom a nové stvorenie sú Božie dielo (Tít 3, 5; 2Kor 5, 17), nie krok človeka.
@@ -112,6 +121,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 
 ### Modlitby na opravu pri najbližšej nahrávke (analýza 28. 9. 2026)
 - **12:** text na webe už má opravu („Priznávam… Ďakujem Ti, že mi je to v Tebe už odpustené"). Neoverené je, či to platí aj pre audio. Ak nahrávka hrá staré „Odpusť mi to, Otče", text a zvuk sa nezhodujú.
+- **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
 - **6, 11, 13:** prikazovanie duchom a mysli.
 - **4, 13, 15, 17:** „uvoľňujem".
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".

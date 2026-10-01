@@ -5,3 +5,6 @@ Nasadenie všetkých naraz až po schválení celej série. Pred zápisom „sch
 Pri nasadení: zmeny zapísať do js/data.js, pri novom blokovom verši doplniť aj pole `verses` v rovnakom poradí, SW +1, build-seo.py, verify.js.
 
 ## Kapitola 1 — NASADENÉ 1. 10. 2026 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1 s nahrávkou ?v=9)
+
+## Kapitola 2 — NASADENÉ 1. 10. 2026
+Príhovor podľa schváleného znenia (Admin + kolega), podnadpis „Ako pravdou Božieho Slova odolať hlasom strachu a pochybností", krátky popis „Biblická cesta k pokoju mysle. Ako porovnať sužujúce myšlienky s Božím Slovom a nepodľahnúť klamstvám nepriateľa.", téma Písma „2. Korintským 10, 1. Jánov 4, Jakub 4". Verše, tagy, modlitba 2 a audio bez zmeny.

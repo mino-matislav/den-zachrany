@@ -188,7 +188,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 7. Stav a otvorené úlohy (k 28. 9. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v200, verify.js 524 kontrol (s `VERIFY_AUDIO=1` 546). Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1) a nové úvodné slovo s nahrávkou. Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v201, verify.js 524 kontrol (s `VERIFY_AUDIO=1` 546). Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1), nové úvodné slovo s nahrávkou a príhovor kapitoly 2. Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**

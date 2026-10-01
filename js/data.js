@@ -98,25 +98,25 @@ Amen.`,
     "2": {
         id: "2",
         title: "Sužujúce myšlienky, úzkosť a vnútorný chaos",
-        subtitle: "Ako mocou vyznaného Božieho Slova umlčať hlasy strachu a pochybností",
-        shortDescription: "Biblická stratégia boja za pokoj mysle. Vyznávanie Slova proti útokom nepriateľa.",
+        subtitle: "Ako pravdou Božieho Slova odolať hlasom strachu a pochybností",
+        shortDescription: "Biblická cesta k pokoju mysle. Ako porovnať sužujúce myšlienky s Božím Slovom a nepodľahnúť klamstvám nepriateľa.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
 v živote každého z nás prebieha zápas, ktorý sa odohráva predovšetkým v našej mysli. Možno práve teraz zažívaš dni, kedy je tvoje vnútro preťažené, myseľ unavená a tvoj každodenný život napĺňa úzkosť či chaos. Chcem, aby si vedel jednu zásadnú vec: tieto sužujúce myšlienky neurčujú to, kým v skutočnosti si.
 
-Nepriateľ človeka, diabol, útočí najradšej potichu a nenápadne. Vnáša do tvojho vnútra pochybnosti a formuluje ich v prvej osobe, aby si si myslel, že sú to tvoje vlastné úvahy. Sú to tie známe hlasy: „Nie som dosť dobrý," „Moja situácia sa nikdy nezmení," alebo „Boh ma nepočuje."
+Nie každá ťaživá myšlienka prichádza od nepriateľa. Niektoré prináša únava, choroba alebo bolesť. Nepriateľ človeka, diabol, však rád využije každú slabú chvíľu. Útočí potichu a nenápadne. Jeho klamstvá často znejú ako tvoje vlastné myšlienky: „Nie som dosť dobrý,“ „Moja situácia sa nikdy nezmení,“ alebo „Boh ma nepočuje.“
 
-Ako človek obnovený Svätým Duchom a nové stvorenie v Kristovi však nie si proti tomuto tlaku bezbranný. Apoštol Pavel v 2. liste Korintským 10, 4 – 5 jasne definuje zbrane, ktoré nám Boh dal:
+Ako človek obnovený Svätým Duchom a nové stvorenie v Kristovi však nie si proti tomuto tlaku bezbranný. Pavel jasne opisuje zbrane, ktoré nám Boh dal:
 
 "...veď zbrane nášho boja nie sú telesné, ale od Boha majú moc zboriť hradby. Nimi búrame špekulácie a každú pýchu, čo sa dvíha proti poznaniu Boha, a každú myšlienku podrobujeme do poslušnosti Kristovej..."
 
-Tento boj sa nevyhráva tak, že o týchto myšlienkach budeš potichu premýšľať alebo sa ich snažiť potlačiť vlastnou ľudskou vôľou. Útok na myseľ sa prerušuje vyznaním pravdy. Keď hovoríš nahlas Božie Slovo, tvoja myseľ sa musí sústrediť na to, čo vyjadrujú ústa.
+Tento boj sa nevyhráva tak, že sa budeš snažiť potlačiť myšlienky vlastnou vôľou. Myšlienku, ktorá ťa sužuje, porovnaj s tým, čo hovorí Božie Slovo. Ak je s Ním v rozpore, nemusíš ju prijať. Pomáha aj povedať pravdu nahlas. Myseľ sa vtedy sústredí na to, čo vyjadrujú ústa.
 
-V tvojom duchu, ktorý bol zapečatený Duchom zasľúbenia, už dnes prebýva dokonalý Kristov pokoj. Tento pokoj nepotrebuješ v sebe zložito vyrábať ani ho hľadať vo svetskej psychológii. On už v tebe je. Hlasným vyznávaním Slova ho uvoľňuješ zo svojho vnútra, aby zaplavil tvoju nepokojnú dušu. Ako píše apoštol Ján v 1. Jánovom liste 4, 4:
+V tvojom duchu, ktorý bol zapečatený Duchom zasľúbenia, už dnes prebýva dokonalý Kristov pokoj. Tento pokoj si nemusíš zložito vyrábať. On už v tebe je. Keď sa vraciaš k Božiemu Slovu, tvoja myseľ sa obracia k pravde. Kristov pokoj sa potom môže prejaviť aj v tvojej nepokojnej duši. Apoštol Ján píše:
 
 "...väčší je Ten, ktorý je vo vás, ako ten, čo je vo svete."
 
-Postav sa dnes na toto svedectvo. Vzopri sa klamstvám nepriateľa a sleduj, ako pred mocou Božieho Slova musia ustúpiť.`,
+Postav sa dnes na toto svedectvo. Myšlienky sa možno budú vracať. Ty sa však zakaždým môžeš vzoprieť klamstvám nepriateľa a držať sa tejto pravdy.`,
         verses: [
             {
                 text: "...veď zbrane nášho boja nie sú telesné, ale od Boha majú moc zboriť hradby. Nimi búrame špekulácie a každú pýchu, čo sa dvíha proti poznaniu Boha, a každú myšlienku podrobujeme do poslušnosti Kristovej...",
@@ -145,7 +145,7 @@ Amen.`,
         illustrationRef: "svetlo-vlna",
         tags: ["úzkosť", "myšlienky", "strach", "pokoj", "sloboda"],
         available: true,
-        scriptureTheme: "2. Korintským 10, 1. Ján 4, Jakub 4",
+        scriptureTheme: "2. Korintským 10, 1. Jánov 4, Jakub 4",
         isStarter: false
     },
 
