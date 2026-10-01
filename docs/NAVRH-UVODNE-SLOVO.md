@@ -1,6 +1,6 @@
 # Úvodné slovo – SCHVÁLENÝ text (Admin, 1. 10. 2026)
 
-Stav: text schválený, Admin pripravuje novú nahrávku (uvod-v3.mp3 nahradí nová, obsahuje úvodný text aj Dôležité upozornenie).
+Stav (1. 10. 2026): text schválený, Admin nahrávku dodal (80 s, mono 44,1 kHz, −15,1 LUFS, bez tichého intra; spracovať: −16,2 LUFS, špička pod −1,7 dBTP, intro 1 s, 48 kHz stereo 160 kbps). Ak sa úloha stratí, treba ju poslať znova. Nasadí sa spolu s kapitolou 1 a novou modlitbou 1 (rozhodnutie Admina). Pôvodne: Admin pripravuje novú nahrávku (uvod-v3.mp3 nahradí nová, obsahuje úvodný text aj Dôležité upozornenie).
 Pri nasadení: text v index.html (sekcie „Úvodný text" a „Dôležité upozornenie") nahradiť presne týmto znením, nahrávku spracovať podľa CLAUDE.md (úvodné slovo: 48 kHz stereo, 160 kbps), zvýšiť ?v= pri uvod-*.mp3, SW +1.
 Verš 2. Korintským 6, 2 nad prehrávačom sa nemení.
 
