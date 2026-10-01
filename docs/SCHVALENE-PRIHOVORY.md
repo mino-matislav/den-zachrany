@@ -44,4 +44,26 @@ Pole `verses` (4 verše, v tomto poradí, znenie identické s fullText):
 3. 1. Korintským 15, 3 – 4 (NOVÝ): „Odovzdal som vám totiž predovšetkým, čo som aj sám prijal, že Kristus umrel pre naše hriechy podľa Písem a bol pochovaný a v tretí deň bol vzkriesený podľa Písem," (ECAV overené 30. 9. 2026, inde na webe nepoužitý)
 4. Rimanom 10, 9 – 10 (bez zmeny)
 
-scriptureTheme: „Rimanom 3, 6, 10, 1. Korintským 15". Tagy, shortDescription a modlitba 1 bez zmeny.
+scriptureTheme: „Rimanom 3, 6, 10, 1. Korintským 15". Tagy a shortDescription bez zmeny.
+
+### Nová modlitba 1 (schválená Adminom 1. 10. 2026, Admin nahráva audio)
+Pri nasadení nahradiť `prayer` kapitoly 1 presne týmto textom a audio modlitba-1.mp3 s `?v=9` (doteraz ?v=8). Nasadiť spolu s úvodným slovom (uvod-v3.mp3 ?v=8, doteraz ?v=7).
+
+```
+Drahý Pane Ježišu Kriste,
+
+volám k Tebe, lebo Tvoje Slovo sľubuje, že zachrániš každého, kto vzýva Tvoje meno.
+
+Priznávam, že som hriešny človek a sám sa zachrániť nedokážem. Doteraz som žil podľa svojich predstáv, bez Teba. Moju myseľ často zvieral strach zo smrti a z toho, čo príde potom.
+
+Verím, že si za mňa zomrel na kríži a dokonalou obeťou si zaplatil za môj hriech. Ústami vyznávam, že si Pán, a v srdci verím, že Ťa Boh vzkriesil z mŕtvych.
+
+Prijímam zmierenie s Bohom, ktoré si mi získal. Ďakujem Ti, že mi dávaš svojho Svätého Ducha a nový život. Teraz som Božie dieťa.
+
+Už sa nemusím báť smrti ani zatratenia, lebo mám večný život v Tebe. Keď sa strach vráti, budem sa držať Tvojho Slova, nie svojich pocitov.
+
+Ďakujem Ti už teraz, hoci ešte nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidím, ale o Tvoju vernosť. Ja som slabý, ale Ty, ktorý odteraz žiješ vo mne, si Víťaz.
+
+Amen.
+```
+Bez „Odpusť mi" (zladené so schváleným príhovorom „prijmeš zmierenie" a s Modlitbou záchrany). Rim 10, 13 je povedaný vlastnými slovami, nie ako citát.
