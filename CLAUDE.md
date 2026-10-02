@@ -58,7 +58,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 1. **ffmpeg:** ak v kontajneri chýba (`which ffmpeg`), najprv ho doinštaluj (`apt-get install -y ffmpeg`). Bez neho verify.js preskočí audio kontroly a hlási menej kontrol, hoci skončí exit 0. **Ak inštalácia zlyhá, zastav a povedz to Adminovi. Bez audio kontrol nepokračuj.** Pri štarte úlohy ffmpeg aj numpy (pre kontrolu [9]) inštaluje automaticky `.claude/hooks/session-start.sh`. Ak pri štarte vypíše „UPOZORNENIE", platí to isté.
 2. Pred zápisom obsahu skontroluj, či tam už nie je: `python3 scripts/upsert.py js/data.js`. Kapitoly zapisuj **vždy cez `scripts/upsert.py`** (idempotentne).
 3. Pri výmene existujúceho audia zvýš `?v=N` pri audioUrl.
-4. Zvýš verziu service workera v `sw.js` (`den-zachrany-vNNN`).
+4. Zvýš verziu service workera v `sw.js` (`den-zachrany-vNNN`). **Pri každej zmene HTML, JS alebo CSS, aj pri drobnosti.** SW je cache-first, bez zvýšenia verzie sa u ľudí, ktorí stránku už navštívili, zobrazí stará verzia (stalo sa 1. 10. 2026 na PC pri odkazoch na domovskej stránke).
 5. `python3 scripts/build-seo.py` vygeneruje kapitola-N.html a piesen-N.html, sitemap, karty v kapitoly.html a piesne.html a README.
 6. `node scripts/verify.js` **musí skončiť exit 0.** Výstup si naozaj prečítaj, pri chybe NEPOKRAČUJ. Počet kontrol musí po pridaní obsahu narásť.
    - Kontroly [2b] (prehrávač) a [8] (tiché intro piesní, modlitieb a úvodu) nikdy neobchádzaj.
@@ -189,7 +189,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 ## 7. Stav a otvorené úlohy (k 28. 9. 2026)
 
 - Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v202, verify.js 524 kontrol (s `VERIFY_AUDIO=1` 546). Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1), nové úvodné slovo s nahrávkou a príhovor kapitoly 2. Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
-- Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne".
+- Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
   - Opravy príhovorov 12, 4, 23 (každá zvlášť) a drobnosti v 1, 2, 3, 6, 14, 22, rámec Žalmu 34, 11 v kap. 7 a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
