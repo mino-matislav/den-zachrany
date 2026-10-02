@@ -156,61 +156,44 @@ Amen.`,
         shortDescription: "Ako zložiť bremeno starostí a prijať Boží pokoj, ktorý prevyšuje rozum. Dôvera namiesto kontroly.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-úzkosť a neustále obavy nie sú len nepríjemný pocit. Je to jeden z najúčinnejších nástrojov, ktorým sa nepriateľ snaží odviesť tvoju pozornosť od Boha, od Jeho zasľúbení a od Jeho pokoja. V tomto čase milosti, kedy žijeme vo veku cirkvi, však máme od Boha plné vybavenie na víťazný život. Božím zámerom pre teba nikdy nebolo, aby úzkosť a neustály stres vládli tvojmu životu. Božím zámerom pre teba je dokonalý pokoj.
+možno patríš k ľuďom, ktorí nedokážu prestať myslieť na to, čo príde. Čo bude zajtra? Ako to všetko zvládneš? Čo ak sa niečo pokazí? Večer ležíš v posteli a v hlave si znova prechádzaš všetko, čo by sa mohlo stať. Máš pocit, že keď prestaneš všetko kontrolovať, celé sa to rozpadne.
 
-Apoštol Pavel, apoštol milosti pre cirkev, v liste Filipským 4, 6 píše jasné prikázanie:
+Starosť o blízkych a o zajtrajšok je prirodzená. Neustála ustarostenosť ťa však vyčerpáva a berie ti radosť zo života. Boh nechce, aby si sám niesol bremeno, ktoré môžeš zložiť na Neho. Apoštol Pavel píše:
 
-"O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách."
+"O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách. A pokoj Boží, ktorý prevyšuje každý rozum, bude chrániť vaše srdcia a vaše mysle v Kristovi Ježišovi."
 
-Boh by ti nedal také prikázanie, keby bolo v moci Ducha nemožné ho naplniť. Tvojou úlohou ako človeka obnoveného Svätým Duchom nie je niesť bremeno všetkých ťažkých okolností a neustále hľadať odpoveď na každú otázku, ako sa čo vyrieši. Tvojou úlohou je priniesť prosby pred Boha s ďakovaním a plne Mu dôverovať.
+Tieto slová písal vo väzení. Nevedel, či ho prepustia, alebo popravia. Nepísal ich teda z pohodlia, ale z vlastnej skúsenosti s Bohom. K Bohu môžeš prísť aj bez pekne poskladaných slov. Stačí, keď Mu úprimne povieš, čo ťa trápi. Jeho pokoj neprichádza až vtedy, keď sa všetko vyrieši. Môže ťa držať už teraz, kým ešte nevidíš odpoveď.
 
-Dnešný svet učí presný opak. Hovoria ti, že musíš mať všetko pod vlastnou kontrolou, neustále sa obávať a sám zabezpečiť každý výsledok. Božie Slovo v 1. liste Petra 5, 7 ťa však vyzýva k úplnému odpočinku v milosti:
+To isté povzbudenie dal veriacim aj apoštol Peter:
 
 "Na Neho uvaľte všetky svoje starosti, lebo On sa o vás stará."
 
-Mnohí veriaci sa modlia, no zároveň si vo svojej mysli ponechávajú svoje starosti. Nesú na pleciach bremená, ktoré im Boh kázal zložiť a odovzdať Jemu. Pán Ježiš v Markovom evanjeliu 4, 19 varuje:
+Možno to poznáš. Ráno starosti v modlitbe odovzdáš Bohu a o hodinu ich už zase nesieš. Netráp sa tým. Boh sa za to na teba nehnevá. Zakaždým ich na Neho môžeš zložiť znova. Skús aj jednoduchý krok. Keď na teba doľahnú obavy, povedz ich Bohu jednu po druhej. Pri každej Mu poďakuj, že sa o teba stará.
 
-"...ale prichádzajú starosti sveta, klam bohatstva a iné rozličné žiadosti a udusia slovo, takže zostáva bez úžitku."
+Za potrebou všetko kontrolovať býva často strach. Kým držíš všetko vo vlastných rukách, cítiš sa istejšie. Zajtrajšok však nemôže zaručiť ani ten najopatrnejší človek. Pán Ježiš v podobenstve o rozsievačovi prirovnal starosti k tŕniu, ktoré dusí semeno Slova (Marek 4, 18 – 19). Zaberajú miesto, ktoré patrí dôvere.
 
-Práve preto sú neustále obavy takou nebezpečnou zbraňou. Ak sa tvoja myseľ naplní strachom, stresom a pochybnosťami, Božie zasľúbenia v tvojom živote nemôžu prinášať ovocie. Pred očami ti totiž môže stáť obraz krásnej záhrady plnej Božích zasľúbení, no na jej okrajoch rastie burina – starosti, obavy a stres. Ak ich neodstrániš, zadusia semeno Božieho Slova.
+Odovzdať starosti Bohu neznamená nič nerobiť. Môžeš ďalej pracovať, plánovať a konať, čo je v tvojich silách. Rozdiel je v tom, kto nesie výsledok. Ty urobíš svoj diel a výsledok necháš na Bohu.
 
-Boh však nie je autorom chaosu. Apoštol Pavel v 1. liste Korintským 14, 33 pripomína:
-
-"Boh nie je Bohom neporiadku, ale pokoja."
-
-Niekedy sa jednoducho musíš vzdať potreby všetkému rozumieť, aby si mohol zakúsiť Boží pokoj. Musíš odovzdať kontrolu Bohu. V liste Kolosenským 3, 15 je napísané:
+Pavel o tomto pokoji píše aj veriacim v Kolosách:
 
 "A pokoj Kristov nech rozhoduje vo vašich srdciach, veď k nemu ste aj vy boli povolaní ako jedno telo; a buďte (za to) vďační."
 
-Boží pokoj neprichádza z dokonalých pozemských okolností. Prichádza z dôvery v Boha a z vedomia, čo pre teba Kristus už dokonal. Prorok Izaiáš 26, 3 uisťuje:
+Keď sa ozve strach, nemusí mať posledné slovo. To patrí Kristovmu pokoju.
 
-"Toho, kto je pevnej mysle, zachovávaš v dokonalom pokoji, lebo v Teba dúfa."
-
-Keď prichádzajú obavy o budúcnosť, o peniaze alebo o každodenné potreby, postav sa na zasľúbenie z listu Filipským 4, 19:
+Možno ťa najviac trápia životné náklady a to, či budeš mať všetkého dostatok. Pavel písal veriacim vo Filipách, ktorí ho v núdzi podporovali:
 
 "Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša."
 
-Tak žije veriaci v čase milosti. Nespolieha sa na to, čo vidia oči, ale dôveruje Bohu. V liste Židom 11, 1 čítame:
+Boh dobre pozná rozdiel medzi tým, čo chceme, a tým, čo naozaj potrebujeme. Na Jeho starostlivosť sa môžeš spoľahnúť, aj keď ešte nevidíš, ako sa postará.
 
-"Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme."
+Ak ťa úzkosť sprevádza dlhší čas a nedokážeš sa z nej vymaniť, nehanbi sa vyhľadať aj odbornú pomoc. Boh môže konať aj cez ľudí, ktorí tomu rozumejú.
 
-Pán Ježiš hovoril o takej dôvere svojim poslucháčom v Izraeli, ešte pred krížom:
-
-"Ale hľadajte najprv kráľovstvo Božie a Jeho spravodlivosť a všetko toto bude vám pridané."
-
-Pre nás v čase milosti je to ešte jasnejšie. Kto je v Kristovi, už v Ňom má každé duchovné požehnanie (Ef 1, 3). A o všetko ostatné smie Boha prosiť s vďakou, ako sme čítali u Pavla.
-
-Nie je tvojou povinnosťou vyriešiť každú otázku a každú obavu. Tvojou jedinou úlohou je odovzdať svoje starosti Bohu, odpočívať v Jeho zasľúbeniach a kráčať vo viere. Ako je zapísané v liste Židom 6, 12, buď tým, ktorý vierou a trpezlivosťou dedí Božie zasľúbenia.`,
+Nemusíš mať všetko pod kontrolou. Tvoj život je v rukách Boha, ktorý ťa miluje. Dnes Mu môžeš odovzdať všetko, čo ťa ťaží, a odpočinúť si v Jeho vernosti.`,
         verses: [
-            { text: "O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách.", ref: "Filipským 4, 6" },
+            { text: "O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách. A pokoj Boží, ktorý prevyšuje každý rozum, bude chrániť vaše srdcia a vaše mysle v Kristovi Ježišovi.", ref: "Filipským 4, 6 – 7" },
             { text: "Na Neho uvaľte všetky svoje starosti, lebo On sa o vás stará.", ref: "1. Petra 5, 7" },
-            { text: "...ale prichádzajú starosti sveta, klam bohatstva a iné rozličné žiadosti a udusia slovo, takže zostáva bez úžitku.", ref: "Marek 4, 19" },
-            { text: "Boh nie je Bohom neporiadku, ale pokoja.", ref: "1. Korintským 14, 33" },
             { text: "A pokoj Kristov nech rozhoduje vo vašich srdciach, veď k nemu ste aj vy boli povolaní ako jedno telo; a buďte (za to) vďační.", ref: "Kolosenským 3, 15" },
-            { text: "Toho, kto je pevnej mysle, zachovávaš v dokonalom pokoji, lebo v Teba dúfa.", ref: "Izaiáš 26, 3" },
-            { text: "Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša.", ref: "Filipským 4, 19" },
-            { text: "Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme.", ref: "Židom 11, 1" },
-            { text: "Ale hľadajte najprv kráľovstvo Božie a Jeho spravodlivosť a všetko toto bude vám pridané.", ref: "Matúš 6, 33" }
+            { text: "Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša.", ref: "Filipským 4, 19" }
         ],
         prayer: `Drahý nebeský Otče, Všemohúci Bože,
 
@@ -232,7 +215,7 @@ Amen.`,
         illustrationRef: "pergamen",
         tags: ["starosti", "úzkosť", "vyčerpanie", "pokoj", "odpočinok"],
         available: true,
-        scriptureTheme: "Filipským 4, Kolosenským 3, Izaiáš 26",
+        scriptureTheme: "Filipským 4, 1. Petra 5, Kolosenským 3",
         isStarter: false
     },
 
