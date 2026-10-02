@@ -516,7 +516,7 @@ Amen.`,
 
 možno ťa trápi slabosť, ktorá neodchádza. Možno žiješ s bolesťou, ktorú okolie nevidí. Alebo ťa vystrašila lekárska správa a odvtedy myslíš len na ňu. Zastav sa na chvíľu. Boh o tebe vie a nie si v tom sám.
 
-V chorobe sa často ozve tichá otázka: „Trestá ma Boh?" Ak si uveril v Krista, odpoveď je jasná. Pavel píše, že niet odsúdenia tých, čo sú v Kristovi Ježišovi (Rimanom 8, 1). Tvoja choroba preto nie je Boží trest. Boh sa na teba nehnevá. Ospravedlnení z viery máme pokoj s Bohom (Rimanom 5, 1). Žijeme však v smrteľnom tele a vo svete, kde všetko stvorenstvo spoločne vzdychá (Rimanom 8, 22). Choroba preto prichádza k veriacim aj k neveriacim.
+V chorobe sa často ozve tichá otázka: „Trestá ma Boh?" Ak si uveril v Krista, odpoveď je jasná. Pavel píše, že niet odsúdenia tých, čo sú v Kristovi Ježišovi (Rimanom 8, 1). Tvoja choroba nie je trest za tvoje hriechy ani znak, že ťa Boh odsúdil. Boh sa na teba nehnevá. Ospravedlnení z viery máme pokoj s Bohom (Rimanom 5, 1). Žijeme však v smrteľnom tele a vo svete, kde všetko stvorenstvo spoločne vzdychá (Rimanom 8, 22). Choroba preto prichádza k veriacim aj k neveriacim.
 
 Dávid v žalme spieva o Bohu, ktorého dobre pozná:
 
