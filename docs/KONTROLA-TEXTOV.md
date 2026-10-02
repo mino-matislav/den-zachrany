@@ -67,6 +67,14 @@ Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred pre
 - najmä kapitoly napísané v posledných dňoch.
 Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 
+### Vzory z kapitoly 4 (2. 10. 2026)
+- **Trest, výchova, následky.** Trest a odsúdenie za hriech veriaci nenesie, niesol ho Kristus (Rim 8, 1; Gal 3, 13; Rim 5, 9; 1Tes 5, 9). Výchova existuje a je to láska otca (1Kor 11, 32). Následky existujú (Gal 6, 7), ale nikdy ich nečítať spätne z tragédie. Nepísať „Boh ťa netrestá", ale „Trest za tvoje hriechy už niesol Kristus. Preto ťa Boh neodsudzuje."
+- **Jób.** Bol bezúhonný. Pri ranách nezhrešil (1, 22; 2, 10), nepísať „nikdy". Nešťastie spôsobil satan a Boh mu určil hranicu (1, 12; 2, 6). Strach z Jób 3, 25 nezdôrazňovať a výklad „strach otvoril dvere" nepoužívať (2, 3 „bez príčiny"). Dvojnásobné navrátenie nepoužívať ako sľub.
+- **Texty pre smútiacich.** Písať jednoducho. Hovoriť o smútku, bolesti a prázdnote, nie o hneve. Rešpektovať, keď chce človek byť sám. Každý odsek má priniesť pravdu, ktorú môže prijať hneď.
+- **Neprosiť o to, čo už máme.** Písať „Ďakujem, že si pri mne", nie „Buď pri mne".
+- **Autorita v Kristovi** znamená odmietnuť lži, nie prikazovať okolnostiam.
+- **Úvodzovky.** V úvodzovkách je iba doslovné znenie ECAV. Ak treba iný slovosled, napísať to bez úvodzoviek ako bežnú vetu s odkazom v zátvorke.
+
 ### Vzory z kapitoly 3 (2. 10. 2026)
 - Príhovor má dať čitateľovi aj jeden jednoduchý praktický krok, nielen vysvetlenie (napr. „povedz obavy Bohu jednu po druhej a pri každej poďakuj").
 - Príklady majú platiť pre akúkoľvek chvíľu, nie len pre jednu situáciu („keď na teba doľahnú obavy", nie „večer").
@@ -128,6 +136,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
 - **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
 - **6, 11, 13:** prikazovanie duchom a mysli.
+- **4:** nový text schválený 2. 10. 2026, čaká na nahrávku (text v docs/SCHVALENE-PRIHOVORY.md).
 - **4, 13, 15, 17:** „uvoľňujem".
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
 - **8:** „podľa knihy Józuovej 1, 8"; „vyhlasujem, že viera vo mne je…".

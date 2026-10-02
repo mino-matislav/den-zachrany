@@ -112,3 +112,11 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **1 Pt 5, 7** | „Na Neho uvaľte všetky svoje starosti, lebo On sa o vás stará." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
 | **Kol 3, 15** | „A pokoj Kristov nech rozhoduje vo vašich srdciach, veď k nemu ste aj vy boli povolaní ako jedno telo; a buďte (za to) vďační." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
 | **Flp 4, 19** | „Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
+| **2 Kor 1, 3–4** | „Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení, aby sme potešením, ktorým nás potešuje Boh, mohli potešovať tých, čo sú v akomkoľvek súžení." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **Ž 34, 19** | „Blízky je Hospodin tým, čo sú skrúšeného srdca, a pomáha tým, čo sú ubitého ducha." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **1 Tes 4, 13–14** | „Nechceme však, bratia, aby ste nevedeli o zosnulých, aby ste sa nermútili ako ostatní, ktorí nemajú nádej. Lebo keď veríme, že Ježiš umrel a vstal z mŕtvych, tak aj Boh privedie spolu s Ním všetkých, ktorí umreli v Ježišovi." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **Rim 8, 28** | „A my vieme, že milujúcim Boha, povolaným podľa rady (Božej), všetky veci slúžia na dobro." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **1 Kor 13, 12** | „…Doteraz poznávam čiastočne, ale potom poznám tak, ako aj ja som poznaný." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **Jób 1, 22** | „Pri tom všetkom Jób nezhrešil a nespáchal nič urážlivé proti Bohu." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **Jób 2, 10** | „…Pri tom všetkom sa Jób neprehrešil svojimi perami." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **Rim 12, 15** | „Radujte sa s radujúcimi a plačte s plačúcimi!" | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
