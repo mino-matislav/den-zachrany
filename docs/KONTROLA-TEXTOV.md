@@ -67,6 +67,10 @@ Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred pre
 - najmä kapitoly napísané v posledných dňoch.
 Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 
+### Vzory z kapitoly 3 (2. 10. 2026)
+- Príhovor má dať čitateľovi aj jeden jednoduchý praktický krok, nielen vysvetlenie (napr. „povedz obavy Bohu jednu po druhej a pri každej poďakuj").
+- Príklady majú platiť pre akúkoľvek chvíľu, nie len pre jednu situáciu („keď na teba doľahnú obavy", nie „večer").
+
 ### Vzory z kapitoly 2 (1. 10. 2026)
 - Pred predložením prejdi aj tieto vzory (z kapitoly 1 a 2). Pri kapitole 2 som za veršom zopakoval jeho obsah, hoci som to pravidlo sám zapísal.
 - Výklad nepodávaj ako tvrdenie Písma (napr. „diabol formuluje myšlienky v prvej osobe"). Radšej opatrne: „jeho klamstvá často znejú ako tvoje vlastné myšlienky".
@@ -121,6 +125,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 
 ### Modlitby na opravu pri najbližšej nahrávke (analýza 28. 9. 2026)
 - **12:** text na webe už má opravu („Priznávam… Ďakujem Ti, že mi je to v Tebe už odpustené"). Neoverené je, či to platí aj pre audio. Ak nahrávka hrá staré „Odpusť mi to, Otče", text a zvuk sa nezhodujú.
+- **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
 - **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
 - **6, 11, 13:** prikazovanie duchom a mysli.
 - **4, 13, 15, 17:** „uvoľňujem".

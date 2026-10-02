@@ -108,3 +108,7 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **1 Tes 4, 13–15** | „Nechceme však, bratia, aby ste nevedeli o zosnulých, aby ste sa nermútili ako ostatní, ktorí nemajú nádej. Lebo keď veríme, že Ježiš umrel a vstal z mŕtvych, tak aj Boh privedie spolu s Ním všetkých, ktorí umreli v Ježišovi. Lebo to vám hovoríme slovom Pánovým: my, ktorí zostaneme nažive až do Pánovho príchodu, nepredídeme tých, čo umreli," | biblia.sk (sep), 29. 9. 2026 (kap. 9) |
 | **2 Kor 5, 8** | „Sme dobrej mysle a radšej si volíme vysťahovať sa z tela a prebývať s Pánom." | biblia.sk (sep), 29. 9. 2026 (kap. 9) |
 | **Flp 1, 21–23** | „Lebo mne žiť je: Kristus, a umrieť: zisk. … túžim už umrieť a byť s Kristom, a to by bolo iste omnoho lepšie," | biblia.sk (sep), 29. 9. 2026 (kap. 9) |
+| **Flp 4, 6–7** | „O nič nebuďte ustarostení, ale vo všetkom s vďakou predkladajte Bohu svoje žiadosti vo všetkých svojich modlitbách a prosbách. A pokoj Boží, ktorý prevyšuje každý rozum, bude chrániť vaše srdcia a vaše mysle v Kristovi Ježišovi." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
+| **1 Pt 5, 7** | „Na Neho uvaľte všetky svoje starosti, lebo On sa o vás stará." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
+| **Kol 3, 15** | „A pokoj Kristov nech rozhoduje vo vašich srdciach, veď k nemu ste aj vy boli povolaní ako jedno telo; a buďte (za to) vďační." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
+| **Flp 4, 19** | „Môj Boh však uspokojí všetky vaše potreby podľa svojho bohatstva v sláve Krista Ježiša." | biblia.sk (sep), 2. 10. 2026 (kap. 3) |
