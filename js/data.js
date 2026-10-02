@@ -222,67 +222,82 @@ Amen.`,
     "4": {
         id: "4",
         title: "Rodinné a osobné tragédie",
-        subtitle: "Ako v čase ťažkej straty prijať Božiu útechu, uzdravenie srdca a celkovú obnovu",
-        shortDescription: "Božia útecha a obnova uprostred straty. Boh ako Otec milosrdenstva, nie pôvodca bolesti.",
+        subtitle: "Keď ťa zasiahne strata a hľadáš Božiu útechu",
+        shortDescription: "Boh, ktorý je blízko zlomeným. Smútok s nádejou a útecha, aj keď nerozumieš, prečo sa to stalo.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-v živote človeka na tejto zemi môžu prísť momenty, kedy sa svet okolo nás v jedinej sekunde zrúti. Zásah nečakanej tragédie, náhla strata milovaného človeka, ťažká nehoda či nečakaný rozpad rodiny dokážu spôsobiť bolesť, ktorá sa zdá byť neznesiteľná. V takýchto chvíľach človek prirodzene hľadá odpovede a pýta sa: „Prečo sa to stalo?“
+niekedy sa život zmení v jedinom okamihu. Príde správa, ktorú nikto nechce počuť. Zomrie niekto blízky, stane sa nehoda alebo sa rozpadne rodina. Bolesť je taká veľká, že sa ťažko dýcha. Ak práve prežívaš niečo také, nečítaj tieto riadky v zhone. Nie si v tom sám.
 
-Náboženský svet často ľuďom v ich najväčšom smútku ponúka nesprávnu odpoveď. Hovoria, že to bol Boh, kto túto tragédiu spôsobil, aby človeka niečo naučil alebo vyskúšal jeho vieru. Mnohí sa pritom odvolávajú na známy príbeh Jóba a citujú jeho slová z momentu obrovskej bolesti: „Hospodin dal, Hospodin vzal.“
+V takej chvíli sa v človeku ozve otázka: „Prečo?“ Úprimne, Písmo nám nedáva odpoveď na každé „prečo“. Aj Pavel priznáva: „Doteraz poznávam čiastočne“ (1. Korintským 13, 12). Niektoré odpovede dostaneme až vtedy, keď budeme s Pánom.
 
-Jób týmito slovami vyjadril úprimnú úctu a odovzdanosť Bohu — Písmo o ňom hovorí, že v celom svojom trápení nezhrešil (Jób 1, 22). Hovoril však zo svojho obmedzeného poznania Starej zmluvy, v čase, keď ešte nebol zjavený plný obraz o Kristovi ani o skutočnom pôvodcovi zla. My však smieme rozumieť Písmu v plnom svetle Novej zmluvy. Sám Pán Ježiš v Jánovom evanjeliu 10, 10 jasne rozlišuje medzi Bohom a nepriateľom:
+V Starom zákone čítame o Jóbovi. Bol to bezúhonný Boží muž, a predsa v jednom dni prišiel o majetok aj o všetky deti. Písmo o ňom hovorí: „Pri tom všetkom Jób nezhrešil a nespáchal nič urážlivé proti Bohu“ (Jób 1, 22). Potom ho postihla aj ťažká choroba a celé telo mal pokryté vredmi. Ani vtedy sa svojimi slovami neprehrešil (Jób 2, 10).
 
-"Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!"
+Možno sa pýtaš, či si za svoju stratu nemôžeš sám. Písmo nám ukazuje, odkiaľ prišlo Jóbovo nešťastie. Nespôsobil ho jeho hriech. Spôsobil ho nepriateľ, satan. On kradne, zabíja a ničí.
 
-Boh nie je autorom tvojej tragédie. Náš nebeský Otec nepoužíva smrť, choroby ani nešťastia na to, aby ti ubližoval. Žijeme vo svete, kde pôsobí hriech a nepriateľ, no v čase milosti máme Boha, ktorý je plne na tvojej strane. On je Ten, ktorý prichádza obviazať tvoje zlomené srdce.
+Satan však nemohol urobiť všetko, čo chcel. Boh mu určil hranicu, ktorú nesmel prekročiť (Jób 1, 12; 2, 6). Ani nad tvojím životom nemá posledné slovo nepriateľ. Má ho Boh, ktorý ťa miluje.
 
-Apoštol Pavel v 2. liste Korintským 1, 3 – 4 zjavuje skutočnú Božiu tvár:
+Niečo vieme s istotou. Trest za tvoje hriechy už niesol Kristus. Preto ťa Boh neodsudzuje (Rimanom 8, 1). Nie je vzdialený ani ľahostajný k tvojej bolesti. Pavel Ho opisuje takto:
 
-"Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení..."
+"Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení, aby sme potešením, ktorým nás potešuje Boh, mohli potešovať tých, čo sú v akomkoľvek súžení."
 
-Keď Jób na konci svojho príbehu spoznal Boha osobne a prestal sa opierať o domnienky, jeho život sa úplne zmenil — Boh mu navrátil dvojnásobne toho, čo stratil. V knihe Jób 42, 10 čítame:
+Boh ťa nepotešuje z diaľky. Prichádza priamo do tvojho súženia.
 
-"Hospodin zmenil Jóbov údel, pretože sa modlil za svojho blížneho."
-
-Boh je Bohom obnovy. Aj keď nepriateľ niečo zničil alebo skazil, Božie srdce je vždy plné milosrdenstva a obnovujúcej moci. V Žalme 34, 19 máme nádherné zasľúbenie:
+Takého Boha poznal už kráľ Dávid. Napísal:
 
 "Blízky je Hospodin tým, čo sú skrúšeného srdca, a pomáha tým, čo sú ubitého ducha."
 
-Ak dnes prežívaš hlbokú bolesť zo straty alebo rodinnej tragédie, nemusíš pred Bohom skrývať svoje slzy. Nemusíš však ani žobrať o Jeho lásku alebo sa hnevať na Boha za to, čo spôsobil nepriateľ. Otvor Mu svoje srdce a dovoľ Jeho milosti, aby ťa objala.
+Pred Bohom preto nemusíš skrývať slzy ani predstierať, že si v poriadku. Môžeš Mu priniesť svoje „prečo“ aj prázdnotu, ktorú v sebe cítiš. Aj Pán Ježiš zaplakal pri hrobe svojho priateľa Lazára (Ján 11, 35).
 
-V liste Rimanom 8, 28 nám Písmo dáva istotu:
+Smútok nie je prejav slabej viery. Pavel nepíše veriacim, aby nesmútili. Píše, aby nesmútili bez nádeje:
+
+"Nechceme však, bratia, aby ste nevedeli o zosnulých, aby ste sa nermútili ako ostatní, ktorí nemajú nádej. Lebo keď veríme, že Ježiš umrel a vstal z mŕtvych, tak aj Boh privedie spolu s Ním všetkých, ktorí umreli v Ježišovi."
+
+Ak tvoj blízky patril Kristovi, nie je navždy stratený. Teraz je s Pánom a raz sa znova stretnete.
+
+Možno ťa nezasiahla smrť, ale iná strata. Ani vtedy to nie je koniec. Pavel píše:
 
 "A my vieme, že milujúcim Boha, povolaným podľa rady (Božej), všetky veci slúžia na dobro."
 
-To neznamená, že každá udalosť je dobrá. Znamená to, že aj z tej najtemnejšej situácie dokáže Boh Svojou mocou vyviesť dobro, útechu a nový začiatok. V Kristovi máš prístup k neobmedzenej Božej úteche, ktorá prevyšuje každú ľudskú bolesť.`,
+To neznamená, že to, čo sa stalo, je dobré. Strata zostáva stratou a bolí. Boh však dokáže aj zlé obrátiť na niečo dobré. Ako a kedy, to vie iba On.
+
+Skús dnes jednu jednoduchú vec. Keď sa bolesť ozve, povedz Bohu len toto: „Pane, bolí to. Ďakujem, že si pri mne.“ Viac slov netreba. A ak nevieš, čo povedať, nevadí. Svätý Duch, ktorý v tebe prebýva, sa za teba prihovára nevysloviteľným vzdychaním (Rimanom 8, 26).
+
+Do smútku sa často pridajú aj ťaživé myšlienky: „Boh ťa opustil.“ „Už nikdy nebude dobre.“ Nemusíš ich prijať. Si Božie dieťa a v Kristovi máš právo odmietnuť každú lož. Tieto myšlienky nehovoria pravdu o tebe ani o Bohu.
+
+Možno teraz nechceš nikoho vidieť a chceš byť sám. Aj to je v poriadku, Boh je s tebou aj vtedy. Keď príde čas, otvor dvere aj ľuďom, ktorí ťa majú radi. Písmo vyzýva: „…plačte s plačúcimi!“ (Rimanom 12, 15). Boh často potešuje práve cez nich.
+
+Tvoj príbeh sa touto stratou nekončí. Boh ťa drží aj vtedy, keď ty už nevládzeš držať sa Jeho.`,
         verses: [
-            { text: "Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!", ref: "Ján 10, 10" },
-            { text: "Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení...", ref: "2. Korintským 1, 3 – 4" },
-            { text: "Hospodin zmenil Jóbov údel, pretože sa modlil za svojho blížneho.", ref: "Jób 42, 10" },
+            { text: "Požehnaný Boh a Otec nášho Pána Ježiša Krista, Otec milosrdenstva a Boh každého potešenia, ktorý nás potešuje v každom našom súžení, aby sme potešením, ktorým nás potešuje Boh, mohli potešovať tých, čo sú v akomkoľvek súžení.", ref: "2. Korintským 1, 3 – 4" },
             { text: "Blízky je Hospodin tým, čo sú skrúšeného srdca, a pomáha tým, čo sú ubitého ducha.", ref: "Žalm 34, 19" },
+            { text: "Nechceme však, bratia, aby ste nevedeli o zosnulých, aby ste sa nermútili ako ostatní, ktorí nemajú nádej. Lebo keď veríme, že Ježiš umrel a vstal z mŕtvych, tak aj Boh privedie spolu s Ním všetkých, ktorí umreli v Ježišovi.", ref: "1. Tesalonickým 4, 13 – 14" },
             { text: "A my vieme, že milujúcim Boha, povolaným podľa rady (Božej), všetky veci slúžia na dobro.", ref: "Rimanom 8, 28" }
         ],
-        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+        prayer: `Drahý nebeský Otče,
 
-prichádzam pred Tvoju svätú tvár v mocnom mene Tvojho Syna, Ježiša Krista. Otváram pred Tebou svoje zranené srdce a prinášam Ti všetku bolesť, smútok a žiaľ z tragédie, ktorá zasiahla môj život. Vyznávam, že moja ľudská sila nestačí na to, aby som toto ťažké bremeno niesol sám.
+prichádzam k Tebe so zlomeným srdcom. Stalo sa niečo, čo neviem uniesť. Cítim smútok, bolesť a prázdnotu, ktorú neviem opísať slovami.
 
-Ďakujem Ti, nebeský Otče, že v tomto čase milosti viem, kto v skutočnosti si. Odmietam klamstvo, že si túto bolesť alebo stratu spôsobil Ty. Verím Tvojmu Slovu, že Ty si Otec každej útechy a Otec milosrdenstva. Ježiš prišiel, aby som mal život a hojnosť, preto sa dnes plne utiekam do Tvojho bezpečného náručia.
+Pred Tebou nemusím predstierať silu. Smiem plakať. Ty vidíš moje slzy a si mi blízko. Keď nenachádzam slová, Tvoj Svätý Duch sa za mňa prihovára.
 
-Podľa Tvojho zasľúbenia zo Žalmu 34, 19 verím, že si blízko môjmu skľúčenému srdcu. Odovzdávam Ti každú ranu, každý hnev i každé mätúce „prečo“ Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri a uvoľňujem dnes Jeho uzdravujúcu moc pre svoju myseľ aj pre svoje vnútro.
+Nerozumiem, prečo sa to stalo. Prinášam Ti aj túto otázku. Ďakujem Ti, že ma neodsudzuješ. Trest za moje hriechy už niesol Pán Ježiš. Ty si Otec milosrdenstva a Boh každého potešenia.
 
-Vyznávam, že moja budúcnosť sa nekončí v tejto bolesťami naplnenej kapitole. Tak ako si zmenil údel Jóba a priniesol mu obnovu, verím, že aj v mojom živote máš pripravené dobré veci. Rozhodujem sa nezostávať v zúfalstve, ale odpočívať v Tvojej milosti a vernosti.
+Odmietam lož, že ma opúšťaš alebo že už nikdy nebude dobre. Som Tvoje dieťa a patrím Tebe.
 
-Ďakujem Ti, Otče, že Tvoja útecha a Tvoj pokoj strážia moje srdce. Prijímam novú silu pre každý nový deň a verím, že Tvoja láska ma prevedie aj tým najťažším údolím.
+Prosím Ťa, poteš ma vo všetkom, čo teraz prežívam. Naplň prázdnotu v mojom srdci a daj mi silu na každý ďalší deň, aj na ten najťažší.
 
-Ukončujem túto modlitbu v plnej dôvere v Tvoje dokonané dielo a Tvoje neochvejné zasľúbenia.
+Ďakujem Ti, že táto strata nie je koniec môjho príbehu. Dnes ešte nevidím ako, ale Ty dokážeš aj zlé obrátiť na dobré.
+
+Niekedy nechcem nikoho vidieť a chcem byť sám. Ďakujem Ti, že aj vtedy si so mnou. A keď príde čas, daj mi odvahu prijať pomoc ľudí, ktorých mi posielaš.
+
+Odovzdávam Ti seba aj tých, ktorých milujem. Ďakujem Ti, že ma držíš aj vtedy, keď ja už nevládzem.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-4.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-4.mp3?v=5",
         hasAudio: true,
         illustrationRef: "voda-svetlo",
-        tags: ["strata", "smútok", "bolesť", "obnova", "nádej"],
+        tags: ["strata", "smútok", "bolesť", "nádej", "sila"],
         available: true,
-        scriptureTheme: "Ján 10, 2. Korintským 1, Rimanom 8",
+        scriptureTheme: "2. Korintským 1, 1. Tesalonickým 4, Rimanom 8",
         isStarter: false
     },
 
