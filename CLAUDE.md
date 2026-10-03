@@ -186,9 +186,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 28. 9. 2026)
+## 7. Stav a otvorené úlohy (k 3. 10. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v203, verify.js 524 kontrol (s `VERIFY_AUDIO=1` 546). Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1), nové úvodné slovo s nahrávkou a príhovor kapitoly 2. 2. 10.: príhovor kapitoly 3, kapitola 4 (príhovor aj nová modlitba s nahrávkou) a veta o treste v kap. 9. Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v204, verify.js 520 kontrol (s `VERIFY_AUDIO=1` 541). 3. 10. SEO: robots.txt už neblokuje pocuvaj.html (má noindex, Google ho musí vidieť), titulky kapitol do 60 znakov (prívesok „— Deň Záchrany“ sa pri dlhých vynechá), drobčeky (BreadcrumbList) na stránkach kapitol a piesní. Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1), nové úvodné slovo s nahrávkou a príhovor kapitoly 2. 2. 10.: príhovor kapitoly 3, kapitola 4 (príhovor aj nová modlitba s nahrávkou) a veta o treste v kap. 9. Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
@@ -196,7 +196,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - Súvislé prehrávanie piesní (⏭/⏮, Media Session).
   - Rozšírené sťahovanie – odľahčená verzia 192 kbps a text o voľnom nekomerčnom použití.
   - Overiť limity a podmienky raw.githubusercontent.com pre sťahovanie MP3 (zatiaľ neoverené).
-  - SEO.
+  - SEO: zmenšenie og-image a popisy piesní.
   - Vlastná doména.
   - Krátke videá.
   - Exkluzívny obrázok pre darcov (bez zbierania e-mailov).

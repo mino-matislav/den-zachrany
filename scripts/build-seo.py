@@ -74,9 +74,8 @@ def robots():
         "User-agent: *\n"
         "Allow: /\n"
         "\n"
-        "# Duplicitný obsah — texty piesní sú aj na piesen.html\n"
-        "Disallow: /pocuvaj.html\n"
-        "\n"
+        # pocuvaj.html tu zámerne NIE JE — má noindex a Google ho uvidí,
+        # len keď stránku smie načítať
         f"Sitemap: {BASE_URL}/sitemap.xml\n"
     )
     with open(P('robots.txt'), 'w', encoding='utf-8') as f:
@@ -300,13 +299,33 @@ def predgeneruj(data):
 #  (kapitola.html?id=1 aj ?id=12 servírujú to isté)
 #  a považuje ich za duplicitné.
 # ------------------------------------------------------------
-def json_ld(html, data_dict):
-    """Vloží štruktúrované údaje pred </head>. Staré najprv odstráni."""
+def json_ld(html, data_dict, *dalsie):
+    """Vloží štruktúrované údaje pred </head>. Staré najprv odstráni.
+    Každý ďalší slovník (napr. drobčeky) dostane vlastný blok."""
     html = re.sub(r'\s*<script type="application/ld\+json">.*?</script>', '', html, flags=re.S)
-    blok = ('    <script type="application/ld+json">\n    '
-            + json.dumps(data_dict, ensure_ascii=False, indent=2).replace('\n', '\n    ')
-            + '\n    </script>\n')
+    blok = ''.join('    <script type="application/ld+json">\n    '
+                   + json.dumps(d, ensure_ascii=False, indent=2).replace('\n', '\n    ')
+                   + '\n    </script>\n' for d in (data_dict,) + dalsie)
     return html.replace('</head>', blok + '</head>', 1)
+
+
+def drobceky(sekcia, sekcia_url, nazov):
+    """Cesta Domov › Kapitoly/Piesne › názov (BreadcrumbList pre Google)."""
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Domov", "item": BASE_URL + '/'},
+            {"@type": "ListItem", "position": 2, "name": sekcia, "item": '%s/%s' % (BASE_URL, sekcia_url)},
+            {"@type": "ListItem", "position": 3, "name": nazov},
+        ],
+    }
+
+
+def titulok(nazov, privesok):
+    """Názov webu pridá len vtedy, keď sa titulok zmestí do 60 znakov."""
+    plny = nazov + privesok + ' — Deň Záchrany'
+    return plny if len(plny) <= 60 else nazov + privesok
 
 
 def suvisiace(k, vsetky, kolko=3):
@@ -363,7 +382,7 @@ def statické_stránky(data):
                            '\n                    ' + odseky(k['fullText']) + '\n                ')
         h, _ = nahrad_blok(h, '<div class="chapter-prayer-text"',
                            '\n                        ' + odseky(k['prayer']) + '\n                    ')
-        h = uprav_hlavicku(h, '%s — Deň Záchrany' % k['title'], k['desc'],
+        h = uprav_hlavicku(h, titulok(k['title'], ''), k['desc'],
                            '%s/kapitola-%s.html' % (BASE_URL, k['id']),
                            'data-chapter-id="%s"' % k['id'])
         # príbuzné kapitoly — pomáha čitateľovi aj prepojeniu stránok pre Google
@@ -391,7 +410,7 @@ def statické_stránky(data):
                           "logo": {"@type": "ImageObject", "url": '%s/assets/icon-512.png' % BASE_URL}},
             "isPartOf":  {"@type": "WebSite", "name": "Deň Záchrany", "url": BASE_URL + '/'},
             "isAccessibleForFree": True,
-        })
+        }, drobceky('Kapitoly', 'kapitoly.html', k['title']))
         open(P('kapitola-%s.html' % k['id']), 'w', encoding='utf-8').write(h)
     sprava.append('kapitola-1..%s.html — %d samostatných stránok' % (data['kapitoly'][-1]['id'], len(data['kapitoly'])))
 
@@ -408,7 +427,7 @@ def statické_stránky(data):
                           '</p></div>')
         h, _ = nahrad_blok(h, '<div class="song-lyrics"',
                            '\n                    ' + '\n                    '.join(riadky) + '\n                ')
-        h = uprav_hlavicku(h, '%s — pieseň — Deň Záchrany' % sg['title'], sg['desc'],
+        h = uprav_hlavicku(h, titulok(sg['title'], ' — pieseň'), sg['desc'],
                            '%s/piesen-%s.html' % (BASE_URL, sg['id']),
                            'data-song-id="%s"' % sg['id'])
         h = json_ld(h, {
@@ -422,7 +441,7 @@ def statické_stránky(data):
             "byArtist":  {"@type": "MusicGroup", "name": "Deň Záchrany"},
             "inAlbum":   {"@type": "MusicAlbum", "name": "Deň Záchrany"},
             "isAccessibleForFree": True,
-        })
+        }, drobceky('Piesne', 'piesne.html', sg['title']))
         open(P('piesen-%s.html' % sg['id']), 'w', encoding='utf-8').write(h)
     sprava.append('piesen-1..%s.html   — %d samostatných stránok' % (data['piesne'][-1]['id'], len(data['piesne'])))
 

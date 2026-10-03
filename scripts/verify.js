@@ -122,7 +122,8 @@ must(fs.existsSync(P('assets/og-image.png')), 'og-image.png existuje (PNG, nie S
 const robotsTxt = read('robots.txt');
 const sitemapXml = read('sitemap.xml');
 must(robotsTxt.includes('Sitemap:'), 'robots.txt odkazuje na sitemap');
-must(robotsTxt.includes('Disallow: /pocuvaj.html'), 'robots.txt vylučuje duplicitnú pocuvaj.html');
+// noindex funguje, len keď Google stránku smie načítať — robots.txt ju nesmie blokovať
+must(!robotsTxt.includes('Disallow: /pocuvaj.html'), 'robots.txt neblokuje pocuvaj.html (Google musí vidieť jej noindex)');
 must(!sitemapXml.includes('pocuvaj.html'), 'sitemap neobsahuje neindexovanú pocuvaj.html');
 must(!sitemapXml.includes('den-zachrany.sk'), 'sitemap neodkazuje na neexistujúcu doménu den-zachrany.sk');
 // každá stránka má buď canonical, alebo noindex — a nikde neexistujúca doména
@@ -145,6 +146,14 @@ must(fs.existsSync(P('google27ea05d4c9159c44.html')),
   try { platny = !!(m && JSON.parse(m[1])['@type']); } catch (e) { platny = false; }
   must(platny, `${f} má platné štruktúrované údaje`);
 });
+
+// drobčeky (BreadcrumbList) na všetkých stránkach kapitol a piesní
+const subKP = fs.readdirSync(ROOT).filter(f => /^(kapitola|piesen)-\d+\.html$/.test(f));
+const bezDrob = subKP.filter(f => !read(f).includes('"@type": "BreadcrumbList"'));
+must(subKP.length > 0 && bezDrob.length === 0, `stránky kapitol a piesní majú drobčeky (${subKP.length - bezDrob.length}/${subKP.length})`);
+// titulky nad 60 znakov (Google ich orezáva)
+const dlhe = subKP.filter(f => ((read(f).match(/<title>(.*?)<\/title>/s) || [,''])[1]).length > 60);
+must(dlhe.length === 0, `titulky kapitol a piesní majú najviac 60 znakov${dlhe.length ? ' — ' + dlhe.join(', ') : ''}`);
 
 // samostatné stránky pre kapitoly a piesne (inak Google vidí duplicitný obsah)
 const kapSub = chAvailIds().filter(i => fs.existsSync(P(`kapitola-${i}.html`)));
