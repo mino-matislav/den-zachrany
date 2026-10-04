@@ -135,7 +135,7 @@ Amen.
 ## Kapitola 9 — drobná oprava NASADENÁ 2. 10. 2026
 „Tvoja choroba preto nie je Boží trest." → „Tvoja choroba nie je trest za tvoje hriechy ani znak, že ťa Boh odsúdil."
 
-## Kapitola 5 — SCHVÁLENÉ 4. 10. 2026, ČAKÁ NA NAHRÁVKU modlitba-5.mp3 (všetko pôjde na web naraz, audioUrl ?v=5)
+## Kapitola 5 — NASADENÉ 4. 10. 2026 (príhovor, 4 verše, nová modlitba 5 s nahrávkou ?v=5)
 - Názov: Keď ťa ponížili a ukrivdili ti
 - Podnadpis: Ako zložiť krivdu do Božích rúk a nájsť svoju hodnotu v Kristovi
 - Krátky popis: Keď ťa ponížili alebo očiernili. Tvoja hodnota je v Kristovi a spravodlivosť patrí Bohu.
@@ -184,8 +184,8 @@ Možno sa tvoje meno pred ľuďmi neočistí hneď. Možno sa to nestane ani tu 
 Ľudský súd nie je posledný. Raz príde Pán, ktorý „osvieti to, čo je vo tme skryté“ (1. Korintským 4, 5). Pred Bohom si v Kristovi čistý už dnes. A On nezabudne na nič, čo si pretrpel.
 ```
 
-### Modlitba 5 — nový text, ČAKÁ NA NAHRÁVKU
-Poznámka (Claude Code, 4. 10.): oslovenie „Pane Ježišu," nezodpovedá pravidlu v CLAUDE.md („Drahý Pane Ježišu Kriste, …"). Odporúčané „Drahý Pane Ježišu Kriste," – čaká na rozhodnutie Admina. Strojové porovnanie so všetkými modlitbami: žiadna zhoda 4+ slov.
+### Modlitba 5 — NASADENÁ 4. 10. 2026 s oslovením „Drahý Pane Ježišu Kriste,"
+Poznámka (Claude Code, 4. 10.): oslovenie „Pane Ježišu," nezodpovedá pravidlu v CLAUDE.md („Drahý Pane Ježišu Kriste, …"). Admin rozhodol: „Drahý Pane Ježišu Kriste," (na webe aj v nahrávke). Strojové porovnanie so všetkými modlitbami: žiadna zhoda 4+ slov.
 ```
 Pane Ježišu,
 

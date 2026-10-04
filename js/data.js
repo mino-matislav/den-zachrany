@@ -303,67 +303,69 @@ Amen.`,
 
     "5": {
         id: "5",
-        title: "Rehabilitácia pred očami tvojich nepriateľov",
-        subtitle: "Ako skrze Božiu milosť prijať zadosťučinenie a obnovu po ponížení",
-        shortDescription: "Božia obnova a dôstojnosť po ponížení. Boh dvíha pokorných; naša hodnota je pevná v Kristovi.",
+        title: "Keď ťa ponížili a ukrivdili ti",
+        subtitle: "Ako zložiť krivdu do Božích rúk a nájsť svoju hodnotu v Kristovi",
+        shortDescription: "Keď ťa ponížili alebo očiernili. Tvoja hodnota je v Kristovi a spravodlivosť patrí Bohu.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-ak čítaš tieto riadky, pravdepodobne vieš, aké to je niesť bremeno nespravodlivosti. Vieš, aké to je byť ponížený, prehliadaný, zradený tými, ktorým si veril, alebo odsunutý na okraj — v spoločnosti, v rodine či v práci. Možno prežívaš bolesť z toho, že tvoja hodnota bola pošliapaná a tvoje meno očiernené.
+možno ťa niekto ponížil pred ostatnými. Možno o tebe šíria klamstvá alebo ťa zradil človek, ktorému si veril. Možno ťa v práci či v rodine odsunuli bokom, akoby si nebol dôležitý. Krivda bolí. Najradšej by si chcel, aby všetci konečne spoznali pravdu.
 
-Ako človek obnovený Svätým Duchom a nové stvorenie v Kristovi však smieš poznať pravdu, ktorá mení pohľad na tvoje utrpenie: tvoja hodnota nestojí na tom, čo o tebe povedali ľudia, ale na tom, čím si sa stal v Kristovi. V Ňom si prijatý, ospravedlnený a milovaný — a to ti nikto nemôže vziať. Práve tam máš svoje pevné miesto aj vtedy, keď ťa svet odsunul.
+Apoštol Pavel to dobre poznal. Mnohí ho posudzovali a spochybňovali. Keď stál pred súdom, všetci ho opustili. Jeden človek mu spôsobil veľa zla. Pavel o tom píše: „Alexandros, kováč, mi spôsobil mnoho zlého“ (2. Timoteovi 4, 14). Nepredstieral, že ho to nebolí. Vedel však, čí hlas o ňom rozhoduje.
 
-Písmo je plné obrazov Božieho charakteru — Boha, ktorý sa skláňa k pokorným a pozdvihuje zlomených. Žalmista Dávid, ktorý sám prešiel ponížením a prenasledovaním, vyznáva v Žalme 23, 5:
+Ľudia o tebe môžu hovoriť čokoľvek. Posledné slovo o tebe však nemajú oni. Pavel píše:
 
-"Stôl mi prestieraš pred mojimi protivníkmi, hlavu mi pomazávaš olejom, je preplnený kalich môj."
+"Kto bude žalovať na vyvolených Božích? Je to Boh, ktorý ospravedlňuje."
 
-Boh prestiera stôl svojej hojnosti a pokoja aj uprostred nepriazne. Nejde o triumf nad nepriateľmi pred divákmi, ale o Božiu prítomnosť a starostlivosť, ktorá ťa sýti aj tam, kde by si to najmenej čakal.
+Ak si v Kristovi, Boh ťa vyhlásil za spravodlivého a prijal ťa. Poníženie, ktoré si zažil, neurčuje, kto si. Tvoja hodnota nestojí na tom, čo si o tebe myslia iní. „Keď Boh za nás, kto proti nám?“ (Rimanom 8, 31)
 
-Starozmluvné príbehy nám boli zapísané ako predobrazy a na naše poučenie (1. Kor 10, 11) — nie ako záruka pozemskej odplaty, ale ako obraz toho, aký je Boh a ako dokáže obnovovať človeka.
-
-Vezmi si Jozefa. Vlastní bratia ho hodili do jamy, predali do otroctva a nespravodlivo skončil v egyptskom väzení. Z ľudského hľadiska bol odpísaný. No Boh z jeho ponížených ciest vyviedol dobro a zachránil mnohých. Keď sa napokon stretol s bratmi, nesiahol po pomste, ale vyznal v 1. Mojžišovej 50, 20:
+V Starom zákone čítame o Jozefovi. Vlastní bratia ho predali do otroctva. Neskôr ho krivo obvinili a nevinný skončil vo väzení. Po rokoch stál pred bratmi ako mocný muž. Mohol sa im pomstiť, ale povedal:
 
 "Vy ste, pravda, zamýšľali proti mne zlé, ale Boh to obrátil na dobré, aby tak učinil, čo je dnes zjavné: totiž, aby mnohých ľudí zachoval nažive."
 
-To, čo ľudia zamýšľali na zlé, Boh dokáže vpliesť do svojho dobrého diela. Jozef sa nemusel sám dovolávať spravodlivosti — mohol ju zložiť do Božích rúk a odpustiť.
+Jozefov príbeh nie je sľub, že každý z nás bude raz mocný. Ukazuje však, aký je Boh. Ani zlo, ktoré ti spôsobili ľudia, nemusí zostať len zlom.
 
-Podobne Dávid. Keď prišiel prorok Samuel pomazať nového kráľa, Dávidov vlastný otec ho ani nezavolal k stolu; bol považovaný za obyčajného pastiera kdesi na poli. No Boh nehľadí na to, čo hovoria ľudia — On pozdvihuje pokorných. Ako čítame v Žalme 113, 7 – 8:
+Čo teda robiť s krivdou? Je prirodzené, že ťa bolí aj hnevá. Hnev v sebe nedus, ale ani ho nenechaj, aby ťa ovládol. Odovzdaj ho Pánovi a spravodlivosť nechaj na Neho. Pavel píše:
 
-"On pozdvihuje z prachu slabého a zo smetiska vyvyšuje chudobného, aby ho usadil medzi kniežatá, kniežatá svojho ľudu."
+"…nepomstite sa, milovaní, ale ponechajte to hnevu (Božiemu) - lebo je napísané: Mne patrí pomsta, ja odplatím; hovorí Pán."
 
-Nie je to prísľub, že každý dostane pozemský trón; je to uistenie, že v Božích očiach nie si zabudnutý a že tvoja skutočná dôstojnosť je v Ňom.
+Nechať to na Boha neznamená, že na krivde nezáleží. Znamená to, že ju nemusíš niesť a riešiť sám. Smieš povedať pravdu a brániť sa aj zákonnou cestou. Aj Pavel sa pred súdom bránil (Skutky 25, 10 – 11). Neoplácaj však zlým za zlé. Pavel o ľuďoch, ktorí ho opustili, povedal: „Nech sa im to nezapočíta“ (2. Timoteovi 4, 16). A dodal: „Pán však stál pri mne a posilnil ma“ (2. Timoteovi 4, 17).
 
-Možno sa pýtaš: „Čo mám robiť teraz, keď ma to bolí a cítim nespravodlivosť?“ Tvojou úlohou nie je plánovať odplatu ani vymýšľať, ako dokázať svoju pravdu. Tvojou úlohou je zložiť to do Božích rúk a dôverovať Mu. Ako hovorí kniha Prísloví 3, 5 – 6:
+Skús dnes jednu jednoduchú vec. Keď sa ti krivda vráti na myseľ, povedz Bohu: „Pane, Ty poznáš pravdu. Nechávam to na Teba.“ A potom sa vráť k tomu, čo máš pred sebou.
 
-"Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky."
+Možno sa tvoje meno pred ľuďmi neočistí hneď. Možno sa to nestane ani tu na zemi. Pavel na ľudské súdy hľadel takto:
 
-Tvoj rozum ti našepkáva, že si prehral a že tvoje meno je zničené — no to je klamstvo prítomnej chvíle. Boh sám pozná tvoju bolesť a v pravý čas s ňou naloží podľa svojej múdrosti. Ty sa smieš zrieknuť ťarchy sebaobhajoby aj pomsty a odpočinúť v tom, čo pre teba Kristus už dokonal. Tvoja obnova sa nezačína pochvalou ľudí ani porážkou tých, čo ti ublížili — začína sa v tichu tvojho srdca, obnovou, pokojom a spravodlivosťou, ktoré máš v Kristovi zadarmo.`,
+"Ale mne najmenej záleží na tom, či ma vy súdite, alebo akýkoľvek ľudský súd… ale Pán je Ten, ktorý ma súdi."
+
+Ľudský súd nie je posledný. Raz príde Pán, ktorý „osvieti to, čo je vo tme skryté“ (1. Korintským 4, 5). Pred Bohom si v Kristovi čistý už dnes. A On nezabudne na nič, čo si pretrpel.`,
         verses: [
-            { text: "Stôl mi prestieraš pred mojimi protivníkmi, hlavu mi pomazávaš olejom, je preplnený kalich môj.", ref: "Žalm 23, 5" },
+            { text: "Kto bude žalovať na vyvolených Božích? Je to Boh, ktorý ospravedlňuje.", ref: "Rimanom 8, 33" },
             { text: "Vy ste, pravda, zamýšľali proti mne zlé, ale Boh to obrátil na dobré, aby tak učinil, čo je dnes zjavné: totiž, aby mnohých ľudí zachoval nažive.", ref: "1. Mojžišova 50, 20" },
-            { text: "On pozdvihuje z prachu slabého a zo smetiska vyvyšuje chudobného, aby ho usadil medzi kniežatá, kniežatá svojho ľudu.", ref: "Žalm 113, 7 – 8" },
-            { text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.", ref: "Príslovia 3, 5 – 6" }
+            { text: "…nepomstite sa, milovaní, ale ponechajte to hnevu (Božiemu) - lebo je napísané: Mne patrí pomsta, ja odplatím; hovorí Pán.", ref: "Rimanom 12, 19" },
+            { text: "Ale mne najmenej záleží na tom, či ma vy súdite, alebo akýkoľvek ľudský súd… ale Pán je Ten, ktorý ma súdi.", ref: "1. Korintským 4, 3 – 4" }
         ],
-        prayer: `Drahý nebeský Otče, Všemohúci Bože,
+        prayer: `Drahý Pane Ježišu Kriste,
 
-prichádzam pred Tvoj svätý trón s plnou dôverou a odvahou. Neprichádzam na základe svojich zásluh, ale pre drahocennú krv Pána Ježiša Krista. Ty poznáš každé poníženie, každú nespravodlivosť a každú ranu, ktorú mi ľudia spôsobili. Videl si moju zlomenosť — a dnes Ti ďakujem, že moje uzdravenie i moja obnova sú v Tebe už dokonané.
+aj Teba ponižovali, vysmievali sa Ti a krivo Ťa obviňovali. Preto viem, že mi rozumieš. Prichádzam s pocitom hanby a s bolesťou, ktorú mi spôsobili ľudia. Poznáš celú pravdu o tom, čo sa stalo.
 
-Ty si Hospodin, môj Pastier, a nebudem mať nedostatku. Prestieraš stôl svojej hojnosti a pokoja aj uprostred nepriazne; hlavu mi pomazávaš olejom a môj kalich preteká Tvojím požehnaním. Ďakujem Ti, že Tvoja prítomnosť ma sýti aj tam, kde ma svet odsunul.
+Ľudia o mne hovorili svoje, ale posledné slovo nemajú oni. Tvojou krvou som ospravedlnený a Boh ma prijal. Tvoje Slovo hovorí: Ktokoľvek verí v Neho, nebude zahanbený.
 
-Tak ako si sa sklonil k Jozefovi v jame i vo väzení a k Dávidovi na poli, tak sa skláňaš aj ku mne. Verím Tvojmu charakteru — že dvíhaš pokorných a že to, čo ľudia zamýšľali na zlé, Ty dokážeš obrátiť na dobré pre svoje sväté meno.
+V duchu som v Tebe nový a celý. Moja zranená duša sa obnovuje, keď sa držím Tvojho Slova.
 
-Zriekam sa všetkej vlastnej snahy pomstiť sa alebo si ľudsky dokazovať svoju pravdu. Celým srdcom dúfam v Teba, Hospodine, a opieram sa o Tvoju vernosť; Ty sám urovnávaš moje chodníky. Skladám do Tvojich rúk každú krivdu a odpočívam v tom, čo pre mňa Kristus už dokonal.
+Priznávam, že ma to bolí a niekedy aj hnevá. Ten hnev odovzdávam Tebe. Nechcem ho nosiť v sebe ani dovoliť, aby ma ovládol.
 
-Prijímam obnovu, pokoj a dôstojnosť, ktoré mám v Kristovi zadarmo — nie ako odplatu voči ľuďom, ale ako dar Tvojej milosti. Moja hodnota je pevná v Tebe a to mi nikto nevezme.
+Spravodlivosť nechávam na Boha. Nebudem sa mstiť ani oplácať zlým za zlé. Ani to, čo mi ľudia urobili, nie je mimo Božích rúk.
 
-Ukončujem túto modlitbu v mocnom a vyvýšenom mene Ježiša Krista.
+Daj mi múdrosť rozoznať, kedy mám povedať pravdu a kedy mlčať. A pomôž mi robiť dobro aj tam, kde mi ublížili.
+
+Ďakujem Ti, že stojíš pri mne a posilňuješ ma, tak ako si stál pri Pavlovi. Raz príde deň, keď ukážeš pravdu o všetkom. Dovtedy odpočívam v Tebe.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-5.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-5.mp3?v=5",
         hasAudio: true,
         illustrationRef: "svetlo-ruka",
-        tags: ["krivda", "poníženie", "hnev", "obnova", "odpustenie"],
+        tags: ["krivda", "poníženie", "hnev", "prijatie", "odpustenie"],
         available: true,
-        scriptureTheme: "1. Mojžišova 50, Žalm 23, Príslovia 3",
+        scriptureTheme: "Rimanom 8, Rimanom 12, 1. Korintským 4",
         isStarter: false
     },
     "6": {

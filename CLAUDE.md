@@ -107,9 +107,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Neprosí sa o Ducha Svätého, ktorý prebýva vo veriacom od uverenia (Ef 1, 13–14). Správne: „Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri." Neprosí sa ani o to, čo veriaci už má (napríklad pokoj). Prosba o silu a múdrosť v každodennom živote je v poriadku.
 - Výnimka: kapitola 1 (Evanjelium spásy) a Modlitba záchrany sú pre neveriaceho. Tam je „Odpusť mi… a očisti ma" správne.
 - Ústne vyznanie viery má svoje miesto (Rimanom 10, 9). Nepíš, že „nezáleží na tom, či povieš správne slová".
-- Oslovenie v modlitbe: „Drahý nebeský Otče, …" (aj s prívlastkom) alebo „Drahý Pane Ježišu Kriste, …". Nikdy len „Otče,". Oslovenie medzi kapitolami **strieda**. Bohu nikdy nevykaj.
-  - Príklady prívlastkov: „Drahý nebeský Otče, Všemohúci Bože," / „môj Vodca a moja Cesta" / „môj Záchranca a moja Sila".
-  - Striedanie Otec a Pán Ježiš je biblicky doložené (Sk 7, 59–60; Zj 22, 20; 2Kor 12, 8; aj Ján 16, 23; Ef 2, 18).
+- Oslovenie v modlitbe: základ je „Drahý nebeský Otče, …" alebo „Drahý Pane Ježišu Kriste, …". Nikdy len „Otče," ani „Pane Ježišu,". Bohu nikdy nevykaj.
+  - Oslovenie Otca a Syna sa nemusí pravidelne striedať. Či modlitba smeruje k Otcovi alebo k Pánovi Ježišovi, vždy vyplýva z kontextu príhovoru. Príklad: v kapitole 5 je to Pán Ježiš, lebo sám zažil poníženie a krivé obvinenie. Modlitba k Otcovi aj k Pánovi Ježišovi je biblicky doložená (Sk 7, 59–60; Zj 22, 20; 2Kor 12, 8; aj Ján 16, 23; Ef 2, 18).
+  - Oslovenie môže mať prívlastky, ktoré vyplývajú z kontextu a témy príhovoru (napr. „môj Vodca a moja Cesta", „môj Záchranca a moja Sila"). Prívlastky musia byť absolútne biblické: musia sa opierať o konkrétne miesto v Písme a hodiť sa k tomu, komu je modlitba adresovaná.
 - Starozákonné príbehy rámcuj ako typy a tiene (1Kor 10, 11). Pozor na teológiu prosperity.
 - Stanovisko Admina: Nevesta Kristova je Izrael a Nový Jeruzalem, nie Cirkev. Cirkev je v dobe milosti Telo Kristovo.
 - Piesne sú umelecké vyjadrenie a nemusia byť dispenzačné, dispenzačnú kontrolu na ne neuplatňuj. Verše v „Inšpirácia z Biblie“ však musia byť presné znenie ECAV a text piesne nesmie ísť proti evanjeliu (napríklad naznačovať, že veriaci môže stratiť spásu).
@@ -148,7 +148,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - `alimiter` má predvolene `level=true`, preto vždy `level=false`.
   - alimiter v jednom grafe s loudnorm spôsobí orezanie, preto je to samostatný krok.
 - Východiskový EQ reťazec pre novú nahrávku modlitby: `highpass=f=70`, equalizer 400 Hz −5 dB (Q 1,2), 250 Hz −2 dB, 900 Hz −2 dB, `afftdn=nr=10:nf=-32`, +3 dB pri 2,5 kHz (w 0,9), +2 dB pri 4,5 kHz (w 1,1), treble +2 dB pri 8 kHz (w 0,7), `deesser=i=0.35`, acompressor threshold=−20dB ratio=2.5 attack=8 release=180 makeup=2. Potom loudnorm → alimiter → dorovnanie (vyššie). Výsledok vždy porovnaj s referenciami.
-- Referencie overené sluchom Admina sú modlitby **5, 6, 7, 11**. Nové modlitby 1, 4, 9 a 10 (29. 9. – 2. 10. 2026) sú nahrané tmavšie, Admin ich schválil bez korekcie EQ (len hlasitosť a tiché intro). Cieľ v audio-profil.py je preto pevný (pôvodný priemer 6/7/8/9) a verify pri 1, 4, 9 a 10 hlási upozornenie. Admin preferuje tmavšiu stranu. Modlitby 9 a 11 sú prirodzene tmavšie, neupravovať ich.
+- Referencie overené sluchom Admina sú modlitby **6, 7, 11** (pôvodná modlitba 5 bola 4. 10. nahradená novou nahrávkou). Nové modlitby 1, 4, 5, 9 a 10 (29. 9. – 4. 10. 2026) sú nahrané tmavšie, Admin ich schválil bez korekcie EQ (len hlasitosť a tiché intro). Cieľ v audio-profil.py je preto pevný (pôvodný priemer 6/7/8/9) a verify pri 1, 4, 5, 9 a 10 hlási upozornenie. Admin preferuje tmavšiu stranu. Modlitby 9 a 11 sú prirodzene tmavšie, neupravovať ich.
 - Cieľový profil modlitieb (FFT, dB relatívne k telu hlasu 200–500 Hz, priemer modlitieb 6–9): 1–2 kHz −6,4; 2–3,5 kHz −8,3; 3,5–5 kHz −13,2; 5–8 kHz −18,4; 8–12 kHz −15,1; crest ~14,9; LRA ~3–4.
 - Cieľové hodnoty (dB relatívne k telu hlasu 200–500 Hz):
   - 2,5–4,5 kHz (sykavky š/ž/č) ≈ −11,5
@@ -186,13 +186,13 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 3. 10. 2026)
+## 7. Stav a otvorené úlohy (k 4. 10. 2026)
 
-- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v204, verify.js 520 kontrol (s `VERIFY_AUDIO=1` 541). 3. 10. SEO: robots.txt už neblokuje pocuvaj.html (má noindex, Google ho musí vidieť), titulky kapitol do 60 znakov (prívesok „— Deň Záchrany“ sa pri dlhých vynechá), drobčeky (BreadcrumbList) na stránkach kapitol a piesní. Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1), nové úvodné slovo s nahrávkou a príhovor kapitoly 2. 2. 10.: príhovor kapitoly 3, kapitola 4 (príhovor aj nová modlitba s nahrávkou) a veta o treste v kap. 9. Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
+- Na webe je 27 kapitol (všetky s audio modlitbou) a 21 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v205, verify.js 520 kontrol (s `VERIFY_AUDIO=1` 540; o jednu menej, lebo modlitba 5 hlási upozornenie profilu). 3. 10. SEO: robots.txt už neblokuje pocuvaj.html (má noindex, Google ho musí vidieť), titulky kapitol do 60 znakov (prívesok „— Deň Záchrany“ sa pri dlhých vynechá), drobčeky (BreadcrumbList) na stránkach kapitol a piesní. Kapitoly 9 (uzdravenie, 29. 9.) a 10 (autorita a identita v Kristovi, 30. 9.) majú nový príhovor aj novú modlitbu s nahrávkou. 1. 10.: kapitola 1 (príhovor, verš 1Kor 15, 3 – 4, nová modlitba 1), nové úvodné slovo s nahrávkou a príhovor kapitoly 2. 2. 10.: príhovor kapitoly 3, kapitola 4 (príhovor aj nová modlitba s nahrávkou) a veta o treste v kap. 9. 4. 10.: kapitola 5 (nový názov „Keď ťa ponížili a ukrivdili ti", príhovor, 4 verše a nová modlitba s nahrávkou, oslovenie „Drahý Pane Ježišu Kriste,"). Schválené opravy príhovorov sa zbierajú v `docs/SCHVALENE-PRIHOVORY.md` (po kapitolách, nasadenie hromadne). Pieseň 17 má remaster (26. 9.). Príhovory 3, 7, 8, 17, 25 opravené podľa Pavla (28. 9.).
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
-  - Kapitola 5 schválená 4. 10. (čaká na nahrávku modlitby). Opravy príhovorov 12, 23 (každá zvlášť) a drobnosti v 6, 14, 22, rámec Žalmu 34, 11 v kap. 7 a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
+  - Opravy príhovorov 12, 23 (každá zvlášť) a drobnosti v 6, 14, 22, rámec Žalmu 34, 11 v kap. 7 a modlitby na opravu pri novej nahrávke (aj kap. 12): zoznam v `docs/KONTROLA-TEXTOV.md`.
   - Súvislé prehrávanie piesní (⏭/⏮, Media Session).
   - Rozšírené sťahovanie – odľahčená verzia 192 kbps a text o voľnom nekomerčnom použití.
   - Overiť limity a podmienky raw.githubusercontent.com pre sťahovanie MP3 (zatiaľ neoverené).

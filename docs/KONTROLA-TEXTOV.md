@@ -142,7 +142,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
 - **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
 - **6, 8, 11, 13:** prikazovanie duchom a mysli (8: „hovorím k tomuto strachu… Umĺknite").
-- **5:** nový text schválený 4. 10. 2026, čaká na nahrávku (text v docs/SCHVALENE-PRIHOVORY.md).
+- **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
 - **13, 15, 17, 18:** „uvoľňujem".
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
