@@ -220,6 +220,7 @@ Amen.
   4. Kolosenským 1, 11: "…všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti"
 - Zámerne vynechané: Efezským 6, 10 a Efezským 4, 27 (kap. 10 ich má aj s vysvetlením). Z Jakuba 4, 8 – 9 sa nepreberá tón výčitky.
 - Pri nasadení skontrolovať, že sa nový názov prepíše všade (zoznam kapitol, kapitola-6.html a odkazy cez build-seo.py).
+- Pri nasadení opraviť aj preklep „..“ na konci citátu Rimanom 8, 1 v js/data.js (iná kapitola, schválil Admin 4. 10.).
 
 ### Príhovor (blokové verše v poradí 1–4 na označených miestach)
 ```
@@ -274,7 +275,7 @@ V Kristovi stojím pevne a odmietam lži nepriateľa. Nie je pravda, že to nikd
 
 Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď neviem, ako ďalej.
 
-Ďakujem Ti, že si mojou pomocou v súžení. Tlak možno hneď nezmizne, ale dnes sa opieram o Teba a idem ďalej.
+Ďakujem Ti, že si mojou pomocou v súžení. Tlak možno hneď nezmizne, ale dnes sa opieram o Teba a idem ďalej. Prinášam Ti to v mene Pána Ježiša Krista.
 
 Amen.
 ```
