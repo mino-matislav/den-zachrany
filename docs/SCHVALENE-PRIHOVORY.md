@@ -233,7 +233,7 @@ Jakub písal veriacim zo židovského národa, ktorí žili rozptýlení po svet
 
 [verš 1 – Jakub 4, 7]
 
-Všimni si, čo je prvé. Nie boj, ale poddanie sa Bohu. My to často robíme naopak. Najprv chceme všetko zvládnuť sami a k Bohu prichádzame, až keď nevládzeme.
+Všimni si, čo je na prvom mieste: poddať sa Bohu. My to často robíme naopak. Najprv chceme všetko zvládnuť sami a k Bohu prichádzame, až keď nevládzeme.
 
 Poddať sa Bohu neznamená vzdať sa. Znamená to povedať Mu: „Nevládzem. Spolieham sa na Teba, nie na seba.“ Je to úprimné priznanie, že sila nie je v nás. Pavel to poznal z vlastnej skúsenosti:
 
@@ -253,7 +253,7 @@ Tlak možno hneď nezmizne. Pavel sa za veriacich v Kolosách nemodlil, aby ich 
 
 [verš 4 – Kolosenským 1, 11]
 
-Boh ti nedáva len krátky príval sily. Dáva ti vytrvalosť na celú cestu. Vytrvať neznamená nikdy nebyť unavený. Je to sila nevzdať sa, lebo ťa drží On.
+Jeho sila nevyprchá po jednom dni. Vystačí na celú cestu, aj keď budeš unavený.
 
 Jeden krok môžeš urobiť hneď dnes. Keď na teba tlak znova doľahne, zastav sa. Povedz: „Otče, nevládzem. Spolieham sa na Teba.“ Potom odmietni lož, ktorá ťa ťahá dole, a postav proti nej pravdu: „Moja sila je z Boha, nie zo mňa.“
 
@@ -274,7 +274,7 @@ V Kristovi stojím pevne a odmietam lži nepriateľa. Nie je pravda, že to nikd
 
 Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď neviem, ako ďalej.
 
-Ďakujem Ti, že si mojou pomocou v súžení. Aj keď tlak hneď nezmizne, Ty ma v ňom držíš.
+Ďakujem Ti, že si mojou pomocou v súžení. Tlak možno hneď nezmizne, ale dnes sa opieram o Teba a idem ďalej.
 
-V mene Pána Ježiša Krista. Amen.
+Amen.
 ```
