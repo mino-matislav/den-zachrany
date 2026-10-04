@@ -141,8 +141,9 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **12:** text na webe už má opravu („Priznávam… Ďakujem Ti, že mi je to v Tebe už odpustené"). Neoverené je, či to platí aj pre audio. Ak nahrávka hrá staré „Odpusť mi to, Otče", text a zvuk sa nezhodujú.
 - **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
 - **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
-- **6, 8, 11, 13:** prikazovanie duchom a mysli (8: „hovorím k tomuto strachu… Umĺknite").
+- **8, 11, 13:** prikazovanie duchom a mysli (8: „hovorím k tomuto strachu… Umĺknite").
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
+- **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
 - **13, 15, 17, 18:** „uvoľňujem".
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
@@ -159,4 +160,4 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
   - ~~10~~ Hotové 30. 9. 2026 (nový príhovor aj modlitba s nahrávkou, ťažisko autorita a identita v Kristovi).
   - ~~4~~ Hotové 2. 10. 2026.
   - 23 (zvlášť): „nespočíva v tom, aby si niečo vyprosil…, ale… uvoľnil" proti Fil 4, 6; Ef 1, 16.
-  - Drobnosti: ~~1, 2, 3~~ vyriešené novými príhovormi (1. – 2. 10. 2026). Ostáva: 6 (Prísl 3, 5 – 6 ako zasľúbenie pre teba), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).
+  - Drobnosti: ~~1, 2, 3~~ vyriešené novými príhovormi (1. – 2. 10. 2026). Ostáva: ~~6~~ (hotové 4. 10. 2026), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).

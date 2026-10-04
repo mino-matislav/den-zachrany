@@ -206,7 +206,7 @@ Daj mi múdrosť rozoznať, kedy mám povedať pravdu a kedy mlčať. A pomôž 
 Amen.
 ```
 
-## Kapitola 6 — SCHVÁLENÉ 4. 10. 2026, ČAKÁ NA NAHRÁVKU (príhovor, 4 verše, nová modlitba 6, audio bude ?v=5)
+## Kapitola 6 — NASADENÉ 4. 10. 2026 (príhovor, 4 verše, nová modlitba 6 s nahrávkou ?v=5)
 - Názov: Keď už nevládzeš bojovať sám
 - Podnadpis: Ako sa najprv oddať Bohu a v Jeho sile sa vzoprieť diablovi
 - Krátky popis: Keď ťa dlhý tlak vyčerpal. Najprv sa oddaj Bohu. Jeho moc ťa drží a dáva ti vytrvať.
@@ -220,7 +220,7 @@ Amen.
   4. Kolosenským 1, 11: "…všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti"
 - Zámerne vynechané: Efezským 6, 10 a Efezským 4, 27 (kap. 10 ich má aj s vysvetlením). Z Jakuba 4, 8 – 9 sa nepreberá tón výčitky.
 - Pri nasadení skontrolovať, že sa nový názov prepíše všade (zoznam kapitol, kapitola-6.html a odkazy cez build-seo.py).
-- Pri nasadení opraviť aj preklep „..“ na konci citátu Rimanom 8, 1 v js/data.js (iná kapitola, schválil Admin 4. 10.).
+- Kap. 19, Rimanom 8, 1: pôvodne „..." (tri bodky, skrátený verš), nie „..". Zjednotené na „…" ako v BIBLICKE-VERSE-ECAV.md.
 
 ### Príhovor (blokové verše v poradí 1–4 na označených miestach)
 ```
@@ -261,7 +261,7 @@ Jeden krok môžeš urobiť hneď dnes. Keď na teba tlak znova doľahne, zastav
 Žalmista vyznal: „Boh nám je útočiskom a silou, pomocou v súžení vždy osvedčenou“ (Žalm 46, 2). V Kristovi to smieš povedať aj ty. Boh ťa v tom tlaku nenechal samého.
 ```
 
-### Modlitba 6 — čaká na nahrávku z ElevenLabs
+### Modlitba 6 — NASADENÁ 4. 10. 2026 s nahrávkou (len hlasitosť a tiché intro, bez EQ)
 ```
 Drahý nebeský Otče, moje Útočisko a moja Pomoc,
 

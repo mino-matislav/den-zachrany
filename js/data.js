@@ -370,47 +370,71 @@ Amen.`,
     },
     "6": {
         id: "6",
-        title: "Ako premeniť dusivý tlak a útoky na miesto Božieho víťazstva",
-        subtitle: "Ako skrze podriadenie sa Bohu zmazať moc nepriateľa a zakúsiť vyslobodenie z okov",
-        shortDescription: "Ako podriadením sa Bohu premeniť tlak nepriateľa na miesto Božieho víťazstva. Odpočinok v dokonanej obeti Krista.",
+        title: "Keď už nevládzeš bojovať sám",
+        subtitle: "Ako sa najprv oddať Bohu a v Jeho sile sa vzoprieť diablovi",
+        shortDescription: "Keď ťa dlhý tlak vyčerpal. Najprv sa oddaj Bohu. Jeho moc ťa drží a dáva ti vytrvať.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-chcem ti dnes zvestovať slovo potešenia a neochvejnej pravdy, ktorú nám zjavuje Písmo. Bolesť, ktorú práve prežívaš, a ten neustály tlak či útoky, ktoré ťa gniavia, ťa v skutočnosti nevedú k záhube. Tieto ťažké okolnosti ťa v tvojej ľudskej slabosti ženú priamo do náruče tvojho nebeského Otca – k samotnému Bohu, ktorý je tvojím jediným Zdrojom.
+možno už dlho žiješ pod tlakom. Jedna ťažkosť strieda druhú a nestíhaš sa ani nadýchnuť. Snažíš sa, bojuješ a držíš všetko pokope. A predsa cítiš, že slabneš. Únava neodchádza ani po spánku.
 
-Pozri sa na svoju situáciu očami viery. Nepriateľ urobil obrovskú chybu. Predstav si človeka, ktorý sa snaží zúfalo uhasiť oheň, no namiesto vody naň leje palivo. Presne to robí diabol tebe. Myslí si, že ťa úzkosťou, strachom a trápením zlomí. Netuší však, že zakaždým, keď ťa ten tlak pritlačí k modlitbe, tvoj plameň viery nezhasína, ale stúpa vyššie. Ty ho v Božej moci premáhaš.
+Taký tlak môže mať rôzne príčiny. Prináša ho choroba, prepracovanosť alebo ťažké vzťahy. Niekedy sa k tomu pridá aj nepriateľ, ktorý ti našepkáva, že to nezvládneš.
 
-Božie Slovo v liste Jakubovom 4, 7 hovorí jasne:
+Jakub písal veriacim zo židovského národa, ktorí žili rozptýlení po svete (Jakub 1, 1). Ukázal im poradie, ktoré je dôležité aj pre nás:
 
-"Poddajte sa teda Bohu, ale vzoprite sa diablovi – a utečie od vás."
+"Poddajte sa teda Bohu, ale vzoprite sa diablovi - a utečie od vás."
 
-Všimni si toto dokonalé Božie poradie. Svet a tvoje vlastné strachy ti hovoria: „Najprv vyrieš svoj problém, bojuj s úzkosťou, bi sa s diablom vo vlastnej sile a potom unavený príď k Bohu.“ To je klamstvo nepriateľa. Duchovný Boží princíp hovorí: Najprv sa podriaď Bohu. Schovaj sa v dokonanej obeti Ježiša Krista. Zlož zbrane vlastného tela. V momente, keď stojíš v Kristovi, diabol nemá šancu. Musí utiecť. Tvoje utiekanie sa k Bohu je preňho zdrvujúcou porážkou.
+Všimni si, čo je na prvom mieste: poddať sa Bohu. My to často robíme naopak. Najprv chceme všetko zvládnuť sami a k Bohu prichádzame, až keď nevládzeme.
 
-Preto ťa prosím, keď nabudúce príde strach alebo pocit, že si v pasci, nesnaž sa to vyriešiť svojím vlastným rozumom. Božie zasľúbenie z knihy Prísloví 3, 5 – 6 platí pre teba aj dnes:
+Poddať sa Bohu neznamená vzdať sa. Znamená to povedať Mu: „Nevládzem. Spolieham sa na Teba, nie na seba.“ Je to úprimné priznanie, že sila nie je v nás. Pavel to poznal z vlastnej skúsenosti:
+
+"Tento poklad máme, pravda, v hlinených nádobách, aby sa ukázalo, že tá prenesmierna moc je z Boha, a nie z nás."
+
+Hlinená nádoba je krehká. Aj ty sa možno cítiš krehký a unavený. Moc, ktorá ťa drží, však nepochádza z teba. Preto nemusíš byť silný, aby si obstál.
+
+Podobnú pravdu poznal už Izrael. V knihe Prísloví čítame:
 
 "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky."
 
-Tvoja sila nie je v tvojom tele, v tvojich emóciách ani v ľudských riešeniach. Ježiš Kristus žije v tebe. On je tvoj Zdroj. Keď v Ňom zostaneš, tie ťažké okovy nezoslabnú len o kúsok – oni z teba mocou Jeho milosti úplne spadnú. Ty neprehrávaš. S každým otvoreným Písmom a s každou modlitbou vo viere víťazíš. Diabol ťa chcel oslabiť, no Boh to obracia na tvoje posilnenie. Zostávaj v Ňom.`,
+Tieto slová boli dané ako múdrosť pre každodenný život. Spoznávame z nich, že Bohu môžeme dôverovať viac než vlastnému rozumu. Cesta nebude vždy ľahká. Boh však vidí ďalej ako my.
+
+Až keď sa opieraš o Boha, prichádza druhá časť Jakubovej výzvy: vzoprite sa diablovi. Nepriateľ rád využíva únavu. Jeho lži často znejú takto: „Nikdy to neskončí.“ „Musíš to zvládnuť sám.“ „Už to nevydržíš.“ Neodpovedaj mu strachom ani vlastným vypätím. Pokojne ho odmietni pravdou z Písma. Pavel takúto chvíľu nazýva „zlý deň“ (Efezským 6, 13). Ani v ňom nie si bez obrany.
+
+Tlak možno hneď nezmizne. Pavel sa za veriacich v Kolosách nemodlil, aby ich Boh zbavil každej ťažkosti. Prosil, aby boli:
+
+"…všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti"
+
+Jeho sila nevyprchá po jednom dni. Vystačí na celú cestu, aj keď budeš unavený.
+
+Jeden krok môžeš urobiť hneď dnes. Keď na teba tlak znova doľahne, zastav sa. Povedz: „Otče, nevládzem. Spolieham sa na Teba.“ Potom odmietni lož, ktorá ťa ťahá dole, a postav proti nej pravdu: „Moja sila je z Boha, nie zo mňa.“
+
+Žalmista vyznal: „Boh nám je útočiskom a silou, pomocou v súžení vždy osvedčenou“ (Žalm 46, 2). V Kristovi to smieš povedať aj ty. Boh ťa v tom tlaku nenechal samého.`,
         verses: [
-            { text: "Poddajte sa teda Bohu, ale vzoprite sa diablovi – a utečie od vás.", ref: "Jakub 4, 7" },
-            { text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.", ref: "Príslovia 3, 5 – 6" }
+            { text: "Poddajte sa teda Bohu, ale vzoprite sa diablovi - a utečie od vás.", ref: "Jakub 4, 7" },
+            { text: "Tento poklad máme, pravda, v hlinených nádobách, aby sa ukázalo, že tá prenesmierna moc je z Boha, a nie z nás.", ref: "2. Korintským 4, 7" },
+            { text: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky.", ref: "Príslovia 3, 5 – 6" },
+            { text: "…všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti", ref: "Kolosenským 1, 11" }
         ],
-        prayer: `Pane Ježišu Kriste, môj Boh a môj Zdroj sily,
+        prayer: `Drahý nebeský Otče, moje Útočisko a moja Pomoc,
 
-prichádzam k Tebe presne taký, aký som – unavený a pod tlakom nepriateľských útokov. Vyznávam podľa Tvojho Slova, že moja vlastná rozumnosť mi nestačí, a úplne sa zriekam snahy bojovať vo svojej ľudskej sile.
+už dlho žijem pod tlakom a cítim, že slabnem. Priznávam, že som sa často spoliehal viac na seba než na Teba. Ďakujem Ti, že ma za to neodsudzuješ.
 
-Pane, na základe Tvojho zasľúbenia z Jakubovho listu 4, 7 sa v tejto chvíli plne podriaďujem Tebe. Odovzdávam Ti svoju myseľ, svoj strach, svoju úzkosť aj celú túto situáciu. Schovávam sa v Tebe, lebo Ty si moja pevnosť a môj hrad. Na základe Tvojej svätej autority sa teraz vzpieram diablovi a všetkým jeho klamstvám. Prikazujem každému duchu strachu a tmy, aby odišiel, pretože moje spasenie a môj život patria Kristovi.
+Teraz sa Ti oddávam. Odovzdávam Ti svoju únavu aj obavy. Nemusím byť silný. Ďakujem Ti, že moc, ktorá ma drží, je z Teba, a nie zo mňa.
 
-Pane, dúfam v Teba celým svojím srdcom. Ty vidíš pasce, ktoré mi nepriateľ nastrojil, no ja verím, že Ty sám mi urovnáš chodníky. Prehlasujem, že to, čo ma malo zničiť, ma v Tvojej moci posilní. Nech je každý útok nepriateľa len palivom, ktoré ma vháňa hlbšie do modlitby a bližšie k Tebe.
+Ty vidíš ďalej ako ja. Dôverujem Ti viac než vlastnému rozumu, aj keď nerozumiem tomu, čo sa deje.
 
-Ďakujem Ti, že Ty sám žiješ vo mne a Tvoja sila sa dokonale prejavuje v mojej slabosti. Nech v tejto chvíli padnú všetky okovy zúfalstva a strachu v mocnom mene Ježiša Krista.
+V Kristovi stojím pevne a odmietam lži nepriateľa. Nie je pravda, že to nikdy neskončí. Nie je pravda, že to musím zvládnuť sám. Ani v tomto zlom dni nie som bez obrany.
+
+Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď neviem, ako ďalej.
+
+Ďakujem Ti, že si mojou pomocou v súžení. Tlak možno hneď nezmizne, ale dnes sa opieram o Teba a idem ďalej. Prinášam Ti to v mene Pána Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-6.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-6.mp3?v=5",
         hasAudio: true,
         illustrationRef: "stlp-ohna",
-        tags: ["vyčerpanie", "bezmocnosť", "strach", "víťazstvo", "sila"],
+        tags: ["vyčerpanie", "bezmocnosť", "strach", "sila", "trpezlivosť"],
         available: true,
-        scriptureTheme: "Jakub 4, Príslovia 3",
+        scriptureTheme: "Jakub 4, 2. Korintským 4, Kolosenským 1",
         isStarter: false
     },
     "7": {
@@ -1184,7 +1208,7 @@ Tvoja hodnota sa neodvíja od toho, čím si prešiel, ale od toho, kým si sa s
 
 A pre teba, ktorý si uveril, je tu slovo napísané priamo veriacim:
 
-"Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi..."
+"Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi…"
 
 Slovo nieto znamená jednoducho: nie je. Žiadne odsúdenie. Nie menšie, nie odložené na neskôr, ale vôbec žiadne. Boh nad tebou vyniesol rozsudok a ten znel: oslobodený. Ak sa teda stále odsudzuješ, robíš to ty. Boh to nerobí.
 
@@ -1194,7 +1218,7 @@ Dnes je čas odložiť bič sebaodsudzovania a prijať Božie odpustenie v celom
         verses: [
             { text: "Podľa toho poznáme, že sme z pravdy, a tým si uspokojíme srdce pred Ním, že keď nás odsudzuje srdce, Boh je väčší ako naše srdce a vie všetko.", ref: "1. Jánov 3, 19 – 20" },
             { text: "Ja, ja zotieram tvoje priestupky kvôli sebe samému, a na tvoje hriechy nebudem spomínať.", ref: "Izaiáš 43, 25" },
-            { text: "Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi...", ref: "Rimanom 8, 1" }
+            { text: "Nieto teda teraz už odsúdenia tých, čo sú v Kristovi Ježišovi…", ref: "Rimanom 8, 1" }
         ],
         prayer: `Drahý nebeský Otče, Všemohúci Bože,
 
