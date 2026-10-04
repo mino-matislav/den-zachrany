@@ -67,6 +67,12 @@ Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred pre
 - najmä kapitoly napísané v posledných dňoch.
 Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 
+### Vzory z kapitoly 5 (4. 10. 2026)
+- **Opakovanie medzi modlitbami:** pred predložením novú modlitbu strojovo porovnaj so všetkými modlitbami na webe. Zhoda štyroch a viac slov za sebou je opakovanie. Úvod „Drahý nebeský Otče, prichádzam…" už má 15 modlitieb, preto voľ iné oslovenie, ak sa hodí k téme (napr. Pána Ježiša, ktorý sám zažil poníženie). Oslovenie však vždy v tvare z CLAUDE.md („Drahý Pane Ježišu Kriste, …").
+- **Dokonalosť:** hovoriť ju o duchu („V duchu som v Tebe nový a celý"), dušu opísať ako tú, ktorá sa obnovuje Slovom (Rim 12, 2). Nepísať „moje uzdravenie je už dokonané".
+- **Krivda:** pomstu nechať Bohu (Rim 12, 19), no zároveň sa smieme brániť pravdou a zákonnou cestou (Sk 25, 10 – 11). Starozákonné príbehy (Jozef) zarámcovať: „nie je to sľub, že…".
+- **Kontext verša:** overiť, komu je verš adresovaný (1Kor 4, 5 „nič nesúďte" hovorí tým, čo súdia, preto sa ako blokový verš použili verše 3 – 4).
+
 ### Vzory z kapitoly 4 (2. 10. 2026)
 - **Trest, výchova, následky.** Trest a odsúdenie za hriech veriaci nenesie, niesol ho Kristus (Rim 8, 1; Gal 3, 13; Rim 5, 9; 1Tes 5, 9). Výchova existuje a je to láska otca (1Kor 11, 32). Následky existujú (Gal 6, 7), ale nikdy ich nečítať spätne z tragédie. Nepísať „Boh ťa netrestá", ale „Trest za tvoje hriechy už niesol Kristus. Preto ťa Boh neodsudzuje."
 - **Jób.** Bol bezúhonný. Pri ranách nezhrešil (1, 22; 2, 10), nepísať „nikdy". Nešťastie spôsobil satan a Boh mu určil hranicu (1, 12; 2, 6). Strach z Jób 3, 25 nezdôrazňovať a výklad „strach otvoril dvere" nepoužívať (2, 3 „bez príčiny"). Dvojnásobné navrátenie nepoužívať ako sľub.
@@ -135,9 +141,10 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **12:** text na webe už má opravu („Priznávam… Ďakujem Ti, že mi je to v Tebe už odpustené"). Neoverené je, či to platí aj pre audio. Ak nahrávka hrá staré „Odpusť mi to, Otče", text a zvuk sa nezhodujú.
 - **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
 - **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
-- **6, 11, 13:** prikazovanie duchom a mysli.
+- **6, 8, 11, 13:** prikazovanie duchom a mysli (8: „hovorím k tomuto strachu… Umĺknite").
+- **5:** nový text schválený 4. 10. 2026, čaká na nahrávku (text v docs/SCHVALENE-PRIHOVORY.md).
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
-- **4, 13, 15, 17:** „uvoľňujem".
+- **13, 15, 17, 18:** „uvoľňujem".
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
 - **8:** „podľa knihy Józuovej 1, 8"; „vyhlasujem, že viera vo mne je…".
 - ~~**1** (Modlitba spásy)~~ Hotové 1. 10. 2026: nová modlitba 1 s nahrávkou. Rim 10, 13 v ECAV: „Každý človek totiž, ktorý by vzýval meno Pánovo, bude spasený." (iné znenie necitovať).
@@ -150,6 +157,6 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - Každá zvlášť: 12 (ťažisko na Písme, nie na vnútornom hlase).
 - Nové nálezy (prehľad príhovorov 30. 9. 2026, podľa pravidiel o uzdravení a Wommackovi):
   - ~~10~~ Hotové 30. 9. 2026 (nový príhovor aj modlitba s nahrávkou, ťažisko autorita a identita v Kristovi).
-  - 4 (zvlášť): Jób „z obmedzeného poznania" proti Jób 1, 22; tragédiu „spôsobil nepriateľ" (jediný výklad, napätie s kap. 7, Ef 1, 11); „navrátil dvojnásobne" ako skrytý sľub.
+  - ~~4~~ Hotové 2. 10. 2026.
   - 23 (zvlášť): „nespočíva v tom, aby si niečo vyprosil…, ale… uvoľnil" proti Fil 4, 6; Ef 1, 16.
-  - Drobnosti spolu: 2 („vyznávaním ho uvoľňuješ"), 3 („zasľúbenia nemôžu prinášať ovocie", Mk 4, 19 bez rámca), 1 („nemôžeš zakúsiť uzdravujúcu moc, kým…"), 6 (Prísl 3, 5 – 6 ako zasľúbenie pre teba), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).
+  - Drobnosti: ~~1, 2, 3~~ vyriešené novými príhovormi (1. – 2. 10. 2026). Ostáva: 6 (Prísl 3, 5 – 6 ako zasľúbenie pre teba), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).

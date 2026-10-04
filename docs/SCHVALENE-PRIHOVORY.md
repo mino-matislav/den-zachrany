@@ -134,3 +134,74 @@ Amen.
 
 ## Kapitola 9 — drobná oprava NASADENÁ 2. 10. 2026
 „Tvoja choroba preto nie je Boží trest." → „Tvoja choroba nie je trest za tvoje hriechy ani znak, že ťa Boh odsúdil."
+
+## Kapitola 5 — SCHVÁLENÉ 4. 10. 2026, ČAKÁ NA NAHRÁVKU modlitba-5.mp3 (všetko pôjde na web naraz, audioUrl ?v=5)
+- Názov: Keď ťa ponížili a ukrivdili ti
+- Podnadpis: Ako zložiť krivdu do Božích rúk a nájsť svoju hodnotu v Kristovi
+- Krátky popis: Keď ťa ponížili alebo očiernili. Tvoja hodnota je v Kristovi a spravodlivosť patrí Bohu.
+- Téma Písma: Rimanom 8, Rimanom 12, 1. Korintským 4
+- Tagy: krivda, poníženie, hnev, prijatie, odpustenie (všetky sú v slovníku tagGroups)
+- Verše (v tomto poradí, ECAV overené 4. 10. 2026):
+  1. Rimanom 8, 33: "Kto bude žalovať na vyvolených Božích? Je to Boh, ktorý ospravedlňuje."
+  2. 1. Mojžišova 50, 20: "Vy ste, pravda, zamýšľali proti mne zlé, ale Boh to obrátil na dobré, aby tak učinil, čo je dnes zjavné: totiž, aby mnohých ľudí zachoval nažive."
+  3. Rimanom 12, 19: "…nepomstite sa, milovaní, ale ponechajte to hnevu (Božiemu) - lebo je napísané: Mne patrí pomsta, ja odplatím; hovorí Pán."
+  4. 1. Korintským 4, 3 – 4: "Ale mne najmenej záleží na tom, či ma vy súdite, alebo akýkoľvek ľudský súd… ale Pán je Ten, ktorý ma súdi."
+- Vypadli: Žalm 23, 5; Žalm 113, 7 – 8; Príslovia 3, 5 – 6 (ostáva v kap. 6).
+- Pri nasadení skontrolovať, že sa nový názov prepíše všade (zoznam kapitol, kapitola-5.html a odkazy cez build-seo.py).
+
+### Príhovor (blokové verše v poradí 1–4 na označených miestach)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+možno ťa niekto ponížil pred ostatnými. Možno o tebe šíria klamstvá alebo ťa zradil človek, ktorému si veril. Možno ťa v práci či v rodine odsunuli bokom, akoby si nebol dôležitý. Krivda bolí. Najradšej by si chcel, aby všetci konečne spoznali pravdu.
+
+Apoštol Pavel to dobre poznal. Mnohí ho posudzovali a spochybňovali. Keď stál pred súdom, všetci ho opustili. Jeden človek mu spôsobil veľa zla. Pavel o tom píše: „Alexandros, kováč, mi spôsobil mnoho zlého“ (2. Timoteovi 4, 14). Nepredstieral, že ho to nebolí. Vedel však, čí hlas o ňom rozhoduje.
+
+Ľudia o tebe môžu hovoriť čokoľvek. Posledné slovo o tebe však nemajú oni. Pavel píše:
+
+[verš 1 – Rimanom 8, 33]
+
+Ak si v Kristovi, Boh ťa vyhlásil za spravodlivého a prijal ťa. Poníženie, ktoré si zažil, neurčuje, kto si. Tvoja hodnota nestojí na tom, čo si o tebe myslia iní. „Keď Boh za nás, kto proti nám?“ (Rimanom 8, 31)
+
+V Starom zákone čítame o Jozefovi. Vlastní bratia ho predali do otroctva. Neskôr ho krivo obvinili a nevinný skončil vo väzení. Po rokoch stál pred bratmi ako mocný muž. Mohol sa im pomstiť, ale povedal:
+
+[verš 2 – 1. Mojžišova 50, 20]
+
+Jozefov príbeh nie je sľub, že každý z nás bude raz mocný. Ukazuje však, aký je Boh. Ani zlo, ktoré ti spôsobili ľudia, nemusí zostať len zlom.
+
+Čo teda robiť s krivdou? Je prirodzené, že ťa bolí aj hnevá. Hnev v sebe nedus, ale ani ho nenechaj, aby ťa ovládol. Odovzdaj ho Pánovi a spravodlivosť nechaj na Neho. Pavel píše:
+
+[verš 3 – Rimanom 12, 19]
+
+Nechať to na Boha neznamená, že na krivde nezáleží. Znamená to, že ju nemusíš niesť a riešiť sám. Smieš povedať pravdu a brániť sa aj zákonnou cestou. Aj Pavel sa pred súdom bránil (Skutky 25, 10 – 11). Neoplácaj však zlým za zlé. Pavel o ľuďoch, ktorí ho opustili, povedal: „Nech sa im to nezapočíta“ (2. Timoteovi 4, 16). A dodal: „Pán však stál pri mne a posilnil ma“ (2. Timoteovi 4, 17).
+
+Skús dnes jednu jednoduchú vec. Keď sa ti krivda vráti na myseľ, povedz Bohu: „Pane, Ty poznáš pravdu. Nechávam to na Teba.“ A potom sa vráť k tomu, čo máš pred sebou.
+
+Možno sa tvoje meno pred ľuďmi neočistí hneď. Možno sa to nestane ani tu na zemi. Pavel na ľudské súdy hľadel takto:
+
+[verš 4 – 1. Korintským 4, 3 – 4]
+
+Ľudský súd nie je posledný. Raz príde Pán, ktorý „osvieti to, čo je vo tme skryté“ (1. Korintským 4, 5). Pred Bohom si v Kristovi čistý už dnes. A On nezabudne na nič, čo si pretrpel.
+```
+
+### Modlitba 5 — nový text, ČAKÁ NA NAHRÁVKU
+Poznámka (Claude Code, 4. 10.): oslovenie „Pane Ježišu," nezodpovedá pravidlu v CLAUDE.md („Drahý Pane Ježišu Kriste, …"). Odporúčané „Drahý Pane Ježišu Kriste," – čaká na rozhodnutie Admina. Strojové porovnanie so všetkými modlitbami: žiadna zhoda 4+ slov.
+```
+Pane Ježišu,
+
+aj Teba ponižovali, vysmievali sa Ti a krivo Ťa obviňovali. Preto viem, že mi rozumieš. Prichádzam s pocitom hanby a s bolesťou, ktorú mi spôsobili ľudia. Poznáš celú pravdu o tom, čo sa stalo.
+
+Ľudia o mne hovorili svoje, ale posledné slovo nemajú oni. Tvojou krvou som ospravedlnený a Boh ma prijal. Tvoje Slovo hovorí: Ktokoľvek verí v Neho, nebude zahanbený.
+
+V duchu som v Tebe nový a celý. Moja zranená duša sa obnovuje, keď sa držím Tvojho Slova.
+
+Priznávam, že ma to bolí a niekedy aj hnevá. Ten hnev odovzdávam Tebe. Nechcem ho nosiť v sebe ani dovoliť, aby ma ovládol.
+
+Spravodlivosť nechávam na Boha. Nebudem sa mstiť ani oplácať zlým za zlé. Ani to, čo mi ľudia urobili, nie je mimo Božích rúk.
+
+Daj mi múdrosť rozoznať, kedy mám povedať pravdu a kedy mlčať. A pomôž mi robiť dobro aj tam, kde mi ublížili.
+
+Ďakujem Ti, že stojíš pri mne a posilňuješ ma, tak ako si stál pri Pavlovi. Raz príde deň, keď ukážeš pravdu o všetkom. Dovtedy odpočívam v Tebe.
+
+Amen.
+```

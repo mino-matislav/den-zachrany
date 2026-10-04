@@ -120,3 +120,11 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **Jób 1, 22** | „Pri tom všetkom Jób nezhrešil a nespáchal nič urážlivé proti Bohu." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
 | **Jób 2, 10** | „…Pri tom všetkom sa Jób neprehrešil svojimi perami." | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
 | **Rim 12, 15** | „Radujte sa s radujúcimi a plačte s plačúcimi!" | biblia.sk (sep), 2. 10. 2026 (kap. 4) |
+| **Rim 8, 31** | „Čo teda povedať na to? Keď Boh za nás, kto proti nám?" | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **Rim 8, 33** | „Kto bude žalovať na vyvolených Božích? Je to Boh, ktorý ospravedlňuje." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **Gn (1 Mojž) 50, 20** | „Vy ste, pravda, zamýšľali proti mne zlé, ale Boh to obrátil na dobré, aby tak učinil, čo je dnes zjavné: totiž, aby mnohých ľudí zachoval nažive." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **Rim 12, 19** | „nepomstite sa, milovaní, ale ponechajte to hnevu (Božiemu) - lebo je napísané: Mne patrí pomsta, ja odplatím; hovorí Pán." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **1 Kor 4, 3–5** | „Ale mne najmenej záleží na tom, či ma vy súdite, alebo akýkoľvek ľudský súd, ani sám sa nesúdim. Lebo ničoho nie som si vedomý, ale nie v tom je moje ospravedlnenie; ale Pán je Ten, ktorý ma súdi. Preto nič nesúďte predčasne, dokiaľ nepríde Pán, ktorý osvieti to, čo je vo tme skryté, a zjaví úmysly sŕdc, a vtedy každý dostane pochvalu od Boha." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **2 Tim 4, 14** | „Alexandros, kováč, mi spôsobil mnoho zlého, Pán mu odplatí podľa jeho skutkov." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **2 Tim 4, 16–17** | „Keď som sa prvýkrát bránil, nikto nebol pri mne, ale všetci ma opustili. Nech sa im to nezapočíta. Pán však stál pri mne a posilnil ma…" | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **Rim 10, 11** | „Písmo totiž hovorí: Ktokoľvek verí v Neho, nebude zahanbený." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
