@@ -205,3 +205,76 @@ Daj mi múdrosť rozoznať, kedy mám povedať pravdu a kedy mlčať. A pomôž 
 
 Amen.
 ```
+
+## Kapitola 6 — SCHVÁLENÉ 4. 10. 2026, ČAKÁ NA NAHRÁVKU (príhovor, 4 verše, nová modlitba 6, audio bude ?v=5)
+- Názov: Keď už nevládzeš bojovať sám
+- Podnadpis: Ako sa najprv oddať Bohu a v Jeho sile sa vzoprieť diablovi
+- Krátky popis: Keď ťa dlhý tlak vyčerpal. Najprv sa oddaj Bohu. Jeho moc ťa drží a dáva ti vytrvať.
+- Téma Písma: Jakub 4, 2. Korintským 4, Kolosenským 1
+- Tagy: vyčerpanie, bezmocnosť, strach, sila, trpezlivosť (všetky sú v slovníku tagGroups; „víťazstvo" vypadlo, je ťažiskom kap. 10)
+- Ťažisko: „Najprv Bohu, až potom proti diablovi" (neprekrýva sa s kap. 2, 10, 21, 24).
+- Verše (v tomto poradí, ECAV overené 4. 10. 2026):
+  1. Jakub 4, 7: "Poddajte sa teda Bohu, ale vzoprite sa diablovi - a utečie od vás." (spojovník ako na biblia.sk)
+  2. 2. Korintským 4, 7: "Tento poklad máme, pravda, v hlinených nádobách, aby sa ukázalo, že tá prenesmierna moc je z Boha, a nie z nás."
+  3. Príslovia 3, 5 – 6: "Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky."
+  4. Kolosenským 1, 11: "…všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti"
+- Zámerne vynechané: Efezským 6, 10 a Efezským 4, 27 (kap. 10 ich má aj s vysvetlením). Z Jakuba 4, 8 – 9 sa nepreberá tón výčitky.
+- Pri nasadení skontrolovať, že sa nový názov prepíše všade (zoznam kapitol, kapitola-6.html a odkazy cez build-seo.py).
+
+### Príhovor (blokové verše v poradí 1–4 na označených miestach)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+možno už dlho žiješ pod tlakom. Jedna ťažkosť strieda druhú a nestíhaš sa ani nadýchnuť. Snažíš sa, bojuješ a držíš všetko pokope. A predsa cítiš, že slabneš. Únava neodchádza ani po spánku.
+
+Taký tlak môže mať rôzne príčiny. Prináša ho choroba, prepracovanosť alebo ťažké vzťahy. Niekedy sa k tomu pridá aj nepriateľ, ktorý ti našepkáva, že to nezvládneš.
+
+Jakub písal veriacim zo židovského národa, ktorí žili rozptýlení po svete (Jakub 1, 1). Ukázal im poradie, ktoré je dôležité aj pre nás:
+
+[verš 1 – Jakub 4, 7]
+
+Všimni si, čo je prvé. Nie boj, ale poddanie sa Bohu. My to často robíme naopak. Najprv chceme všetko zvládnuť sami a k Bohu prichádzame, až keď nevládzeme.
+
+Poddať sa Bohu neznamená vzdať sa. Znamená to povedať Mu: „Nevládzem. Spolieham sa na Teba, nie na seba.“ Je to úprimné priznanie, že sila nie je v nás. Pavel to poznal z vlastnej skúsenosti:
+
+[verš 2 – 2. Korintským 4, 7]
+
+Hlinená nádoba je krehká. Aj ty sa možno cítiš krehký a unavený. Moc, ktorá ťa drží, však nepochádza z teba. Preto nemusíš byť silný, aby si obstál.
+
+Podobnú pravdu poznal už Izrael. V knihe Prísloví čítame:
+
+[verš 3 – Príslovia 3, 5 – 6]
+
+Tieto slová boli dané ako múdrosť pre každodenný život. Spoznávame z nich, že Bohu môžeme dôverovať viac než vlastnému rozumu. Cesta nebude vždy ľahká. Boh však vidí ďalej ako my.
+
+Až keď sa opieraš o Boha, prichádza druhá časť Jakubovej výzvy: vzoprite sa diablovi. Nepriateľ rád využíva únavu. Jeho lži často znejú takto: „Nikdy to neskončí.“ „Musíš to zvládnuť sám.“ „Už to nevydržíš.“ Neodpovedaj mu strachom ani vlastným vypätím. Pokojne ho odmietni pravdou z Písma. Pavel takúto chvíľu nazýva „zlý deň“ (Efezským 6, 13). Ani v ňom nie si bez obrany.
+
+Tlak možno hneď nezmizne. Pavel sa za veriacich v Kolosách nemodlil, aby ich Boh zbavil každej ťažkosti. Prosil, aby boli:
+
+[verš 4 – Kolosenským 1, 11]
+
+Boh ti nedáva len krátky príval sily. Dáva ti vytrvalosť na celú cestu. Vytrvať neznamená nikdy nebyť unavený. Je to sila nevzdať sa, lebo ťa drží On.
+
+Jeden krok môžeš urobiť hneď dnes. Keď na teba tlak znova doľahne, zastav sa. Povedz: „Otče, nevládzem. Spolieham sa na Teba.“ Potom odmietni lož, ktorá ťa ťahá dole, a postav proti nej pravdu: „Moja sila je z Boha, nie zo mňa.“
+
+Žalmista vyznal: „Boh nám je útočiskom a silou, pomocou v súžení vždy osvedčenou“ (Žalm 46, 2). V Kristovi to smieš povedať aj ty. Boh ťa v tom tlaku nenechal samého.
+```
+
+### Modlitba 6 — čaká na nahrávku z ElevenLabs
+```
+Drahý nebeský Otče, moje Útočisko a moja Pomoc,
+
+už dlho žijem pod tlakom a cítim, že slabnem. Priznávam, že som sa často spoliehal viac na seba než na Teba. Ďakujem Ti, že ma za to neodsudzuješ.
+
+Teraz sa Ti oddávam. Odovzdávam Ti svoju únavu aj obavy. Nemusím byť silný. Ďakujem Ti, že moc, ktorá ma drží, je z Teba, a nie zo mňa.
+
+Ty vidíš ďalej ako ja. Dôverujem Ti viac než vlastnému rozumu, aj keď nerozumiem tomu, čo sa deje.
+
+V Kristovi stojím pevne a odmietam lži nepriateľa. Nie je pravda, že to nikdy neskončí. Nie je pravda, že to musím zvládnuť sám. Ani v tomto zlom dni nie som bez obrany.
+
+Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď neviem, ako ďalej.
+
+Ďakujem Ti, že si mojou pomocou v súžení. Aj keď tlak hneď nezmizne, Ty ma v ňom držíš.
+
+V mene Pána Ježiša Krista. Amen.
+```

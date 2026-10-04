@@ -128,3 +128,10 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **2 Tim 4, 14** | „Alexandros, kováč, mi spôsobil mnoho zlého, Pán mu odplatí podľa jeho skutkov." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
 | **2 Tim 4, 16–17** | „Keď som sa prvýkrát bránil, nikto nebol pri mne, ale všetci ma opustili. Nech sa im to nezapočíta. Pán však stál pri mne a posilnil ma…" | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
 | **Rim 10, 11** | „Písmo totiž hovorí: Ktokoľvek verí v Neho, nebude zahanbený." | biblia.sk (sep), 4. 10. 2026 (kap. 5) |
+| **Jk 4, 7** | „Poddajte sa teda Bohu, ale vzoprite sa diablovi - a utečie od vás." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **Jk 1, 1** | „Jakub, služobník Boha a Pána Ježiša Krista: pozdrav dvanástim kmeňom v diaspore." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **2 Kor 4, 7** | „Tento poklad máme, pravda, v hlinených nádobách, aby sa ukázalo, že tá prenesmierna moc je z Boha, a nie z nás." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **Prís 3, 5–6** | „Dúfaj v Hospodina celým svojím srdcom, a nespoliehaj sa na svoju rozumnosť. Na všetkých svojich cestách Ho poznávaj a On ti urovná chodníky." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **Kol 1, 11–12** | „všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti a radostne ďakujúc Otcovi, ktorý vás hodnými učinil mať účasť na údele svätých v svetle," | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **Ef 6, 13** | „Preto vezmite na seba celú výzbroj Božiu, aby ste mohli odolať v zlý deň, všetko prekonať a obstáť." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **Ž 46, 2** | „Boh nám je útočiskom a silou, pomocou v súžení vždy osvedčenou." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
