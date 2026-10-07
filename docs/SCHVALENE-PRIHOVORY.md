@@ -280,7 +280,7 @@ Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď n
 Amen.
 ```
 
-## Kapitola 28 — NOVÁ, NASADENÉ 7. 10. 2026 (bez audia, modlitba čaká na nahrávku modlitba-28.mp3)
+## Kapitola 28 — NOVÁ, NASADENÉ 7. 10. 2026 (príhovor, 4 verše, modlitba 28 s nahrávkou ?v=1)
 Podklad: preložený článok o „duchovných zákonoch" (Wommack). Ťažisko zmenené na Božiu vernosť: viera je dôvera v Toho, kto sľúbil, nie postup; moc je Kristova. Polemika s učením vypustená (Pavel sám hovorí o „zákone viery", Rim 3, 27). Názov „Boh nezmení, čo povedal", podnadpis „Prečo tvoja istota nestojí na sile tvojej viery, ale na Jeho vernosti", krátky popis „Keď ťa sklamali ľudia aj vlastné sily. Božie zasľúbenia majú v Kristovi svoje áno.", tagy pochybnosti, neistota, bezmocnosť, istota, nádej. Verše: 2. Korintským 1, 20; Rimanom 10, 17; Rimanom 4, 20 – 21; 2. Timoteovi 2, 13. V próze: Žalm 89, 35 (zarámcovaný), Marek 5, 25 – 34 (zarámcovaný), Rimanom 3, 27, Filipským 1, 6. Schválil Admin s kolegom.
 
 ```
@@ -321,7 +321,7 @@ Tvoja istota teda nestojí na tom, aká silná je tvoja viera. Stojí na tom, ak
 Skús dnes jeden krok. Vyber si jedno zasľúbenie, napríklad toto: „…Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša“ (Filipským 1, 6). Prečítaj si ho nahlas a povedz Bohu: „Ďakujem, že toto platí aj pre mňa.“ Potom Mu s vďakou zver, čo ťa ťaží. Ako a kedy bude konať, je v Jeho rukách. On nezmení, čo povedal.
 ```
 
-### Modlitba 28 — schválená 7. 10. 2026, čaká na nahrávku
+### Modlitba 28 — NASADENÁ 7. 10. 2026 s nahrávkou (len hlasitosť a tiché intro, bez EQ)
 ```
 Drahý nebeský Otče, môj verný Bože,
 
