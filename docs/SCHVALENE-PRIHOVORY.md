@@ -279,3 +279,65 @@ Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď n
 
 Amen.
 ```
+
+## Kapitola 28 — NOVÁ, NASADENÉ 7. 10. 2026 (bez audia, modlitba čaká na nahrávku modlitba-28.mp3)
+Podklad: preložený článok o „duchovných zákonoch" (Wommack). Ťažisko zmenené na Božiu vernosť: viera je dôvera v Toho, kto sľúbil, nie postup; moc je Kristova. Polemika s učením vypustená (Pavel sám hovorí o „zákone viery", Rim 3, 27). Názov „Boh nezmení, čo povedal", podnadpis „Prečo tvoja istota nestojí na sile tvojej viery, ale na Jeho vernosti", krátky popis „Keď ťa sklamali ľudia aj vlastné sily. Božie zasľúbenia majú v Kristovi svoje áno.", tagy pochybnosti, neistota, bezmocnosť, istota, nádej. Verše: 2. Korintským 1, 20; Rimanom 10, 17; Rimanom 4, 20 – 21; 2. Timoteovi 2, 13. V próze: Žalm 89, 35 (zarámcovaný), Marek 5, 25 – 34 (zarámcovaný), Rimanom 3, 27, Filipským 1, 6. Schválil Admin s kolegom.
+
+```
+Drahý brat, drahá sestra v Kristovi,
+
+poznáš ten pocit, keď ti niekto niečo sľúbi a potom to nedodrží? Priateľ, ktorý mal prísť, a neprišiel. Človek, ktorý povedal „vždy tu budem pre teba“, a dnes už ani nezdvihne telefón. Možno si sklamal aj sám seba. Koľkokrát si si povedal, že tentoraz to zvládneš, a nevyšlo to. Po čase človek prestane veriť sľubom. Aj tým svojim.
+
+Boh však nie je ako ľudia. Čo povie, to platí. V Žalme 89 hovorí o zmluve s kráľom Dávidom a sľubuje, že nezmení, čo vyšlo z Jeho úst (Žalm 89, 35). To zasľúbenie patrí Dávidovi a Izraelu. Ukazuje nám však, aký Boh je. Svoje slovo neberie späť.
+
+Pre nás sa táto vernosť ukázala v Kristovi. Pavel píše:
+
+"Veď koľkokoľvek je zasľúbení Božích, v Ňom sú všetky; áno; preto v Ňom je aj amen na slávu Bohu skrze nás."
+
+Boh ti teda nehovorí „možno“ ani „uvidíme“. V Kristovi ti hovorí „áno“. Si prijatý, máš odpustené a nie si odsúdený. Platí to už dnes, aj v deň, keď sa tak vôbec necítiš.
+
+Možno si teraz povieš: „Ale ja nemám dosť viery.“ Viera však nie je sila, ktorú si musíš v sebe vyrobiť. V liste Rimanom čítame:
+
+"Teda viera je z počúvania skrze slovo Kristovo."
+
+Viera rastie potichu, keď Božie Slovo čítaš, počúvaš a rozjímaš o Ňom. Posilňujú ju aj modlitba, chvály a spoločenstvo s ďalšími veriacimi. Je to ako s dôverou k človeku: čím lepšie ho poznáš, tým viac mu dôveruješ.
+
+V Evanjeliu podľa Marka čítame o žene, ktorá bola dvanásť rokov chorá a nik jej nevedel pomôcť (Marek 5, 25 – 34). Pretlačila sa zástupom a povedala si: „Ak sa Mu čo aj len rúcha dotknem, ozdraviem!“ Dotkla sa a bola uzdravená. Pán Ježiš hneď pocítil, že z Neho vyšla sila. Stalo sa to v Izraeli, ešte pred krížom, a nie je to sľub, že každá choroba hneď zmizne. Ukazuje nám však, kde je moc. Žena nepoznala žiadny postup. Len sa natiahla k Nemu. Sila vyšla z Neho, nie z nej.
+
+Božie Slovo platí pevne ako zákon. Pavel dokonca hovorí o „zákone viery“ a dodáva, že ten vylučuje chvastanie (Rimanom 3, 27). Viera teda nie je spôsob, ako si od Boha niečo vynútiť. Je to dôvera v Toho, kto sľúbil.
+
+Pozri sa na Abraháma. Mal asi sto rokov, keď mu Boh sľúbil syna. Ľudsky to bolo nemožné. Apoštol o ňom píše:
+
+"O zasľúbení Božom nezapochyboval v nevere, ale utvrdil sa vo viere, vzdával Bohu slávu a pevne bol presvedčený, že Ten, kto dal zasľúbenie, môže ho aj uskutočniť."
+
+Abrahám nehľadel na svoje sily, ale na Toho, kto sľúbil.
+
+A čo ak tvoja viera slabne? Čo ak prídu dni, keď sa ani nevieš modliť? Boh ostáva rovnaký. V druhom liste Timoteovi stojí:
+
+"Ak sa Mu spreneverujeme, On zostáva verný, lebo seba samého nemôže zaprieť."
+
+Tvoja istota teda nestojí na tom, aká silná je tvoja viera. Stojí na tom, aký verný je Boh.
+
+Skús dnes jeden krok. Vyber si jedno zasľúbenie, napríklad toto: „…Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša“ (Filipským 1, 6). Prečítaj si ho nahlas a povedz Bohu: „Ďakujem, že toto platí aj pre mňa.“ Potom Mu s vďakou zver, čo ťa ťaží. Ako a kedy bude konať, je v Jeho rukách. On nezmení, čo povedal.
+```
+
+### Modlitba 28 — schválená 7. 10. 2026, čaká na nahrávku
+```
+Drahý nebeský Otče, môj verný Bože,
+
+ľudia mi už veľakrát niečo sľúbili a nedodržali to. Ani ja som nedodržal všetko, čo som sľúbil. Ty si však iný. Čo povieš, to platí.
+
+Často som istotu hľadal v ľuďoch a vo vlastných silách. Ďakujem Ti, že aj toto mám v Kristovi odpustené.
+
+Ďakujem Ti, že všetky Tvoje zasľúbenia sú v Kristovi áno. Som v Ňom prijatý a nie som odsúdený. Platí to aj v dňoch, keď to tak necítim.
+
+Moja viera býva slabá a niekedy ani neviem, ako sa modliť. Ty však zostávaš verný. Pomôž mi počúvať Tvoje Slovo a dôverovať Mu.
+
+Ty konáš z milosti, nie preto, že som si to zaslúžil.
+
+Kladiem pred Teba, čo ma ťaží. Ty vieš, čo potrebujem, aj kedy a ako konať. Preto sa ako Abrahám nechcem pozerať na seba, ale na Teba. Ty, ktorý si dal zasľúbenie, ho môžeš aj uskutočniť.
+
+Za všetko Ti ďakujem skrze Pána Ježiša Krista.
+
+Amen.
+```

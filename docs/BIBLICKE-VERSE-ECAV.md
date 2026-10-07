@@ -135,3 +135,14 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **Kol 1, 11–12** | „všemožne posilňovaní mocou Jeho slávy ku všetkej vytrvalosti a trpezlivosti a radostne ďakujúc Otcovi, ktorý vás hodnými učinil mať účasť na údele svätých v svetle," | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
 | **Ef 6, 13** | „Preto vezmite na seba celú výzbroj Božiu, aby ste mohli odolať v zlý deň, všetko prekonať a obstáť." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
 | **Ž 46, 2** | „Boh nám je útočiskom a silou, pomocou v súžení vždy osvedčenou." | biblia.sk (sep), 4. 10. 2026 (kap. 6) |
+| **2 Kor 1, 20** | „Veď koľkokoľvek je zasľúbení Božích, v Ňom sú všetky; áno; preto v Ňom je aj amen na slávu Bohu skrze nás." | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **Rim 10, 17** | „Teda viera je z počúvania skrze slovo Kristovo." | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **Rim 4, 20–21** | „O zasľúbení Božom nezapochyboval v nevere, ale utvrdil sa vo viere, vzdával Bohu slávu a pevne bol presvedčený, že Ten, kto dal zasľúbenie, môže ho aj uskutočniť." | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **2 Tim 2, 13** | „Ak sa Mu spreneverujeme, On zostáva verný, lebo seba samého nemôže zaprieť." (v. 12 pred ním: „ak (Ho) zaprieme, aj On zaprie nás") | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **Rim 3, 27** | „Kde je teda chvastanie? Je vylúčené! Akým zákonom? Zákonom skutkov? Nie, naopak, zákonom viery." | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **Flp 1, 6** | „A som presvedčený, že Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša." | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **Mk 5, 28** | „Lebo si povedala: Ak sa Mu čo aj len rúcha dotknem, ozdraviem!" (nie „ozdravím"); v. 30 „…pocítil, že vyšla z Neho sila" | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **Ž 89, 35** | „neznesvätím svoju zmluvu a nezmením, čo vyšlo z mojich úst." (zmluva s Dávidom) | biblia.sk (sep), 7. 10. 2026 (kap. 28) |
+| **1 Kor 1, 9** | „Verný je Boh, ktorý vás povolal do spoločenstva svojho Syna Ježiša Krista, nášho Pána." | biblia.sk (sep), 7. 10. 2026 (kap. 28, oslovenie modlitby) |
+| **Tít 1, 2** | „…na základe nádeje večného života, ktorú pravdivý Boh zasľúbil pred večnými vekmi" (nie „Boh, ktorý neklame") | biblia.sk (sep), 7. 10. 2026 |
+| **Rim 8, 2** | „Zákon životodarného Ducha v Kristovi Ježišovi oslobodil ťa totiž od zákona hriechu a smrti." (nie „zákon Ducha života") | biblia.sk (sep), 7. 10. 2026 |
