@@ -57,6 +57,19 @@ Pasce vo veršoch k uzdraveniu:
 - 2Kor 4, 13 („aj my veríme, a preto aj hovoríme") hovorí o zvestovaní evanjelia v utrpení. Nepoužívaj ho ako základ „pozitívneho vyznania" nad vlastnými myšlienkami či telom.
 - Autoritu veriaceho formuluj skromne podľa Pavla: Kristus je nad kniežatstvami a my sme posadení s Ním (Ef 1, 20 – 21; 2, 6). Nie „ty stojíš nad diablom".
 
+### Wommackov princíp v Pavlovom jazyku (záväzné, 7. 10. 2026)
+Princíp „už to máš, uplatňuj to" je Pavlov a nesmie z textov vypadnúť.
+- Už máš: Ef 1, 3 („…požehnal v Kristovi Ježišovi všetkým duchovným požehnaním"); Kol 2, 10.
+- Uplatňuj, Pavlovými slovesami: poznávať, čo mám (Flm 6; Ef 1, 18 – 19); súdiť, teda počítať s tým (Rim 6, 11 v ECAV: „Tak súďte aj vy, že ste mŕtvi hriechu a živí ste Bohu v Kristovi Ježišovi."); kraľovať v živote (Rim 5, 17); konať, čo Boh pôsobí (Fil 2, 12 – 13); obliecť si nového človeka a výzbroj (Ef 4, 24; 6, 11); obnovovať myseľ (Rim 12, 2); podrobovať myšlienky Kristovi (2Kor 10, 5); odolať a obstáť (Ef 6, 13).
+- Za Pavla nejde: „všetko" ako zdravie tela a peniaze hneď (Ef 1, 3 hovorí o duchovných požehnaniach; Rim 8, 23; Fil 4, 12); prikazovať telu, chorobe, okolnostiam či mysli; „neprosiť"; zaručený výsledok. Prikazovanie duchom: Pavel raz v Sk 16, 18 (čas znamení), v listoch cirkvám to veriacich neučí. V textoch preto: stáť, odporovať, výzbroj.
+- Náhrady v modlitbách:
+  - „Uvoľňujem Tvoj pokoj" → „Ďakujem, že Tvoj pokoj je vo mne. Prijímam ho a nechávam ho rozhodovať v mojom srdci."
+  - „Prikazujem svojej mysli" → „Podrobujem svoje myšlienky Kristovi a obnovujem myseľ Tvojím Slovom."
+  - „Zmĺkni a odíď" → „Odmietam strach. Obliekam si celú výzbroj Božiu a stojím v pravde."
+  - Nové: „Prijímam vierou, čo mi v Kristovi už patrí." „Počítam s tým, že som mŕtvy hriechu a živý Bohu."
+- Každá nová a prepisovaná modlitba má časť, kde čitateľ aktívne uplatňuje, čo už v Kristovi má.
+- Hotové nové modlitby (1, 4, 5, 6, 9, 10, 28) a úvodné slovo sa nemenia.
+
 „Vyhlasujem" je v poriadku, keď vyznáva pravdu z Pavlových listov („vyhlasujem, že v Kristovi nie som odsúdený").
 Záväzné pravidlá o odpustení, Duchu Svätom, oslovení a Neveste sú v CLAUDE.md, sekcia 5.
 
