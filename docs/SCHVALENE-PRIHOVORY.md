@@ -341,3 +341,72 @@ Za všetko Ti ďakujem skrze Pána Ježiša Krista.
 
 Amen.
 ```
+
+## Kapitola 13 — SCHVÁLENÉ 8. 10. 2026, čaká na novú nahrávku modlitby 13 (nasadiť s modlitba-13.mp3?v=4, ideálne v jednej dávke s kap. 8 a 11)
+- Mení sa: príhovor (fullText), modlitba (prayer), verše, podnadpis, krátky popis, scriptureTheme. Názov, id, tags, illustrationRef, available, isStarter zostávajú.
+- Podnadpis: Prečo telo odporuje, keď sa obrátiš k Bohu, a ako ho viesť v sile Ducha
+- Krátky popis: Keď pri Biblii prichádza únava a rozptýlenie. Ako žiť podľa Ducha a obliecť sa v Krista.
+- Téma Písma: Galatským 5, 1. Korintským 9, Rimanom 13, Rimanom 8
+- Verše (v tomto poradí, ECAV overené na biblia.sk 8. 10. 2026, v iných kapitolách sa neopakujú):
+  1. Galatským 5, 16 – 17: "Hovorím však: Žite podľa Ducha a nebudete vykonávať žiadosti tela. Lebo telo žiada proti duchu a duch proti telu; navzájom si odporujú, aby ste nerobili, čo by ste chceli."
+  2. 1. Korintským 9, 27: "…ukázňujem si telo a službe ho podrobujem, aby som sám nebol nehodný, keď iným kážem."
+  3. Rimanom 13, 14: "Ale oblečte sa v Pána Ježiša Krista a o telo sa nestarajte (tak, aby vznikali v ňom) zlé žiadosti."
+  4. Rimanom 8, 6: "A telesne zmýšľať je smrť, ale duchovne zmýšľať je život a pokoj!"
+- V próze (ECAV overené): Marek 6, 31; Matúš 4, 4; Filipským 2, 13 (parafráza).
+- Pri nasadení: zápis do chapterData["13"] cielene, audioUrl "assets/audio/modlitba-13.mp3?v=4", SW +1, build-seo.py, kontrola-textu.js, verify.js (exit 0), ukázať diff, push. Po nasadení porovnať živý data.js slovo po slove s textom nižšie.
+
+### Príhovor (blokové verše v poradí 1–4, v rovných úvodzovkách, bez odkazu za veršom)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+konečne si sadneš, že si prečítaš Bibliu. A zrazu si spomenieš na desať vecí, ktoré treba súrne vybaviť. Zavibruje telefón alebo ťa to ťahá k počítaču či televízoru. Dostaneš hlad. Alebo ťa prepadne taká únava, že sa ti zatvárajú oči. Pritom pred chvíľou si dokázal hodinu pozerať videá a ani raz si nezazíval.
+
+To z teba nerobí zlého kresťana. Tento zápas poznal aj Pavel. Galatským veriacim napísal:
+
+"Hovorím však: Žite podľa Ducha a nebudete vykonávať žiadosti tela. Lebo telo žiada proti duchu a duch proti telu; navzájom si odporujú, aby ste nerobili, čo by ste chceli."
+
+Keď si uveril, stal si sa v Kristovi novým stvorením. Tvoj obnovený duch túži po Bohu. Telo však chce pohodlie a rýchle potešenie. Preto sa ozve práve vtedy, keď sa obrátiš k Bohu.
+
+Niekedy je únava skutočná. Ak si celý týždeň spal len pár hodín, telo si pýta odpočinok a nie je to hriech. Evanjelista Marek opisuje, ako sa apoštoli vrátili z cesty a nemali kedy ani jesť. Pán Ježiš im vtedy povedal: „Poďte sami na osamelé miesto a odpočiňte si trochu“ (Marek 6, 31). Často však nejde o únavu, ale o odpor tela voči tomu, čo ho neteší.
+
+Dobrá správa je, že telo nemusí rozhodovať. Apoštol o sebe píše:
+
+"…ukázňujem si telo a službe ho podrobujem, aby som sám nebol nehodný, keď iným kážem."
+
+Nečakal, kým jeho telo dostane chuť. Viedol ho. Ani ty to nemusíš zvládať vlastnou silou. Boh v tebe pôsobí, aby si chcel aj konal (Filipským 2, 13). Tvojou úlohou je spolupracovať s Ním.
+
+V liste Rimanom nájdeš jednoduchý obraz:
+
+"Ale oblečte sa v Pána Ježiša Krista a o telo sa nestarajte (tak, aby vznikali v ňom) zlé žiadosti."
+
+Každé ráno sa obliekaš. Rovnako pravidelne sa môžeš obliecť v Krista. Znamená to pripomenúť si, kto si v Ňom, a dať Mu prvé miesto. Zároveň telu nedávaš to, čo ťa od Boha odťahuje. Napríklad upozornenia v mobile nemusia prerušovať tvoj čas s Bohom.
+
+Aj Pána Ježiša pokúšal diabol práve cez hlad. Po štyridsiatich dňoch pôstu bol hladný a diabol Mu navrhol, aby premenil kamene na chlieb. Odpovedal Písmom: „Nie samým chlebom bude človek žiť, ale každým slovom, ktoré vychádza z úst Božích“ (Matúš 4, 4). Telo sa dožaduje chleba, ale tvoj duch žije z Božieho Slova.
+
+Kedykoľvek otvoríš Bibliu, odlož všetko, čo ťa môže vyrušiť. Ak čítaš alebo počúvaš Písmo v mobile či počítači, vypni si upozornenia. Začni jedným veršom. Prečítaj ho nahlas. Potom povedz: „Pane, obliekam sa v Teba. Dnes nevedie moje telo, ale Tvoj Duch.“ Čím menej telo poslúchaš, tým slabší je jeho hlas.
+
+Rozhoduje, čím sa zamestná tvoja myseľ:
+
+"A telesne zmýšľať je smrť, ale duchovne zmýšľať je život a pokoj!"
+
+Telo môže byť hlučné, ale nevládne ti. V Kristovi si slobodný a Boží Duch v tebe je silnejší ako tvoje telo.
+```
+
+### Modlitba 13 — čaká na novú nahrávku (ElevenLabs)
+```
+Drahý nebeský Otče, v Pánovi Ježišovi Kristovi mám k Tebe prístup, a preto dnes prichádzam.
+
+Poznáš môj deň. Vieš, ako ľahko ma odvedie mobil, počítač, televízia, hry, filmy či hudba. Inokedy ma zastaví únava, starosti, nečakané okolnosti alebo tisíc drobností. Často som dal prednosť pohodliu pred Tebou. Ďakujem Ti, že pre mňa za to niet odsúdenia.
+
+Ďakujem Ti, že si zo mňa v Kristovi urobil nového človeka. Moje telo už nemá posledné slovo. Svätý Duch, ktorého si mi dal, je väčší než každá žiadosť tela.
+
+Obliekam sa v Pána Ježiša Krista. Podrobujem svoje telo aj myšlienky Kristovi. Odmietam dať telu to, čo ma od Teba odťahuje. Odkladám, čo ma rozptyľuje, a beriem do rúk Tvoje Slovo.
+
+Daj mi múdrosť rozlíšiť, kedy potrebujem odpočinok a kedy je to len odpor tela.
+
+Ďakujem Ti, že Tvoje Slovo je pre mňa pokrmom. Prijímam vierou silu, ktorú mi v Kristovi dávaš. Tvojím Duchom žijem, a preto chcem podľa Ducha aj žiť. Nielen dnes, ale každý deň, ktorý mi dáš.
+
+Ty môžeš urobiť omnoho viac, ako prosím alebo rozumiem. Tvoja moc vo mne pôsobí. Tebe buď sláva v Kristovi Ježišovi naveky.
+
+Amen.
+```
