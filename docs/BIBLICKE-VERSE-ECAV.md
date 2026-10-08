@@ -146,3 +146,10 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **1 Kor 1, 9** | „Verný je Boh, ktorý vás povolal do spoločenstva svojho Syna Ježiša Krista, nášho Pána." | biblia.sk (sep), 7. 10. 2026 (kap. 28, oslovenie modlitby) |
 | **Tít 1, 2** | „…na základe nádeje večného života, ktorú pravdivý Boh zasľúbil pred večnými vekmi" (nie „Boh, ktorý neklame") | biblia.sk (sep), 7. 10. 2026 |
 | **Rim 8, 2** | „Zákon životodarného Ducha v Kristovi Ježišovi oslobodil ťa totiž od zákona hriechu a smrti." (nie „zákon Ducha života") | biblia.sk (sep), 7. 10. 2026 |
+| **Gal 5, 16–17** | „Hovorím však: Žite podľa Ducha a nebudete vykonávať žiadosti tela. Lebo telo žiada proti duchu a duch proti telu; navzájom si odporujú, aby ste nerobili, čo by ste chceli." (skratka knihy na biblia.sk je `ga`, nie `gal`) | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **1 Kor 9, 27** | „…ukázňujem si telo a službe ho podrobujem, aby som sám nebol nehodný, keď iným kážem." (verš začína „ale") | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **Rim 13, 14** | „Ale oblečte sa v Pána Ježiša Krista a o telo sa nestarajte (tak, aby vznikali v ňom) zlé žiadosti." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **Rim 8, 6** | „A telesne zmýšľať je smrť, ale duchovne zmýšľať je život a pokoj!" | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **Mk 6, 31** | „Povedal im: Poďte sami na osamelé miesto a odpočiňte si trochu. Lebo toľkí prichádzali a odchádzali, že sa nemali ani kedy najesť." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **Mt 4, 4** | „On však povedal: Napísané je: Nie samým chlebom bude človek žiť, ale každým slovom, ktoré vychádza z úst Božích." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **Flp 2, 13** | „Však Boh je ten, ktorý pôsobí vo vás, aby ste aj chceli aj činili nad svoju dobrú vôľu." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |

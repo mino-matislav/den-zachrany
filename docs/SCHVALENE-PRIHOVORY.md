@@ -342,7 +342,7 @@ Za všetko Ti ďakujem skrze Pána Ježiša Krista.
 Amen.
 ```
 
-## Kapitola 13 — SCHVÁLENÉ 8. 10. 2026, čaká na novú nahrávku modlitby 13 (nasadiť s modlitba-13.mp3?v=4, ideálne v jednej dávke s kap. 8 a 11)
+## Kapitola 13 — NASADENÉ 8. 10. 2026 (príhovor, 4 verše, nová modlitba 13 s nahrávkou ?v=4, len hlasitosť a tiché intro, bez EQ)
 - Mení sa: príhovor (fullText), modlitba (prayer), verše, podnadpis, krátky popis, scriptureTheme. Názov, id, tags, illustrationRef, available, isStarter zostávajú.
 - Podnadpis: Prečo telo odporuje, keď sa obrátiš k Bohu, a ako ho viesť v sile Ducha
 - Krátky popis: Keď pri Biblii prichádza únava a rozptýlenie. Ako žiť podľa Ducha a obliecť sa v Krista.
@@ -392,7 +392,7 @@ Rozhoduje, čím sa zamestná tvoja myseľ:
 Telo môže byť hlučné, ale nevládne ti. V Kristovi si slobodný a Boží Duch v tebe je silnejší ako tvoje telo.
 ```
 
-### Modlitba 13 — čaká na novú nahrávku (ElevenLabs)
+### Modlitba 13 — NASADENÁ 8. 10. 2026 s nahrávkou
 ```
 Drahý nebeský Otče, v Pánovi Ježišovi Kristovi mám k Tebe prístup, a preto dnes prichádzam.
 
