@@ -173,5 +173,5 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - Nové nálezy (prehľad príhovorov 30. 9. 2026, podľa pravidiel o uzdravení a Wommackovi):
   - ~~10~~ Hotové 30. 9. 2026 (nový príhovor aj modlitba s nahrávkou, ťažisko autorita a identita v Kristovi).
   - ~~4~~ Hotové 2. 10. 2026.
-  - 23 (zvlášť): „nespočíva v tom, aby si niečo vyprosil…, ale… uvoľnil" proti Fil 4, 6; Ef 1, 16.
+  - ~~23~~ Hotové 9. 10. 2026: nový príhovor (modlitba a nahrávka ostali).
   - Drobnosti: ~~1, 2, 3~~ vyriešené novými príhovormi (1. – 2. 10. 2026). Ostáva: ~~6~~ (hotové 4. 10. 2026), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).

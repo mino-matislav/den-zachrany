@@ -541,3 +541,56 @@ Tvoja múdrosť je hlbšia, než dokážem pochopiť. Z Teba, skrze Teba a pre T
 
 Amen.
 ```
+
+## Kapitola 23 — príhovor schválený 9. 10. 2026
+- Mení sa iba fullText. Modlitba, nahrávka (modlitba-23.mp3?v=2), všetkých 7 veršov (rovnaké poradie a znenie), title, subtitle, shortDescription, tags zostávajú.
+- Citáty v texte overené v ECAV 9. 10. 2026: Matúš 26, 38; Lukáš 23, 46; Židom 4, 12 (v kap. 20 blokový verš, tu len citát). Bez úvodzoviek: Rim 12, 2; Fil 2, 13; Ef 2, 1; Fil 4, 6; Ef 1, 3. Dĺžka ~690 slov schválená Adminom.
+
+### Príhovor (blokové verše v poradí 1–7, v rovných úvodzovkách, bez odkazu za veršom)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+veríš Bohu, čítaš Bibliu, a predsa sa jedného rána zobudíš s ťažobou na srdci. Nevieš presne prečo. Všetko ťa unavuje a radosť akoby niekam zmizla. A k tomu sa pridá otázka: „Ako je možné, že som kresťan, a predsa sa takto cítim?“
+
+Odpoveď súvisí s tým, ako nás Boh stvoril. Písmo hovorí, že človek má ducha, dušu a telo:
+
+"A sám Boh pokoja nech vás skrz-naskrz posvätí a pri príchode nášho Pána Ježiša Krista nech zachová vášho neporušeného ducha, dušu a telo bez úhony."
+
+Telom vnímaš svet okolo seba a dotýkaš sa ho. Vidíš, počuješ, ješ, pracuješ. Dušou prežívaš sám seba. Duchom sa stretávaš s Bohom. Je to tvoje najhlbšie vnútro.
+
+K duši patrí najmä tvoja myseľ, city a vôľa. Mysľou premýšľaš, citmi prežívaš radosť aj smútok a vôľou sa rozhoduješ. Písmo hovorí o každej z nich. Myseľ sa má obnovovať (Rimanom 12, 2). City dokážu dušu zaplaviť, ako to uvidíme pri žalmistovi. A vôľu posilňuje sám Boh. On v nás pôsobí, aby sme chceli aj konali to, čo sa Mu páči (Filipským 2, 13).
+
+Človek, ktorý Krista nepozná, má síce ducha, no ten je od Boha oddelený. Písmo hovorí, že je mŕtvy pre vlastné prestúpenie a hriechy (Efezským 2, 1). Preto Božím veciam nerozumie:
+
+"Prirodzený človek, pravda, neprijíma veci Ducha Božieho, lebo sú mu bláznovstvom, a nemôže ich poznať, pretože ich duchovne treba posudzovať."
+
+Keď však človek uverí v Pána Ježiša, že zomrel za jeho hriechy a tretieho dňa vstal z mŕtvych, Boží Duch oživí jeho ducha. Je to nové narodenie. Pán Ježiš o ňom hovoril Nikodémovi:
+
+"Čo sa narodilo z tela, je telo, a čo sa narodilo z Ducha, je duch."
+
+Nie je to oprava starého človeka, ale nový život. A je to čistý dar Božieho milosrdenstva:
+
+"spasil nás nie pre skutky spravodlivosti, ktoré sme konali, ale podľa svojho milosrdenstva, (a to) kúpeľom znovuzrodenia a obnovením skrze Ducha Svätého,"
+
+V tej chvíli sa tvoj duch stal novým, čistým a spravodlivým v Kristovi. Tvoj znovuzrodený duch nie je chorý, zmätený ani pochybujúci. Je naplnený Kristovým životom. Platí to aj vtedy, keď to necítiš.
+
+Prečo sa teda niekedy cítiš skleslý? Lebo duša sa obnovuje postupne. Tvoj duch je už v Kristovi dokonalý, no myseľ, city aj vôľa sa ešte len učia žiť z toho, čo Boh v tebe už vykonal. Aj žalmista sa pýtal svojej duše:
+
+"Prečo si skleslá, duša moja, a zmietaš sa vo mne? Očakávaj na Boha, lebo ešte ďakovať budem Jemu, spaseniu svojej tváre, svojmu Bohu!"
+
+Všimni si, že sa so svojou dušou rozpráva. Nenechá ju rozhodovať samu, ale obracia ju k Bohu.
+
+Tento rozdiel vidno aj pri Pánovi Ježišovi. V Getsemane povedal: „Veľmi smutná je mi duša až na smrť“ (Matúš 26, 38). Na kríži sa však modlil: „Otče, do Tvojich rúk porúčam svojho ducha“ (Lukáš 23, 46). Jeho duša prežívala hlbokú ťažobu, a predsa sa celý odovzdal Otcovi.
+
+Ak skleslosť trvá dlho a nevieš sa z nej dostať, pokojne vyhľadaj aj odbornú pomoc. S vierou to nie je v rozpore.
+
+Niektorí veriaci si myslia, že Boha musia stále prehovárať, aby im dal pokoj alebo silu. Modlitba však nie je prehováranie. Svoje prosby smieš Bohu predkladať s vďakou (Filipským 4, 6). Nemusíš Ho však presviedčať o tom, čo ti už dal. V Kristovi ťa požehnal každým duchovným požehnaním (Efezským 1, 3). Obnovou mysle sa učíš z toho žiť:
+
+"obnovte sa duchom svojej mysle"
+
+Keď ti duša hovorí: „Som v koncoch,“ nenechaj jej posledné slovo. Ako rozoznáš, čo je len pocit a čo je pravda? Duša a duch sú si veľmi blízko, no Božie Slovo „preniká až do rozdelenia duše a ducha“ (Židom 4, 12). Práve Slovo ti pomôže rozlíšiť jedno od druhého. Potom, rovnako ako žalmista, obráť svoju dušu k tomu, čo hovorí Boh: „V Kristovi mám pokoj a Boh je so mnou.“ Myseľ nesýtiš pocitmi, ale Božím Slovom. A všetko je to dar milosti, nie odmena za výkon:
+
+"Lebo milosťou ste spasení skrze vieru. A to nie sami zo seba; je to dar Boží; nie zo skutkov, aby sa nikto nechválil."
+
+Sýť teda svojho ducha Božím Slovom, obnovuj svoju myseľ pravdou a ver, že v Kristovi už máš všetko potrebné pre život s Bohom, dnes aj vo večnosti.
+```
