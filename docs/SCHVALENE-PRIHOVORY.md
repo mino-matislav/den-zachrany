@@ -411,7 +411,7 @@ Ty môžeš urobiť omnoho viac, ako prosím alebo rozumiem. Tvoja moc vo mne p�
 Amen.
 ```
 
-## Kapitola 8 — schválené 9. 10. 2026, čaká na novú nahrávku modlitby 8 (nasadiť s modlitba-8.mp3?v=5; teraz je ?v=4)
+## Kapitola 8 — NASADENÉ 9. 10. 2026 (názov, príhovor, 3 verše, tagy, nová modlitba 8 s nahrávkou ?v=5, len hlasitosť a tiché intro, bez EQ)
 - Mení sa: názov, podnadpis, krátky popis, scriptureTheme, tagy, verše, príhovor (fullText), modlitba (prayer). id, illustrationRef ("otvorene-pismo-svetlo"), available a isStarter zostávajú. URL kapitola-8.html závisí len od id, nie od názvu (overené v build-seo.py a app.js).
 - Názov: Keď ti strach premieta najhoršie scenáre
 - Podnadpis: Ako zastaviť film strachu v hlave a nechať v sebe prebývať Božie Slovo
@@ -460,7 +460,7 @@ Vyber si jeden verš, ktorý hovorí do tvojho strachu. Napíš si ho na papier 
 Strach ti premieta to, čo sa ešte nestalo. Božie Slovo ti hovorí, čo je pravda už teraz. A tvoja budúcnosť je v Božích rukách.
 ```
 
-### Modlitba 8 — čaká na novú nahrávku (ElevenLabs)
+### Modlitba 8 — NASADENÁ 9. 10. 2026 s nahrávkou
 ```
 Drahý nebeský Otče, Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
 

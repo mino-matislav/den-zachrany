@@ -154,14 +154,14 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **12:** text na webe už má opravu („Priznávam… Ďakujem Ti, že mi je to v Tebe už odpustené"). Neoverené je, či to platí aj pre audio. Ak nahrávka hrá staré „Odpusť mi to, Otče", text a zvuk sa nezhodujú.
 - **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
 - **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
-- **8, 11:** prikazovanie duchom a mysli (8: „hovorím k tomuto strachu… Umĺknite").
+- **11:** prikazovanie duchom a mysli (8 hotové 9. 10. 2026).
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
 - **15, 17, 18:** „uvoľňujem".
 - ~~**13**~~ Hotové 8. 10. 2026: nová modlitba 13 s nahrávkou (bez prikazovania a „uvoľňujem").
 - **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
-- **8:** „podľa knihy Józuovej 1, 8"; „vyhlasujem, že viera vo mne je…".
+- ~~**8**~~ Hotové 9. 10. 2026: nová modlitba 8 s nahrávkou.
 - ~~**1** (Modlitba spásy)~~ Hotové 1. 10. 2026: nová modlitba 1 s nahrávkou. Rim 10, 13 v ECAV: „Každý človek totiž, ktorý by vzýval meno Pánovo, bude spasený." (iné znenie necitovať).
 - ~~**Úvodné slovo**~~ Hotové 1. 10. 2026: nový text aj nahrávka (vrátane Dôležitého upozornenia). Citát „Nemôžeš odomknúť dvere domu…" je zámerný.
 

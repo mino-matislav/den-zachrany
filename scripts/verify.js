@@ -194,6 +194,11 @@ console.log('\n[5] Integrita dát — kapitoly');
 const s1 = {};
 new Function('e', read('js/data.js') + ';e.chapterData = chapterData;')(s1);
 const chapterData = s1.chapterData;
+// spojenie „v sekcii Piesne“ v príhovore je odkaz na piesne.html (app.js aj statická stránka kapitoly)
+must(read('js/app.js').includes('3px;">v sekcii Piesne</a>'), 'app.js zobrazí „v sekcii Piesne“ ako odkaz');
+Object.values(chapterData).filter(c => (c.fullText || '').includes('v sekcii Piesne')).forEach(c => {
+  must(read(`kapitola-${c.id}.html`).includes('3px;">v sekcii Piesne</a>'), `kapitola-${c.id}.html má odkaz na Piesne`);
+});
 must(chapterData && Object.keys(chapterData).length > 0, 'chapterData nie je prázdne');
 // duplicitný blok kapitoly by sa v JS len prepísal a nikto by si to nevšimol
 const surove = read('js/data.js');

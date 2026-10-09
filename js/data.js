@@ -496,56 +496,62 @@ Amen.`,
     },
     "8": {
         id: "8",
-        title: "Vyslobodenie skrze rozjímanie o Božom Slove",
-        subtitle: "Ako premeniť svoju myseľ skrze Písmo a zlomiť okovy strachu a negatívnych predstáv",
-        shortDescription: "Ako skrze rozjímanie o Božom Slove premeniť svoju myseľ, zlomiť myšlienkové okovy strachu a zakúsiť skutočnú slobodu v Kristovi.",
+        title: "Keď ti strach premieta najhoršie scenáre",
+        subtitle: "Ako zastaviť film strachu v hlave a nechať v sebe prebývať Božie Slovo",
+        shortDescription: "Keď si v hlave predstavuješ to najhoršie. Ako rozjímať o Božom Slove a odpovedať strachu pravdou.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-Biblia nás učí, že hlavný zápas o náš život sa odohráva v našej mysli. Ak vo svojom vnútri neustále živíš obrazy strachu, úzkosti a bezútešnosti, tvoje srdce sa začne uberať presne týmto smerom. To je pasca nepriateľa, ktorý ťa chce udržať v zajatí tvojich vlastných temných myšlienok. Písmo nám však v čase milosti ukazuje cestu absolútneho oslobodenia.
+stačí správa, ktorá neprišla, alebo výsledok, na ktorý ešte čakáš. A v hlave sa spustí film. Vidíš to najhoršie, čo sa môže stať. Premýšľaš, čo povieš, kam pôjdeš a ako to zvládneš. Srdce búši, akoby sa to už dialo. Pritom je to zatiaľ len v tvojej mysli.
 
-Boží výrok z evanjelia podľa Jána 8, 32 hovorí:
+Možno si povieš: „Veď si to nevymýšľam. To sa naozaj môže stať.“ Áno, môže. Strach a obavy často vychádzajú zo skutočných vecí, no ukazujú ti budúcnosť bez Boha. V predstavách, ktoré sa ti premietajú v hlave, chýba Ten, ktorý je s tebou neustále.
 
-"A poznáte pravdu a pravda vás vyslobodí."
+Ako ten film zastaviť? Nie tak, že sa budeš snažiť nemyslieť. Myseľ nezostane prázdna. Keď z nej jednu myšlienku vyženieš, na jej miesto príde iná. Pavel píše, čo v nás má bývať:
 
-Sloboda neprichádza vtedy, keď analyzuješ svoj strach, ale keď spoznáš Pravdu, ktorou je Božie Slovo. Ty nemusíš popierať, že tvoje trápenie je reálne. Viera však znamená, že odmietneš priznať tomuto trápeniu väčšiu autoritu, než akú má Božie zasľúbenie. Ty sa rozhoduješ, s ktorou realitou budeš súhlasiť: či s klamstvom strachu, alebo s Božím Slovom.
+"Slovo Kristovo nech prebýva vo vás bohato; vo všetkej múdrosti učte a napomínajte sa žalmami, hymnami, duchovnými piesňami a vďačne spievajte v srdciach Bohu!"
 
-Keď Józua preberal vedenie Izraela, Hospodin mu prikázal:
+Prebývať znamená zostať. Nestačí ráno prečítať verš a hneď naň zabudnúť. Pri rozjímaní Božie Slovo zostáva v tebe celý deň. Už žalmista opisuje človeka, ktorý premýšľa o Božom zákone vo dne i v noci (Žalm 1, 2). Je to ako vzácne jedlo, ktoré nezješ v zhone, ale pomaly si ho vychutnávaš. Božie Slovo pritom svoju chuť nikdy nestratí.
 
-"Nech sa táto kniha zákona nevzdiali od tvojich úst, ale rozjímaj o nej vo dne i v noci..."
+V liste Rimanom je napísané aj to, prečo nám Boh dal Písmo:
 
-Tento príkaz dostal Józua pod zákonom, pred vstupom do zasľúbenej krajiny. Pre nás je to obraz a poučenie (1Kor 10, 11). Pavel učí Cirkev podobnú pravdu. Máme sa premieňať obnovením mysle (Rim 12, 2). Namiesto strachu máme myslieť na to, čo je pravdivé a čisté (Fil 4, 8). To, na čo sa zameriavaš, určí smer tvojho života.
+"Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej."
 
-V liste Židom 11, 1 nachádzame kľúč:
+Strach ti premieta budúcnosť bez nádeje. Písmo ti dáva nádej, ktorá stojí na Bohu. Nie na tom, či sa všetko podarí podľa tvojich predstáv.
 
-"Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme."
+Na tento boj nemusíš mať vlastnú silu. V Kristovi už máš, čo potrebuješ. Veriacim v Korinte apoštol dokonca napísal: „My však myseľ Kristovu máme!“ (1. Korintským 2, 16). Tvojou úlohou je počítať s tým a používať, čo ti Boh dal.
 
-Viera nie je len nestály pocit. Podľa Písma je to pevná podstata a duchovný základ. Je to neotrasiteľné presvedčenie o Božej vernosti, aj keď tvoje oči ešte nevidia riešenie. Svet hovorí: „Uveríš, až keď uvidíš.“ Pavel však píše: „lebo žijeme vierou, a nie videním“ (2Kor 5, 7).
+Myšlienky strachu prichádzajú ako šípy, náhle a rýchlo. V liste Efezským nájdeš, čím sa proti nim brániť:
 
-Tvojou úlohou nie je vymyslieť vo vlastnej sile plán, ako sa zachrániť, ani vyriešiť detaily svojej budúcnosti. Tvoja úloha je oprieť sa o dokonané dielo Ježiša Krista a nechať Boha konať. Stráž svoje myšlienky, sýť sa Písmom a dovoľ Bohu, aby obnovil tvoju myseľ podľa Svojej pravdy. Vtedy okovy strachu odpadnú a ty budeš skutočne slobodný.`,
+"Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie."
+
+Tieto šípy neuhasíš tým, že o nich budeš stále premýšľať, ale vierou v Božiu pravdu. Keď ti strach povie, že zostaneš sám, odpovedz mu, že Boh ťa nikdy neopustí (Židom 13, 5). Keď ti povie, že to nezvládneš, pripomeň si, že Božia milosť ti stačí (2. Korintským 12, 9).
+
+Vyber si jeden verš, ktorý hovorí do tvojho strachu. Napíš si ho na papier alebo si ho ulož do mobilu. Keď sa film v hlave znova spustí, prečítaj si ho pomaly, nahlas alebo potichu. Vracaj sa k nemu počas dňa. Pomôcť ti môže aj pieseň. Iste poznáš, ako sa niektorá melódia zachytí v hlave a znie v nej celý deň, aj keď ťa len zaťažuje. Nech v tebe radšej znie pieseň, ktorá ti pripomína Božie Slovo. Veď aj list Kolosenským spomína žalmy, hymny a duchovné piesne. Takéto piesne nájdeš aj na tomto webe v sekcii Piesne.
+
+Strach ti premieta to, čo sa ešte nestalo. Božie Slovo ti hovorí, čo je pravda už teraz. A tvoja budúcnosť je v Božích rukách.`,
         verses: [
-            { text: "A poznáte pravdu a pravda vás vyslobodí.", ref: "Ján 8, 32" },
-            { text: "Nech sa táto kniha zákona nevzdiali od tvojich úst, ale rozjímaj o nej vo dne i v noci...", ref: "Józua 1, 8" },
-            { text: "Viera je zaiste podstatou toho, čoho sa nádejame, a dôvodom toho, čo nevidíme.", ref: "Židom 11, 1" }
+            { text: "Slovo Kristovo nech prebýva vo vás bohato; vo všetkej múdrosti učte a napomínajte sa žalmami, hymnami, duchovnými piesňami a vďačne spievajte v srdciach Bohu!", ref: "Kolosenským 3, 16" },
+            { text: "Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej.", ref: "Rimanom 15, 4" },
+            { text: "Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie.", ref: "Efezským 6, 16 – 17" }
         ],
-        prayer: `Drahý nebeský Otče, môj milovaný Bože,
+        prayer: `Drahý nebeský Otče, Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
 
-v mocnom mene Ježiša Krista prichádzam pred Tvoju tvár ako Tvoje znovuzrodené dieťa. Otváram pred Tebou svoje srdce a vyznávam, že moja myseľ býva niekedy vystavená úzkosti, strachu a temným predstavám. Zriekam sa snahy bojovať v ľudskej sile a odmietam rozjímať nad svojím trápením namiesto toho, aby som hľadel na Tvoje zasľúbenia.
+Poznáš obrazy, ktoré mi strach premieta v hlave. Vidím v nich to najhoršie a prežívam to, akoby sa to už stalo. Vyznávam Ti, že som im často veril viac ako Tvojmu Slovu. Ďakujem Ti, že za to nie som odsúdený.
 
-Ďakujem Ti, že Tvoja moc sa dokonale prejavuje v mojej slabosti. Podľa Tvojho svätého Slova z evanjelia podľa Jána 8, 32 viem, že Tvoja Pravda ma v Kristovi už oslobodila z každého väzenia strachu. Rozhodujem sa v tejto chvíli – napriek mojim rozbúreným pocitom – veriť Tvojmu Slovu viac než mojim okolnostiam. Ty sám napĺňaš každú moju potrebu podľa svojho slávneho bohatstva v Kristovi Ježišovi.
+Ďakujem Ti, že môj život je s Kristom ukrytý v Tebe. V Ňom mám všetko, čo potrebujem: Jeho myseľ aj Tvojho Svätého Ducha.
 
-Pane, vyznávam, že v mojom znovuzrodenom duchu už prebýva Kristova viera. Rozhodujem sa podľa knihy Józuovej 1, 8 sýtiť svoju myseľ Tvojím Písmom vo dne i v noci. Vyhlasujem, že viera vo mne je pevnou podstatou vecí, na ktoré sa nádejam, a dôkazom vecí, ktoré moje fyzické oči ešte nevidia.
+Beriem si štít viery a meč Ducha, ktorým je Tvoje Slovo. Odmietam obrazy, ktoré mi ukazujú budúcnosť bez Teba. Nechávam Slovo Kristovo bohato prebývať vo mne. Keď sa strach ozve, odpoviem mu Tvojou pravdou.
 
-A preto teraz na základe autority, ktorú mám v Kristovi, hovorím k tomuto strachu a klamstvám nepriateľa: Umĺknite a odíďte! Strážim dnes svoje srdce aj svoju myseľ v Kristovi Ježišovi. Ty sám konáš v mojom vnútri a obnovuješ ma Svojím Svätým Duchom. Môj život je bezpečne skrytý v Tvojej pravde.
+Moja budúcnosť je v Tvojich rukách. Neviem, čo príde zajtra, ale viem, čo mi sľubuješ vo svojom Slove. A chcem Ťa poznávať stále viac.
 
-V mocnom mene Ježiša Krista.
+Naplň ma radosťou a pokojom vo viere, aby som sa mocou Ducha Svätého rozhojňoval v nádeji.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-8.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-8.mp3?v=5",
         hasAudio: true,
         illustrationRef: "otvorene-pismo-svetlo",
-        tags: ["myšlienky", "strach", "pochybnosti", "sloboda", "obnova"],
+        tags: ["myšlienky", "strach", "nádej", "sloboda", "obnova"],
         available: true,
-        scriptureTheme: "Ján 8, Józua 1, Židom 11",
+        scriptureTheme: "Kolosenským 3, Rimanom 15, Efezským 6",
         isStarter: false
     },
     "9": {

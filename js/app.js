@@ -424,7 +424,8 @@
                         html += '</blockquote>';
                         verseIndex++;
                     } else {
-                        html += '<p>' + para + '</p>';
+                        // Spojenie „v sekcii Piesne“ sa zobrazí ako odkaz (text v data.js ostáva obyčajný)
+                        html += '<p>' + para.replace('v sekcii Piesne', '<a href="piesne.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">v sekcii Piesne</a>') + '</p>';
                     }
                 });
 

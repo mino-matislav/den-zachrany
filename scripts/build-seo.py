@@ -218,7 +218,8 @@ def odseky(text):
         if o.startswith('"') and o.endswith('"'):
             out.append('<blockquote class="chapter-verse">' + esc(o.strip('"')) + '</blockquote>')
         else:
-            out.append('<p>' + esc(o) + '</p>')
+            # spojenie „v sekcii Piesne" sa zobrazí ako odkaz (rovnako v js/app.js)
+            out.append('<p>' + esc(o).replace('v sekcii Piesne', '<a href="piesne.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">v sekcii Piesne</a>') + '</p>')
     return '\n                    '.join(out)
 
 
