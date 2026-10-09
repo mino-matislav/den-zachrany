@@ -423,7 +423,8 @@ Amen.
   2. Rimanom 15, 4: "Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej."
   3. Efezským 6, 16 – 17: "Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie."
 - V próze: 1. Korintským 2, 16 (citát doslovne ECAV), Žalm 1, 2; Židom 13, 5; 2. Korintským 12, 9 (bez úvodzoviek). V modlitbe parafrázy Rim 15, 13; Kol 3, 3; Kol 3, 16; Ef 6, 16 – 17.
-- Odkaz: slová „v sekcii Piesne" v predposlednom odseku majú byť klikateľný odkaz na piesne.html. Riešenie čaká na schválenie Admina (text v data.js ostáva obyčajný, bez HTML).
+- Odkaz: slová „v sekcii Piesne" v predposlednom odseku budú klikateľný odkaz na piesne.html. Schválené 9. 10. 2026: text v data.js ostáva obyčajný, odkaz sa doplní automaticky pri zobrazení (app.js aj build-seo.py, ~2 riadky v každom) a verify.js dostane kontrolu, že odkaz na kapitola-8.html je.
+- Ďalej schválené 9. 10. 2026: dlhá veta o melódii ostáva, tagy ostávajú (2 + 3), prosba podľa Rim 15, 13 na konci modlitby je v poriadku.
 - Pri nasadení: cielený zápis do chapterData["8"], audioUrl "assets/audio/modlitba-8.mp3?v=5", SW +1, build-seo.py, kontrola-textu.js (nález „opakované slovo (piesne)" je schválený), verify.js (exit 0), ukázať diff, push. Po nasadení porovnať živý data.js slovo po slove a overiť dĺžku živej modlitba-8.mp3.
 
 ### Príhovor (blokové verše v poradí 1–3, v rovných úvodzovkách, bez odkazu za veršom)
