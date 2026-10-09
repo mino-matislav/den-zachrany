@@ -162,3 +162,9 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **Ž 1, 2** | „ale v zákone Hospodinovom má záľubu, o Jeho zákone rozjíma dňom-nocou." | biblia.sk (sep), 9. 10. 2026 (kap. 8) |
 | **Žid 13, 5** | „…Veď On sám povedal: Neopustím ťa, ani nezanechám;" | biblia.sk (sep), 9. 10. 2026 (kap. 8, len odkaz) |
 | **2 Kor 12, 9** | „ale riekol mi: Dosť máš na mojej milosti; lebo (moja) moc sa v slabosti dokonáva." (nie „milosť ti stačí") | biblia.sk (sep), 9. 10. 2026 (kap. 8, len odkaz) |
+| **Prís 16, 9** | „Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok." | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
+| **Ef 5, 17** | „Preto nebuďte nerozumní, ale rozumejte, čo je vôľa Pánova." | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
+| **1 Kor 1, 30** | „Z Neho aj vy ste v Kristovi Ježišovi, ktorého nám Boh učinil múdrosťou a spravodlivosťou a posvätením a vykúpením," | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
+| **Kol 2, 3** | „v ktorom sú skryté všetky poklady múdrosti a poznania." | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
+| **Ž 37, 24** | „Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku." | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
+| **Rim 11, 33. 36** | „Ó, hlbokosť bohatstva, múdrosti a známosti Božej!…" / „Lebo z Neho, skrze Neho a pre Neho je všetko. Jemu sláva naveky. Amen." | biblia.sk (sep), 9. 10. 2026 (kap. 11, modlitba) |

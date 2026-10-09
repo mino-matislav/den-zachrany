@@ -480,3 +480,64 @@ Naplň ma radosťou a pokojom vo viere, aby som sa mocou Ducha Svätého rozhoj�
 
 Amen.
 ```
+
+## Kapitola 11 — schválené 9. 10. 2026 (príhovor, 3 verše, nová modlitba 11 s nahrávkou ?v=5; teraz je ?v=4)
+- Mení sa: príhovor (fullText), modlitba (prayer), verše, scriptureTheme. title „Pán riadi moje kroky", subtitle, shortDescription, tags, id, illustrationRef, available, isStarter zostávajú.
+- Téma Písma: Príslovia 16, Efezským 5, Filipským 1
+- Verše (v tomto poradí, ECAV overené na biblia.sk 9. 10. 2026, ako blokové verše sa v iných kapitolách neopakujú):
+  1. Príslovia 16, 9: "Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok."
+  2. Efezským 5, 17: "Preto nebuďte nerozumní, ale rozumejte, čo je vôľa Pánova."
+  3. Filipským 1, 6: "A som presvedčený, že Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša." (v kap. 28 len ako príklad v próze, Admin schválil)
+- V próze: 1. Korintským 1, 30; Kolosenským 2, 3; Filipským 4, 6 (bez úvodzoviek; Fil 4, 6 je blokový verš v kap. 3); Žalm 37, 24 doslovne ECAV. V modlitbe parafrázy Fil 1, 6; 1Kor 1, 30; Fil 4, 6; Fil 1, 10; Ž 37, 24; Rim 11, 33. 36.
+
+### Príhovor (blokové verše v poradí 1–3, v rovných úvodzovkách, bez odkazu za veršom)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+niekedy ťa život postaví pred rozhodnutie, ktoré nepočká. Nie zajtra, nie o rok, ale teraz. Prijať novú prácu, alebo zostať? Odsťahovať sa, alebo nie? Podpísať zmluvu, alebo ešte počkať? A spolu s rozhodnutím prichádza tichá obava: „Čo ak sa rozhodnem zle? Čo ak si pokazím život a už to nenapravím?“
+
+Tento nepokoj často nevychádza zo samotného rozhodnutia. Vychádza z pocitu, že všetko závisí len od teba. Akoby si nesmel urobiť ani jednu chybu.
+
+Kniha Prísloví ukazuje, ako to naozaj je:
+
+"Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok."
+
+Premýšľať a zvažovať je tvoja úloha a Boh ti ju neberie. Tvoje kroky však riadi On.
+
+Boh ťa pritom nenecháva hádať. Veriacim v Efeze apoštol Pavel napísal:
+
+"Preto nebuďte nerozumní, ale rozumejte, čo je vôľa Pánova."
+
+Nemusíš čakať na zvláštne znamenie. Kristus sa ti stal múdrosťou od Boha (1. Korintským 1, 30). V Ňom sú skryté všetky poklady múdrosti a poznania (Kolosenským 2, 3). Túto múdrosť už máš. Tvojou úlohou je spoznávať ju a používať.
+
+Keď stojíš pred rozhodnutím, najprv sa pýtaj, čo o tom hovorí Božie Slovo. Niektoré veci sú v Písme jasné a o nich netreba dlho rozmýšľať. Potom to prines Bohu v modlitbe, s prosbou aj s vďakou (Filipským 4, 6). Poraď sa s veriacimi ľuďmi, ktorým dôveruješ. A všímaj si, či máš v srdci pokoj, alebo nepokoj. Často uvidíš len ďalší krok, nie celú cestu. Aj to stačí.
+
+A čo ak sa predsa pomýliš? Aj zlé rozhodnutie môže mať následky. Chyba však nie je koniec. Už žalmista vyznáva o človeku, ktorého vedie Hospodin: „Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku“ (Žalm 37, 24). Nehovorí, že nepadneš. Hovorí, že neostaneš ležať.
+
+V liste Filipským čítame ešte viac:
+
+"A som presvedčený, že Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša."
+
+Dielo, ktoré Boh v tebe začal, nestojí na tvojej neomylnosti. Stojí na Ňom. On ho dokoná, aj keď niekde zakopneš.
+
+Ak máš teraz pred sebou rozhodnutie, napíš si ho. Vedľa neho si zapíš, čo k nemu hovorí Písmo. Potom ho v modlitbe odovzdaj Bohu a poďakuj Mu, že ťa vedie. A urob ďalší krok.
+
+Nemusíš sa báť, že jedným zlým krokom minieš Božiu cestu. Tvoj život je v Božích rukách a Boh svoje dielo nikdy nenechá v polovici.
+```
+
+### Modlitba 11 — s novou nahrávkou
+```
+Drahý nebeský Otče, Ty, ktorý si vo mne začal dobré dielo,
+
+prichádzam k Tebe skrze Pána Ježiša Krista, ktorý sa mi stal múdrosťou. Prinášam Ti rozhodnutie, ktoré je predo mnou. Mám obavy, že sa rozhodnem zle a už to nenapravím. Vyznávam Ti, že som si myslel, že všetko závisí len odo mňa. Ďakujem Ti, že moje kroky riadiš Ty.
+
+V Kristovi mám múdrosť, ktorú potrebujem. Hľadám v Tvojom Slove, čo je Tvoja vôľa. Svoje rozhodnutie Ti odovzdávam s prosbou aj s vďakou. Odmietam myšlienky, ktoré ma ochromujú.
+
+Pomôž mi rozoznať, čo je v tomto rozhodnutí podstatné a čo nie. A pošli mi do cesty ľudí, ktorí mi dobre poradia.
+
+Ak sa niekde pomýlim, viem, že neostanem ležať. Ty ma podopieraš a vedieš ďalej. Ďakujem Ti, že svoje dielo vo mne dokonáš a že nestojí na mojej dokonalosti, ale na Tebe.
+
+Tvoja múdrosť je hlbšia, než dokážem pochopiť. Z Teba, skrze Teba a pre Teba je všetko. Tebe sláva naveky.
+
+Amen.
+```

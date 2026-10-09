@@ -692,55 +692,59 @@ Amen.`,
         shortDescription: "Ako sa rozhodovať bez strachu z chyby a vedieť, že ani zakopnutie ťa nevyradí z Božej cesty.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-sú chvíle, keď sa človek musí rozhodnúť. Nie zajtra, nie o rok – dnes. Prijať tú prácu, alebo odmietnuť? Odsťahovať sa, alebo zostať? Podpísať, alebo nepodpísať? A spolu s rozhodnutím prichádza tichý strach: „Čo ak sa rozhodnem zle? Čo ak si tým pokazím život a už to nikdy nespravím?“
+niekedy ťa život postaví pred rozhodnutie, ktoré nepočká. Nie zajtra, nie o rok, ale teraz. Prijať novú prácu, alebo zostať? Odsťahovať sa, alebo nie? Podpísať zmluvu, alebo ešte počkať? A spolu s rozhodnutím prichádza tichá obava: „Čo ak sa rozhodnem zle? Čo ak si pokazím život a už to nenapravím?“
 
-Ten strach je ťažší, než sa zdá. Nie preto, že by rozhodnutie bolo neúnosné, ale preto, že si na svoje plecia berieš bremeno, ktoré ti Boh nikdy nedal – bremeno neomylnosti.
+Tento nepokoj často nevychádza zo samotného rozhodnutia. Vychádza z pocitu, že všetko závisí len od teba. Akoby si nesmel urobiť ani jednu chybu.
 
-Počúvaj, čo hovorí Kniha Prísloví 16, 9:
+Kniha Prísloví ukazuje, ako to naozaj je:
 
 "Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok."
 
-Všimni si to poradie. Človek premýšľa – to je tvoja úloha a Boh ti ju neberie. Rozvažuj, pýtaj sa, zvažuj. Ale ten krok riadi On. A všimni si ešte niečo: Boh riadi krok toho, kto kráča. Nie toho, kto stojí ochrnutý strachom a čaká, kým dostane istotu, akú mu Písmo nikdy nesľúbilo.
+Premýšľať a zvažovať je tvoja úloha a Boh ti ju neberie. Tvoje kroky však riadi On.
 
-Prorok Jeremiáš to v 10, 23 vyznáva úplne otvorene:
+Boh ťa pritom nenecháva hádať. Veriacim v Efeze apoštol Pavel napísal:
 
-"Viem, Hospodine, že človek nemá v moci svoju cestu, a ten, kto chodí, neurčuje svoje kroky."
+"Preto nebuďte nerozumní, ale rozumejte, čo je vôľa Pánova."
 
-Toto nie je zlá správa. Toto je obrovská úľava. Ak si nikdy nemal svoju cestu vo vlastnej moci, potom si ju ani nemôžeš svojím zlým rozhodnutím zničiť. Nikdy si nedržal opraty, o ktorých strate sa teraz bojíš.
+Nemusíš čakať na zvláštne znamenie. Kristus sa ti stal múdrosťou od Boha (1. Korintským 1, 30). V Ňom sú skryté všetky poklady múdrosti a poznania (Kolosenským 2, 3). Túto múdrosť už máš. Tvojou úlohou je spoznávať ju a používať.
 
-A teraz to najdôležitejšie. Pod strachom z rozhodnutia sa skrýva ešte hlbší strach: že chyba je konečná. Že jeden nesprávny krok ťa navždy vyradí. Práve na to odpovedá Žalm 37, 23 – 24:
+Keď stojíš pred rozhodnutím, najprv sa pýtaj, čo o tom hovorí Božie Slovo. Niektoré veci sú v Písme jasné a o nich netreba dlho rozmýšľať. Potom to prines Bohu v modlitbe, s prosbou aj s vďakou (Filipským 4, 6). Poraď sa s veriacimi ľuďmi, ktorým dôveruješ. A všímaj si, či máš v srdci pokoj, alebo nepokoj. Často uvidíš len ďalší krok, nie celú cestu. Aj to stačí.
 
-"Hospodin vedie kroky muža, tie sú pevné, a záľubu má v jeho obcovaní, Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku."
+A čo ak sa predsa pomýliš? Aj zlé rozhodnutie môže mať následky. Chyba však nie je koniec. Už žalmista vyznáva o človeku, ktorého vedie Hospodin: „Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku“ (Žalm 37, 24). Nehovorí, že nepadneš. Hovorí, že neostaneš ležať.
 
-Písmo nehovorí, že nepadneš. Hovorí, že neostaneš ležať. To je rozdiel medzi človekom, ktorý žije v strachu, a človekom, ktorý žije v milosti. Ten prvý sa bojí pádu, lebo verí, že pád je koniec. Ten druhý vie, že pod ním je ruka, ktorá ho drží – a preto sa smie pohnúť.
+V liste Filipským čítame ešte viac:
 
-Tvoje kroky nie sú zabezpečené tvojím dokonalým úsudkom. Sú zabezpečené dokonaným dielom Ježiša Krista. Rozhodnutie, ktoré urobíš s pokojným srdcom pred Bohom, je bezpečnejšie než rozhodnutie, ktoré vypočítaš v panike – aj keby sa to druhé nakoniec ukázalo ako správnejšie.
+"A som presvedčený, že Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša."
 
-Preto sa rozhodni. Rozhodni sa v pokoji, v slobode dieťaťa, nie v úzkosti otroka. A keby si aj zakopol, vieš, kto ťa dvíha.`,
+Dielo, ktoré Boh v tebe začal, nestojí na tvojej neomylnosti. Stojí na Ňom. On ho dokoná, aj keď niekde zakopneš.
+
+Ak máš teraz pred sebou rozhodnutie, napíš si ho. Vedľa neho si zapíš, čo k nemu hovorí Písmo. Potom ho v modlitbe odovzdaj Bohu a poďakuj Mu, že ťa vedie. A urob ďalší krok.
+
+Nemusíš sa báť, že jedným zlým krokom minieš Božiu cestu. Tvoj život je v Božích rukách a Boh svoje dielo nikdy nenechá v polovici.`,
         verses: [
             { text: "Myseľ človeka si premyslí cestu, ale Hospodin riadi jeho krok.", ref: "Príslovia 16, 9" },
-            { text: "Viem, Hospodine, že človek nemá v moci svoju cestu, a ten, kto chodí, neurčuje svoje kroky.", ref: "Jeremiáš 10, 23" },
-            { text: "Hospodin vedie kroky muža, tie sú pevné, a záľubu má v jeho obcovaní, Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku.", ref: "Žalm 37, 23 – 24" }
+            { text: "Preto nebuďte nerozumní, ale rozumejte, čo je vôľa Pánova.", ref: "Efezským 5, 17" },
+            { text: "A som presvedčený, že Ten, ktorý počal vo vás dobré dielo, aj ho dokoná až do dňa Krista Ježiša.", ref: "Filipským 1, 6" }
         ],
-        prayer: `Drahý nebeský Otče, môj Pastier a môj Vodca,
+        prayer: `Drahý nebeský Otče, Ty, ktorý si vo mne začal dobré dielo,
 
-prichádzam k Tebe v mocnom mene Ježiša Krista ako Tvoje dieťa. Prinášam Ti rozhodnutie, ktoré je predo mnou, a s ním aj strach, že sa rozhodnem zle a už to nenapravím. Vyznávam, že som si na plecia naložil bremeno neomylnosti, ktoré si mi Ty nikdy nedal. Skladám ho teraz k Tvojim nohám.
+prichádzam k Tebe skrze Pána Ježiša Krista, ktorý sa mi stal múdrosťou. Prinášam Ti rozhodnutie, ktoré je predo mnou. Mám obavy, že sa rozhodnem zle a už to nenapravím. Vyznávam Ti, že som si myslel, že všetko závisí len odo mňa. Ďakujem Ti, že moje kroky riadiš Ty.
 
-Ďakujem Ti, Otče, že podľa Tvojho Slova človek nikdy nemal svoju cestu vo vlastnej moci – a preto ju ani nemôže zničiť. Ty riadiš krok toho, kto kráča. Rozhodujem sa teda pohnúť, a nie ostať stáť ochrnutý strachom.
+V Kristovi mám múdrosť, ktorú potrebujem. Hľadám v Tvojom Slove, čo je Tvoja vôľa. Svoje rozhodnutie Ti odovzdávam s prosbou aj s vďakou. Odmietam myšlienky, ktoré ma ochromujú.
 
-Vyznávam podľa Žalmu 37, že aj keby som padol, neostanem ležať, lebo Ty mi podopieraš ruku. Moje kroky nestoja na mojom dokonalom úsudku, ale na dokonanom diele Pána Ježiša Krista. Ďakujem Ti, že Tvoja milosť je väčšia než moja chyba.
+Pomôž mi rozoznať, čo je v tomto rozhodnutí podstatné a čo nie. A pošli mi do cesty ľudí, ktorí mi dobre poradia.
 
-Odmietam ducha zmätku a strachu z budúcnosti. V mocnom mene Ježiša Krista mu prikazujem, aby odišiel z mojej mysle. Prijímam Tvoj pokoj nad každým svojím rozhodnutím a v tomto pokoji sa rozhodujem.
+Ak sa niekde pomýlim, viem, že neostanem ležať. Ty ma podopieraš a vedieš ďalej. Ďakujem Ti, že svoje dielo vo mne dokonáš a že nestojí na mojej dokonalosti, ale na Tebe.
 
-V mocnom mene Ježiša Krista.
+Tvoja múdrosť je hlbšia, než dokážem pochopiť. Z Teba, skrze Teba a pre Teba je všetko. Tebe sláva naveky.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-11.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-11.mp3?v=5",
         hasAudio: true,
         illustrationRef: "pan-riadi-kroky-svetlo",
         tags: ["neistota", "pochybnosti", "strach", "vedenie", "istota"],
         available: true,
-        scriptureTheme: "Príslovia 16, Jeremiáš 10, Žalm 37",
+        scriptureTheme: "Príslovia 16, Efezským 5, Filipským 1",
         isStarter: false
     },
     "12": {
