@@ -594,3 +594,71 @@ Keď ti duša hovorí: „Som v koncoch,“ nenechaj jej posledné slovo. Ako ro
 
 Sýť teda svojho ducha Božím Slovom, obnovuj svoju myseľ pravdou a ver, že v Kristovi už máš všetko potrebné pre život s Bohom, dnes aj vo večnosti.
 ```
+
+## Kapitola 7 — schválené 9. 10. 2026, čaká na novú nahrávku modlitby 7 (nasadiť s modlitba-7.mp3?v=5; teraz je ?v=4)
+- Mení sa: názov, podnadpis, krátky popis, scriptureTheme, verše, príhovor (fullText), modlitba (prayer). id, tags (neistota, trpezlivosť, starosti, istota, odpočinok), illustrationRef, available, isStarter zostávajú. URL kapitola-7.html závisí len od id.
+- Názov: Keď sa bojíš, že si zmeškal Božiu vôľu
+- Podnadpis: Čo robiť, keď ľutuješ stratený čas a bojíš sa, že je už neskoro
+- Krátky popis: Keď sa obzrieš späť a pýtaš sa, či si nezmeškal Boží plán. Boh drží tvoj čas a s tebou ešte počíta.
+- Téma Písma: Kazateľ 3, Filipským 3, Kolosenským 3, Židom 6
+- Verše (v tomto poradí, ECAV overené na biblia.sk 9. 10. 2026, ako blokové verše sa v iných kapitolách neopakujú; Žalm 34, 11 vypadá):
+  1. Kazateľ 3, 1: "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:"
+  2. Filipským 3, 13 – 14: "…jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi."
+  3. Kolosenským 3, 1 – 2: "Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi."
+  4. Židom 6, 12: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení."
+- Citáty v texte (ECAV overené): Galatským 4, 4; Efezským 1, 11; Galatským 6, 9. Len odkazy: Efezským 2, 10 (blokový v kap. 25); Rimanom 8, 28 (blokový v kap. 4).
+- Pri nasadení: oslovenie modlitby v samostatnom riadku (už je), cielený zápis do chapterData["7"], audioUrl "assets/audio/modlitba-7.mp3?v=5", SW +1, build-seo, kontrola-textu.js, verify.js, nálezy hlásiť pred pushom. Modlitba 7 je posledná referencia zvuku v CLAUDE.md, po výmene treba upraviť sekciu 6.
+
+### Príhovor (blokové verše v poradí 1–4, v rovných úvodzovkách, bez odkazu za veršom)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+stáva sa, že sa človek obzrie späť a zľakne sa. Roky prešli rýchlo. Niektoré príležitosti sa už nevrátia. Možno si dlho žil bez Boha. Možno si urobil rozhodnutia, ktoré dnes ľutuješ. A v hlave sa ozve otázka: „Nie je už neskoro? Nezmeškal som Božiu vôľu pre svoj život?“
+
+Táto obava je veľmi ľudská. Meriaš čas tak, ako ho meria človek. Boh ho však meria inak. Už Kniha Kazateľ hovorí:
+
+"Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:"
+
+Boh nie je viazaný naším kalendárom. Aj svoje najväčšie dielo urobil vo chvíli, ktorú sám určil: „keď prišla plnosť času, poslal Boh Syna svojho“ (Galatským 4, 4). Ten istý Boh drží v rukách aj tvoj čas.
+
+V Kristovi si sa stal Božím dedičom podľa predsavzatia Toho, ktorý „koná všetko podľa rozhodnutia svojej vôle“ (Efezským 1, 11). Si Jeho dielo, stvorené na dobré skutky, ktoré Boh vopred pripravil (Efezským 2, 10). Tvoj život sa teda nemeria tým, čo si stihol, ale tým, čo Boh v Kristovi začal.
+
+A čo s rokmi, ktoré sa nedajú vrátiť? Apoštol Pavel mal za sebou minulosť, na ktorú nebol hrdý. Prenasledoval Božiu Cirkev. A predsa napísal:
+
+"…jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi."
+
+Zabudnúť neznamená zahladiť minulosť. Znamená prestať v nej žiť. Boh dokáže aj to, čo sa pokazilo, použiť na dobro tých, ktorí Ho milujú (Rimanom 8, 28).
+
+List Kolosenským ukazuje, kam sa pozerať:
+
+"Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi."
+
+Keď myslíš na to, čo je hore, prestaneš merať svoj život tým, čo si nestihol. Začneš ho merať tým, kto je Kristus a čo pre teba urobil.
+
+Možno však stále čakáš. Na zmenu, na odpoveď alebo na ďalší krok. Čakanie je ťažké, no nie je to stratený čas. List Židom povzbudzuje:
+
+"...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení."
+
+Viera sa spolieha na to, kto je Boh. Trpezlivosť Mu dáva čas. A Pavel dodáva: „lebo ak neochabneme, časom svojím budeme žať“ (Galatským 6, 9).
+
+Keď ťa prepadne ľútosť nad stratenými rokmi, povedz Bohu: „Ďakujem, že môj čas je v Tvojich rukách. Dnes chcem urobiť to, čo je predo mnou.“ A potom urob jednu dobrú vec, ktorú môžeš urobiť práve dnes.
+
+Pre Boha nie je nikdy neskoro. Kým žiješ, má s tebou svoj zámer.
+```
+
+### Modlitba 7 — čaká na novú nahrávku (ElevenLabs)
+```
+Drahý nebeský Otče,
+
+prichádzam k Tebe skrze Pána Ježiša Krista. Niekedy sa obzriem späť a ľutujem čas, ktorý som premárnil. Mám obavy, že som zmeškal to, čo si pre mňa pripravil. Vyznávam Ti, že som často meral svoj život tým, čo som nestihol. Ďakujem Ti, že v Kristovi moja minulosť nemá posledné slovo.
+
+Som Tvoje dielo a v Kristovi aj Tvoj dedič. Ty konáš všetko podľa rozhodnutia svojej vôle a môj čas je v Tvojich rukách.
+
+Zabúdam na to, čo je za mnou, a upieram zrak na to, čo je predo mnou. Myslím na to, čo je hore, kde Kristus sedí po Tvojej pravici. Odmietam myšlienku, že je pre mňa neskoro.
+
+Keď čakám, daj mi vieru a trpezlivosť, aby som neochabol. Ďakujem Ti, že aj to, čo sa v mojom živote pokazilo, dokážeš použiť na dobro.
+
+Svojho Syna si poslal, keď prišla plnosť času. Ty poznáš aj môj čas. Tebe patrí sláva naveky.
+
+Amen.
+```

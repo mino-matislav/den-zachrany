@@ -168,3 +168,10 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **Kol 2, 3** | „v ktorom sú skryté všetky poklady múdrosti a poznania." | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
 | **Ž 37, 24** | „Ak padne, neostane ležať, lebo Hospodin mu podopiera ruku." | biblia.sk (sep), 9. 10. 2026 (kap. 11) |
 | **Rim 11, 33. 36** | „Ó, hlbokosť bohatstva, múdrosti a známosti Božej!…" / „Lebo z Neho, skrze Neho a pre Neho je všetko. Jemu sláva naveky. Amen." | biblia.sk (sep), 9. 10. 2026 (kap. 11, modlitba) |
+| **Kaz 3, 1** | „Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:" (kniha na biblia.sk: `koh`) | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Flp 3, 13–14** | „…jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi." | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Kol 3, 1–2** | „Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi." | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Žid 6, 12** | „aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení." | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Gal 4, 4** | „Ale keď prišla plnosť času, poslal Boh Syna svojho, narodeného zo ženy, narodeného pod zákonom," | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Ef 1, 11** | „…podľa predsavzatia Toho, ktorý koná všetko podľa rozhodnutia svojej vôle," | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Gal 6, 9** | „V činení dobrého neochabujme, lebo ak neochabneme, časom svojím budeme žať." | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
