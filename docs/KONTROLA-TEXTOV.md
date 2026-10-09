@@ -81,7 +81,7 @@ Web má pokryť rôzne ľudské bolesti jednotným, citlivým štýlom. Pred pre
 Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 
 ### Vzory z kapitoly 5 (4. 10. 2026)
-- **Opakovanie medzi modlitbami:** pred predložením novú modlitbu strojovo porovnaj so všetkými modlitbami na webe. Zhoda štyroch a viac slov za sebou je opakovanie. Úvod „Drahý nebeský Otče, prichádzam…" už má 15 modlitieb, preto voľ iné oslovenie, ak sa hodí k téme (napr. Pána Ježiša, ktorý sám zažil poníženie). Oslovenie však vždy v tvare z CLAUDE.md („Drahý Pane Ježišu Kriste, …").
+- **Opakovanie medzi modlitbami:** pred predložením novú modlitbu strojovo porovnaj so všetkými modlitbami na webe. Zhoda štyroch a viac slov za sebou je opakovanie. Úvod „Drahý nebeský Otče, prichádzam…" už má 15 modlitieb, preto voľ iné oslovenie, ak sa hodí k téme (napr. Pána Ježiša, ktorý sám zažil poníženie). Oslovenie je tvorivé a biblické, vychádza z kontextu príhovoru (k Otcovi alebo k Pánovi Ježišovi Kristovi); „Drahý" nie je povinné (CLAUDE.md, 9. 10. 2026).
 - **Dokonalosť:** hovoriť ju o duchu („V duchu som v Tebe nový a celý"), dušu opísať ako tú, ktorá sa obnovuje Slovom (Rim 12, 2). Nepísať „moje uzdravenie je už dokonané".
 - **Krivda:** pomstu nechať Bohu (Rim 12, 19), no zároveň sa smieme brániť pravdou a zákonnou cestou (Sk 25, 10 – 11). Starozákonné príbehy (Jozef) zarámcovať: „nie je to sľub, že…".
 - **Kontext verša:** overiť, komu je verš adresovaný (1Kor 4, 5 „nič nesúďte" hovorí tým, čo súdia, preto sa ako blokový verš použili verše 3 – 4).
