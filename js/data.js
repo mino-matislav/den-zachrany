@@ -533,7 +533,9 @@ Strach ti premieta to, čo sa ešte nestalo. Božie Slovo ti hovorí, čo je pra
             { text: "Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej.", ref: "Rimanom 15, 4" },
             { text: "Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie.", ref: "Efezským 6, 16 – 17" }
         ],
-        prayer: `Drahý nebeský Otče, Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
+        prayer: `Drahý nebeský Otče,
+
+Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
 
 Poznáš obrazy, ktoré mi strach premieta v hlave. Vidím v nich to najhoršie a prežívam to, akoby sa to už stalo. Vyznávam Ti, že som im často veril viac ako Tvojmu Slovu. Ďakujem Ti, že za to nie som odsúdený.
 
@@ -854,7 +856,9 @@ Telo môže byť hlučné, ale nevládne ti. V Kristovi si slobodný a Boží Du
             { text: "Ale oblečte sa v Pána Ježiša Krista a o telo sa nestarajte (tak, aby vznikali v ňom) zlé žiadosti.", ref: "Rimanom 13, 14" },
             { text: "A telesne zmýšľať je smrť, ale duchovne zmýšľať je život a pokoj!", ref: "Rimanom 8, 6" }
         ],
-        prayer: `Drahý nebeský Otče, v Pánovi Ježišovi Kristovi mám k Tebe prístup, a preto dnes prichádzam.
+        prayer: `Drahý nebeský Otče,
+
+v Pánovi Ježišovi Kristovi mám k Tebe prístup, a preto dnes prichádzam.
 
 Poznáš môj deň. Vieš, ako ľahko ma odvedie mobil, počítač, televízia, hry, filmy či hudba. Inokedy ma zastaví únava, starosti, nečakané okolnosti alebo tisíc drobností. Často som dal prednosť pohodliu pred Tebou. Ďakujem Ti, že pre mňa za to niet odsúdenia.
 
@@ -1343,7 +1347,7 @@ Tvoje Slovo je živé. Nech koná vo mne.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-20.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-20.mp3?v=5",
         hasAudio: true,
         illustrationRef: "ako-citat-bibliu",
         tags: ["neistota", "pochybnosti", "myšlienky", "vedenie", "istota"],

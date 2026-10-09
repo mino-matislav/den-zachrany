@@ -394,7 +394,9 @@ Telo môže byť hlučné, ale nevládne ti. V Kristovi si slobodný a Boží Du
 
 ### Modlitba 13 — NASADENÁ 8. 10. 2026 s nahrávkou
 ```
-Drahý nebeský Otče, v Pánovi Ježišovi Kristovi mám k Tebe prístup, a preto dnes prichádzam.
+Drahý nebeský Otče,
+
+v Pánovi Ježišovi Kristovi mám k Tebe prístup, a preto dnes prichádzam.
 
 Poznáš môj deň. Vieš, ako ľahko ma odvedie mobil, počítač, televízia, hry, filmy či hudba. Inokedy ma zastaví únava, starosti, nečakané okolnosti alebo tisíc drobností. Často som dal prednosť pohodliu pred Tebou. Ďakujem Ti, že pre mňa za to niet odsúdenia.
 
@@ -462,7 +464,9 @@ Strach ti premieta to, čo sa ešte nestalo. Božie Slovo ti hovorí, čo je pra
 
 ### Modlitba 8 — NASADENÁ 9. 10. 2026 s nahrávkou
 ```
-Drahý nebeský Otče, Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
+Drahý nebeský Otče,
+
+Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
 
 Poznáš obrazy, ktoré mi strach premieta v hlave. Vidím v nich to najhoršie a prežívam to, akoby sa to už stalo. Vyznávam Ti, že som im často veril viac ako Tvojmu Slovu. Ďakujem Ti, že za to nie som odsúdený.
 
