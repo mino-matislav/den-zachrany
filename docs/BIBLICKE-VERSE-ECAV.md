@@ -153,3 +153,12 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **Mk 6, 31** | „Povedal im: Poďte sami na osamelé miesto a odpočiňte si trochu. Lebo toľkí prichádzali a odchádzali, že sa nemali ani kedy najesť." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
 | **Mt 4, 4** | „On však povedal: Napísané je: Nie samým chlebom bude človek žiť, ale každým slovom, ktoré vychádza z úst Božích." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
 | **Flp 2, 13** | „Však Boh je ten, ktorý pôsobí vo vás, aby ste aj chceli aj činili nad svoju dobrú vôľu." | biblia.sk (sep), 8. 10. 2026 (kap. 13) |
+| **Kol 3, 16** | „Slovo Kristovo nech prebýva vo vás bohato; vo všetkej múdrosti učte a napomínajte sa žalmami, hymnami, duchovnými piesňami a vďačne spievajte v srdciach Bohu!" | biblia.sk (sep), 9. 10. 2026 (kap. 8) |
+| **Kol 3, 3** | „Veď ste umreli, a váš život je skrytý s Kristom v Bohu." | biblia.sk (sep), 9. 10. 2026 (kap. 8, modlitba) |
+| **Rim 15, 4** | „Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej." | biblia.sk (sep), 9. 10. 2026 (kap. 8) |
+| **Rim 15, 13** | „Boh nádeje nech vás naplní všetkou radosťou a pokojom vo viere, aby ste sa mocou Ducha Svätého rozhojňovali v nádeji." | biblia.sk (sep), 9. 10. 2026 (kap. 8, modlitba) |
+| **Ef 6, 16–17** | „Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie." | biblia.sk (sep), 9. 10. 2026 (kap. 8) |
+| **1 Kor 2, 16** | „…lebo kto poznal myseľ Pánovu, aby Ho učil? My však myseľ Kristovu máme!" | biblia.sk (sep), 9. 10. 2026 (kap. 8) |
+| **Ž 1, 2** | „ale v zákone Hospodinovom má záľubu, o Jeho zákone rozjíma dňom-nocou." | biblia.sk (sep), 9. 10. 2026 (kap. 8) |
+| **Žid 13, 5** | „…Veď On sám povedal: Neopustím ťa, ani nezanechám;" | biblia.sk (sep), 9. 10. 2026 (kap. 8, len odkaz) |
+| **2 Kor 12, 9** | „ale riekol mi: Dosť máš na mojej milosti; lebo (moja) moc sa v slabosti dokonáva." (nie „milosť ti stačí") | biblia.sk (sep), 9. 10. 2026 (kap. 8, len odkaz) |

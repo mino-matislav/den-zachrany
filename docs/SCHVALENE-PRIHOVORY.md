@@ -410,3 +410,68 @@ Ty môžeš urobiť omnoho viac, ako prosím alebo rozumiem. Tvoja moc vo mne p�
 
 Amen.
 ```
+
+## Kapitola 8 — schválené 9. 10. 2026, čaká na novú nahrávku modlitby 8 (nasadiť s modlitba-8.mp3?v=5; teraz je ?v=4)
+- Mení sa: názov, podnadpis, krátky popis, scriptureTheme, tagy, verše, príhovor (fullText), modlitba (prayer). id, illustrationRef ("otvorene-pismo-svetlo"), available a isStarter zostávajú. URL kapitola-8.html závisí len od id, nie od názvu (overené v build-seo.py a app.js).
+- Názov: Keď ti strach premieta najhoršie scenáre
+- Podnadpis: Ako zastaviť film strachu v hlave a nechať v sebe prebývať Božie Slovo
+- Krátky popis: Keď si v hlave predstavuješ to najhoršie. Ako rozjímať o Božom Slove a odpovedať strachu pravdou.
+- Téma Písma: Kolosenským 3, Rimanom 15, Efezským 6
+- Tagy: myšlienky, strach, nádej, sloboda, obnova („pochybnosti" nahradené „nádej", je v slovníku tagGroups)
+- Verše (v tomto poradí, ECAV overené na biblia.sk 9. 10. 2026, ako blokové verše sa v iných kapitolách neopakujú):
+  1. Kolosenským 3, 16: "Slovo Kristovo nech prebýva vo vás bohato; vo všetkej múdrosti učte a napomínajte sa žalmami, hymnami, duchovnými piesňami a vďačne spievajte v srdciach Bohu!"
+  2. Rimanom 15, 4: "Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej."
+  3. Efezským 6, 16 – 17: "Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie."
+- V próze: 1. Korintským 2, 16 (citát doslovne ECAV), Žalm 1, 2; Židom 13, 5; 2. Korintským 12, 9 (bez úvodzoviek). V modlitbe parafrázy Rim 15, 13; Kol 3, 3; Kol 3, 16; Ef 6, 16 – 17.
+- Odkaz: slová „v sekcii Piesne" v predposlednom odseku majú byť klikateľný odkaz na piesne.html. Riešenie čaká na schválenie Admina (text v data.js ostáva obyčajný, bez HTML).
+- Pri nasadení: cielený zápis do chapterData["8"], audioUrl "assets/audio/modlitba-8.mp3?v=5", SW +1, build-seo.py, kontrola-textu.js (nález „opakované slovo (piesne)" je schválený), verify.js (exit 0), ukázať diff, push. Po nasadení porovnať živý data.js slovo po slove a overiť dĺžku živej modlitba-8.mp3.
+
+### Príhovor (blokové verše v poradí 1–3, v rovných úvodzovkách, bez odkazu za veršom)
+```
+Drahý brat, drahá sestra v Kristovi,
+
+stačí správa, ktorá neprišla, alebo výsledok, na ktorý ešte čakáš. A v hlave sa spustí film. Vidíš to najhoršie, čo sa môže stať. Premýšľaš, čo povieš, kam pôjdeš a ako to zvládneš. Srdce búši, akoby sa to už dialo. Pritom je to zatiaľ len v tvojej mysli.
+
+Možno si povieš: „Veď si to nevymýšľam. To sa naozaj môže stať.“ Áno, môže. Strach a obavy často vychádzajú zo skutočných vecí, no ukazujú ti budúcnosť bez Boha. V predstavách, ktoré sa ti premietajú v hlave, chýba Ten, ktorý je s tebou neustále.
+
+Ako ten film zastaviť? Nie tak, že sa budeš snažiť nemyslieť. Myseľ nezostane prázdna. Keď z nej jednu myšlienku vyženieš, na jej miesto príde iná. Pavel píše, čo v nás má bývať:
+
+"Slovo Kristovo nech prebýva vo vás bohato; vo všetkej múdrosti učte a napomínajte sa žalmami, hymnami, duchovnými piesňami a vďačne spievajte v srdciach Bohu!"
+
+Prebývať znamená zostať. Nestačí ráno prečítať verš a hneď naň zabudnúť. Pri rozjímaní Božie Slovo zostáva v tebe celý deň. Už žalmista opisuje človeka, ktorý premýšľa o Božom zákone vo dne i v noci (Žalm 1, 2). Je to ako vzácne jedlo, ktoré nezješ v zhone, ale pomaly si ho vychutnávaš. Božie Slovo pritom svoju chuť nikdy nestratí.
+
+V liste Rimanom je napísané aj to, prečo nám Boh dal Písmo:
+
+"Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej."
+
+Strach ti premieta budúcnosť bez nádeje. Písmo ti dáva nádej, ktorá stojí na Bohu. Nie na tom, či sa všetko podarí podľa tvojich predstáv.
+
+Na tento boj nemusíš mať vlastnú silu. V Kristovi už máš, čo potrebuješ. Veriacim v Korinte apoštol dokonca napísal: „My však myseľ Kristovu máme!“ (1. Korintským 2, 16). Tvojou úlohou je počítať s tým a používať, čo ti Boh dal.
+
+Myšlienky strachu prichádzajú ako šípy, náhle a rýchlo. V liste Efezským nájdeš, čím sa proti nim brániť:
+
+"Nadovšetko vezmite si štít viery, aby ste ním mohli uhasiť všetky ohnivé šípy tohto nešľachetníka. Vezmite si aj prilbu spasenia a meč Ducha, ktorým je slovo Božie."
+
+Tieto šípy neuhasíš tým, že o nich budeš stále premýšľať, ale vierou v Božiu pravdu. Keď ti strach povie, že zostaneš sám, odpovedz mu, že Boh ťa nikdy neopustí (Židom 13, 5). Keď ti povie, že to nezvládneš, pripomeň si, že Božia milosť ti stačí (2. Korintským 12, 9).
+
+Vyber si jeden verš, ktorý hovorí do tvojho strachu. Napíš si ho na papier alebo si ho ulož do mobilu. Keď sa film v hlave znova spustí, prečítaj si ho pomaly, nahlas alebo potichu. Vracaj sa k nemu počas dňa. Pomôcť ti môže aj pieseň. Iste poznáš, ako sa niektorá melódia zachytí v hlave a znie v nej celý deň, aj keď ťa len zaťažuje. Nech v tebe radšej znie pieseň, ktorá ti pripomína Božie Slovo. Veď aj list Kolosenským spomína žalmy, hymny a duchovné piesne. Takéto piesne nájdeš aj na tomto webe v sekcii Piesne.
+
+Strach ti premieta to, čo sa ešte nestalo. Božie Slovo ti hovorí, čo je pravda už teraz. A tvoja budúcnosť je v Božích rukách.
+```
+
+### Modlitba 8 — čaká na novú nahrávku (ElevenLabs)
+```
+Drahý nebeský Otče, Ty si Boh nádeje. Skrze Pána Ježiša Krista smiem k Tebe prísť aj so svojimi obavami.
+
+Poznáš obrazy, ktoré mi strach premieta v hlave. Vidím v nich to najhoršie a prežívam to, akoby sa to už stalo. Vyznávam Ti, že som im často veril viac ako Tvojmu Slovu. Ďakujem Ti, že za to nie som odsúdený.
+
+Ďakujem Ti, že môj život je s Kristom ukrytý v Tebe. V Ňom mám všetko, čo potrebujem: Jeho myseľ aj Tvojho Svätého Ducha.
+
+Beriem si štít viery a meč Ducha, ktorým je Tvoje Slovo. Odmietam obrazy, ktoré mi ukazujú budúcnosť bez Teba. Nechávam Slovo Kristovo bohato prebývať vo mne. Keď sa strach ozve, odpoviem mu Tvojou pravdou.
+
+Moja budúcnosť je v Tvojich rukách. Neviem, čo príde zajtra, ale viem, čo mi sľubuješ vo svojom Slove. A chcem Ťa poznávať stále viac.
+
+Naplň ma radosťou a pokojom vo viere, aby som sa mocou Ducha Svätého rozhojňoval v nádeji.
+
+Amen.
+```
