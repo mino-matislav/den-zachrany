@@ -160,14 +160,14 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
 - **15, 17, 18:** „uvoľňujem".
 - ~~**13**~~ Hotové 8. 10. 2026: nová modlitba 13 s nahrávkou (bez prikazovania a „uvoľňujem").
-- **7:** „vyhlasujem, že nebudem mať nedostatku" (Ž 34, 11); „uč ma hľadať najprv Tvoje kráľovstvo".
+- ~~**7**~~ Hotové 12. 10. 2026: nová modlitba 7 s nahrávkou.
 - ~~**8**~~ Hotové 9. 10. 2026: nová modlitba 8 s nahrávkou.
 - ~~**1** (Modlitba spásy)~~ Hotové 1. 10. 2026: nová modlitba 1 s nahrávkou. Rim 10, 13 v ECAV: „Každý človek totiž, ktorý by vzýval meno Pánovo, bude spasený." (iné znenie necitovať).
 - ~~**Úvodné slovo**~~ Hotové 1. 10. 2026: nový text aj nahrávka (vrátane Dôležitého upozornenia). Citát „Nemôžeš odomknúť dvere domu…" je zámerný.
 
 ### Plán opráv príhovorov (schválené 28. 9. 2026, každý návrh najprv Adminovi)
 - ~~Spolu v jednej úlohe: 3, 7, 25, 8, 17~~ Hotové 28. 9. 2026 (kap. 7: Mt 6, 33 nahradený Kol 3, 1–2; kap. 17: doplnený Rim 12, 18).
-- Kap. 7: zarámcovať Žalm 34, 11 („nemajú nedostatku"), aby nevyznel ako sľub hmotného dostatku.
+- ~~Kap. 7: Žalm 34, 11~~ Vyriešené 12. 10. 2026: nový príhovor, verš vypadol.
 - ~~9~~ Hotové 29. 9. 2026 (nový príhovor aj nová modlitba s nahrávkou).
 - Každá zvlášť: 12 (ťažisko na Písme, nie na vnútornom hlase).
 - Nové nálezy (prehľad príhovorov 30. 9. 2026, podľa pravidiel o uzdravení a Wommackovi):

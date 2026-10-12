@@ -439,59 +439,67 @@ Amen.`,
     },
     "7": {
         id: "7",
-        title: "Ako odpočívať v Božej vôli a zbaviť sa strachu z jej minutia",
-        subtitle: "Ako vedomie zvrchovanej Božej milosti a dokonalého načasovania prináša pokoj do ľudskej neistoty",
-        shortDescription: "Ako sa zbaviť strachu z minutia Božej vôle a vstúpiť do odpočinku v dokonalom Božom načasovaní a milosti.",
+        title: "Keď sa bojíš, že si zmeškal Božiu vôľu",
+        subtitle: "Čo robiť, keď ľutuješ stratený čas a bojíš sa, že je už neskoro",
+        shortDescription: "Keď sa obzrieš späť a pýtaš sa, či si nezmeškal Boží plán. Boh drží tvoj čas a s tebou ešte počíta.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-trápil si sa niekedy obavou, že minieš Božiu vôľu a plán pre svoj život? Mnohí kresťania žijú s týmto tichým strachom, že pre vlastné zlyhania alebo nepriateľské útoky minú Božie volanie a zasľúbenia. Písmo nám však ukazuje úplne iný obraz.
+stáva sa, že sa človek obzrie späť a zľakne sa. Roky prešli rýchlo. Niektoré príležitosti sa už nevrátia. Možno si dlho žil bez Boha. Možno si urobil rozhodnutia, ktoré dnes ľutuješ. A v hlave sa ozve otázka: „Nie je už neskoro? Nezmeškal som Božiu vôľu pre svoj život?“
 
-Predstav si biblický obraz Hrnčiara a hliny. Písmo hovorí, že Boh je Hrnčiar a my sme hlina v Jeho rukách. Keď sa nádoba v Hrnčiarových rukách pokazí, On ju nevyhodí. Pretvorí ju na inú nádobu, takú, aká sa Jemu páči. Tvoj život nie je ponechaný na náhodu. Božia vôľa pre tvoj život je zvrchovaná a mocná. To, čo Boh pre teba určil, Mu nepretečie pomedzi prsty.
-
-Počúvaj, čo hovorí Žalm 34, 11:
-
-"Levíčatá biedia a hladujú, ale tí, ktorí Hospodina hľadajú, nemajú nedostatku v ničom dobrom."
-
-A v knihe Kazateľ 3, 1 Písmo uisťuje, že Boh drží v rukách každú chvíľu:
+Táto obava je veľmi ľudská. Meriaš čas tak, ako ho meria človek. Boh ho však meria inak. Už Kniha Kazateľ hovorí:
 
 "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:"
 
-Božia vôľa nezlyháva na tvojej slabosti. Všimni si: Písmo nehovorí, že ty to máš svojou silou vynútiť. Hovorí, že Hospodin drží každý čas vo svojej ruke. Áno, prichádzajú obdobia sucha a ticha, no ak hľadáš Boha nadovšetko – nad ľudské filozofie a strachy –, Jeho vôľa ťa neminie.
+Boh nie je viazaný naším kalendárom. Aj svoje najväčšie dielo urobil vo chvíli, ktorú sám určil: „keď prišla plnosť času, poslal Boh Syna svojho“ (Galatským 4, 4). Ten istý Boh drží v rukách aj tvoj čas.
 
-V liste Židom 6, 12 máme toto pevné zasľúbenie:
+V Kristovi si sa stal Božím dedičom podľa predsavzatia Toho, ktorý „koná všetko podľa rozhodnutia svojej vôle“ (Efezským 1, 11). Si Jeho dielo, stvorené na dobré skutky, ktoré Boh vopred pripravil (Efezským 2, 10). Tvoj život sa teda nemeria tým, čo si stihol, ale tým, čo Boh v Kristovi začal.
 
-"...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení."
+A čo s rokmi, ktoré sa nedajú vrátiť? Apoštol Pavel mal za sebou minulosť, na ktorú nebol hrdý. Prenasledoval Božiu Cirkev. A predsa napísal:
 
-Viera a trpezlivé očakávanie sú kľúčom. Viera verí Božiemu charakteru a trpezlivé očakávanie odpočíva v Božom načasovaní. Boh nikdy nemešká. Často čaká do poslednej chvíle, aby bolo jasné, že to vykonala výhradne Jeho milosť a moc, nie ľudské telo.
+"…jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi."
 
-Preto sa prestaň strachovať o výsledok. Pavel píše:
+Zabudnúť neznamená zahladiť minulosť. Znamená prestať v nej žiť. Boh dokáže aj to, čo sa pokazilo, použiť na dobro tých, ktorí Ho milujú (Rimanom 8, 28).
+
+List Kolosenským ukazuje, kam sa pozerať:
 
 "Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi."
 
-Keď hľadáš Jeho, si priamo v centre Jeho vôle. Najvyššia forma viery je odpočívať v Jeho zasľúbeniach. Nemôžeš minúť to, čo pre teba Boh vo svojej dokonalej vôli pripravil. Tvojou jedinou úlohou je sýtiť sa Jeho Slovom a hľadať Jeho tvár.`,
+Keď myslíš na to, čo je hore, prestaneš merať svoj život tým, čo si nestihol. Začneš ho merať tým, kto je Kristus a čo pre teba urobil.
+
+Možno však stále čakáš. Na zmenu, na odpoveď alebo na ďalší krok. Čakanie je ťažké, no nie je to stratený čas. List Židom povzbudzuje:
+
+"...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení."
+
+Viera sa spolieha na to, kto je Boh. Trpezlivosť Mu dáva čas. A Pavel dodáva: „lebo ak neochabneme, časom svojím budeme žať“ (Galatským 6, 9).
+
+Keď ťa prepadne ľútosť nad stratenými rokmi, povedz Bohu: „Ďakujem, že môj čas je v Tvojich rukách. Dnes chcem urobiť to, čo je predo mnou.“ A potom urob jednu dobrú vec, ktorú môžeš urobiť práve dnes.
+
+Pre Boha nie je nikdy neskoro. Kým žiješ, má s tebou svoj zámer.`,
         verses: [
-            { text: "Levíčatá biedia a hladujú, ale tí, ktorí Hospodina hľadajú, nemajú nedostatku v ničom dobrom.", ref: "Žalm 34, 11" },
             { text: "Všetko má svoj čas a každé počínanie pod nebom má svoju chvíľu:", ref: "Kazateľ 3, 1" },
-            { text: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení.", ref: "Židom 6, 12" },
-            { text: "Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi.", ref: "Kolosenským 3, 1 – 2" }
+            { text: "…jedno robím: zabúdam na to, čo je za mnou, a snažím sa o to, čo je predo mnou; cieľ mám vždy pred očami a bežím za odmenou nebeského povolania Božieho v Kristovi Ježišovi.", ref: "Filipským 3, 13 – 14" },
+            { text: "Ak ste teda boli vzkriesení s Kristom, hľadajte to, čo je hore, kde Kristus sedí na pravici Božej. Myslite na to, čo je hore, a nie na to, čo je na zemi.", ref: "Kolosenským 3, 1 – 2" },
+            { text: "...aby ste nezleniveli, ale napodobňovali tých, čo svojou vierou a trpezlivým očakávaním stali sa dedičmi zasľúbení.", ref: "Židom 6, 12" }
         ],
-        prayer: `Pane Ježišu Kriste, môj Boh a môj Hrnčiar,
+        prayer: `Drahý nebeský Otče,
 
-vyznávam pred Tebou, že do môjho srdca niekedy prichádza strach, že miniem Tvoju svätú vôľu a plán, ktorý máš so mnou. Odmietam tento strach a podriaďujem sa moci Tvojho Slova. Verím, že môj život je bezpečne skrytý v Tvojich rukách.
+prichádzam k Tebe skrze Pána Ježiša Krista. Niekedy sa obzriem späť a ľutujem čas, ktorý som premárnil. Mám obavy, že som zmeškal to, čo si pre mňa pripravil. Vyznávam Ti, že som často meral svoj život tým, čo som nestihol. Ďakujem Ti, že v Kristovi moja minulosť nemá posledné slovo.
 
-Pane, Tvoja vôľa pre môj život je dokonalá a nezlyháva. Ty si Ten, ktorý ma formuje a vedie. Vyhlasujem podľa Žalmu 34, že keď Ťa hľadám, nebudem mať nedostatku v ničom dobrom – neminiem žiadne požehnanie, ktoré si mi určil. Zriekam sa snahy tlačiť na veci vo vlastnej sile alebo podľa ľudskej rozumnosti.
+Som Tvoje dielo a v Kristovi aj Tvoj dedič. Ty konáš všetko podľa rozhodnutia svojej vôle a môj čas je v Tvojich rukách.
 
-Ďakujem Ti za nadprirodzenú vieru a trpezlivé očakávanie, ktoré si vložil do môjho znovuzrodeného ducha. Rozhodujem sa odpočívať v Tvojom dokonalom načasovaní. Vyznávam, že Ty nemeškáš a že Ty sám vykonáš svoje dielo v pravom čase, aby Tebe patrila všetka sláva. Uč ma hľadať najprv Tvoje kráľovstvo a Tvoju spravodlivosť.
+Zabúdam na to, čo je za mnou, a upieram zrak na to, čo je predo mnou. Myslím na to, čo je hore, kde Kristus sedí po Tvojej pravici. Odmietam myšlienku, že je pre mňa neskoro.
 
-Ukotvujem svoju nádej v Tebe a vyhlasujem, že Tvoja zvrchovaná vôľa sa v mojom živote naplní a žiadny útok nepriateľa ju neprekazí. V mocnom mene Ježiša Krista.
+Keď čakám, daj mi vieru a trpezlivosť, aby som neochabol. Ďakujem Ti, že aj to, čo sa v mojom živote pokazilo, dokážeš použiť na dobro.
+
+Svojho Syna si poslal, keď prišla plnosť času. Ty poznáš aj môj čas. Tebe patrí sláva naveky.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-7.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-7.mp3?v=5",
         hasAudio: true,
         illustrationRef: "hrnciar-hlina",
         tags: ["neistota", "trpezlivosť", "starosti", "istota", "odpočinok"],
         available: true,
-        scriptureTheme: "Žalm 34, Kazateľ 3, Židom 6, Kolosenským 3",
+        scriptureTheme: "Kazateľ 3, Filipským 3, Kolosenským 3, Židom 6",
         isStarter: false
     },
     "8": {

@@ -595,7 +595,7 @@ Keď ti duša hovorí: „Som v koncoch,“ nenechaj jej posledné slovo. Ako ro
 Sýť teda svojho ducha Božím Slovom, obnovuj svoju myseľ pravdou a ver, že v Kristovi už máš všetko potrebné pre život s Bohom, dnes aj vo večnosti.
 ```
 
-## Kapitola 7 — schválené 9. 10. 2026, čaká na novú nahrávku modlitby 7 (nasadiť s modlitba-7.mp3?v=5; teraz je ?v=4)
+## Kapitola 7 — NASADENÉ 12. 10. 2026 (názov, príhovor, 4 verše, nová modlitba 7 s nahrávkou ?v=5)
 - Mení sa: názov, podnadpis, krátky popis, scriptureTheme, verše, príhovor (fullText), modlitba (prayer). id, tags (neistota, trpezlivosť, starosti, istota, odpočinok), illustrationRef, available, isStarter zostávajú. URL kapitola-7.html závisí len od id.
 - Názov: Keď sa bojíš, že si zmeškal Božiu vôľu
 - Podnadpis: Čo robiť, keď ľutuješ stratený čas a bojíš sa, že je už neskoro
@@ -646,7 +646,7 @@ Keď ťa prepadne ľútosť nad stratenými rokmi, povedz Bohu: „Ďakujem, že
 Pre Boha nie je nikdy neskoro. Kým žiješ, má s tebou svoj zámer.
 ```
 
-### Modlitba 7 — čaká na novú nahrávku (ElevenLabs)
+### Modlitba 7 — NASADENÁ 12. 10. 2026 s nahrávkou
 ```
 Drahý nebeský Otče,
 
