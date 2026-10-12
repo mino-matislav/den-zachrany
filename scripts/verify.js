@@ -346,8 +346,8 @@ try {
 }
 
 // ---------- 9) Zvukový profil modlitieb (voliteľné: VERIFY_AUDIO=1) ----------
-// Porovná každú modlitbu s cieľovým profilom 6/7/8/9 a UPOZORNÍ (nezastaví deploy)
-// na pásmo mimo tolerancie — hlavne bzučanie v 5–8 kHz. Pomalé (ffmpeg na každý
+// Porovná každú modlitbu so zvukovým štandardom z 12. 10. 2026 (vzory 8 a 9) a UPOZORNÍ (nezastaví deploy)
+// na pásmo mimo tolerancie alebo trvalý bzučiaci tón 4–15 kHz. Pomalé (ffmpeg na každý
 // súbor), preto default vypnuté. Cieľové hodnoty: docs/AUDIO-PREHRAVAC.md bod 9.
 console.log('\n[9] Zvukový profil modlitieb');
 if (process.env.VERIFY_AUDIO) {
