@@ -85,7 +85,7 @@ Už sa nemusím báť smrti ani zatratenia, lebo mám večný život v Tebe. Ke�
 Ďakujem Ti už teraz, hoci ešte nevidím východisko zo svojich ťažkostí. Moja dôvera sa neopiera o to, čo vidím, ale o Tvoju vernosť. Ja som slabý, ale Ty, ktorý odteraz žiješ vo mne, si Víťaz.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-1.mp3?v=9",
+        audioUrl: "assets/audio/modlitba-1.mp3?v=10",
         hasAudio: true,
         illustrationRef: "svetlo-cesta",
         tags: ["strach", "vina", "neistota", "istota", "nádej"],
@@ -140,7 +140,7 @@ Podrobujem každú jednu myšlienku do poslušnosti Kristovi. Vyznávam, že som
 Ďakujem Ti, nebeský Otče, že Tvoj neochvejný pokoj, ktorý prevyšuje každý ľudský rozum, teraz stráži moju myseľ i moje srdce v Kristovi Ježišovi. Ukončujem túto modlitbu s vedomím, že Ten, ktorý je vo mne, je väčší ako akýkoľvek strach.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-2.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-2.mp3?v=5",
         hasAudio: true,
         illustrationRef: "svetlo-vlna",
         tags: ["úzkosť", "myšlienky", "strach", "pokoj", "sloboda"],
@@ -210,7 +210,7 @@ Pane Ježišu, verím Tvojmu svedectvu z listu Filipským 4, 19, že Boh naplní
 Ukončujem túto modlitbu v tichom vedomí a plnej dôvere, že Ty sa o všetko dokonale postaráš.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-3.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-3.mp3?v=5",
         hasAudio: true,
         illustrationRef: "pergamen",
         tags: ["starosti", "úzkosť", "vyčerpanie", "pokoj", "odpočinok"],
@@ -292,7 +292,7 @@ Niekedy nechcem nikoho vidieť a chcem byť sám. Ďakujem Ti, že aj vtedy si s
 Odovzdávam Ti seba aj tých, ktorých milujem. Ďakujem Ti, že ma držíš aj vtedy, keď ja už nevládzem.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-4.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-4.mp3?v=6",
         hasAudio: true,
         illustrationRef: "voda-svetlo",
         tags: ["strata", "smútok", "bolesť", "nádej", "sila"],
@@ -360,7 +360,7 @@ Daj mi múdrosť rozoznať, kedy mám povedať pravdu a kedy mlčať. A pomôž 
 Ďakujem Ti, že stojíš pri mne a posilňuješ ma, tak ako si stál pri Pavlovi. Raz príde deň, keď ukážeš pravdu o všetkom. Dovtedy odpočívam v Tebe.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-5.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-5.mp3?v=6",
         hasAudio: true,
         illustrationRef: "svetlo-ruka",
         tags: ["krivda", "poníženie", "hnev", "prijatie", "odpustenie"],
@@ -429,7 +429,7 @@ Posilni ma svojou mocou, aby som vydržal a nevzdal sa. Daj mi múdrosť, keď n
 Ďakujem Ti, že si mojou pomocou v súžení. Tlak možno hneď nezmizne, ale dnes sa opieram o Teba a idem ďalej. Prinášam Ti to v mene Pána Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-6.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-6.mp3?v=6",
         hasAudio: true,
         illustrationRef: "stlp-ohna",
         tags: ["vyčerpanie", "bezmocnosť", "strach", "sila", "trpezlivosť"],
@@ -494,7 +494,7 @@ Keď čakám, daj mi vieru a trpezlivosť, aby som neochabol. Ďakujem Ti, že a
 Svojho Syna si poslal, keď prišla plnosť času. Ty poznáš aj môj čas. Tebe patrí sláva naveky.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-7.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-7.mp3?v=6",
         hasAudio: true,
         illustrationRef: "hrnciar-hlina",
         tags: ["neistota", "trpezlivosť", "starosti", "istota", "odpočinok"],
@@ -685,7 +685,7 @@ S dôverou Ti prinášam všetko, čo ma ťaží. Prosím Ťa, posilňuj ma v mo
 V mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-10.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-10.mp3?v=6",
         hasAudio: true,
         illustrationRef: "autorita-vladnutie-kristus",
         tags: ["bezmocnosť", "strach", "úzkosť", "víťazstvo", "odvaha"],
@@ -747,7 +747,7 @@ Ak sa niekde pomýlim, viem, že neostanem ležať. Ty ma podopieraš a vedieš 
 Tvoja múdrosť je hlbšia, než dokážem pochopiť. Z Teba, skrze Teba a pre Teba je všetko. Tebe sláva naveky.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-11.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-11.mp3?v=6",
         hasAudio: true,
         illustrationRef: "pan-riadi-kroky-svetlo",
         tags: ["neistota", "pochybnosti", "strach", "vedenie", "istota"],
@@ -816,7 +816,7 @@ Podľa 2. listu Korintským 10, 5 podrobujem každú myšlienku v poslušnosť K
 V mocnom mene Ježiša Krista prijímam Tvoj pokoj nad svojou mysľou a vyhlasujem, že môj život je skrytý v Kristovi.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-12.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-12.mp3?v=6",
         hasAudio: true,
         illustrationRef: "bozi-hlas-pokoj-mysel",
         tags: ["myšlienky", "pochybnosti", "strach", "vedenie", "pokoj"],
@@ -885,7 +885,7 @@ Daj mi múdrosť rozlíšiť, kedy potrebujem odpočinok a kedy je to len odpor 
 Ty môžeš urobiť omnoho viac, ako prosím alebo rozumiem. Tvoja moc vo mne pôsobí. Tebe buď sláva v Kristovi Ježišovi naveky.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-13.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-13.mp3?v=5",
         hasAudio: true,
         illustrationRef: "stisenie-tela-bozie-slovo",
         tags: ["vyčerpanie", "myšlienky", "sloboda", "sila", "odpočinok"],
@@ -943,7 +943,7 @@ Tebe patrí všetka vďaka, chvála a sláva za dokonané dielo spasenia.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-14.mp3?v=3",
+        audioUrl: "assets/audio/modlitba-14.mp3?v=4",
         hasAudio: true,
         illustrationRef: "obnova-ducha-nove-stvorenie",
         tags: ["vina", "vyčerpanie", "prijatie", "obnova", "odpočinok"],
@@ -995,7 +995,7 @@ Vyhlasujem, že moja duša je slobodná od horkosti, hnevu a túžby po odplate.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-15.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-15.mp3?v=5",
         hasAudio: true,
         illustrationRef: "sloboda-odpustenia-horkost",
         tags: ["hnev", "bolesť", "sloboda", "odpustenie", "pokoj"],
@@ -1057,7 +1057,7 @@ Vyhlasujem Tvoj pokoj nad svojimi vzťahmi a nad svojím jazykom.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-16.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-16.mp3?v=5",
         hasAudio: true,
         illustrationRef: "pokoj-vo-vztahoch",
         tags: ["hnev", "bolesť", "pokoj", "obnova", "nádej"],
@@ -1136,7 +1136,7 @@ Vyznávam Ti, že som doma nejeden raz priniesol napätie namiesto pokoja. Ďaku
 Nech je pokoj tomuto domu.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-17.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-17.mp3?v=5",
         hasAudio: true,
         illustrationRef: "pokoj-tvojmu-domu",
         tags: ["strach", "osamelosť", "pokoj", "odpočinok", "istota"],
@@ -1204,7 +1204,7 @@ Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi od
 Ďakujem Ti, že aj keď som sám, nie som opustený.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-18.mp3?v=7",
+        audioUrl: "assets/audio/modlitba-18.mp3?v=8",
         hasAudio: true,
         illustrationRef: "bozia-blizkost-v-osamelosti",
         tags: ["osamelosť", "smútok", "bolesť", "prijatie", "nádej"],
@@ -1268,7 +1268,7 @@ A tak dnes prestávam byť svojím vlastným sudcom. Prepúšťam zo svojho vnú
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-19.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-19.mp3?v=5",
         hasAudio: true,
         illustrationRef: "prijatie-bozieho-odpustenia",
         tags: ["vina", "pochybnosti", "odpustenie", "prijatie", "sloboda"],
@@ -1359,7 +1359,7 @@ Tvoje Slovo je živé. Nech koná vo mne.
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-20.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-20.mp3?v=6",
         hasAudio: true,
         illustrationRef: "ako-citat-bibliu",
         tags: ["neistota", "pochybnosti", "myšlienky", "vedenie", "istota"],
@@ -1434,7 +1434,7 @@ Zostávam v pokoji, ktorý si mi dal, bez ohľadu na to, čo tento deň prinesie
 V mocnom mene Ježiša Krista.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-21.mp3?v=4",
+        audioUrl: "assets/audio/modlitba-21.mp3?v=5",
         hasAudio: true,
         illustrationRef: "pokoj-ked-svet-kricí",
         tags: ["strach", "úzkosť", "neistota", "pokoj", "odvaha"],
@@ -1464,7 +1464,7 @@ Amen.`,
             { text: "A takými ste vy niektorí boli; ale dali ste sa obmyť, boli ste posvätení, ospravedlnení v mene Pána Ježiša Krista a v Duchu nášho Boha.", ref: "1. Korintským 6, 11" }
         ],
         prayer: "Drahý nebeský Otče,\n\nprichádzam k Tebe v mene Pána Ježiša Krista.\n\nTy poznáš moje srdce. Poznáš aj to, čo skrývam pred ľuďmi. Pred Tebou však nechcem nič zakrývať.\n\nVyznávam Ti svoju sexuálnu nečistotu, svoju žiadostivosť, nečisté predstavy, pornografiu, sebaukájanie a všetko, čím som vo svojom tele a mysli dával priestor tomu, čo nie je podľa Tvojej vôle.\n\nNechcem svoj hriech ospravedlňovať. Nechcem ho ani zľahčovať. Ale nechcem sa už ani skrývať pred Tebou v hanbe.\n\nĎakujem Ti za Pána Ježiša Krista. Ďakujem Ti, že Jeho obeť bola za moje hriechy dokonaná a že v Ňom mám odpustenie.\n\nĎakujem Ti, že moje prijatie pred Tebou nestojí na mojom výkone, ale na Kristovi.\n\nĎakujem Ti, že moje telo je chrámom Ducha Svätého a že patrím Tebe.\n\nPane Ježišu, nechcem, aby ma hriech ovládal. Nechcem byť otrokom pornografie. Nechcem byť otrokom sexuálnej žiadostivosti. Nechcem živiť nečisté predstavy. Nechcem dávať svojmu telu a svojej mysli to, čo patrí starému životu.\n\nDaj mi silu utekať pred tým, pred čím mám utiecť. Daj mi múdrosť odstrániť to, čo ma vedie k pádu.\n\nĎakujem Ti, že v Kristovi som nové stvorenie a že si mi dal nové srdce. Preto vo viere upriamujem svoje oči aj svoje myšlienky na Teba a na to, čo je čisté.\n\nObnovuj moju myseľ svojím Slovom.\n\nKeď príde pokušenie, pripomeň mi, komu patrím. Keď padnem, nedovoľ mi utiecť od Teba. Daj mi pokoru vyznať Ti svoj hriech a vieru prijať Tvoje odpustenie.\n\nĎakujem Ti, že v Kristovi nie som odsúdený. Ďakujem Ti, že hriech už nemusí vládnuť nad mojím životom. Ďakujem Ti, že som v Kristovi dostal nový život a môžem kráčať v novote života.\n\nNech moje telo, moje oči, moje myšlienky aj moje túžby patria Tebe. Nech môj život oslavuje Teba.\n\nV mocnom mene Pána Ježiša Krista.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-22.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-22.mp3?v=6",
         hasAudio: true,
         illustrationRef: "cesta-z-necistoty-k-slobode",
         tags: ["závislosť", "vina", "trpezlivosť", "sloboda", "odpustenie"],
@@ -1488,7 +1488,7 @@ Amen.`,
             { text: "Lebo milosťou ste spasení skrze vieru. A to nie sami zo seba; je to dar Boží; nie zo skutkov, aby sa nikto nechválil.", ref: "Efezským 2, 8-9" }
         ],
         prayer: "Drahý Pane Ježišu Kriste,\n\nprichádzam k Tebe s vďakou za dobu milosti, v ktorej smiem žiť. Ďakujem Ti za Tvoje dokonané dielo na kríži, ktorým si ma vytrhol zo smrti do života.\n\nVyznávam, že bez Teba bol môj duch mŕtvy pre vlastné prestúpenie a hriechy. Ďakujem Ti, že v okamihu, keď som uveril, Tvoj Duch oživil môjho ducha a urobil ma novým stvorením.\n\nĎakujem Ti, že môj znovuzrodený duch je čistý a naplnený Tvojím životom a že v Tebe už mám všetko potrebné — Tvoj pokoj, Tvoju radosť a Tvoje víťazstvo. Nemusím si to vyprosovať, už si mi to daroval.\n\nKeď je moja duša skleslá, nedávam posledné slovo svojim pocitom. Podriaďujem svoju myseľ, city i vôľu Tvojmu Slovu a obnovujem sa duchom svojej mysle. Vyhlasujem, že v Tebe už mám pokoj a víťazstvo, aj keď to ešte necítim.\n\nĎakujem Ti, že všetko je to čistý dar Tvojej milosti, nie odmena za môj výkon. Kráčam vo víťazstve, ktoré si mi už dal.\n\nTebe, Pane Ježišu, patrí sláva a vďaka.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-23.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-23.mp3?v=3",
         hasAudio: true,
         illustrationRef: "znovuzrodeny-duch-dusa-a-telo",
         tags: ["smútok", "pochybnosti", "obnova", "víťazstvo", "istota"],
@@ -1510,7 +1510,7 @@ Amen.`,
             { text: "Lebo som presvedčený, že ani smrť, ani život, ani anjeli, ani kniežatstvá, ani prítomnosť, ani budúcnosť, ani mocnosti, ani vysokosť, ani hlbokosť, ani nijaké iné stvorenstvá nemôžu nás odlúčiť od lásky Božej, ktorá je v Kristovi Ježišovi, našom Pánovi.", ref: "Rimanom 8, 38-39" }
         ],
         prayer: "Drahý nebeský Otče, môj Vodca a moja Cesta,\n\nprichádzam k Tebe v situácii, z ktorej nevidím cestu. Neviem, čo bude ďalej, ani ako sa to skončí. Nechcem predstierať, že všetko zvládam.\n\nVyznávam Ti, že som sa spoliehal na vlastné sily a že mi došli. Ty poznáš moje okolnosti lepšie ako ja a vidíš to, čo ja nevidím. Preto svoju nádej nevkladám do svojich schopností, ale do Teba.\n\nĎakujem Ti, že moja budúcnosť nie je mimo Tvojej moci a že ma od Tvojej lásky v Kristovi nemôže odlúčiť ani to, čoho sa dnes bojím.\n\nĎakujem Ti, že v Kristovi som už dostal Tvoj pokoj — pokoj, ktorý nezávisí od toho, či vidím riešenie. Preto nemusím konať zo strachu.\n\nDaj mi silu urobiť ďalší správny krok a trpezlivosť počkať, kým mi ho ukážeš.\n\nĎakujem Ti za Pána Ježiša Krista, za Jeho dokonané dielo a za istotu, ktorú mám v Ňom.\n\nV mene Pána Ježiša Krista.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-24.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-24.mp3?v=3",
         hasAudio: true,
         illustrationRef: "ked-nevidis-ziadnu-cestu",
         tags: ["bezmocnosť", "vyčerpanie", "starosti", "nádej", "vedenie"],
@@ -1532,7 +1532,7 @@ Amen.`,
             { text: "A pobožnosť so spokojnosťou je skutočne veľkým ziskom; lebo nič sme nepriniesli na svet a nepochybné je, ani nič odniesť nemôžeme. Preto, keď máme pokrm a odev, s tým sa uspokojíme.", ref: "1. Timoteovi 6, 6-8" }
         ],
         prayer: "Drahý Pane Ježišu Kriste,\n\nprichádzam k Tebe s prázdnymi rukami a s obavami v srdci. Prišiel som o prácu a neviem, ako budem zabezpečovať seba a svoju rodinu.\n\nTy vieš, prečo som sa ocitol tam, kde som. Vieš aj to, čo je predo mnou a ja to ešte nevidím. Preto Ti dôverujem aj v tom, čomu dnes nerozumiem.\n\nĎakujem Ti, že som Tvoje dielo a že ma nedefinuje moje zamestnanie, ale to, že patrím Tebe. Aj bez práce mám u Teba rovnakú hodnotu.\n\nĎakujem Ti za Tvoju obeť na kríži. Keď mi Otec dal to najcennejšie, čo mal, viem, že mi dá aj to, čo dnes potrebujem na živobytie.\n\nĎakujem Ti, že v Tebe už mám pokoj, ktorý prevyšuje každý rozum. Pokoj, ktorý nezávisí od toho, či už mám podpísanú novú pracovnú zmluvu.\n\nDaj mi múdrosť, kam urobiť ďalší krok, a otvor dvere, ktoré mám prejsť. Priveď do mojej cesty ľudí, cez ktorých chceš konať.\n\nDo Tvojich rúk vkladám starosti o všetky svoje životné náklady aj o zajtrajšok. Uč ma byť spokojný s tým, čo mi dávaš.\n\nĎakujem Ti za Tvoje dokonané dielo a za istotu, že ma neopustíš.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-25.mp3?v=1",
+        audioUrl: "assets/audio/modlitba-25.mp3?v=2",
         hasAudio: true,
         illustrationRef: "ked-prides-o-pracu",
         tags: ["starosti", "bezmocnosť", "neistota", "istota", "prijatie"],
@@ -1554,7 +1554,7 @@ Amen.`,
             { text: "…ale riekol mi: Dosť máš na mojej milosti; lebo (moja) moc sa v slabosti dokonáva. Najradšej sa teda budem chváliť slabosťami, aby prebývala vo mne moc Kristova.", ref: "2. Korintským 12, 9" }
         ],
         prayer: "Drahý nebeský Otče, môj Záchranca a moja Sila,\n\nprichádzam k Tebe taký, aký som. Ty vieš, po čom siaham, keď už nevládzem. Vieš aj to, koľkokrát som Tebe aj sebe sľúbil, že už nikdy.\n\nVyznávam Ti, že som znova padol. Nechcem to pred Tebou zakrývať. Ďakujem Ti, že mi je to v Kristovi už odpustené a že môj pád nezrušil Jeho dokonané dielo.\n\nĎakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri. Chcem Mu dávať priestor. Nech moje dni napĺňa čas s Tebou: modlitba, Tvoje Slovo, piesne aj ľudia, s ktorými sa môžem o Tebe rozprávať. Nie pohár ani látka.\n\nStojím na Tvojom Slove, že hriech nado mnou nebude panovať, lebo nie som pod zákonom, ale pod milosťou. Moja závislosť nie je moja identita. Som Tvoje dieťa. V mene Pána Ježiša vyhlasujem, že táto túžba nie je mojím pánom.\n\nKeď príde pokušenie, ukáž mi cestu von, ktorú si pripravil. Daj mi múdrosť odísť a odvahu zavolať niekomu, komu dôverujem. Ak potrebujem lekára alebo liečbu, priveď ma k správnym ľuďom, nech ten krok urobím bez hanby.\n\nTam, kde ma niečo trápi a bolí, uč ma prinášať to k Tebe, a nie utekať preč.\n\nĎakujem Ti, že Tvoja moc sa prejavuje práve v mojej slabosti. Ak znova padnem, nebudem sa pred Tebou skrývať. Poviem Ti pravdu, vstanem a pôjdem ďalej.\n\nPatrím Tebe a učím sa kráčať v slobode, ktorú mi Kristus dal.\n\nV mene Pána Ježiša Krista.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-26.mp3?v=2",
+        audioUrl: "assets/audio/modlitba-26.mp3?v=3",
         hasAudio: true,
         illustrationRef: "ked-ta-ovlada-flasa-alebo-droga",
         tags: ["závislosť", "bezmocnosť", "vina", "sloboda", "nádej"],
@@ -1575,7 +1575,7 @@ Amen.`,
             { text: "Preto aj my odo dňa, ako sme to počuli, neprestávame sa modliť za vás a prosiť, kiež ste naplnení poznaním Jeho vôle vo všetkej múdrosti a duchovnej rozumnosti,", ref: "Kolosenským 1, 9" }
         ],
         prayer: "Drahý Pane Ježišu Kriste,\n\nprichádzam k Tebe s tým, čo Ti hovorím už dlho. Ty vieš, na čo čakám a aj to, že som už z toho unavený.\n\nVyznávam Ti, že vo mne rástla pochybnosť, či ma vôbec počuješ. Ďakujem Ti, že Tvoja odpoveď nezávisí od toho, ako dobre sa modlím, ale od toho, že v Tebe som Božie dieťa.\n\nProsím Ťa o múdrosť, lebo Boh ju dáva ochotne a bez výčitiek. Ukáž mi, čo mám robiť, a daj mi poznať vôľu môjho Otca.\n\nĎakujem Ti, že Svätý Duch prebýva vo mne a prihovára sa za mňa aj vtedy, keď nemám slová. Keď už neviem, o čo prosiť, chcem sa oprieť aj o toto.\n\nUč ma prijať aj odpoveď, ktorú som nečakal. Ak povieš počkaj, daj mi trpezlivosť. Ak máš pre mňa inú cestu, ukáž mi ju a daj mi ochotu po nej ísť. Verím, že Tvoje riešenie je lepšie ako to moje.\n\nVyhlasujem, že nie som sám. Keď mlčíš, neznamená to, že si neprítomný.\n\nNechcem preto len nečinne čakať. Sám zo seba neviem, čo je správne. Preto chcem s Tebou hovoriť ďalej, čítať Tvoje Slovo a poslúchnuť to, čo mi v Ňom hovoríš.\n\nPatrím Tebe a dôverujem Ti.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-27.mp3?v=1",
+        audioUrl: "assets/audio/modlitba-27.mp3?v=2",
         hasAudio: true,
         illustrationRef: "boze-pocujes-ma-vobec",
         tags: ["neistota", "trpezlivosť", "pochybnosti", "vedenie", "nádej"],
@@ -1596,7 +1596,7 @@ Amen.`,
             { text: "Ak sa Mu spreneverujeme, On zostáva verný, lebo seba samého nemôže zaprieť.", ref: "2. Timoteovi 2, 13" }
         ],
         prayer: "Drahý nebeský Otče, môj verný Bože,\n\nľudia mi už veľakrát niečo sľúbili a nedodržali to. Ani ja som nedodržal všetko, čo som sľúbil. Ty si však iný. Čo povieš, to platí.\n\nČasto som istotu hľadal v ľuďoch a vo vlastných silách. Ďakujem Ti, že aj toto mám v Kristovi odpustené.\n\nĎakujem Ti, že všetky Tvoje zasľúbenia sú v Kristovi áno. Som v Ňom prijatý a nie som odsúdený. Platí to aj v dňoch, keď to tak necítim.\n\nMoja viera býva slabá a niekedy ani neviem, ako sa modliť. Ty však zostávaš verný. Pomôž mi počúvať Tvoje Slovo a dôverovať Mu.\n\nTy konáš z milosti, nie preto, že som si to zaslúžil.\n\nKladiem pred Teba, čo ma ťaží. Ty vieš, čo potrebujem, aj kedy a ako konať. Preto sa ako Abrahám nechcem pozerať na seba, ale na Teba. Ty, ktorý si dal zasľúbenie, ho môžeš aj uskutočniť.\n\nZa všetko Ti ďakujem skrze Pána Ježiša Krista.\n\nAmen.",
-        audioUrl: "assets/audio/modlitba-28.mp3?v=1",
+        audioUrl: "assets/audio/modlitba-28.mp3?v=2",
         hasAudio: true,
         illustrationRef: "boh-nezmeni-co-povedal",
         tags: ["pochybnosti", "neistota", "bezmocnosť", "istota", "nádej"],
