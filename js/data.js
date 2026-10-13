@@ -964,43 +964,41 @@ Mnohí kresťania žijú v neustálom vnútornom vyčerpaní a nepokoji nie pret
 
 Často sa však vyhýbame odpusteniu kvôli veľkému nedorozumeniu. Myslíme si, že odpustiť znamená zľahčovať hriech, tváriť sa, že sa nič nestalo, alebo dať človeku právo, aby nám ubližoval znova.
 
-Biblické odpustenie však nie je naivita. Odpustenie neznamená, že to, čo ten človek urobil, bolo v poriadku. Odpustenie znamená, že odovzdávaš dlžobný úpis do rúk jediného Spravodlivého Sudcu — Boha. Prestávaš byť tým, kto vymáha trest, a dovoľuješ Bohu, aby bol v celej situácii Bohom.
+Biblické odpustenie však nie je naivita. Odpustenie neznamená, že to, čo ten človek urobil, bolo v poriadku. Odpustenie znamená, že odovzdávaš dlžobný úpis do rúk jediného Spravodlivého Sudcu — Boha. Prestávaš byť tým, kto vymáha trest. Spravodlivosť je v Božích rukách.
 
-Apoštol Pavel v liste Efezanom odhaľuje, aký postoj prináša skutočnú úľavu a uzdravenie pre ľudskú dušu:
+Apoštol Pavel v liste Efezským odhaľuje, aký postoj prináša skutočnú úľavu a uzdravenie pre ľudskú dušu:
 
 "Každá rozhorčenosť a vášnivosť, hnev a krik i rúhanie so všetkou zlosťou nech sú vám vzdialené. Ale buďte vospolok dobrotiví, milosrdní, odpúšťajte si, ako aj Boh odpustil vám v Kristovi."
 
 Všimni si ten kľúčový základ: „...ako aj Boh odpustil vám v Kristovi."
 
-Boh od teba nežiada, aby si odpúšťal zo svojej vlastnej ľudskej sily. Z ľudského hľadiska je to niekedy nemožné. Bolesť býva príliš hlboká. No keď si uvedomíš obrovský dlh, ktorý Boh odpustil tebe na kríži — keď si bol ešte Jeho nepriateľom — v tvojom znovuzrodenom duchu sa uvoľní milosť odpustiť aj tým, ktorí ublížili tebe.
+Boh od teba nežiada, aby si odpúšťal zo svojej vlastnej ľudskej sily. Z ľudského hľadiska je to niekedy nemožné. Bolesť býva príliš hlboká. No keď si uvedomíš obrovský dlh, ktorý Boh odpustil tebe na kríži — keď si bol ešte Jeho nepriateľom — zistíš, že v znovuzrodenom duchu už máš milosť odpustiť aj tým, ktorí ublížili tebe.
 
 Odpustenie nie je pocit, ktorý musíš najprv pocítiť. Odpustenie je rozhodnutie vôle. Je to duchovný krok, ktorým presekávaš reťaz, čo ťa pútala k človeku, ktorý ti ublížil. Kým neodpustíš, tvoje vnútro zostáva spojené s danou krivdou. V momente, keď odpustíš, otváraš dvere svojho vlastného väzenia a zisťuješ, že väzňom, ktorý bol oslobodený, si bol ty sám.
 
 Rovnako je dôležité rozlišovať medzi odpustením a dôverou. Odpustenie je okamžité, bezpodmienečné a dáva sa zadarmo na základe Kristovej obete. Dôvera a obnovenie blízkeho vzťahu sa však budujú postupne a vyžadujú si čas aj ovocie pokánia na druhej strane. Môžeš človeku z celého srdca odpustiť a žiť v úplnom pokoji, aj keď s ním už nevstúpiš do rovnakého úzkeho vzťahu. Odpustenie ti vracia slobodu, ľahkosť a schopnosť znova milovať bez strachu zo zranenia.`,
         verses: [
-            { text: "Každá rozhorčenosť a vášnivosť, hnev a krik i rúhanie so všetkou zlosťou nech sú vám vzdialené. Ale buďte vospolok dobrotiví, milosrdní, odpúšťajte si, ako aj Boh odpustil vám v Kristovi.", ref: "Efezanom 4, 31 – 32" }
+            { text: "Každá rozhorčenosť a vášnivosť, hnev a krik i rúhanie so všetkou zlosťou nech sú vám vzdialené. Ale buďte vospolok dobrotiví, milosrdní, odpúšťajte si, ako aj Boh odpustil vám v Kristovi.", ref: "Efezským 4, 31 – 32" }
         ],
         prayer: `Drahý nebeský Otče,
 
-prichádzam pred Tvoju svätú tvár v mene Ježiša Krista. Ďakujem Ti za nesmiernu milosť a lásku, ktorou si mi odpustil všetky moje zlyhania a hriechy na kríži. Uvedomujem si, že keby bol môj vzťah s Tebou založený na mojich zásluhách, nikdy by som pred Tebou neobstál.
+prichádzam pred Tvoju svätú tvár skrze Pána Ježiša Krista. Ďakujem Ti za nesmiernu milosť a lásku, ktorou si mi odpustil všetky moje zlyhania a hriechy na kríži. Uvedomujem si, že keby bol môj vzťah s Tebou založený na mojich zásluhách, nikdy by som pred Tebou neobstál.
 
 Otče, Ty vidíš moje srdce a poznáš každé zranenie, krivdu a sklamanie, ktoré som v živote zažil. Vidíš aj bolesť a hnev, ktoré som si možno dlho niesol vo svojom vnútri. Dnes sa rozhodujem nezostávať väzňom horkosti ani minulosti.
 
-Na základe Tvojho Slova z Efezanom 4 robím dnes vedomé rozhodnutie: odpúšťam všetkým, ktorí mi ublížili, všetko, čím mi ublížili, čo mi vzali alebo ako ma zradili. Skladám túto krivdu k Tvojim nohám a odpúšťam im ich dlh. Prestávam byť ich sudcom a odovzdávam celú situáciu do Tvojich spravodlivých rúk.
+Ako si Ty v Kristovi odpustil mne, tak aj ja dnes odpúšťam všetkým, ktorí mi ublížili. Odpúšťam im každú krivdu, všetko, čo mi vzali, aj každú zradu. Skladám to všetko k Tvojim nohám. Prestávam byť ich sudcom a odovzdávam celú situáciu do Tvojich spravodlivých rúk.
 
-Vyhlasujem, že moja duša je slobodná od horkosti, hnevu a túžby po odplate. Prijímam Tvoj pokoj, ktorý prevyšuje každý ľudský rozum. Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri. Uvoľňujem dnes Jeho ovocie — milosť pozerať sa na ľudí okolo seba pohľadom Tvojej lásky a odpustenia.
+Odmietam horkosť, hnev aj túžbu po odplate. Prijímam Tvoj pokoj, ktorý prevyšuje každý ľudský rozum. Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri a že Jeho ovocím je láska. Chcem sa dnes na ľudí okolo seba pozerať s touto láskou a odpustením.
 
 Ďakujem Ti, že v Kristovi som úplne slobodný.
 
-V mocnom mene Ježiša Krista.
-
 Amen.`,
-        audioUrl: "assets/audio/modlitba-15.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-15.mp3?v=6",
         hasAudio: true,
         illustrationRef: "sloboda-odpustenia-horkost",
         tags: ["hnev", "bolesť", "sloboda", "odpustenie", "pokoj"],
         available: true,
-        scriptureTheme: "Efezanom 4",
+        scriptureTheme: "Efezským 4",
         isStarter: false
     },
     "16": {
@@ -1123,20 +1121,20 @@ Tvoj domov sa nezmení za jeden večer. Ale môže sa začať meniť dnes – a 
 
 prichádzam k Tebe a prinášam Ti svoj domov. Ľudí, s ktorými žijem, aj napätie, ktoré medzi nami býva.
 
-Ďakujem Ti, že mojím útočišťom nie je stavba ani miesto, ale Ty sám. Že smiem prebývať v skrýši Najvyššieho a odpočívať v tôni Všemohúceho aj vtedy, keď okolnosti okolo mňa pokojné nie sú.
+Ďakujem Ti, že mojím útočiskom nie je stavba ani miesto, ale Ty sám. Že smiem prebývať v skrýši Najvyššieho a odpočívať v tôni Všemohúceho aj vtedy, keď okolnosti okolo mňa pokojné nie sú.
 
-Nežiadam si od Teba záruku, že sa nám nikdy nič nestane. Prosím o niečo iné – aby sme aj v ťažkom čase mali pokoj, ktorý nepochádza z okolností, ale z Teba.
+Zverujem Ti každého v našom dome. Prosím Ťa, aby sme aj v ťažkom čase mali pokoj, ktorý nepochádza z okolností, ale z Teba.
 
 Ďakujem Ti za Tvoje slová, že svoj pokoj nám dávaš inak, než ho dáva svet. Prijímam ho dnes do svojho srdca aj do svojho domova.
 
-Rozhodujem sa dnes ako Józua: ja a môj dom budeme slúžiť Hospodinovi. Za druhých rozhodnúť neviem, ale za seba áno.
+Rozhodujem sa dnes ako Józua: ja a môj dom budeme slúžiť Hospodinovi.
 
-Vyznávam Ti, že som doma nejeden raz priniesol napätie namiesto pokoja. Ďakujem Ti, že mi je to v Tebe už odpustené. Ďakujem, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Uvoľňujem ho dnes do svojich slov aj do svojich reakcií.
+Vyznávam Ti, že som domov nejeden raz priniesol napätie miesto pokoja. Ďakujem Ti, že mi je to v Tebe už odpustené. Ďakujem, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Nechávam ho rozhodovať v mojom srdci aj v tom, čo hovorím a ako reagujem.
 
 Nech je pokoj tomuto domu.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-17.mp3?v=5",
+        audioUrl: "assets/audio/modlitba-17.mp3?v=6",
         hasAudio: true,
         illustrationRef: "pokoj-tvojmu-domu",
         tags: ["strach", "osamelosť", "pokoj", "odpočinok", "istota"],
@@ -1193,18 +1191,18 @@ prichádzam k Tebe s tým, čo len ťažko hovorím nahlas. Som osamelý. Sú dn
 
 Vyznávam Ti, že som v tom tichu neraz uveril klamstvu, že si na mňa zabudol aj Ty. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda je silnejšia než môj pocit.
 
-Ďakujem Ti, že si videl muža pri jazere Betezda, na ktorého nikto tridsaťosem rokov nemal čas. Ty vidíš aj mňa. Nie som pre Teba jeden zo zástupu.
+Ďakujem Ti, že ako si videl muža pri jazere Betezda, na ktorého nikto tridsaťosem rokov nemal čas, tak vidíš aj mňa. Nie som pre Teba len jeden zo zástupu.
 
 Ďakujem Ti za Tvoje slovo, že ma nikdy neopustíš, ani nezanecháš. Nestojí to na tom, aký som, ale na tom, aký si Ty. Prijímam to dnes za pravdu o svojom živote.
 
-Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Uvoľňujem ho do tohto ticha.
+Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Tento pokoj prijímam aj do tohto ticha.
 
 Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi odvahu urobiť prvý krok tam, kde ho mám urobiť ja.
 
 Ďakujem Ti, že aj keď som sám, nie som opustený.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-18.mp3?v=8",
+        audioUrl: "assets/audio/modlitba-18.mp3?v=9",
         hasAudio: true,
         illustrationRef: "bozia-blizkost-v-osamelosti",
         tags: ["osamelosť", "smútok", "bolesť", "prijatie", "nádej"],

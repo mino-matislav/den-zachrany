@@ -158,7 +158,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
-- **15, 17, 18:** „uvoľňujem".
+- ~~**15, 17, 18**~~ Hotové 13. 10. 2026: nové modlitby 15, 17, 18 s nahrávkou (bez „uvoľňujem").
 - ~~**13**~~ Hotové 8. 10. 2026: nová modlitba 13 s nahrávkou (bez prikazovania a „uvoľňujem").
 - ~~**7**~~ Hotové 12. 10. 2026: nová modlitba 7 s nahrávkou.
 - ~~**8**~~ Hotové 9. 10. 2026: nová modlitba 8 s nahrávkou.

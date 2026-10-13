@@ -665,7 +665,7 @@ Amen.
 
 ---
 
-## Kapitola 15 — modlitba schválená 13. 10. 2026 (čaká na nahrávku, ?v=6)
+## Kapitola 15 — modlitba schválená 13. 10. 2026 — NASADENÉ 13. 10. 2026 s nahrávkou ?v=6
 
 ### Opravy kapitoly 15 (cielené náhrady)
 - verses[0].ref: „Efezanom 4, 31 – 32“ → „Efezským 4, 31 – 32“
@@ -692,7 +692,7 @@ Odmietam horkosť, hnev aj túžbu po odplate. Prijímam Tvoj pokoj, ktorý prev
 Amen.
 ```
 
-## Kapitola 17 — modlitba schválená 13. 10. 2026 (čaká na nahrávku, ?v=6)
+## Kapitola 17 — modlitba schválená 13. 10. 2026 — NASADENÉ 13. 10. 2026 s nahrávkou ?v=6
 
 Opakovanie „svojho … svojho“ je zámerné a schválené.
 
@@ -717,7 +717,7 @@ Nech je pokoj tomuto domu.
 Amen.
 ```
 
-## Kapitola 18 — modlitba schválená 13. 10. 2026 (čaká na nahrávku, ?v=9)
+## Kapitola 18 — modlitba schválená 13. 10. 2026 — NASADENÉ 13. 10. 2026 s nahrávkou ?v=9
 
 Opakovanie „urobiť … urobiť“ je zámerné a schválené.
 
