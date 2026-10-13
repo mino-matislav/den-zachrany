@@ -662,3 +662,82 @@ Svojho Syna si poslal, keď prišla plnosť času. Ty poznáš aj môj čas. Teb
 
 Amen.
 ```
+
+---
+
+## Kapitola 15 — modlitba schválená 13. 10. 2026 (čaká na nahrávku, ?v=6)
+
+### Opravy kapitoly 15 (cielené náhrady)
+- verses[0].ref: „Efezanom 4, 31 – 32“ → „Efezským 4, 31 – 32“
+- scriptureTheme: „Efezanom 4“ → „Efezským 4“
+- fullText:
+  1. „Apoštol Pavel v liste Efezanom odhaľuje“ → „Apoštol Pavel v liste Efezským odhaľuje“
+  2. „Prestávaš byť tým, kto vymáha trest, a dovoľuješ Bohu, aby bol v celej situácii Bohom.“ → „Prestávaš byť tým, kto vymáha trest. Spravodlivosť je v Božích rukách.“
+  3. „— v tvojom znovuzrodenom duchu sa uvoľní milosť odpustiť aj tým, ktorí ublížili tebe.“ → „— zistíš, že v znovuzrodenom duchu už máš milosť odpustiť aj tým, ktorí ublížili tebe.“
+
+### Modlitba 15
+```
+Drahý nebeský Otče,
+
+prichádzam pred Tvoju svätú tvár skrze Pána Ježiša Krista. Ďakujem Ti za nesmiernu milosť a lásku, ktorou si mi odpustil všetky moje zlyhania a hriechy na kríži. Uvedomujem si, že keby bol môj vzťah s Tebou založený na mojich zásluhách, nikdy by som pred Tebou neobstál.
+
+Otče, Ty vidíš moje srdce a poznáš každé zranenie, krivdu a sklamanie, ktoré som v živote zažil. Vidíš aj bolesť a hnev, ktoré som si možno dlho niesol vo svojom vnútri. Dnes sa rozhodujem nezostávať väzňom horkosti ani minulosti.
+
+Ako si Ty v Kristovi odpustil mne, tak aj ja dnes odpúšťam všetkým, ktorí mi ublížili. Odpúšťam im každú krivdu, všetko, čo mi vzali, aj každú zradu. Skladám to všetko k Tvojim nohám. Prestávam byť ich sudcom a odovzdávam celú situáciu do Tvojich spravodlivých rúk.
+
+Odmietam horkosť, hnev aj túžbu po odplate. Prijímam Tvoj pokoj, ktorý prevyšuje každý ľudský rozum. Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri a že Jeho ovocím je láska. Chcem sa dnes na ľudí okolo seba pozerať s touto láskou a odpustením.
+
+Ďakujem Ti, že v Kristovi som úplne slobodný.
+
+Amen.
+```
+
+## Kapitola 17 — modlitba schválená 13. 10. 2026 (čaká na nahrávku, ?v=6)
+
+Opakovanie „svojho … svojho“ je zámerné a schválené.
+
+### Modlitba 17
+```
+Pane Ježišu Kriste,
+
+prichádzam k Tebe a prinášam Ti svoj domov. Ľudí, s ktorými žijem, aj napätie, ktoré medzi nami býva.
+
+Ďakujem Ti, že mojím útočiskom nie je stavba ani miesto, ale Ty sám. Že smiem prebývať v skrýši Najvyššieho a odpočívať v tôni Všemohúceho aj vtedy, keď okolnosti okolo mňa pokojné nie sú.
+
+Zverujem Ti každého v našom dome. Prosím Ťa, aby sme aj v ťažkom čase mali pokoj, ktorý nepochádza z okolností, ale z Teba.
+
+Ďakujem Ti za Tvoje slová, že svoj pokoj nám dávaš inak, než ho dáva svet. Prijímam ho dnes do svojho srdca aj do svojho domova.
+
+Rozhodujem sa dnes ako Józua: ja a môj dom budeme slúžiť Hospodinovi.
+
+Vyznávam Ti, že som domov nejeden raz priniesol napätie miesto pokoja. Ďakujem Ti, že mi je to v Tebe už odpustené. Ďakujem, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Nechávam ho rozhodovať v mojom srdci aj v tom, čo hovorím a ako reagujem.
+
+Nech je pokoj tomuto domu.
+
+Amen.
+```
+
+## Kapitola 18 — modlitba schválená 13. 10. 2026 (čaká na nahrávku, ?v=9)
+
+Opakovanie „urobiť … urobiť“ je zámerné a schválené.
+
+### Modlitba 18
+```
+Pane Ježišu Kriste,
+
+prichádzam k Tebe s tým, čo len ťažko hovorím nahlas. Som osamelý. Sú dni, keď mám pocit, že ma nikto nevidí a nikomu nechýbam.
+
+Vyznávam Ti, že som v tom tichu neraz uveril klamstvu, že si na mňa zabudol aj Ty. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda je silnejšia než môj pocit.
+
+Ďakujem Ti, že ako si videl muža pri jazere Betezda, na ktorého nikto tridsaťosem rokov nemal čas, tak vidíš aj mňa. Nie som pre Teba len jeden zo zástupu.
+
+Ďakujem Ti za Tvoje slovo, že ma nikdy neopustíš, ani nezanecháš. Nestojí to na tom, aký som, ale na tom, aký si Ty. Prijímam to dnes za pravdu o svojom živote.
+
+Ďakujem Ti, že Tvoj Svätý Duch prebýva v mojom vnútri a že Jeho ovocím je pokoj. Tento pokoj prijímam aj do tohto ticha.
+
+Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi odvahu urobiť prvý krok tam, kde ho mám urobiť ja.
+
+Ďakujem Ti, že aj keď som sám, nie som opustený.
+
+Amen.
+```
