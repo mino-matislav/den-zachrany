@@ -155,6 +155,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - ~~**3**~~ Hotové 14. 10. 2026: nová modlitba 3 s nahrávkou.
 - ~~**2**~~ Hotové 14. 10. 2026: nová modlitba 2 s nahrávkou.
 - **11:** prikazovanie duchom a mysli (8 hotové 9. 10. 2026).
+- **19, 20, 21:** šablónové „v mene… / V mocnom mene…“ (pri najbližšej nahrávke).
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
@@ -175,4 +176,4 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
   - ~~10~~ Hotové 30. 9. 2026 (nový príhovor aj modlitba s nahrávkou, ťažisko autorita a identita v Kristovi).
   - ~~4~~ Hotové 2. 10. 2026.
   - ~~23~~ Hotové 9. 10. 2026: nový príhovor (modlitba a nahrávka ostali).
-  - Drobnosti: ~~1, 2, 3~~ vyriešené novými príhovormi (1. – 2. 10. 2026). Ostáva: ~~6~~ (hotové 4. 10. 2026), 14 (Mt 11, 28 bez rámca), 22 (Mt 5, 27 – 28, doplniť Pavla, Kol 3, 5).
+  - Drobnosti: ~~1, 2, 3~~ vyriešené novými príhovormi (1. – 2. 10. 2026). Ostáva: ~~6~~ (hotové 4. 10. 2026), 14 (Mt 11, 28 bez rámca), ~~22~~ (hotové 14. 10. 2026: nový príhovor, Mt 5, 28 zarámcovaný, dĺžka ~1 190 slov schválená ako výnimka).

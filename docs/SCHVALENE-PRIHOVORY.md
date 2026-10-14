@@ -879,3 +879,89 @@ Amen.
 ```
 
 Zámerné opakovania (schválené): „v rukách … rukách“ (2), „odmietam … odmietam“ (12), „identitu … identitu“ (14), „namiesto … namiesto“ (16).
+
+---
+
+## Kapitola 22 — príhovor schválený 14. 10. 2026 — NASADENÉ 14. 10. 2026
+
+Mení sa fullText, verses a scriptureTheme. Modlitba a nahrávka ostávajú. Dĺžka ~1 190 slov je schválená výnimka (téma ľudí najviac trápi). „Pavol“ → „Pavel“ a „Timoteovi“ podľa rozhodnutia Admina 14. 10.
+
+scriptureTheme: Títovi 2, 1. Korintským 6, Rimanom 6, 2. Timoteovi 2, Kolosenským 3, 1. Jánov 1
+
+### Verše (ECAV, overené na biblia.sk)
+1. Títovi 2, 11 – 12: „Lebo zjavila sa milosť Božia, spásonosná všetkým ľuďom, vychovávajúca nás, aby sme sa odriekli bezbožnosti a svetských žiadostí a mierne, spravodlivo a pobožne žili na tomto svete…“
+2. 1. Korintským 6, 19 – 20: „Alebo či neviete, že vaše telo je chrámom Ducha Svätého, ktorý je vo vás, ktorého máte od Boha, a že nie ste sami svoji? Veď veľmi draho ste boli kúpení! Oslávte teda Boha svojím telom i svojím duchom, čo oboje náleží Bohu.“
+3. Rimanom 6, 11 – 12: „Tak súďte aj vy, že ste mŕtvi hriechu a živí ste Bohu v Kristovi Ježišovi. Nech teda nekraľuje hriech vo vašom smrteľnom tele tak, že by ste povoľovali jeho žiadostiam.“
+4. 2. Timoteovi 2, 22: „Pred chúťkami mladosti utekaj; ale snaž sa o spravodlivosť, vieru, lásku a pokoj s tými, čo z čistého srdca vzývajú Pána.“
+5. Kolosenským 3, 9 – 10: „…keď ste už vyzliekli starého človeka s jeho skutkami, a obliekli nového, ktorý sa obnovuje ku pravému poznaniu podľa obrazu svojho Stvoriteľa.“
+6. 1. Jánov 1, 9: „Ak vyznávame svoje hriechy, On je verný a spravodlivý, aby nám odpustil hriechy a očistil nás od všetkej neprávosti.“
+7. 1. Korintským 6, 11: „A takými ste vy niektorí boli; ale dali ste sa obmyť, boli ste posvätení, ospravedlnení v mene Pána Ježiša Krista a v Duchu nášho Boha.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+je neskoro večer. Si unavený, sám a v ruke máš mobil. Povieš si, že len na chvíľu. O hodinu ho odložíš a príde prázdnota. A s ňou hanba. Zase. Pritom si si sľúbil, že to bolo naposledy.
+
+Môže ísť o pornografiu, sebaukájanie, nečisté predstavy alebo žiadostivé pohľady. Niekto zápasí so vzťahom mimo manželstva či s neverou. Možno o tom nikto nevie. Navonok žiješ kresťanský život, ale vo vnútri zvádzaš tichý boj.
+
+Nie si v tom sám. Je to jeden z najčastejších zápasov mužov aj žien, a to aj medzi veriacimi. Hneď na začiatku ti chcem povedať to najdôležitejšie. Riešením nie je utekať od Krista. Riešením je utiecť ku Kristovi.
+
+Najprv jedna dôležitá pravda. Sexuálna túžba sama osebe nie je hriech. Stvoril ju Boh a je dobrá. Jej miesto je v manželstve. Preto Písmo nazýva sexuálne spolužitie mimo manželstva smilstvom a neveru v manželstve cudzoložstvom. Nečistotou nazýva aj to, čo si človek živí v predstavách. Apoštol Pavel píše jasne: „Lebo to je vôľa Božia: vaše posvätenie. Zdržiavajte sa smilstva“ (1. Tesalonickým 4, 3). Ani pokušenie ešte nie je hriech. List Židom hovorí, že aj Pán Ježiš bol pokúšaný vo všetkom ako my, ale bez hriechu (Židom 4, 15). Hriech začína tam, kde pokušeniu otvoríš dvere a začneš ho živiť.
+
+Prečo to drží tak pevne? Pornografia a nečisté predstavy sľubujú rýchlu úľavu. Človek po nich často siaha, keď je unavený, osamelý, v strese, smutný alebo sa nudí. Na chvíľu to prehluší, čo prežíva. Potom však príde ešte väčšia prázdnota. A čím častejšie to telo dostane, tým hlasnejšie si to pýta. Preto si všímaj, kedy ťa to ťahá najviac. Často to nie je náhoda.
+
+Mnohých ľudí ťaží slovo, ktoré povedal Pán Ježiš v Kázni na vrchu: „Každý, kto žiadostivo pozerá na ženu, už scudzoložil s ňou v srdci“ (Matúš 5, 28). Je dôležité vedieť, komu to hovoril. Hovoril to Izraelcom, ktorí žili pod zákonom. Mnohí si mysleli, že zákon dodržiavajú, keď sa nedopustia skutku. Pán Ježiš im ukázal, že zákon siaha až do srdca. Takú čistotu nikto nedosiahne vlastnou silou. Zákon tak ukazuje, že každý potrebuje Spasiteľa.
+
+A tu prichádza dobrá správa. Ty nežiješ pod zákonom, ale pod milosťou. V liste Títovi apoštol píše, čo Božia milosť robí:
+
+"Lebo zjavila sa milosť Božia, spásonosná všetkým ľuďom, vychovávajúca nás, aby sme sa odriekli bezbožnosti a svetských žiadostí a mierne, spravodlivo a pobožne žili na tomto svete…"
+
+Milosť nie je povolenie hrešiť. Milosť ťa vychováva. Nestojíš pred Bohom ako človek, ktorý sa musí najprv očistiť, aby smel prísť. Prichádzaš ako Jeho dieťa, ktoré On sám učí žiť čisto.
+
+Pavel píše aj Korinťanom, ktorí žili v meste plnom nemravnosti:
+
+"Alebo či neviete, že vaše telo je chrámom Ducha Svätého, ktorý je vo vás, ktorého máte od Boha, a že nie ste sami svoji? Veď veľmi draho ste boli kúpení! Oslávte teda Boha svojím telom i svojím duchom, čo oboje náleží Bohu."
+
+Tvoje telo nie je špinavé ani zlé. Je to Boží chrám. Duch Svätý v tebe prebýva a neodchádza, ani keď padneš. Patríš Bohu. To je tvoj východiskový bod. Nebojuješ preto, aby si Mu patril. Bojuješ, pretože Mu už patríš.
+
+V Kristovi už máš viac, než si myslíš. Keď si uveril, tvoj starý človek bol spolu s Kristom ukrižovaný (Rimanom 6, 6). Hriech už nie je tvojím pánom. Písmo ukazuje, ako s touto pravdou žiť:
+
+"Tak súďte aj vy, že ste mŕtvi hriechu a živí ste Bohu v Kristovi Ježišovi. Nech teda nekraľuje hriech vo vašom smrteľnom tele tak, že by ste povoľovali jeho žiadostiam."
+
+„Súďte“ znamená: počítajte s tým, že je to pravda. Aj keď to tak necítiš. Keď príde pokušenie, môžeš povedať: „V Kristovi som mŕtvy hriechu a živý Bohu. Hriech už nie je môj pán.“ Svoje oči, ruky aj myseľ potom môžeš vedome dať Bohu (Rimanom 6, 13).
+
+Niektorým pokušeniam máš odolať. Pred týmto však Písmo hovorí utiecť. Apoštol to píše mladému Timoteovi, ale platí to v každom veku:
+
+"Pred chúťkami mladosti utekaj; ale snaž sa o spravodlivosť, vieru, lásku a pokoj s tými, čo z čistého srdca vzývajú Pána."
+
+Útek nie je slabosť. Je to múdrosť. Nemusíš skúšať, akú silnú máš vôľu. Ak vieš, čo ťa privádza k pádu, nepribližuj sa k tomu. Ak žiješ vo vzťahu mimo manželstva, rozhodni sa ho ukončiť. Večer nenechávaj mobil pri posteli. Nastav si filter alebo zablokuj stránky, ktoré ťa ťahajú. Zruš sledovanie obsahu, ktorý ťa dráždi. Keď si unavený a sám, choď radšej spať.
+
+Všimni si aj druhú polovicu verša. Nehovorí len, pred čím utekať, ale aj, o čo sa snažiť. A spomína ľudí, „čo z čistého srdca vzývajú Pána“. Boh ti dáva aj spoločenstvo.
+
+Hanba rastie v tme a v tichu. Preto skús nájsť jedného zrelého, dôveryhodného veriaceho, ktorému sa zveríš. Nie celému zboru, stačí jeden človek. Písmo hovorí: „Jedni druhých bremená znášajte“ (Galatským 6, 2). Ak ťa to drží už roky a vlastnými silami to nezvládaš, nehanbi sa vyhľadať aj odbornú pomoc.
+
+Nestačí však len niečo odstrániť. Prázdne miesto treba naplniť. Písmo to opisuje ako výmenu oblečenia:
+
+"…keď ste už vyzliekli starého človeka s jeho skutkami, a obliekli nového, ktorý sa obnovuje ku pravému poznaniu podľa obrazu svojho Stvoriteľa."
+
+Nového človeka si si už obliekol. Teraz sa obnovuje, a to sa deje cez Božie Slovo. Keď príde nečistá predstava, nevyjednávaj s ňou. Nerozvíjaj ju. Obráť myseľ inam. Prečítaj si verš, ktorý máš rád. Pusti si pieseň, ktorá ťa obracia k Bohu. Takéto piesne nájdeš aj na tomto webe v sekcii Piesne. Vstaň, prejdi sa, zavolaj niekomu. Božie Slovo radí premýšľať o tom, čo je pravdivé, čisté a ľúbezné (Filipským 4, 8).
+
+A čo keď znovu padneš? Možno si padol desaťkrát, možno stokrát. Pre tých, ktorí sú v Kristovi Ježišovi, niet nijakého odsúdenia (Rimanom 8, 1). Trest za tvoj hriech už niesol Kristus. Jeho obeť je dokonaná raz navždy. Tvoje spasenie nestojí na tom, koľko dní vydržíš.
+
+Preto po páde neutekaj od Boha. Nečakaj, kým sa budeš cítiť dosť čistý. Hneď sa k Nemu obráť a vyznaj Mu, čo sa stalo:
+
+"Ak vyznávame svoje hriechy, On je verný a spravodlivý, aby nám odpustil hriechy a očistil nás od všetkej neprávosti."
+
+Nevyznávaš preto, aby si si odpustenie zaslúžil. V Kristovi ho už máš. Vyznávaš, lebo chceš chodiť v pravde a nechceš sa pred Bohom skrývať. Takto sa láme starý kruh: hriech, hanba, skrývanie a ďalší hriech. Nahrádza ho nový: pád, vyznanie, vďaka za odpustenie a ďalší krok s Bohom.
+
+Tým istým Korinťanom napísal Pavel o ľuďoch, ktorí kedysi žili v ťažkých hriechoch:
+
+"A takými ste vy niektorí boli; ale dali ste sa obmyť, boli ste posvätení, ospravedlnení v mene Pána Ježiša Krista a v Duchu nášho Boha."
+
+Takými ste boli. Tvoj pád nie je tvoja identita. Nedefinuje ťa tvoja minulosť ani tvoje pokušenie. V Kristovi si obmytý, posvätený a ospravedlnený. Z tohto miesta môžeš každý deň začínať znovu.
+
+Nemusíš dnes vyriešiť celý svoj život. Urob jeden krok. Odstráň jednu vec, ktorá ťa vedie k pádu. Alebo napíš jednému človeku, ktorému dôveruješ. A keď príde pokušenie, povedz: „Patrím Kristovi. Hriech nado mnou nemá vládu.“
+
+Sloboda často nepríde zo dňa na deň. Ale v Kristovi už nie si otrokom. Krok za krokom sa učíš žiť v slobode, ktorú ti už dal.
+```
