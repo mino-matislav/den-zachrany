@@ -151,13 +151,14 @@ Text modlitby na webe sa musí zhodovať s nahrávkou. Bez novej nahrávky z Ele
 Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad a rámec doplň, posolstvo neobracaj.
 
 ### Modlitby na opravu pri najbližšej nahrávke (analýza 28. 9. 2026)
-- **12:** text na webe už má opravu („Priznávam… Ďakujem Ti, že mi je to v Tebe už odpustené"). Neoverené je, či to platí aj pre audio. Ak nahrávka hrá staré „Odpusť mi to, Otče", text a zvuk sa nezhodujú.
-- **3** (nepovinné, pri ďalšej nahrávke): „Ukončujem túto modlitbu" → „Končím túto modlitbu". Ďalej modlitba pripisuje Fil 4, 19 Pánovi Ježišovi („verím Tvojmu svedectvu z listu Filipským") a parafrázuje „naplní" namiesto ECAV „uspokojí".
-- **2:** pri ďalšej nahrávke „Prehlasujem" → „Vyhlasujem" a „obetu" → „obeť".
+- ~~**12**~~ Hotové 14. 10. 2026: nová modlitba 12 s nahrávkou.
+- ~~**3**~~ Hotové 14. 10. 2026: nová modlitba 3 s nahrávkou.
+- ~~**2**~~ Hotové 14. 10. 2026: nová modlitba 2 s nahrávkou.
 - **11:** prikazovanie duchom a mysli (8 hotové 9. 10. 2026).
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
+- ~~**14, 16, 22**~~ Hotové 14. 10. 2026: nové modlitby s nahrávkou (dávka s 2, 3, 12).
 - ~~**15, 17, 18**~~ Hotové 13. 10. 2026: nové modlitby 15, 17, 18 s nahrávkou (bez „uvoľňujem").
 - ~~**13**~~ Hotové 8. 10. 2026: nová modlitba 13 s nahrávkou (bez prikazovania a „uvoľňujem").
 - ~~**7**~~ Hotové 12. 10. 2026: nová modlitba 7 s nahrávkou.
