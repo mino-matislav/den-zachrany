@@ -741,3 +741,141 @@ Prosím Ťa, priveď do môjho života ľudí, ktorí budú blízko. A daj mi od
 
 Amen.
 ```
+
+---
+
+## Kapitola 2 — modlitba schválená 14. 10. 2026 (nahrávka ?v=6)
+
+### Modlitba 2
+```
+Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoju svätú tvár skrze Tvojho Syna, Pána Ježiša Krista. Otváram pred Tebou svoju myseľ, ktorá je unavená z neustáleho tlaku, úzkosti a sužujúcich myšlienok. Vyznávam, že niekedy podlieham strachu a verím klamstvám, že ma moja situácia zničí. Ty si mi však skrze Kristovu obeť odpustil moje zlyhania a urobil si ma novým stvorením, preto odmietam žiť v tichom trápení.
+
+Ďakujem Ti, Otče, že v mojom duchu už prebýva dokonalý Kristov pokoj. Tento pokoj nezávisí od mojich pozemských okolností a moje myšlienky ho nemôžu zničiť. Tvoje Slovo ma uisťuje, že zbrane môjho boja majú moc zboriť každú hradbu strachu. Preto dnes beriem do rúk meč Ducha, ktorým je Tvoje živé Slovo.
+
+Staviam sa proti každému hlasu úzkosti, pochybností a strachu. Podriaďujem sa Tebe, môj Bože, vzpieram sa diablovi a odmietam všetky sužujúce klamstvá v mojej mysli. Moja budúcnosť nie je v rukách úzkosti, ale v Tvojich milujúcich rukách.
+
+Podrobujem každú jednu myšlienku do poslušnosti Kristovi. Vyznávam, že som milovaný, prijatý a chránený Najvyšším Bohom. Tvoj Svätý Duch ma napĺňa silou, láskou a rozvahou. Rozhodujem sa odpočívať v tejto pravde a nedovoliť svojim ústam hovoriť slová ustarostenosti a porážky.
+
+Ďakujem Ti, nebeský Otče, že Tvoj neochvejný pokoj, ktorý prevyšuje každý ľudský rozum, teraz stráži moju myseľ i moje srdce v Kristovi Ježišovi. Viem, že Ten, ktorý je vo mne, je väčší než ten, ktorý je vo svete.
+
+Amen.
+```
+
+## Kapitola 3 — modlitba schválená 14. 10. 2026 (nahrávka ?v=6)
+
+### Modlitba 3
+```
+Drahý nebeský Otče, Všemohúci Bože,
+
+prichádzam pred Tvoju svätú tvár skrze Tvojho Syna, Pána Ježiša Krista. Otváram pred Tebou svoje srdce a vyznávam, že niekedy podlieham tlaku ustarostenosti. Prinášam Ti všetky svoje obavy o budúcnosť, o zabezpečenie, o svoju rodinu a o situácie, ktoré nemám pod kontrolou. Ďakujem Ti, že v tomto čase milosti stojím pred Tebou úplne spravodlivý a očistený Kristovou krvou.
+
+Beriem dnes všetky svoje starosti, obavy i stres a skladám ich k Tvojim nohám, lebo Ty sa o mňa staráš. Rozhodujem sa prestať nosiť ťarchu, ktorú vzal na Seba Pán Ježiš Kristus. Odovzdávam Ti svoju ľudskú snahu všetko sám riadiť a všetkému rozumieť.
+
+Vyznávam, že som nové stvorenie v Kristovi, súčasť Tvojej Cirkvi, a v mojom duchu už prebýva dokonalý Kristov pokoj. Nechávam tento pokoj rozhodovať v mojom srdci. Odmietam dovoliť burine starostí, aby dusila semeno Tvojho Slova v mojej mysli.
+
+Ďakujem Ti, že vieš, čo potrebujem. Moja dôvera nestojí na tom, čo vidia moje oči, ale na dokonanej obeti Pána Ježiša Krista a na Tvojej neochvejnej vernosti.
+
+Ďakujem Ti, nebeský Otče, že Tvoj pokoj, ktorý prevyšuje každý ľudský rozum, teraz chráni moju myseľ aj moje srdce v Kristovi Ježišovi.
+
+Odpočívam v dôvere, že som v Tvojich rukách.
+
+Amen.
+```
+
+## Kapitola 12 — modlitba schválená 14. 10. 2026 (nahrávka ?v=7)
+
+Oslovenie „môj Boh pokoja“ je vedomá výnimka schválená Adminom (takto je nahraté), neopravovať.
+
+### Modlitba 12
+```
+Drahý nebeský Otče, môj Boh pokoja,
+
+prichádzam dnes k Tebe skrze Pána Ježiša Krista ako Tvoje dieťa a hľadám bezpečie v Tvojej prítomnosti. Otváram pred Tebou svoje srdce a vyznávam svoju slabosť. Moja myseľ býva unavená a zaplavená myšlienkami viny, hanby a zlyhania, ktoré znejú presne ako môj vlastný hlas. Priznávam, že som ich veľakrát prijal za svoju identitu. Ďakujem Ti, že mi je to v Tebe už odpustené a že Tvoja pravda obnovuje moju myseľ.
+
+Ďakujem Ti za zasľúbenie Tvojho Syna, že Jeho ovce počúvajú Jeho hlas. Neprosím Ťa teda o schopnosť, ktorú by som nemal – ďakujem Ti za tú, ktorú si mi už dal. Uč ma rozlišovať. Nech spoznám, že to, čo tlačí, ponáhľa sa, zaháňa do hanby a púta ma k minulosti, nie je Tvoj hlas.
+
+Ty nie si Bohom neporiadku, ale pokoja. Prijímam preto Tvoj tichý hlas, ktorý ma neodsudzuje, ale vedie do slobody a vždy mi ukazuje cestu von.
+
+Podrobujem každú myšlienku v poslušnosť Kristovu. Nebudem s nimi bojovať vo vlastnej sile – staviam ich vedľa toho, čo o mne hovoríš Ty. Odmietam vstúpiť do dohody s klamstvom a odmietam ho vyznať za svoju identitu, lebo v Kristovi som nové stvorenie.
+
+Prijímam Tvoj pokoj pre svoju myseľ. Ďakujem Ti, že môj život je s Kristom skrytý v Tebe.
+
+Amen.
+```
+
+## Kapitola 14 — modlitba schválená 14. 10. 2026 (nahrávka ?v=5)
+
+### Modlitba 14
+```
+Drahý nebeský Otče, môj Stvoriteľ,
+
+prichádzam k Tebe skrze Pána Ježiša Krista s vďačným srdcom. Ďakujem Ti za to, ako úžasne a múdro si stvoril moje telo aj môjho ducha. Ďakujem Ti, že si ma nestvoril na to, aby som sa vnútorne zničil, ale vložil si do mňa obnovu a milosť.
+
+Otče, vyznávam, že v Kristovi som nové stvorenie. Staré veci sa pominuli a nastali nové. Stojím dnes pred Tebou unavený a preťažený zo snahy opravovať sám seba, a namiesto tejto ťarchy prijímam odpočinutie, ktoré mi dávaš Ty. Ďakujem Ti, že už nemusím vlastnou silou plátať svoje staré zlyhania ani sa snažiť zarobiť si na Tvoju lásku.
+
+Prijímam novú identitu, ktorú si mi daroval v Ježišovi – identitu spravodlivého, milovaného a čistého Božieho dieťaťa. Odkladám každé bremeno viny a sebaodsudzovania. Dávaš mi milosť premieňať moju myseľ skrze Tvoje Slovo a odpočívať v Tvojej dokonalej láske.
+
+Tebe patrí všetka vďaka, chvála a sláva za dokonané dielo spasenia.
+
+Amen.
+```
+
+## Kapitola 16 — modlitba schválená 14. 10. 2026 (nahrávka ?v=6)
+
+### Modlitba 16
+```
+Drahý nebeský Otče,
+
+prichádzam k Tebe skrze Pána Ježiša Krista s otvoreným srdcom. Ďakujem Ti, že som Tvoje vyvolené, sväté a milované dieťa. Prinášam Ti všetky vzťahy, v ktorých prežívam napätie, bolesť alebo hnev.
+
+Ďakujem Ti, že Tvoj Svätý Duch už prebýva v mojom vnútri a že v Ňom mám všetko potrebné na to, aby som odpovedal milosrdenstvom namiesto hnevu a pokojom namiesto výčitiek. Rozhodujem sa dnes nepodľahnúť pokušeniu použiť svoj jazyk ako zbraň proti ľuďom okolo seba.
+
+Volím si vľúdnu odpoveď, nie urážlivé slovo. Nedovolím, aby slnko zapadalo nad mojím hnevom. Obliekam sa do srdečného milosrdenstva, dobrotivosti, pokory, krotkosti a trpezlivosti – nie zo svojej ľudskej sily, ale z toho, kým si ma Ty urobil v Kristovi.
+
+Tam, kde som slovami zranil, daj mi odvahu priznať to. Tam, kde mňa slovami zranili, daj mi milosť odpustiť – tak, ako si Ty odpustil mne. Ďakujem Ti, že moja hodnota nestojí na tom, čo o mne hovoria ľudia, ale na tom, čo o mne hovorí Tvoje Slovo.
+
+Zverujem Ti svoje vzťahy aj svoj jazyk a nechávam Tvoj pokoj rozhodovať v mojom srdci.
+
+Amen.
+```
+
+## Kapitola 22 — modlitba schválená 14. 10. 2026 (nahrávka ?v=7)
+
+### Modlitba 22
+```
+Drahý nebeský Otče,
+
+prichádzam k Tebe skrze Pána Ježiša Krista.
+
+Ty poznáš moje srdce. Poznáš aj to, čo skrývam pred ľuďmi. Pred Tebou však nechcem nič zakrývať.
+
+Vyznávam Ti svoju sexuálnu nečistotu, svoju žiadostivosť, nečisté predstavy, pornografiu, sebaukájanie a všetko, čím som vo svojom tele a mysli dával priestor tomu, čo nie je podľa Tvojej vôle.
+
+Nechcem svoj hriech ospravedlňovať ani zľahčovať. Ale už sa nechcem pred Tebou skrývať v hanbe.
+
+Ďakujem Ti za Pána Ježiša Krista. Ďakujem Ti, že Jeho obeť bola za moje hriechy dokonaná a že v Ňom mám odpustenie.
+
+Ďakujem Ti, že moje prijatie pred Tebou nestojí na mojom výkone, ale na Kristovi.
+
+Ďakujem Ti, že moje telo je chrámom Ducha Svätého a že patrím Tebe.
+
+Otče, nechcem, aby ma hriech ovládal. Nechcem byť otrokom pornografie ani sexuálnej žiadostivosti. Nechcem živiť nečisté predstavy ani dávať svojmu telu a mysli to, čo patrí starému životu.
+
+Daj mi silu utekať pred tým, pred čím mám utiecť. Daj mi múdrosť odstrániť to, čo ma vedie k pádu.
+
+Ďakujem Ti, že v Kristovi som nové stvorenie a že som už obliekol nového človeka. Počítam s tým, že som mŕtvy hriechu a živý Bohu v Kristovi Ježišovi. Preto vo viere upriamujem svoje oči aj svoje myšlienky na Teba a na to, čo je čisté.
+
+Pomáhaj mi obnovovať myseľ Tvojím Slovom.
+
+Keď príde pokušenie, pripomeň mi, komu patrím. Keď padnem, nedovoľ mi utiecť od Teba. Daj mi pokoru vyznať Ti svoj hriech a vďačne pamätať, že mi je to v Kristovi už odpustené.
+
+Ďakujem Ti, že v Kristovi nie som odsúdený. Ďakujem Ti, že hriech už nemusí vládnuť nad mojím životom. Ďakujem Ti, že v Kristovi môžem kráčať v novote života.
+
+Nech moje telo, moje oči, moje myšlienky aj moje túžby patria Tebe. Nech môj život oslavuje Teba.
+
+Amen.
+```
+
+Zámerné opakovania (schválené): „v rukách … rukách“ (2), „odmietam … odmietam“ (12), „identitu … identitu“ (14), „namiesto … namiesto“ (16).

@@ -77,6 +77,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Kľúče: id, title, subtitle, shortDescription, fullText, verses, prayer, audioUrl, hasAudio, illustrationRef, tags, available, scriptureTheme, isStarter.
 - **Kritické:** blokové verše vo `fullText` sú samostatné odseky v úvodzovkách a párujú sa 1:1 v poradí s poľom `verses`. Počet a poradie musia presne sedieť.
 - Znenie verša musí byť vo `fullText` aj vo `verses` identické. Web (app.js) zobrazí text z poľa `verses`, statická stránka kapitola-N.html (build-seo.py) text z `fullText`.
+- **Zápisy do data.js vždy ukotviť na číslo kapitoly (chapterData["N"]), nikdy na hľadanie textu. Pred pushom overiť, že sa zmenili len kapitoly z pokynu** (pokyn Admina 14. 10. 2026; 13. 10. vyhľadanie textu prepísalo modlitbu inej kapitoly, zachytené pred pushom).
 - Prečo vznikajú duplicity v `js/data.js`: keď sa zápis preruší a skript sa spustí znova. V JS sa duplicitný kľúč potichu prepíše a web funguje ďalej, preto chyba prejde nepovšimnutá. Na to slúži upsert.py a kontrola vo verify.js. Podrobnosti sú v `docs/PRACA-S-DATAMI.md`.
 - Pri novej kapitole býva bežne 2 až 7 navrhnutých veršov už použitých v iných kapitolách. Krížovo skontroluj všetky verše a nájdi voľné náhrady.
 - Referencia sa pod citátom zobrazí automaticky. V úvodnej vete je len kto hovorí („Pavel píše:"). Verš spomenutý len v próze má referenciu v zátvorke.
