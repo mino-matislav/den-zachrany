@@ -968,9 +968,9 @@ Sloboda často nepríde zo dňa na deň. Ale v Kristovi už nie si otrokom. Krok
 
 ---
 
-## Kapitola 29 — príhovor a modlitba schválené 15. 10. 2026 — NASADENÉ 15. 10. 2026 (bez audia)
+## Kapitola 29 — príhovor a modlitba schválené 15. 10. 2026 — NASADENÉ 15. 10. 2026 (s nahrávkou ?v=1)
 
-Nová kapitola „Keď sa trápiš o svoje deti“. Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Dĺžka ~726 slov je schválená výnimka (vysvetľuje Príslovia 22, 6 a Skutky 16, 31). Slovo „dieťa“ sa opakuje zámerne. V modlitbe zámerne nie sú odkazy na verše ani „v mene… Amen“.
+Nová kapitola „Keď sa trápiš o svoje deti“. Modlitba 29 s nahrávkou (štandard zo 14. 10., surová nahrávka z ElevenLabs). Dĺžka ~726 slov je schválená výnimka (vysvetľuje Príslovia 22, 6 a Skutky 16, 31). Slovo „dieťa“ sa opakuje zámerne. V modlitbe zámerne nie sú odkazy na verše ani „v mene… Amen“.
 
 scriptureTheme: Kolosenským 2, 1. Korintským 3, 1. Timoteovi 2, 2. Timoteovi 2, 1. Korintským 13
 
