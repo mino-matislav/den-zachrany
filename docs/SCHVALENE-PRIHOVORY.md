@@ -965,3 +965,86 @@ Nemusíš dnes vyriešiť celý svoj život. Urob jeden krok. Odstráň jednu ve
 
 Sloboda často nepríde zo dňa na deň. Ale v Kristovi už nie si otrokom. Krok za krokom sa učíš žiť v slobode, ktorú ti už dal.
 ```
+
+---
+
+## Kapitola 29 — príhovor a modlitba schválené 15. 10. 2026 — NASADENÉ 15. 10. 2026 (bez audia)
+
+Nová kapitola „Keď sa trápiš o svoje deti“. Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Dĺžka ~726 slov je schválená výnimka (vysvetľuje Príslovia 22, 6 a Skutky 16, 31). Slovo „dieťa“ sa opakuje zámerne. V modlitbe zámerne nie sú odkazy na verše ani „v mene… Amen“.
+
+scriptureTheme: Kolosenským 2, 1. Korintským 3, 1. Timoteovi 2, 2. Timoteovi 2, 1. Korintským 13
+
+### Verše (ECAV, overené na biblia.sk 15. 10. 2026)
+1. Kolosenským 2, 13: „Aj vás, ktorí ste boli mŕtvi v priestupkoch a neobriezke svojho tela, oživil spolu s Ním, keď nám odpustil všetky priestupky…“
+2. 1. Korintským 3, 6 – 7: „Ja som zasadil, Apollo polial, ale Boh dal vzrast; takže ani ten, čo sadí, ani ten, čo polieva, nič nie je, ale Boh, ktorý dáva vzrast.“
+3. 1. Timoteovi 2, 3 – 4: „Toto je dobré a príjemné pred naším Spasiteľom Bohom, ktorý chce, aby všetci ľudia boli spasení a poznali pravdu.“
+4. 2. Timoteovi 2, 24: „A Pánovmu služobníkovi sa nepatrí vadiť, ale byť prívetivým ku všetkým, spôsobným vyučovať a trpezlivo znášať krivdy.“
+5. 1. Korintským 13, 7: „…všetko znáša, všetkému verí, všetkého sa nádejá, všetko pretrpí.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+telefón už dlho nezazvonil a pri stole ostáva prázdna stolička. Alebo dieťa príde na návštevu, no akoby ste si boli cudzí. Možno bývate pod jednou strechou, a predsa ste si ďaleko. Dieťa odmieta evanjelium a o Bohu nechce ani počuť. Prípadne od viery odišlo, zaplietlo sa do zlej spoločnosti alebo ho drží závislosť. Niekedy s tebou ani neprehovorí.
+
+A v noci prichádzajú otázky. Kde som urobil chybu? Mal som byť prísnejší? Alebo naopak láskavejší? Prečo som mu nevenoval viac času?
+
+Ak sa trápiš o svoje dieťa, chcem ti najprv povedať jedno. Tvoja bolesť je pre Boha dôležitá a nie si v nej sám.
+
+Žiadny rodič nie je dokonalý. Aj ty si v niečom zlyhal a dnes to možno vidíš veľmi jasne. Svoje chyby môžeš Bohu úprimne pomenovať. Nemusíš ich však niesť ako ťarchu po zvyšok života. Pavel píše veriacim v Kolosách:
+
+"Aj vás, ktorí ste boli mŕtvi v priestupkoch a neobriezke svojho tela, oživil spolu s Ním, keď nám odpustil všetky priestupky…"
+
+Všetky. Aj tie, ktoré sa týkajú výchovy tvojich detí. Trest za ne už niesol Kristus. Preto ťa Boh neodsudzuje (Rimanom 8, 1).
+
+Je tu ešte jedna pravda, ktorá ti môže uľaviť. Za rozhodnutia dospelého človeka nezodpovedáš ty. Mohol si zasiať aj polievať, ale rast nie je v tvojich rukách. Apoštol to napísal o svojej službe v Korinte:
+
+"Ja som zasadil, Apollo polial, ale Boh dal vzrast; takže ani ten, čo sadí, ani ten, čo polieva, nič nie je, ale Boh, ktorý dáva vzrast."
+
+Mnohých rodičov zraňuje verš z Prísloví: „Vychovávaj chlapca na počiatku jeho cesty, tak sa ani v starobe neodchýli z nej“ (Príslovia 22, 6). Čítajú ho ako záruku. A keď sa dieťa odchýli, myslia si, že zlyhali. Príslovia však nie sú zasľúbenia so zárukou. Je to Božia múdrosť o tom, ako to v živote zvyčajne býva. Každý človek má vlastnú vôľu a za svoje rozhodnutia zodpovedá sám.
+
+Podobne je to s vetou, ktorú Pavel a Sílas povedali žalárnikovi vo Filipách: „Ver v Pána Ježiša a budeš spasený ty aj tvoj dom!“ (Skutky 16, 31). Hneď potom hovorili Božie slovo všetkým v jeho dome. A uverili všetci, každý sám za seba (Skutky 16, 32 – 34). Viera sa nededí. Nádej pre tvoj dom je však skutočná. Písmo nás totiž vyzýva modliť sa za všetkých ľudí a dodáva:
+
+"Toto je dobré a príjemné pred naším Spasiteľom Bohom, ktorý chce, aby všetci ľudia boli spasení a poznali pravdu."
+
+Tvoje dieťa je jedným z nich. Boh ho miluje ešte viac než ty. A vidí ho aj tam, kam ty už nedovidíš.
+
+Pán Ježiš raz rozprával farizejom a zákonníkom podobenstvo o synovi, ktorý odišiel z domu a premárnil všetko. Keď sa vracal, „uvidel ho otec, zľutoval sa, pribehol, padol mu okolo krku a vybozkával ho“ (Lukáš 15, 20). Toto podobenstvo nie je sľub, že sa každé dieťa vráti. Ukazuje však Božie srdce. Je to srdce Otca, ktorý čaká a beží v ústrety.
+
+Ako sa teda k svojmu dieťaťu správať? Pavel radí Timoteovi, aký má byť k ľuďom, aj k tým, ktorí s ním nesúhlasia:
+
+"A Pánovmu služobníkovi sa nepatrí vadiť, ale byť prívetivým ku všetkým, spôsobným vyučovať a trpezlivo znášať krivdy."
+
+Výčitky srdce neotvoria. Ani dlhé kázne nie. Viera prichádza z počutia Božieho Slova (Rimanom 10, 17). Preto ho hovor s láskou a vo vhodnej chvíli. Zmenu srdca však daruje Boh, nie tvoje presviedčanie (2. Timoteovi 2, 25). Tvoje dieťa nie je tvoj nepriateľ. Skutočným nepriateľom je ten, kto ľudí drží vo svojom osídle (2. Timoteovi 2, 26). Preto nebojuj proti dieťaťu. Stoj pri ňom v láske a modli sa za neho.
+
+Máš všetko, čo k tomu potrebuješ: prístup k Otcovi aj Jeho pokoj. Svoje starosti Mu môžeš povedať v modlitbe s vďakou (Filipským 4, 6). Keď príde myšlienka „je to tvoja vina“ alebo „už je neskoro“, nemusíš ju prijať. Odmietni ju a podrob svoje myšlienky Kristovi.
+
+Čakanie býva dlhé, niekedy aj roky. Božie Slovo opisuje lásku, ktorá vydrží aj vtedy:
+
+"…všetko znáša, všetkému verí, všetkého sa nádejá, všetko pretrpí."
+
+Takú lásku nemusíš vyrábať vlastnou silou. Božia láska je ti rozliata v srdci skrze Ducha Svätého (Rimanom 5, 5).
+
+Ako a kedy Boh odpovie, to vie iba On. Tvoja láska a modlitby však nie sú zbytočné.
+
+Urob dnes jeden krok. Pomodli sa za svoje dieťa a poďakuj Bohu, že ho miluje. Ak môžeš, pošli mu krátku správu bez výčitiek: „Myslím na teba. Ľúbim ťa.“ A ak je kontakt prerušený, zver svoje obavy Bohu v modlitbe. Tvoje dieťa je v Jeho rukách.
+```
+
+### Modlitba 29
+```
+Drahý nebeský Otče,
+
+ďakujem Ti, že moje dieťa miluješ viac než ja a poznáš ho lepšie. Vidíš, kde je a čo prežíva.
+
+Vyznávam Ti, že som ako rodič nebol dokonalý. Vieš o každej mojej chybe, aj o tých, ktoré ma dnes bolia. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma neodsudzuješ.
+
+V Pánovi Ježišovi Kristovi smiem k Tebe prísť s každou starosťou. Preto Ti dnes zverujem obavy, ktoré mám o svoje dieťa. Viem, že je v Tvojich rukách. Nie je môj majetok, ale človek, ktorého si stvoril a za ktorého zomrel Kristus.
+
+Odmietam myšlienku, že je všetko stratené. Odmietam aj obviňovanie, ktoré ma ťaží. Podrobujem svoje myšlienky Kristovi a ďakujem Ti, že Tvoj pokoj stráži moje srdce.
+
+Prosím Ťa, daj, aby moje dieťa poznalo pravdu. Pošli mu do cesty ľudí, ktorí mu ukážu Teba. Mne daj múdrosť, kedy hovoriť a kedy mlčať. Nauč ma byť láskavý a trpezlivý, aj keď ma jeho slová či skutky zraňujú. Chcem ho milovať tak, ako Ty miluješ mňa.
+
+Neviem, kedy a ako odpovieš. Viem však, že si verný. Ty si Kráľ vekov, jediný múdry Boh. Tebe patrí česť a sláva naveky vekov.
+
+Amen.
+```
