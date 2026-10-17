@@ -1048,3 +1048,82 @@ Neviem, kedy a ako odpovieš. Viem však, že si verný. Ty si Kráľ vekov, jed
 
 Amen.
 ```
+
+---
+
+## Kapitola 30 — príhovor a modlitba schválené 17. 10. 2026 — NASADENÉ 17. 10. 2026 (bez audia)
+
+Nová kapitola „Keď sa ti rozpadá manželstvo“. Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Modlitba je zámerne adresovaná Pánovi Ježišovi Kristovi, bez odkazov na verše a bez „v mene… Amen“. Galatským 6, 7 a Rimanom 12, 18 sú zámerne vlastnými slovami. V príhovore sú dva automatické odkazy (app.js aj build-seo.py): „Ťarcha, ktorú nemusíš niesť“ → kapitola-15.html a „Modlitbe záchrany“ → index.html#modlitba-zachrany.
+
+scriptureTheme: Židom 4, Efezským 1, Kolosenským 3, Rimanom 8, Rimanom 12
+
+### Verše (ECAV, overené na biblia.sk 17. 10. 2026)
+1. Židom 4, 16: „Pristupujme teda s dôverou ku trónu milosti, aby sme prijali milosrdenstvo a našli milosť na pomoc v pravý čas.“
+2. Efezským 1, 5 – 6: „…keď nás z lásky podľa milostivej rady svojej vôle predurčil byť Mu synmi skrze Ježiša Krista a zvelebovať slávu Jeho milosti, ktorou nás omilostil v Milovanom.“
+3. Kolosenským 3, 3: „Veď ste umreli, a váš život je skrytý s Kristom v Bohu.“
+4. Rimanom 8, 35: „Kto nás odlúči od lásky Kristovej? Súženie alebo úzkosť, prenasledovanie alebo hlad, nahota, nebezpečenstvo alebo meč?“
+5. Rimanom 12, 17: „Nikomu sa neodplácajte zlým za zlé; starajte sa o dobré pred všetkými ľuďmi.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+v skrini zostala prázdna polovica. Prišla správa „Už ťa nemilujem“ alebo si v telefóne našiel niečo, čo ti vzalo dych. Inokedy sa manželia roky potichu vzďaľujú, až raz padne slovo „odchádzam“. A ak máte deti, kladú ti otázky, na ktoré nevieš odpovedať.
+
+Rozpad manželstva patrí k najťažším skúsenostiam v živote. Zranil ťa človek, ktorému si dôveroval najviac. Otvoril si mu svoje srdce. Práve preto to tak bolí.
+
+Pán Ježiš vie, aké je to byť zradený niekým blízkym. Judáš s Ním chodil tri roky a zradil Ho bozkom. Spýtal sa ho vtedy: „Judáš, bozkom zrádzaš Syna človeka?“ (Lukáš 22, 48). Preto môžeš ku Kristovi prísť s celou svojou bolesťou. List Židom pozýva:
+
+"Pristupujme teda s dôverou ku trónu milosti, aby sme prijali milosrdenstvo a našli milosť na pomoc v pravý čas."
+
+Pred Ním nemusíš predstierať, že to zvládaš. Môžeš Mu povedať všetko, aj to, čo nepovieš nikomu inému.
+
+Keď ťa niekto odmietne, začneš o sebe pochybovať: „Asi som nebol dosť dobrý. Kto by ma už chcel?“ Lenže tvoja hodnota nestojí na rozhodnutí iného človeka. Pavel píše o Bohu:
+
+"…keď nás z lásky podľa milostivej rady svojej vôle predurčil byť Mu synmi skrze Ježiša Krista a zvelebovať slávu Jeho milosti, ktorou nás omilostil v Milovanom."
+
+Ak patríš Kristovi, si v Ňom prijatý. Nie si „ten opustený“ ani „tá podvedená“. Tvoj život je ukotvený hlbšie, než siaha ktorýkoľvek ľudský vzťah:
+
+"Veď ste umreli, a váš život je skrytý s Kristom v Bohu."
+
+Tvoj starý život skončil s Kristom na kríži. Nový život máš v Ňom a ten ti nikto nevezme. Ak Krista ešte nepoznáš, pozvanie nájdeš v Modlitbe záchrany na úvodnej stránke. Apoštol pridáva ešte jednu istotu:
+
+"Kto nás odlúči od lásky Kristovej? Súženie alebo úzkosť, prenasledovanie alebo hlad, nahota, nebezpečenstvo alebo meč?"
+
+Ani rozvod, ani zrada. Ľudská láska môže zlyhať, ale Kristova láska k tebe nezlyhá.
+
+Možno si nebol len ten, komu ublížili, ale zlyhal si aj ty. Povedal si tvrdé slová, vzďaľoval si sa alebo si podľahol pokušeniu. Pomenuj to pred Bohom úprimne a nič nezakrývaj. Naše rozhodnutia majú následky, lebo čo človek rozsieva, to bude aj žať (Galatským 6, 7). Trest za tvoje zlyhania však už niesol Kristus. V Ňom pre teba niet odsúdenia (Rimanom 8, 1).
+
+Je ešte nádej? Pavel v Prvom liste Korinťanom spomína aj možnosť, že sa manželia zmieria (1. Korintským 7, 11). Boh dokáže obnoviť aj to, čo sa zdá zničené. Rozhodnutie druhého človeka však nemáš v rukách. O situácii, keď odchádza manželský partner, ktorý neverí, apoštol píše: „Boh vás povolal ku pokoju“ (1. Korintským 7, 15). Ak ti v manželstve hrozí násilie, tvoja bezpečnosť a bezpečnosť detí sú na prvom mieste.
+
+Ako sa správať, keď to tak bolí? Božie Slovo radí:
+
+"Nikomu sa neodplácajte zlým za zlé; starajte sa o dobré pred všetkými ľuďmi."
+
+V ďalšom verši stojí, aby sme mali pokoj so všetkými, pokiaľ to závisí od nás (Rimanom 12, 18). Za správanie druhého nezodpovedáš, za svoje áno. Ak máte deti, nehovor pred nimi zle o ich otcovi či mame a nepoužívaj ich ako zbraň. A odpustenie? To je cesta, nie jeden okamih. Viac o nej nájdeš v kapitole „Ťarcha, ktorú nemusíš niesť“.
+
+V Kristovi máš prijatie, lásku aj pokoj. Prichádzajú však lži: „Nikto ťa už nebude milovať.“ „Všetko je tvoja vina.“ „Tvoj život sa skončil.“ Nemusíš ich prijať. Odmietni ich a podrob svoje myšlienky Kristovi. Obnovuj myseľ tým, čo o tebe hovorí Božie Slovo.
+
+V prvých dňoch nerob veľké rozhodnutia sám a narýchlo. Dnes urob jeden krok: zver svoju bolesť Bohu v modlitbe, prípadne aj jednému dôveryhodnému človeku.
+
+Ľudia ťa môžu opustiť. Kristus ťa neopustí ani teraz.
+```
+
+### Modlitba 30
+```
+Drahý Pane Ježišu Kriste,
+
+Ty vieš, aké je to byť zradený niekým blízkym. Vzťah, ktorý mal byť na celý život, sa rozpadá. Bolí ma to viac, než dokážem povedať. Niekedy neviem, ako prežiť ďalší deň.
+
+Ak som aj ja niečím ublížil, vyznávam Ti to. Ďakujem Ti, že mi je to v Tebe už odpustené a že ma neodsudzuješ.
+
+Ďakujem Ti, že som v Tebe prijatý. Moja hodnota nezávisí od toho, či ma niekto chce. Môj život je skrytý s Tebou v Bohu a nič ma neodlúči od Tvojej lásky.
+
+Odmietam lož, že ma už nikto nebude milovať a že môj život sa skončil. Podrobujem Ti svoje myšlienky a ďakujem Ti, že Tvoj pokoj je so mnou aj teraz.
+
+Posilňuj ma každý deň. Daj mi múdrosť pri rozhodnutiach, ktoré sú predo mnou, a láskavosť voči tým, ktorí sú mi zverení. Ak je to možné, obnov to, čo sa rozpadlo. Ak nie, veď ma ďalej. A nauč ma odpustiť tomu, kto ma zradil a zranil.
+
+Ľudia môžu zlyhať, no Ty si ten istý včera i dnes i naveky. Tebe patrí sláva.
+
+Amen.
+```

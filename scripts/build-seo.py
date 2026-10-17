@@ -219,7 +219,10 @@ def odseky(text):
             out.append('<blockquote class="chapter-verse">' + esc(o.strip('"')) + '</blockquote>')
         else:
             # spojenie „v sekcii Piesne" sa zobrazí ako odkaz (rovnako v js/app.js)
-            out.append('<p>' + esc(o).replace('v sekcii Piesne', '<a href="piesne.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">v sekcii Piesne</a>') + '</p>')
+            # rovnako názov kapitoly 15 a Modlitba záchrany na úvodnej stránke (kap. 30)
+            out.append('<p>' + esc(o).replace('v sekcii Piesne', '<a href="piesne.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">v sekcii Piesne</a>')
+                       .replace('„Ťarcha, ktorú nemusíš niesť“', '„<a href="kapitola-15.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">Ťarcha, ktorú nemusíš niesť</a>“')
+                       .replace('v Modlitbe záchrany', 'v <a href="index.html#modlitba-zachrany" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">Modlitbe záchrany</a>') + '</p>')
     return '\n                    '.join(out)
 
 
