@@ -28,6 +28,18 @@
 
     <link rel="stylesheet" href="css/style.css?v=70">
     <link rel="manifest" href="manifest.json">
+    <style>
+        /* Prehrávač modlitby ostáva hore, kým čitateľ číta modlitbu (len ak má kapitola audio) */
+        .prayer-zone:has(.player-controls:not([hidden])) > .chapter-audio {
+            position: sticky;
+            top: 64px;
+            z-index: 40;
+        }
+        .chapter-audio.is-stuck { padding-top: var(--space-3); padding-bottom: var(--space-3); }
+        .chapter-audio.is-stuck > .player { margin-bottom: 0; }
+        .chapter-audio.is-stuck > .chapter-audio-header,
+        .chapter-audio.is-stuck > .download-btn { display: none; }
+    </style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -140,6 +152,7 @@
                     <p>Tvoj domov sa nezmení za jeden večer. Ale môže sa začať meniť dnes – a začne to tebou.</p>
                 </div>
 
+                <div class="prayer-zone">
                 <!-- Audio modlitby -->
                 <div class="chapter-audio">
                     <div class="chapter-audio-header">
@@ -200,6 +213,7 @@
                     <p>Amen.</p>
                     </div>
                 </div>
+                </div>
 
                 <!-- Zdieľanie a tichá podpora -->
                 <div class="chapter-share">
@@ -256,5 +270,33 @@
     <script src="js/data.js"></script>
     <script src="js/player.js"></script>
     <script src="js/app.js"></script>
+    <script>
+    // Prilepený prehrávač: skryje nadpis a tlačidlo Stiahnuť. Text pod ním neposkočí (výška sa dorovná okrajom).
+    (function () {
+        var zone = document.querySelector('.prayer-zone');
+        var box = zone && zone.querySelector('.chapter-audio');
+        if (!box) return;
+        var waiting = false;
+        function update() {
+            waiting = false;
+            var sticky = getComputedStyle(box).position === 'sticky';
+            var stuck = box.classList.contains('is-stuck');
+            var should = sticky && zone.getBoundingClientRect().top < 64;
+            if (should === stuck) return;
+            if (should) {
+                var h = box.offsetHeight, mb = parseFloat(getComputedStyle(box).marginBottom) || 0;
+                box.classList.add('is-stuck');
+                box.style.marginBottom = (mb + h - box.offsetHeight) + 'px';
+            } else {
+                box.classList.remove('is-stuck');
+                box.style.marginBottom = '';
+            }
+        }
+        function onScroll() { if (!waiting) { waiting = true; requestAnimationFrame(update); } }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+        update();
+    })();
+    </script>
 </body>
 </html>
