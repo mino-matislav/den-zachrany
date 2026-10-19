@@ -1127,3 +1127,81 @@ Posilňuj ma každý deň. Daj mi múdrosť pri rozhodnutiach, ktoré sú predo 
 
 Amen.
 ```
+
+## Kapitola 31 — príhovor a modlitba schválené 19. 10. 2026 — NASADENÉ 19. 10. 2026 (s nahrávkou ?v=1)
+
+Nová kapitola „Keď ťa ťažia dlhy“ (podnadpis „Keď nevieš, ako to všetko splatíš“). Modlitba je zámerne adresovaná Otcovi („Drahý nebeský Otče,“), bez odkazov na verše a bez „v mene… Amen“. Odkazy v zátvorkách (Rimanom 8, 1; Príslovia 22, 7; Príslovia 15, 22; Filipským 4, 6) sú zámerne v texte. Centrum právnej pomoci je spomenuté zámerne (osobný bankrot). „spečatený zasľúbeným Duchom Svätým“ a „závdavkom“ sú doslovné výrazy ECAV (Efezským 1, 13 – 14), neopravovať. Zátvorka „(všetko)“ v 2. Korintským 8, 21 je doslovné ECAV.
+
+tags: starosti, bezmocnosť, vina, pokoj, vedenie
+scriptureTheme: 1. Jánov 3, Rimanom 13, 2. Korintským 8, Filipským 4, 1. Tesalonickým 4
+
+### Verše (ECAV, overené na biblia.sk 19. 10. 2026)
+1. 1. Jánov 3, 1: „Pozrite, akú lásku dal nám Otec, aby sme sa volali Božími deťmi; a nimi sme.“
+2. Rimanom 13, 8: „Nikomu nič nedlhujte, len to, aby ste sa milovali. Lebo kto blížneho miluje, naplnil zákon.“
+3. 2. Korintským 8, 21: „Staráme sa totiž, aby (všetko) bolo dobré nielen pred Pánom, ale aj pred ľuďmi.“
+4. Filipským 4, 12: „Viem sa aj uskromniť a viem aj v hojnosti žiť.“
+5. 1. Tesalonickým 4, 12: „…aby ste počestne žili pred tými, čo sú mimo, a aby ste nepotrebovali nikoho.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+v schránke je ďalšia upomienka. Na displeji svieti neznáme číslo a ty ho radšej nezdvihneš. V noci počítaš, čo zaplatíš skôr, a vychádza ti to stále horšie. Doma o tom nehovoríš, lebo sa hanbíš.
+
+K dlhom sa človek dostane rôznymi cestami. Prišla choroba či strata práce, niekto ťa podviedol, ručil si za iného alebo si sa raz rozhodol zle. Nech je príčina akákoľvek, dlh dolieha na každého veľmi ťažko. Cítiš sa malý a bezmocný.
+
+Najprv to najdôležitejšie: tvoja hodnota nie je zostatok na účte. Pred Bohom nie si číslo v zozname dlžníkov. Apoštol Ján píše:
+
+"Pozrite, akú lásku dal nám Otec, aby sme sa volali Božími deťmi; a nimi sme."
+
+Hanba ťa chce skryť pred ľuďmi aj pred Bohom. Ty si však Božie dieťa a Otec ťa neodmieta. Ak k dlhom viedli aj tvoje rozhodnutia, povedz to Bohu úprimne. Trest za tvoje zlyhania už niesol Kristus, a preto ťa Boh neodsudzuje (Rimanom 8, 1). Následky však zostávajú a treba ich poctivo riešiť.
+
+V Knihe prísloví čítame pravdivú vetu: „dlžník je otrokom veriteľa“ (Príslovia 22, 7). Je to múdrosť o tom, čo dlh s človekom robí. Berie mu pokoj, slobodu aj spánok. Preto Pavel dáva veriacim jasný smer:
+
+"Nikomu nič nedlhujte, len to, aby ste sa milovali. Lebo kto blížneho miluje, naplnil zákon."
+
+Nie je to výčitka pre toho, kto už v dlhoch je. Je to cieľ, ku ktorému môžeš kráčať krok za krokom. Prvým z nich je poctivosť. Apoštol o sebe a svojich spolupracovníkoch píše:
+
+"Staráme sa totiž, aby (všetko) bolo dobré nielen pred Pánom, ale aj pred ľuďmi."
+
+Poctivosť pred ľuďmi znamená neskrývať sa. Ozvi sa veriteľom skôr, než sa ozvú oni. Povedz im pravdu a skús sa dohodnúť na splátkach, ktoré zvládneš. Neber si novú pôžičku na splatenie starej. A nič nepodpisuj pod tlakom ani v strachu.
+
+Nemusíš to riešiť sám. Aj tu platí múdrosť Prísloví: „Kde nieto rady, plány sa rušia, daria sa však, kde je dosť poradcov“ (Príslovia 15, 22). Požiadaj o radu niekoho, kto sa v tom vyzná. Pomôcť ti môže aj Centrum právnej pomoci, napríklad pri osobnom bankrote. Hľadať pomoc nie je hanba, ale múdrosť.
+
+V Kristovi už máš to, čo ti dlh nemôže vziať: Boží pokoj, lásku a vedenie pre každý ďalší krok. Uplatňuj to. Svoje obavy zver Bohu v modlitbe a nezabudni pritom na vďaku (Filipským 4, 6). Ak ti v hlave znie „toto nikdy nezvládneš“ alebo „mal by si sa hanbiť“, odmietni to a podrob svoje myšlienky Kristovi.
+
+Neznamená to, že Boh tvoje dlhy zázračne zmaže. Znamená to, že v tom nie si sám a že ťa vedie.
+
+Pavel poznal hojnosť aj nedostatok. Napísal:
+
+"Viem sa aj uskromniť a viem aj v hojnosti žiť."
+
+Uskromniť sa nie je porážka. Je to dočasná cesta k slobode. Tesalonickým veriacim zas radí pokojne pracovať vlastnými rukami:
+
+"…aby ste počestne žili pred tými, čo sú mimo, a aby ste nepotrebovali nikoho."
+
+Aj malé splátky a rozumné rozhodnutia majú zmysel, hoci výsledok nevidíš hneď.
+
+Urob dnes jeden krok. Napíš si všetky dlhy pod seba: komu, koľko a dokedy. Potom sa nad tým zoznamom pomodli. Zoznam na papieri je menej strašný ako obavy v hlave.
+
+Dlh je obdobie tvojho života, nie tvoja identita. Patríš Bohu a On ťa neopúšťa.
+```
+
+### Modlitba 31
+```
+Drahý nebeský Otče,
+
+Ty vidíš každú upomienku, upozornenie aj dokument, ktoré ma ťažia. Poznáš aj noci, keď nemôžem zaspať.
+
+Ak som k tomu prispel vlastnými rozhodnutiami, vyznávam Ti to. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma neodsudzuješ.
+
+V Pánovi Ježišovi Kristovi môžem k Tebe prísť aj s tým, za čo sa hanbím. Ďakujem Ti, že pre Teba nie som číslo v zozname dlžníkov, ale Tvoje dieťa.
+
+Nechcem už svoju hanbu skrývať ani zamlčiavať. Odmietam strach, ktorý mi berie spánok. Podrobujem svoje myšlienky Kristovi a ďakujem Ti, že Tvoj pokoj je so mnou.
+
+Daj mi odvahu hovoriť pravdu a ozvať sa tým, ktorým dlžím. Priveď ku mne ľudí, ktorí sa v tom vyznajú a poradia mi. Daj mi silu verne pracovať. Nauč ma uskromniť sa bez horkosti a múdro narábať s peniazmi.
+
+Ďakujem Ti, že ma vedieš krok za krokom a že som v Kristovi spečatený zasľúbeným Duchom Svätým. On je závdavkom môjho dedičstva. Nech je môj život na chválu Tvojej slávy.
+
+Amen.
+```

@@ -1628,12 +1628,34 @@ Amen.`,
             { text: "Nikomu sa neodplácajte zlým za zlé; starajte sa o dobré pred všetkými ľuďmi.", ref: "Rimanom 12, 17" }
         ],
         prayer: "Drahý Pane Ježišu Kriste,\n\nTy vieš, aké je to byť zradený niekým blízkym. Vzťah, ktorý mal byť na celý život, sa rozpadá. Bolí ma to viac, než dokážem povedať. Niekedy neviem, ako prežiť ďalší deň.\n\nAk som aj ja niečím ublížil, vyznávam Ti to. Ďakujem Ti, že mi je to v Tebe už odpustené a že ma neodsudzuješ.\n\nĎakujem Ti, že som v Tebe prijatý. Moja hodnota nezávisí od toho, či ma niekto chce. Môj život je skrytý s Tebou v Bohu a nič ma neodlúči od Tvojej lásky.\n\nOdmietam lož, že ma už nikto nebude milovať a že môj život sa skončil. Podrobujem Ti svoje myšlienky a ďakujem Ti, že Tvoj pokoj je so mnou aj teraz.\n\nPosilňuj ma každý deň. Daj mi múdrosť pri rozhodnutiach, ktoré sú predo mnou, a láskavosť voči tým, ktorí sú mi zverení. Ak je to možné, obnov to, čo sa rozpadlo. Ak nie, veď ma ďalej. A nauč ma odpustiť tomu, kto ma zradil a zranil.\n\nĽudia môžu zlyhať, no Ty si ten istý včera i dnes i naveky. Tebe patrí sláva.\n\nAmen.",
-        audioUrl: null,
-        hasAudio: false,
+        audioUrl: "assets/audio/modlitba-30.mp3?v=1",
+        hasAudio: true,
         illustrationRef: "ked-sa-ti-rozpada-manzelstvo",
         tags: ["bolesť", "krivda", "osamelosť", "prijatie", "nádej"],
         available: true,
         scriptureTheme: "Židom 4, Efezským 1, Kolosenským 3, Rimanom 8, Rimanom 12",
+        isStarter: false
+    },
+    "31": {
+        id: "31",
+        title: "Keď ťa ťažia dlhy",
+        subtitle: "Keď nevieš, ako to všetko splatíš",
+        shortDescription: "Keď ťa ťažia upomienky a nevieš, ako ďalej. Ako zložiť hanbu, poctivo riešiť dlhy a nájsť pokoj v Bohu.",
+        fullText: "Drahý brat, drahá sestra v Kristovi,\n\nv schránke je ďalšia upomienka. Na displeji svieti neznáme číslo a ty ho radšej nezdvihneš. V noci počítaš, čo zaplatíš skôr, a vychádza ti to stále horšie. Doma o tom nehovoríš, lebo sa hanbíš.\n\nK dlhom sa človek dostane rôznymi cestami. Prišla choroba či strata práce, niekto ťa podviedol, ručil si za iného alebo si sa raz rozhodol zle. Nech je príčina akákoľvek, dlh dolieha na každého veľmi ťažko. Cítiš sa malý a bezmocný.\n\nNajprv to najdôležitejšie: tvoja hodnota nie je zostatok na účte. Pred Bohom nie si číslo v zozname dlžníkov. Apoštol Ján píše:\n\n\"Pozrite, akú lásku dal nám Otec, aby sme sa volali Božími deťmi; a nimi sme.\"\n\nHanba ťa chce skryť pred ľuďmi aj pred Bohom. Ty si však Božie dieťa a Otec ťa neodmieta. Ak k dlhom viedli aj tvoje rozhodnutia, povedz to Bohu úprimne. Trest za tvoje zlyhania už niesol Kristus, a preto ťa Boh neodsudzuje (Rimanom 8, 1). Následky však zostávajú a treba ich poctivo riešiť.\n\nV Knihe prísloví čítame pravdivú vetu: „dlžník je otrokom veriteľa“ (Príslovia 22, 7). Je to múdrosť o tom, čo dlh s človekom robí. Berie mu pokoj, slobodu aj spánok. Preto Pavel dáva veriacim jasný smer:\n\n\"Nikomu nič nedlhujte, len to, aby ste sa milovali. Lebo kto blížneho miluje, naplnil zákon.\"\n\nNie je to výčitka pre toho, kto už v dlhoch je. Je to cieľ, ku ktorému môžeš kráčať krok za krokom. Prvým z nich je poctivosť. Apoštol o sebe a svojich spolupracovníkoch píše:\n\n\"Staráme sa totiž, aby (všetko) bolo dobré nielen pred Pánom, ale aj pred ľuďmi.\"\n\nPoctivosť pred ľuďmi znamená neskrývať sa. Ozvi sa veriteľom skôr, než sa ozvú oni. Povedz im pravdu a skús sa dohodnúť na splátkach, ktoré zvládneš. Neber si novú pôžičku na splatenie starej. A nič nepodpisuj pod tlakom ani v strachu.\n\nNemusíš to riešiť sám. Aj tu platí múdrosť Prísloví: „Kde nieto rady, plány sa rušia, daria sa však, kde je dosť poradcov“ (Príslovia 15, 22). Požiadaj o radu niekoho, kto sa v tom vyzná. Pomôcť ti môže aj Centrum právnej pomoci, napríklad pri osobnom bankrote. Hľadať pomoc nie je hanba, ale múdrosť.\n\nV Kristovi už máš to, čo ti dlh nemôže vziať: Boží pokoj, lásku a vedenie pre každý ďalší krok. Uplatňuj to. Svoje obavy zver Bohu v modlitbe a nezabudni pritom na vďaku (Filipským 4, 6). Ak ti v hlave znie „toto nikdy nezvládneš“ alebo „mal by si sa hanbiť“, odmietni to a podrob svoje myšlienky Kristovi.\n\nNeznamená to, že Boh tvoje dlhy zázračne zmaže. Znamená to, že v tom nie si sám a že ťa vedie.\n\nPavel poznal hojnosť aj nedostatok. Napísal:\n\n\"Viem sa aj uskromniť a viem aj v hojnosti žiť.\"\n\nUskromniť sa nie je porážka. Je to dočasná cesta k slobode. Tesalonickým veriacim zas radí pokojne pracovať vlastnými rukami:\n\n\"…aby ste počestne žili pred tými, čo sú mimo, a aby ste nepotrebovali nikoho.\"\n\nAj malé splátky a rozumné rozhodnutia majú zmysel, hoci výsledok nevidíš hneď.\n\nUrob dnes jeden krok. Napíš si všetky dlhy pod seba: komu, koľko a dokedy. Potom sa nad tým zoznamom pomodli. Zoznam na papieri je menej strašný ako obavy v hlave.\n\nDlh je obdobie tvojho života, nie tvoja identita. Patríš Bohu a On ťa neopúšťa.",
+        verses: [
+            { text: "Pozrite, akú lásku dal nám Otec, aby sme sa volali Božími deťmi; a nimi sme.", ref: "1. Jánov 3, 1" },
+            { text: "Nikomu nič nedlhujte, len to, aby ste sa milovali. Lebo kto blížneho miluje, naplnil zákon.", ref: "Rimanom 13, 8" },
+            { text: "Staráme sa totiž, aby (všetko) bolo dobré nielen pred Pánom, ale aj pred ľuďmi.", ref: "2. Korintským 8, 21" },
+            { text: "Viem sa aj uskromniť a viem aj v hojnosti žiť.", ref: "Filipským 4, 12" },
+            { text: "…aby ste počestne žili pred tými, čo sú mimo, a aby ste nepotrebovali nikoho.", ref: "1. Tesalonickým 4, 12" }
+        ],
+        prayer: "Drahý nebeský Otče,\n\nTy vidíš každú upomienku, upozornenie aj dokument, ktoré ma ťažia. Poznáš aj noci, keď nemôžem zaspať.\n\nAk som k tomu prispel vlastnými rozhodnutiami, vyznávam Ti to. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma neodsudzuješ.\n\nV Pánovi Ježišovi Kristovi môžem k Tebe prísť aj s tým, za čo sa hanbím. Ďakujem Ti, že pre Teba nie som číslo v zozname dlžníkov, ale Tvoje dieťa.\n\nNechcem už svoju hanbu skrývať ani zamlčiavať. Odmietam strach, ktorý mi berie spánok. Podrobujem svoje myšlienky Kristovi a ďakujem Ti, že Tvoj pokoj je so mnou.\n\nDaj mi odvahu hovoriť pravdu a ozvať sa tým, ktorým dlžím. Priveď ku mne ľudí, ktorí sa v tom vyznajú a poradia mi. Daj mi silu verne pracovať. Nauč ma uskromniť sa bez horkosti a múdro narábať s peniazmi.\n\nĎakujem Ti, že ma vedieš krok za krokom a že som v Kristovi spečatený zasľúbeným Duchom Svätým. On je závdavkom môjho dedičstva. Nech je môj život na chválu Tvojej slávy.\n\nAmen.",
+        audioUrl: "assets/audio/modlitba-31.mp3?v=1",
+        hasAudio: true,
+        illustrationRef: "ked-ta-tazia-dlhy",
+        tags: ["starosti", "bezmocnosť", "vina", "pokoj", "vedenie"],
+        available: true,
+        scriptureTheme: "1. Jánov 3, Rimanom 13, 2. Korintským 8, Filipským 4, 1. Tesalonickým 4",
         isStarter: false
     }
 };
