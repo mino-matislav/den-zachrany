@@ -7,9 +7,15 @@ Pri zmene pravidiel ho aktualizuj (so súhlasom Admina).
 
 **Deň Záchrany** (https://den-zachrany.vercel.app) je bezplatný slovenský kresťanský pastoračný web pre ľudí v ťažkých životných situáciách. Obsahuje kapitoly (príhovor + biblické verše + modlitba s audiom) a piesne.
 
-Správca: **Admin Rodacar**. Nie je programátor, komunikuje **po slovensky**. Vždy odpovedaj po slovensky, so správnou diakritikou. Si vývojár aj teologický spolupracovník.
+Správca: **Admin**. Nie je programátor, komunikuje **po slovensky**. Vždy odpovedaj po slovensky, so správnou diakritikou. Si vývojár aj teologický spolupracovník.
 
 Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia SW, čo je odložené.
+
+### Identita autora (prísne)
+- Projekt sa zverejňuje výhradne pod pseudonymom **Mino Matislav**. V kóde, textoch, komentároch, commitoch, názvoch súborov ani metadátach sa nesmie objaviť skutočné meno, e-mail ani nič, čo by pseudonym prepojilo so skutočnou identitou autora. Správcu označuj len ako „Admin".
+- Pred commitom over, že autor commitu (git config) je pseudonym (sekcia 2).
+- Jediná vedomá výnimka: príjemca „MILMAT s.r.o." a IBAN na stránke Podpora (banka musí príjemcu overiť, iný účet nie je; rozhodnutie Admina 19. 10. 2026).
+- Pri pochybnosti sa najprv spýtaj.
 
 ---
 
@@ -40,7 +46,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Stack: vanilla JS/HTML/CSS, **žiadny build krok**.
 - Git identita commitov: `mino-matislav` / `mino.matislav@gmail.com`. Autora nemeň, ani na žiadosť automatických hookov.
 - **Push ide z úlohy v claude.ai/code s vybraným repozitárom, bez tokenu** (Claude GitHub App má prístup len k tomuto repozitáru). V bežných chatoch na claude.ai push nefunguje (git proxy od ~21. 9. 2026).
-- **Na začiatku každej úlohy sa prepni na miestnu vetvu `main`** (sleduje `origin/main`) a pushuj z nej. Hlásenia o neodoslaných commitoch vo vetve `claude/…` ignoruj.
+- **Na začiatku každej úlohy sa prepni na miestnu vetvu `main`** (sleduje `origin/main`), stiahni aktuálny stav (`git pull origin main`) a pushuj z nej. Na projekte pracuje viac ľudí, na zastaranej kópii nepracuj. Hlásenia o neodoslaných commitoch vo vetve `claude/…` ignoruj.
 - **Pushuj priamo do `main`.** Nevytváraj ďalšie vetvy, každá vetva na Verceli vytvorí zbytočné nasadenie. Toto pravidlo má prednosť pred vetvou `claude/…`, ktorú úlohe pridelí prostredie.
 - Každý push do `main` spustí nové nasadenie, aj keď sa zmení len CLAUDE.md (`.vercelignore` iba zabráni, aby sa súbor dostal na web). Úpravy CLAUDE.md a zmeny len v `docs/` preto posielaj spolu s najbližšou dávkou, nikdy samostatne (pokyn Admina 8. 10. 2026).
 - Tokeny nikdy neukladaj do súborov ani do pamäte.
@@ -84,6 +90,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Presne 5 tagov: spravidla 3 z „Čo prežívam" a 2 z „Čo hľadám". Tagy berie len zo slovníka, ktorý sa v prípade potreby rozšíri. Tagy sú jednoslovné.
 - Kapitola bez audia: `audioUrl: null`, `hasAudio: false`. Web vtedy ukáže hlášku „🎵 Audio tejto modlitby pripravujeme…". Audio sa doplní neskôr: keď Admin dodá nahrávku, spracuj ju podľa sekcie 6, ulož ako `assets/audio/modlitba-N.mp3` (N = číslo kapitoly) a nastav `audioUrl` a `hasAudio: true`.
 - Šablóna `kapitola.html` (a z nej kapitola-N.html) obsahuje hlášku „Audio tejto modlitby pripravujeme" aj pri kapitolách s audiom. Je to v poriadku: app.js ju pri existujúcom audiu skryje. Neopravovať.
+- Filter kapitol a tlačidlá tém generuje app.js z dát (`tags`, `tagGroups`), nie ručne v HTML. Tak to aj zachovaj.
 - Legacy súbory NEUPRAVOVAŤ: koreňové `data.js`, `data-kapitoly.js`, `js/data-kapitoly.js`.
 
 ### Piesne — `js/data-songs.js`
@@ -121,6 +128,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Piesne sú umelecké vyjadrenie a nemusia byť dispenzačné, dispenzačnú kontrolu na ne neuplatňuj. Verše v „Inšpirácia z Biblie“ však musia byť presné znenie ECAV a text piesne nesmie ísť proti evanjeliu (napríklad naznačovať, že veriaci môže stratiť spásu).
 
 ### Verše
+- Verš, ktorý sa nepodarí overiť na biblia.sk, radšej vynechaj a povedz to Adminovi.
 - **Výhradne evanjelický preklad ECAV z biblia.sk** (`https://biblia.sk/citanie/sep/<kniha>/<kapitola>`, napr. Žalmy = `sep/z/16`). Nie seb, roh ani ssv. Vždy nezávisle over, aj názvy kníh („Židom", nie „Hebrejom"; „Józua"). Overené znenia sú v `docs/BIBLICKE-VERSE-ECAV.md`.
 - Drafty takmer vždy obsahujú ekumenické alebo Roháčkovo znenie. Kontroluj opakovanie veršov voči iným kapitolám aj tematické prekrytie.
 
