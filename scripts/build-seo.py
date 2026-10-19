@@ -500,8 +500,10 @@ def main():
     popis = (f"Biblická pomoc pre ťažké chvíle — strach, úzkosť, choroba, strata, vina "
              f"či osamelosť. {pocet} kapitol s modlitbami a piesňami. Dnes je deň spasenia.")
     h = open(P("index.html"), encoding="utf-8").read()
-    h = re.sub(r'<meta name="description" content="[^"]*"',
-               '<meta name="description" content="%s"' % popis, h, count=1)
+    # aj og a twitter popis, inak zaostávajú o jednu kapitolu
+    for atr in ('name="description"', 'property="og:description"', 'name="twitter:description"'):
+        h = re.sub(r'<meta %s content="[^"]*"' % atr,
+                   '<meta %s content="%s"' % (atr, popis), h, count=1)
     open(P("index.html"), "w", encoding="utf-8").write(h)
 
     web = {"@type": "WebSite", "name": "Deň Záchrany", "url": BASE_URL + "/",
