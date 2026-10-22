@@ -1205,3 +1205,74 @@ Daj mi odvahu hovoriť pravdu a ozvať sa tým, ktorým dlžím. Priveď ku mne 
 
 Amen.
 ```
+
+## Kapitola 32 — príhovor a modlitba schválené 22. 10. 2026 — NASADENÉ 22. 10. 2026 (bez audia)
+
+Nová kapitola „Keď zomrel niekto blízky a nevieš, kde je“ (podnadpis „Smútok, výčitky a otázka, na ktorú pozná odpoveď len Boh“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Modlitba je zámerne adresovaná Pánovi Ježišovi Kristovi, bez odkazov na verše a bez „v mene… Amen“. Odkazy v zátvorkách (Efezským 2, 8; 1. Korintským 3, 1; 5. Mojžišova 29, 28; Rimanom 14, 12; Rimanom 8, 1; Žalm 103, 8) sú zámerne v texte. 1. Korintským 3, 1 je vlastnými slovami bez úvodzoviek (ECAV má „ako nedospelým v Kristovi“). „Tajomné veci“ (5. Mojžišova 29, 28) a slovosled v Žalme 103, 8 sú doslovné ECAV. Pri Žalme 62, 9 je zámerne vynechané „Sela“. V príhovore je automatický odkaz „v Modlitbe záchrany“ → index.html#modlitba-zachrany; odkaz na kapitolu 1 sa zámerne nerobí (Admin 22. 10. 2026: kód sa kvôli nemu nemení).
+
+tags: smútok, strata, vina, nádej, pokoj
+scriptureTheme: Lukáš 23, 1. Mojžišova 18, Rimanom 11, Rimanom 8, Žalm 62
+
+### Verše (ECAV, overené na biblia.sk 22. 10. 2026)
+1. Lukáš 23, 42 – 43: „Potom povedal Ježišovi: Pane, Ježiši, rozpomeň sa na mňa, keď prídeš do svojho kráľovstva. Odpovedal mu (Ježiš): Veru, hovorím ti: Dnes budeš so mnou v raji!“
+2. 1. Mojžišova 18, 25: „Či by ten, čo súdi celú zem, nemal konať spravodlivo?“
+3. Rimanom 11, 33: „Ó, hlbokosť bohatstva, múdrosti a známosti Božej! Aké nevyspytateľné sú Jeho súdy a nepochopiteľné cesty Jeho.“
+4. Žalm 62, 9: „Dúfajte v Neho, ľudia, v každom čase; vylievajte si pred Ním srdce! Boh je naším útočiskom.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+pohreb sa skončil. Zazneli pekné slová o tom, že je už na lepšom mieste. Ty však istotu nemáš. Nikdy si ho nepočul hovoriť o Kristovi, ani ovocie Ducha v jeho živote nebolo zreteľne vidieť. A v noci prichádza otázka, ktorú sa bojíš vysloviť nahlas: „Kde je teraz?“
+
+Taký smútok je dvojitý. Bolí strata človeka, ktorého si miloval. A k tomu neistota, s ktorou sa ťažko žije. Ak to prežívaš, nie si zlý kresťan ani slabý vo viere. Boh ťa za tvoju bolesť neodsudzuje.
+
+Pri tejto otázke treba byť poctivý. Písmo jasne učí, že človek je spasený z milosti skrze vieru v Krista (Efezským 2, 8). Preto si nebudeme nahovárať, že na viere nezáleží. Zároveň však nemáme Boží pohľad.
+
+Nevidíme do srdca človeka. Písmo hovorí aj o veriacich, ktorí žili telesne, ako nedospelí v Kristovi (1. Korintským 3, 1). Ich viera navonok nemusela byť zjavná. A nevidíme ani posledné chvíle človeka. Evanjelista Lukáš opisuje dvoch zločincov, ktorí viseli na krížoch vedľa Pána Ježiša. Jeden z nich sa v poslednej chvíli obrátil k Nemu:
+
+"Potom povedal Ježišovi: Pane, Ježiši, rozpomeň sa na mňa, keď prídeš do svojho kráľovstva. Odpovedal mu (Ježiš): Veru, hovorím ti: Dnes budeš so mnou v raji!"
+
+Tento príbeh neznamená, že sa tak stalo s každým. Ukazuje však, ako ďaleko siaha Božia milosť. Čo sa odohralo v srdci tvojho blízkeho v posledných chvíľach, nevieš ty ani nikto z ľudí. Už v Starej zmluve stojí: „Tajomné veci patria Hospodinovi, nášmu Bohu, a zjavené veci nám“ (5. Mojžišova 29, 28).
+
+Na jednej pravde však môžeš spočinúť. Súd nepatrí tebe, ale Bohu. Keď Abrahám prosil za mesto Sodomu, položil otázku, ktorá dodnes vystihuje Boží charakter:
+
+"Či by ten, čo súdi celú zem, nemal konať spravodlivo?"
+
+Písmo o Ňom hovorí: „Hospodin milosrdný je a ľútostivý, zhovievavý a bohatý je v milosti“ (Žalm 103, 8). Každý človek bude pred Ním súdený spravodlivo. Apoštol Pavel nad Božími cestami zvolal:
+
+"Ó, hlbokosť bohatstva, múdrosti a známosti Božej! Aké nevyspytateľné sú Jeho súdy a nepochopiteľné cesty Jeho."
+
+Nevysvetľuje to všetko. Dáva to však pokoj z poznania, že odpoveď je u Boha, nie u teba.
+
+Možno ťa trápia výčitky: „Mal som mu viac hovoriť o Kristovi. Mal som sa viac modliť. Mal som byť lepším príkladom.“ Písmo hovorí, že každý z nás „vydá počet za seba“ (Rimanom 14, 12). Za rozhodnutie iného človeka nezodpovedáš. A ak si niečo zanedbal, povedz to Bohu. V Kristovi ti je to odpustené a niet pre teba odsúdenia (Rimanom 8, 1).
+
+Preto sebaobviňovanie nemusíš prijímať. Keď sa vracia, odmietni ho a podrob Kristovi každú takú myšlienku. Tvoja nádej v Ňom zostáva pevná, aj keď niektoré otázky ostávajú bez odpovede. A smútok sa môže premeniť na lásku k ľuďom, ktorí ešte žijú. Možno je okolo teba niekto, komu môžeš dnes ukázať Kristovo milosrdenstvo. A vo vhodnej chvíli mu povedz aj evanjelium, dobrú správu o záchrane v Kristovi. Pomôže ti pozvanie v Modlitbe záchrany na úvodnej stránke.
+
+So svojou bolesťou nemusíš zostať sám. Žalmista Dávid vyzýva:
+
+"Dúfajte v Neho, ľudia, v každom čase; vylievajte si pred Ním srdce! Boh je naším útočiskom."
+
+Čo môžeš urobiť už dnes? Povedz Bohu v modlitbe všetko, čo ťa ťaží, aj to, čo si svojmu blízkemu už nestihol povedať. A pokoj hľadaj v pravde, že súd patrí Bohu, ktorý je spravodlivý.
+
+Smútok môže trvať dlho. Boh je však pri tebe v každom jeho dni.
+```
+
+### Modlitba 32
+```
+Drahý Pane Ježišu Kriste,
+
+Ty poznáš môj smútok aj otázky, ktoré sa bojím vysloviť. Chýba mi človek, ktorého som miloval. A bolí ma, že neviem, kde je teraz.
+
+Ak som niečo zanedbal, vyznávam Ti to. Ďakujem Ti, že mi je to v Tebe už odpustené a že ma neodsudzuješ.
+
+Viem, že Ty súdiš a konáš spravodlivo. Ja nevidím do srdca človeka, ale Ty vidíš všetko. Tvoje súdy sú nevyspytateľné a cesty dokonalé.
+
+Odmietam sebaobviňovanie, ktoré ma zráža k zemi. Podrobujem Ti svoje myšlienky a ďakujem Ti, že Tvoj pokoj je so mnou aj v smútku.
+
+Ďakujem Ti, že mi dávaš silu niesť túto stratu a uzdravuješ moje zranené srdce. Zveril si mi službu zmierenia. Chcem s láskou pozývať ľudí okolo seba, aby sa zmierili s Bohom, kým je čas milosti.
+
+Ty si vzkriesenie a život. Tebe patrí sláva naveky.
+
+Amen.
+```
