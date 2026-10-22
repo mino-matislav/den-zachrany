@@ -1206,7 +1206,7 @@ Daj mi odvahu hovoriť pravdu a ozvať sa tým, ktorým dlžím. Priveď ku mne 
 Amen.
 ```
 
-## Kapitola 32 — príhovor a modlitba schválené 22. 10. 2026 — NASADENÉ 22. 10. 2026 (bez audia)
+## Kapitola 32 — príhovor a modlitba schválené 22. 10. 2026 — NASADENÉ 22. 10. 2026 (nahrávka modlitby ?v=1 doplnená 22. 10. 2026)
 
 Nová kapitola „Keď zomrel niekto blízky a nevieš, kde je“ (podnadpis „Smútok, výčitky a otázka, na ktorú pozná odpoveď len Boh“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Modlitba je zámerne adresovaná Pánovi Ježišovi Kristovi, bez odkazov na verše a bez „v mene… Amen“. Odkazy v zátvorkách (Efezským 2, 8; 1. Korintským 3, 1; 5. Mojžišova 29, 28; Rimanom 14, 12; Rimanom 8, 1; Žalm 103, 8) sú zámerne v texte. 1. Korintským 3, 1 je vlastnými slovami bez úvodzoviek (ECAV má „ako nedospelým v Kristovi“). „Tajomné veci“ (5. Mojžišova 29, 28) a slovosled v Žalme 103, 8 sú doslovné ECAV. Pri Žalme 62, 9 je zámerne vynechané „Sela“. V príhovore je automatický odkaz „v Modlitbe záchrany“ → index.html#modlitba-zachrany; odkaz na kapitolu 1 sa zámerne nerobí (Admin 22. 10. 2026: kód sa kvôli nemu nemení).
 
