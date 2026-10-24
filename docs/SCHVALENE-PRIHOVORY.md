@@ -1276,3 +1276,76 @@ Ty si vzkriesenie a život. Tebe patrí sláva naveky.
 
 Amen.
 ```
+
+## Kapitola 33 — príhovor a modlitba schválené 24. 10. 2026 — NASADENÉ 24. 10. 2026 (s nahrávkou ?v=1)
+
+Nová kapitola „Keď je tvoj blízky odkázaný na tvoju pomoc“ (podnadpis „Keď ťa láska vyčerpáva a nik to nevidí“). Modlitba je zámerne adresovaná Otcovi („Drahý nebeský Otče,“), bez odkazov na verše a bez „v mene… Amen“. „o svojich, a najmä o domácich, zaprel vieru“ (1. Timoteovi 5, 8) je doslovný úsek ECAV. „riekol“, „ajhľa“, „prijal ju učeník k sebe“ (Ján 19, 26 – 27) sú doslovné ECAV. Žalm 31, 16 je zámerne len prvá časť verša s výpustkou, pri Žalme 68, 20 je zámerne vynechané „Sela“. Samostatný praktický krok na konci zámerne nie je (zmena pravidla 24. 10. 2026).
+
+tags: vyčerpanie, vina, osamelosť, sila, odpočinok
+scriptureTheme: 1. Timoteovi 5, Ján 19, 2. Mojžišova 18, Žalm 31, Žalm 68
+
+### Verše (ECAV, overené na biblia.sk 24. 10. 2026)
+1. Ján 19, 26 – 27: „Keď Ježiš uvidel matku a vedľa nej stáť učeníka, ktorého miloval, riekol matke: Žena, ajhľa, tvoj syn! Potom riekol učeníkovi: Ajhľa, tvoja matka! A od tej hodiny prijal ju učeník k sebe.“
+2. 2. Mojžišova 18, 18: „Úplne sa unavíš aj ty, aj tento ľud pri tebe, lebo je to priťažké pre teba; nemôžeš to robiť sám.“
+3. Žalm 31, 16: „V Tvojej ruke sú moje časy…“
+4. Žalm 68, 20: „Nech je deň čo deň požehnaný Pán, ktorý nás nesie. Boh je naša spása.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+ľudia sa ťa pýtajú: „Ako sa má mama?“ Alebo: „Ako je na tom syn?“ Odpovedáš ochotne a trpezlivo. No málokto sa spýta, ako sa máš ty.
+
+Staráš sa o rodiča v starobe, o dieťa s postihnutím, o súrodenca po úraze alebo o manžela či manželku po ťažkej diagnóze. Tvoje dni sa točia okolo človeka, ktorý to sám nezvládne. Prerušené noci, lieky, úrady a papiere. Vlastný život si odložil bokom. A niekedy prichádza aj tichý smútok, keď ťa tvoj blízky prestáva poznávať.
+
+Takáto únava nie je slabosť ani hriech. Si len človek. Vyčerpanie neznamená, že miluješ menej.
+
+Do únavy sa však niekedy vkradnú aj výčitky. Došla ti trpezlivosť alebo si zvýšil hlas. A možno ti v noci napadlo: „Kiež by to už skončilo.“ Hneď nato prišla hanba. Ak si niečím zlyhal, vyznaj to Bohu. V Kristovi ti je to už odpustené. Myšlienka zrodená z vyčerpania ešte neznamená, že svojho blízkeho nemáš rád.
+
+Starostlivosť o blízkych je pre Boha dôležitá. Apoštol Pavel píše Timoteovi, že kto sa nestará „o svojich, a najmä o domácich, zaprel vieru“ (1. Timoteovi 5, 8). To, čo robíš, je teda viera v praxi. Písmo ti však neprikazuje, kde a ako to máš robiť. Prikazuje ti starať sa s láskou. Niekedy to znamená ostať doma. Inokedy prijať pomoc alebo nájsť miesto, kde tvojmu blízkemu pomôžu odborne lepšie, ako dokážeš ty.
+
+Aj Pán Ježiš sa postaral o svoju matku. Evanjelista Ján opisuje, čo sa stalo pod krížom:
+
+"Keď Ježiš uvidel matku a vedľa nej stáť učeníka, ktorého miloval, riekol matke: Žena, ajhľa, tvoj syn! Potom riekol učeníkovi: Ajhľa, tvoja matka! A od tej hodiny prijal ju učeník k sebe."
+
+Ani v najväčšej bolesti na ňu nezabudol. A starostlivosť o ňu zveril učeníkovi. Zveriť časť služby iným teda nie je zlyhanie.
+
+Aj tvoje sily majú hranice. V Starej zmluve čítame, ako Mojžiš od rána do večera sám riešil spory celého ľudu. Jeho tesť mu múdro povedal:
+
+"Úplne sa unavíš aj ty, aj tento ľud pri tebe, lebo je to priťažké pre teba; nemôžeš to robiť sám."
+
+Ani ty nemusíš všetko niesť sám. Požiadaj o konkrétnu pomoc súrodencov, priateľov alebo bratov a sestry zo zboru. Využi aj opatrovateľskú či odľahčovaciu službu, ktorú poskytujú obce a sociálne služby. Kto prijme pomoc, nemiluje menej.
+
+Niekedy prídu aj ťažké rozhodnutia. Čo ak tvoj blízky potrebuje viac, ako mu dokážeš dať? Čo ak sám nechce odísť z domu? Vypočuj ho a rešpektuj jeho dôstojnosť. Nerozhoduj sám, poraď sa s rodinou aj s odborníkmi. Láska hľadá dobro druhého, aj keď nemôže splniť každé jeho želanie. A nesúď nikoho, kto sa rozhodol inak. Ani toho, kto si blízkeho ponechal doma, ani toho, kto zvolil zariadenie. A nesúď ani seba.
+
+Možno ťa ťaží aj iná výčitka: „Sľúbil som mu, že zostane doma. A zomrel v nemocnici.“ Keď si volal pomoc, konal si z lásky. Život aj smrť sú v Božej ruke, nie v tvojej. V Žalmoch čítame:
+
+"V Tvojej ruke sú moje časy…"
+
+V Kristovi ti Boh už dal to, čo na túto cestu potrebuješ: Boží pokoj, silu na každý deň aj múdrosť pri rozhodnutiach. Nečerpáš len z vlastných síl. Keď ti v hlave znie „nezvládneš to“ alebo „nerobíš dosť“, odmietni to. Podrob takú myšlienku Kristovi a pripomeň si, ako ťa vidí On.
+
+S tým všetkým nie si sám. Žalmista píše:
+
+"Nech je deň čo deň požehnaný Pán, ktorý nás nesie. Boh je naša spása."
+
+Tvoju službu možno nevidí nikto z ľudí. Tvoj nebeský Otec ju však vidí a nesie ťa každým dňom.
+```
+
+### Modlitba 33
+```
+Drahý nebeský Otče,
+
+Ty poznáš každú noc, keď nespím, aj každý deň, keď už nevládzem. Vieš, ako veľmi milujem toho, o koho sa starám, aj to, aký som niekedy unavený.
+
+Ak mi došla trpezlivosť alebo som povedal niečo zlé, vyznávam Ti to. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma neodsudzuješ.
+
+Moja služba nie je zbytočná. Ty ju vidíš, aj keď ju nevidí nikto iný.
+
+Odmietam myšlienky, že to nezvládnem a že nerobím dosť. Podrobujem ich Kristovi a ďakujem Ti, že Tvoj pokoj je so mnou aj v najťažších dňoch.
+
+Aj pre ťažké rozhodnutia mi dávaš múdrosť. Pomôž mi s láskou počúvať svojho blízkeho a neostať pri rozhodovaní sám. Pošli mi ľudí, ktorí mi pomôžu niesť to, čo je nad moje sily.
+
+Môj život aj život môjho blízkeho je v Tvojej ruke. Ďakujem Ti, že ma nesieš deň čo deň. Tebe patrí chvála naveky.
+
+Amen.
+```
