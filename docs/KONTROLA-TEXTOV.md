@@ -95,7 +95,7 @@ Opakovanie len vtedy, keď je nutné, a potom inými slovami.
 - **Úvodzovky.** V úvodzovkách je iba doslovné znenie ECAV. Ak treba iný slovosled, napísať to bez úvodzoviek ako bežnú vetu s odkazom v zátvorke.
 
 ### Vzory z kapitoly 3 (2. 10. 2026)
-- Príhovor má dať čitateľovi aj jeden jednoduchý praktický krok, nielen vysvetlenie (napr. „povedz obavy Bohu jednu po druhej a pri každej poďakuj").
+- Praktický krok na konci príhovoru už nie je povinný v každej kapitole – len tam, kde ho téma prirodzene ponúka (napr. „povedz obavy Bohu jednu po druhej a pri každej poďakuj"). Inak príhovor môže končiť Božou pravdou, v ktorej čitateľ spočinie (zmena pravidla 24. 10. 2026).
 - Príklady majú platiť pre akúkoľvek chvíľu, nie len pre jednu situáciu („keď na teba doľahnú obavy", nie „večer").
 
 ### Vzory z kapitoly 2 (1. 10. 2026)
