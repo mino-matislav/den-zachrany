@@ -6,3 +6,5 @@ README.md
 .gitignore
 CLAUDE.md
 .claude/
+tools/
+.github/
