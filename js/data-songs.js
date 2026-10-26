@@ -889,27 +889,27 @@ const songData = {
         ],
         verses: [
             {
-                text: "Tak aj vy, keď toto všetko uvidíte, vedzte, že je blízko, predo dvermi.",
+                text: "Tak aj vy, keď uvidíte všetko toto, vedzte, že je blízko, predo dvermi.",
                 ref: "Matúš 24, 33 — ECAV"
             },
             {
-                text: "Beda tým, ktorí zlé nazývajú dobrým a dobré zlým, ktorí robia z tmy svetlo a zo svetla tmu.",
+                text: "Beda tým, čo na zlé povedia: Dobré, a na dobré: Zlé, ktorí tmu menia na svetlo a svetlo na tmu, trpké na sladké a sladké na trpké.",
                 ref: "Izaiáš 5, 20 — ECAV"
             },
             {
-                text: "Vzhľad oblohy viete posúdiť, ale znamenia časov neviete?",
+                text: "…úkazy na nebi teda viete rozsúdiť, a znamenia časov neviete?",
                 ref: "Matúš 16, 3 — ECAV"
             },
             {
-                text: "A nieto v nikom inom spasenia, lebo ani niet pod nebom iného mena daného ľuďom, v ktorom by sme mali byť spasení.",
+                text: "A nieto spasenia v nikom inom, lebo nebolo dané pre ľudí iné meno pod nebom, v ktorom by sme mali dôjsť spasenia.",
                 ref: "Skutky 4, 12 — ECAV"
             },
             {
-                text: "Krv Jeho Syna Ježiša očisťuje nás od každého hriechu.",
+                text: "…krv Ježiša, Jeho Syna, nás očisťuje od každého hriechu.",
                 ref: "1. Jánov 1, 7 — ECAV"
             },
             {
-                text: "Ajhľa, stojím pri dverách a klopem. Ak niekto počuje môj hlas a otvorí dvere, vojdem k nemu a budem večerať s ním a on so mnou.",
+                text: "Ajhľa, stojím pri dverách a klopem. Ak niekto počuje môj hlas a otvorí dvere, vojdem k nemu a budem stolovať s ním a on so mnou.",
                 ref: "Zjavenie 3, 20 — ECAV"
             },
             {
