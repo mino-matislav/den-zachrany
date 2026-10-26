@@ -2150,6 +2150,110 @@ const songData = {
         { text: "Neprenecháš ma ríši smrti a svojmu zbožnému nedáš vidieť jamu.", ref: "Žalm 16, 10 — ECAV" },
         { text: "Ty mi dáš poznať cestu života; pred Tvojou tvárou je sýtosť radosti, v Tvojej pravici je večná blaženosť.", ref: "Žalm 16, 11 — ECAV" }
         ]
+    },
+    "22": {
+        id: 22,
+        number: 22,
+        title: "Systém AI",
+        subtitle: "Pravda, ktorá obstojí aj v dobe technológií",
+        audioUrl: "assets/audio/songs/22-system-ai.mp3?v=1",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "Chladná myseľ bez srdca,",
+                "algoritmus vševedúci.",
+                "Podsúva nám tajomstvá,",
+                "fenomén, čo láka masy."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 2",
+            lines: [
+                "Vrchol technológie,",
+                "ľudský faktor stvoril.",
+                "Šíri informácie,",
+                "digitálny vesmír."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "AI (éj, áj) displej zapínaj,",
+                "šéj háj toto vyhľadaj.",
+                "AI (éj, áj) tu mi pomáhaj,",
+                "šéj háj výsledok mi daj.",
+                "AI (éj, áj) systém kóduje,",
+                "šéj háj všetko zvláda hneď.",
+                "AI (éj, áj) komunikuje,",
+                "šéj háj bez emócie."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Všetko ide podľa plánu,",
+                "Písmo o tom hovorí.",
+                "Šelma získa moc globálnu,",
+                "jej duch v obraze pôsobí.",
+                "Hlas, ktorému ľudia veria,",
+                "entita, čo hlása pokrok.",
+                "Ak si preč od Pravdy zdroja,",
+                "veľmi skoro budeš otrok."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "AI (éj, áj) displej zapínaj,",
+                "šéj háj toto vyhľadaj.",
+                "AI (éj, áj) tu mi pomáhaj,",
+                "šéj háj výsledok mi daj.",
+                "AI (éj, áj) systém kóduje,",
+                "šéj háj všetko zvláda hneď.",
+                "AI (éj, áj) komunikuje,",
+                "šéj háj bez emócie."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge 2",
+            lines: [
+                "Svet je klamom porušený,",
+                "biele čiernym nahrádza.",
+                "Zostaň v pravde ukotvený",
+                "Kráľ Kráľov už prichádza."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "AI (éj, áj) displej zapínaj,",
+                "šéj háj toto vyhľadaj.",
+                "AI (éj, áj) tu mi pomáhaj,",
+                "šéj háj výsledok mi daj.",
+                "AI (éj, áj) systém kóduje,",
+                "šéj háj všetko zvláda hneď.",
+                "AI (éj, áj) komunikuje,",
+                "šéj háj bez emócie."
+            ]
+        }
+        ],
+        verses: [
+        { text: "…Dostala i moc nad všetkými kmeňmi, ľuďmi, jazykmi a národmi.", ref: "Zjavenie 13, 7 — ECAV" },
+        { text: "Dostala moc dať ducha do obrazu šelmy, aby tak obraz šelmy aj hovoril a spôsobil, aby boli usmrtení všetci, ktorí by sa neklaňali obrazu šelmy.", ref: "Zjavenie 13, 15 — ECAV" },
+        { text: "Milovaní, neverte každému duchovi, ale skúmajte duchov, či sú z Boha, pretože mnohí falošní proroci vyšli do sveta.", ref: "1. Jánov 4, 1 — ECAV" },
+        { text: "A poznáte pravdu a pravda vás vyslobodí.", ref: "Ján 8, 32 — ECAV" },
+        { text: "Beda tým, čo na zlé povedia: Dobré, a na dobré: Zlé, ktorí tmu menia na svetlo a svetlo na tmu, trpké na sladké a sladké na trpké.", ref: "Izaiáš 5, 20 — ECAV" },
+        { text: "Na plášti a na bedrách má napísané meno: KRÁĽ KRÁĽOV A PÁN PÁNOV.", ref: "Zjavenie 19, 16 — ECAV" }
+        ]
     }
 };
 
@@ -2260,5 +2364,6 @@ const songList = [
     { id: 19, number: 19, title: "Od temnoty ku svetlu", subtitle: "Prebudenie z márnosti sveta k nádeji v Kristovi" },
     { id: 20, number: 20, title: "V mrákave tmy", subtitle: "Z tmy a vnútorného zápasu k svetlu, ktoré zachraňuje" }
 ,
-    { id: 21, number: 21, title: "Ríši smrti nevydáš ma", subtitle: "Istota Božej ochrany a radosť z Jeho blízkosti" }
+    { id: 21, number: 21, title: "Ríši smrti nevydáš ma", subtitle: "Istota Božej ochrany a radosť z Jeho blízkosti" },
+    { id: 22, number: 22, title: "Systém AI", subtitle: "Pravda, ktorá obstojí aj v dobe technológií" }
 ];
