@@ -23,9 +23,16 @@
         }
         .song-audio-block.is-stuck { padding-top: var(--space-3); padding-bottom: var(--space-3); }
         .song-audio-block.is-stuck > .player { margin-bottom: 0; }
-        .song-audio-block.is-stuck > .chapter-audio-header,
         .song-audio-block.is-stuck > .download-btn,
-        .song-audio-block.is-stuck > .scroll-hint { display: none; }
+        .song-audio-block.is-stuck > .scroll-hint,
+        .song-audio-block.is-stuck .chapter-audio-subtitle { display: none; }
+        /* V prilepenom stave ukáže názov piesne (ako „Práve hrá“ pri prehrávaní všetkých piesní) */
+        .song-audio-block.is-stuck > .chapter-audio-header {
+            flex: 1 1 100%;
+            justify-content: flex-start;
+            text-align: left;
+            margin-bottom: var(--space-3);
+        }
     </style>
 </head>
 <body>
@@ -169,12 +176,14 @@
     <script src="js/player.js"></script>
     <script src="js/app.js"></script>
     <script>
-    // Prilepený prehrávač piesne: skryje nadpis, Stiahnuť a „Text piesne nižšie“. Text pod ním neposkočí (výška sa dorovná okrajom).
+    // Prilepený prehrávač piesne: namiesto „Audio piesne“ ukáže názov piesne, skryje Stiahnuť a „Text piesne nižšie“. Text pod ním neposkočí (výška sa dorovná okrajom).
     (function () {
         var zone = document.querySelector('.song-zone');
         var box = zone && zone.querySelector('.song-audio-block');
         if (!box) return;
         var waiting = false;
+        var titleEl = box.querySelector('.song-audio-title');
+        var titleText = titleEl ? titleEl.textContent : '';
         function update() {
             waiting = false;
             var sticky = getComputedStyle(box).position === 'sticky';
@@ -183,10 +192,13 @@
             if (should === stuck) return;
             if (should) {
                 var h = box.offsetHeight, mb = parseFloat(getComputedStyle(box).marginBottom) || 0;
+                var heading = document.querySelector('.song-heading');
+                if (titleEl && heading) titleEl.textContent = heading.textContent;
                 box.classList.add('is-stuck');
                 box.style.marginBottom = (mb + h - box.offsetHeight) + 'px';
             } else {
                 box.classList.remove('is-stuck');
+                if (titleEl) titleEl.textContent = titleText;
                 box.style.marginBottom = '';
             }
         }

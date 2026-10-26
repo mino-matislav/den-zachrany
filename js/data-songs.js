@@ -2227,7 +2227,7 @@ const songData = {
             lines: [
                 "Svet je klamom porušený,",
                 "biele čiernym nahrádza.",
-                "Zostaň v pravde ukotvený",
+                "Zostaň v Pravde ukotvený",
                 "Kráľ Kráľov už prichádza."
             ]
         },
