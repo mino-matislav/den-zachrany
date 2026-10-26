@@ -28,6 +28,19 @@
 
     <link rel="stylesheet" href="css/style.css?v=70">
     <link rel="manifest" href="manifest.json">
+    <style>
+        /* Prehrávač piesne ostáva hore, kým čitateľ číta text piesne */
+        .song-zone > .song-audio-block {
+            position: sticky;
+            top: 64px;
+            z-index: 40;
+        }
+        .song-audio-block.is-stuck { padding-top: var(--space-3); padding-bottom: var(--space-3); }
+        .song-audio-block.is-stuck > .player { margin-bottom: 0; }
+        .song-audio-block.is-stuck > .chapter-audio-header,
+        .song-audio-block.is-stuck > .download-btn,
+        .song-audio-block.is-stuck > .scroll-hint { display: none; }
+    </style>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -104,6 +117,7 @@
             </header>
 
             <div class="chapter-content">
+                <div class="song-zone">
                 <!-- Audio prehrávač -->
                 <div class="chapter-audio song-audio-block">
                     <div class="chapter-audio-header">
@@ -164,6 +178,7 @@
 
                 <!-- Biblické verše (ECAV / SEB) -->
                 <div class="song-verse-wrap" hidden></div>
+                </div>
 
                 <!-- Kredit -->
                 <p class="song-credit"></p>
@@ -213,5 +228,33 @@
     <script src="js/data-songs.js"></script>
     <script src="js/player.js"></script>
     <script src="js/app.js"></script>
+    <script>
+    // Prilepený prehrávač piesne: skryje nadpis, Stiahnuť a „Text piesne nižšie“. Text pod ním neposkočí (výška sa dorovná okrajom).
+    (function () {
+        var zone = document.querySelector('.song-zone');
+        var box = zone && zone.querySelector('.song-audio-block');
+        if (!box) return;
+        var waiting = false;
+        function update() {
+            waiting = false;
+            var sticky = getComputedStyle(box).position === 'sticky';
+            var stuck = box.classList.contains('is-stuck');
+            var should = sticky && zone.getBoundingClientRect().top < 64;
+            if (should === stuck) return;
+            if (should) {
+                var h = box.offsetHeight, mb = parseFloat(getComputedStyle(box).marginBottom) || 0;
+                box.classList.add('is-stuck');
+                box.style.marginBottom = (mb + h - box.offsetHeight) + 'px';
+            } else {
+                box.classList.remove('is-stuck');
+                box.style.marginBottom = '';
+            }
+        }
+        function onScroll() { if (!waiting) { waiting = true; requestAnimationFrame(update); } }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+        update();
+    })();
+    </script>
 </body>
 </html>
