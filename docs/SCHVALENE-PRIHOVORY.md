@@ -1349,3 +1349,75 @@ Môj život aj život môjho blízkeho je v Tvojej ruke. Ďakujem Ti, že ma nes
 
 Amen.
 ```
+
+## Kapitola 34 — príhovor a modlitba schválené 27. 10. 2026 — NASADENÉ 27. 10. 2026 (s nahrávkou ?v=1)
+
+Nová kapitola „Keď sa staráš o cudzích a tvoji sú ďaleko“ (podnadpis „Keď ťa služba vyčerpáva a chýba ti domov“). Príhovor aj modlitba sú zámerne v ženskom rode (najmä pre opatrovateľky; mužov spomína veta „A nejeden muž.“). Modlitba je adresovaná Pánovi Ježišovi Kristovi, bez odkazov na verše a bez „v mene… Amen“; prvá veta voľne parafrázuje Marek 10, 45. „z tej duše“, „vediac“ (Kol 3, 23 – 24), „Keby som si vzal…“ (Ž 139, 9 – 10) a Ž 121, 8 sú doslovné ECAV. Samostatný praktický krok na konci zámerne nie je. Nahrávka je ženským hlasom (prvá taká); spracovaná len hlasitosťou a tichým intro, bez farby podľa vzorov 8+9 (rozhodnutie Admina 27. 10. 2026, ukážka B).
+
+tags: vyčerpanie, osamelosť, vina, poníženie, sila
+scriptureTheme: Kolosenským 3, Žalm 139, Filipským 1, Žalm 121
+
+### Verše (ECAV, overené na biblia.sk 27. 10. 2026)
+1. Kolosenským 3, 23 – 24: „Čokoľvek robíte, robte z tej duše ako Pánovi, a nie ako ľuďom, vediac, že od Pána dostanete za odmenu dedičstvo, veď Pánovi Kristovi slúžite.“
+2. Žalm 139, 9 – 10: „Keby som si vzal krídla rannej zory a býval pri najvzdialenejšom mori, aj tam by ma odprevadila Tvoja ruka a Tvoja pravica by ma uchopila.“
+3. Filipským 1, 8: „Lebo Boh mi je svedok, ako túžim po vás všetkých láskou Ježiša Krista.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+kufor je zbalený a nočný autobus odchádza o tretej. Pred tebou sú dva či štyri týždne v cudzom dome, s cudzím človekom a často aj v cudzej reči. Večer si zavoláš domov, a keď potom položíš telefón, v izbe je zrazu veľmi ticho.
+
+Takto žije mnoho žien zo Slovenska, ktoré opatrujú starých a chorých ľudí v zahraničí. A nejeden muž. Ak je to aj tvoj život, toto slovo je pre teba.
+
+Možno ťa ťaží otázka: „Prečo sa starám o cudzích, keď ma potrebujú moji blízki?“ Odišla si však preto, aby si sa o nich postarala. Práca, ktorou živíš rodinu, je tiež prejav lásky. Nie je to útek ani sebeckosť.
+
+Tvoja služba je ťažká. Dvíhanie, prebaľovanie, prerušené noci. Klient býva zmätený, nevďačný a niekedy aj zlý. Jeho rodina zas čaká, že budeš stále usmiata a k dispozícii. Keď ťa ponižujú, tvoja hodnota sa tým nemení. V Kristovi si Božím dieťaťom. Láska však neznamená, že musíš znášať všetko. Ak sa deje niečo, čo prekračuje hranice, ozvi sa agentúre alebo ľuďom, ktorí ti môžu pomôcť.
+
+Možno sa pýtaš, či má tvoja práca zmysel, keď ju nikto neocení. Apoštol Pavel píše veriacim, ktorí slúžili v cudzích domoch:
+
+"Čokoľvek robíte, robte z tej duše ako Pánovi, a nie ako ľuďom, vediac, že od Pána dostanete za odmenu dedičstvo, veď Pánovi Kristovi slúžite."
+
+Každé umytie, každé trpezlivé slovo a každá prebdená noc má svoju hodnotu. Klient si ich možno ani nevšimne. Pán Ježiš si ich však všíma a nezabudne na ne.
+
+A ak ti niekedy ujde netrpezlivé či tvrdé slovo, vyznaj to Bohu a ospravedlň sa tomu, komu si ublížila. V Kristovi ti je to už odpustené.
+
+Samota v cudzej krajine bolí inak. Nerozumieš ľuďom okolo seba a nemáš sa s kým porozprávať ani pomodliť. Boh však neostal doma na Slovensku. Žalmista vyznáva:
+
+"Keby som si vzal krídla rannej zory a býval pri najvzdialenejšom mori, aj tam by ma odprevadila Tvoja ruka a Tvoja pravica by ma uchopila."
+
+Aj v izbe pri posteli klienta si v Božej ruke. Kedykoľvek Mu môžeš povedať, čo prežívaš, aj potichu a vlastnými slovami. Božie Slovo máš poruke aj v mobile. A potešiť ťa môžu aj biblické piesne v sekcii Piesne.
+
+Najviac však chýbajú tvoji. Možno deti, ktoré rastú bez teba, manžel, ktorý doma všetko zvláda sám, alebo rodičia, ktorí na teba čakajú. Niekedy sa v duchu bojíš, že sa od seba odcudzíte. Aj apoštol poznal odlúčenie od tých, ktorých miloval. Keď bol vo väzení, napísal Filipským:
+
+"Lebo Boh mi je svedok, ako túžim po vás všetkých láskou Ježiša Krista."
+
+Odlúčenie neznamená, že ich miluješ menej. Láska, ktorú do teba vložil Kristus, prekoná aj stovky kilometrov.
+
+V Kristovi už máš pokoj a silu aj na cudzom mieste. Keď ti myseľ našepkáva „zanedbávaš svojich“ alebo „nikam nepatríš“, odmietni to. Podrob každú takú myšlienku Kristovi. Patríš Jemu a patríš aj svojej rodine, hoci ste práve ďaleko od seba.
+
+A keď sa vrátiš domov, môže prísť iná únava. Doma si medzitým zvykli žiť bez teba a vy potrebujete čas, kým k sebe opäť nájdete cestu. Buď trpezlivá k sebe aj k nim.
+
+Či si práve v cudzom dome, alebo doma pri svojich, si v tej istej Božej ruke. Platí to, čo čítame v Žalmoch: „Hospodin bude chrániť tvoje vychádzanie i tvoje vchádzanie odteraz až naveky“ (Žalm 121, 8).
+```
+
+### Modlitba 34
+```
+Drahý Pane Ježišu Kriste,
+
+Ty si neprišiel, aby Ti slúžili, ale aby si slúžil. Preto rozumieš aj mojej službe, ktorú často nikto neocení.
+
+Poznáš tento cudzí dom, moju izbu aj noci bez spánku. Veľmi mi chýbajú moji najbližší.
+
+Ak som sa voči svojim alebo voči klientovi previnila netrpezlivosťou či tvrdým slovom, vyznávam Ti to. Ďakujem Ti, že mi je to v Tebe už odpustené. Daj mi pokoru, aby som sa ospravedlnila aj tomu, komu som ublížila.
+
+Každým úkonom pomoci a každou prebdenou nocou slúžim aj Tebe a Ty na moju službu nezabudneš.
+
+Odmietam myšlienky, že zanedbávam svojich a že nikam nepatrím. Podrobujem ich Tebe a ďakujem Ti, že Tvoj pokoj je so mnou aj tu, ďaleko od domova.
+
+Ochraňuj mojich drahých, kým som preč. Ďakujem Ti, že nás Tvoja láska spája aj na diaľku.
+
+Si so mnou na ceste tam aj späť. Tebe patrí vďaka a chvála naveky.
+
+Amen.
+```
