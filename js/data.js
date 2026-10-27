@@ -1719,6 +1719,27 @@ Amen.`,
         available: true,
         scriptureTheme: "Kolosenským 3, Žalm 139, Filipským 1, Žalm 121",
         isStarter: false
+    },
+    "35": {
+        id: "35",
+        title: "Keď túžiš po dieťati a neprichádza",
+        subtitle: "Bolesť, o ktorej sa nahlas nehovorí",
+        shortDescription: "Keď znova príde sklamanie a dieťa neprichádza. Ako uniesť bolesť a otázky, chrániť manželstvo a nájsť pokoj v Bohu.",
+        fullText: "Drahý brat, drahá sestra v Kristovi,\n\nďalší mesiac sa skončil a s ním aj tichá nádej. Znova si si povedala: „Možno nabudúce.“ Na rodinnej oslave sa niekto spýta: „A kedy už vy?“ Usmeješ sa a zmeníš tému. Keď ti kamarátka oznámi, že čaká dieťa, úprimne jej to praješ. A doma potom plačeš.\n\nTúžba po dieťati je dobrá. Vložil ju do človeka sám Boh. Preto tak hlboko bolí, keď sa nenapĺňa. Mnohí ju nesú potichu, aj medzi veriacimi. Nie si v tom sama.\n\nPred Bohom smieš byť úprimná. V Prvej knihe Samuelovej čítame o Anne, ktorá dlhé roky nemohla mať deti. Plakala a nejedla. Keď sa vo svätyni modlila, kňaz si myslel, že je opitá. Anna mu odpovedala:\n\n\"…som žena, ktorej je ťažko na duši; nepila som ja víno ani iný opojný nápoj, ale vylievala som si dušu pred Hospodinom.\"\n\nAnne Boh syna dal. Podobne čítame aj o Sáre, Ráchel či Alžbete. Tieto príbehy však nie sú sľubom, že sa to tak stane každému. Ani zasľúbenia o plodnosti, ktoré Boh dal Izraelu pod Zákonom, nie sú meradlom tvojej viery. Ukazujú však, že Boh vidí slzy ženy, ktorej nikto nerozumie.\n\nDo bolesti sa vkrádajú aj otázky: „Trestá ma Boh? Urobila som niečo zlé? Mám málo viery?“ Neplodnosť nie je Boží trest. Kristus už niesol všetky tvoje hriechy a v Ňom ťa Boh neodsudzuje (Rimanom 8, 1). Ak ťa ťaží niečo z minulosti, vyznaj to Bohu a poďakuj Mu, že ti je to v Kristovi odpustené.\n\nTvoje slzy nie sú zbytočné. Žalmista Dávid sa modlí:\n\n\"Ty si spočítal moju biedu. Vlož moje slzy do svojej nádoby; či záznamu v Tvojej knihe o nich niet?\"\n\nBoh pozná každé sklamanie aj každú slzu, ktorú nikto nevidel. Nič z toho Mu neuniklo.\n\nTáto bolesť dolieha aj na manželstvo. Každý z vás ju nesie inak. Jeden chce hovoriť, druhý radšej mlčí. Niekedy prídu aj výčitky a hľadanie vinníka. Hovorte spolu otvorene a prinášajte to spoločne pred Boha. Ak uvažujete o liečbe, rozhodujte sa s modlitbou, podľa Božieho Slova a s dobrou radou.\n\nTáto bolesť nepatrí len ženám. Mlčky ju nesú aj mnohí muži, lebo majú byť silní. Ak si muž a čítaš tieto riadky, Boh vidí aj tvoj smútok. A ak ste už prišli o počaté dieťa, vaša strata je o to hlbšia. Boh ju pozná a je blízko pri vás.\n\nTvoja hodnota nespočíva v tom, či budeš matkou. Apoštol Pavel pripomína veriacim slová, ktorými sa Boh prihovára svojim:\n\n\"…budem vám otcom, a vy budete mi synmi a dcérami, hovorí všemohúci Pán.\"\n\nSi Božou dcérou a patríš do Jeho rodiny. To ti nikto nevezme. Niektorým manželom Boh otvorí aj inú cestu, napríklad osvojenie alebo pestúnstvo. Nie je to náhrada, ale ďalšia podoba lásky. Veď aj nás Boh prijal za svoje deti.\n\nAj v čakaní máš v Kristovi pokoj, hoci nevieš, čo prinesie zajtrajšok. Keď sa ozvú myšlienky „si menejcenná“ alebo „Boh na teba zabudol“, odmietni ich a podrob ich Kristovi. Boh na teba nezabudol.\n\nV čakaní nie si bez opory. Žalmista vyznáva:\n\n\"Naša duša očakáva na Hospodina, On je našou pomocou, On je naším štítom.\"\n\nNech tvoja cesta povedie kamkoľvek, nejdeš po nej sama. Boh, ktorý ťa miluje, ide s tebou.",
+        verses: [
+            { text: "…som žena, ktorej je ťažko na duši; nepila som ja víno ani iný opojný nápoj, ale vylievala som si dušu pred Hospodinom.", ref: "1. Samuelova 1, 15" },
+            { text: "Ty si spočítal moju biedu. Vlož moje slzy do svojej nádoby; či záznamu v Tvojej knihe o nich niet?", ref: "Žalm 56, 9" },
+            { text: "…budem vám otcom, a vy budete mi synmi a dcérami, hovorí všemohúci Pán.", ref: "2. Korintským 6, 18" },
+            { text: "Naša duša očakáva na Hospodina, On je našou pomocou, On je naším štítom.", ref: "Žalm 33, 20" }
+        ],
+        prayer: "Drahý nebeský Otče,\n\nSkrze Pána Ježiša Krista smiem k Tebe pristupovať s dôverou. Ty poznáš túžbu, ktorú nosím v srdci, aj slzy, o ktorých nikto nevie. Prišiel ďalší mesiac a s ním znova sklamanie.\n\nTúžbu po dieťati si do mňa vložil Ty sám. Smiem o nej s Tebou hovoriť otvorene, a preto ju s pokojom zverujem do Tvojich rúk.\n\nAk ma ťaží niečo z minulosti, vyznávam Ti to. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma netrestáš.\n\nOdmietam myšlienky, že som menejcenná a že si na mňa zabudol. Podrobujem ich Kristovi. Som Tvoja dcéra a patrím do Tvojej rodiny.\n\nChráň naše manželstvo, aby nás táto bolesť nerozdelila, ale ešte viac spojila. Daj nám múdrosť pri každom rozhodnutí.\n\nĎakujem Ti, že ma napĺňaš pokojom aj v čakaní. Ty si Boh nádeje a Teba chcem chváliť každý deň.\n\nAmen.",
+        audioUrl: "assets/audio/modlitba-35.mp3?v=1",
+        hasAudio: true,
+        illustrationRef: "ked-tuzis-po-dietati",
+        tags: ["smútok", "bolesť", "pochybnosti", "nádej", "pokoj"],
+        available: true,
+        scriptureTheme: "1. Samuelova 1, Žalm 56, 2. Korintským 6, Žalm 33",
+        isStarter: false
     }
 };
 

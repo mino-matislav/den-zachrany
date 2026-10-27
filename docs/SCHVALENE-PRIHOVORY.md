@@ -1421,3 +1421,76 @@ Si so mnou na ceste tam aj späť. Tebe patrí vďaka a chvála naveky.
 
 Amen.
 ```
+
+## Kapitola 35 — príhovor a modlitba schválené 27. 10. 2026 — NASADENÉ 27. 10. 2026 (s nahrávkou ?v=1)
+
+Nová kapitola „Keď túžiš po dieťati a neprichádza“ (podnadpis „Bolesť, o ktorej sa nahlas nehovorí“). Nahrávka ženským hlasom, spracovaná ako modlitba 34 (len hlasitosť a tiché intro). Oprava pravopisu pred nasadením so súhlasom Admina: „doliehá“ → „dolieha“. Príhovor aj modlitba sú zámerne v ženskom rode; mužov oslovuje samostatný odsek. Modlitba je adresovaná Otcovi, hneď za oslovením „Skrze Pána Ježiša Krista smiem k Tebe pristupovať s dôverou.“ (Ef 2, 18; 3, 12), bez odkazov na verše a bez „v mene… Amen“. 1. Samuelova 1, 15 a 2. Korintským 6, 18 sú zámerne s výpustkou na začiatku. Príbehy Anny, Sáry, Ráchel a Alžbety sú podané ako udalosti, nie sľub pre každého. Samostatný praktický krok na konci zámerne nie je. Ikona knihy „jar“ (nádoba na slzy, Ž 56, 9).
+
+tags: smútok, bolesť, pochybnosti, nádej, pokoj
+scriptureTheme: 1. Samuelova 1, Žalm 56, 2. Korintským 6, Žalm 33
+
+### Verše (ECAV, overené na biblia.sk 27. 10. 2026)
+1. 1. Samuelova 1, 15: „…som žena, ktorej je ťažko na duši; nepila som ja víno ani iný opojný nápoj, ale vylievala som si dušu pred Hospodinom.“
+2. Žalm 56, 9: „Ty si spočítal moju biedu. Vlož moje slzy do svojej nádoby; či záznamu v Tvojej knihe o nich niet?“
+3. 2. Korintským 6, 18: „…budem vám otcom, a vy budete mi synmi a dcérami, hovorí všemohúci Pán.“
+4. Žalm 33, 20: „Naša duša očakáva na Hospodina, On je našou pomocou, On je naším štítom.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+ďalší mesiac sa skončil a s ním aj tichá nádej. Znova si si povedala: „Možno nabudúce.“ Na rodinnej oslave sa niekto spýta: „A kedy už vy?“ Usmeješ sa a zmeníš tému. Keď ti kamarátka oznámi, že čaká dieťa, úprimne jej to praješ. A doma potom plačeš.
+
+Túžba po dieťati je dobrá. Vložil ju do človeka sám Boh. Preto tak hlboko bolí, keď sa nenapĺňa. Mnohí ju nesú potichu, aj medzi veriacimi. Nie si v tom sama.
+
+Pred Bohom smieš byť úprimná. V Prvej knihe Samuelovej čítame o Anne, ktorá dlhé roky nemohla mať deti. Plakala a nejedla. Keď sa vo svätyni modlila, kňaz si myslel, že je opitá. Anna mu odpovedala:
+
+"…som žena, ktorej je ťažko na duši; nepila som ja víno ani iný opojný nápoj, ale vylievala som si dušu pred Hospodinom."
+
+Anne Boh syna dal. Podobne čítame aj o Sáre, Ráchel či Alžbete. Tieto príbehy však nie sú sľubom, že sa to tak stane každému. Ani zasľúbenia o plodnosti, ktoré Boh dal Izraelu pod Zákonom, nie sú meradlom tvojej viery. Ukazujú však, že Boh vidí slzy ženy, ktorej nikto nerozumie.
+
+Do bolesti sa vkrádajú aj otázky: „Trestá ma Boh? Urobila som niečo zlé? Mám málo viery?“ Neplodnosť nie je Boží trest. Kristus už niesol všetky tvoje hriechy a v Ňom ťa Boh neodsudzuje (Rimanom 8, 1). Ak ťa ťaží niečo z minulosti, vyznaj to Bohu a poďakuj Mu, že ti je to v Kristovi odpustené.
+
+Tvoje slzy nie sú zbytočné. Žalmista Dávid sa modlí:
+
+"Ty si spočítal moju biedu. Vlož moje slzy do svojej nádoby; či záznamu v Tvojej knihe o nich niet?"
+
+Boh pozná každé sklamanie aj každú slzu, ktorú nikto nevidel. Nič z toho Mu neuniklo.
+
+Táto bolesť dolieha aj na manželstvo. Každý z vás ju nesie inak. Jeden chce hovoriť, druhý radšej mlčí. Niekedy prídu aj výčitky a hľadanie vinníka. Hovorte spolu otvorene a prinášajte to spoločne pred Boha. Ak uvažujete o liečbe, rozhodujte sa s modlitbou, podľa Božieho Slova a s dobrou radou.
+
+Táto bolesť nepatrí len ženám. Mlčky ju nesú aj mnohí muži, lebo majú byť silní. Ak si muž a čítaš tieto riadky, Boh vidí aj tvoj smútok. A ak ste už prišli o počaté dieťa, vaša strata je o to hlbšia. Boh ju pozná a je blízko pri vás.
+
+Tvoja hodnota nespočíva v tom, či budeš matkou. Apoštol Pavel pripomína veriacim slová, ktorými sa Boh prihovára svojim:
+
+"…budem vám otcom, a vy budete mi synmi a dcérami, hovorí všemohúci Pán."
+
+Si Božou dcérou a patríš do Jeho rodiny. To ti nikto nevezme. Niektorým manželom Boh otvorí aj inú cestu, napríklad osvojenie alebo pestúnstvo. Nie je to náhrada, ale ďalšia podoba lásky. Veď aj nás Boh prijal za svoje deti.
+
+Aj v čakaní máš v Kristovi pokoj, hoci nevieš, čo prinesie zajtrajšok. Keď sa ozvú myšlienky „si menejcenná“ alebo „Boh na teba zabudol“, odmietni ich a podrob ich Kristovi. Boh na teba nezabudol.
+
+V čakaní nie si bez opory. Žalmista vyznáva:
+
+"Naša duša očakáva na Hospodina, On je našou pomocou, On je naším štítom."
+
+Nech tvoja cesta povedie kamkoľvek, nejdeš po nej sama. Boh, ktorý ťa miluje, ide s tebou.
+```
+
+### Modlitba 35
+```
+Drahý nebeský Otče,
+
+Skrze Pána Ježiša Krista smiem k Tebe pristupovať s dôverou. Ty poznáš túžbu, ktorú nosím v srdci, aj slzy, o ktorých nikto nevie. Prišiel ďalší mesiac a s ním znova sklamanie.
+
+Túžbu po dieťati si do mňa vložil Ty sám. Smiem o nej s Tebou hovoriť otvorene, a preto ju s pokojom zverujem do Tvojich rúk.
+
+Ak ma ťaží niečo z minulosti, vyznávam Ti to. Ďakujem Ti, že mi je to v Kristovi už odpustené a že ma netrestáš.
+
+Odmietam myšlienky, že som menejcenná a že si na mňa zabudol. Podrobujem ich Kristovi. Som Tvoja dcéra a patrím do Tvojej rodiny.
+
+Chráň naše manželstvo, aby nás táto bolesť nerozdelila, ale ešte viac spojila. Daj nám múdrosť pri každom rozhodnutí.
+
+Ďakujem Ti, že ma napĺňaš pokojom aj v čakaní. Ty si Boh nádeje a Teba chcem chváliť každý deň.
+
+Amen.
+```
