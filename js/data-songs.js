@@ -2227,7 +2227,7 @@ const songData = {
             lines: [
                 "Svet je klamom porušený,",
                 "biele čiernym nahrádza.",
-                "Zostaň v Pravde ukotvený",
+                "Zostaň v Pravde ukotvený,",
                 "Kráľ Kráľov už prichádza."
             ]
         },
@@ -2252,6 +2252,7 @@ const songData = {
         { text: "Milovaní, neverte každému duchovi, ale skúmajte duchov, či sú z Boha, pretože mnohí falošní proroci vyšli do sveta.", ref: "1. Jánov 4, 1 — ECAV" },
         { text: "A poznáte pravdu a pravda vás vyslobodí.", ref: "Ján 8, 32 — ECAV" },
         { text: "Beda tým, čo na zlé povedia: Dobré, a na dobré: Zlé, ktorí tmu menia na svetlo a svetlo na tmu, trpké na sladké a sladké na trpké.", ref: "Izaiáš 5, 20 — ECAV" },
+        { text: "Lebo nás Boh neurčil na hnev, ale aby sme dosiahli spasenie v našom Pánovi Ježišovi Kristovi…", ref: "1. Tesalonickým 5, 9 — ECAV" },
         { text: "Na plášti a na bedrách má napísané meno: KRÁĽ KRÁĽOV A PÁN PÁNOV.", ref: "Zjavenie 19, 16 — ECAV" }
         ]
     }
