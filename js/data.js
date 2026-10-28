@@ -275,7 +275,7 @@ Tvoj príbeh sa touto stratou nekončí. Boh ťa drží aj vtedy, keď ty už ne
         ],
         prayer: `Drahý nebeský Otče,
 
-prichádzam k Tebe so zlomeným srdcom. Stalo sa niečo, čo neviem uniesť. Cítim smútok, bolesť a prázdnotu, ktorú neviem opísať slovami.
+Skrze Pána Ježiša Krista prichádzam k Tebe so zlomeným srdcom. Stalo sa niečo, čo neviem uniesť. Cítim smútok, bolesť a prázdnotu, ktorú neviem opísať slovami.
 
 Pred Tebou nemusím predstierať silu. Smiem plakať. Ty vidíš moje slzy a si mi blízko. Keď nenachádzam slová, Tvoj Svätý Duch sa za mňa prihovára.
 
@@ -292,7 +292,7 @@ Niekedy nechcem nikoho vidieť a chcem byť sám. Ďakujem Ti, že aj vtedy si s
 Odovzdávam Ti seba aj tých, ktorých milujem. Ďakujem Ti, že ma držíš aj vtedy, keď ja už nevládzem.
 
 Amen.`,
-        audioUrl: "assets/audio/modlitba-4.mp3?v=6",
+        audioUrl: "assets/audio/modlitba-4.mp3?v=7",
         hasAudio: true,
         illustrationRef: "voda-svetlo",
         tags: ["strata", "smútok", "bolesť", "nádej", "sila"],

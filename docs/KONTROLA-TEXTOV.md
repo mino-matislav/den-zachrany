@@ -157,7 +157,7 @@ Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad
 - ~~**11**~~ Hotové 9. 10. 2026: nová modlitba 11 s nahrávkou.
 - ~~**19, 20, 21**~~ Ostávajú bez zmeny (rozhodnutie Admina 15. 10. 2026).
 - **33:** chýba Kristus ako cesta k Otcovi (CLAUDE.md, sekcia 5; zistené 28. 10. 2026). Text sa teraz nemení, nové znenie pripraví kolega.
-- **4:** chýba Kristus ako cesta k Otcovi (CLAUDE.md, sekcia 5). Doplní sa pri nahrávke z iného dôvodu, nové znenie pripraví kolega.
+- ~~**4**~~ Hotové 28. 10. 2026: doplnené „Skrze Pána Ježiša Krista prichádzam…“, úsek vložený do nahrávky (?v=7).
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - ~~**4**~~ Hotové 2. 10. 2026: nová modlitba 4 s nahrávkou.
