@@ -26,7 +26,7 @@ BASE_URL = "https://den-zachrany.vercel.app"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = lambda *a: os.path.join(ROOT, *a)
 
-OG_IMAGE = "assets/og-image.png"
+OG_IMAGE = "assets/og-image.jpg"
 # overenie vlastníctva pre Google Search Console (meta značka namiesto DNS záznamu)
 GOOGLE_VERIFY = "3N05ANbUrWnYXB3a4BwzYJgYbqMNdWKyaaT7xJJVpEw"
 YOUTUBE = "https://www.youtube.com/@OdtemnotykuSvetlu"
@@ -86,28 +86,40 @@ def robots():
 # ------------------------------------------------------------
 #  sitemap.xml
 # ------------------------------------------------------------
+def posledna_zmena(subor):
+    """Dátum poslednej skutočnej zmeny stránky: dnes, ak sa práve zmenila, inak dátum
+    posledného commitu, ktorý ju menil. Google berie lastmod do úvahy, len keď sedí."""
+    try:
+        zmena = subprocess.run(['git', 'status', '--porcelain', '--', subor], cwd=ROOT,
+                               capture_output=True, text=True, check=True).stdout.strip()
+        if zmena:
+            return TODAY
+        d = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', subor], cwd=ROOT,
+                           capture_output=True, text=True, check=True).stdout.strip()
+        return d or TODAY
+    except Exception:
+        return TODAY
+
+
 def sitemap(data):
     riadky = ['<?xml version="1.0" encoding="UTF-8"?>',
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
 
-    def url(loc, prio, freq):
+    def url(loc, subor):
         riadky.extend([
             '  <url>',
             f'    <loc>{loc}</loc>',
-            f'    <lastmod>{TODAY}</lastmod>',
-            f'    <changefreq>{freq}</changefreq>',
-            f'    <priority>{prio}</priority>',
+            f'    <lastmod>{posledna_zmena(subor)}</lastmod>',
             '  </url>',
         ])
 
-    url(BASE_URL + '/', '1.0', 'weekly')
+    url(BASE_URL + '/', 'index.html')
     for f in ('kapitoly.html', 'piesne.html', 'podpora.html'):
-        prio, freq, idx = PAGES[f]
-        url(f'{BASE_URL}/{f}', prio, freq)
+        url(f'{BASE_URL}/{f}', f)
     for k in data['kapitoly']:
-        url(f'{BASE_URL}/kapitola-{k["id"]}.html', '0.8', 'monthly')
+        url(f'{BASE_URL}/kapitola-{k["id"]}.html', f'kapitola-{k["id"]}.html')
     for s in data['piesne']:
-        url(f'{BASE_URL}/piesen-{s["id"]}.html', '0.7', 'monthly')
+        url(f'{BASE_URL}/piesen-{s["id"]}.html', f'piesen-{s["id"]}.html')
 
     riadky.append('</urlset>')
     with open(P('sitemap.xml'), 'w', encoding='utf-8') as f:
@@ -332,6 +344,18 @@ def titulok(nazov, privesok):
     return plny if len(plny) <= 60 else nazov + privesok
 
 
+def titulok_kapitoly(nazov):
+    """Do titulku pre vyhľadávače pridá slová, ktoré ľudia hľadajú, ak sa zmestí do 60 znakov."""
+    s_hladanim = nazov + ' – modlitba a verše'
+    return s_hladanim if len(s_hladanim) <= 60 else titulok(nazov, '')
+
+
+def popis_piesne(sg):
+    """Popis pre vyhľadávače: popisok piesne + pevná veta (popisok sa nemení)."""
+    return (sg['desc'].rstrip('.') + '. Kresťanská pieseň s textom a biblickými veršami. '
+            'Vypočuj si ju online alebo stiahni MP3 zadarmo.')
+
+
 def suvisiace(k, vsetky, kolko=3):
     """Vyberie príbuzné kapitoly podľa počtu spoločných tém."""
     moje = set(k.get('tags') or [])
@@ -386,7 +410,7 @@ def statické_stránky(data):
                            '\n                    ' + odseky(k['fullText']) + '\n                ')
         h, _ = nahrad_blok(h, '<div class="chapter-prayer-text"',
                            '\n                        ' + odseky(k['prayer']) + '\n                    ')
-        h = uprav_hlavicku(h, titulok(k['title'], ''), k['desc'],
+        h = uprav_hlavicku(h, titulok_kapitoly(k['title']), k['desc'],
                            '%s/kapitola-%s.html' % (BASE_URL, k['id']),
                            'data-chapter-id="%s"' % k['id'])
         # príbuzné kapitoly — pomáha čitateľovi aj prepojeniu stránok pre Google
@@ -431,7 +455,7 @@ def statické_stránky(data):
                           '</p></div>')
         h, _ = nahrad_blok(h, '<div class="song-lyrics"',
                            '\n                    ' + '\n                    '.join(riadky) + '\n                ')
-        h = uprav_hlavicku(h, titulok(sg['title'], ' — pieseň'), sg['desc'],
+        h = uprav_hlavicku(h, titulok(sg['title'], ' — pieseň'), popis_piesne(sg),
                            '%s/piesen-%s.html' % (BASE_URL, sg['id']),
                            'data-song-id="%s"' % sg['id'])
         h = json_ld(h, {
@@ -489,7 +513,6 @@ def readme(data):
 def main():
     data = nacitaj_data()
     print("  ✓ " + robots())
-    print("  ✓ " + sitemap(data))
     for subor in PAGES:
         stav = "noindex" if not PAGES[subor][2] else "canonical + og"
         print(f"  ✓ {doplň(subor, data):16} ({stav})")
@@ -536,6 +559,7 @@ def main():
     for s in statické_stránky(data):
         print("  ✓ " + s)
     print("  ✓ " + readme(data))
+    print("  ✓ " + sitemap(data))
     print("\nHotovo. Pri zmene domény uprav BASE_URL a spusti znova.")
 
 
