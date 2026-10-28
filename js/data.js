@@ -1740,6 +1740,27 @@ Amen.`,
         available: true,
         scriptureTheme: "1. Samuelova 1, Žalm 56, 2. Korintským 6, Žalm 33",
         isStarter: false
+    },
+    "36": {
+        id: "36",
+        title: "Keď prídeš o dieťa ešte pred narodením",
+        subtitle: "Smútok za dieťaťom, ktoré si nestihla objať",
+        shortDescription: "Keď si prišla o dieťa ešte pred narodením a svet ide ďalej. Ako uniesť smútok a výčitky a mať nádej, že tvoje dieťa je u Pána.",
+        fullText: "Drahý brat, drahá sestra v Kristovi,\n\ndve čiarky na teste a v srdci veľká radosť. Prvé plány, možno už aj meno. A potom chvíľa, na ktorú nikdy nezabudneš. Niekedy príde táto bolestná strata už v prvých týždňoch, inokedy až tesne pred pôrodom, doma alebo v nemocnici. Ostane ti prázdne náručie a svet ide ďalej, akoby sa nič nestalo.\n\nSmútiš za svojím dieťaťom. Nie za „tehotenstvom“, ale za človekom, ktorého si už milovala. Boh ho poznal od prvej chvíle. Žalmista sa k Nemu modlí:\n\n\"Tvoje oči ma videli, keď som bol v zárodku, všetko to bolo napísané do Tvojej knihy…\"\n\nTvoje dieťa nebolo omylom ani náhodou. Bolo Božím stvorením a malo u Neho svoje miesto. Tvoj smútok preto nie je prehnaný.\n\nOkolie často nevie, čo povedať. Niekto ťa chce potešiť vetou „Aspoň vieš, že môžeš otehotnieť“ alebo „Veď to bol ešte len začiatok tehotenstva“. Myslí to dobre, no zraní. Smieš smútiť, aj keď to iní nechápu, a dať si na to čas.\n\nPrichádzajú aj výčitky: „Mohla som tomu zabrániť? Urobila som niečo zlé? Nemala som viac odpočívať?“ Takejto strate sa väčšinou zabrániť nedá. Neber na seba vinu, ktorá ti nepatrí. A ak ťa predsa niečo ťaží, vyznaj to Bohu s dôverou. Je ti to odpustené a On ťa neodsudzuje.\n\nMožno najviac bolí otázka: „Kde je teraz moje dieťa?“ Písmo nám dáva pevnú nádej. Keď kráľovi Dávidovi zomrelo malé dieťa, povedal s istotou:\n\n\"Ja pôjdem k nemu, ale ono sa nevráti ku mne.\"\n\nDávid vedel, že sa so svojím dieťaťom raz stretne. Aj Pán Ježiš ukázal, aké miesto majú deti v Božom srdci. Keď učeníci bránili deťom prísť k Nemu, povedal:\n\n\"Dovoľte deťom prichádzať ku mne a nebráňte im, lebo takých je kráľovstvo Božie.\"\n\nPotom ich bral do náručia a požehnával ich (Marek 10, 16). Tvoje dieťa nikdy nemohlo vedome odmietnuť Božiu milosť. Preto máme pevnú nádej, že je u Pána. Dieťa, ktoré si nestihla objať, je v Jeho náručí.\n\nBolesť prežíva aj otec. Často sa snaží byť oporou a vlastný smútok odkladá bokom. Ak si otec a čítaš tieto riadky, aj ty smieš smútiť. Boh pozná aj tvoje slzy.\n\nNiektorým rodičom pomôže dať dieťaťu meno alebo sa s ním po svojom rozlúčiť. Nie je to povinnosť, len možnosť.\n\nV Kristovi máš pokoj aj v tomto smútku. Keď sa ozve „zlyhala si“ alebo „Boh ťa trestá“, odmietni to a podrob takú myšlienku Kristovi. Boh ťa netrestá. Je pri tebe a nesie s tebou tvoju bolesť.\n\nPrichádza deň, keď všetok smútok pominie. Písmo o ňom hovorí:\n\n\"…zotrie im každú slzu z očí a smrť už viac nebude, ani smútok, ani plač…\"\n\nV ten deň uvidíš u Pána aj svoje dieťa, ktoré si tu nestihla poznať.",
+        verses: [
+            { text: "Tvoje oči ma videli, keď som bol v zárodku, všetko to bolo napísané do Tvojej knihy…", ref: "Žalm 139, 16" },
+            { text: "Ja pôjdem k nemu, ale ono sa nevráti ku mne.", ref: "2. Samuelova 12, 23" },
+            { text: "Dovoľte deťom prichádzať ku mne a nebráňte im, lebo takých je kráľovstvo Božie.", ref: "Marek 10, 14" },
+            { text: "…zotrie im každú slzu z očí a smrť už viac nebude, ani smútok, ani plač…", ref: "Zjavenie 21, 4" }
+        ],
+        prayer: "Drahý nebeský Otče,\n\nTy si moje dieťa utkal v mojom lone a Tvoje oči ho videli už v zárodku. Teraz mi ostalo prázdne náručie a srdce plné bolesti. Nechápem, prečo sa to muselo stať.\n\nTrápia ma výčitky, či som niečo nezanedbala. Všetko, čo ma ťaží, Ti vyznávam a ďakujem Ti, že mi je to v Kristovi už odpustené.\n\nViem, že moje dieťa je u Teba. Pán Ježiš berie deti do náručia a tam je teraz aj ono.\n\nOdmietam myšlienky, že som zlyhala a že ma trestáš, a podrobujem ich Kristovi. Tvoj pokoj je so mnou aj v tomto smútku.\n\nBuď prosím pri mne, pri otcovi môjho dieťaťa aj pri všetkých blízkych, ktorí so mnou smútia, lebo Ty poznáš srdce každého z nás.\n\nTeším sa na deň, keď zotrieš každú moju slzu. Ty si môj Boh a moja nádej.\n\nAmen.",
+        audioUrl: null,
+        hasAudio: false,
+        illustrationRef: "ked-prides-o-dieta-pred-narodenim",
+        tags: ["smútok", "strata", "bolesť", "vina", "nádej"],
+        available: true,
+        scriptureTheme: "Žalm 139, 2. Samuelova 12, Marek 10, Zjavenie 21",
+        isStarter: false
     }
 };
 

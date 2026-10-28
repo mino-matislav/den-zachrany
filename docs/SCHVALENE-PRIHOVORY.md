@@ -1494,3 +1494,74 @@ Chráň naše manželstvo, aby nás táto bolesť nerozdelila, ale ešte viac sp
 
 Amen.
 ```
+
+## Kapitola 36 — príhovor a modlitba schválené 28. 10. 2026 — NASADENÉ 28. 10. 2026 (bez audia)
+
+Nová kapitola „Keď prídeš o dieťa ešte pred narodením“ (podnadpis „Smútok za dieťaťom, ktoré si nestihla objať“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Príhovor aj modlitba sú zámerne v ženskom rode; otcovi je venovaný samostatný odsek. Modlitba je adresovaná Otcovi, bez odkazov na verše a bez „v mene… Amen“; prvá veta vychádza zo Žalmu 139, 13 a 16. Žalm 139, 16, 2. Samuelova 12, 23 a Zjavenie 21, 4 sú zámerne len časti veršov. „Potom ich bral do náručia a požehnával ich (Marek 10, 16)“ je parafráza. Samostatný praktický krok na konci zámerne nie je. Ikona knihy „leaf“.
+
+tags: smútok, strata, bolesť, vina, nádej
+scriptureTheme: Žalm 139, 2. Samuelova 12, Marek 10, Zjavenie 21
+
+### Verše (ECAV, overené na biblia.sk 28. 10. 2026)
+1. Žalm 139, 16: „Tvoje oči ma videli, keď som bol v zárodku, všetko to bolo napísané do Tvojej knihy…“
+2. 2. Samuelova 12, 23: „Ja pôjdem k nemu, ale ono sa nevráti ku mne.“
+3. Marek 10, 14: „Dovoľte deťom prichádzať ku mne a nebráňte im, lebo takých je kráľovstvo Božie.“
+4. Zjavenie 21, 4: „…zotrie im každú slzu z očí a smrť už viac nebude, ani smútok, ani plač…“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+dve čiarky na teste a v srdci veľká radosť. Prvé plány, možno už aj meno. A potom chvíľa, na ktorú nikdy nezabudneš. Niekedy príde táto bolestná strata už v prvých týždňoch, inokedy až tesne pred pôrodom, doma alebo v nemocnici. Ostane ti prázdne náručie a svet ide ďalej, akoby sa nič nestalo.
+
+Smútiš za svojím dieťaťom. Nie za „tehotenstvom“, ale za človekom, ktorého si už milovala. Boh ho poznal od prvej chvíle. Žalmista sa k Nemu modlí:
+
+"Tvoje oči ma videli, keď som bol v zárodku, všetko to bolo napísané do Tvojej knihy…"
+
+Tvoje dieťa nebolo omylom ani náhodou. Bolo Božím stvorením a malo u Neho svoje miesto. Tvoj smútok preto nie je prehnaný.
+
+Okolie často nevie, čo povedať. Niekto ťa chce potešiť vetou „Aspoň vieš, že môžeš otehotnieť“ alebo „Veď to bol ešte len začiatok tehotenstva“. Myslí to dobre, no zraní. Smieš smútiť, aj keď to iní nechápu, a dať si na to čas.
+
+Prichádzajú aj výčitky: „Mohla som tomu zabrániť? Urobila som niečo zlé? Nemala som viac odpočívať?“ Takejto strate sa väčšinou zabrániť nedá. Neber na seba vinu, ktorá ti nepatrí. A ak ťa predsa niečo ťaží, vyznaj to Bohu s dôverou. Je ti to odpustené a On ťa neodsudzuje.
+
+Možno najviac bolí otázka: „Kde je teraz moje dieťa?“ Písmo nám dáva pevnú nádej. Keď kráľovi Dávidovi zomrelo malé dieťa, povedal s istotou:
+
+"Ja pôjdem k nemu, ale ono sa nevráti ku mne."
+
+Dávid vedel, že sa so svojím dieťaťom raz stretne. Aj Pán Ježiš ukázal, aké miesto majú deti v Božom srdci. Keď učeníci bránili deťom prísť k Nemu, povedal:
+
+"Dovoľte deťom prichádzať ku mne a nebráňte im, lebo takých je kráľovstvo Božie."
+
+Potom ich bral do náručia a požehnával ich (Marek 10, 16). Tvoje dieťa nikdy nemohlo vedome odmietnuť Božiu milosť. Preto máme pevnú nádej, že je u Pána. Dieťa, ktoré si nestihla objať, je v Jeho náručí.
+
+Bolesť prežíva aj otec. Často sa snaží byť oporou a vlastný smútok odkladá bokom. Ak si otec a čítaš tieto riadky, aj ty smieš smútiť. Boh pozná aj tvoje slzy.
+
+Niektorým rodičom pomôže dať dieťaťu meno alebo sa s ním po svojom rozlúčiť. Nie je to povinnosť, len možnosť.
+
+V Kristovi máš pokoj aj v tomto smútku. Keď sa ozve „zlyhala si“ alebo „Boh ťa trestá“, odmietni to a podrob takú myšlienku Kristovi. Boh ťa netrestá. Je pri tebe a nesie s tebou tvoju bolesť.
+
+Prichádza deň, keď všetok smútok pominie. Písmo o ňom hovorí:
+
+"…zotrie im každú slzu z očí a smrť už viac nebude, ani smútok, ani plač…"
+
+V ten deň uvidíš u Pána aj svoje dieťa, ktoré si tu nestihla poznať.
+```
+
+### Modlitba 36
+```
+Drahý nebeský Otče,
+
+Ty si moje dieťa utkal v mojom lone a Tvoje oči ho videli už v zárodku. Teraz mi ostalo prázdne náručie a srdce plné bolesti. Nechápem, prečo sa to muselo stať.
+
+Trápia ma výčitky, či som niečo nezanedbala. Všetko, čo ma ťaží, Ti vyznávam a ďakujem Ti, že mi je to v Kristovi už odpustené.
+
+Viem, že moje dieťa je u Teba. Pán Ježiš berie deti do náručia a tam je teraz aj ono.
+
+Odmietam myšlienky, že som zlyhala a že ma trestáš, a podrobujem ich Kristovi. Tvoj pokoj je so mnou aj v tomto smútku.
+
+Buď prosím pri mne, pri otcovi môjho dieťaťa aj pri všetkých blízkych, ktorí so mnou smútia, lebo Ty poznáš srdce každého z nás.
+
+Teším sa na deň, keď zotrieš každú moju slzu. Ty si môj Boh a moja nádej.
+
+Amen.
+```
