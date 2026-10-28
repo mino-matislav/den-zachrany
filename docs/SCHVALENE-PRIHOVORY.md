@@ -1497,7 +1497,7 @@ Amen.
 
 ## Kapitola 36 — príhovor a modlitba schválené 28. 10. 2026 — NASADENÉ 28. 10. 2026 (bez audia)
 
-Nová kapitola „Keď prídeš o dieťa ešte pred narodením“ (podnadpis „Smútok za dieťaťom, ktoré si nestihla objať“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Príhovor aj modlitba sú zámerne v ženskom rode; otcovi je venovaný samostatný odsek. Modlitba je adresovaná Otcovi, bez odkazov na verše a bez „v mene… Amen“; prvá veta vychádza zo Žalmu 139, 13 a 16. Žalm 139, 16, 2. Samuelova 12, 23 a Zjavenie 21, 4 sú zámerne len časti veršov. „Potom ich bral do náručia a požehnával ich (Marek 10, 16)“ je parafráza. Samostatný praktický krok na konci zámerne nie je. Ikona knihy „leaf“. Modlitba upravená pred nahrávaním (28. 10. 2026, schválil Admin): „Buď prosím pri mne…“ → „Ďakujem Ti, že si pri mne. Potešuj prosím aj otca…“ (Božiu prítomnosť veriaci má, Židom 13, 5; za iných príhovorná prosba).
+Nová kapitola „Keď prídeš o dieťa ešte pred narodením“ (podnadpis „Smútok za dieťaťom, ktoré si nestihla objať“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Príhovor aj modlitba sú zámerne v ženskom rode; otcovi je venovaný samostatný odsek. Modlitba je adresovaná Otcovi, bez odkazov na verše a bez „v mene… Amen“; prvá veta vychádza zo Žalmu 139, 13 a 16. Žalm 139, 16, 2. Samuelova 12, 23 a Zjavenie 21, 4 sú zámerne len časti veršov. „Potom ich bral do náručia a požehnával ich (Marek 10, 16)“ je parafráza. Samostatný praktický krok na konci zámerne nie je. Ikona knihy „leaf“. Modlitba upravená pred nahrávaním (28. 10. 2026, schválil Admin): „Buď prosím pri mne…“ → „Ďakujem Ti, že si pri mne. Potešuj prosím aj otca…“ (Božiu prítomnosť veriaci má, Židom 13, 5; za iných príhovorná prosba). Doplnená cesta k Otcovi skrze Krista (Efezským 2, 18): „Pán Ježiš Kristus mi otvoril cestu k Tebe, a tak smiem prísť taká, aká som.“
 
 tags: smútok, strata, bolesť, vina, nádej
 scriptureTheme: Žalm 139, 2. Samuelova 12, Marek 10, Zjavenie 21
@@ -1551,7 +1551,7 @@ V ten deň uvidíš u Pána aj svoje dieťa, ktoré si tu nestihla poznať.
 ```
 Drahý nebeský Otče,
 
-Ty si moje dieťa utkal v mojom lone a Tvoje oči ho videli už v zárodku. Teraz mi ostalo prázdne náručie a srdce plné bolesti. Nechápem, prečo sa to muselo stať.
+Pán Ježiš Kristus mi otvoril cestu k Tebe, a tak smiem prísť taká, aká som. Ty si moje dieťa utkal v mojom lone a Tvoje oči ho videli už v zárodku. Teraz mi ostalo prázdne náručie a srdce plné bolesti. Nechápem, prečo sa to muselo stať.
 
 Trápia ma výčitky, či som niečo nezanedbala. Všetko, čo ma ťaží, Ti vyznávam a ďakujem Ti, že mi je to v Kristovi už odpustené.
 
