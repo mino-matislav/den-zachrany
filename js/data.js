@@ -275,7 +275,7 @@ Tvoj príbeh sa touto stratou nekončí. Boh ťa drží aj vtedy, keď ty už ne
         ],
         prayer: `Drahý nebeský Otče,
 
-Skrze Pána Ježiša Krista prichádzam k Tebe so zlomeným srdcom. Stalo sa niečo, čo neviem uniesť. Cítim smútok, bolesť a prázdnotu, ktorú neviem opísať slovami.
+skrze Pána Ježiša Krista prichádzam k Tebe so zlomeným srdcom. Stalo sa niečo, čo neviem uniesť. Cítim smútok, bolesť a prázdnotu, ktorú neviem opísať slovami.
 
 Pred Tebou nemusím predstierať silu. Smiem plakať. Ty vidíš moje slzy a si mi blízko. Keď nenachádzam slová, Tvoj Svätý Duch sa za mňa prihovára.
 
