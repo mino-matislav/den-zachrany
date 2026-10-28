@@ -1480,7 +1480,7 @@ Nech tvoja cesta povedie kamkoľvek, nejdeš po nej sama. Boh, ktorý ťa miluje
 ```
 Drahý nebeský Otče,
 
-Skrze Pána Ježiša Krista smiem k Tebe pristupovať s dôverou. Ty poznáš túžbu, ktorú nosím v srdci, aj slzy, o ktorých nikto nevie. Prišiel ďalší mesiac a s ním znova sklamanie.
+skrze Pána Ježiša Krista smiem k Tebe pristupovať s dôverou. Ty poznáš túžbu, ktorú nosím v srdci, aj slzy, o ktorých nikto nevie. Prišiel ďalší mesiac a s ním znova sklamanie.
 
 Túžbu po dieťati si do mňa vložil Ty sám. Smiem o nej s Tebou hovoriť otvorene, a preto ju s pokojom zverujem do Tvojich rúk.
 
