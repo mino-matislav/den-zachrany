@@ -1565,3 +1565,77 @@ Teším sa na deň, keď zotrieš každú moju slzu. Ty si môj Boh a moja náde
 
 Amen.
 ```
+
+## Kapitola 37 — príhovor a modlitba schválené 29. 10. 2026 — NASADENÉ 29. 10. 2026 (bez audia)
+
+Nová kapitola „Keď v sebe nosíš tajomstvo potratu“ (podnadpis „Milosť, ktorá je väčšia ako tvoja vina“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Príhovor aj modlitba sú zámerne v ženskom rode; otcovi a rodine je venovaný samostatný odsek. Raz presné „Umelé prerušenie tehotenstva“, inde „potrat“ (odlíšenie od kap. 36). 1. Timoteovi 1, 15 – 16 je jeden blok s výpustkou na konci, Kolosenským 2, 14 začína výpustkou, Rimanom 5, 20 a Marek 10, 14 sú len zmienky v texte. Veta o Štefanovi je zámerná parafráza Sk 7, 58 a 8, 1. Poradňa zámerne bez názvu. Modlitba k Otcovi so „skrze Pána Ježiša Krista“ (Ef 2, 18) („skrze“ malým písmenom za oslovením, schválil Admin 29. 10. 2026), voľne podľa Žalmu 103, 12, bez odkazov na verše a bez „v mene… Amen“. Samostatný praktický krok na konci zámerne nie je. Odkaz „v Modlitbe záchrany“. Ikona knihy „sunrise“.
+
+tags: vina, bolesť, odpustenie, sloboda, prijatie
+scriptureTheme: 1. Timoteovi 1, Kolosenským 2, Žalm 103, Rimanom 5
+
+### Verše (ECAV, overené na biblia.sk 29. 10. 2026)
+1. 1. Timoteovi 1, 15 – 16: „Je to verná reč a zaslúži si, aby ju všetci prijali: Ježiš Kristus prišiel na svet, aby spasil hriešnikov. Medzi nimi som ja prvý; ale práve preto sa mi dostalo milosti, aby Ježiš Kristus na mne prvom dokázal všetku svoju zhovievavosť…“
+2. Kolosenským 2, 14: „…dlžobný úpis, ktorý s predpismi (zákona) proti nám bol a nám prekážal, vymazal a odstránil, pribijúc ho na kríž.“
+3. Žalm 103, 12: „Ako ďaleko je východ od západu, tak vzďaľuje od nás naše prestúpenia.“
+
+### Príhovor
+```
+Drahý brat, drahá sestra v Kristovi,
+
+odvtedy prešli roky, a predsa to nosíš v sebe. Nevie o tom manžel, rodina ani nikto v zbore. Možno je to jeden dátum v roku, ktorý poznáš len ty. Alebo myšlienka pri pohľade na cudzie dieťa: „Teraz by malo toľko rokov.“
+
+Hovorme pravdivo. Život dieťaťa je od Boha už v lone matky. Umelé prerušenie tehotenstva preto nie je len lekársky zákrok, ale hriech proti životu, ktorý dal Boh. Aj to je dôvod, prečo to tak bolí. Nebudeme to zľahčovať, no ani ťa nebudeme odsudzovať.
+
+K rozhodnutiu ťa mohol doviesť strach, tlak partnera alebo rodiny či situácia, z ktorej si nevidela východisko. Mnohé ženy vtedy Krista ešte nepoznali, iné Ho poznali, a predsa podľahli strachu. Nech to bolo akokoľvek, aj za tento hriech zomrel Kristus.
+
+Apoštol Pavel vedel, aká ťažká je vina za ľudský život. Kým poznal Krista, prenasledoval veriacich. Keď kameňovali Štefana, stál pri tom a súhlasil s jeho smrťou. Neskôr napísal Timoteovi:
+
+"Je to verná reč a zaslúži si, aby ju všetci prijali: Ježiš Kristus prišiel na svet, aby spasil hriešnikov. Medzi nimi som ja prvý; ale práve preto sa mi dostalo milosti, aby Ježiš Kristus na mne prvom dokázal všetku svoju zhovievavosť…"
+
+Ak Boh odpustil Pavlovi, tvoja vina nie je väčšia ako Jeho milosť. Písmo hovorí: „A keď sa rozhojnil hriech, ešte väčšmi sa rozhojnila milosť“ (Rimanom 5, 20).
+
+V Kristovi ti je to už odpustené. Nie čiastočne, ale úplne. Na kríži Kristus odstránil všetko, čo stálo proti tebe:
+
+"…dlžobný úpis, ktorý s predpismi (zákona) proti nám bol a nám prekážal, vymazal a odstránil, pribijúc ho na kríž."
+
+Nemusíš o odpustenie prosiť stále znova. Vyznaj to Bohu, poďakuj Mu a prijmi, že je to hotové.
+
+Prečo potom výčitky neodchádzajú? Odpustenie nie je pocit, ale Božie rozhodnutie. Pocity sa menia, Jeho Slovo nie. Žalmista píše:
+
+"Ako ďaleko je východ od západu, tak vzďaľuje od nás naše prestúpenia."
+
+Keď sa vina znova ozve, odmietni ju a vo svojej mysli ju podrob Kristovi. Boh ti nepripomína to, čo už odstránil.
+
+A tvoje dieťa? Pán Ježiš povedal: „Dovoľte deťom prichádzať ku mne“ (Marek 10, 14). Aj pre tvoje dieťa máme pevnú nádej: je u Pána, v Jeho náručí.
+
+Táto vina neťaží len ženy. Ťaží aj otca, ktorý na potrat tlačil alebo s ním súhlasil. Iného zas bolí, že sa o ňom dozvedel až neskôr, a výčitky môžu ťažiť aj rodičov či iných blízkych, ktorí ženu k tomuto rozhodnutiu nahovárali. Pre každého z nich platí tá istá milosť.
+
+Niekomu pomôže povedať to dôveryhodnému človeku alebo duchovnému. Nie je to podmienka odpustenia, len cesta k uzdraveniu. Existujú aj poradne, ktoré bezplatne sprevádzajú ženy aj páry po potrate.
+
+Ak Krista ešte nepoznáš, pozvanie nájdeš v Modlitbe záchrany na úvodnej stránke.
+
+V Kristovi už nie si tým, čo si vtedy urobila. Či si Krista už poznala, alebo nie, dnes si Božia dcéra, ktorej je odpustené.
+```
+
+### Modlitba 37
+```
+Drahý nebeský Otče,
+
+skrze Pána Ježiša Krista mám prístup k Tebe, a preto smiem prísť aj s tým, čo dlho skrývam. Ty poznáš celý môj príbeh a pred Tebou nemusím nič predstierať.
+
+Vyznávam Ti, že som sa rozhodla ukončiť život svojho dieťaťa. Ty si mi ho daroval a ja som ho neprijala. Bála som sa a nevidela som inú cestu, no viem, že to bol hriech.
+
+Ďakujem Ti, že Kristus niesol aj tento hriech a že mi je v Ňom úplne odpustený. Vymazal si ho a pribil na kríž. Prijímam to s vierou, aj keď to tak necítim.
+
+Odmietam výčitky, ktoré ma toľké roky ťažia, a podrobujem ich Kristovi. Viem, že mi nepripomínaš to, čo si už odstránil. Ako ďaleko je východ od západu, tak ďaleko si odo mňa vzdialil moje prestúpenie.
+
+Odpúšťam každému, kto ma k tomu viedol alebo mi vtedy nepomohol, tak ako Ty si v Kristovi odpustil mne.
+
+Ďakujem Ti, že moje dieťa je u Teba, v náručí Pána Ježiša.
+
+Uzdravuj ma a daj mi odvahu nežiť už v skrytosti, ale v Tvojom svetle. Nech môj príbeh raz poteší aj iné ženy, ktoré nesú to isté.
+
+Si milosrdný Otec a Tvoja milosť je väčšia ako moja vina.
+
+Amen.
+```
