@@ -425,9 +425,10 @@
                         verseIndex++;
                     } else {
                         // Spojenie „v sekcii Piesne“ sa zobrazí ako odkaz (text v data.js ostáva obyčajný)
-                        // Rovnako názov kapitoly 15 a Modlitba záchrany na úvodnej stránke (kap. 30)
+                        // Rovnako názvy kapitol 15 a 37 a Modlitba záchrany na úvodnej stránke (kap. 30)
                         html += '<p>' + para.replace('v sekcii Piesne', '<a href="piesne.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">v sekcii Piesne</a>')
                             .replace('„Ťarcha, ktorú nemusíš niesť“', '„<a href="kapitola-15.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">Ťarcha, ktorú nemusíš niesť</a>“')
+                            .replace('„Keď v sebe nosíš tajomstvo potratu“', '„<a href="kapitola-37.html" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">Keď v sebe nosíš tajomstvo potratu</a>“')
                             .replace('v Modlitbe záchrany', 'v <a href="index.html#modlitba-zachrany" style="text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px;">Modlitbe záchrany</a>') + '</p>';
                     }
                 });

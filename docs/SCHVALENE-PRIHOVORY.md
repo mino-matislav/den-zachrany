@@ -1639,3 +1639,73 @@ Si milosrdný Otec a Tvoja milosť je väčšia ako moja vina.
 
 Amen.
 ```
+
+## Kapitola 38 — príhovor a modlitba schválené 30. 10. 2026 — NASADENÉ 30. 10. 2026 (bez audia)
+
+Nová kapitola „Keď uvažuješ o potrate a nevieš, čo je správne“ (podnadpis „Nádej pre teba aj pre tvoje dieťa“). Nahrávka modlitby chýba (audioUrl: null, hasAudio: false). Určená najmä ženám, ktoré o potrate uvažujú, vrátane neveriacich (vedomé výnimky schválil Admin): oslovenie „Drahá sestra v Kristovi, aj ty, milá duša, ktorá práve hľadáš radu,“; príhovor obsahuje evanjelium (Rimanom 5, 8) a pozvanie k Modlitbe záchrany; modlitba hľadajúceho človeka začína „Bože, ak naozaj existuješ…“, podmienkové „ak“ je zámerné, vedie k vyznaniu „Pane Ježišu, Ty si môj Pán a Spasiteľ“ (Rimanom 10, 9), pravidlo o Kristovi ako ceste k Otcovi sa neuplatňuje. Ženský rod zámerne. Poradne bez názvu. „Okolo šiesteho týždňa … bije srdiečko“ zámerne. Opakovania „nie je ďaleko“ a „malého človeka … Áno, je to človek“ sú rečnícke. Skutky 17, 27 je časť verša s výpustkou na začiatku a čiarkou na konci. „Verím! Pomôž mojej nevere!“ (Marek 9, 24) a „teraz je deň spasenia“ (2. Korintským 6, 2) sú doslovné ECAV. Samostatný praktický krok na konci zámerne nie je. Veta „Daj mi pokoj, aby som sa nerozhodovala v panike.“ ostáva (schválil Admin). Odkaz „v Modlitbe záchrany“ a názov kapitoly 37 ako odkaz na kapitola-37.html. Ikona knihy „path“.
+
+tags: strach, neistota, bezmocnosť, nádej, odvaha
+scriptureTheme: Skutky 17, Žalm 139, Rimanom 5, Marek 9, 2. Korintským 6
+
+### Verše (ECAV, overené na biblia.sk 30. 10. 2026)
+1. Skutky 17, 27: „…aby hľadali Boha, či by Ho azda nenahmatali a nenašli. Veď On predsa nie je ďaleko od nikoho z nás,“
+2. Žalm 139, 13 – 14: „Lebo Ty si mi stvoril ľadviny, v matkinom živote Ty si ma utkal. Ďakujem Ti, že si ma predivne utvoril; divné sú Tvoje skutky. A moja duša to dobre vie.“
+3. Rimanom 5, 8: „Ale Boh dokazuje svoju lásku k nám tým, že Kristus umrel za nás, keď sme boli ešte hriešni.“
+
+### Príhovor
+```
+Drahá sestra v Kristovi, aj ty, milá duša, ktorá práve hľadáš radu,
+
+meškanie, test a potom výsledok, pri ktorom sa ti zastaví dych. Namiesto radosti prichádza strach. V hlave ti beží jedna otázka za druhou: „Ako to zvládnem? Čo povie on? Čo rodičia? A peniaze, škola, práca…“ A niekde v tom zmätku sa ozve aj tichá myšlienka: „Možno by bolo jednoduchšie, keby…“
+
+Ak práve teraz takto premýšľaš, zastav sa na chvíľu. Nikto ťa tu nebude súdiť. Chceme ti len povedať to, čo v tejto chvíli možno nepočuješ od iných.
+
+Nie je náhoda, že čítaš tieto riadky. Aj keď nevieš isto, či Boh vôbec existuje, On o tebe vie. Apoštol Pavel raz hovoril ľuďom, ktorí Boha nepoznali. Povedal im, že Boh dal každému človeku čas a miesto,
+
+"…aby hľadali Boha, či by Ho azda nenahmatali a nenašli. Veď On predsa nie je ďaleko od nikoho z nás,"
+
+Boh nie je ďaleko ani od teba. A nie je ďaleko ani od malého človeka, ktorý v tebe práve rastie.
+
+Áno, je to človek. Už okolo šiesteho týždňa môže lekár na ultrazvuku vidieť, ako mu bije srdiečko. Je malý, ale je tu, jedinečný a neopakovateľný. Žalmista o tomto zázraku napísal:
+
+"Lebo Ty si mi stvoril ľadviny, v matkinom živote Ty si ma utkal. Ďakujem Ti, že si ma predivne utvoril; divné sú Tvoje skutky. A moja duša to dobre vie."
+
+Toto dieťa nie je chyba ani omyl. Aj keď prišlo v nečakanej chvíli, Boh ho pozná a má s ním, rovnako ako s tebou, svoje dobré úmysly.
+
+Tvoj strach je skutočný a nikto ti nesľubuje, že to bude ľahké. No nie je dobrým radcom. Pod tlakom sa volí zle a niektoré kroky sa už nedajú vrátiť späť. Daj si čas, nemusí to byť dnes.
+
+Na toto všetko nie si sama. Existujú poradne, ktoré bezplatne a diskrétne pomáhajú ženám v tvojej situácii. Pomôžu ti s financiami, s bývaním aj s tým, ako to povedať blízkym. A ak si netrúfaš dieťa vychovávať, môžeš zvážiť aj osvojenie či utajený pôrod. Tak bude žiť a nájde domov, kde ho budú milovať.
+
+Možno na teba niekto tlačí, partner, rodina či okolie. Nikto však nemá právo rozhodnúť za teba o živote tvojho dieťaťa. Smieš povedať nie.
+
+Nejde však len o to, čo teraz urobíš. Ide aj o teba. Boh ťa miluje takú, aká si, aj s tvojím strachom a s tvojou minulosťou. Najväčší dôkaz Jeho lásky je kríž:
+
+"Ale Boh dokazuje svoju lásku k nám tým, že Kristus umrel za nás, keď sme boli ešte hriešni."
+
+Ježiš Kristus zomrel aj za teba a vstal z mŕtvych. Kto Mu uverí, dostáva odpustenie a nový život. Nemusíš mať všetko vyriešené ani silnú vieru. V evanjeliu čítame o otcovi, ktorý prosil Pána Ježiša o pomoc pre svoje dieťa. Zvolal: „Verím! Pomôž mojej nevere!“ (Marek 9, 24). Aj takúto úprimnú prosbu Boh počuje.
+
+Tento web sa volá Deň Záchrany. Písmo hovorí: „teraz je deň spasenia“ (2. Korintským 6, 2). Možno je dnes deň záchrany aj pre teba a pre tvoje dieťa.
+
+Ak ti lekár povie, že je ohrozený tvoj život, poraď sa s dôveryhodným lekárom a nerozhoduj sa sama. A ak si otehotnela po násilí, Boh vidí aj túto bolesť. Vyhľadaj pomoc a nezostávaj v tom sama.
+
+A ak si už na potrate bola a teraz ťa ťaží svedomie, Božia milosť platí aj pre teba. Viac nájdeš v kapitole „Keď v sebe nosíš tajomstvo potratu“.
+
+Na konci je modlitba. Môžeš ju povedať aj vtedy, keď si nie si istá, či ťa Boh počuje. On počuje. A ak ju vyslovíš úprimne, ďalší krok nájdeš v Modlitbe záchrany na úvodnej stránke.
+```
+
+### Modlitba 38
+```
+Bože, ak naozaj existuješ a si Stvoriteľ života, vypočuj ma.
+
+Neviem, či sa modlím správne, ani či vôbec verím. Ale chcem sa o to úprimne pokúsiť, lebo už nevidím východisko. Pomôž mojej nevere.
+
+Hovorí sa, že Ježiš Kristus je Tvoj Syn, že zomrel za moje hriechy a vstal z mŕtvych. Chcem tomu uveriť a s Tvojou pomocou vyznať: Pane Ježišu, Ty si môj Pán a Spasiteľ.
+
+Bojím sa a netuším, ako to všetko zvládnem. Ty však vidíš mňa aj dieťa, ktoré vo mne rastie. Ty si mu dal život a poznáš ho lepšie ako ja.
+
+Daj mi pokoj, aby som sa nerozhodovala v panike. Postav mi do cesty ľudí, ktorí mi podajú pomocnú ruku. A daj mi odvahu prijať toto dieťa ako dar od Teba.
+
+Nech je dnešok dňom záchrany pre nás oboch. Zverujem nás do Tvojich rúk.
+
+Amen.
+```
