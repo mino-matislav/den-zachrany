@@ -9,13 +9,13 @@ const tagGroups = [
         label: "Čo prežívam",
         tags: ["strach", "úzkosť", "starosti", "myšlienky", "pochybnosti", "neistota",
                "smútok", "strata", "bolesť", "choroba", "vyčerpanie", "závislosť", "krivda",
-               "poníženie", "hnev", "bezmocnosť", "vina", "osamelosť"]
+               "poníženie", "hnev", "bezmocnosť", "vina", "osamelosť", "beznádej", "prázdnota"]
     },
     {
         label: "Čo hľadám",
         tags: ["pokoj", "istota", "sloboda", "odpočinok", "vedenie", "odvaha",
                "sila", "prijatie", "uzdravenie", "obnova", "nádej", "trpezlivosť",
-               "víťazstvo", "odpustenie"]
+               "víťazstvo", "odpustenie", "záchrana"]
     }
 ];
 
@@ -1800,6 +1800,30 @@ Amen.`,
         tags: ["strach", "neistota", "bezmocnosť", "nádej", "odvaha"],
         available: true,
         scriptureTheme: "Skutky 17, Žalm 139, Rimanom 5, Marek 9, 2. Korintským 6",
+        isStarter: false
+    },
+    "39": {
+        id: "39",
+        title: "Keď ti napadá, že by bolo lepšie neexistovať",
+        subtitle: "Tvoj život má cenu, aj keď to teraz necítiš",
+        shortDescription: "Keď už nevládzeš žiť a chceš len, aby prestala bolesť alebo ťažký nápor myšlienok. Tvoj Stvoriteľ chce, aby si žil, a ponúka ti cestu z tmy do života.",
+        fullText: "Drahý brat, drahá sestra v Kristovi, aj ty, milá duša, ktorá práve nevládzeš,\n\nv knihe Skutkov apoštolov čítame o jednej noci vo väzení vo Filipách. Strážca väzenia sa zobudil a videl otvorené dvere. Myslel si, že väzni ušli a že je s ním koniec. Chcel si vziať život. Vtedy apoštol Pavel zavolal:\n\n\"…Neubližuj si! Veď sme všetci tu!\"\n\nDnes tie slová patria tebe. Neubližuj si. Nie si sám. Prečítaj si tieto riadky až do konca.\n\nMožno v skutočnosti nechceš zomrieť. Chceš len, aby prestala bolesť. Aby prestali myšlienky, ktoré ťa deň a noc ničia. Si taký unavený, že už nevidíš nič iné. Tvoja bolesť je skutočná. No tá myšlienka ti klame v jednom: že bolesť môže skončiť, len ak skončíš ty. Možno ti myseľ našepkáva aj to, že bez teba by to mali ostatní ľahšie. Aj to je lož. Boh ti ponúka niečo iné. Chce, aby si žil, a v bolesti ťa nenechá samého.\n\nNie si prvý, kto toto prežíva. Mojžiš raz povedal Bohu, že radšej nech ho zabije (4. Mojžišova 11, 15). Prorok Eliáš si na púšti žiadal smrť (1. Kráľov 19, 4). Boh ani jedného z nich neodvrhol. Mojžišovi dal ľudí, ktorí s ním niesli ťarchu. Eliáša nechal spať a poslal mu anjela s jedlom. Anjel mu potom povedal:\n\n\"Vstaň a jedz, lebo máš priďalekú cestu pred sebou.\"\n\nNeznamená to, že tvoj príbeh bude rovnaký. Ukazuje to však, ako Boh zaobchádza so zlomenými ľuďmi (1. Korintským 10, 11). Nepokarhá ich. Najprv sa o nich postará.\n\nMyšlienka na smrť neprichádza vždy po veľkej rane. Niekomu sa život zdá len prázdny a márny. Kazateľ skúmal život „pod slnkom“, teda z pohľadu tohto sveta, a napísal: „Márnosť nad márnosti“ (Kazateľ 1, 2). Pavel presne pomenoval, aký je človek bez Krista:\n\n\"…bez nádeje a bez Boha na svete.\"\n\nPrázdnota v tebe nie je dôkaz, že život nemá zmysel. Ten istý Kazateľ napísal, že Boh dal ľuďom do sŕdc aj večnosť (Kazateľ 3, 11). Preto človeku nestačí to, čo je len „pod slnkom“. Prázdnota je často hlad po Bohu. Aj keď ju sprevádza depresia, Boh dáva cestu: myseľ sa obnovuje Jeho Slovom (Rimanom 12, 2) a pomôcť môže aj lekár. Veriacim apoštol napísal, že „vaša námaha nie je márna v Pánovi“ (1. Korintským 15, 58).\n\nIný človek počuje v hlave hlasy. Protirečia si, strašia ho a ženú k smrti. Niekedy je to choroba, ktorú lekári vedia liečiť. Písmo však otvorene hovorí aj o duchovnom zápase (Efezským 6, 12). V evanjeliu podľa Marka čítame o mužovi, ktorého trápilo mnoho zlých duchov. Keď sa ho Pán Ježiš opýtal na meno, odpovedal: „Moje meno je Légia, lebo nás je mnoho“ (Marek 5, 9). Pán Ježiš ho oslobodil. Ľudia ho potom videli „sedieť oblečeného a pri rozume“ (Marek 5, 15). Ten príbeh ukazuje, že Pán Ježiš je silnejší ako všetky hlasy. Tie hlasy nie sú tvoje ani Božie. (Ak ťa hlasy nútia ublížiť si, vyhľadaj hneď lekára alebo zavolaj 112.)\n\nNech myšlienka na smrť príde odkiaľkoľvek, nie je to Boží hlas. Pán Ježiš povedal:\n\n\"Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!\"\n\nVšetko, čo ťa ťahá k smrti, ide proti životu, ktorý dáva On. Preto takú myšlienku rázne odmietni. Nevyjednávaj s ňou. Vždy, keď príde, povedz jej nie.\n\nProrok Izaiáš o Pánovi Ježišovi napísal, že „trstinu nalomenú nedolomí“ (Izaiáš 42, 3; Matúš 12, 20). Ak sa cítiš zlomený, On ťa nezlomí ešte viac. Tvoj život má preňho takú cenu, že zaň zomrel. Pavel to napísal veľmi osobne:\n\n\"…žijem vo viere v Syna Božieho, ktorý si ma zamiloval a seba samého vydal za mňa.\"\n\nAk patríš Kristovi, Boh ťa už vytrhol z moci tmy (Kolosenským 1, 13). Tma ti môže klamať, no už ťa nevlastní.\n\nPavel raz písal, že si zúfal aj nad životom (2. Korintským 1, 8). Vzápätí však napísal:\n\n\"On nás z takej smrti vytrhol a vytŕha, a dúfame v Neho, že nás ešte aj bude zachraňovať,\"\n\nA strážca väzenia? V tú noc sa spýtal: „Páni, čo mám činiť, aby som bol spasený?“ (Skutky 16, 30). Noc, v ktorej chcel všetko skončiť, sa stala jeho dňom záchrany. Ak Pána Ježiša ešte nepoznáš, aj pre teba môže byť dnes takýto deň. Modlitba na konci je aj pre teba. Ako k Nemu prísť, nájdeš aj v Modlitbe záchrany na úvodnej stránke.\n\nAko ďalej? Ešte dnes povedz Bohu aj človeku, ktorému dôveruješ: „Nie je mi dobre. Myslím na smrť.“ Myšlienka, ktorá sa vysloví, stráca časť svojej moci. Keď sa vráti, odpovedz jej Božím Slovom, ktoré je mečom Ducha (Efezským 6, 17). Prečítaj si nahlas niektorý z týchto veršov alebo si vypočuj modlitbu na konci.\n\nNebuď v tom sám. Ak máš poruke niečo, čím by si si mohol ublížiť, daj to preč. Boh často pomáha cez ľudí. Prijmi pomoc odborníka, psychológa alebo lekára. Vyhľadať pomoc nie je zlyhanie viery. Ak ti hrozí, že si ublížiš, zavolaj hneď na tiesňovú linku alebo na linku pomoci.\n\nAk niekto v tvojom okolí hovorí, že sa chce zabiť, ber to vážne. Aj keď to znie ako žart alebo ako výčitka. Nezľahčuj to a nepresviedčaj ho, že to tak nemyslí. Vypočuj ho, nenechávaj ho samého a pomôž mu vyhľadať pomoc. A ak len cítiš, že sa niekto blízky trápi a mlčí, opýtaj sa ho priamo, či nemyslí na smrť. Takou otázkou mu tú myšlienku nevnukneš.\n\nPísmo nazýva Boha Bohom nádeje. Apoštol napísal:\n\n\"Boh nádeje nech vás naplní všetkou radosťou a pokojom vo viere, aby ste sa mocou Ducha Svätého rozhojňovali v nádeji.\"",
+        verses: [
+            { text: "…Neubližuj si! Veď sme všetci tu!", ref: "Skutky 16, 28" },
+            { text: "Vstaň a jedz, lebo máš priďalekú cestu pred sebou.", ref: "1. Kráľov 19, 7" },
+            { text: "…bez nádeje a bez Boha na svete.", ref: "Efezským 2, 12" },
+            { text: "Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!", ref: "Ján 10, 10" },
+            { text: "…žijem vo viere v Syna Božieho, ktorý si ma zamiloval a seba samého vydal za mňa.", ref: "Galatským 2, 20" },
+            { text: "On nás z takej smrti vytrhol a vytŕha, a dúfame v Neho, že nás ešte aj bude zachraňovať,", ref: "2. Korintským 1, 10" },
+            { text: "Boh nádeje nech vás naplní všetkou radosťou a pokojom vo viere, aby ste sa mocou Ducha Svätého rozhojňovali v nádeji.", ref: "Rimanom 15, 13" }
+        ],
+        prayer: "Pane Ježišu Kriste,\n\nnevládzem. Bolesť a myšlienky ma ťahajú do tmy a niekedy už nechcem žiť. Možno Ťa ešte poriadne nepoznám, ale obraciam sa na Teba, lebo už neviem, kam inam ísť.\n\nTy vieš, aké to je. Tvoja duša bola smutná až na smrť. Nalomenú trstinu nedolomíš a tlejúci knôt neuhasíš. Ja som taká trstina a taký knôt.\n\nVerím, že si dal svoj život aj za mňa a že žiješ. Prijímam Ťa ako svojho Pána a Spasiteľa. Ďakujem Ti, že si prišiel, aby som mal život. Môj život má pre Teba cenu, aj keď to teraz necítim.\n\nPrinášam Ti všetko, čo ma ničí. Bolesť, ktorú nosím príliš dlho. Prázdnotu, v ktorej sa všetko zdá márne. Aj hlasy a myšlienky, ktoré ma ženú k smrti.\n\nOdmietam ich, nie sú to Tvoje slová. Odmietam lož, že bolesť skončí, len ak skončím ja. Odmietam aj lož, že bezo mňa by bolo všetkým lepšie. Podrobujem svoje myšlienky Tebe a držím sa Tvojho Slova. Volím si život, ktorý mi dávaš.\n\nZachraňuj ma aj v tejto tme. Keď sa tie myšlienky vrátia, pripomeň mi Tvoju pravdu. Daj mi silu ešte dnes povedať niekomu, ako mi je. Pošli ku mne ľudí, s ktorými to unesiem, a daj múdrosť tým, ktorí mi budú pomáhať.\n\nĎakujem Ti, že sa môj príbeh ešte nekončí. Tebe zverujem túto chvíľu aj každý ďalší deň. Amen.",
+        audioUrl: "assets/audio/modlitba-39.mp3?v=1",
+        hasAudio: true,
+        illustrationRef: "ked-ti-napada-neexistovat",
+        tags: ["beznádej", "prázdnota", "vyčerpanie", "záchrana", "sloboda"],
+        available: true,
+        scriptureTheme: "Skutky 16, 1. Kráľov 19, Efezským 2, Ján 10, Galatským 2, 2. Korintským 1, Rimanom 15",
         isStarter: false
     }
 };

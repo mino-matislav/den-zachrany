@@ -175,3 +175,18 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **Gal 4, 4** | „Ale keď prišla plnosť času, poslal Boh Syna svojho, narodeného zo ženy, narodeného pod zákonom," | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
 | **Ef 1, 11** | „…podľa predsavzatia Toho, ktorý koná všetko podľa rozhodnutia svojej vôle," | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
 | **Gal 6, 9** | „V činení dobrého neochabujme, lebo ak neochabneme, časom svojím budeme žať." | biblia.sk (sep), 9. 10. 2026 (kap. 7) |
+| **Sk 16, 28** | „Ale Pavel zavolal silným hlasom: Neubližuj si! Veď sme všetci tu!" | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Sk 16, 30** | „Páni, čo mám činiť, aby som bol spasený?" (priama reč) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **1 Kr 19, 4** | „Dosť už; teraz, Hospodine, vezmi si môj život, lebo nie som lepší ako moji otcovia." (pod kručinovým kerom) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **1 Kr 19, 7** | „Vstaň a jedz, lebo máš priďalekú cestu pred sebou." (priama reč anjela) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Ef 2, 12** | „…bez nádeje a bez Boha na svete." (záver verša) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Ján 10, 10** | „Zlodej prichádza, len aby kradol, zabíjal a hubil; a ja som prišiel, aby mali život, a to v hojnej miere!" | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Gal 2, 20** | „…A nakoľko teraz žijem v tele, žijem vo viere v Syna Božieho, ktorý si ma zamiloval a seba samého vydal za mňa." | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **2 Kor 1, 8** | „…takže sme si zúfali aj nad životom." | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **2 Kor 1, 10** | „On nás z takej smrti vytrhol a vytŕha, a dúfame v Neho, že nás ešte aj bude zachraňovať," | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Iz 42, 3** | „trstinu nalomenú nedolomí a tlejúci knôt neuhasí, opravdivé právo verne prinášať bude." (Mt 12, 20: „Nalomenú trstinu nedolomí a tlejúci knôt neuhasí,") | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Mk 5, 9 / 5, 15** | „Moje meno je Légia, lebo nás je mnoho." / „…sedieť oblečeného a pri rozume…" | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Kaz 1, 2 / 3, 11** | „Márnosť nad márnosti…" / „…aj večnosť im dal do sŕdc…" (v kap. 39 v 3, 11 len voľne, bez úvodzoviek) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **1 Kor 15, 58** | „…vaša námaha nie je márna v Pánovi." | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Rim 12, 2** | „…ale premeňte sa obnovením mysle…" | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Nm 11, 15** | „Ak takto nakladáš so mnou, tak ma celkom zabi…" (4. Mojžišova; Boh potom dal 70 starších, v. 16 – 17) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |

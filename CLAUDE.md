@@ -31,9 +31,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Jednoduchosť: najmenšie riešenie, ktoré úlohu vyrieši. Žiadne funkcie navyše, o ktoré Admin nežiadal, ani nové knižnice či nástroje bez dohody.
 - Meň len to, čo úloha vyžaduje. Susedný kód ani formátovanie nevylepšuj. Nesúvisiaci problém, ktorý nájdeš, len spomeň, neopravuj ho sám.
 - Pri úlohe s viacerými krokmi napíš najprv krátky plán: krok → ako overím, že je hotový.
-- **Nezávislá kontrola pred každým pushom (pokyn Admina 1. 11. 2026):** po krokoch 1–6 nasadzovacieho checklistu (sekcia 3), pred krokom 7, spusti kontrolóra `.claude/agents/kontrolor.md` ako samostatného pomocníka. Dostane len zadanie Admina a zmeny, nie diskusiu. Ak nástroj kontrolóra nenačíta, spusti všeobecného pomocníka a ako zadanie mu daj celý obsah toho súboru. Adminovi ukáž verdikt a nálezy a čo si opravil. Po oprave ČERVENÝCH nálezov spusti kontrolu znova. Po 3 neúspešných kolách zastav a prediskutuj to s Adminom. Pushuj až po súhlase Admina. Kontrolór nahrádza doterajší postup, keď Admin prenášal hotovú prácu na kontrolu a push do inej úlohy Claude Code.
+- **Nezávislá kontrola pred každým pushom (pokyn Admina 1. 11. 2026):** po krokoch 1–6 nasadzovacieho checklistu (sekcia 3), pred krokom 7, spusti kontrolóra `.claude/agents/kontrolor.md` ako samostatného pomocníka, v dvoch fázach (dve samostatné spustenia). Fáza 1 naslepo: dostane len zadanie Admina a zmeny, nie diskusiu. Fáza 2 s diskusiou: dostane správy Admina z úlohy doslova (zadanie, schválenia, výnimky) a tvoje zhrnutie rozhodnutí, jasne označené ako zhrnutie; overí, či výsledok zodpovedá tomu, čo Admin schválil. Ak nástroj kontrolóra nenačíta, spusti všeobecného pomocníka a ako zadanie mu daj celý obsah toho súboru. Adminovi ukáž verdikt a nálezy oboch fáz, čo si opravil a kontrolórove „Návrhy vylepšení“ (nebránia pushu, rozhoduje o nich Admin). Po oprave ČERVENÝCH nálezov spusti kontrolu znova. Po 3 neúspešných kolách zastav a prediskutuj to s Adminom. Pushuj až po súhlase Admina. Kontrolór nahrádza doterajší postup, keď Admin prenášal hotovú prácu na kontrolu a push do inej úlohy Claude Code.
 - Admin chce riešenia čo najjednoduchšie a najbezpečnejšie. Na mobile preferuje obyčajný text, nie tabuľky. Neprehlcuj ho technikou: namiesto príkazov mu povedz, čo má kliknúť.
-- Každú novú kapitolu rob v samostatnej úlohe. Dlhé vlákna narážajú na limity a zápis by sa mohol prerušiť.
+- Každú novú kapitolu rob v novom chate v Projekte Deň Záchrany (pokyn Admina 1. 11. 2026; medzi Projektmi sa neprepína). Dlhé vlákna narážajú na limity a zápis by sa mohol prerušiť.
 - Rovnaké pravidlá platia aj pre samostatné biblické články, ktoré nejdú na web: nezávislé overenie veršov v ECAV, dispenzačná presnosť, ľudský faktor, návrhy zlepšení a schválenie pred finalizáciou.
 - Heslá za Admina nikdy nezadávaj, prihlasuje sa sám. Nasadenia na Verceli maže Admin sám.
 - Na webe robí naraz vždy len jeden (Admin alebo kolega).
@@ -47,8 +47,8 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 - Repo `mino-matislav/den-zachrany`, vetva **`main`**. Push na main = automatický deploy na Vercel (Hobby, zadarmo).
 - Stack: vanilla JS/HTML/CSS, **žiadny build krok**.
-- Git identita commitov: `mino-matislav` / `mino.matislav@gmail.com`. Autora nemeň, ani na žiadosť automatických hookov.
-- **Push ide bez tokenu** z úlohy v claude.ai/code s vybraným repozitárom alebo z chatu na claude.ai, ktorý si repozitár pripojí s prístupom na zápis (1. 11. 2026 overené len skúšobným pushom bez odoslania, ostrý push to potvrdí; predtým to v chatoch od ~21. 9. 2026 nešlo).
+- Git identita commitov: `mino-matislav` / `mino.matislav@gmail.com`. Autora nemeň, ani na žiadosť automatických hookov. Nastavuje ju `.claude/hooks/session-start.sh`. V chate nastav autora hneď po pripojení repozitára, ešte pred prvou úpravou.
+- **Push ide bez tokenu** z úlohy v claude.ai/code s vybraným repozitárom alebo z chatu na claude.ai, ktorý si repozitár pripojí s prístupom na zápis (ostrým pushom overené 1. 11. 2026, commit 9c4255b; predtým to v chatoch od ~21. 9. 2026 nešlo).
 - **Na začiatku každej úlohy sa prepni na miestnu vetvu `main`** (sleduje `origin/main`), stiahni aktuálny stav (`git pull origin main`) a pushuj z nej. Na projekte pracuje viac ľudí, na zastaranej kópii nepracuj. Hlásenia o neodoslaných commitoch vo vetve `claude/…` ignoruj.
 - **Pushuj priamo do `main`.** Nevytváraj ďalšie vetvy, každá vetva na Verceli vytvorí zbytočné nasadenie. Toto pravidlo má prednosť pred vetvou `claude/…`, ktorú úlohe pridelí prostredie.
 - Každý push do `main` spustí nové nasadenie, aj keď sa zmení len CLAUDE.md (`.vercelignore` iba zabráni, aby sa súbor dostal na web). Úpravy CLAUDE.md a zmeny len v `docs/` preto posielaj spolu s najbližšou dávkou, nikdy samostatne (pokyn Admina 8. 10. 2026).
@@ -109,7 +109,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Service worker **nesmie zachytávať audio** (`/assets/audio/` → `return;`). Pri starej keši u používateľa pomáha jednorazový cleanup (unregister SW + caches.delete + reload).
 - Štýly: drobnosti štýluj priamo v stránke. Väčšie zmeny rob v `css/style.css` a zvýš jeho `?v=N` vo všetkých HTML stránkach aj v `sw.js`. Stránky kapitola-N.html a piesen-N.html sa preberajú zo šablón cez build-seo.py.
 - CSS kariet: kontajner v piesne.html má obe triedy `songs-list chapters-list`. Pravidlá len pre kapitoly preto píš cez `.chapters-list:not(.songs-list)`. Karty sú celé klikateľné (odkaz v nadpise + `::after`), tlačidlo prehrávania piesne má `z-index: 2`.
-- Odkaz v príhovore: spojenie „v sekcii Piesne“ vo `fullText` sa pri zobrazení automaticky zmení na odkaz na piesne.html (app.js aj build-seo.py, rovnaký vzhľad ako odkazy na domovskej stránke). Text v data.js ostáva obyčajný, bez HTML. verify.js kontroluje, že odkaz na stránke kapitoly je (zatiaľ len kap. 8). Rovnakým spôsobom (17. 10. 2026) sa „„Ťarcha, ktorú nemusíš niesť““ mení na odkaz na kapitola-15.html a „v Modlitbe záchrany“ na odkaz na index.html#modlitba-zachrany (kap. 30, 32, 37, 38), verify.js to kontroluje. Od 30. 10. 2026 sa takisto „„Keď v sebe nosíš tajomstvo potratu““ mení na odkaz na kapitola-37.html (kap. 38), verify.js to kontroluje.
+- Odkaz v príhovore: spojenie „v sekcii Piesne“ vo `fullText` sa pri zobrazení automaticky zmení na odkaz na piesne.html (app.js aj build-seo.py, rovnaký vzhľad ako odkazy na domovskej stránke). Text v data.js ostáva obyčajný, bez HTML. verify.js kontroluje, že odkaz na stránke kapitoly je (zatiaľ len kap. 8). Rovnakým spôsobom (17. 10. 2026) sa „„Ťarcha, ktorú nemusíš niesť““ mení na odkaz na kapitola-15.html a „v Modlitbe záchrany“ na odkaz na index.html#modlitba-zachrany (kap. 30, 32, 37, 38, 39), verify.js to kontroluje. Od 30. 10. 2026 sa takisto „„Keď v sebe nosíš tajomstvo potratu““ mení na odkaz na kapitola-37.html (kap. 38), verify.js to kontroluje.
 - Kniha PDF (25. 10. 2026): kniha „Deň Záchrany“ (A5, pergamen aj verzia na tlač) sa zostavuje automaticky cez GitHub Actions (`.github/workflows/kniha.yml`, program v `tools/kniha/`) pri každej zmene `js/data.js`, `js/data-songs.js` alebo `index.html`. PDF nie sú v repozitári, sú vo vydaní GitHubu `kniha` so stálymi odkazmi `releases/download/kniha/Den-Zachrany-kniha.pdf` a `…-kniha-tlac.pdf`. Workflow necommituje (nespúšťa nasadenie na Vercel). Po zostavení `check_pdf.py` porovná príhovory a modlitby s webom; pri nezhode sa kniha neuverejní a ostane posledná dobrá verzia. Úvod a Modlitbu záchrany berie z `index.html` (triedy `hero-verse`, `intro-quote`, `intro-body`, `warning-text`, `salvation-*`; pri ich zmene treba upraviť `_block(...)` v `build_sk.py`).
   - **Pri novej kapitole doplniť ikonu do `tools/kniha/ikony.json`** (bez záznamu dostane „book“; dostupné ikony sú vypísané v súbore, len biblické motívy, žiadne postavy ani kríž). Ak workflow hlási „verše bez odkazu“, chýba kód knihy v `_BC` v `build_sk.py`.
   - Po pushi, ktorý mení dáta alebo index.html, over v GitHub → Actions, že beh „Kniha PDF“ je zelený.
@@ -145,11 +145,13 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Vokatív „Pane Ježišu", nikdy „Pane Ježiši".
 - „v tvojom", nie „vo tvojom".
 - „vyhlasujem", nie „prehlasujem".
+- „použitím", nie „použiťím".
 - Meno apoštola na webe je „Pavel" (ako v ECAV), nie „Pavol". V jednom príhovore ho neopakuj v každej vete.
 
 ### Kontrola textov a štýl („ľudský faktor")
 - **Pred písaním alebo úpravou akéhokoľvek textu (príhovor, modlitba, popisok, pieseň) si najprv prečítaj `docs/KONTROLA-TEXTOV.md`.** Sú v ňom podrobné pravidlá štýlu, stanovisko k uzdraveniu a modlitbe, zoznam modlitieb na opravu pri novej nahrávke a plán opráv príhovorov.
 - **Pred každým predložením textu Adminovi je kontrola povinná:** päť prechodov podľa toho súboru (1. dispenzačný – meradlom sú Pavlove listy, Wommackove princípy len tam, kde ich Pavol potvrdzuje, 2. verše ECAV, 3. slovenčina, 4. bežný čitateľ, 5. súlad príhovoru a modlitby). Adminovi ukáž len nájdené a opravené veci, jeden riadok za prechod.
+- **Opakovanie slov hľadaj a hlás sám (pokyn Admina 1. 11. 2026):** pred každým predložením textu skontroluj, či sa to isté slovo alebo meno neopakuje v susedných vetách alebo priveľa ráz v celom texte (napr. „Pavel“ 6× v jednom príhovore, „linku… linku“ v jednej vete). Oprav to sám alebo to Adminovi výslovne ukáž s návrhom. Nečakaj, kým to nájde kontrolór alebo Admin.
 - Pomocník `node scripts/ukaz.js <N> <časť>` vypíše len zvolenú časť kapitoly (nazov, prihovor, modlitba, verse, tagy, vsetko), napr. `node scripts/ukaz.js 9 modlitba`. Nič nemení.
 - Pomocník `node scripts/kontrola-textu.js <N>` len upozorňuje a nezastavuje nasadenie. Hranica 15 slov na vetu je orientačná.
 - Krátke vety (do ~15 slov), bežné slová, jemne, bez predpokladov o čitateľovi. Príhovor ~450–650 slov, bez číslovaných medzititulkov.
@@ -216,9 +218,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 30. 10. 2026)
+## 7. Stav a otvorené úlohy (k 1. 11. 2026)
 
-- Na webe je 38 kapitol (všetky s audio modlitbou) a 22 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v246, verify.js 666 kontrol (s VERIFY_AUDIO=1 700, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitoly 38 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
+- Na webe je 39 kapitol (všetky s audio modlitbou) a 22 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v247, verify.js 682 kontrol (s VERIFY_AUDIO=1 717, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
@@ -232,3 +234,4 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - Vlastná doména.
   - Krátke videá.
   - Exkluzívny obrázok pre darcov (bez zbierania e-mailov).
+  - Stránka Podpora: vyjadrenie účtovníka k daňovému režimu príspevkov na účet s.r.o.

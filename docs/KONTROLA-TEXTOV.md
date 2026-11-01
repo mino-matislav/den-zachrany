@@ -125,6 +125,7 @@ Zoznam je v CLAUDE.md (sekcia 5, Slovenčina). Navyše prirodzený slovosled a �
 - Píš, akoby písal človek pre ľudí, aj pre jednoduchších čitateľov. Krátke vety (do ~15 slov), jedna myšlienka v jednej vete, bežné slová, konkrétne obrazy.
 - Keď vetu vyškrtneš alebo skrátiš, skontroluj zámená a podmet v nasledujúcich vetách („Jeho spolupracovník" potom odkazoval na Boha namiesto Pavla, kap. 9).
 - Neopakuj to isté slovo v krátkom úseku. Opakovanie v susedných vetách spoj do jednej vety. Žiadne vágne odkazy ani kostrbaté konštrukcie.
+- Opakovanie slov a mien (aj v celom texte, napr. „Pavel“ 6× v príhovore) hľadá Claude sám a pred predložením ho opraví alebo Adminovi výslovne ukáže s návrhom (pokyn Admina 1. 11. 2026).
 - Nepredpokladaj o čitateľovi, čo nemusí platiť. Nechaj priestor Božiemu vedeniu. Príklady uvádzaj všeobecne („životné náklady", nie „účet za elektrinu"). Formuluj jemne, nie drsne.
 - Texty nesmú viesť k rozhodovaniu podľa vlastného úsudku, ale podľa Božieho Slova.
 - Boh môže mať s človekom iný zámer, ktorý dopredu vidí. Môže ho viesť inam alebo ho chrániť pred niečím horším. Nepodsúvaj jediný výklad situácie.

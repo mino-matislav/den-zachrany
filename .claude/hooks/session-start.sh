@@ -3,6 +3,14 @@
 # Pri zlyhaní nepokračuje potichu: vypíše upozornenie, ktoré Claude uvidí a musí oznámiť Adminovi.
 set -uo pipefail
 
+# Autor commitov = pseudonym (CLAUDE.md, sekcia 2). Nastavuje sa len pre tento repozitár, nie globálne.
+REPO_DIR="${CLAUDE_PROJECT_DIR:-$(cd "$(dirname "$0")/../.." && pwd)}"
+if git -C "$REPO_DIR" config user.name mino-matislav && git -C "$REPO_DIR" config user.email mino.matislav@gmail.com; then
+  echo "Autor commitov: $(git -C "$REPO_DIR" config user.name) <$(git -C "$REPO_DIR" config user.email)>"
+else
+  echo "UPOZORNENIE: autora commitov sa NEPODARILO nastaviť na pseudonym. Pred commitom ho nastav ručne a povedz to Adminovi."
+fi
+
 if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
 fi
