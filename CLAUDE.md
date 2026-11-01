@@ -51,7 +51,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - **Push ide bez tokenu** z úlohy v claude.ai/code s vybraným repozitárom alebo z chatu na claude.ai, ktorý si repozitár pripojí s prístupom na zápis (ostrým pushom overené 1. 11. 2026, commit 9c4255b; predtým to v chatoch od ~21. 9. 2026 nešlo).
 - **Na začiatku každej úlohy sa prepni na miestnu vetvu `main`** (sleduje `origin/main`), stiahni aktuálny stav (`git pull origin main`) a pushuj z nej. Na projekte pracuje viac ľudí, na zastaranej kópii nepracuj. Hlásenia o neodoslaných commitoch vo vetve `claude/…` ignoruj.
 - **Pushuj priamo do `main`.** Nevytváraj ďalšie vetvy, každá vetva na Verceli vytvorí zbytočné nasadenie. Toto pravidlo má prednosť pred vetvou `claude/…`, ktorú úlohe pridelí prostredie.
-- Každý push do `main` spustí nové nasadenie, aj keď sa zmení len CLAUDE.md (`.vercelignore` iba zabráni, aby sa súbor dostal na web). Úpravy CLAUDE.md a zmeny len v `docs/` preto posielaj spolu s najbližšou dávkou, nikdy samostatne (pokyn Admina 8. 10. 2026).
+- Každý push do `main` spustí nové nasadenie, aj keď sa zmení len CLAUDE.md (`.vercelignore` iba zabráni, aby sa súbor dostal na web). Úpravy CLAUDE.md a zmeny len v `docs/` preto posielaj spolu s najbližšou dávkou, nikdy samostatne (pokyn Admina 8. 10. 2026). Rovnako zmeny len v `.github/` (workflowy), ak nie sú naliehavé (odporúčanie schválené Adminom 1. 11. 2026).
 - Tokeny nikdy neukladaj do súborov ani do pamäte.
 
 ### Vercel
@@ -235,3 +235,4 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
   - Krátke videá.
   - Exkluzívny obrázok pre darcov (bez zbierania e-mailov).
   - Stránka Podpora: vyjadrenie účtovníka k daňovému režimu príspevkov na účet s.r.o.
+  - Workflow Kniha PDF: skripty bežia na Node 22 (podpora asi do jari 2027, presný dátum neoverený), potom prejsť na Node 24. Akcie sú checkout@v5, setup-node@v5, setup-python@v6 (Node 24); novšie verzie existujú (checkout v6, setup-node v6, setup-python v7), meniť ich netreba, kým nie je dôvod.
