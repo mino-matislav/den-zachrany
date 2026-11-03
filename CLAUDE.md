@@ -39,7 +39,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - Na webe robí naraz vždy len jeden (Admin alebo kolega).
 - Dostupnosť z prostredia (overené 24. 9. 2026): api.github.com, raw.githubusercontent.com, npm a pip fungujú. huggingface.co je blokovaný (žiadny Whisper ani Demucs). uploads.github.com (GitHub Releases) odpovedá, ale či prejde skutočný upload, je neoverené.
 - biblia.sk je od 28. 9. 2026 z prostredia dostupná. Verše over vždy priamo tam.
-- den-zachrany.vercel.app je od 8. 10. 2026 z prostredia dostupný (Admin ho povolil v sieťových nastaveniach prostredia). Po nasadení ním over živý web.
+- den-zachrany.vercel.app je od 8. 10. 2026 z prostredia dostupný (Admin ho povolil v sieťových nastaveniach prostredia). Po nasadení ním over živý web cez `node scripts/web-test.js` (krok 9 checklistu).
 
 ---
 
@@ -76,6 +76,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
    - verify.js aj audio-profil.py zisťujú počet modlitieb dynamicky zo súborov.
 7. Adminovi ukáž, čo sa nasadzuje (zhrnutie zmien), až potom commit a push.
 8. Rob cielené zmeny konkrétnych reťazcov, neprepisuj veľké bloky. Skripty s natvrdo zapísanými počtami (napr. `for i in 1..22`) vždy prerob na dynamické.
+9. Po dokončení nasadenia na Verceli spusti `node scripts/web-test.js`. Musí skončiť exit 0 (kontroluje všetky stránky zo sitemapy na počítači aj mobile, odkazy, MP3, prehrávanie, počty kapitol a piesní, filter tém a mobilné menu). Výsledok ukáž Adminovi jednou vetou, pri chybe navrhni opravu a nič neopravuj bez súhlasu. Snímky a správu ukladá test mimo projektu (do dočasného priečinka). Test dopĺňa verify.js, nenahrádza ho.
 
 ---
 
