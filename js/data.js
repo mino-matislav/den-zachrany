@@ -9,7 +9,7 @@ const tagGroups = [
         label: "Čo prežívam",
         tags: ["strach", "úzkosť", "starosti", "myšlienky", "pochybnosti", "neistota",
                "smútok", "strata", "bolesť", "choroba", "vyčerpanie", "závislosť", "krivda",
-               "poníženie", "hnev", "bezmocnosť", "vina", "osamelosť", "beznádej", "prázdnota"]
+               "poníženie", "hnev", "bezmocnosť", "vina", "osamelosť", "beznádej", "prázdnota", "nespavosť"]
     },
     {
         label: "Čo hľadám",
@@ -1824,6 +1824,27 @@ Amen.`,
         tags: ["beznádej", "prázdnota", "vyčerpanie", "záchrana", "sloboda"],
         available: true,
         scriptureTheme: "Skutky 16, 1. Kráľov 19, Efezským 2, Ján 10, Galatským 2, 2. Korintským 1, Rimanom 15",
+        isStarter: false
+    },
+    "40": {
+        id: "40",
+        title: "Nespavosť a nočné myšlienky",
+        subtitle: "Boh nespí, ty smieš",
+        shortDescription: "Pre noci, keď je telo unavené a myšlienky nedajú zaspať. Svet nedržíš ty – všetko má svoje bytie v Kristovi.",
+        fullText: "Drahý brat, drahá sestra v Kristovi,\n\nje tma a na displeji svieti 2:47. Telo je unavené, ale hlava nechce stíchnuť. V mysli sa vracia všetko, čo si cez deň prežil: slová, ktoré si povedal alebo počul, aj pocity, ktoré v tebe zostali. Pribúdajú veci, ktoré treba vybaviť, a starosti, ktoré musíš riešiť. A potom prídu otázky, ktoré začínajú slovami „a čo ak?“ Čím viac sa snažíš zaspať, tým je spánok vzdialenejší.\n\nMožno si pritom myslíš: „Keby som mal viac viery, spal by som pokojne.“ Nespavosť však nie je dôkaz slabej viery. Bezsenné noci poznali aj Boží ľudia. V knihe Žalmov čítame, že Dávid napísal tretí žalm, keď utekal pred vlastným synom Absolónom. Prišiel o domov aj o istotu. A predsa o Bohu vyznal:\n\n\"Ľahol som si a zaspal som; prebudil som sa, lebo Hospodin ma podopiera.\"\n\nJe to Dávidovo svedectvo, nie sľub, že zaspíš hneď. Hovorí však o tom, aký je Boh. Ten, ktorý ho podopieral, nezabúda ani na teba.\n\nAj Pán Ježiš vo svojom ľudskom tele poznal únavu. V evanjeliu podľa Marka čítame o víchrici na mori. Vlny sa valili do lode a učeníci sa báli o život. A On?\n\n\"On však spal v tyle lode na hlavnici. Zobudili Ho, volajúc: Nedbáš, Majstre, že hynieme?\"\n\nOtázku „Nedbáš?“ si v tichu izby kladieme aj my. Odpoveď znie: záleží Mu na tebe. Pán Ježiš víchor utíšil a až potom sa učeníkov spýtal, prečo nemajú viery (Marek 4, 40). Neodvrhol ich však, bol s nimi v lodi. Neopúšťa ani teba, keď sa všetko okolo búri.\n\nPrečo býva noc ťažšia ako deň? V tme sa problémy zdajú byť vážnejšie než za svetla. Myseľ chce všetko vyriešiť a ustrážiť, akoby bez nej nič nevydržalo do rána. Apoštol Pavel však o Kristovi píše:\n\n\"On je pred všetkým, a všetko spolu má v Ňom svoje bytie.\"\n\nKeď zavrieš oči, svet sa nerozpadne. Tvoji blízki, tvoje povinnosti aj tvoj zajtrajší deň sú v Jeho rukách. Nemusíš sa nimi celú noc zaoberať. Žalmista o Bohu napísal, že ochranca Izraela nedrieme a nespí (Žalm 121, 4). Boh nespí. Ty smieš.\n\nPokoj s Bohom ti v Kristovi už patrí. Písmo o Ňom hovorí: „On je náš pokoj“ (Efezským 2, 14). Nemusíš si ho v noci vybojovať. Smieš s ním počítať a žiť v ňom. Keď príde myšlienka, ktorá sa ti stále vracia, podrob ju Kristovi (2. Korintským 10, 5). Čo ťa z uplynulého dňa alebo z minulosti ťaží, povedz Bohu. Hriech Mu vyznaj a raduj sa, že v Kristovi je už odpustený.\n\nMožno ťa čakajú náročné a ťažké dni. Keď ti napadne, že to nezvládneš, odmietni to. Je to lož. Božie Slovo hovorí niečo iné: „Keď Boh za nás, kto proti nám?“ (Rimanom 8, 31).\n\nNespavosť pritom nemusí mať len duchovnú príčinu. Môže súvisieť so záťažou, s chorobou, s liekmi či s vekom. Ak trvá dlhšie, je správne vyhľadať odbornú pomoc. Nie je to zlyhanie viery.\n\nKeď sa v noci zobudíš alebo nemôžeš zaspať, nemusíš so spánkom zápasiť. Obráť myseľ k Božiemu Slovu. Prečítaj si alebo si vypočuj niekoľko veršov z Písma, napríklad zo Žalmov či z Pavlových listov. Potichu si pusti modlitbu po tomto príhovore alebo z niektorej inej kapitoly, prípadne pieseň v sekcii Piesne. Tiež si môžeš pomaly opakovať slová zo štvrtého žalmu: „V pokoji ľahnem si, aj zaspím…“ (Žalm 4, 9).\n\nPavel napísal veriacim v Tesalonike požehnanie, ktoré platí aj pre tvoje noci:\n\n\"Sám Pán pokoja daj vám stály pokoj vo všetkom. Pán so všetkými vami!\"\n\nNáš Pán je s tebou aj o tretej nadránom, nikdy nie si sám.",
+        verses: [
+            { text: "Ľahol som si a zaspal som; prebudil som sa, lebo Hospodin ma podopiera.", ref: "Žalm 3, 6" },
+            { text: "On však spal v tyle lode na hlavnici. Zobudili Ho, volajúc: Nedbáš, Majstre, že hynieme?", ref: "Marek 4, 38" },
+            { text: "On je pred všetkým, a všetko spolu má v Ňom svoje bytie.", ref: "Kolosenským 1, 17" },
+            { text: "Sám Pán pokoja daj vám stály pokoj vo všetkom. Pán so všetkými vami!", ref: "2. Tesalonickým 3, 16" }
+        ],
+        prayer: "Drahý Pane Ježišu Kriste,\n\nTy si Pán pokoja. Je noc a ja nemôžem zaspať. Telo je unavené, no myšlienky nechcú stíchnuť. Ty túto chvíľu poznáš, lebo aj Ty si vo svojom tele zakúsil únavu.\n\nVyznávam Ti všetko, čo ma v duši ťaží. Ďakujem Ti, že každý môj hriech je mi v Tebe už odpustený a že pre mňa niet odsúdenia.\n\nĎakujem Ti, že všetko má v Tebe svoje bytie. Mojich blízkych, moje povinnosti aj zajtrajší deň držíš Ty. Nemusím sa nimi celú noc zaoberať.\n\nTvoj pokoj je už vo mne, dávam mu právomoc rozhodovať v mojom srdci. Podrobujem Ti každú myšlienku, ktorá sa mi stále vracia. Možno ma čakajú náročné dni, no odmietam lož, že ich nezvládnem, lebo Ty si so mnou. Stojím na tom, čo mi hovoríš vo svojom Slove.\n\nProsím Ťa, daj môjmu unavenému telu odpočinok. Aj keď spánok možno nepríde hneď, ďakujem Ti, že tejto noci nie som sám.\n\nTy, ktorý si utíšil víchor aj more, si môj Pán aj v tichu tejto izby. Tebe buď sláva teraz i naveky. Amen.",
+        audioUrl: "assets/audio/modlitba-40.mp3?v=1",
+        hasAudio: true,
+        illustrationRef: "nespavost-nocne-myslienky",
+        tags: ["nespavosť", "myšlienky", "vyčerpanie", "odpočinok", "pokoj"],
+        available: true,
+        scriptureTheme: "Žalm 3, Marek 4, Kolosenským 1, Žalm 121, Efezským 2, Rimanom 8, 2. Tesalonickým 3",
         isStarter: false
     }
 };

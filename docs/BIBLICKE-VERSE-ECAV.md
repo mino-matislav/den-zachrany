@@ -190,3 +190,10 @@ doložené: Sk 7, 59–60; Zj 22, 20; 2 Kor 12, 8; 1 Kor 1, 2).
 | **1 Kor 15, 58** | „…vaša námaha nie je márna v Pánovi." | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
 | **Rim 12, 2** | „…ale premeňte sa obnovením mysle…" | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
 | **Nm 11, 15** | „Ak takto nakladáš so mnou, tak ma celkom zabi…" (4. Mojžišova; Boh potom dal 70 starších, v. 16 – 17) | biblia.sk (sep), 1. 11. 2026 (kap. 39) |
+| **Ž 3, 1 / 3, 6** | „Žalm Dávidov, keď utekal pred synom Absolónom." / „Ľahol som si a zaspal som; prebudil som sa, lebo Hospodin ma podopiera." | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
+| **Ž 4, 9** | „V pokoji ľahnem si, aj zaspím; lebo Ty, Hospodine, aj keď som sám, dáš prebývať mi bezpečne." (v kap. 40 len začiatok) | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
+| **Ž 121, 4** | „Nie, nedrieme a nespí ochranca Izraela." (v kap. 40 len voľne, bez úvodzoviek) | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
+| **Mk 4, 38** | „On však spal v tyle lode na hlavnici. Zobudili Ho, volajúc: Nedbáš, Majstre, že hynieme?" | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
+| **Kol 1, 17** | „On je pred všetkým, a všetko spolu má v Ňom svoje bytie." | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
+| **Ef 2, 14** | „Lebo On je náš pokoj,…" (v kap. 40 len „On je náš pokoj") | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
+| **2 Tes 3, 16** | „Sám Pán pokoja daj vám stály pokoj vo všetkom. Pán so všetkými vami!" | biblia.sk (sep), 2. 11. 2026 (kap. 40) |
