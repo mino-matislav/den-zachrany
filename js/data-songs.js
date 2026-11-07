@@ -2261,43 +2261,44 @@ const songData = {
         number: 23,
         title: "Božia Múdrosť",
         subtitle: "Múdrosť vzácnejšia než zlato a striebro",
-        audioUrl: "assets/audio/songs/23-bozia-mudrost.mp3?v=1",
+        audioUrl: "assets/audio/songs/23-bozia-mudrost.mp3?v=2",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {
             type: "verse",
             label: "Sloha 1",
             lines: [
-                "Márne som hľadal v lesku drahých kovov.",
-                "Staval som hrady z prázdnych, cudzích slov.",
+                "Márne som hľadal v lesku drahých kovov,",
+                "staval som hrady z prázdnych, cudzích slov.",
                 "Striebro mi v dlaniach chladlo ako mráz,",
                 "kým Tvoja Múdrosť nepreťala čas.",
-                "Je vzácnejšia než perly v hlbine.",
-                "Všetko, čo miluješ, pri nej pominie."
+                "Je vzácnejšia než perly v hlbine,",
+                "všetko, čo miluješ, pri Nej pominie."
             ]
         },
         {
             type: "chorus",
             label: "Refrén",
             lines: [
-                "Ona je stromom, čo korene má v nebi.",
-                "Blažený človek, čo jej silu pije.",
-                "V pravici nesie vek, po ktorom túžiš.",
-                "V ľavici slávu, v ktorej duša žije.",
-                "Je stromom života, drž sa jej pevne.",
-                "V jej tieni pokoj v každej búrke zreje."
+                "Ona je stromom, čo korene má v nebi,",
+                "blažený človek, čo Jej silu pije.",
+                "V pravici nesie vek, po ktorom túžiš,",
+                "v ľavici slávu, v ktorej duša žije.",
+                "Je stromom života, tak drž sa Jej pevne,",
+                "v Jej tieni pokoj v každej búrke zreje."
             ]
         },
         {
             type: "verse",
             label: "Sloha 2",
             lines: [
-                "Jej cesty sú čisté, sťa chodníky v rose.",
-                "Vedú nás ticho, aj keď kráčame bosí.",
-                "Rozumnosť získať je viac než rýdze zlato.",
-                "Každý tvoj úder srdca nech stojí za to.",
-                "Nič sa jej nevyrovná na tomto svete.",
-                "Je pravdou, čo kvitne v každom Božom diele."
+                "Jej cesty sú čisté, sťa chodníky v rose,",
+                "vedú nás ticho, aj keď kráčame bosí.",
+                "Rozumnosť získať je viac než rýdze zlato,",
+                "každý tvoj úder srdca nech stojí za to.",
+                "Nič sa Jej nevyrovná na tomto svete,",
+                "je pravdou, čo kvitne",
+                "v každom Božom diele."
             ]
         },
         {
@@ -2314,18 +2315,18 @@ const songData = {
             type: "chorus",
             label: "Refrén",
             lines: [
-                "Ona je stromom, čo korene má v nebi.",
-                "Blažený človek, čo jej silu pije.",
-                "V pravici nesie vek, po ktorom túžiš.",
-                "V ľavici slávu, v ktorej duša žije."
+                "Ona je stromom, čo korene má v nebi,",
+                "blažený človek, čo Jej silu pije.",
+                "V pravici nesie vek, po ktorom túžiš,",
+                "v ľavici slávu, v ktorej duša žije."
             ]
         },
         {
             type: "verse",
             label: "Záver",
             lines: [
-                "Všetky jej chodníky sú pokoj.",
-                "Blažený je ten, kto ju našiel.",
+                "Všetky Jej chodníky sú pokoj,",
+                "blažený je ten, kto Ju našiel.",
                 "Jeho Múdrosť, tú Božiu Múdrosť."
             ]
         }

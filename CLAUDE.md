@@ -28,6 +28,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 - **Keď sa niečo v prostredí alebo na claude.ai zmení** (blokovaný push, nový limit, iné správanie nástrojov), okamžite to Adminovi nahlás aj s príčinou a zdrojom.
 - Keď urobíš chybu alebo si niečo nesplnil, povedz to hneď a otvorene.
 - Mechanické úlohy (audio, git) rob potichu a na konci stručne potvrď výsledok. Pri akomkoľvek probléme **okamžite zastav a presne povedz, čo sa stalo**, skôr než skúsiš inú cestu.
+- **Obsah nasadzuj hneď, úpravy testov a nástrojov rob samostatne** (pokyn Admina 7. 11. 2026). Novú kapitolu, pieseň či opravu textu nepribaľuj k úpravám testov a nástrojov.
 - Jednoduchosť: najmenšie riešenie, ktoré úlohu vyrieši. Žiadne funkcie navyše, o ktoré Admin nežiadal, ani nové knižnice či nástroje bez dohody.
 - Meň len to, čo úloha vyžaduje. Susedný kód ani formátovanie nevylepšuj. Nesúvisiaci problém, ktorý nájdeš, len spomeň, neopravuj ho sám.
 - Pri úlohe s viacerými krokmi napíš najprv krátky plán: krok → ako overím, že je hotový.
@@ -223,9 +224,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 6. 11. 2026)
+## 7. Stav a otvorené úlohy (k 7. 11. 2026)
 
-- Na webe je 40 kapitol (všetky s audio modlitbou) a 23 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v249, verify.js 699 kontrol (s VERIFY_AUDIO=1 735, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
+- Na webe je 40 kapitol (všetky s audio modlitbou) a 23 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v250, verify.js 699 kontrol (s VERIFY_AUDIO=1 735, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
