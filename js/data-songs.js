@@ -2255,6 +2255,90 @@ const songData = {
         { text: "Lebo nás Boh neurčil na hnev, ale aby sme dosiahli spasenie v našom Pánovi Ježišovi Kristovi…", ref: "1. Tesalonickým 5, 9 — ECAV" },
         { text: "Na plášti a na bedrách má napísané meno: KRÁĽ KRÁĽOV A PÁN PÁNOV.", ref: "Zjavenie 19, 16 — ECAV" }
         ]
+    },
+    "23": {
+        id: 23,
+        number: 23,
+        title: "Božia Múdrosť",
+        subtitle: "Múdrosť vzácnejšia než zlato a striebro",
+        audioUrl: "assets/audio/songs/23-bozia-mudrost.mp3?v=1",
+        credit: "Text a hudobná produkcia © Deň Záchrany",
+        lyrics: [
+        {
+            type: "verse",
+            label: "Sloha 1",
+            lines: [
+                "Márne som hľadal v lesku drahých kovov.",
+                "Staval som hrady z prázdnych, cudzích slov.",
+                "Striebro mi v dlaniach chladlo ako mráz,",
+                "kým Tvoja Múdrosť nepreťala čas.",
+                "Je vzácnejšia než perly v hlbine.",
+                "Všetko, čo miluješ, pri nej pominie."
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Ona je stromom, čo korene má v nebi.",
+                "Blažený človek, čo jej silu pije.",
+                "V pravici nesie vek, po ktorom túžiš.",
+                "V ľavici slávu, v ktorej duša žije.",
+                "Je stromom života, drž sa jej pevne.",
+                "V jej tieni pokoj v každej búrke zreje."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Sloha 2",
+            lines: [
+                "Jej cesty sú čisté, sťa chodníky v rose.",
+                "Vedú nás ticho, aj keď kráčame bosí.",
+                "Rozumnosť získať je viac než rýdze zlato.",
+                "Každý tvoj úder srdca nech stojí za to.",
+                "Nič sa jej nevyrovná na tomto svete.",
+                "Je pravdou, čo kvitne v každom Božom diele."
+            ]
+        },
+        {
+            type: "bridge",
+            label: "Bridge",
+            lines: [
+                "Viac než poklad!",
+                "Viac než sláva!",
+                "Tvoja Múdrosť…",
+                "Smer nám dáva!"
+            ]
+        },
+        {
+            type: "chorus",
+            label: "Refrén",
+            lines: [
+                "Ona je stromom, čo korene má v nebi.",
+                "Blažený človek, čo jej silu pije.",
+                "V pravici nesie vek, po ktorom túžiš.",
+                "V ľavici slávu, v ktorej duša žije."
+            ]
+        },
+        {
+            type: "verse",
+            label: "Záver",
+            lines: [
+                "Všetky jej chodníky sú pokoj.",
+                "Blažený je ten, kto ju našiel.",
+                "Jeho Múdrosť, tú Božiu Múdrosť."
+            ]
+        }
+        ],
+        verses: [
+        { text: "Blahoslavený človek, ktorý našiel múdrosť, a muž, ktorý získal rozumnosť.", ref: "Príslovia 3, 13 — ECAV" },
+        { text: "Veď zisk z nej je lepší ako zisk zo striebra, a úžitok z nej je nad rýdze zlato.", ref: "Príslovia 3, 14 — ECAV" },
+        { text: "Je cennejšia ako korále, nevyrovná sa jej nič z tvojich vzácností.", ref: "Príslovia 3, 15 — ECAV" },
+        { text: "V jej pravici je dlhý vek, v jej ľavici bohatstvo a česť.", ref: "Príslovia 3, 16 — ECAV" },
+        { text: "Je stromom života tým, ktorí ju uchopili, a blahoslavení tí, čo sa jej držia.", ref: "Príslovia 3, 18 — ECAV" },
+        { text: "Z Neho aj vy ste v Kristovi Ježišovi, ktorého nám Boh učinil múdrosťou a spravodlivosťou a posvätením a vykúpením…", ref: "1. Korintským 1, 30 — ECAV" },
+        { text: "…v ktorom sú skryté všetky poklady múdrosti a poznania.", ref: "Kolosenským 2, 3 — ECAV" }
+        ]
     }
 };
 
@@ -2366,5 +2450,6 @@ const songList = [
     { id: 20, number: 20, title: "V mrákave tmy", subtitle: "Z tmy a vnútorného zápasu k svetlu, ktoré zachraňuje" }
 ,
     { id: 21, number: 21, title: "Ríši smrti nevydáš ma", subtitle: "Istota Božej ochrany a radosť z Jeho blízkosti" },
-    { id: 22, number: 22, title: "Systém AI", subtitle: "Pravda, ktorá obstojí aj v dobe technológií" }
+    { id: 22, number: 22, title: "Systém AI", subtitle: "Pravda, ktorá obstojí aj v dobe technológií" },
+    { id: 23, number: 23, title: "Božia Múdrosť", subtitle: "Múdrosť vzácnejšia než zlato a striebro" }
 ];

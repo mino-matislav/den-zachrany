@@ -17,7 +17,6 @@ const upozornenia = [];
 let ok = 0;
 const pass = (m) => { ok++; };
 const fail = (m) => chyby.push(m);
-const warn = (m) => upozornenia.push(m);
 
 // Zaznamenáva každé prehrávanie (aj new Audio() mimo DOM)
 const INIT = `
@@ -37,6 +36,7 @@ const INIT = `
   const urls = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].replace(/^https?:\/\/[^/]+/, BASE));
   const odkazy = new Set();
   const audio = new Set();
+  const stiahnut = new Set();
 
   // 2) Každá stránka: počítač aj mobil
   const profily = [
@@ -47,20 +47,30 @@ const INIT = `
     const ctx = await browser.newContext(prof.opts);
     await ctx.addInitScript(INIT);
     for (const url of urls) {
-      const p = await ctx.newPage();
       const kratka = url.replace(BASE, '') || '/';
-      const konzola = [];
-      const zlyhane = [];
-      p.on('console', m => { if (m.type() === 'error') konzola.push(m.text()); });
-      p.on('pageerror', e => konzola.push('JS chyba: ' + e.message));
-      p.on('response', r => {
-        const u = r.url();
-        if (u.startsWith(BASE) && r.status() >= 400) zlyhane.push(r.status() + ' ' + u.replace(BASE, ''));
-      });
       process.stdout.write('.');
-      let resp;
-      try { resp = await p.goto(url, { waitUntil: 'load', timeout: 45000 }); await p.waitForTimeout(1200); }
-      catch (e) { fail(`[${prof.meno}] ${kratka}: nenačítala sa (${e.message.split('\n')[0]})`); await p.close(); continue; }
+      // Pri sieťovom výpadku (prerušené spojenie, vypršaný čas) sa stránka raz zopakuje
+      // v novej karte; chyba sa hlási, až keď zlyhá aj druhý pokus.
+      let p, konzola, zlyhane, resp, chybaNacitania = null;
+      for (let pokus = 1; pokus <= 2; pokus++) {
+        p = await ctx.newPage();
+        konzola = [];
+        zlyhane = [];
+        p.on('console', m => { if (m.type() === 'error') konzola.push(m.text()); });
+        p.on('pageerror', e => konzola.push('JS chyba: ' + e.message));
+        p.on('response', r => {
+          const u = r.url();
+          if (u.startsWith(BASE) && r.status() >= 400) zlyhane.push(r.status() + ' ' + u.replace(BASE, ''));
+        });
+        try { resp = await p.goto(url, { waitUntil: 'load', timeout: 45000 }); await p.waitForTimeout(1200); chybaNacitania = null; break; }
+        catch (e) {
+          chybaNacitania = e.message.split('\n')[0];
+          const sietova = /ERR_CONNECTION|ERR_NETWORK|ERR_TIMED_OUT|ERR_EMPTY_RESPONSE|Timeout .*exceeded/i.test(chybaNacitania);
+          if (!sietova || pokus === 2) break;
+          await p.close();
+        }
+      }
+      if (chybaNacitania) { fail(`[${prof.meno}] ${kratka}: nenačítala sa (${chybaNacitania})`); await p.close(); continue; }
       if (!resp || resp.status() !== 200) fail(`[${prof.meno}] ${kratka}: stav ${resp && resp.status()}`); else pass();
 
       const info = await p.evaluate(() => ({
@@ -70,6 +80,7 @@ const INIT = `
         okno: window.innerWidth,
         odkazy: [...document.querySelectorAll('a[href]')].map(a => a.href),
         audio: [...document.querySelectorAll('audio[src], source[src], [data-src]')].map(e => e.src || e.dataset.src),
+        stiahnut: [...document.querySelectorAll('a.download-btn')].map(a => a.href).filter(h => h.startsWith('https://raw.githubusercontent.com/')),
       }));
       if (!info.h1.trim()) fail(`[${prof.meno}] ${kratka}: chýba nadpis H1`); else pass();
       if (!info.title.trim()) fail(`[${prof.meno}] ${kratka}: chýba titulok stránky`); else pass();
@@ -78,6 +89,7 @@ const INIT = `
       if (zlyhane.length) fail(`[${prof.meno}] ${kratka}: nenačítané súbory: ${[...new Set(zlyhane)].slice(0, 5).join(', ')}`); else pass();
       info.odkazy.forEach(h => { if (h.startsWith(BASE)) odkazy.add(h.split('#')[0]); });
       info.audio.forEach(a => a && audio.add(a));
+      info.stiahnut.forEach(a => stiahnut.add(a));
       await p.close();
     }
     await ctx.close();
@@ -99,15 +111,24 @@ const INIT = `
     else if (!/audio|octet/.test(typ)) fail(`MP3 má zlý typ: ${u.replace(BASE, '')} (${typ})`);
     else pass();
   }
+  for (const u of stiahnut) {
+    const r = await req.get(u, { headers: { Range: 'bytes=0-1023' } });
+    const typ = r.headers()['content-type'] || '';
+    if (r.status() >= 400) fail(`Nefunkčné stiahnutie: ${u} (${r.status()})`);
+    else if (!/audio|octet/.test(typ)) fail(`Stiahnutie má zlý typ: ${u} (${typ})`);
+    else pass();
+  }
 
   // 4) Funkčné testy
   const ctx = await browser.newContext({ viewport: { width: 1366, height: 900 } });
   await ctx.addInitScript(INIT);
   const hraje = async (p, popis, selektor) => {
     try {
-      const btn = p.locator(selektor).first();
-      await btn.scrollIntoViewIfNeeded();
-      await btn.click({ timeout: 10000 });
+      if (selektor) {
+        const btn = p.locator(selektor).first();
+        await btn.scrollIntoViewIfNeeded();
+        await btn.click({ timeout: 10000 });
+      }
       await p.waitForTimeout(5000);
       const st = await p.evaluate(() => (window.__media || []).map(m => ({ t: m.currentTime, paused: m.paused, err: m.error && m.error.code })));
       if (st.some(s => s.t > 0.5)) pass();
@@ -132,7 +153,10 @@ const INIT = `
 
   p = await ctx.newPage();
   await p.goto(BASE + '/pocuvaj.html', { waitUntil: 'load' });
-  await hraje(p, 'Počúvaj a čítaj', 'button:visible >> nth=0');
+  // pocuvaj.html sa po načítaní spustí sama (prehliadač v teste dovolí zvuk bez kliknutia),
+  // vtedy je tlačidlo Prehrať skryté. Klikne sa naň, len ak sa prehrávanie nespustilo samo.
+  const samo = await p.locator('.player-pause').waitFor({ state: 'visible', timeout: 10000 }).then(() => true, () => false);
+  await hraje(p, samo ? 'Počúvaj a čítaj (spustené samo)' : 'Počúvaj a čítaj', samo ? null : '.player-play:visible');
   await p.screenshot({ path: path.join(OUT, 'pocuvaj.png') });
   await p.close();
 
@@ -176,7 +200,7 @@ const INIT = `
 
   const sprava = [
     `Web: ${BASE}`,
-    `Stránok: ${urls.length} (počítač aj mobil), odkazov: ${odkazy.size}, MP3: ${audio.size}`,
+    `Stránok: ${urls.length} (počítač aj mobil), odkazov: ${odkazy.size}, MP3: ${audio.size}, na stiahnutie: ${stiahnut.size}`,
     `Úspešných kontrol: ${ok}, chýb: ${chyby.length}, upozornení: ${upozornenia.length}`,
     '', ...chyby.map(c => 'CHYBA: ' + c), ...upozornenia.map(c => 'POZOR: ' + c),
   ].join('\n');

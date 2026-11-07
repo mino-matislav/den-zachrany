@@ -77,6 +77,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 7. Adminovi ukáž, čo sa nasadzuje (zhrnutie zmien), až potom commit a push.
 8. Rob cielené zmeny konkrétnych reťazcov, neprepisuj veľké bloky. Skripty s natvrdo zapísanými počtami (napr. `for i in 1..22`) vždy prerob na dynamické.
 9. Po dokončení nasadenia na Verceli spusti `node scripts/web-test.js`. Musí skončiť exit 0 (kontroluje všetky stránky zo sitemapy na počítači aj mobile, odkazy, MP3, prehrávanie, počty kapitol a piesní, filter tém a mobilné menu). Výsledok ukáž Adminovi jednou vetou, pri chybe navrhni opravu a nič neopravuj bez súhlasu. Snímky a správu ukladá test mimo projektu (do dočasného priečinka). Test dopĺňa verify.js, nenahrádza ho.
+   - Test spúšťaj až vtedy, keď je nasadenie pre pushnutý commit hotové: stav „success“ na GitHube (napr. `gh api repos/mino-matislav/den-zachrany/commits/<sha>/status`). Inak by mohol prejsť na staršej verzii.
+   - Test trvá asi 4 minúty, spúšťaj ho s časovým limitom aspoň 10 minút.
+   - Test potrebuje predinštalovaný Playwright (`require('playwright')`), nikdy nespúšťaj „playwright install“.
 
 ---
 
@@ -220,9 +223,9 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ---
 
-## 7. Stav a otvorené úlohy (k 3. 11. 2026)
+## 7. Stav a otvorené úlohy (k 6. 11. 2026)
 
-- Na webe je 40 kapitol (všetky s audio modlitbou) a 22 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v248, verify.js 695 kontrol (s VERIFY_AUDIO=1 731, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
+- Na webe je 40 kapitol (všetky s audio modlitbou) a 23 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v249, verify.js 699 kontrol (s VERIFY_AUDIO=1 735, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
