@@ -151,13 +151,27 @@ Príhovor a modlitba musia hovoriť to isté: rovnaká hlavná myšlienka, žiad
 Text modlitby na webe sa musí zhodovať s nahrávkou. Bez novej nahrávky z ElevenLabs sa preto nemení.
 Opravený príhovor nesmie protirečiť modlitbe, ktorá ostáva. Pavlov pohľad a rámec doplň, posolstvo neobracaj.
 
+### Modlitby na opravu z kontroly anglického prekladu (schválené Adminom 8. 11. 2026)
+Text meniť len spolu s nahrávkou. Pri kvalitnej nahrávke Admin nahrá len zmenenú vetu a vstrihne sa nepočuteľne, pri slabej nahrá celú modlitbu.
+- 2: „Rozhodujem sa odpočívať v tejto pravde a nedovoliť svojim ústam hovoriť slová ustarostenosti a porážky.“ → „Rozhodujem sa odpočívať v tejto pravde a strážiť svoje slová, aby vyjadrovali dôveru, nie ustarostenosť a porážku.“
+- 12: „Odmietam vstúpiť do dohody s klamstvom a odmietam ho vyznať za svoju identitu, lebo v Kristovi som nové stvorenie.“ → „Odmietam uveriť klamstvu a prijať ho za svoju identitu, lebo v Kristovi som nové stvorenie.“
+- 19: „Prepúšťam zo svojho vnútra hanbu, hnev na seba aj výčitky za minulosť.“ → „Odkladám hanbu, hnev na seba aj výčitky za minulosť.“
+- 19, 20, 21: „V mocnom mene Ježiša Krista.“ → „V mene Pána Ježiša Krista.“
+- 23: „Vyhlasujem, že v Tebe už mám pokoj a víťazstvo, aj keď to ešte necítim.“ → „Držím sa pravdy, že v Tebe už mám pokoj a víťazstvo, aj keď to ešte necítim.“
+- 24: oslovenie „Drahý nebeský Otče, môj Vodca a moja Cesta,“ → „Drahý nebeský Otče, môj Vodca,“ a na začiatok nasledujúceho odseku „Prichádzam k Tebe skrze Pána Ježiša Krista.“
+- 25: „Keď mi Otec dal to najcennejšie, čo mal, viem, že mi dá aj to, čo dnes potrebujem na živobytie.“ → „Keď mi Otec dal to najcennejšie, čo mal, verím, že sa postará aj o to, čo dnes potrebujem.“
+- 26: „V mene Pána Ježiša vyhlasujem, že táto túžba nie je mojím pánom.“ → „V mene Pána Ježiša hovorím tejto túžbe nie, lebo nie je mojím pánom.“
+- 27: „Vyhlasujem, že nie som sám.“ → „Viem, že nie som sám.“
+- 33: „Tebe patrí chvála naveky.“ → „Skrze Tvojho Syna, Pána Ježiša Krista, Ti vzdávam chválu naveky.“ (rieši aj chýbajúceho Krista ako cestu k Otcovi)
+- NEMENIŤ: 17 (oslovenie bez „Drahý“, „Nech je pokoj tomuto domu.“), 16 („daj mi milosť odpustiť“), 32 („uzdravuješ moje zranené srdce“), 36 a 37 („Viem, že moje dieťa je u Teba“).
+
 ### Modlitby na opravu pri najbližšej nahrávke (analýza 28. 9. 2026)
 - ~~**12**~~ Hotové 14. 10. 2026: nová modlitba 12 s nahrávkou.
 - ~~**3**~~ Hotové 14. 10. 2026: nová modlitba 3 s nahrávkou.
 - ~~**2**~~ Hotové 14. 10. 2026: nová modlitba 2 s nahrávkou.
 - ~~**11**~~ Hotové 9. 10. 2026: nová modlitba 11 s nahrávkou.
-- ~~**19, 20, 21**~~ Ostávajú bez zmeny (rozhodnutie Admina 15. 10. 2026).
-- **33:** chýba Kristus ako cesta k Otcovi (CLAUDE.md, sekcia 5; zistené 28. 10. 2026). Text sa teraz nemení, nové znenie pripraví kolega.
+- ~~**19, 20, 21**~~ Ostávajú bez zmeny (rozhodnutie Admina 15. 10. 2026). Nahradené rozhodnutím z 8. 11. 2026, pozri vyššie.
+- ~~**33:**~~ chýba Kristus ako cesta k Otcovi (zistené 28. 10. 2026). Nové znenie schválené 8. 11. 2026, pozri vyššie.
 - ~~**4**~~ Hotové 28. 10. 2026: doplnené „skrze Pána Ježiša Krista prichádzam…“, úsek vložený do nahrávky (?v=7).
 - **5:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.
 - **6:** HOTOVÉ, nová modlitba s nahrávkou nasadená 4. 10. 2026.

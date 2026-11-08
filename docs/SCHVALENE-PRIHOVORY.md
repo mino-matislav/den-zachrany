@@ -543,6 +543,7 @@ Amen.
 ```
 
 ## Kapitola 23 — príhovor schválený 9. 10. 2026
+- **Zmena 8. 11. 2026 (kontrola anglického prekladu):** podnadpis „…poznať, kým si v Kristovi ako nové stvorenie, a žiť…“; vypustená veta „Tvoj znovuzrodený duch nie je chorý, zmätený ani pochybujúci.“; „Tvoj duch je už v Kristovi dokonalý, no myseľ…“ → „V Kristovi si už nové stvorenie, no myseľ, city aj vôľa, teda tvoja duša, sa ešte len učia…“. Aktuálne znenie je v js/data.js, text nižšie je pôvodný z 9. 10.
 - Mení sa iba fullText. Modlitba, nahrávka (modlitba-23.mp3?v=2), všetkých 7 veršov (rovnaké poradie a znenie), title, subtitle, shortDescription, tags zostávajú.
 - Citáty v texte overené v ECAV 9. 10. 2026: Matúš 26, 38; Lukáš 23, 46; Židom 4, 12 (v kap. 20 blokový verš, tu len citát). Bez úvodzoviek: Rim 12, 2; Fil 2, 13; Ef 2, 1; Fil 4, 6; Ef 1, 3. Dĺžka ~690 slov schválená Adminom.
 
