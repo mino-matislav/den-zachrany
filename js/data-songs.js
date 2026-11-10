@@ -2261,7 +2261,7 @@ const songData = {
         number: 23,
         title: "Božia Múdrosť",
         subtitle: "Múdrosť vzácnejšia než zlato a striebro",
-        audioUrl: "assets/audio/songs/23-bozia-mudrost.mp3?v=2",
+        audioUrl: "assets/audio/songs/23-bozia-mudrost.mp3?v=3",
         credit: "Text a hudobná produkcia © Deň Záchrany",
         lyrics: [
         {

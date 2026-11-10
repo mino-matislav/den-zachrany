@@ -226,7 +226,7 @@ Na začiatku novej úlohy stručne zhrň stav: počet kapitol a piesní, verzia 
 
 ## 7. Stav a otvorené úlohy (k 10. 11. 2026)
 
-- Na webe je 40 kapitol (všetky s audio modlitbou) a 23 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v252, verify.js 699 kontrol (s VERIFY_AUDIO=1 735, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
+- Na webe je 40 kapitol (všetky s audio modlitbou) a 23 piesní, ďalej úvodné slovo, Modlitba záchrany na domovskej stránke a stránka Podpora. Service worker v253, verify.js 699 kontrol (s VERIFY_AUDIO=1 735, upozornenia len pri modlitbách 34 – 38 mimo profilu – ženský hlas, vedomá výnimka). Admin si ešte sám skontroluje Search Console (indexovanie, sitemap) a pridá web do Bing Webmaster Tools. Vedomé výnimky kapitol 38 a 39 a podrobná história zmien po dňoch sú v `docs/LOG.md`. Pri každej dávke tam pridaj jeden riadok a tu aktualizuj len tento stav.
 - Všetky audioUrl modlitieb a piesní majú cache-bust `?v=N`. Pod prehrávačom Modlitby záchrany je riadok „Počúvaj a čítaj súčasne". V úvodnom texte domovskej stránky sú „Evanjelium spásy" a „Modlitbu záchrany" odkazy v rovnakom štýle ako odkazy pod Modlitbou záchrany (bežná farba, zlaté podčiarknutie; štýl priamo v index.html).
 - Sťahovanie MP3 funguje: kapitoly aj piesne majú tlačidlo na stiahnutie. Súbor sa sťahuje priamo z GitHubu (raw.githubusercontent.com), aby nezaťažoval prenos na Verceli.
 - **Odložené:**
