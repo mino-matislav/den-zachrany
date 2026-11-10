@@ -36,6 +36,41 @@ CLOSING_VERSE = ("Boh nádeje nech vás naplní všetkou radosťou a pokojom vo 
 
 SALVATION_SONGS = ["6", "9"]   # piesne pri Modlitbe záchrany
 
+# ---- úvodné strany knihy (schválil Admin 10. 11. 2026) ------------------------------
+HOWTO_TITLE = "Ako používať túto knihu"
+HOWTO = [
+    "Túto knihu nemusíš čítať od začiatku do konca. Na ďalších stranách nájdeš zoznam životných situácií. Vyhľadaj tú, ktorou práve prechádzaš, a začni pri nej.",
+    "Každá kapitola má dve časti: povzbudenie z Božieho slova a modlitbu. Čítaj pomaly. Keď ťa niektorý verš osloví, zastav sa pri ňom.",
+    "Modlitbu sa môžeš modliť nahlas alebo potichu. Nie je to formulka, ale začiatok rozhovoru s Bohom. Pokojne Mu povedz vlastnými slovami, čo ťa ťaží. Na webe Deň Záchrany si modlitby môžeš aj vypočuť.",
+    "Ku kapitole sa môžeš vracať, kedykoľvek ju potrebuješ. Niektoré pravdy treba prečítať viackrát.",
+    "Modlitby v tejto knihe sú modlitbami Božích detí. K nebeskému Otcovi máme prístup jedine skrze Pána Ježiša Krista (Efezským 2, 18). Kto uverí evanjeliu, že Kristus zomrel za naše hriechy, bol pochovaný a tretieho dňa vstal z mŕtvych (1. Korintským 15, 3 – 4), dostáva odpustenie a je zapečatený Duchom Svätým ako závdavkom svojho dedičstva (Efezským 1, 13 – 14). Preto sú všetky kapitoly okrem prvej napísané pre tých, ktorí už patria Kristovi.",
+]
+HOWTO_SEEKER = ("Ak si Krista ešte neprijal alebo nevieš s istotou, či Mu patríš, neboj sa, že ťa Boh nepočuje. Práve pre teba platí zasľúbenie: „Každý človek totiž, ktorý by vzýval meno Pánovo, bude spasený.“ (Rimanom 10, 13) Boh počuje každého, kto k Nemu úprimne volá o záchranu. Začni <a href=\"#zachrana\">Modlitbou záchrany</a> a <a href=\"#ch1\">kapitolou 1</a>.")
+FINDER_TITLE = "Kde začať"
+FINDER_LEAD = "Nájdi, čím práve prechádzaš, a nalistuj kapitolu."
+FINDER = [
+    ("Keď máš strach alebo úzkosť", [1, 2, 3, 8, 21]), ("Keď nemôžeš spať", [40]),
+    ("Keď si stratil blízkeho", [4, 32, 36]), ("Keď ťa ťaží vina alebo hanba", [14, 19, 37]),
+    ("Keď ti iní ublížili", [5, 15, 16, 30]), ("Keď sa cítiš sám", [18]),
+    ("Keď už nevládzeš", [6, 24, 33, 34]), ("Keď si chorý alebo ťa niečo bolí", [9]),
+    ("Keď sa trápiš o rodinu", [17, 29]), ("Keď ťa trápia peniaze alebo práca", [25, 31]),
+    ("Keď ťa niečo drží v zajatí", [22, 26]), ("Keď si skleslý a bez odvahy", [23]),
+    ("Keď túžiš po dieťati alebo stojíš pred ťažkým rozhodnutím v tehotenstve", [35, 38]),
+    ("Keď sa ti zdá, že Boh mlčí alebo je ďaleko", [7, 11, 12, 27, 28]),
+    ("Keď chceš rásť a pevne stáť", [10, 13, 20]), ("Keď už nechceš žiť", [39]),
+]
+FINDER_HELP = 'Ak si práve v nebezpečenstve, pozri stranu <a href="#pomoc">Ak potrebuješ pomoc hneď teraz</a>.'
+CRISIS_TITLE = "Ak potrebuješ pomoc hneď teraz"
+CRISIS_LEAD = ("Ak premýšľaš o tom, že by si si vzal život, alebo sa bojíš, že si ublížiš, prosím, nenes to sám. "
+               "Ešte dnes sa s niekým porozprávaj. Na týchto linkách ti pomôžu bezplatne a anonymne:")
+CRISIS_LINES = [("Krízová linka pomoci IPčko", "0800 500 333", "nonstop, aj chat na ipcko.sk"),
+                ("Linka dôvery Nezábudka", "0800 800 566", ""),
+                ("Linka detskej istoty", "116 111", "pre deti, mladých a rodičov")]
+CRISIS_EMERG = "Ak ti hrozí bezprostredné nebezpečenstvo, volaj tiesňovú linku 112."
+CRISIS_VERSE = ("Blízky je Hospodin tým, čo sú skrúšeného srdca, a pomáha tým, čo sú ubitého ducha.", "Žalm 34, 19")
+CRISIS_CHECKED = "Čísla overené v novembri 2026."
+NOTES_LABEL = "Poznámky"
+
 
 # ---- úvod a Modlitba záchrany: čítajú sa z index.html ------------------------------
 def _txt(fragment):
@@ -78,8 +113,25 @@ SUPPORT = {
     "pray": "Modli sa, aby Deň Záchrany oslovil ľudí hľadajúcich nádej a cestu k Bohu, a aby každý návštevník našiel povzbudenie, pravdu a Ježiša Krista.",
     "pray_verse": ("Nakoniec, bratia, modlite sa za nás, aby sa Pánovo slovo rýchlo šírilo a oslávilo tak ako aj u vás,", "2. Tesalonickým 3, 1"),
     "share": "Ak poznáš niekoho, kto práve prechádza ťažkým obdobím, pošli mu konkrétnu kapitolu, ktorá sa jeho situácie týka. Niekedy je to viac než akékoľvek slová.",
-    "money": "Nič sa neočakáva a nič sa nemeria. Ak by si chcel podporiť projekt aj finančne, všetky údaje nájdeš na stránke Podpora:",
+    "pray_us": "Modli sa aj za nás – za múdrosť, vedenie a vernosť Božiemu Slovu, a aby sa projekt dostal k tým, ktorí ho potrebujú. Tvoja modlitba je pre nás veľkou podporou.",
+    "give_verse": ("Každý (nech dá), ako si umienil v srdci, nie z neochoty alebo z prinútenia; lebo ochotného darcu miluje Boh.", "2. Korintským 9, 7"),
+    "providence": "Veríme, že Deň Záchrany žije z Božej starostlivosti. Boh sa o svoje dielo stará aj tak, že sa dotkne srdca človeka, ktorý sa potom slobodne rozhodne poslať finančný dar z toho, čo má navyše (porov. 2. Korintským 8, 12 – 14). Ak dávaš, nech je to s radosťou, nie z povinnosti.",
+    "money": "Nič sa neočakáva a nič sa nemeria. Ak sa však rozhodneš prispieť, tu je účet:",
+    "recipient": "MILMAT s.r.o.",
+    "note": "Podpora projektu Deň Záchrany",
 }
+# IBAN a QR kód sa berú priamo zo stránky Podpora v repozitári, aby kniha mala vždy aktuálne údaje
+_PODPORA = (REPO / "podpora.html").read_text(encoding="utf-8")
+_iban = re.search(r"SK\d{2}(?: \d{4}){5}", _PODPORA)
+assert _iban, "IBAN sa na stránke podpora.html nenašiel"
+SUPPORT["iban"] = _iban.group(0)
+QR_PAY = REPO / "assets" / "qr-podpora.svg"
+assert QR_PAY.exists(), "chýba assets/qr-podpora.svg"
+QR_SONGS = HERE / "qr-piesne.svg"
+# posledné dve slová odseku spolu (žiadne osamelé slovo na poslednom riadku)
+for _k, _v in list(SUPPORT.items()):
+    if isinstance(_v, str) and " " in _v and _k not in ("iban", "recipient", "note"): SUPPORT[_k] = "\u00a0".join(_v.rsplit(" ", 1))
+    if isinstance(_v, list): SUPPORT[_k] = ["\u00a0".join(x.rsplit(" ", 1)) for x in _v]
 
 # kódy kníh pre Evanjelický preklad na biblia.sk (overené 25. 10. 2026; pozor: Galatským = "ga")
 _BC = """1. Mojžišova=gn|2. Mojžišova=ex|3. Mojžišova=lv|4. Mojžišova=nm|5. Mojžišova=dt|Józua=joz|Sudcov=sdc|Sudcovia=sdc|Rút=rut|
@@ -150,14 +202,85 @@ def render_prayer(pr):
 
 LONG = set()
 MIN_PT = 11.4
+NOTES_END, NOTES_FULL = {}, set()
+
+def notes(px, label=False):
+    n = max(2, int((px - (40 if label else 10)) // 32))
+    return ('<div class="notes">' + (f'<div class="nlabel">{NOTES_LABEL}</div>' if label else "")
+            + "".join('<div class="nline"></div>' for _ in range(n)) + "</div>")
 
 def vignette(cid):
     if cid not in VIGN: return ""
+    if MODE != "pergamen":
+        return f'<div class="gapfill" style="margin-top:14px">{notes(2 * VIGN[cid] + 100)}</div>'
     return (f'<div class="vign" style="margin-top:{VIGN[cid]:.0f}px">{ornament(70)}'
             f'{img(f"icon-{ICON_FOR.get(cid, "book")}.png", "vicon")}{ornament(70)}</div>')
 
+def after_prayer(cid):
+    if MODE == "pergamen": return ""
+    if cid in NOTES_FULL: return f'<div class="notespage">{notes(PAGE_LIMIT - 70, label=True)}</div>'
+    if cid in NOTES_END: return f'<div class="gapfill">{notes(NOTES_END[cid])}</div>'
+    return ""
+
+def front_pages():
+    def entry(n):
+        n = str(n)
+        if n not in CH: return ""
+        return f'<li><a href="#ch{n}"><span class="fn">{n}</span>{esc(CH[n]["title"])}</a></li>'
+    finder = "".join(f'<div class="fgroup"><h4>{esc(g)}</h4><ul>{"".join(entry(n) for n in nums)}</ul></div>' for g, nums in FINDER)
+    lines = "".join(f'<tr><td class="lc">{esc(a)}</td><td class="ln">{esc(b)}'
+                    + (f'<span class="lnote">{esc(c)}</span>' if c else "") + "</td></tr>" for a, b, c in CRISIS_LINES)
+    end39 = (f'Tvoj život má pre Boha cenu, aj keď to teraz necítiš. <a href="#ch39">Kapitola 39, {esc(CH["39"]["title"])}</a>, je napísaná pre teba.'
+             if "39" in CH else "Tvoj život má pre Boha cenu, aj keď to teraz necítiš.")
+    howto = "".join(f"<p>{esc(p)}</p>" for p in HOWTO)
+    return f"""
+<section class="front" id="ako"><h2 class="runner">{HOWTO_TITLE}</h2>
+  {img("icon-book.png", "chicon")}<h1 class="ptitle">{HOWTO_TITLE}</h1>{ornament(110)}
+  <div class="body">{howto}<p class="seeker">{HOWTO_SEEKER}</p></div></section>
+<section class="front" id="kde"><h2 class="runner">{FINDER_TITLE}</h2>
+  <h1 class="ptitle">{FINDER_TITLE}</h1>{ornament(110)}<p class="flead">{FINDER_LEAD}</p>
+  <div class="finder">{finder}</div><p class="fhelp">{FINDER_HELP}</p></section>
+<section class="front crisis" id="pomoc"><h2 class="runner">{CRISIS_TITLE}</h2>
+  {img("icon-heart.png", "chicon")}<h1 class="ptitle">{CRISIS_TITLE}</h1>{ornament(110)}
+  <div class="body"><p>{esc(CRISIS_LEAD)}</p></div>
+  <table class="lines">{lines}</table>
+  <p class="emerg">{esc(CRISIS_EMERG)}</p>
+  <blockquote class="hero"><p>„{esc(CRISIS_VERSE[0])}“</p>{cite(CRISIS_VERSE[1])}</blockquote>
+  <p class="cend">{end39}</p><p class="checked">{esc(CRISIS_CHECKED)}</p></section>"""
+
+_ONE = re.compile(r"(?<![\w\u00C0-\u024F])([AaIiKkOoSsUuVvZz])[ \t\n]+")
+
+_REF = [(re.compile(r"(?<!\d)(\d)\. (?=[A-ZÁČĎÉÍĽĹŇÓÔŔŠŤÚÝŽ])"), "\\1.\u00a0"),   # 1. Korintským
+        (re.compile(r"(\d), (?=\d)"), "\\1,\u00a0"),                              # 15, 3
+        (re.compile(r"(\d) – (?=\d)"), "\\1\u00a0–\u00a0"),                      # 3 – 4
+        (re.compile(r"\b(kapitolou|kapitol[aouy]|kapitole|stranou|stran[aeyu]) (?=\d)", re.I), "\\1\u00a0")]   # kapitola 1, strana 12
+
+
+BOOK_FIXES = [("Takéto piesne nájdeš aj na tomto webe v sekcii Piesne.", "Takéto piesne nájdeš na webe Deň Záchrany v sekcii Piesne.")]
+
+
+def _fix(t):
+    for a, b in BOOK_FIXES: t = t.replace(a, b)
+    t = _ONE.sub("\\1\u00a0", t)
+    for rx, rep in _REF: t = rx.sub(rep, t)
+    return t
+
+
+def nbsp(doc):
+    """Jednopísmenové predložky a spojky (a, i, k, o, s, u, v, z) nesmú ostať na konci riadka;
+    čísla ostávajú pri slove, ku ktorému patria (1. Korintským 15, 3 – 4; kapitola 1)."""
+    if MODE not in ("pergamen", "epub"):          # v tlači sa na odkaz nedá kliknúť
+        doc = re.sub(r'<p class="listen">.*?</p>', "", doc, flags=re.S)
+    if "<body>" in doc:
+        head, body = doc.split("<body>", 1)
+        return head + "<body>" + re.sub(r">([^<]+)<", lambda m: ">" + _fix(m.group(1)) + "<", body)
+    return re.sub(r">([^<]+)<", lambda m: ">" + _fix(m.group(1)) + "<", doc)
+
 def build(prayer_pt):
-    toc = ['<li><a href="#uvod"><span class="tn">·</span>Úvodné slovo</a></li>',
+    toc = ['<li><a href="#ako"><span class="tn">·</span>Ako používať túto knihu</a></li>',
+           '<li><a href="#kde"><span class="tn">·</span>Kde začať</a></li>',
+           '<li><a href="#pomoc"><span class="tn">·</span>Ak potrebuješ pomoc hneď teraz</a></li>',
+           '<li><a href="#uvod"><span class="tn">·</span>Úvodné slovo</a></li>',
            '<li><a href="#zachrana"><span class="tn">·</span>Modlitba záchrany</a></li>']
     chapters, problems = [], []
     for cid, c in CH.items():
@@ -180,7 +303,7 @@ def build(prayer_pt):
     {img("corner-tl.png","c tl")}{img("corner-tr.png","c tr")}{img("corner-bl.png","c bl")}{img("corner-br.png","c br")}
     <h3 class="sect">Modlitba</h3><p class="listen"><a href="{WEB}/kapitola-{cid}.html">Vypočuj si túto modlitbu</a></p>{render_prayer(c["prayer"])}
     <a id="prayerend{cid}"></a>
-  </div></div>
+  </div></div>{after_prayer(cid)}
 </section>''')
 
     toc += ['<li><a href="#piesne"><span class="tn">·</span>Piesne Dňa Záchrany</a></li>',
@@ -200,10 +323,9 @@ def build(prayer_pt):
   <div class="cuthint">{img("scissors.png", "sc")} Vystrihni po prerušovanej čiare</div>
   <table class="cardgrid"><tr>{card}{card}</tr><tr>{card}{card}</tr></table></section>''' for i in range(CARD_COUNT_PAGES))
 
-    return f"""<!doctype html><html lang="sk"><head><meta charset="utf-8"><title>{TITLE}</title>
+    return nbsp(f"""<!doctype html><html lang="sk"><head><meta charset="utf-8"><title>{TITLE}</title>
 <meta name="author" content="{AUTHOR}"><meta name="description" content="{SUBTITLE}"><style>{css()}</style></head><body>
-<section class="cover"><div class="frame"></div><div class="frame2"></div>
-  <h1>{TITLE}</h1><p class="sub">{SUBTITLE}</p><div class="verse">{TAGLINE}</div></section>
+<section class="cover"></section>
 <section class="titlepage">{img("fish-end.png","tfish")}<h1>{TITLE}</h1>{ornament()}<p class="sub">{SUBTITLE}</p>
   <div class="author">{AUTHOR}</div>
   <div class="imprint">{ornament(80)}
@@ -215,6 +337,7 @@ def build(prayer_pt):
     <p>Stav k {TODAY.day}. {TODAY.month}. {TODAY.year}</p>
   </div></section>
 <section class="toc"><h2>Obsah</h2>{ornament()}<ol>{''.join(toc)}</ol></section>
+{front_pages()}
 <section class="intro" id="uvod"><h2 class="runner">Úvodné slovo</h2>
   <h1 class="ptitle">Úvodné slovo</h1>{ornament(110)}
   <p class="listen"><a href="{WEB}/#audio-heading">Vypočuj si úvodné slovo</a></p>
@@ -237,7 +360,8 @@ def build(prayer_pt):
 {''.join(chapters)}
 <section class="songs" id="piesne"><h2 class="runner">Piesne Dňa Záchrany</h2>
   {img("icon-note.png", "chicon")}<h1 class="ptitle">Piesne Dňa Záchrany</h1>{ornament(110)}
-  <p class="center">Všetky piesne si môžeš zadarmo vypočuť na webe Deň Záchrany. Stačí kliknúť na názov piesne.<br><a class="ul web" href="{WEB}/piesne.html">{WEB.replace('https://','')}/piesne.html</a></p>
+  {"" if MODE == "pergamen" else '<div class="sqr">'}<p class="center">{"Všetky piesne si môžeš zadarmo vypočuť na webe Deň Záchrany. Stačí kliknúť na názov piesne." if MODE == "pergamen" else "Všetky piesne si môžeš zadarmo vypočuť<br>na webe Deň Záchrany v sekcii Piesne."}<br><a class="ul web" href="{WEB}/piesne.html">{WEB.replace('https://','')}/piesne.html</a></p>
+  {"" if MODE == "pergamen" else f'<img class="qrsong" src="file://{QR_SONGS}"></div>'}
   <ol class="slist">{songs_list}</ol>
 </section>
 <section class="support" id="podpora"><h2 class="runner">Podpora projektu</h2>
@@ -246,10 +370,16 @@ def build(prayer_pt):
   <h3 class="sub3">Môžeš sa modliť</h3>
   <div class="body"><p>{esc(SUPPORT["pray"])}</p></div>
   <blockquote><p>„{esc(SUPPORT["pray_verse"][0])}“</p>{cite(SUPPORT["pray_verse"][1])}</blockquote>
+  <div class="body"><p>{esc(SUPPORT["pray_us"])}</p></div>
   <h3 class="sub3">Môžeš to poslať ďalej</h3>
   <div class="body"><p>{esc(SUPPORT["share"])}</p></div>
   <h3 class="sub3">Finančná podpora</h3>
-  <p class="weblead">{esc(SUPPORT["money"])}<br><a class="ul web" href="{WEB}/podpora.html">{WEB.replace('https://','')}/podpora.html</a></p>
+  <blockquote><p>„{esc(SUPPORT["give_verse"][0])}“</p>{cite(SUPPORT["give_verse"][1])}</blockquote>
+  <div class="body"><p>{esc(SUPPORT["providence"])}</p><p>{esc(SUPPORT["money"])}</p></div>
+  <div class="pay"><img class="qrpay" src="file://{QR_PAY}"><div class="payd">
+    <p><span class="pl">IBAN</span><br><span class="pv">{SUPPORT["iban"]}</span></p>
+    <p><span class="pl">Príjemca</span><br><span class="pv">{esc(SUPPORT["recipient"])}</span></p>
+    <p><span class="pl">Poznámka</span><br><span class="pv">{esc(SUPPORT["note"])}</span></p></div></div>
 </section>
 <section class="closing" id="zaver"><h2 class="runner">Na záver</h2>
   {img("fish-end.png", "cfish2")}{ornament(110)}
@@ -258,7 +388,8 @@ def build(prayer_pt):
   {ornament(110)}
 </section>
 {card_pages}
-</body></html>"""
+{'<div class="blank"></div>' if MODE != "pergamen" else ""}<section class="back"></section>
+</body></html>""")
 
 BODY_PT = 12.6
 INK, SOFT, GOLD, NAVY = ("#24170b", "#4a3520", "#6a4810", "#2e2416") if MODE == "pergamen" else ("#1f1b16", "#4d4438", "#86611f", "#2b2c33")
@@ -300,7 +431,11 @@ body {{ margin: 0; }} a {{ color: inherit; text-decoration: none; }} .orn {{ dis
 .closing .hero p {{ font-size: 13pt; line-height: 1.5; }}
 
 .cover {{ page: cover; height: 210mm; width: 148mm; position: relative; text-align: center; color: #f6efe0;
-  background: url('file://{GFX / "cover.jpg"}') no-repeat center; background-size: cover; }}
+  background: url('file://{GFX / ("cover-sk.jpg" if MODE == "pergamen" else "cover-sk-tlac.jpg")}') no-repeat center; background-size: 148mm 210mm; }}
+.back {{ page: cover; break-before: {"page" if MODE == "pergamen" else "left"}; height: 210mm; width: 148mm; background: url('file://{GFX / ("back-sk.jpg" if MODE == "pergamen" else "back-sk-tlac.jpg")}') no-repeat center; background-size: 148mm 210mm; }}
+@page :blank {{ @bottom-center {{ content: none; }} @top-center {{ content: none; }} @bottom-left {{ content: none; }} @bottom-right {{ content: none; }} @top-left {{ content: none; }} @top-right {{ content: none; }} }}
+@page blankp {{ @bottom-center {{ content: none; }} @top-center {{ content: none; }} @bottom-left {{ content: none; }} @bottom-right {{ content: none; }} @top-left {{ content: none; }} @top-right {{ content: none; }} }}
+.blank {{ page: blankp; break-before: page; height: 1mm; }}
 .cover .frame {{ position: absolute; top: 8mm; left: 8mm; right: 8mm; bottom: 8mm; border: 1.2pt solid #d9b56a; }}
 .cover .frame2 {{ position: absolute; top: 10mm; left: 10mm; right: 10mm; bottom: 10mm; border: .4pt solid rgba(217,181,106,.7); }}
 .cover h1 {{ margin: 0; padding-top: 100mm; font-family: CG, CGX; font-weight: 500; font-size: 42pt; letter-spacing: .05em; color: #f8edd2; }}
@@ -337,7 +472,41 @@ body {{ margin: 0; }} a {{ color: inherit; text-decoration: none; }} .orn {{ dis
 .hero p {{ text-align: center !important; }}
 .hero .cite {{ text-align: center; }}
 .slogan {{ font-family: CG, CGX; font-style: italic; font-weight: 600; font-size: 14pt; text-align: center; color: var(--gold); margin: 2.5mm 3mm 3.5mm; }}
-.hl a, .steps a {{ border-bottom: .8pt solid var(--gold); }}
+{".steps a::after, .fhelp a::after, .cend a::after, .seeker a::after { content: ' (strana\\00a0' target-counter(attr(href url), page) ')'; hyphens: none; }" if MODE != "pergamen" else ".hl a, .steps a, .fhelp a, .cend a, .seeker a { border-bottom: .8pt solid var(--gold); }"}
+.front {{ break-before: page; page: chapterstart; }}
+.body p.seeker {{ font-style: italic; }}
+.flead {{ text-align: center; font-style: italic; color: var(--soft); margin: 1mm 0 3mm; hyphens: manual; }}
+.finder {{ font-size: 10.3pt; line-height: 1.2; hyphens: manual; }}
+.fgroup {{ break-inside: avoid; margin-bottom: 1.6mm; }}
+.fgroup h4 {{ font-family: CG, CGX; font-weight: 600; font-size: 11.8pt; color: var(--navy); margin: 0 0 .3mm; }}
+.fgroup ul {{ list-style: none; padding: 0; margin: 0; }}
+.fgroup li {{ padding-left: 7.5mm; text-indent: -7.5mm; margin-bottom: .5mm; }}
+.fgroup li a {{ display: block; padding-right: 9mm; position: relative; }}
+.fgroup li a::after {{ content: target-counter(attr(href url), page); position: absolute; right: 0; font-family: CG, CGX; font-weight: 600; color: var(--soft); }}
+.fn {{ display: inline-block; width: 7.5mm; text-indent: 0; font-family: CG, CGX; font-weight: 600; color: var(--gold); }}
+.fhelp {{ text-align: center; font-style: italic; margin-top: 3mm; hyphens: manual; }}
+.crisis .body p {{ text-align: left; }}
+table.lines {{ width: 100%; border-collapse: collapse; margin: 2mm 0 3mm; font-size: 12pt; }}
+table.lines td {{ padding: 1.6mm 0; border-bottom: .5pt solid rgba(124,90,30,.45); vertical-align: top; }}
+.lc {{ font-family: CG, CGX; font-weight: 600; font-size: 12.6pt; color: var(--navy); width: 46%; padding-right: 3mm !important; hyphens: manual; }}
+.ln {{ font-weight: 600; }} .lnote {{ display: block; font-weight: 400; font-style: italic; font-size: 10pt; color: var(--soft); }}
+.emerg {{ font-weight: 600; margin: 2mm 0; }}
+.cend {{ text-align: center; margin-top: 2mm; hyphens: manual; }} .checked {{ text-align: center; font-size: 8.5pt; color: var(--soft); }}
+.notespage {{ break-before: page; padding-top: 2mm; }}
+.gapfill {{ break-inside: avoid; margin-top: 5mm; }}
+.nlabel {{ font-family: CG, CGX; font-style: italic; font-weight: 500; font-size: 10pt; letter-spacing: .04em; color: var(--soft); margin-bottom: .5mm; }}
+.nline {{ height: 32px; border-bottom: .5pt solid #b8ad9c; }}
+#ako .body p {{ font-size: 11.3pt; line-height: 1.4; margin-bottom: .45em; }}
+#ako .chicon {{ width: 13mm; margin-bottom: 1mm; }}
+.pay {{ display: flex; align-items: center; gap: 6mm; margin: 3mm 0 2mm; break-inside: avoid; }}
+.qrpay {{ width: 34mm; height: 34mm; flex: none; }}
+.payd p {{ margin: 0 0 1.6mm; text-align: left; line-height: 1.25; }}
+.pl {{ font-family: CG, CGX; font-weight: 600; font-size: 10pt; letter-spacing: .04em; color: var(--soft); }}
+.pv {{ font-weight: 600; }}
+.sqr {{ display: flex; align-items: center; justify-content: center; gap: 6mm; margin: 0 0 4mm; }}
+.sqr p {{ text-align: left !important; margin: 0 !important; }}
+.qrsong {{ width: 22mm; height: 22mm; flex: none; }}
+.support .body p {{ hyphenate-limit-chars: 7 3 4; }}
 .warn {{ border: .8pt solid rgba(124,90,30,.6); background: rgba(255,250,236,.4); padding: 3mm 4mm; margin-top: 3mm; break-inside: avoid; font-size: 11.6pt; }}
 .warn .wt {{ font-family: CG, CGX; font-weight: 600; font-size: 13pt; color: var(--navy); text-align: center; margin-bottom: 1.5mm; }}
 .warn p {{ font-style: italic; margin: 0; }}
@@ -463,6 +632,14 @@ def aesthetics(pt):
         free = PAGE_LIMIT - pos[f"tend{cid}"][3]
         if free > 150: VIGN[cid] = max(10, (free - 120) / 2)
     d, pos = layout(build(pt))
+    if MODE != "pergamen":
+        NOTES_END.clear(); NOTES_FULL.clear()
+        for cid in CH:
+            if f"prayerend{cid}" not in pos: continue
+            free = PAGE_LIMIT - pos[f"prayerend{cid}"][3] - 30
+            if free >= PAGE_LIMIT / 3: NOTES_END[cid] = free - 20
+            else: NOTES_FULL.add(cid)
+        d, pos = layout(build(pt))
     return d
 
 if __name__ == "__main__":
@@ -483,5 +660,5 @@ if __name__ == "__main__":
     d.write_pdf(OUT)
     r = PdfReader(OUT)
     print(f"{OUT.name}: {len(r.pages)} strán; zmenšené modlitby: {pt or 'žiadne'}; dlhé: {sorted(LONG, key=int)}; "
-          f"presunuté odseky: {len(PUSH)}; ozdoby v medzerách: {len(VIGN)}")
+          f"presunuté odseky: {len(PUSH)}; ozdoby/linky v medzerách: {len(VIGN)}; poznámky za modlitbou: {len(NOTES_END)}, celé strany: {len(NOTES_FULL)}")
     if WARN: print("UPOZORNENIE – verše bez odkazu (neznámy názov knihy):", sorted(WARN))

@@ -1,9 +1,10 @@
 name: Kniha PDF
 
-# Zostaví knihu Deň Záchrany (PDF pergamen + PDF na tlač) vždy, keď sa zmenia dáta webu,
+# Zostaví knihu Deň Záchrany (PDF pergamen + PDF na tlač + e-kniha EPUB) vždy, keď sa zmenia dáta webu,
 # a nahrá ju ako prílohy vydania "kniha". Odkazy na stiahnutie sa nemenia:
 #   https://github.com/mino-matislav/den-zachrany/releases/download/kniha/Den-Zachrany-kniha.pdf
 #   https://github.com/mino-matislav/den-zachrany/releases/download/kniha/Den-Zachrany-kniha-tlac.pdf
+#   https://github.com/mino-matislav/den-zachrany/releases/download/kniha/Den-Zachrany-kniha.epub
 # Workflow necommituje do repozitára (nespúšťa nasadenie na Vercel).
 
 on:
@@ -13,6 +14,8 @@ on:
       - "js/data.js"
       - "js/data-songs.js"
       - "index.html"
+      - "podpora.html"
+      - "assets/qr-podpora.svg"
       - "tools/kniha/**"
       - ".github/workflows/kniha.yml"
   workflow_dispatch:
@@ -40,7 +43,7 @@ jobs:
           python-version: "3.13"
 
       - name: Systémové knižnice pre WeasyPrint
-        run: sudo apt-get update && sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
+        run: sudo apt-get update && sudo apt-get install -y libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 poppler-utils
 
       - name: Python balíky
         run: pip install -r tools/kniha/requirements.txt
@@ -52,18 +55,21 @@ jobs:
           python setup_fonts.py
           python gfx.py
           python icons.py
+          python cover_sk.py
+          python back_sk.py
 
-      - name: Zostavenie PDF
+      - name: Zostavenie PDF a EPUB
         working-directory: tools/kniha
         run: |
           python build_sk.py pergamen
           python build_sk.py tlac
           python check_pdf.py
+          python build_epub.py
 
       - name: Nahranie do vydania "kniha"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release view kniha >/dev/null 2>&1 || gh release create kniha --title "Kniha Deň Záchrany (PDF)" --notes "Automaticky zostavená kniha podľa aktuálneho obsahu webu." --latest=false
-          gh release upload kniha tools/kniha/out/Den-Zachrany-kniha.pdf tools/kniha/out/Den-Zachrany-kniha-tlac.pdf --clobber
+          gh release upload kniha tools/kniha/out/Den-Zachrany-kniha.pdf tools/kniha/out/Den-Zachrany-kniha-tlac.pdf tools/kniha/out/Den-Zachrany-kniha.epub --clobber
           gh release edit kniha --notes "Automaticky zostavená kniha podľa aktuálneho obsahu webu. Posledná aktualizácia: $(date -u +'%d. %m. %Y %H:%M') UTC."

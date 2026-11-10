@@ -505,15 +505,15 @@ Amen.`,
     "8": {
         id: "8",
         title: "Keď ti strach premieta najhoršie scenáre",
-        subtitle: "Ako zastaviť film strachu v hlave a nechať v sebe prebývať Božie Slovo",
+        subtitle: "Ako utíšiť obavy v mysli a nechať v sebe prebývať Božie Slovo",
         shortDescription: "Keď si v hlave predstavuješ to najhoršie. Ako rozjímať o Božom Slove a odpovedať strachu pravdou.",
         fullText: `Drahý brat, drahá sestra v Kristovi,
 
-stačí správa, ktorá neprišla, alebo výsledok, na ktorý ešte čakáš. A v hlave sa spustí film. Vidíš to najhoršie, čo sa môže stať. Premýšľaš, čo povieš, kam pôjdeš a ako to zvládneš. Srdce búši, akoby sa to už dialo. Pritom je to zatiaľ len v tvojej mysli.
+stačí správa, ktorá neprišla, alebo výsledok, na ktorý ešte čakáš. A myšlienky sa rozbehnú. Vidíš to najhoršie, čo sa môže stať. Premýšľaš, čo povieš, kam pôjdeš a ako to zvládneš. Srdce búši, akoby sa to už dialo. Pritom je to zatiaľ len v tvojej mysli.
 
-Možno si povieš: „Veď si to nevymýšľam. To sa naozaj môže stať.“ Áno, môže. Strach a obavy často vychádzajú zo skutočných vecí, no ukazujú ti budúcnosť bez Boha. V predstavách, ktoré sa ti premietajú v hlave, chýba Ten, ktorý je s tebou neustále.
+Možno si povieš: „Veď si to nevymýšľam. To sa naozaj môže stať.“ Áno, môže. Strach a obavy často vychádzajú zo skutočných vecí, no ukazujú ti budúcnosť bez Boha. V týchto predstavách chýba Ten, ktorý je s tebou neustále.
 
-Ako ten film zastaviť? Nie tak, že sa budeš snažiť nemyslieť. Myseľ nezostane prázdna. Keď z nej jednu myšlienku vyženieš, na jej miesto príde iná. Pavel píše, čo v nás má bývať:
+Ako tieto obavy utíšiť? Nie tak, že sa budeš snažiť nemyslieť. Myseľ nezostane prázdna. Keď z nej jednu myšlienku vyženieš, na jej miesto príde iná. Pavel píše, čo v nás má bývať:
 
 "Slovo Kristovo nech prebýva vo vás bohato; vo všetkej múdrosti učte a napomínajte sa žalmami, hymnami, duchovnými piesňami a vďačne spievajte v srdciach Bohu!"
 
@@ -523,7 +523,7 @@ V liste Rimanom je napísané aj to, prečo nám Boh dal Písmo:
 
 "Lebo čokoľvek bolo napísané nám na poučenie, bolo napísané, aby sme skrze trpezlivosť a skrze útechu Písem mali nádej."
 
-Strach ti premieta budúcnosť bez nádeje. Písmo ti dáva nádej, ktorá stojí na Bohu. Nie na tom, či sa všetko podarí podľa tvojich predstáv.
+Strach ti maľuje budúcnosť bez nádeje. Písmo ti dáva nádej, ktorá stojí na Bohu. Nie na tom, či sa všetko podarí podľa tvojich predstáv.
 
 Na tento boj nemusíš mať vlastnú silu. V Kristovi už máš, čo potrebuješ. Veriacim v Korinte apoštol dokonca napísal: „My však myseľ Kristovu máme!“ (1. Korintským 2, 16). Tvojou úlohou je počítať s tým a používať, čo ti Boh dal.
 
@@ -533,7 +533,7 @@ Myšlienky strachu prichádzajú ako šípy, náhle a rýchlo. V liste Efezským
 
 Tieto šípy neuhasíš tým, že o nich budeš stále premýšľať, ale vierou v Božiu pravdu. Keď ti strach povie, že zostaneš sám, odpovedz mu, že Boh ťa nikdy neopustí (Židom 13, 5). Keď ti povie, že to nezvládneš, pripomeň si, že Božia milosť ti stačí (2. Korintským 12, 9).
 
-Vyber si jeden verš, ktorý hovorí do tvojho strachu. Napíš si ho na papier alebo si ho ulož do mobilu. Keď sa film v hlave znova spustí, prečítaj si ho pomaly, nahlas alebo potichu. Vracaj sa k nemu počas dňa. Pomôcť ti môže aj pieseň. Iste poznáš, ako sa niektorá melódia zachytí v hlave a znie v nej celý deň, aj keď ťa len zaťažuje. Nech v tebe radšej znie pieseň, ktorá ti pripomína Božie Slovo. Veď aj list Kolosenským spomína žalmy, hymny a duchovné piesne. Takéto piesne nájdeš aj na tomto webe v sekcii Piesne.
+Vyber si jeden verš, ktorý hovorí do tvojho strachu. Napíš si ho na papier alebo si ho ulož do mobilu. Keď sa myšlienky znova rozbehnú, prečítaj si ten verš pomaly, nahlas alebo potichu. Vracaj sa k nemu počas dňa. Pomôcť ti môže aj pieseň. Iste poznáš, ako sa niektorá melódia zachytí v hlave a znie v nej celý deň, aj keď ťa len zaťažuje. Nech v tebe radšej znie pieseň, ktorá ti pripomína Božie Slovo. Veď aj list Kolosenským spomína žalmy, hymny a duchovné piesne. Takéto piesne nájdeš aj na tomto webe v sekcii Piesne.
 
 Strach ti premieta to, čo sa ešte nestalo. Božie Slovo ti hovorí, čo je pravda už teraz. A tvoja budúcnosť je v Božích rukách.`,
         verses: [

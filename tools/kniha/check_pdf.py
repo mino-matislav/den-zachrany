@@ -9,7 +9,14 @@ from pypdf import PdfReader
 OUT = Path(__file__).parent / "out"
 ch = json.loads((OUT / "chapters.json").read_text(encoding="utf-8"))
 ch = {k: v for k, v in ch.items() if v.get("available", True) is not False}
-N = lambda s: re.sub(r'[„“"”…\.\-­\s\d]', "", s)
+# vedomé úpravy textu v knihe oproti webu (napr. „na tomto webe“ -> „na webe Deň Záchrany“) — rovnaký zoznam ako v build_sk.py
+BOOK_FIXES = []
+for _l in (Path(__file__).parent / "build_sk.py").read_text(encoding="utf-8").splitlines():
+    if _l.startswith("BOOK_FIXES = "): exec(_l)
+def FIX(p):
+    for a, b in BOOK_FIXES: p = p.replace(a, b)
+    return p
+N = lambda s: re.sub(r'[„“"”…\.\-\u00ad\s\d]', "", s)
 ok = True
 for name in ("Den-Zachrany-kniha.pdf", "Den-Zachrany-kniha-tlac.pdf"):
     pdf = OUT / name
@@ -17,7 +24,7 @@ for name in ("Den-Zachrany-kniha.pdf", "Den-Zachrany-kniha-tlac.pdf"):
                          capture_output=True, text=True).stdout
     T = N(re.sub(r"-\n", "", txt))
     miss = [(k, p[:50]) for k, c in ch.items() for part in ("fullText", "prayer")
-            for p in c[part].split("\n\n") if p.strip() and N(p) not in T]
+            for p in c[part].split("\n\n") if p.strip() and N(FIX(p)) not in T]
     r = PdfReader(pdf); nd = r.named_destinations
     no_anchor = [k for k in ch if f"ch{k}" not in nd]
     pg = lambda k: r.get_destination_page_number(nd[k]) if k in nd else None
