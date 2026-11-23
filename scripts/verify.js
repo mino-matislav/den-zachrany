@@ -233,6 +233,17 @@ must(read('README.md').includes(`**${pocetKap} kapitol**`),
 const chAvail = Object.entries(chapterData).filter(([, c]) => c.available).map(([i]) => i);
 const chybaKap = chAvail.filter(i => !sitemapXml.includes(`kapitola-${i}.html<`));
 must(chybaKap.length === 0, `sitemap obsahuje všetky kapitoly${chybaKap.length ? ' (chýbajú: ' + chybaKap.join(', ') + ')' : ''}`);
+// hreflang: SK stránka s anglickou verziou odkazuje na seba (sk) aj na dayofrescue.com (en)
+const EN = JSON.parse(read('scripts/en-adresy.json'));
+const hrefPary = Object.entries(EN.stranky).map(([s, e]) => [s, s === 'index.html' ? '/' : '/' + s, e])
+  .concat(Object.entries(EN.kapitoly).map(([i, e]) => [`kapitola-${i}.html`, `/kapitola-${i}.html`, e]));
+const bezHref = hrefPary.filter(([s, sk, e]) => {
+  const h = read(s);
+  return !h.includes(`hreflang="sk" href="https://den-zachrany.vercel.app${sk}"`) || !h.includes(`hreflang="en" href="${EN.base}${e}"`);
+});
+must(bezHref.length === 0, `hreflang sk/en na ${hrefPary.length} stránkach${bezHref.length ? ' (chýba: ' + bezHref.map(x => x[0]).join(', ') + ')' : ''}`);
+const bezEn = chAvailIds().filter(i => !EN.kapitoly[i]);
+if (bezEn.length) warn(`kapitoly bez anglickej adresy v en-adresy.json (čakajú na EN preklad): ${bezEn.join(', ')}`);
 Object.entries(chapterData).forEach(([id, ch]) => {
   if (!ch.available) { ok(`kapitola ${id} — Pripravujeme (preskočená)`); return; }
   const need = ['title', 'subtitle', 'fullText', 'prayer'];

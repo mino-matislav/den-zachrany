@@ -32,6 +32,16 @@ GOOGLE_VERIFY = "3N05ANbUrWnYXB3a4BwzYJgYbqMNdWKyaaT7xJJVpEw"
 YOUTUBE = "https://www.youtube.com/@OdtemnotykuSvetlu"
 TIKTOK  = "https://www.tiktok.com/@spasenie_teraz"
 TODAY = date.today().isoformat()
+# anglická verzia (dayofrescue.com) pre hreflang; zoznam je v scripts/en-adresy.json
+EN = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'en-adresy.json'), encoding='utf-8'))
+
+
+def hreflang(sk_loc, en_cesta):
+    """Dvojica značiek sk/en; prázdne, ak stránka nemá anglickú verziu."""
+    if not en_cesta:
+        return []
+    return [f'    <link rel="alternate" hreflang="sk" href="{sk_loc}">',
+            f'    <link rel="alternate" hreflang="en" href="{EN["base"]}{en_cesta}">']
 
 # stránky: súbor -> (priorita, frekvencia, indexovať?)
 PAGES = {
@@ -131,7 +141,8 @@ def sitemap(data):
 #  SEO značky v <head>
 # ------------------------------------------------------------
 ZNACKY = ('<link rel="canonical"', '<meta property="og:', '<meta name="twitter:',
-          '<meta name="robots"', '<meta name="google-site-verification"')
+          '<meta name="robots"', '<meta name="google-site-verification"',
+          '<link rel="alternate" hreflang=')
 
 
 def vycisti_hlavicku(html):
@@ -158,6 +169,7 @@ def doplň(subor, data):
     bloky = [f'    <meta name="google-site-verification" content="{GOOGLE_VERIFY}">']
     if indexovat:
         bloky.append(f'    <link rel="canonical" href="{loc}">')
+        bloky += hreflang(loc, EN['stranky'].get(subor))
     else:
         bloky.append('    <meta name="robots" content="noindex, follow">')
 
@@ -374,7 +386,7 @@ def suvisiace(k, vsetky, kolko=3):
 def statické_stránky(data):
     sprava = []
 
-    def uprav_hlavicku(html, title, desc, loc, telo_atr):
+    def uprav_hlavicku(html, title, desc, loc, telo_atr, en_cesta=None):
         html = vycisti_hlavicku(html)
         html = re.sub(r'<title>.*?</title>', '<title>' + esc(title) + '</title>', html, count=1, flags=re.S)
         html = re.sub(r'<meta name="description" content=".*?"',
@@ -382,6 +394,7 @@ def statické_stránky(data):
         bloky = [
             f'    <meta name="google-site-verification" content="{GOOGLE_VERIFY}">',
             f'    <link rel="canonical" href="{loc}">',
+            *hreflang(loc, en_cesta),
             f'    <meta property="og:type" content="article">',
             f'    <meta property="og:site_name" content="Deň Záchrany">',
             f'    <meta property="og:locale" content="sk_SK">',
@@ -413,7 +426,7 @@ def statické_stránky(data):
                            '\n                        ' + odseky(k['prayer']) + '\n                    ')
         h = uprav_hlavicku(h, titulok_kapitoly(k['title']), k['desc'],
                            '%s/kapitola-%s.html' % (BASE_URL, k['id']),
-                           'data-chapter-id="%s"' % k['id'])
+                           'data-chapter-id="%s"' % k['id'], EN['kapitoly'].get(str(k['id'])))
         # príbuzné kapitoly — pomáha čitateľovi aj prepojeniu stránok pre Google
         prib = suvisiace(k, data['kapitoly'])
         if prib:
