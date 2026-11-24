@@ -4,6 +4,7 @@ Podrobná história presunutá z CLAUDE.md (sekcia 7) 1. 11. 2026. Nové záznam
 
 ## Nové záznamy
 
+- 24. 11. 2026: Podpora – medzera medzi odsekmi v kartách (`.support-card p + p`, štýl priamo v podpora.html, rovnako ako na EN webe); CLAUDE.md: na začiatku úlohy čítať nástenku mino-matislav/nastenka; sw v256.
 - 23. 11. 2026: hreflang sk/en na domovskej stránke, kapitoly.html, podpora.html a 40 kapitolách (anglická verzia dayofrescue.com, adresy v scripts/en-adresy.json, kontrola vo verify.js); CLAUDE.md: pravidlo o neobmedzenom prístupe na internet a opis EN verzie; sw v255.
 - 15. 11. 2026: Podpora – pod údaje o účte doplnený odsek „Dar je dobrovoľný a bezodplatný. Prijíma ho prevádzkovateľ, spoločnosť MILMAT s.r.o., …“ (schválené 11. 11.), nadpis „Na čo sa dary použijú“, v poďakovaní „príspevok“ → „dar“ (2×); sw v254.
 - 10. 11. 2026: pieseň 23 – stlmené sykavky v slohe 1 (0:14–0:56; spev oddelený cez UVR-MDX-NET-Inst_HQ_3, de-esser 4,3–11 kHz len na speve, najsilnejšie sykavky −8 dB, verzia D8). Príčina: riedky podklad bez výšok, sykavky vyčnievali o 38 dB (sloha 2: 30 dB). Zvyšok piesne bit po bite nezmenený; −13,3 LUFS, −2,3 dBTP, audioUrl ?v=3.
